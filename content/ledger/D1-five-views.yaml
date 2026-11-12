@@ -1,0 +1,127 @@
+# Evidence ledger for unit D1: The normal heart in five views.
+#
+# status:  ai-extracted     = a model pulled it from the source; nobody has checked
+#          ai-cross-checked = a second, different model confirmed it against the source PDF
+#          expert-verified  = a named clinician has checked it against the source
+#
+# These seed claims were extracted from search-result excerpts of the sources, not
+# from the full PDFs. Locators are approximate. Every one needs steps 2 and 5 of
+# the loop in docs/04-ai-workflow.md before any public use.
+
+unit: D1
+claims:
+
+  - id: D1-C001
+    statement: "Mid-trimester cardiac screening is best performed between 18 and 22 weeks of gestation."
+    source: ISUOG-2023-SCREEN
+    locator: "Section 'Gestational age' (good practice point)"
+    status: ai-extracted
+    extracted_by: "Claude (12 Nov 2026)"
+    checked_by: null
+    verified_by: null
+
+  - id: D1-C002
+    statement: "The cardiac screening examination should include fetal situs, the four-chamber view, and outflow-tract and great-vessel views."
+    source: ISUOG-2023-SCREEN
+    locator: "Section 'Cardiac examination'"
+    status: ai-extracted
+    extracted_by: "Claude (12 Nov 2026)"
+    checked_by: null
+    verified_by: null
+
+  - id: D1-C003
+    statement: "The examination is described as five sequential planes: (I) situs at the upper abdomen, (II) four-chamber view, (III) left ventricular outflow tract, (IV) right ventricular outflow tract with the three-vessel view variants, (V) three-vessel-and-trachea view."
+    source: ISUOG-2023-SCREEN
+    locator: "Figure legend describing planes I-V"
+    status: ai-extracted
+    extracted_by: "Claude (12 Nov 2026)"
+    checked_by: null
+    verified_by: null
+    note: "Planes III-V read directly from an excerpt; the wording of planes I-II is inferred and must be confirmed against the PDF."
+
+  - id: D1-C004
+    statement: "The 2023 update encourages the use of colour flow Doppler in screening and adds sections on quality assurance and on using a checklist."
+    source: ISUOG-2023-SCREEN
+    locator: "Introduction"
+    status: ai-extracted
+    extracted_by: "Claude (12 Nov 2026)"
+    checked_by: null
+    verified_by: null
+
+  - id: D1-C005
+    statement: "The four-chamber and three-vessel views are assessments against specific criteria, not a simple count of chambers or vessels."
+    source: ISUOG-2023-SCREEN
+    locator: "General considerations, before 'Gestational age'"
+    status: ai-extracted
+    extracted_by: "Claude (12 Nov 2026)"
+    checked_by: null
+    verified_by: null
+
+  - id: D1-C006
+    statement: "Adding outflow-tract and great-vessel views to the four-chamber view has improved detection of congenital heart disease."
+    source: ISUOG-2023-SCREEN
+    locator: "General considerations, before 'Gestational age'"
+    status: ai-extracted
+    extracted_by: "Claude (12 Nov 2026)"
+    checked_by: null
+    verified_by: null
+
+  - id: D1-C007
+    statement: "The normal heart occupies about one third of the area of the thorax."
+    source: ISUOG-2013-SCREEN
+    locator: "Table 1 and section 'Four-chamber view'"
+    status: ai-extracted
+    extracted_by: "Claude (12 Nov 2026)"
+    checked_by: null
+    verified_by: null
+    note: "Re-anchor to the 2023 guideline."
+
+  - id: D1-C008
+    statement: "The heart lies mainly in the left chest and its long axis points to the left at about 45 degrees, plus or minus 20 degrees (2 SD)."
+    source: ISUOG-2013-SCREEN
+    locator: "Section 'Four-chamber view', Figure 1"
+    status: ai-extracted
+    extracted_by: "Claude (12 Nov 2026)"
+    checked_by: null
+    verified_by: null
+    note: "Re-anchor to the 2023 guideline."
+
+  - id: D1-C009
+    statement: "The normal fetal heart rate is 120 to 160 beats per minute with a regular rhythm."
+    source: ISUOG-2013-SCREEN
+    locator: "Section 'Four-chamber view'"
+    status: ai-extracted
+    extracted_by: "Claude (12 Nov 2026)"
+    checked_by: null
+    verified_by: null
+    note: "Re-anchor to the 2023 guideline."
+
+  - id: D1-C010
+    statement: "A fixed bradycardia, particularly a rate that stays below 110 beats per minute, needs timely evaluation by a fetal cardiac specialist for possible heart block."
+    source: ISUOG-2013-SCREEN
+    locator: "Section 'Four-chamber view'"
+    status: ai-extracted
+    extracted_by: "Claude (12 Nov 2026)"
+    checked_by: null
+    verified_by: null
+    note: "Re-anchor to the 2023 guideline."
+
+  - id: D1-C011
+    statement: "In the upper-abdomen plane with normal situs, the stomach is on the fetal left, the descending aorta lies to the left of the spine, and the inferior vena cava lies anterior and to the right of the spine."
+    source: ISUOG-HANDBOOK
+    locator: "'How to image the heart' and 'Section 1: Abdomen'"
+    status: ai-extracted
+    extracted_by: "Claude (12 Nov 2026)"
+    checked_by: null
+    verified_by: null
+    note: "Secondary source. Replace with the guideline's own wording and locator."
+
+  - id: D1-C012
+    statement: "Establishing fetal laterality (which side is the fetal left and right) comes before assessing situs and the heart."
+    source: ISUOG-2013-SCREEN
+    locator: "Table 1, first item"
+    status: ai-extracted
+    extracted_by: "Claude (12 Nov 2026)"
+    checked_by: null
+    verified_by: null
+    note: "Re-anchor to the 2023 guideline."

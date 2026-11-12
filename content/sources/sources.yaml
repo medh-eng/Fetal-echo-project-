@@ -1,0 +1,36 @@
+# Registry of sources. One entry per document. IDs are referenced by ledger claims.
+# Add the PDF to the private sources folder (not this repo) and note it in `held`.
+
+ISUOG-2023-SCREEN:
+  type: guideline
+  title: "ISUOG Practice Guidelines (updated): fetal cardiac screening"
+  authors: "Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al."
+  journal: "Ultrasound in Obstetrics & Gynecology"
+  year: 2023
+  volume: "61(6)"
+  pages: "788-803"
+  doi: "10.1002/uog.26224"
+  url: "https://www.isuog.org/resource/updated-isuog-practice-guidelines-fetal-cardiac-screening.html"
+  held: false   # set true once the PDF is in the private sources folder
+
+ISUOG-2013-SCREEN:
+  type: guideline
+  title: "ISUOG Practice Guidelines (updated): sonographic screening examination of the fetal heart"
+  authors: "ISUOG Clinical Standards Committee"
+  journal: "Ultrasound in Obstetrics & Gynecology"
+  year: 2013
+  volume: "41"
+  pages: "348-359"
+  doi: "10.1002/uog.12403"
+  url: "https://isuog.org/asset/6387440E-8CF8-4710-9667067F2E781250"
+  held: false
+  note: "Superseded by ISUOG-2023-SCREEN. Claims anchored here must be re-anchored to the 2023 text."
+
+ISUOG-HANDBOOK:
+  type: handbook
+  title: "Fetal Cardiac Handbook - ISUOG: Every Little Heart Matters"
+  authors: "Meagher S"
+  year: null
+  url: "https://www.isuog.org/asset/351A83BF-0CFD-4524-B6EA60242685DB12/"
+  held: false
+  note: "Teaching handbook based on the 2023 guideline. Secondary source; prefer the guideline."

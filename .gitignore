@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+# never commit patient media or source PDFs
+media/
+sources-private/
+*.dcm
+*.mp4
+*.avi
+*.pdf

@@ -1,0 +1,136 @@
+{
+  "unit": "D1",
+  "title": "The normal heart in five views",
+  "status": "ai-extracted",
+  "items": [
+    {
+      "id": "D1-Q01",
+      "question": "Which is the correct order of the five screening planes, from caudal to cranial?",
+      "options": [
+        "Situs, four-chamber, LVOT, RVOT / three-vessel, three-vessel-and-trachea",
+        "Four-chamber, situs, RVOT, LVOT, three-vessel-and-trachea",
+        "Situs, LVOT, four-chamber, three-vessel-and-trachea, RVOT",
+        "Four-chamber, LVOT, RVOT, situs, three-vessel"
+      ],
+      "answer": 0,
+      "explanation": "The sweep runs from the upper abdomen up through the heart to the upper mediastinum.",
+      "claims": [
+        "D1-C003"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "D1-Q02",
+      "question": "What is the normal cardiac axis?",
+      "options": [
+        "About 45 degrees to the left, within 20 degrees either way",
+        "About 20 degrees to the left, within 10 degrees either way",
+        "About 90 degrees to the left",
+        "Midline"
+      ],
+      "answer": 0,
+      "explanation": "The long axis of the heart points left at about 45 degrees; 20 degrees either side is the 2 SD range.",
+      "claims": [
+        "D1-C008"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "D1-Q03",
+      "question": "How much of the chest does a normal heart occupy?",
+      "options": [
+        "About one third of the thoracic area",
+        "About one tenth",
+        "About two thirds",
+        "Nearly all of it"
+      ],
+      "answer": 0,
+      "explanation": "Roughly a third of the thoracic area.",
+      "claims": [
+        "D1-C007"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "D1-Q04",
+      "question": "A fetal heart rate stays at 100 beats per minute throughout the scan. What should happen?",
+      "options": [
+        "Prompt review by a fetal cardiac specialist",
+        "Nothing; this is within the normal range",
+        "Repeat the anomaly scan at 32 weeks",
+        "Record it as a normal variant"
+      ],
+      "answer": 0,
+      "explanation": "Normal is 120 to 160. A rate fixed below 110 needs timely specialist evaluation for possible heart block.",
+      "claims": [
+        "D1-C009",
+        "D1-C010"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "D1-Q05",
+      "question": "You can see four chambers. Is that a normal four-chamber view?",
+      "options": [
+        "Not yet: the view has specific criteria beyond the count",
+        "Yes: four chambers means the view is normal",
+        "Yes, provided the heart rate is normal",
+        "Only colour Doppler can tell"
+      ],
+      "answer": 0,
+      "explanation": "The four-chamber and three-vessel views are assessed against criteria, not counted.",
+      "claims": [
+        "D1-C005"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "D1-Q06",
+      "question": "In normal situs, where does the inferior vena cava lie in the upper-abdomen plane?",
+      "options": [
+        "In front of and to the right of the spine",
+        "Behind the spine",
+        "To the left of the spine, behind the aorta",
+        "Inside the liver on the left"
+      ],
+      "answer": 0,
+      "explanation": "Stomach left; aorta left of the spine; IVC anterior and right.",
+      "claims": [
+        "D1-C011"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "D1-Q07",
+      "question": "What must be established before assessing situs?",
+      "options": [
+        "Which side is the fetal left and right",
+        "The cardiac axis",
+        "The heart rate",
+        "The size of the great arteries"
+      ],
+      "answer": 0,
+      "explanation": "Laterality first. Without it, 'stomach on the left' means nothing.",
+      "claims": [
+        "D1-C012"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "D1-Q08",
+      "question": "When is mid-trimester cardiac screening best performed?",
+      "options": [
+        "18 to 22 weeks",
+        "11 to 14 weeks",
+        "24 to 28 weeks",
+        "After 32 weeks"
+      ],
+      "answer": 0,
+      "explanation": "18 to 22 weeks is the recommended window.",
+      "claims": [
+        "D1-C001"
+      ],
+      "status": "ai-extracted"
+    }
+  ]
+}

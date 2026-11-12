@@ -1,0 +1,177 @@
+# Unit D1. Every text block and drill lists the claim IDs it rests on.
+# A block with no claims must be `kind: framing` (orientation only, no clinical facts).
+
+id: D1
+title: "The normal heart in five views"
+tier: Detect
+version: 0.1
+drafted_by: "Claude (12 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "Name the five planes of the screening examination in order."
+  - "State what must be established before looking at the heart."
+  - "Give the normal values for heart size, axis and rate."
+  - "Explain why counting four chambers is not a normal four-chamber view."
+
+sections:
+
+  - heading: "Why five views"
+    blocks:
+      - kind: framing
+        text: "A screening scan does not need to name the lesion. It needs to answer one question reliably: is this heart normal? The five-view sweep is the shortest route to that answer."
+      - text: "Screening built on the four-chamber view alone misses lesions that only show in the great arteries. Adding outflow-tract and great-vessel views has improved detection."
+        claims: [D1-C006]
+      - text: "Current guidance asks for situs, the four-chamber view, and the outflow-tract and great-vessel views in every screening examination, ideally between 18 and 22 weeks."
+        claims: [D1-C001, D1-C002]
+
+  - heading: "The sweep"
+    blocks:
+      - text: "The examination is one continuous movement through five planes, from the upper abdomen to the upper chest: situs, four-chamber view, left ventricular outflow tract, right ventricular outflow tract with the three-vessel view, and the three-vessel-and-trachea view."
+        claims: [D1-C003]
+      - kind: framing
+        text: "Think of it as a sweep, not five photographs. What matters is how each plane turns into the next."
+
+  - heading: "Before the heart: left, right and situs"
+    blocks:
+      - text: "First work out which side of the fetus is left and which is right. Only then assess situs."
+        claims: [D1-C012]
+      - text: "With normal situs, the upper-abdomen plane shows the stomach on the left, the descending aorta to the left of the spine, and the inferior vena cava in front of and to the right of the spine."
+        claims: [D1-C011]
+
+  - heading: "Size, position, axis, rate"
+    blocks:
+      - text: "A normal heart fills about a third of the chest."
+        claims: [D1-C007]
+      - text: "It sits mostly in the left chest, with its long axis pointing left at about 45 degrees. The accepted range is 20 degrees either side."
+        claims: [D1-C008]
+      - text: "The rate is 120 to 160 beats per minute and regular. A rate that stays below 110 needs prompt specialist review for possible heart block."
+        claims: [D1-C009, D1-C010]
+
+  - heading: "More than a count"
+    blocks:
+      - text: "Seeing four chambers, or three vessels, is not the same as a normal view. Each view is judged against specific criteria."
+        claims: [D1-C005]
+
+  - heading: "Colour Doppler and checklists"
+    blocks:
+      - text: "The 2023 guideline encourages colour Doppler in screening and recommends working from a checklist, with quality assurance of the examination."
+        claims: [D1-C004]
+
+missing_claims:
+  - "Criteria for a normal four-chamber view (atria, ventricles, septa, valves, pulmonary veins)."
+  - "Criteria for normal LVOT and RVOT views, including crossing of the great arteries."
+  - "Criteria for normal 3VV and 3VT (number, size, alignment, arrangement; relation to trachea)."
+  - "Recommended machine settings for cardiac screening."
+  - "What the guideline says about early (first-trimester) cardiac assessment."
+  - "Indications for referral after an abnormal or incomplete screen."
+
+drills:
+  - id: D1-Q01
+    question: "Which is the correct order of the five screening planes, from caudal to cranial?"
+    options:
+      - "Situs, four-chamber, LVOT, RVOT / three-vessel, three-vessel-and-trachea"
+      - "Four-chamber, situs, RVOT, LVOT, three-vessel-and-trachea"
+      - "Situs, LVOT, four-chamber, three-vessel-and-trachea, RVOT"
+      - "Four-chamber, LVOT, RVOT, situs, three-vessel"
+    answer: 0
+    explanation: "The sweep runs from the upper abdomen up through the heart to the upper mediastinum."
+    claims: [D1-C003]
+
+  - id: D1-Q02
+    question: "What is the normal cardiac axis?"
+    options:
+      - "About 45 degrees to the left, within 20 degrees either way"
+      - "About 20 degrees to the left, within 10 degrees either way"
+      - "About 90 degrees to the left"
+      - "Midline"
+    answer: 0
+    explanation: "The long axis of the heart points left at about 45 degrees; 20 degrees either side is the 2 SD range."
+    claims: [D1-C008]
+
+  - id: D1-Q03
+    question: "How much of the chest does a normal heart occupy?"
+    options:
+      - "About one third of the thoracic area"
+      - "About one tenth"
+      - "About two thirds"
+      - "Nearly all of it"
+    answer: 0
+    explanation: "Roughly a third of the thoracic area."
+    claims: [D1-C007]
+
+  - id: D1-Q04
+    question: "A fetal heart rate stays at 100 beats per minute throughout the scan. What should happen?"
+    options:
+      - "Prompt review by a fetal cardiac specialist"
+      - "Nothing; this is within the normal range"
+      - "Repeat the anomaly scan at 32 weeks"
+      - "Record it as a normal variant"
+    answer: 0
+    explanation: "Normal is 120 to 160. A rate fixed below 110 needs timely specialist evaluation for possible heart block."
+    claims: [D1-C009, D1-C010]
+
+  - id: D1-Q05
+    question: "You can see four chambers. Is that a normal four-chamber view?"
+    options:
+      - "Not yet: the view has specific criteria beyond the count"
+      - "Yes: four chambers means the view is normal"
+      - "Yes, provided the heart rate is normal"
+      - "Only colour Doppler can tell"
+    answer: 0
+    explanation: "The four-chamber and three-vessel views are assessed against criteria, not counted."
+    claims: [D1-C005]
+
+  - id: D1-Q06
+    question: "In normal situs, where does the inferior vena cava lie in the upper-abdomen plane?"
+    options:
+      - "In front of and to the right of the spine"
+      - "Behind the spine"
+      - "To the left of the spine, behind the aorta"
+      - "Inside the liver on the left"
+    answer: 0
+    explanation: "Stomach left; aorta left of the spine; IVC anterior and right."
+    claims: [D1-C011]
+
+  - id: D1-Q07
+    question: "What must be established before assessing situs?"
+    options:
+      - "Which side is the fetal left and right"
+      - "The cardiac axis"
+      - "The heart rate"
+      - "The size of the great arteries"
+    answer: 0
+    explanation: "Laterality first. Without it, 'stomach on the left' means nothing."
+    claims: [D1-C012]
+
+  - id: D1-Q08
+    question: "When is mid-trimester cardiac screening best performed?"
+    options:
+      - "18 to 22 weeks"
+      - "11 to 14 weeks"
+      - "24 to 28 weeks"
+      - "After 32 weeks"
+    answer: 0
+    explanation: "18 to 22 weeks is the recommended window."
+    claims: [D1-C001]
+
+video:
+  title: "The five-view sweep"
+  target_minutes: 6
+  beats:
+    - shot: "Presenter to camera"
+      narration: "You do not have to name the lesion. You have to notice that the heart is not normal. Five planes, one sweep."
+      claims: []
+    - shot: "Diagram: fetus with five stacked planes"
+      narration: "From the upper abdomen to the upper chest: situs, four-chamber, left outflow, right outflow with the three-vessel view, and the three-vessel-and-trachea view."
+      claims: [D1-C003]
+    - shot: "Split screen: hand on abdomen / ultrasound screen"
+      narration: "Start by working out fetal left and right. Then the abdomen: stomach left, aorta left of the spine, vena cava in front and to the right."
+      claims: [D1-C012, D1-C011]
+    - shot: "Four-chamber clip with overlay of thorax outline and axis line"
+      narration: "A third of the chest. Mostly on the left. Axis about forty-five degrees, give or take twenty. Rate one-twenty to one-sixty, regular."
+      claims: [D1-C007, D1-C008, D1-C009]
+    - shot: "Presenter"
+      narration: "Four chambers seen is not four chambers normal. Each view has its criteria, and that is the next lesson."
+      claims: [D1-C005]
