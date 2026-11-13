@@ -1,0 +1,349 @@
+# Unit F1. Requested by the editor-in-chief on 13 Nov 2026.
+# Every text block, table, drill and checklist item lists the claim IDs it rests on.
+# A block with no claims must be `kind: framing` (orientation only, no clinical facts).
+
+id: F1
+title: "Ultrasound modes used in fetal echocardiography"
+tier: Foundation
+version: 0.1
+public: true
+summary: "Which modes are used to examine the fetal heart, what each one answers, and which are essential, optional or still research."
+drafted_by: "Claude (13 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "Name the modes a machine must have for a fetal echocardiogram."
+  - "Say what question each mode answers about the heart."
+  - "Tell apart the modes that are required, those used when needed, and those still under study."
+  - "Choose the right mode to work out an abnormal rhythm."
+  - "Apply the safety rules for Doppler, especially in early pregnancy."
+
+sections:
+
+  - heading: "One heart, several ways of looking"
+    blocks:
+      - kind: framing
+        text: "No single mode shows everything. Each one answers a different question: what does the heart look like, where is blood going, how fast, and in what order do the chambers contract. Knowing which mode answers which question is the first step in a complete examination."
+      - text: "A fetal echocardiogram should use two-dimensional imaging, colour Doppler and spectral Doppler together, with the settings adjusted for the fetal heart."
+        claims: [AS23-001]
+      - text: "The machine must have at least four modes: two-dimensional (B-mode), M-mode, colour flow and pulsed-wave Doppler."
+        claims: [AS23-002]
+
+  - heading: "The modes at a glance"
+    blocks:
+      - text: "Modes used in fetal echocardiography and the place of each."
+        claims: [AS23-001, AS23-002, AS23-009, AS23-011, AS23-012, AS23-015, AS23-017, AS23-019, AS23-020, AS23-021, AS23-022]
+        table:
+          columns: ["Mode", "What it answers", "Place in the examination"]
+          rows:
+            - ["Two-dimensional (B-mode, grey-scale)", "Structure: chambers, septa, valves, vessels", "Essential"]
+            - ["Colour Doppler", "Is there flow, and in which direction", "Essential"]
+            - ["Pulsed-wave (spectral) Doppler", "Flow profile and direction at one chosen site", "Essential"]
+            - ["M-mode", "Timing of atrial and ventricular contraction; shortening and annular movement", "Machine must have it; used for rhythm and function"]
+            - ["Power Doppler", "Small vessels, slow flow, septal defects", "Helpful addition to colour"]
+            - ["Continuous-wave Doppler", "High velocities and gradients", "Only when flow is abnormal"]
+            - ["Tissue Doppler", "Movement of the heart muscle; time intervals", "Optional; may help with rhythm"]
+            - ["3D / 4D and STIC", "Extra anatomical and functional detail", "Not validated for clinical use"]
+            - ["Strain and speckle tracking", "Subtle change in muscle function", "Under investigation"]
+
+  - heading: "Two-dimensional imaging"
+    blocks:
+      - text: "Grey-scale imaging is the base of the examination. It needs a high frame rate: above 30 to 40 Hz, and higher still for fast heart rates. A narrow sector and the right depth help reach it."
+        claims: [AS23-007]
+      - text: "Cardiac presets usually build these in: high frame rate, more contrast, low persistence, one focal zone and a narrow field. Harmonic imaging helps when the abdominal wall is thick and late in pregnancy."
+        claims: [IS23-014, IS23-013]
+      - text: "Record moving clips as well as stills. The clips should cover the sweep, the four-chamber view, both outflow tracts, the three-vessel views and the long-axis views of both arches. Cine-loop lets you follow the valves through the whole cycle."
+        claims: [AS23-008, IS23-016]
+
+  - heading: "Colour Doppler"
+    blocks:
+      - text: "Colour shows whether blood is flowing and which way. Use it to look for narrowed or leaking valves, flow across the foramen ovale, gaps in the septa and whether a vessel is open."
+        claims: [AS23-009]
+      - text: "Set the velocity scale to the flow you are looking at. Adjust gain and persistence so the colour fills the chamber or vessel without covering the grey-scale picture."
+        claims: [AS23-010]
+      - text: "For a mid-pregnancy screen, a scale of about 50 to 70 cm/s suits the heart and arteries and about 15 to 25 cm/s suits veins. Keep the colour box narrow and only over the area of interest, so the frame rate holds."
+        claims: [IS23-076, IS23-077]
+      - text: "Show colour beside the grey-scale image, not instead of it. In a normal heart colour shows forward flow through all four valves and both arches."
+        claims: [IS23-041, IS23-074]
+      - text: "In routine screening colour is encouraged but not compulsory. In a fetal echocardiogram it is part of the standard examination."
+        claims: [IS23-073, AS23-001]
+
+  - heading: "Power Doppler"
+    blocks:
+      - text: "Power Doppler shows the strength of the Doppler signal rather than its frequency shift. It is useful for small vessels, slow flow such as in veins, and septal defects. The directional form also shows which way the blood moves."
+        claims: [AS23-011]
+      - text: "In early cardiac screening, colour or good-quality power Doppler is used alongside grey-scale."
+        claims: [IS23-092]
+
+  - heading: "Pulsed-wave Doppler"
+    blocks:
+      - text: "Pulsed-wave Doppler gives the pattern and direction of flow at one chosen point. Line the beam up with the flow, or within 20 degrees of it. Keep the sample gate small so that only one site is sampled."
+        claims: [AS23-012]
+      - text: "Sites that must be sampled in a fetal echocardiogram: umbilical vein, ductus venosus, a pulmonary vein on each side, tricuspid and mitral inflow, aortic and pulmonary outflow, the far end of the ductus arteriosus and the umbilical artery."
+        claims: [AS23-013]
+      - text: "Sites sampled when needed: hepatic vein, the venae cavae, branch pulmonary arteries, middle cerebral artery, and left ventricular inflow and outflow together."
+        claims: [AS23-014]
+
+  - heading: "Continuous-wave Doppler"
+    blocks:
+      - text: "A normal heart does not need continuous-wave Doppler. It is used when flow is abnormally fast: to measure high velocities and valve gradients, and to estimate pressure from a leaking atrioventricular valve. The beam must lie along the jet."
+        claims: [AS23-003, AS23-015]
+
+  - heading: "M-mode"
+    blocks:
+      - text: "M-mode shows the exact timing of atrial and ventricular contraction. Place the cursor so that it crosses an atrial wall and a ventricular free wall at once."
+        claims: [AS23-017]
+      - text: "It is also used for systolic function: shortening fraction of the ventricles and the movement of the tricuspid and mitral valve rings."
+        claims: [AS23-020]
+
+  - heading: "Working out an abnormal rhythm"
+    blocks:
+      - text: "If the rhythm is irregular, too slow or too fast, record how it arises. Use M-mode, pulsed-wave Doppler or tissue Doppler, or more than one of them."
+        claims: [AS23-016]
+      - text: "With pulsed-wave Doppler, sample two flows at once so that atrial and ventricular events appear on one trace: superior vena cava with ascending aorta, mitral inflow with aortic outflow, or pulmonary artery with pulmonary vein."
+        claims: [AS23-018]
+      - text: "Tissue Doppler at the outer edge of the mitral or tricuspid ring records the speed and timing of muscle movement and may help, for example in a slow rhythm."
+        claims: [AS23-019]
+
+  - heading: "Newer modes: 3D, 4D, STIC, strain"
+    blocks:
+      - text: "Three-dimensional imaging and STIC can add detail on anatomy and function, but STIC has not been validated for clinical use."
+        claims: [AS23-021]
+      - text: "Tissue Doppler and strain imaging, including speckle tracking, are well studied after birth and may pick up subtle dysfunction. Their routine use in the fetus is not established. Speckle tracking needs very high frame rates."
+        claims: [AS23-022, AS23-007]
+
+  - heading: "Probe and safety"
+    blocks:
+      - text: "A curvilinear probe is preferred; linear and sector probes can also be used. Frequencies of 2 to 7 MHz suit the later second and third trimesters, and 5 to 12 MHz may help earlier. Use the highest frequency that still penetrates."
+        claims: [AS23-004, IS23-012]
+      - text: "Keep exposure as low as reasonably achievable. This decides which modes you use and for how long. Know the thermal and mechanical index on your screen."
+        claims: [AS23-005]
+      - text: "In early pregnancy keep both indices at or below 1.0, use Doppler sparingly and keep exposure short, usually no more than 5 to 10 minutes."
+        claims: [AS23-006, IS23-093]
+
+  - heading: "Screening scan or fetal echocardiogram"
+    blocks:
+      - text: "A screening scan rests on grey-scale views, with colour encouraged. A fetal echocardiogram adds colour and spectral Doppler as standard, and M-mode and the other modes as the findings require."
+        claims: [IS23-018, IS23-073, AS23-001, AS23-016]
+
+missing_claims:
+  - "How each mode forms its image (basic physics, aliasing, Nyquist limit explained) - needs a physics source; planned for unit XA4."
+  - "Arches as pulsed-wave Doppler sites are left out of this unit until the editor decides: the ASE guideline text lists the arches among the minimum pulsed-wave sites but its Table 6 marks them optional - the editor to decide how the course states this."
+  - "Pages after about p. 705 of the ASE guideline were not read (colour M-mode, later sections) - complete at cross-check."
+  - "ISUOG fetal echocardiography guideline and AIUM practice parameter on modes - not yet harvested; add to compare with ASE."
+  - "High-definition (HD) flow and other machine-specific modes on the Voluson - needs a source and the editor's input."
+
+drills:
+  - id: F1-Q01
+    question: "Which three modalities should every fetal echocardiogram use together?"
+    options:
+      - "Two-dimensional imaging, colour Doppler and spectral Doppler"
+      - "Two-dimensional imaging, 3D imaging and STIC"
+      - "M-mode, continuous-wave Doppler and strain imaging"
+      - "Two-dimensional imaging alone"
+    answer: 0
+    explanation: "Two-dimensional, colour Doppler and spectral Doppler imaging are used together, with settings optimised for the fetal heart."
+    claims: [AS23-001]
+
+  - id: F1-Q02
+    question: "Which set of modes is the minimum a machine needs for fetal echocardiography?"
+    options:
+      - "B-mode, M-mode, colour flow and pulsed-wave Doppler"
+      - "B-mode, colour flow and 4D"
+      - "B-mode, continuous-wave Doppler and tissue Doppler"
+      - "B-mode and power Doppler"
+    answer: 0
+    explanation: "The minimum is two-dimensional (B-mode), M-mode, colour flow and pulsed-wave Doppler."
+    claims: [AS23-002]
+
+  - id: F1-Q03
+    question: "You want the flow pattern at one exact point, such as the ductus venosus. Which mode?"
+    options:
+      - "Pulsed-wave Doppler"
+      - "Continuous-wave Doppler"
+      - "M-mode"
+      - "Power Doppler"
+    answer: 0
+    explanation: "Pulsed-wave Doppler gives the flow profile and direction at a chosen site."
+    claims: [AS23-012, AS23-013]
+
+  - id: F1-Q04
+    question: "When is continuous-wave Doppler needed?"
+    options:
+      - "When flow is abnormally fast, to measure high velocities and gradients"
+      - "In every normal examination"
+      - "To time atrial and ventricular contraction"
+      - "To show small veins with slow flow"
+    answer: 0
+    explanation: "It is not needed for a normal heart. It characterises high velocities and gradients and helps estimate pressure from a regurgitant jet."
+    claims: [AS23-015]
+
+  - id: F1-Q05
+    question: "What does power Doppler display?"
+    options:
+      - "The amplitude of the Doppler signal"
+      - "The frequency shift of the Doppler signal"
+      - "Movement of one line of tissue over time"
+      - "Deformation of the heart muscle"
+    answer: 0
+    explanation: "Power Doppler shows signal amplitude rather than frequency shift, which makes it useful for small vessels and slow flow."
+    claims: [AS23-011]
+
+  - id: F1-Q06
+    question: "Where do you place the M-mode cursor to work out a rhythm?"
+    options:
+      - "Through an atrial wall and a ventricular free wall together"
+      - "Through the ventricular septum only"
+      - "Along the aortic arch"
+      - "Across both ventricles only"
+    answer: 0
+    explanation: "Crossing an atrial and a ventricular wall puts both contractions on one trace, so their timing can be compared."
+    claims: [AS23-017]
+
+  - id: F1-Q07
+    question: "Which pair of flows, sampled together with pulsed-wave Doppler, shows atrial and ventricular timing on one trace?"
+    options:
+      - "Superior vena cava and ascending aorta"
+      - "Umbilical artery and umbilical vein"
+      - "Middle cerebral artery and ductus venosus"
+      - "Right and left branch pulmonary arteries"
+    answer: 0
+    explanation: "Recognised pairs are superior vena cava with ascending aorta, mitral inflow with aortic outflow, and pulmonary artery with pulmonary vein."
+    claims: [AS23-018]
+
+  - id: F1-Q08
+    question: "The fetal heart rhythm is irregular. What should the examination record?"
+    options:
+      - "The mechanism, using M-mode, pulsed-wave Doppler or tissue Doppler"
+      - "The heart rate only"
+      - "A 3D volume of the heart"
+      - "Nothing further if the four-chamber view is normal"
+    answer: 0
+    explanation: "With an irregular, slow or fast rhythm, the mechanism should be documented using one or more of these modes."
+    claims: [AS23-016]
+
+  - id: F1-Q09
+    question: "How should the beam lie for a pulsed-wave Doppler recording?"
+    options:
+      - "Along the flow, or within 20 degrees of it"
+      - "At right angles to the flow"
+      - "At 45 to 60 degrees to the flow"
+      - "The angle does not matter"
+    answer: 0
+    explanation: "Align with the flow or keep within 20 degrees, with a small sample gate."
+    claims: [AS23-012]
+
+  - id: F1-Q10
+    question: "Which of these is a required pulsed-wave Doppler site in a fetal echocardiogram?"
+    options:
+      - "Ductus venosus"
+      - "Middle cerebral artery"
+      - "Hepatic vein"
+      - "Branch pulmonary arteries"
+    answer: 0
+    explanation: "Required sites include the umbilical vein, ductus venosus, pulmonary veins, both inflows, both outflows, the distal ductus arteriosus and the umbilical artery. The others listed here are optional."
+    claims: [AS23-013, AS23-014]
+
+  - id: F1-Q11
+    question: "What is the current standing of STIC in fetal echocardiography?"
+    options:
+      - "It can add information but is not validated for clinical use"
+      - "It is required in every examination"
+      - "It has replaced two-dimensional imaging"
+      - "It is used only to measure heart rate"
+    answer: 0
+    explanation: "Three-dimensional imaging and STIC can add anatomical and functional detail, but STIC has not been validated for clinical use."
+    claims: [AS23-021]
+
+  - id: F1-Q12
+    question: "What frame rate is recommended for grey-scale imaging of the fetal heart?"
+    options:
+      - "Above 30 to 40 Hz"
+      - "About 5 to 10 Hz"
+      - "About 15 Hz"
+      - "Frame rate is not important"
+    answer: 0
+    explanation: "Above 30 to 40 Hz, and 80 to 100 Hz may be needed for fast heart rates or speckle tracking."
+    claims: [AS23-007]
+
+  - id: F1-Q13
+    question: "In early pregnancy, what limit applies to the thermal and mechanical indices?"
+    options:
+      - "1.0 or less, with Doppler used sparingly"
+      - "2.0 or less"
+      - "No limit applies before the second trimester"
+      - "3.0 or less if the scan is short"
+    answer: 0
+    explanation: "Keep both indices at or below 1.0, limit Doppler and keep exposure short."
+    claims: [AS23-006, IS23-093]
+
+  - id: F1-Q14
+    question: "In a routine mid-pregnancy cardiac screen, what is the place of colour Doppler?"
+    options:
+      - "Encouraged, but not mandatory"
+      - "Mandatory in every scan"
+      - "Not allowed"
+      - "Only used after 32 weeks"
+    answer: 0
+    explanation: "Colour is not mandatory for screening; becoming familiar with it and adding it to routine screening is encouraged."
+    claims: [IS23-073]
+
+  - id: F1-Q15
+    question: "Which transducer type is preferred for fetal echocardiography?"
+    options:
+      - "Curvilinear"
+      - "Endocavity only"
+      - "Linear only"
+      - "Pencil (blind) probe"
+    answer: 0
+    explanation: "Curvilinear probes are preferred; linear and sector probes may also be used."
+    claims: [AS23-004]
+
+checklist:
+  title: "Modes checklist for a fetal echocardiogram"
+  items:
+    - text: "Cardiac preset on; sector narrow; frame rate above 30 to 40 Hz"
+      claims: [AS23-007, IS23-014]
+    - text: "Grey-scale stills and clips of every standard view stored"
+      claims: [AS23-008]
+    - text: "Colour Doppler on each view, shown beside grey-scale; scale, gain and persistence set"
+      claims: [AS23-009, AS23-010, IS23-041]
+    - text: "Pulsed-wave Doppler at all required sites"
+      claims: [AS23-013]
+    - text: "Beam along the flow (within 20 degrees); small sample gate"
+      claims: [AS23-012]
+    - text: "Power Doppler considered for small vessels and slow flow"
+      claims: [AS23-011]
+    - text: "Continuous-wave Doppler used if any flow is abnormally fast"
+      claims: [AS23-015]
+    - text: "Abnormal rhythm: mechanism recorded with M-mode, pulsed-wave or tissue Doppler"
+      claims: [AS23-016]
+    - text: "Thermal and mechanical index checked; exposure kept as low as reasonably achievable"
+      claims: [AS23-005]
+
+video:
+  title: "Which mode, for which question"
+  target_minutes: 6
+  beats:
+    - shot: "Presenter to camera"
+      narration: "Each mode answers a different question about the heart. Structure, flow, speed, timing."
+      claims: []
+    - shot: "Machine console: preset and mode keys"
+      narration: "Start in two-dimensional imaging. Narrow the sector and keep the frame rate above thirty to forty."
+      claims: [AS23-007]
+    - shot: "Four-chamber clip, grey-scale then colour side by side"
+      narration: "Colour shows that blood flows, and which way. Set the scale to the flow you want. Keep the grey-scale beside it."
+      claims: [AS23-009, AS23-010, IS23-041]
+    - shot: "Pulmonary vein on colour, then power Doppler"
+      narration: "For small vessels and slow flow, power Doppler helps."
+      claims: [AS23-011]
+    - shot: "Screen capture: sample gate placed on a valve, spectral trace below"
+      narration: "Pulsed-wave Doppler gives the flow pattern at one point. Line up with the flow. Small gate."
+      claims: [AS23-012]
+    - shot: "M-mode trace with atrial and ventricular walls labelled"
+      narration: "For rhythm, M-mode through an atrial wall and a ventricular wall shows which contracts when."
+      claims: [AS23-017]
+    - shot: "Screen: thermal and mechanical index display"
+      narration: "Keep exposure as low as reasonably achievable. Watch the indices, most of all early in pregnancy."
+      claims: [AS23-005, AS23-006]

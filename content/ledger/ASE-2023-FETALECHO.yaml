@@ -1,0 +1,237 @@
+# Evidence ledger: claims harvested from ASE-2023-FETALECHO for unit F1
+# (ultrasound modes). HARVEST CAVEAT: read through a web reader, not from the
+# PDF in hand, and only the first part of the document (to about p. 705).
+# All are ai-extracted. Cross-check against the PDF by a different model is
+# essential before the editor signs. Paraphrased.
+
+source: ASE-2023-FETALECHO
+claims:
+- id: AS23-001
+  statement: Two-dimensional, spectral Doppler and colour Doppler modalities should all be used in a fetal echocardiogram,
+    with imaging settings optimised specifically for the fetal heart.
+  source: ASE-2023-FETALECHO
+  locator: Key points; III.A Equipment, p. 683
+  status: ai-extracted
+  extracted_by: Claude, from the PDF on asecho.org read through a web reader, first 100,000 characters only (13
+    Nov 2026). Page numbers must be confirmed against the PDF at cross-check.
+  checked_by: null
+  verified_by: null
+- id: AS23-002
+  statement: The ultrasound system used for fetal echocardiography needs, as a minimum, two-dimensional (B-mode),
+    M-mode, colour flow and pulsed-wave Doppler capability.
+  source: ASE-2023-FETALECHO
+  locator: III.A Equipment, p. 683
+  status: ai-extracted
+  extracted_by: Claude, from the PDF on asecho.org read through a web reader, first 100,000 characters only (13
+    Nov 2026). Page numbers must be confirmed against the PDF at cross-check.
+  checked_by: null
+  verified_by: null
+- id: AS23-003
+  statement: Continuous-wave Doppler, where the system has it, is used for high flow velocities.
+  source: ASE-2023-FETALECHO
+  locator: III.A Equipment, p. 683
+  status: ai-extracted
+  extracted_by: Claude, from the PDF on asecho.org read through a web reader, first 100,000 characters only (13
+    Nov 2026). Page numbers must be confirmed against the PDF at cross-check.
+  checked_by: null
+  verified_by: null
+- id: AS23-004
+  statement: Curvilinear transducers are preferred; linear and sector transducers may also be used. Frequencies
+    of 2 to 7 MHz suit the late second and third trimesters, and 5 to 12 MHz may help in the late first and early
+    second trimesters.
+  source: ASE-2023-FETALECHO
+  locator: III.A Equipment, p. 683
+  status: ai-extracted
+  extracted_by: Claude, from the PDF on asecho.org read through a web reader, first 100,000 characters only (13
+    Nov 2026). Page numbers must be confirmed against the PDF at cross-check.
+  checked_by: null
+  verified_by: null
+- id: AS23-005
+  statement: Every fetal study follows the 'as low as reasonably achievable' principle, which governs the choice
+    of modality and the length of the examination; the operator should know the thermal and mechanical indices and
+    limit output and exposure to what is needed.
+  source: ASE-2023-FETALECHO
+  locator: III.B Safety, p. 684
+  status: ai-extracted
+  extracted_by: Claude, from the PDF on asecho.org read through a web reader, first 100,000 characters only (13
+    Nov 2026). Page numbers must be confirmed against the PDF at cross-check.
+  checked_by: null
+  verified_by: null
+- id: AS23-006
+  statement: In early gestation the thermal and mechanical indices should be kept at or below 1.0 and Doppler modalities
+    used sparingly.
+  source: ASE-2023-FETALECHO
+  locator: Table 8 (early gestation), p. 695-696
+  status: ai-extracted
+  extracted_by: Claude, from the PDF on asecho.org read through a web reader, first 100,000 characters only (13
+    Nov 2026). Page numbers must be confirmed against the PDF at cross-check.
+  checked_by: null
+  verified_by: null
+- id: AS23-007
+  statement: Scanning frame rates above 30 to 40 Hz are recommended; rates of 80 to 100 Hz may be needed at faster
+    heart rates or for speckle tracking. Narrowing the sector and choosing an appropriate depth help achieve this.
+  source: ASE-2023-FETALECHO
+  locator: III.D Image optimization, p. 684
+  status: ai-extracted
+  extracted_by: Claude, from the PDF on asecho.org read through a web reader, first 100,000 characters only (13
+    Nov 2026). Page numbers must be confirmed against the PDF at cross-check.
+  checked_by: null
+  verified_by: null
+- id: AS23-008
+  statement: Both still images and moving clips are required, together with a structured report; the clips cover
+    the axial sweep, the four-chamber view, both outflow tracts, the three-vessel views and the sagittal views of
+    the aortic and ductal arches.
+  source: ASE-2023-FETALECHO
+  locator: III.A Storage, p. 684; III.E, p. 684-688
+  status: ai-extracted
+  extracted_by: Claude, from the PDF on asecho.org read through a web reader, first 100,000 characters only (13
+    Nov 2026). Page numbers must be confirmed against the PDF at cross-check.
+  checked_by: null
+  verified_by: null
+- id: AS23-009
+  statement: Colour Doppler shows whether flow is present and in which direction; it is used to look for valve stenosis
+    and regurgitation, flow across the foramen ovale, the integrity of the septa and the patency of vessels.
+  source: ASE-2023-FETALECHO
+  locator: III.G Doppler ultrasonography, p. 689
+  status: ai-extracted
+  extracted_by: Claude, from the PDF on asecho.org read through a web reader, first 100,000 characters only (13
+    Nov 2026). Page numbers must be confirmed against the PDF at cross-check.
+  checked_by: null
+  verified_by: null
+- id: AS23-010
+  statement: For colour Doppler the Nyquist limit is set to suit the velocities of interest, and colour gain and
+    persistence are adjusted so that colour fills the chamber or vessel without hiding the grey-scale image.
+  source: ASE-2023-FETALECHO
+  locator: III.D Image optimization, p. 684; III.G, p. 689
+  status: ai-extracted
+  extracted_by: Claude, from the PDF on asecho.org read through a web reader, first 100,000 characters only (13
+    Nov 2026). Page numbers must be confirmed against the PDF at cross-check.
+  checked_by: null
+  verified_by: null
+- id: AS23-011
+  statement: Power Doppler displays the amplitude of the Doppler signal rather than the frequency shift; it helps
+    to show small vessels, low-velocity flow such as in veins, and septal defects. Directional power Doppler adds
+    the direction of flow.
+  source: ASE-2023-FETALECHO
+  locator: III.G Doppler ultrasonography, p. 689
+  status: ai-extracted
+  extracted_by: Claude, from the PDF on asecho.org read through a web reader, first 100,000 characters only (13
+    Nov 2026). Page numbers must be confirmed against the PDF at cross-check.
+  checked_by: null
+  verified_by: null
+- id: AS23-012
+  statement: Pulsed-wave Doppler gives the flow profile and direction at a chosen site. The beam should run along
+    the flow or within 20 degrees of it, and a small sample gate avoids sampling more than one site at once.
+  source: ASE-2023-FETALECHO
+  locator: III.G Doppler ultrasonography, p. 689
+  status: ai-extracted
+  extracted_by: Claude, from the PDF on asecho.org read through a web reader, first 100,000 characters only (13
+    Nov 2026). Page numbers must be confirmed against the PDF at cross-check.
+  checked_by: null
+  verified_by: null
+- id: AS23-013
+  statement: 'Sites where pulsed-wave Doppler is required in a fetal echocardiogram: umbilical vein, ductus venosus,
+    at least one pulmonary vein on each side, tricuspid and mitral inflow, aortic and pulmonary outflow, the distal
+    ductus arteriosus and the umbilical artery.'
+  source: ASE-2023-FETALECHO
+  locator: Table 6, p. 693
+  status: ai-extracted
+  extracted_by: Claude, from the PDF on asecho.org read through a web reader, first 100,000 characters only (13
+    Nov 2026). Page numbers must be confirmed against the PDF at cross-check.
+  checked_by: null
+  verified_by: null
+- id: AS23-014
+  statement: 'Sites where pulsed-wave Doppler is optional: hepatic vein, superior and inferior venae cavae, the
+    aortic arch and isthmus, branch pulmonary arteries, middle cerebral artery, simultaneous left ventricular inflow
+    and outflow, and tissue Doppler at the lateral valve annulus.'
+  source: ASE-2023-FETALECHO
+  locator: Table 6, p. 693
+  status: ai-extracted
+  note: 'QUERY FOR CROSS-CHECK AND EDITOR: the guideline text on p. 689 appears to list the arches among the minimum
+    pulsed-wave sites, while Table 6 marks them optional. Unit F1 does not state either way until this is settled.'
+  extracted_by: Claude, from the PDF on asecho.org read through a web reader, first 100,000 characters only (13
+    Nov 2026). Page numbers must be confirmed against the PDF at cross-check.
+  checked_by: null
+  verified_by: null
+- id: AS23-015
+  statement: Continuous-wave Doppler is not needed when the heart is normal. It is used to characterise high velocities
+    and valve gradients and to estimate pressure from an atrioventricular valve regurgitant jet, with the beam aligned
+    along the jet.
+  source: ASE-2023-FETALECHO
+  locator: III.G Doppler ultrasonography, p. 689-692
+  status: ai-extracted
+  extracted_by: Claude, from the PDF on asecho.org read through a web reader, first 100,000 characters only (13
+    Nov 2026). Page numbers must be confirmed against the PDF at cross-check.
+  checked_by: null
+  verified_by: null
+- id: AS23-016
+  statement: When the rhythm is irregular, or bradycardia or tachycardia is seen, the mechanism should be documented
+    with M-mode, pulsed-wave Doppler or tissue Doppler, alone or in combination.
+  source: ASE-2023-FETALECHO
+  locator: Key points; IV.A Rhythm, p. 697
+  status: ai-extracted
+  extracted_by: Claude, from the PDF on asecho.org read through a web reader, first 100,000 characters only (13
+    Nov 2026). Page numbers must be confirmed against the PDF at cross-check.
+  checked_by: null
+  verified_by: null
+- id: AS23-017
+  statement: M-mode times atrial against ventricular contraction precisely; the cursor is placed through an atrial
+    wall and the free wall of a ventricle together.
+  source: ASE-2023-FETALECHO
+  locator: IV.A Rhythm; Figure 11, p. 697
+  status: ai-extracted
+  extracted_by: Claude, from the PDF on asecho.org read through a web reader, first 100,000 characters only (13
+    Nov 2026). Page numbers must be confirmed against the PDF at cross-check.
+  checked_by: null
+  verified_by: null
+- id: AS23-018
+  statement: 'Pulsed-wave Doppler times atrial against ventricular events by sampling two flows at once: superior
+    vena cava with ascending aorta, mitral inflow with aortic outflow, or pulmonary artery with pulmonary vein.'
+  source: ASE-2023-FETALECHO
+  locator: IV.A Rhythm; Figure 11, p. 697
+  status: ai-extracted
+  extracted_by: Claude, from the PDF on asecho.org read through a web reader, first 100,000 characters only (13
+    Nov 2026). Page numbers must be confirmed against the PDF at cross-check.
+  checked_by: null
+  verified_by: null
+- id: AS23-019
+  statement: Pulsed-wave tissue Doppler at the lateral mitral or tricuspid annulus records myocardial velocities
+    and time intervals and may help in assessing rhythm, including bradycardia.
+  source: ASE-2023-FETALECHO
+  locator: Table 9, p. 698; IV.A, p. 697
+  status: ai-extracted
+  extracted_by: Claude, from the PDF on asecho.org read through a web reader, first 100,000 characters only (13
+    Nov 2026). Page numbers must be confirmed against the PDF at cross-check.
+  checked_by: null
+  verified_by: null
+- id: AS23-020
+  statement: 'M-mode is among the tools for assessing systolic function: ventricular shortening fraction and annular
+    plane excursion of the tricuspid and mitral valves.'
+  source: ASE-2023-FETALECHO
+  locator: Table 10, p. 701
+  status: ai-extracted
+  extracted_by: Claude, from the PDF on asecho.org read through a web reader, first 100,000 characters only (13
+    Nov 2026). Page numbers must be confirmed against the PDF at cross-check.
+  checked_by: null
+  verified_by: null
+- id: AS23-021
+  statement: Three-dimensional imaging and spatiotemporal image correlation (STIC) can add anatomical and functional
+    information, but STIC has not been validated for clinical use.
+  source: ASE-2023-FETALECHO
+  locator: III.I Alternative ultrasound modalities, p. 693
+  status: ai-extracted
+  extracted_by: Claude, from the PDF on asecho.org read through a web reader, first 100,000 characters only (13
+    Nov 2026). Page numbers must be confirmed against the PDF at cross-check.
+  checked_by: null
+  verified_by: null
+- id: AS23-022
+  statement: Tissue Doppler and strain imaging, including two-dimensional speckle tracking, are well studied after
+    birth and may detect subtle dysfunction, but their routine use in the fetus is not established and needs further
+    investigation.
+  source: ASE-2023-FETALECHO
+  locator: III.I Alternative ultrasound modalities, p. 693
+  status: ai-extracted
+  extracted_by: Claude, from the PDF on asecho.org read through a web reader, first 100,000 characters only (13
+    Nov 2026). Page numbers must be confirmed against the PDF at cross-check.
+  checked_by: null
+  verified_by: null

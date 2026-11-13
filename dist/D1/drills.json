@@ -1,7 +1,7 @@
 {
   "unit": "D1",
   "title": "The normal heart in five views",
-  "status": "ai-extracted",
+  "status": "expert-verified",
   "items": [
     {
       "id": "D1-Q01",
@@ -17,7 +17,7 @@
       "claims": [
         "IS23-023"
       ],
-      "status": "ai-extracted"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q02",
@@ -33,7 +33,7 @@
       "claims": [
         "IS23-028"
       ],
-      "status": "ai-extracted"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q03",
@@ -49,7 +49,7 @@
       "claims": [
         "IS23-026"
       ],
-      "status": "ai-extracted"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q04",
@@ -66,7 +66,7 @@
         "IS23-033",
         "IS23-036"
       ],
-      "status": "ai-extracted"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q05",
@@ -82,7 +82,7 @@
       "claims": [
         "IS23-007"
       ],
-      "status": "ai-extracted"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q06",
@@ -98,7 +98,7 @@
       "claims": [
         "IS23-024"
       ],
-      "status": "ai-extracted"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q07",
@@ -114,7 +114,7 @@
       "claims": [
         "IS23-021"
       ],
-      "status": "ai-extracted"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q08",
@@ -130,7 +130,7 @@
       "claims": [
         "IS23-010"
       ],
-      "status": "ai-extracted"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q09",
@@ -146,7 +146,7 @@
       "claims": [
         "IS23-015"
       ],
-      "status": "ai-extracted"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q10",
@@ -162,7 +162,7 @@
       "claims": [
         "IS23-014"
       ],
-      "status": "ai-extracted"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q11",
@@ -178,7 +178,7 @@
       "claims": [
         "IS23-043"
       ],
-      "status": "ai-extracted"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q12",
@@ -194,7 +194,7 @@
       "claims": [
         "IS23-042"
       ],
-      "status": "ai-extracted"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q13",
@@ -210,7 +210,7 @@
       "claims": [
         "IS23-047"
       ],
-      "status": "ai-extracted"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q14",
@@ -226,7 +226,7 @@
       "claims": [
         "IS23-045"
       ],
-      "status": "ai-extracted"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q15",
@@ -243,7 +243,7 @@
         "IS23-052",
         "IS23-059"
       ],
-      "status": "ai-extracted"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q16",
@@ -260,7 +260,7 @@
         "IS23-052",
         "IS23-065"
       ],
-      "status": "ai-extracted"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q17",
@@ -276,7 +276,7 @@
       "claims": [
         "IS23-066"
       ],
-      "status": "ai-extracted"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q18",
@@ -293,7 +293,7 @@
         "IS23-008",
         "IS23-067"
       ],
-      "status": "ai-extracted"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q19",
@@ -309,7 +309,7 @@
       "claims": [
         "IS23-069"
       ],
-      "status": "ai-extracted"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q20",
@@ -325,7 +325,7 @@
       "claims": [
         "IS23-077"
       ],
-      "status": "ai-extracted"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q21",
@@ -342,7 +342,7 @@
         "IS23-034",
         "IS23-035"
       ],
-      "status": "ai-extracted"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q22",
@@ -358,7 +358,7 @@
       "claims": [
         "IS23-027"
       ],
-      "status": "ai-extracted"
+      "status": "expert-verified"
     }
   ]
 }

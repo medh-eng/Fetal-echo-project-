@@ -5,6 +5,12 @@ Each unit follows one template: objectives, core text, figures, clips, drills, v
 
 Legend: ● planned for the phase shown, ◐ needs cardiology co-editor, ○ needs external specialist reviewer.
 
+## Tier F: Foundation (cross-tier reference units)
+
+| Code | Unit | Notes |
+|---|---|---|
+| **F1** | **Ultrasound modes used in fetal echocardiography** | Requested by the editor-in-chief, 13 Nov 2026. 2D, colour, power, pulsed and continuous-wave Doppler, M-mode, tissue Doppler, 3D/4D, strain; probe and safety. Overlaps D2 and XA4, which will build on it |
+
 ## Tier D: Detect (Phase 1–2)
 
 | Code | Unit | Notes |

@@ -23,6 +23,9 @@ content/ledger/    claims: one fact, one source, one locator, one status
 content/units/     lessons built only from claims
 tools/build.py     checks everything, then generates the outputs
 dist/<unit>/       chapter.md, drills.json, video-script.md, study.html, review.md
+dist/app/          installable course app (all units, offline)
+dist/book/         book.md, book.html, book.pdf (all units)
+dist/web/          website pages and WordPress fragments for public units
 prompts/           the four prompts for harvest, cross-check, draft, audit
 ```
 
@@ -38,12 +41,14 @@ python tools/build.py --check    # validate only
 python tools/build.py --release  # must fail until a clinician has signed
 ```
 
-Then open `dist/D1/study.html` in a browser.
+Then open `dist/app/index.html` in a browser for the course app, or `dist/D1/study.html` for a single unit.
 
 ## What exists now
 
-- **96 claims** harvested from the ISUOG 2023 screening guideline, with page references. All `ai-extracted`: not yet cross-checked or signed.
-- Unit **D1, The normal heart in five views**: 10 sections, 22 drills, a video outline, and a review sheet for the editor (`dist/D1/review.md`).
+- **118 claims**: 96 from the ISUOG 2023 screening guideline and 22 from the ASE 2023 fetal echocardiography guideline, all with page references.
+- Unit **D1, The normal heart in five views**: 10 sections, 22 drills, video outline. Reviewed and signed by the editor on 13 Nov 2026 (62 claims expert-verified).
+- Unit **F1, Ultrasound modes used in fetal echocardiography**: 13 sections, 15 drills, checklist, video outline. Draft: its 22 ASE claims are not yet cross-checked or signed.
+- Course app, combined book and website page generated from the units.
 
 ## Rules
 
