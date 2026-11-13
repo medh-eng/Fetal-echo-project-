@@ -1,0 +1,250 @@
+{
+  "unit": "F1",
+  "title": "Ultrasound modes used in fetal echocardiography",
+  "status": "ai-extracted",
+  "items": [
+    {
+      "id": "F1-Q01",
+      "question": "Which three modalities should every fetal echocardiogram use together?",
+      "options": [
+        "Two-dimensional imaging, colour Doppler and spectral Doppler",
+        "Two-dimensional imaging, 3D imaging and STIC",
+        "M-mode, continuous-wave Doppler and strain imaging",
+        "Two-dimensional imaging alone"
+      ],
+      "answer": 0,
+      "explanation": "Two-dimensional, colour Doppler and spectral Doppler imaging are used together, with settings optimised for the fetal heart.",
+      "claims": [
+        "AS23-001"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "F1-Q02",
+      "question": "Which set of modes is the minimum a machine needs for fetal echocardiography?",
+      "options": [
+        "B-mode, M-mode, colour flow and pulsed-wave Doppler",
+        "B-mode, colour flow and 4D",
+        "B-mode, continuous-wave Doppler and tissue Doppler",
+        "B-mode and power Doppler"
+      ],
+      "answer": 0,
+      "explanation": "The minimum is two-dimensional (B-mode), M-mode, colour flow and pulsed-wave Doppler.",
+      "claims": [
+        "AS23-002"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "F1-Q03",
+      "question": "You want the flow pattern at one exact point, such as the ductus venosus. Which mode?",
+      "options": [
+        "Pulsed-wave Doppler",
+        "Continuous-wave Doppler",
+        "M-mode",
+        "Power Doppler"
+      ],
+      "answer": 0,
+      "explanation": "Pulsed-wave Doppler gives the flow profile and direction at a chosen site.",
+      "claims": [
+        "AS23-012",
+        "AS23-013"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "F1-Q04",
+      "question": "When is continuous-wave Doppler needed?",
+      "options": [
+        "When flow is abnormally fast, to measure high velocities and gradients",
+        "In every normal examination",
+        "To time atrial and ventricular contraction",
+        "To show small veins with slow flow"
+      ],
+      "answer": 0,
+      "explanation": "It is not needed for a normal heart. It characterises high velocities and gradients and helps estimate pressure from a regurgitant jet.",
+      "claims": [
+        "AS23-015"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "F1-Q05",
+      "question": "What does power Doppler display?",
+      "options": [
+        "The amplitude of the Doppler signal",
+        "The frequency shift of the Doppler signal",
+        "Movement of one line of tissue over time",
+        "Deformation of the heart muscle"
+      ],
+      "answer": 0,
+      "explanation": "Power Doppler shows signal amplitude rather than frequency shift, which makes it useful for small vessels and slow flow.",
+      "claims": [
+        "AS23-011"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "F1-Q06",
+      "question": "Where do you place the M-mode cursor to work out a rhythm?",
+      "options": [
+        "Through an atrial wall and a ventricular free wall together",
+        "Through the ventricular septum only",
+        "Along the aortic arch",
+        "Across both ventricles only"
+      ],
+      "answer": 0,
+      "explanation": "Crossing an atrial and a ventricular wall puts both contractions on one trace, so their timing can be compared.",
+      "claims": [
+        "AS23-017"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "F1-Q07",
+      "question": "Which pair of flows, sampled together with pulsed-wave Doppler, shows atrial and ventricular timing on one trace?",
+      "options": [
+        "Superior vena cava and ascending aorta",
+        "Umbilical artery and umbilical vein",
+        "Middle cerebral artery and ductus venosus",
+        "Right and left branch pulmonary arteries"
+      ],
+      "answer": 0,
+      "explanation": "Recognised pairs are superior vena cava with ascending aorta, mitral inflow with aortic outflow, and pulmonary artery with pulmonary vein.",
+      "claims": [
+        "AS23-018"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "F1-Q08",
+      "question": "The fetal heart rhythm is irregular. What should the examination record?",
+      "options": [
+        "The mechanism, using M-mode, pulsed-wave Doppler or tissue Doppler",
+        "The heart rate only",
+        "A 3D volume of the heart",
+        "Nothing further if the four-chamber view is normal"
+      ],
+      "answer": 0,
+      "explanation": "With an irregular, slow or fast rhythm, the mechanism should be documented using one or more of these modes.",
+      "claims": [
+        "AS23-016"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "F1-Q09",
+      "question": "How should the beam lie for a pulsed-wave Doppler recording?",
+      "options": [
+        "Along the flow, or within 20 degrees of it",
+        "At right angles to the flow",
+        "At 45 to 60 degrees to the flow",
+        "The angle does not matter"
+      ],
+      "answer": 0,
+      "explanation": "Align with the flow or keep within 20 degrees, with a small sample gate.",
+      "claims": [
+        "AS23-012"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "F1-Q10",
+      "question": "Which of these is a required pulsed-wave Doppler site in a fetal echocardiogram?",
+      "options": [
+        "Ductus venosus",
+        "Middle cerebral artery",
+        "Hepatic vein",
+        "Branch pulmonary arteries"
+      ],
+      "answer": 0,
+      "explanation": "Required sites include the umbilical vein, ductus venosus, pulmonary veins, both inflows, both outflows, the distal ductus arteriosus and the umbilical artery. The others listed here are optional.",
+      "claims": [
+        "AS23-013",
+        "AS23-014"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "F1-Q11",
+      "question": "What is the current standing of STIC in fetal echocardiography?",
+      "options": [
+        "It can add information but is not validated for clinical use",
+        "It is required in every examination",
+        "It has replaced two-dimensional imaging",
+        "It is used only to measure heart rate"
+      ],
+      "answer": 0,
+      "explanation": "Three-dimensional imaging and STIC can add anatomical and functional detail, but STIC has not been validated for clinical use.",
+      "claims": [
+        "AS23-021"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "F1-Q12",
+      "question": "What frame rate is recommended for grey-scale imaging of the fetal heart?",
+      "options": [
+        "Above 30 to 40 Hz",
+        "About 5 to 10 Hz",
+        "About 15 Hz",
+        "Frame rate is not important"
+      ],
+      "answer": 0,
+      "explanation": "Above 30 to 40 Hz, and 80 to 100 Hz may be needed for fast heart rates or speckle tracking.",
+      "claims": [
+        "AS23-007"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "F1-Q13",
+      "question": "In early pregnancy, what limit applies to the thermal and mechanical indices?",
+      "options": [
+        "1.0 or less, with Doppler used sparingly",
+        "2.0 or less",
+        "No limit applies before the second trimester",
+        "3.0 or less if the scan is short"
+      ],
+      "answer": 0,
+      "explanation": "Keep both indices at or below 1.0, limit Doppler and keep exposure short.",
+      "claims": [
+        "AS23-006",
+        "IS23-093"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "F1-Q14",
+      "question": "In a routine mid-pregnancy cardiac screen, what is the place of colour Doppler?",
+      "options": [
+        "Encouraged, but not mandatory",
+        "Mandatory in every scan",
+        "Not allowed",
+        "Only used after 32 weeks"
+      ],
+      "answer": 0,
+      "explanation": "Colour is not mandatory for screening; becoming familiar with it and adding it to routine screening is encouraged.",
+      "claims": [
+        "IS23-073"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "F1-Q15",
+      "question": "Which transducer type is preferred for fetal echocardiography?",
+      "options": [
+        "Curvilinear",
+        "Endocavity only",
+        "Linear only",
+        "Pencil (blind) probe"
+      ],
+      "answer": 0,
+      "explanation": "Curvilinear probes are preferred; linear and sector probes may also be used.",
+      "claims": [
+        "AS23-004"
+      ],
+      "status": "ai-extracted"
+    }
+  ]
+}

@@ -13,3 +13,16 @@ ISUOG-2023-SCREEN:
   url: "https://www.isuog.org/resource/updated-isuog-practice-guidelines-fetal-cardiac-screening.html"
   held: true
   licence: "Open access, CC BY (stated on p. 788). Reuse allowed with citation. Figure 2 is 'modified from Yagel et al. with permission' - third-party; do not reuse without separate permission."
+
+ASE-2023-FETALECHO:
+  type: guideline
+  title: "Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography"
+  authors: "Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al."
+  journal: "J Am Soc Echocardiogr"
+  year: 2023
+  volume: "36(7)"
+  pages: "679-723"
+  doi: "10.1016/j.echo.2023.04.014"
+  url: "https://www.asecho.org/guideline/fetal-echo"
+  held: false
+  licence: "Copyright 2023 Elsevier Inc. on behalf of the American Society of Echocardiography. Free to read on asecho.org; not open-licensed. Facts are paraphrased with citation; no figures or tables may be reused without permission. The PDF must be added to the private sources folder before cross-check."

@@ -7,7 +7,7 @@ tier: Detect
 version: 0.2
 drafted_by: "Claude (13 Nov 2026)"
 audited_by: null
-signed_by: null
+signed_by: "Dr Kunda Shahane, 2026-11-13 (approved review sheet for v0.2 in full; approval relayed by the project owner)"
 
 objectives:
   - "Perform the five-plane sweep in order and say what each plane must show."

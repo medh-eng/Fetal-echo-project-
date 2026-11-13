@@ -20,6 +20,7 @@ from pathlib import Path
 
 import yaml
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 ROOT = Path(__file__).resolve().parent.parent
 STATUSES = ["ai-extracted", "ai-cross-checked", "expert-verified"]
 
@@ -84,6 +85,8 @@ def validate(release=False):
                 errors.append(f"{path.name}:{d.get('id')}: answer index out of range")
         for i, b in enumerate(u.get("video", {}).get("beats", []), 1):
             check_refs(b.get("claims"), f"{path.name}:video beat {i}", framing=True)
+        for i, c in enumerate(u.get("checklist", {}).get("items", []), 1):
+            check_refs(c.get("claims"), f"{path.name}:checklist item {i}")
 
         unused = [c for c in claims if c.startswith(u["id"] + "-") and c not in used]
         if unused:
@@ -104,6 +107,10 @@ def unit_status(unit, claims):
             used.update(b.get("claims") or [])
     for d in unit.get("drills", []):
         used.update(d.get("claims") or [])
+    for c in unit.get("checklist", {}).get("items", []):
+        used.update(c.get("claims") or [])
+    for b in unit.get("video", {}).get("beats", []):
+        used.update(b.get("claims") or [])
     levels = [STATUSES.index(claims[c]["status"]) for c in used if c in claims]
     return STATUSES[min(levels)] if levels else "ai-extracted"
 
@@ -147,6 +154,15 @@ def build_chapter(u, claims, sources, status):
         lines += ["", f"## {s['heading']}", ""]
         for b in s.get("blocks", []):
             lines += [b["text"] + marks(b.get("claims")), ""]
+            t = b.get("table")
+            if t:
+                lines += ["| " + " | ".join(t["columns"]) + " |",
+                          "|" + "---|" * len(t["columns"])]
+                lines += ["| " + " | ".join(r) + " |" for r in t["rows"]] + [""]
+    ck = u.get("checklist")
+    if ck:
+        lines += [f"## {ck['title']}", ""]
+        lines += [f"- [ ] {i['text']}" + marks(i.get("claims")) for i in ck["items"]] + [""]
     if u.get("missing_claims"):
         lines += ["## Still to be written (awaiting sourced claims)", ""]
         lines += [f"- {m}" for m in u["missing_claims"]]
@@ -185,6 +201,8 @@ def build_review(u, claims, sources):
         add(d.get("claims"))
     for b in u.get("video", {}).get("beats", []):
         add(b.get("claims"))
+    for c in u.get("checklist", {}).get("items", []):
+        add(c.get("claims"))
     lines = [f"# Review sheet: {u['id']} {u['title']}", "",
              "For the editor-in-chief. Check each claim against the source at the place given.",
              "Mark: OK / change (write the correction) / remove.", "",
@@ -231,7 +249,7 @@ sup{font:11px system-ui,sans-serif;color:var(--accent)}
 .opt:hover:not(:disabled){border-color:var(--ink)}.opt.right{border-color:var(--ok);background:#e3f3ea}.opt.wrong{border-color:var(--bad);background:#f7e4e0}
 .next{font:15px system-ui,sans-serif;background:var(--ink);color:#fff;border:0;border-radius:8px;padding:10px 18px;cursor:pointer;margin-top:8px}
 ol.refs{font:14px/1.45 system-ui,sans-serif;color:var(--mute);padding-left:22px}
-ul{padding-left:22px}[hidden]{display:none}
+ul{padding-left:22px}[hidden]{display:none}table{border-collapse:collapse;width:100%;font:14px/1.4 system-ui,sans-serif;margin:10px 0}th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}th{background:#eee}
 </style></head><body><main>
 <div class="meta">Fetal Echo Project &middot; Unit __ID__ &middot; __TIER__ tier &middot; v__VERSION__</div>
 <h1>__TITLE__</h1>
@@ -296,6 +314,15 @@ def build_page(u, claims, sources, status, drills):
         parts.append(f"<h2>{e(s['heading'])}</h2>")
         for b in s.get("blocks", []):
             parts.append(f"<p>{e(b['text'])}{marks(b.get('claims'))}</p>")
+            t = b.get("table")
+            if t:
+                parts.append("<table><tr>" + "".join(f"<th>{e(c)}</th>" for c in t["columns"]) + "</tr>" +
+                             "".join("<tr>" + "".join(f"<td>{e(c)}</td>" for c in r) + "</tr>" for r in t["rows"]) +
+                             "</table>")
+    ck = u.get("checklist")
+    if ck:
+        parts.append(f"<h2>{e(ck['title'])}</h2><ul>" +
+                     "".join(f"<li>{e(i['text'])}{marks(i.get('claims'))}</li>" for i in ck["items"]) + "</ul>")
     if u.get("missing_claims"):
         parts.append("<h2>Still to be written</h2><ul class='small'>" +
                      "".join(f"<li>{e(m)}</li>" for m in u["missing_claims"]) + "</ul>")
@@ -354,6 +381,8 @@ def main():
         (out / "study.html").write_text(build_page(u, claims, sources, status, drills),
                                         encoding="utf-8")
         print(f"built {u['id']} ({status}) -> dist/{u['id']}/")
+    import outputs
+    outputs.build_all(units, claims, sources, unit_status, banner, cite, STATUSES)
     return 0
 
 
