@@ -13,6 +13,7 @@ A book, an app, videos and study material for fetal echocardiography, all genera
 | [docs/03-syllabus.md](docs/03-syllabus.md) | Full list of units in three tiers: Detect, Diagnose, Decide |
 | [docs/04-ai-workflow.md](docs/04-ai-workflow.md) | How Claude, ChatGPT and Gemini are used, step by step |
 | [docs/05-governance.md](docs/05-governance.md) | Consent, PC-PNDT, data protection, copyright, safety |
+| [docs/06-build-plan.md](docs/06-build-plan.md) | What is being built, the steps, and who does each |
 
 ## How it works
 
@@ -21,7 +22,7 @@ content/sources/   registry of source documents
 content/ledger/    claims: one fact, one source, one locator, one status
 content/units/     lessons built only from claims
 tools/build.py     checks everything, then generates the outputs
-dist/<unit>/       chapter.md, drills.json, video-script.md, study.html
+dist/<unit>/       chapter.md, drills.json, video-script.md, study.html, review.md
 prompts/           the four prompts for harvest, cross-check, draft, audit
 ```
 
@@ -41,7 +42,8 @@ Then open `dist/D1/study.html` in a browser.
 
 ## What exists now
 
-- Unit **D1, The normal heart in five views**: 12 seed claims, a short draft chapter, 8 drills, a video outline. All unverified, and the unit lists six areas still waiting for sourced claims.
+- **96 claims** harvested from the ISUOG 2023 screening guideline, with page references. All `ai-extracted`: not yet cross-checked or signed.
+- Unit **D1, The normal heart in five views**: 10 sections, 22 drills, a video outline, and a review sheet for the editor (`dist/D1/review.md`).
 
 ## Rules
 

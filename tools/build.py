@@ -10,6 +10,7 @@ Outputs per unit in dist/<unit>/:
     drills.json       study items for the app
     video-script.md   shot list and narration
     study.html        self-contained study page (open in any browser)
+    review.md         sign-off sheet for the editor-in-chief
 """
 import argparse
 import html
@@ -170,6 +171,32 @@ def build_drills(u, claims, status):
     }
 
 
+def build_review(u, claims, sources):
+    """Sign-off sheet for the editor: every claim the unit uses, grouped by status."""
+    used = []
+    def add(refs):
+        for r in refs or []:
+            if r not in used:
+                used.append(r)
+    for s in u.get("sections", []):
+        for b in s.get("blocks", []):
+            add(b.get("claims"))
+    for d in u.get("drills", []):
+        add(d.get("claims"))
+    for b in u.get("video", {}).get("beats", []):
+        add(b.get("claims"))
+    lines = [f"# Review sheet: {u['id']} {u['title']}", "",
+             "For the editor-in-chief. Check each claim against the source at the place given.",
+             "Mark: OK / change (write the correction) / remove.", "",
+             f"{len(used)} claims used in this unit.", "",
+             "| Claim | Statement | Where in source | Status | Editor |", "|---|---|---|---|---|"]
+    for cid in sorted(used):
+        c = claims[cid]
+        lines.append(f"| {cid} | {c['statement']} | {c['source']}: {c['locator']} | {c['status']} | |")
+    lines += ["", "Signed: ____________________   Date: __________"]
+    return "\n".join(lines) + "\n"
+
+
 def build_video(u, status):
     v = u.get("video")
     if not v:
@@ -323,6 +350,7 @@ def main():
         script = build_video(u, status)
         if script:
             (out / "video-script.md").write_text(script, encoding="utf-8")
+        (out / "review.md").write_text(build_review(u, claims, sources), encoding="utf-8")
         (out / "study.html").write_text(build_page(u, claims, sources, status, drills),
                                         encoding="utf-8")
         print(f"built {u['id']} ({status}) -> dist/{u['id']}/")

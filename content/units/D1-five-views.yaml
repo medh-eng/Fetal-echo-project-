@@ -4,16 +4,17 @@
 id: D1
 title: "The normal heart in five views"
 tier: Detect
-version: 0.1
-drafted_by: "Claude (12 Nov 2026)"
+version: 0.2
+drafted_by: "Claude (13 Nov 2026)"
 audited_by: null
 signed_by: null
 
 objectives:
-  - "Name the five planes of the screening examination in order."
-  - "State what must be established before looking at the heart."
-  - "Give the normal values for heart size, axis and rate."
-  - "Explain why counting four chambers is not a normal four-chamber view."
+  - "Perform the five-plane sweep in order and say what each plane must show."
+  - "Set up the machine for a cardiac screen."
+  - "Give the normal values for heart size, axis and rate, and the rates that need referral."
+  - "List the criteria that make a four-chamber view normal."
+  - "Confirm normal outflow tracts and a normal three-vessel-and-trachea view."
 
 sections:
 
@@ -21,118 +22,186 @@ sections:
     blocks:
       - kind: framing
         text: "A screening scan does not need to name the lesion. It needs to answer one question reliably: is this heart normal? The five-view sweep is the shortest route to that answer."
-      - text: "Screening built on the four-chamber view alone misses lesions that only show in the great arteries. Adding outflow-tract and great-vessel views has improved detection."
-        claims: [D1-C006]
-      - text: "Current guidance asks for situs, the four-chamber view, and the outflow-tract and great-vessel views in every screening examination, ideally between 18 and 22 weeks."
-        claims: [D1-C001, D1-C002]
+      - text: "Congenital heart disease affects about 8 in every 1000 live births, and fewer than half of cardiac anomalies are found before birth."
+        claims: [IS23-003, IS23-004]
+      - text: "Most detectable heart disease occurs in pregnancies with no risk factor at all. That is why the routine scan matters more than the referral list."
+        claims: [IS23-080]
+      - text: "Some lesions, such as transposition and coarctation, may show nothing in the four-chamber plane. Adding the outflow-tract and great-vessel views raises detection above the four-chamber view alone."
+        claims: [IS23-008, IS23-009, IS23-019]
+      - text: "The examination should include situs, the four-chamber view, and the outflow-tract and great-vessel views, ideally between 18 and 22 weeks."
+        claims: [IS23-010, IS23-018]
+
+  - heading: "Set up before you scan"
+    blocks:
+      - text: "Use the highest transducer frequency that still penetrates. Harmonic imaging helps when the abdominal wall is thick and in the third trimester."
+        claims: [IS23-012, IS23-013]
+      - text: "Choose the cardiac preset: high frame rate, more contrast, low persistence, a single focal zone and a narrow sector."
+        claims: [IS23-014]
+      - text: "Zoom until the heart fills a third to a half of the screen. Use cine-loop to watch the valves through the whole cycle."
+        claims: [IS23-015, IS23-016]
+      - text: "Store stills and clips of each view so the examination can be reviewed later."
+        claims: [IS23-017]
 
   - heading: "The sweep"
     blocks:
-      - text: "The examination is one continuous movement through five planes, from the upper abdomen to the upper chest: situs, four-chamber view, left ventricular outflow tract, right ventricular outflow tract with the three-vessel view, and the three-vessel-and-trachea view."
-        claims: [D1-C003]
-      - kind: framing
-        text: "Think of it as a sweep, not five photographs. What matters is how each plane turns into the next."
+      - text: "The examination is one continuous transverse sweep towards the fetal head through five planes: upper abdomen, four-chamber view, left ventricular outflow tract, right ventricular outflow tract with the three-vessel view, and the three-vessel-and-trachea view."
+        claims: [IS23-022, IS23-023, IS23-055]
+      - text: "The upper planes are a continuum, not fixed pictures. They are judged more reliably live or on a clip than from stills."
+        claims: [IS23-063]
+      - text: "If the fetus is lying badly, take more time or bring the patient back."
+        claims: [IS23-056]
 
-  - heading: "Before the heart: left, right and situs"
+  - heading: "Plane I: left, right and situs"
     blocks:
-      - text: "First work out which side of the fetus is left and which is right. Only then assess situs."
-        claims: [D1-C012]
-      - text: "With normal situs, the upper-abdomen plane shows the stomach on the left, the descending aorta to the left of the spine, and the inferior vena cava in front of and to the right of the spine."
-        claims: [D1-C011]
+      - text: "First work out which side of the fetus is left and which is right from its position in the uterus. Only then confirm that stomach and heart are both on the left."
+        claims: [IS23-021]
+      - text: "At the level of the abdominal circumference: stomach on the left, descending aorta to the left of the spine, inferior vena cava to the right."
+        claims: [IS23-024]
+      - text: "Normal abdominal situs stands in for normal atrial arrangement. If heart or stomach is not on the left, suspect a situs abnormality."
+        claims: [IS23-025, IS23-030]
 
-  - heading: "Size, position, axis, rate"
+  - heading: "Plane II: size, position, axis, rate"
     blocks:
-      - text: "A normal heart fills about a third of the chest."
-        claims: [D1-C007]
-      - text: "It sits mostly in the left chest, with its long axis pointing left at about 45 degrees. The accepted range is 20 degrees either side."
-        claims: [D1-C008]
-      - text: "The rate is 120 to 160 beats per minute and regular. A rate that stays below 110 needs prompt specialist review for possible heart block."
-        claims: [D1-C009, D1-C010]
+      - text: "A normal heart is no larger than a third of the chest area."
+        claims: [IS23-026]
+      - text: "It lies mainly in the left chest with its axis pointing left at about 45 degrees, 20 degrees either way. You can judge axis and position even when the rest of the view is poor."
+        claims: [IS23-028, IS23-029]
+      - text: "An abnormal axis raises the chance of a heart defect, especially of the outflow tracts. A heart that is pushed out of place points to something beside it: diaphragmatic hernia, a lung mass, or a small or absent lung."
+        claims: [IS23-031, IS23-032]
+      - text: "Rate is 120 to 160 beats per minute and regular. Occasional ectopic beats are common and usually harmless. Refer if they are frequent or the rhythm stays irregular for more than a week or two."
+        claims: [IS23-033, IS23-034, IS23-035]
+      - text: "A brief slow rate from probe pressure is normal. A rate that stays at 110 or below, or at 180 or above, needs specialist assessment."
+        claims: [IS23-036, IS23-037]
 
-  - heading: "More than a count"
+  - heading: "Plane II: the four-chamber criteria"
     blocks:
-      - text: "Seeing four chambers, or three vessels, is not the same as a normal view. Each view is judged against specific criteria."
-        claims: [D1-C005]
+      - text: "Seeing four chambers is not the same as a normal four-chamber view. The view is judged against specific criteria."
+        claims: [IS23-007]
+      - text: "Atria: similar in size, foramen ovale flap moving in the left atrium, septum primum present. Where you can, show at least one pulmonary vein entering the left atrium."
+        claims: [IS23-038, IS23-040]
+      - text: "Ventricles: similar in size, walls not thick. The moderator band marks the right ventricle; the smooth left ventricle forms the apex."
+        claims: [IS23-042, IS23-043]
+      - text: "One ventricle clearly smaller than the other in mid-pregnancy is not a variant. Think of coarctation, an evolving hypoplastic left heart, and anomalous pulmonary veins."
+        claims: [IS23-043]
+      - text: "Septum: follow it from apex to crux. It is best seen with the beam at right angles; with the beam along the septum, drop-out can fake a defect near the crux."
+        claims: [IS23-044, IS23-045]
+      - text: "Valves: two, opening separately and freely, with the tricuspid attached slightly nearer the apex than the mitral. Loss of that offset is a key sign of atrioventricular septal defect."
+        claims: [IS23-047]
+      - text: "A thin rim of pericardial fluid, up to 2 mm, is normal."
+        claims: [IS23-027]
 
-  - heading: "Colour Doppler and checklists"
+  - heading: "Plane III: left ventricular outflow tract"
     blocks:
-      - text: "The 2023 guideline encourages colour Doppler in screening and recommends working from a checklist, with quality assurance of the examination."
-        claims: [D1-C004]
+      - text: "A vessel leaves the left ventricle. Its front wall runs straight on from the ventricular septum, and it does not divide. The valve is thin and opens freely."
+        claims: [IS23-052, IS23-059, IS23-060]
+      - text: "This view shows outlet septal defects and conotruncal and aortic valve problems that the four-chamber view hides."
+        claims: [IS23-062]
+
+  - heading: "Plane IV: right ventricular outflow tract and three vessels"
+    blocks:
+      - text: "A vessel leaves the right ventricle, crosses in front of the aorta almost at a right angle, and divides after a short course. It is usually slightly larger than the aorta. Its valve is thin and opens freely."
+        claims: [IS23-052, IS23-064, IS23-065]
+      - text: "At the least, the two great arteries should be about the same size. A clear difference needs further assessment."
+        claims: [IS23-051]
+      - text: "Three vessels in a line: pulmonary artery, aorta, superior vena cava, from left to right and from front to back, each smaller than the one before. Check number, size, alignment and arrangement."
+        claims: [IS23-066]
+      - text: "Transposition, tetralogy of Fallot, double-outlet right ventricle, common arterial trunk and pulmonary atresia with a septal defect can all pass the four-chamber view. They typically fail this one."
+        claims: [IS23-067]
+
+  - heading: "Plane V: three vessels and trachea"
+    blocks:
+      - text: "The ductal arch and the aortic arch both pass to the left of the trachea and meet in a V. The two arches are similar in size. The trachea is a bright ring around a small dark centre."
+        claims: [IS23-068, IS23-069, IS23-096]
+      - text: "This is the view for the arch: coarctation, right arch, double arch, vascular rings and an aberrant right subclavian artery."
+        claims: [IS23-054, IS23-071]
+
+  - heading: "Colour Doppler"
+    blocks:
+      - text: "Colour is not mandatory for screening but is encouraged once you are competent with it."
+        claims: [IS23-073]
+      - text: "Keep the colour box small and over the area of interest. Set the scale to about 50 to 70 cm/s for the heart and arteries, and about 15 to 25 cm/s for veins."
+        claims: [IS23-076, IS23-077]
+      - text: "Normal colour shows forward flow through all four valves and both arches. It makes the V easier to see and exposes leaking valves and reversed flow in an arch."
+        claims: [IS23-074]
+
+  - heading: "When the screen is not normal"
+    blocks:
+      - text: "Any fetus with a suspected abnormality on screening should have a fetal echocardiogram."
+        claims: [IS23-078]
+      - text: "About half of missed diagnoses in one study came from views that did not meet technical standards, and nearly a third from not recognising the abnormality on an adequate view. Both are trainable."
+        claims: [IS23-088]
 
 missing_claims:
-  - "Criteria for a normal four-chamber view (atria, ventricles, septa, valves, pulmonary veins)."
-  - "Criteria for normal LVOT and RVOT views, including crossing of the great arteries."
-  - "Criteria for normal 3VV and 3VT (number, size, alignment, arrangement; relation to trachea)."
-  - "Recommended machine settings for cardiac screening."
-  - "What the guideline says about early (first-trimester) cardiac assessment."
-  - "Indications for referral after an abnormal or incomplete screen."
+  - "How to work out fetal laterality in practice (named methods) - needs a source beyond this guideline."
+  - "Normal variants and artefacts beyond those named here (e.g. echogenic focus appearance) - unit D10."
+  - "Indian referral pathways and timing in relation to local law - needs an Indian source and the editor's input."
 
 drills:
   - id: D1-Q01
-    question: "Which is the correct order of the five screening planes, from caudal to cranial?"
+    question: "Which is the correct order of the five screening planes, moving towards the fetal head?"
     options:
-      - "Situs, four-chamber, LVOT, RVOT / three-vessel, three-vessel-and-trachea"
-      - "Four-chamber, situs, RVOT, LVOT, three-vessel-and-trachea"
-      - "Situs, LVOT, four-chamber, three-vessel-and-trachea, RVOT"
-      - "Four-chamber, LVOT, RVOT, situs, three-vessel"
+      - "Upper abdomen, four-chamber, LVOT, RVOT / three-vessel, three-vessel-and-trachea"
+      - "Four-chamber, upper abdomen, RVOT, LVOT, three-vessel-and-trachea"
+      - "Upper abdomen, LVOT, four-chamber, three-vessel-and-trachea, RVOT"
+      - "Four-chamber, LVOT, RVOT, upper abdomen, three-vessel"
     answer: 0
-    explanation: "The sweep runs from the upper abdomen up through the heart to the upper mediastinum."
-    claims: [D1-C003]
+    explanation: "One transverse sweep from the upper abdomen to the upper mediastinum."
+    claims: [IS23-023]
 
   - id: D1-Q02
     question: "What is the normal cardiac axis?"
     options:
-      - "About 45 degrees to the left, within 20 degrees either way"
-      - "About 20 degrees to the left, within 10 degrees either way"
+      - "About 45 degrees to the left, 20 degrees either way"
+      - "About 20 degrees to the left, 10 degrees either way"
       - "About 90 degrees to the left"
       - "Midline"
     answer: 0
-    explanation: "The long axis of the heart points left at about 45 degrees; 20 degrees either side is the 2 SD range."
-    claims: [D1-C008]
+    explanation: "45 degrees plus or minus 20, measured against the front-to-back axis of the chest."
+    claims: [IS23-028]
 
   - id: D1-Q03
-    question: "How much of the chest does a normal heart occupy?"
+    question: "How much of the chest area does a normal heart occupy?"
     options:
-      - "About one third of the thoracic area"
+      - "No more than about one third"
       - "About one tenth"
       - "About two thirds"
-      - "Nearly all of it"
+      - "About one half"
     answer: 0
-    explanation: "Roughly a third of the thoracic area."
-    claims: [D1-C007]
+    explanation: "Usually no larger than a third of the chest area."
+    claims: [IS23-026]
 
   - id: D1-Q04
-    question: "A fetal heart rate stays at 100 beats per minute throughout the scan. What should happen?"
+    question: "The fetal heart rate stays at 105 beats per minute throughout the scan in an otherwise well fetus. What next?"
     options:
-      - "Prompt review by a fetal cardiac specialist"
+      - "Timely review by a fetal cardiac specialist"
       - "Nothing; this is within the normal range"
-      - "Repeat the anomaly scan at 32 weeks"
-      - "Record it as a normal variant"
+      - "Repeat the anomaly scan in the third trimester"
+      - "Record it as transient probe-pressure bradycardia"
     answer: 0
-    explanation: "Normal is 120 to 160. A rate fixed below 110 needs timely specialist evaluation for possible heart block."
-    claims: [D1-C009, D1-C010]
+    explanation: "Normal is 120 to 160. Persistent bradycardia at 110 or below needs specialist evaluation; transient slowing from probe pressure does not persist."
+    claims: [IS23-033, IS23-036]
 
   - id: D1-Q05
-    question: "You can see four chambers. Is that a normal four-chamber view?"
+    question: "You can count four chambers. Is the four-chamber view normal?"
     options:
       - "Not yet: the view has specific criteria beyond the count"
       - "Yes: four chambers means the view is normal"
       - "Yes, provided the heart rate is normal"
       - "Only colour Doppler can tell"
     answer: 0
-    explanation: "The four-chamber and three-vessel views are assessed against criteria, not counted."
-    claims: [D1-C005]
+    explanation: "The four-chamber and three-vessel views need much more than a count of structures."
+    claims: [IS23-007]
 
   - id: D1-Q06
-    question: "In normal situs, where does the inferior vena cava lie in the upper-abdomen plane?"
+    question: "In normal situs, where are the great vessels in the upper-abdomen plane?"
     options:
-      - "In front of and to the right of the spine"
-      - "Behind the spine"
-      - "To the left of the spine, behind the aorta"
-      - "Inside the liver on the left"
+      - "Aorta left of the spine, inferior vena cava right of the spine"
+      - "Aorta right of the spine, inferior vena cava left of the spine"
+      - "Both on the left of the spine"
+      - "Both on the right of the spine"
     answer: 0
-    explanation: "Stomach left; aorta left of the spine; IVC anterior and right."
-    claims: [D1-C011]
+    explanation: "Stomach left; aorta left; vena cava right."
+    claims: [IS23-024]
 
   - id: D1-Q07
     question: "What must be established before assessing situs?"
@@ -142,8 +211,8 @@ drills:
       - "The heart rate"
       - "The size of the great arteries"
     answer: 0
-    explanation: "Laterality first. Without it, 'stomach on the left' means nothing."
-    claims: [D1-C012]
+    explanation: "Laterality first, from the fetal position in the uterus."
+    claims: [IS23-021]
 
   - id: D1-Q08
     question: "When is mid-trimester cardiac screening best performed?"
@@ -153,25 +222,194 @@ drills:
       - "24 to 28 weeks"
       - "After 32 weeks"
     answer: 0
-    explanation: "18 to 22 weeks is the recommended window."
-    claims: [D1-C001]
+    explanation: "18 to 22 weeks is the optimal window."
+    claims: [IS23-010]
+
+  - id: D1-Q09
+    question: "How far should you zoom for the cardiac views?"
+    options:
+      - "Until the heart fills a third to a half of the screen"
+      - "Until the whole fetus is on screen"
+      - "Until the heart fills about a tenth of the screen"
+      - "Zoom does not matter if the frame rate is high"
+    answer: 0
+    explanation: "Magnify until the heart fills at least one third to one half of the screen."
+    claims: [IS23-015]
+
+  - id: D1-Q10
+    question: "Which group of settings suits a cardiac screen?"
+    options:
+      - "High frame rate, low persistence, single focal zone, narrow sector"
+      - "Low frame rate, high persistence, multiple focal zones, wide sector"
+      - "High frame rate, high persistence, multiple focal zones, wide sector"
+      - "Low frame rate, low persistence, single focal zone, wide sector"
+    answer: 0
+    explanation: "These are usually built into the cardiac preset."
+    claims: [IS23-014]
+
+  - id: D1-Q11
+    question: "At 20 weeks the left ventricle looks clearly smaller than the right. How should you treat this?"
+    options:
+      - "As abnormal until proven otherwise: arrange further examination"
+      - "As a normal variant at this stage"
+      - "As an artefact of the beam angle"
+      - "As normal if the heart rate is regular"
+    answer: 0
+    explanation: "Mild disproportion can be a variant in the third trimester, but asymmetry in mid-pregnancy warrants further examination. Causes include coarctation, evolving hypoplastic left heart and anomalous pulmonary veins."
+    claims: [IS23-043]
+
+  - id: D1-Q12
+    question: "Which structure marks the morphological right ventricle in the four-chamber view?"
+    options:
+      - "The moderator band near the apex"
+      - "The smooth wall forming the apex of the heart"
+      - "The foramen ovale flap"
+      - "The pulmonary veins"
+    answer: 0
+    explanation: "The moderator band identifies the right ventricle; the smooth left ventricle forms the apex."
+    claims: [IS23-042]
+
+  - id: D1-Q13
+    question: "The two atrioventricular valves appear to attach to the septum at exactly the same level. What does this suggest?"
+    options:
+      - "Possible atrioventricular septal defect"
+      - "A normal crux"
+      - "Tricuspid regurgitation"
+      - "A normal third-trimester variant"
+    answer: 0
+    explanation: "Normally the tricuspid septal leaflet inserts nearer the apex than the mitral. Abnormal alignment is a key finding in atrioventricular septal defect."
+    claims: [IS23-047]
+
+  - id: D1-Q14
+    question: "With the beam running along the ventricular septum, you see a gap near the crux. What is the first thing to do?"
+    options:
+      - "Re-image with the beam at right angles to the septum"
+      - "Report a ventricular septal defect"
+      - "Report an atrioventricular septal defect"
+      - "Ignore it"
+    answer: 0
+    explanation: "A beam parallel to the septum can produce drop-out that mimics a defect near the crux. The septum is best seen perpendicular to the beam."
+    claims: [IS23-045]
+
+  - id: D1-Q15
+    question: "What confirms a normal left ventricular outflow tract view?"
+    options:
+      - "The vessel's front wall is continuous with the septum and the vessel does not divide"
+      - "The vessel divides into two branches soon after its origin"
+      - "The vessel runs parallel to the other great artery"
+      - "The vessel is clearly larger than the other great artery"
+    answer: 0
+    explanation: "Septal continuity and no bifurcation identify the aorta leaving the left ventricle."
+    claims: [IS23-052, IS23-059]
+
+  - id: D1-Q16
+    question: "How do the two great arteries normally relate as they leave the heart?"
+    options:
+      - "They cross, the pulmonary artery passing in front almost at a right angle"
+      - "They run side by side in parallel"
+      - "The aorta passes in front of the pulmonary artery"
+      - "They arise from a single common vessel"
+    answer: 0
+    explanation: "Normal crossover: the pulmonary artery crosses the ascending aorta at nearly a right angle."
+    claims: [IS23-052, IS23-065]
+
+  - id: D1-Q17
+    question: "In the normal three-vessel view, what is the order from fetal left to right?"
+    options:
+      - "Pulmonary artery, aorta, superior vena cava"
+      - "Aorta, pulmonary artery, superior vena cava"
+      - "Superior vena cava, aorta, pulmonary artery"
+      - "Pulmonary artery, superior vena cava, aorta"
+    answer: 0
+    explanation: "Pulmonary artery (largest, most anterior), aorta, superior vena cava (smallest, most posterior)."
+    claims: [IS23-066]
+
+  - id: D1-Q18
+    question: "The four-chamber view is normal. Which view is most likely to expose transposition of the great arteries?"
+    options:
+      - "The outflow-tract and three-vessel views"
+      - "The upper-abdomen view"
+      - "A repeat four-chamber view with more zoom"
+      - "None; it cannot be detected on screening"
+    answer: 0
+    explanation: "Transposition can have a normal-looking four-chamber view but is typically abnormal in the three-vessel view."
+    claims: [IS23-008, IS23-067]
+
+  - id: D1-Q19
+    question: "What is the normal appearance of the three-vessel-and-trachea view?"
+    options:
+      - "Both arches to the left of the trachea, meeting in a V"
+      - "One arch on each side of the trachea"
+      - "Both arches to the right of the trachea"
+      - "The arches running parallel without meeting"
+    answer: 0
+    explanation: "The ductal and aortic arches both pass left of the trachea and form a V."
+    claims: [IS23-069]
+
+  - id: D1-Q20
+    question: "What colour velocity scale suits the heart and great arteries in a mid-trimester screen?"
+    options:
+      - "About 50 to 70 cm/s"
+      - "About 5 to 10 cm/s"
+      - "About 15 to 25 cm/s"
+      - "About 150 to 200 cm/s"
+    answer: 0
+    explanation: "About 50 to 70 cm/s for intracardiac structures and vessels; about 15 to 25 cm/s is for veins."
+    claims: [IS23-077]
+
+  - id: D1-Q21
+    question: "You notice occasional skipped beats in an otherwise normal low-risk scan. What is the usual significance?"
+    options:
+      - "Often benign and self-resolving; refer if frequent or persisting beyond a week or two"
+      - "Always a sign of structural heart disease"
+      - "An indication for immediate delivery planning"
+      - "A sign of heart block"
+    answer: 0
+    explanation: "Ectopic beats are the commonest rhythm disturbance and are often benign. Frequent episodes or persistent irregularity need further assessment."
+    claims: [IS23-034, IS23-035]
+
+  - id: D1-Q22
+    question: "A thin rim of pericardial fluid, under 2 mm, is seen at 28 weeks. How do you interpret it?"
+    options:
+      - "A normal finding"
+      - "A pericardial effusion needing urgent referral"
+      - "A sign of hydrops"
+      - "A sign of infection"
+    answer: 0
+    explanation: "A small amount of pericardial fluid, 2 mm or less at end-systole, is common in the second and third trimesters and is normal."
+    claims: [IS23-027]
 
 video:
   title: "The five-view sweep"
-  target_minutes: 6
+  target_minutes: 8
   beats:
     - shot: "Presenter to camera"
       narration: "You do not have to name the lesion. You have to notice that the heart is not normal. Five planes, one sweep."
       claims: []
+    - shot: "Machine console and screen"
+      narration: "Cardiac preset. Narrow the sector. One focal zone at the heart. Zoom until the heart fills a third to a half of the screen."
+      claims: [IS23-014, IS23-015]
     - shot: "Diagram: fetus with five stacked planes"
-      narration: "From the upper abdomen to the upper chest: situs, four-chamber, left outflow, right outflow with the three-vessel view, and the three-vessel-and-trachea view."
-      claims: [D1-C003]
+      narration: "From the upper abdomen towards the head: abdomen, four chambers, left outflow, right outflow with three vessels, three vessels and trachea."
+      claims: [IS23-023]
     - shot: "Split screen: hand on abdomen / ultrasound screen"
-      narration: "Start by working out fetal left and right. Then the abdomen: stomach left, aorta left of the spine, vena cava in front and to the right."
-      claims: [D1-C012, D1-C011]
+      narration: "Work out fetal left and right first. Abdomen: stomach left, aorta left of the spine, vena cava right."
+      claims: [IS23-021, IS23-024]
     - shot: "Four-chamber clip with overlay of thorax outline and axis line"
-      narration: "A third of the chest. Mostly on the left. Axis about forty-five degrees, give or take twenty. Rate one-twenty to one-sixty, regular."
-      claims: [D1-C007, D1-C008, D1-C009]
+      narration: "A third of the chest. Mostly on the left. Axis forty-five degrees, give or take twenty. Rate one-twenty to one-sixty, regular."
+      claims: [IS23-026, IS23-028, IS23-033]
+    - shot: "Four-chamber clip, labels appearing one by one"
+      narration: "Two atria the same size, flap in the left. Two ventricles the same size, moderator band on the right. Septum intact from apex to crux. Two valves, the tricuspid a little nearer the apex."
+      claims: [IS23-038, IS23-042, IS23-043, IS23-044, IS23-047]
+    - shot: "Split screen: small tilt of the hand / LVOT clip"
+      narration: "Slide up. A vessel from the left ventricle, its wall continuous with the septum. It does not divide."
+      claims: [IS23-052, IS23-059]
+    - shot: "RVOT and three-vessel clip with overlay"
+      narration: "Up again. A vessel from the right ventricle crosses in front and divides. Three vessels in a line, big to small, left to right."
+      claims: [IS23-052, IS23-065, IS23-066]
+    - shot: "Three-vessel-and-trachea clip, grey-scale then colour"
+      narration: "Last plane. Two arches, both left of the trachea, meeting in a V. Colour shows both flowing the same way."
+      claims: [IS23-069, IS23-074]
     - shot: "Presenter"
-      narration: "Four chambers seen is not four chambers normal. Each view has its criteria, and that is the next lesson."
-      claims: [D1-C005]
+      narration: "If any plane fails its criteria, the fetus needs a fetal echocardiogram."
+      claims: [IS23-078]

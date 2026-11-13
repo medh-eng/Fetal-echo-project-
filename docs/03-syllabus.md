@@ -82,9 +82,9 @@ Template: definition and spectrum; embryology; findings view by view; Doppler; d
 | Z8 | Palliative care and bereavement ○ |
 | Z9 | Building a fetal cardiac service and referral network |
 
-## Strand P: For parents (alongside every tier)
+## Strand P: For parents
 
-Plain-language page and diagram per topic and per lesion, in English, Marathi and Hindi. Reviewed for accuracy, reading level and PC-PNDT compliance.
+Out of scope for now (decision of 13 Nov 2026: English only, for doctors). Counselling is taught to the clinician in D12 and Z1.
 
 ## Missing from the Gemini outline and added here
 

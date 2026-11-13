@@ -1,0 +1,901 @@
+# Evidence ledger: claims harvested from ISUOG-2023-SCREEN (full PDF).
+# These claims serve units D1-D13. All are ai-extracted: next steps are
+# cross-check by a different model (prompts/02-crosscheck.md), then sign-off
+# by the editor-in-chief. Paraphrased; page numbers are journal pages.
+
+source: ISUOG-2023-SCREEN
+claims:
+- id: IS23-001
+  statement: The guideline gives recommendations for cardiac screening of low-risk pregnancies in the second trimester,
+    and also considers late first-trimester and early second-trimester screening where technically feasible.
+  source: ISUOG-2023-SCREEN
+  locator: Introduction, p. 788
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-002
+  statement: The 2023 update encourages colour flow Doppler and adds new sections on quality assurance and on use
+    of a checklist.
+  source: ISUOG-2023-SCREEN
+  locator: Introduction, p. 788; Appendix 1, p. 802
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-003
+  statement: Congenital heart disease has a prevalence of 8.2 per 1000 live births and is a leading cause of infant
+    morbidity and mortality.
+  source: ISUOG-2023-SCREEN
+  locator: Introduction, p. 788
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-004
+  statement: Prenatal detection rates vary widely by region and by lesion type; fewer than half of cardiac anomalies
+    are identified before birth.
+  source: ISUOG-2023-SCREEN
+  locator: Introduction, p. 788
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-005
+  statement: Variation in detection is partly explained by examiner ability, transducer frequency, body habitus,
+    abdominal scars, gestational age, amniotic fluid volume and fetal position.
+  source: ISUOG-2023-SCREEN
+  locator: Introduction, p. 788
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-006
+  statement: A screening programme performs better with continuous feedback-based training, a low threshold for
+    echocardiography referral, standardised protocols and easy access to fetal heart specialists.
+  source: ISUOG-2023-SCREEN
+  locator: Introduction, p. 788
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-007
+  statement: The four-chamber and three-vessel views require much more than a simple count of cardiac structures.
+  source: ISUOG-2023-SCREEN
+  locator: General considerations, p. 788
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-008
+  statement: Some lesions are not discovered until later in pregnancy, and some (for example transposition of the
+    great arteries and aortic coarctation) may not be evident in the four-chamber plane alone.
+  source: ISUOG-2023-SCREEN
+  locator: General considerations, p. 788
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-009
+  statement: Adding outflow-tract and great-vessel views to the four-chamber view has played an important role in
+    improving detection of congenital heart disease.
+  source: ISUOG-2023-SCREEN
+  locator: General considerations, p. 788
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-010
+  statement: The cardiac screening examination is performed optimally between 18 and 22 weeks (good practice point).
+  source: ISUOG-2023-SCREEN
+  locator: Gestational age, p. 789
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-011
+  statement: Screening at 20-22 weeks is less likely to need an additional scan for completion than screening at
+    18-20 weeks, although many patients prefer to know about major defects as early as possible.
+  source: ISUOG-2023-SCREEN
+  locator: Gestational age, p. 789
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-012
+  statement: The highest possible transducer frequency should be used, accepting the trade-off between resolution
+    and penetration (good practice point).
+  source: ISUOG-2023-SCREEN
+  locator: 'Technical factors: Ultrasound transducer, p. 789'
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-013
+  statement: Tissue harmonic imaging improves images, especially with increased abdominal wall thickness and in
+    the third trimester.
+  source: ISUOG-2023-SCREEN
+  locator: 'Technical factors: Ultrasound transducer, p. 789'
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-014
+  statement: System settings should emphasise a high frame rate with increased contrast and high resolution, using
+    low persistence, a single focal zone and a relatively narrow image field; these are usually built into cardiac
+    presets (good practice point).
+  source: ISUOG-2023-SCREEN
+  locator: 'Technical factors: Imaging parameters, p. 789'
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-015
+  statement: The image should be magnified until the heart fills at least one third to one half of the screen (good
+    practice point).
+  source: ISUOG-2023-SCREEN
+  locator: 'Technical factors: Zoom, cine-loop and image storage, p. 789'
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-016
+  statement: Cine-loop should be used to assist real-time evaluation, for example to confirm movement of valve leaflets
+    through the cardiac cycle.
+  source: ISUOG-2023-SCREEN
+  locator: 'Technical factors: Zoom, cine-loop and image storage, p. 789'
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-017
+  statement: Still frames and video clips of the recommended structures and views should be archived, so that the
+    examination can later be reviewed for adequacy, with labelling of laterality and orientation where appropriate
+    (good practice point).
+  source: ISUOG-2023-SCREEN
+  locator: 'Technical factors: Zoom, cine-loop and image storage, p. 789'
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-018
+  statement: The cardiac screening examination should include fetal situs and the four-chamber, outflow-tract and
+    great-vessel views (grade of recommendation C).
+  source: ISUOG-2023-SCREEN
+  locator: Cardiac examination, p. 789
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-019
+  statement: Including outflow-tract and great-vessel views raises detection of major malformations above the four-chamber
+    view alone and enables detection of anomalies such as tetralogy of Fallot, transposition of the great arteries,
+    double-outlet right ventricle and truncus arteriosus.
+  source: ISUOG-2023-SCREEN
+  locator: Cardiac examination, p. 789
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-020
+  statement: The standardised workflow can also identify semilunar valve abnormalities such as aortic and pulmonary
+    stenosis, which may progress in severity as pregnancy advances.
+  source: ISUOG-2023-SCREEN
+  locator: Cardiac examination, p. 789
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-021
+  statement: To assess situs, fetal laterality (fetal right and left, from the position of the fetus in utero) must
+    be determined first, before confirming that both stomach and heart are on the fetal left.
+  source: ISUOG-2023-SCREEN
+  locator: 'Situs and the four-chamber view: Sonographic technique, p. 789'
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-022
+  statement: A transverse sweep with cephalad movement of the transducer from the fetal abdomen towards the chest
+    shows the abdominal situs and then the four-chamber view.
+  source: ISUOG-2023-SCREEN
+  locator: 'Situs and the four-chamber view: Sonographic technique, p. 789'
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-023
+  statement: 'The examination moves through five sequential axial planes: (I) upper abdomen, (II) four-chamber view,
+    (III) left ventricular outflow-tract view, (IV) right ventricular outflow-tract view with the three-vessel view
+    variants, (V) three-vessel-and-trachea view.'
+  source: ISUOG-2023-SCREEN
+  locator: Figure 1 legend, p. 789; Figure 2, p. 790
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-024
+  statement: 'Abdominal situs is assessed at the level of the standard abdominal circumference: stomach on the left,
+    with the descending aorta on the left and the inferior vena cava on the right side of the spine.'
+  source: ISUOG-2023-SCREEN
+  locator: Situs, p. 791; Figure 3; Table 1
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-025
+  statement: Normal abdominal situs is a surrogate for normal atrial situs (right atrium to the right, left atrium
+    to the left).
+  source: ISUOG-2023-SCREEN
+  locator: Situs, p. 791; Table 1 footnote
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-026
+  statement: A normal heart is usually no larger than one third of the area of the chest.
+  source: ISUOG-2023-SCREEN
+  locator: Four-chamber view, p. 791; Table 1; Appendix 1
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-027
+  statement: A small amount of pericardial fluid (2 mm or less in thickness at end-systole) is common in the second
+    and third trimesters and is normal; a small hypoechogenic rim around the heart should not be mistaken for an
+    effusion.
+  source: ISUOG-2023-SCREEN
+  locator: Four-chamber view, p. 791
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-028
+  statement: The heart lies mainly in the left chest and its long axis normally points left at about 45 degrees,
+    plus or minus 20 degrees (2 SD), relative to the anteroposterior axis of the chest.
+  source: ISUOG-2023-SCREEN
+  locator: Four-chamber view, p. 791; Figure 4, p. 792
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-029
+  statement: Cardiac axis and position can be evaluated even when the four-chamber view itself is not seen satisfactorily.
+  source: ISUOG-2023-SCREEN
+  locator: Four-chamber view, p. 791
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-030
+  statement: A situs abnormality should be suspected when the heart and/or stomach are not on the left.
+  source: ISUOG-2023-SCREEN
+  locator: Four-chamber view, p. 791
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-031
+  statement: An abnormal cardiac axis increases the risk of a cardiac malformation, especially of the outflow tracts,
+    and may be associated with a chromosomal anomaly.
+  source: ISUOG-2023-SCREEN
+  locator: Four-chamber view, p. 791
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-032
+  statement: Displacement of the heart from its normal position can be caused by diaphragmatic hernia, a space-occupying
+    lesion such as congenital pulmonary airway malformation, or lung hypoplasia or agenesis; a leftward shift of
+    the axis may also occur with gastroschisis and omphalocele.
+  source: ISUOG-2023-SCREEN
+  locator: Four-chamber view, p. 791
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-033
+  statement: Normal heart rate is 120 to 160 beats per minute, and the rhythm should be regular.
+  source: ISUOG-2023-SCREEN
+  locator: Four-chamber view, p. 791; Appendix 1
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-034
+  statement: Ectopic (skipped) beats are the most common rhythm disturbance; they are often benign, resolve spontaneously,
+    and in low-risk populations are not associated with increased risk of structural heart disease.
+  source: ISUOG-2023-SCREEN
+  locator: Four-chamber view, p. 791
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-035
+  statement: Frequent ectopic episodes (more than every three to five beats) or a rhythm that stays irregular for
+    more than 1-2 weeks are an indication for further assessment.
+  source: ISUOG-2023-SCREEN
+  locator: Four-chamber view, p. 792
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-036
+  statement: Transient bradycardia, often from transducer pressure, is seen in normal second-trimester fetuses;
+    persistent bradycardia (110 bpm or less) in a well fetus needs timely evaluation by a fetal cardiac specialist.
+    Possible causes include frequent blocked atrial ectopic beats, atrioventricular block and sinus bradycardia.
+  source: ISUOG-2023-SCREEN
+  locator: Four-chamber view, p. 792
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-037
+  statement: Mild transient tachycardia (160-180 bpm) can be a normal variant during fetal movement; persistent
+    tachycardia (180 bpm or more) should be evaluated further for tachyarrhythmia or fetal hypoxia.
+  source: ISUOG-2023-SCREEN
+  locator: Four-chamber view, p. 792
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-038
+  statement: The two atria normally look similar in size, the foramen ovale flap moves within the left atrium, and
+    the septum primum (lower rim of atrial septum) should be present.
+  source: ISUOG-2023-SCREEN
+  locator: Four-chamber view, p. 792; Table 1
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-039
+  statement: The cardiac crux is the point where the lower atrial septum meets the upper ventricular septum and
+    where the atrioventricular valves insert.
+  source: ISUOG-2023-SCREEN
+  locator: Four-chamber view, p. 792
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-040
+  statement: When technically feasible, at least one pulmonary vein should be seen entering the left atrium on B-mode;
+    colour flow can help but is not mandatory for this.
+  source: ISUOG-2023-SCREEN
+  locator: Four-chamber view, p. 792; Table 1
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-041
+  statement: When colour Doppler is used, it should be displayed alongside the B-mode image to avoid false-negative
+    findings.
+  source: ISUOG-2023-SCREEN
+  locator: Four-chamber view, p. 792
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-042
+  statement: The moderator band near the apex identifies the morphological right ventricle; the left ventricular
+    apex looks smooth and forms the apex of the heart.
+  source: ISUOG-2023-SCREEN
+  locator: Four-chamber view, pp. 792-793; Table 1
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-043
+  statement: The ventricles should look similar in size with no wall thickening. Mild disproportion can be a normal
+    variant in the third trimester, but right-left asymmetry in mid-gestation warrants further examination; important
+    causes are coarctation of the aorta, evolving hypoplastic left heart syndrome and anomalous pulmonary venous
+    return.
+  source: ISUOG-2023-SCREEN
+  locator: Four-chamber view, p. 793
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-044
+  statement: The ventricular septum should be examined from apex to crux and, if possible, with a sweep from its
+    most posterior part towards the outflow tracts.
+  source: ISUOG-2023-SCREEN
+  locator: Four-chamber view, p. 793
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-045
+  statement: The septum is best seen with the beam perpendicular to it; with the beam parallel to the septum, acoustic
+    drop-out can falsely suggest a defect near the crux.
+  source: ISUOG-2023-SCREEN
+  locator: Four-chamber view, p. 793
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-046
+  statement: Small septal defects (1-2 mm) can be very difficult to confirm; most are of limited clinical significance
+    and may close spontaneously in utero.
+  source: ISUOG-2023-SCREEN
+  locator: Four-chamber view, p. 793
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-047
+  statement: Two separate atrioventricular valves should open separately and freely, with the septal leaflet of
+    the tricuspid valve inserting closer to the apex than the mitral valve (normal offset); abnormal alignment is
+    a key finding in atrioventricular septal defect.
+  source: ISUOG-2023-SCREEN
+  locator: Four-chamber view, p. 793; Table 1
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-048
+  statement: The left and right ventricular outflow-tract views and the three-vessel and three-vessel-and-trachea
+    views are an integral part of the cardiac screening examination.
+  source: ISUOG-2023-SCREEN
+  locator: Outflow-tract, three-vessel and three-vessel-and-trachea views, p. 793
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-049
+  statement: For the two great arteries, the examiner should establish connection to the correct ventricle, size,
+    position relative to each other, and normal appearance and opening of the semilunar valves.
+  source: ISUOG-2023-SCREEN
+  locator: Outflow-tract, three-vessel and three-vessel-and-trachea views, p. 793
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-050
+  statement: In a survey of over 18 000 fetuses, 93% of examinations with an adequate four-chamber view also achieved
+    satisfactory outflow-tract evaluation; non-visualisation rates were 4.2% for the left outflow tract, 1.6% for
+    the right and 1.3% for both.
+  source: ISUOG-2023-SCREEN
+  locator: Outflow-tract, three-vessel and three-vessel-and-trachea views, p. 793
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-051
+  statement: As a minimum, the great arteries should be shown to be approximately equal in size; a major discrepancy
+    should lead to further evaluation.
+  source: ISUOG-2023-SCREEN
+  locator: Outflow-tract, three-vessel and three-vessel-and-trachea views, p. 793
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-052
+  statement: 'Three things are confirmed at the outflow tracts: the vessel leaving the left ventricle has its anterior
+    wall continuous with the ventricular septum and does not bifurcate (aorta); the vessel leaving the right ventricle
+    bifurcates (pulmonary artery); and the two great arteries cross each other.'
+  source: ISUOG-2023-SCREEN
+  locator: Outflow-tract, three-vessel and three-vessel-and-trachea views, p. 793; Appendix 1
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-053
+  statement: The three-vessel and three-vessel-and-trachea views help detect anomalies of the outflow tracts, aortic
+    arch and systemic veins, including persistent left superior vena cava, and thymic anomalies.
+  source: ISUOG-2023-SCREEN
+  locator: Outflow-tract, three-vessel and three-vessel-and-trachea views, p. 793
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-054
+  statement: The three-vessel-and-trachea view is particularly useful for aortic arch abnormalities such as coarctation,
+    vascular rings and aberrant right subclavian artery.
+  source: ISUOG-2023-SCREEN
+  locator: Outflow-tract, three-vessel and three-vessel-and-trachea views, p. 793
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-055
+  statement: 'Sweep technique: a transverse sweep with cephalad movement from the four-chamber view towards the
+    upper chest gives the LVOT and RVOT views, the three-vessel view and the three-vessel-and-trachea view in sequence
+    (good practice point).'
+  source: ISUOG-2023-SCREEN
+  locator: 'Outflow tracts: Sonographic technique, p. 793'
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-056
+  statement: When fetal lie is unfavourable, extra examination time or a second examination may be needed.
+  source: ISUOG-2023-SCREEN
+  locator: 'Outflow tracts: Sonographic technique, p. 793'
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-057
+  statement: 'Rotational technique: from the four-chamber view the transducer is rotated towards the fetal right
+    shoulder; it is easier when the septum is perpendicular to the beam, may need slightly more skill, and optimises
+    the LVOT, especially the outlet septum in continuity with the anterior aortic wall.'
+  source: ISUOG-2023-SCREEN
+  locator: 'Outflow tracts: Sonographic technique, p. 793'
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-058
+  statement: Once the LVOT is obtained, the transducer is angled cephalad until the pulmonary artery is seen running
+    almost perpendicular to the aorta; the relationship of the two outflow tracts is best shown on cine clips, not
+    still frames.
+  source: ISUOG-2023-SCREEN
+  locator: 'Outflow tracts: Sonographic technique, p. 793'
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-059
+  statement: The LVOT view confirms a great vessel arising from the morphological left ventricle; continuity between
+    the ventricular septum and the anterior wall of the vessel should be documented. Only the head and neck vessels
+    arising from it confirm that the vessel is the aorta.
+  source: ISUOG-2023-SCREEN
+  locator: LVOT view, p. 794; Figure 6
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-060
+  statement: The aortic valve should move freely and should not be thickened.
+  source: ISUOG-2023-SCREEN
+  locator: LVOT view, p. 794; Appendix 1
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-061
+  statement: Sagittal views of the aortic and ductal arches and assessment of the neck vessels are not currently
+    part of the routine cardiac screening examination.
+  source: ISUOG-2023-SCREEN
+  locator: LVOT view, p. 794
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-062
+  statement: The LVOT view helps identify outlet ventricular septal defects, conotruncal abnormalities and aortic
+    valve abnormalities that are not visible in the four-chamber view.
+  source: ISUOG-2023-SCREEN
+  locator: LVOT view, p. 794
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-063
+  statement: The axial appearances of the RVOT, branch pulmonary arteries and ductal and aortic arches form a continuum
+    of views that varies with transducer orientation and fetal lie; assessment is more reliable live or on cine-loop
+    than from still images alone.
+  source: ISUOG-2023-SCREEN
+  locator: RVOT view, 3VV and 3VTV, p. 794; Figure 8, p. 795
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-064
+  statement: The RVOT view confirms the pulmonary artery arising from the morphological right ventricle and branching
+    after a short course; the pulmonary valve should move freely and should not be thickened.
+  source: ISUOG-2023-SCREEN
+  locator: RVOT view, 3VV and 3VTV, p. 794; Figure 7, p. 795
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-065
+  statement: The normal pulmonary artery runs to the left of the more posterior ascending aorta, is usually slightly
+    larger than the ascending aorta in fetal life, and crosses it at almost a right angle; the superior vena cava
+    lies to the right of the aorta.
+  source: ISUOG-2023-SCREEN
+  locator: RVOT view, 3VV and 3VTV, p. 794
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-066
+  statement: The three-vessel view is assessed for vessel number, size, alignment and arrangement. From left to
+    right the vessels are pulmonary artery, aorta and right superior vena cava; the pulmonary artery is most anterior
+    and the vena cava most posterior; diameters decrease from left to right.
+  source: ISUOG-2023-SCREEN
+  locator: RVOT view, 3VV and 3VTV, p. 794; Figure 7, p. 795
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-067
+  statement: Lesions that can have a seemingly normal four-chamber view (complete transposition, tetralogy of Fallot,
+    double-outlet right ventricle, common arterial trunk, pulmonary atresia with ventricular septal defect) are
+    typically abnormal in the three-vessel view.
+  source: ISUOG-2023-SCREEN
+  locator: RVOT view, 3VV and 3VTV, p. 794
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-068
+  statement: The three-vessel-and-trachea view is a slightly oblique transverse plane cephalad to the three-vessel
+    view, showing the main pulmonary artery continuous with the ductus arteriosus and the transverse aortic arch
+    just to its right; the trachea appears as a bright ring around a small fluid-filled space.
+  source: ISUOG-2023-SCREEN
+  locator: RVOT view, 3VV and 3VTV, p. 796; Figure 9
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-069
+  statement: Normally the ductus arteriosus and aortic arch both run to the left of the trachea and meet at an acute
+    angle (V shape); the right superior vena cava and the thymus are also seen in this plane.
+  source: ISUOG-2023-SCREEN
+  locator: RVOT view, 3VV and 3VTV, p. 796; Figure 9; Appendix 1
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-070
+  statement: The aortic arch is more cranial than the ductal arch, so showing both together may need slight adjustment
+    away from a true axial plane.
+  source: ISUOG-2023-SCREEN
+  locator: RVOT view, 3VV and 3VTV, p. 796
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-071
+  statement: The three-vessel-and-trachea view is likely to enable detection of coarctation of the aorta, right
+    aortic arch and double aortic arch.
+  source: ISUOG-2023-SCREEN
+  locator: RVOT view, 3VV and 3VTV, p. 796
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-072
+  statement: Anomalies found on the three-vessel views can change counselling and management, for example prompting
+    testing for 22q11 microdeletion, planning delivery location (as in complete transposition), anticipating prostaglandin
+    infusion, or anticipating airway problems from vascular compression.
+  source: ISUOG-2023-SCREEN
+  locator: RVOT view, 3VV and 3VTV, p. 796
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-073
+  statement: Colour flow Doppler is not mandatory in screening, but becoming familiar with it and adding it to routine
+    screening is encouraged; it can be used if the operator feels competent.
+  source: ISUOG-2023-SCREEN
+  locator: Color flow Doppler ultrasound, p. 796
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-074
+  statement: In a normal heart, colour shows antegrade flow across the atrioventricular and semilunar valves and
+    great arteries; it helps show the V-sign and highlights abnormal patterns such as atrioventricular valve regurgitation
+    and flow reversal in the ductus arteriosus or aortic arch.
+  source: ISUOG-2023-SCREEN
+  locator: Color flow Doppler ultrasound, p. 796
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-075
+  statement: Colour Doppler may be valuable in obese patients and may further improve detection of major heart disease
+    in low-risk pregnancies.
+  source: ISUOG-2023-SCREEN
+  locator: Color flow Doppler ultrasound, p. 796
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-076
+  statement: The colour box should be narrow and placed only over the area of interest; this preserves frame rate
+    and colour image quality.
+  source: ISUOG-2023-SCREEN
+  locator: Color flow Doppler ultrasound, p. 796
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-077
+  statement: In routine second-trimester screening the colour velocity scale should be about 50-70 cm/s for intracardiac
+    structures and vessels, with low colour persistence; it should be lower, about 15-25 cm/s, for venous structures.
+  source: ISUOG-2023-SCREEN
+  locator: Color flow Doppler ultrasound, p. 796
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-078
+  statement: Fetuses with a known or suspected abnormality on cardiac screening are candidates for fetal echocardiography
+    (good practice point).
+  source: ISUOG-2023-SCREEN
+  locator: Fetal echocardiography, p. 796
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-079
+  statement: With a significant risk factor for congenital heart disease, fetal echocardiography is indicated in
+    addition to routine screening, depending on local resources, setting, examiner availability and screening results
+    (good practice point).
+  source: ISUOG-2023-SCREEN
+  locator: Fetal echocardiography, p. 796
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-080
+  statement: A high proportion of prenatally detectable heart disease occurs in pregnancies with no risk factors
+    or extracardiac anomalies, which is why quality screening and timely referral matter.
+  source: ISUOG-2023-SCREEN
+  locator: Fetal echocardiography, p. 796
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-081
+  statement: Nuchal translucency of 3.5 mm or more at 11-14 weeks is an indication for detailed cardiac evaluation
+    even if the measurement later falls within the normal range.
+  source: ISUOG-2023-SCREEN
+  locator: Fetal echocardiography, p. 797
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-082
+  statement: 'Common fetal indications for fetal echocardiography: suspected structural anomaly; extracardiac anomaly
+    associated with heart disease; suspected abnormal function or cardiomegaly; hydrops; persistent tachycardia
+    (180 bpm or more); suspected heart block or persistent bradycardia (110 bpm or less); frequent or persistently
+    irregular rhythm; nuchal translucency 3.5 mm or more; confirmed or suspected genetic abnormality; monochorionic
+    twinning (if resources allow).'
+  source: ISUOG-2023-SCREEN
+  locator: Table 2, 'Fetal factors', p. 797
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-083
+  statement: 'Common patient or familial indications: first-degree relative of the fetus with congenital heart disease;
+    first- or second-degree relative with Mendelian disease and childhood cardiac manifestations; pregestational
+    diabetes regardless of HbA1c; anti-Ro/SSA antibodies; phenylketonuria (unknown status or periconceptional phenylalanine
+    above 10 mg/dL); retinoid exposure; confirmed fetal infection (TORCH or parvovirus B19).'
+  source: ISUOG-2023-SCREEN
+  locator: Table 2, 'Patient or familial disease or environmental exposure', p. 797
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-084
+  statement: 'Fetal echocardiography may be considered for: second-degree relative with congenital heart disease;
+    gestational diabetes diagnosed in the first or early second trimester; nuchal translucency 3.0-3.4 mm; selected
+    teratogens (for example paroxetine, carbamazepine, lithium, sodium valproate); conception by IVF including ICSI;
+    use of ACE inhibitors.'
+  source: ISUOG-2023-SCREEN
+  locator: Table 2, 'Other indications when fetal echo may be considered', p. 797
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-085
+  statement: 'Evidence is insufficient that risk is significantly above baseline for: obesity (BMI 35 or more),
+    SSRI exposure other than paroxetine, non-cardiac soft markers, abnormal serum analytes, isolated single umbilical
+    artery, gestational diabetes diagnosed after the second trimester, warfarin or alcohol exposure, echogenic intracardiac
+    focus, fever or viral infection with seroconversion only, or isolated heart disease in a relative more distant
+    than second degree.'
+  source: ISUOG-2023-SCREEN
+  locator: Table 2, 'Other considerations', p. 797
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-086
+  statement: Fetal echocardiography is best performed by a trained specialist familiar with prenatal diagnosis and
+    postnatal course; counselling after detection should take account of the high prevalence of maternal psychological
+    distress.
+  source: ISUOG-2023-SCREEN
+  locator: Fetal echocardiography, p. 797
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-087
+  statement: Quality assessment of a screening examination covers image quality, acquisition of the standard planes,
+    appropriate interpretation of the views, and complete documentation.
+  source: ISUOG-2023-SCREEN
+  locator: Quality assurance, p. 797
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-088
+  statement: In one retrospective study of missed prenatal diagnoses, failure to meet technical criteria contributed
+    to about 50% of misses, and failure to recognise abnormal anatomy on a technically adequate view accounted for
+    another 31%.
+  source: ISUOG-2023-SCREEN
+  locator: Quality assurance, p. 797
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-089
+  statement: Audit against predetermined quality criteria for still images or clips is encouraged, and each practice
+    is encouraged to review its local detection rates and diagnostic accuracy annually and provide further training
+    as needed.
+  source: ISUOG-2023-SCREEN
+  locator: Quality assurance, p. 797
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-090
+  statement: First-trimester cardiac screening has been shown to be effective in low-risk populations, but it is
+    neither routine nor mandatory; where possible it can be done at the nuchal translucency scan.
+  source: ISUOG-2023-SCREEN
+  locator: Early fetal cardiac screening, p. 797
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-091
+  statement: Minimum requirements for early screening are seeing the heart within the chest and confirming a regular
+    rhythm; success in visualising cardiac structures is significantly higher after 12+3 weeks.
+  source: ISUOG-2023-SCREEN
+  locator: Early fetal cardiac screening, p. 797
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-092
+  statement: For early screening, high-frequency transabdominal transducers are recommended (transvaginal may be
+    used), with colour and/or high-quality power Doppler in addition to greyscale.
+  source: ISUOG-2023-SCREEN
+  locator: Early fetal cardiac screening, p. 798
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-093
+  statement: In early screening, Doppler should be used mainly for the four-chamber view and the three-vessel-and-trachea
+    view; the thermal index should be 1.0 or less and exposure as short as possible (usually no more than 5-10 minutes).
+  source: ISUOG-2023-SCREEN
+  locator: Early fetal cardiac screening, p. 798
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-094
+  statement: 'Recommended components of a detailed early cardiac screen: situs and cardiac axis on greyscale; four-chamber
+    view on greyscale and colour or power Doppler; three-vessel-and-trachea view on colour or power Doppler showing
+    left-sided aortic and ductal arches (good practice point).'
+  source: ISUOG-2023-SCREEN
+  locator: Early fetal cardiac screening, p. 798; Figure 10
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-095
+  statement: Outflow-tract views in early gestation are often challenging and prone to false-negative and false-positive
+    diagnosis; any suspicion at the early scan should lead to referral for early fetal echocardiography.
+  source: ISUOG-2023-SCREEN
+  locator: Early fetal cardiac screening, p. 798
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null
+- id: IS23-096
+  statement: The screening checklist for the three-vessel-and-trachea view asks for the V-sign (both arches left
+    of the trachea) and for ductal and aortic arches of similar size.
+  source: ISUOG-2023-SCREEN
+  locator: Appendix 1, p. 802
+  status: ai-extracted
+  extracted_by: Claude, from the full PDF (13 Nov 2026)
+  checked_by: null
+  verified_by: null

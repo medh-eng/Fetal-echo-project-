@@ -1,6 +1,6 @@
 # Master plan: Fetal Echo Project
 
-Version 0.1, 12 Nov 2026. Status: proposal for the clinical lead to accept, change or reject.
+Version 0.2, 13 Nov 2026. Decisions in section 13 are recorded; build detail is in `06-build-plan.md`.
 
 ## 1. The idea in one paragraph
 
@@ -14,7 +14,7 @@ Build **one verified body of knowledge** and publish it four ways: a book, an ap
 | **Diagnose** | Fetal medicine specialists, paediatric cardiologists, fellows | "What exactly is this lesion and how will it behave?" | Medium |
 | **Decide** | Fetal medicine and cardiac teams, neonatologists, counsellors | "What do we tell the family, where should delivery be, is intervention an option?" | Smallest |
 
-A fourth strand runs through all three: **material for parents**, in plain language and in Marathi, Hindi and English.
+Language is English. A parent-material strand was considered and is out of scope for now (see section 13).
 
 Detect is the first release. Diagnose and Decide are written to reference depth later, with specialist co-authors.
 
@@ -54,7 +54,7 @@ Ranked by teaching value against effort.
 | 4 | **Circulation sandbox** | A simple flow model of the fetal circulation. Narrow a valve or close the foramen and watch flows redistribute; press "birth" to see the transition. Labelled as a teaching model | No |
 | 5 | **Missed-diagnosis casebook** | Real misses, why they happened (setting, view, assumption) and the habit that prevents each | Yes |
 | 6 | **Embryology "what breaks when"** | A developmental timeline where each step links to the lesions that result when it fails | No |
-| 7 | **Counselling kit** | Parent-facing explainers and diagrams per lesion in three languages, with a clinician guide to the conversation | No |
+| 7 | **Counselling guide** | For the clinician: how to explain each finding to parents, with diagrams. English | No |
 | 8 | **Scan-room simulations** | Branching cases: you see a view, choose the next step, get feedback | Some |
 | 9 | **Structured checklist and report template** | The five-view checklist as a printable and in-app tool | No |
 
@@ -93,7 +93,7 @@ AI can draft, check and build. It cannot be the author of record.
 
 | Role | Who | Status |
 |---|---|---|
-| Editor-in-chief and clinical lead | Fetal medicine specialist | Proposed; confirm in section 13 |
+| Editor-in-chief and clinical lead | Dr Kunda Shahane | Confirmed |
 | Product owner, build and operations | Your team, with AI tools | Proposed |
 | Co-editor, cardiology | Fetal or paediatric cardiologist | **To recruit** before Diagnose tier |
 | Section reviewers | Paediatric cardiac surgeon, neonatologist, geneticist, fetal MRI radiologist | To invite per chapter |
@@ -142,7 +142,7 @@ Built into Phase 1, not bolted on.
 1. Clinical lead reads this plan and marks changes.
 2. Answer the five decisions in section 13.
 3. Collect the core source PDFs into a private folder (ISUOG 2023 screening, ISUOG fetal echo, ASE 2023, AHA 2014, AIUM, relevant Indian guidance).
-4. Draft the consent form in three languages; book the legal consultation; start the ethics application.
+4. Review the existing consent wording against teaching use in a paid product; book the legal consultation; start the ethics application.
 5. Define the standard clip set and test exporting one normal case from the ultrasound machine end-to-end through de-identification.
 
 Exit: decisions recorded, sources in hand, one clean de-identified normal clip set.
@@ -177,13 +177,24 @@ Exit: 40 lesions verified by cardiology co-editor; book v1 published.
 
 Perinatal planning, fetal intervention, fetal MRI, counselling and ethics in depth, postnatal surgery overview. Reference calculators after regulatory review. Translations. Accreditation for CME credit. Print edition.
 
-## 13. Decisions needed from you
+## 13. Decisions (recorded 13 Nov 2026)
 
-1. **First audience.** Confirm Detect tier (screening sonologists) as release 1, or choose another.
-2. **Clinical authorship.** Who is editor-in-chief, and is there a cardiologist you would approach as co-editor?
-3. **Languages.** English first with Marathi/Hindi parent material, or fully bilingual from the start?
-4. **Open or paid.** Free and open, free with paid certification, or subscription? This sets licensing for everything.
-5. **Case capture.** Can the clinic start saving the standard clip set with consent now, and which ultrasound machine and export formats are available?
+| Question | Decision |
+|---|---|
+| First audience | **Detect tier.** Radiologists and gynaecologists doing obstetric scans, fellowship students, other doctors |
+| Editor-in-chief | **Dr Kunda Shahane**, MBBS, MS (ObGy), FIFM, Fetal Medicine Consultant, Mayflower Clinic, Nagpur |
+| Cardiology co-editor | Open. Needed before the Diagnose tier |
+| Language | **English only.** The parent-material strand is dropped from scope for now |
+| Business model | **Subscription** |
+| Media | Existing normal and anomaly images and clips from 14 years of practice at Mayflower Clinic, to be anonymised; consent held |
+| Machine | GE Voluson Signature 18 |
+
+Consequences:
+
+- Subscription means all content must be owned, licensed for commercial use, or open under a licence that permits it. Material licensed "non-commercial" cannot be used.
+- An existing archive removes the biggest risk in the plan. The first job becomes cataloguing and anonymising it, not collecting new cases.
+- To confirm: that the consent held covers publication for teaching in a paid product, not only clinical care. Where it does not, or cannot be shown, the case is used only after re-consent or not at all.
+- Subscription needs accounts and payment, so a small backend enters at launch (Phase 2), not before.
 
 ## 14. Risks
 
