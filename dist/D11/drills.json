@@ -1,0 +1,203 @@
+{
+  "unit": "D11",
+  "title": "When and how to refer",
+  "status": "ai-extracted",
+  "items": [
+    {
+      "id": "D11-Q01",
+      "question": "One plane of the sweep does not meet its criteria, but you cannot say what the lesion is. What next?",
+      "options": [
+        "Refer for fetal echocardiography: a suspected abnormality is enough",
+        "Wait until you can name the lesion",
+        "Report the heart as normal if the four-chamber view is normal",
+        "Repeat the scan after delivery"
+      ],
+      "answer": 0,
+      "explanation": "Fetuses with a known or suspected abnormality on cardiac screening are candidates for fetal echocardiography.",
+      "claims": [
+        "IS23-078"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D11-Q02",
+      "question": "The mother has pregestational diabetes with a good HbA1c. Is fetal echocardiography indicated?",
+      "options": [
+        "Yes: pregestational diabetes is an indication whatever the HbA1c",
+        "No: only if the HbA1c is raised",
+        "No: diabetes is not a risk factor",
+        "Only if the screening scan is abnormal"
+      ],
+      "answer": 0,
+      "explanation": "Pregestational diabetes is listed as an indication regardless of HbA1c.",
+      "claims": [
+        "IS23-083"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "D11-Q03",
+      "question": "Gestational diabetes was diagnosed in the third trimester. How does the guideline class this factor?",
+      "options": [
+        "Insufficient evidence that risk is significantly above baseline",
+        "A common indication, like all diabetes",
+        "A factor where echocardiography may be considered",
+        "Not mentioned in the guideline"
+      ],
+      "answer": 0,
+      "explanation": "Gestational diabetes diagnosed after the second trimester is among the factors with insufficient evidence of raised risk. Pregestational diabetes is different.",
+      "claims": [
+        "IS23-085",
+        "IS23-083"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "D11-Q04",
+      "question": "An isolated echogenic intracardiac focus is seen and the heart is otherwise normal on screening. What does the guideline say about risk?",
+      "options": [
+        "Evidence is insufficient that risk of heart disease is significantly above baseline",
+        "It is a common indication for fetal echocardiography",
+        "It indicates a ventricular septal defect",
+        "It indicates an arrhythmia"
+      ],
+      "answer": 0,
+      "explanation": "Echogenic intracardiac focus is listed among factors with insufficient evidence of risk significantly above baseline.",
+      "claims": [
+        "IS23-085"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "D11-Q05",
+      "question": "The fetus's older sibling had surgery for congenital heart disease. Is fetal echocardiography indicated?",
+      "options": [
+        "Yes: heart disease in a first-degree relative of the fetus is an indication",
+        "No: only parents count as relatives",
+        "It may be considered but is not indicated",
+        "No: family history does not change risk"
+      ],
+      "answer": 0,
+      "explanation": "A first-degree relative of the fetus with congenital heart disease is a listed indication. A second-degree relative falls under 'may be considered'.",
+      "claims": [
+        "IS23-083",
+        "IS23-084"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "D11-Q06",
+      "question": "The pregnancy was conceived by IVF with ICSI. What does the guideline say?",
+      "options": [
+        "Fetal echocardiography may be considered",
+        "Fetal echocardiography is a firm indication",
+        "Evidence is insufficient that risk is raised",
+        "The routine cardiac screen can be omitted"
+      ],
+      "answer": 0,
+      "explanation": "Conception by IVF, including ICSI, is in the group where fetal echocardiography may be considered.",
+      "claims": [
+        "IS23-084"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "D11-Q07",
+      "question": "Which of these is a listed fetal indication for fetal echocardiography?",
+      "options": [
+        "Hydrops",
+        "Isolated single umbilical artery",
+        "A non-cardiac soft marker",
+        "Abnormal serum analytes"
+      ],
+      "answer": 0,
+      "explanation": "Hydrops is a listed fetal indication. The other three are among factors with insufficient evidence of raised risk.",
+      "claims": [
+        "IS23-082",
+        "IS23-085"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "D11-Q08",
+      "question": "The mother takes paroxetine. Another mother takes a different SSRI. How does the guideline treat them?",
+      "options": [
+        "Paroxetine: echocardiography may be considered. Other SSRIs: insufficient evidence of raised risk",
+        "Both are firm indications",
+        "Neither is mentioned",
+        "Other SSRIs are an indication; paroxetine is not"
+      ],
+      "answer": 0,
+      "explanation": "Paroxetine is named among selected teratogens where echocardiography may be considered. SSRI exposure other than paroxetine is in the insufficient-evidence group.",
+      "claims": [
+        "IS23-084",
+        "IS23-085"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "D11-Q09",
+      "question": "The mother is known to have anti-Ro/SSA antibodies. The screening scan is normal. Is fetal echocardiography indicated?",
+      "options": [
+        "Yes: anti-Ro/SSA antibodies are a listed indication",
+        "No: only if the heart rate is already slow",
+        "No: antibodies are not relevant to the fetal heart",
+        "Only after 32 weeks"
+      ],
+      "answer": 0,
+      "explanation": "Anti-Ro/SSA antibodies are among the listed maternal indications.",
+      "claims": [
+        "IS23-083"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "D11-Q10",
+      "question": "At 20 weeks the left ventricle is clearly smaller than the right. What is the correct reading?",
+      "options": [
+        "It warrants further examination; causes include coarctation and an evolving hypoplastic left heart",
+        "A normal variant at this gestation",
+        "Normal if the heart rate is regular",
+        "Recheck only in the third trimester"
+      ],
+      "answer": 0,
+      "explanation": "Mild disproportion can be a variant in the third trimester, but right-left asymmetry in mid-gestation warrants further examination.",
+      "claims": [
+        "IS23-043"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D11-Q11",
+      "question": "Who is best placed to perform the fetal echocardiogram?",
+      "options": [
+        "A trained specialist familiar with prenatal diagnosis and with the course after birth",
+        "Any sonologist with a machine that has colour Doppler",
+        "A general paediatrician after delivery",
+        "The referring doctor, at the next routine visit"
+      ],
+      "answer": 0,
+      "explanation": "Fetal echocardiography is best performed by a trained specialist familiar with prenatal diagnosis and postnatal course.",
+      "claims": [
+        "IS23-086"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "D11-Q12",
+      "question": "Why do most babies with heart disease not come from the group with risk factors?",
+      "options": [
+        "A high proportion of detectable heart disease occurs in pregnancies with no risk factor",
+        "Risk factors protect against heart disease",
+        "Pregnancies with risk factors are never screened",
+        "Heart disease in pregnancies with risk factors cannot be detected"
+      ],
+      "answer": 0,
+      "explanation": "This is why quality screening of every pregnancy and timely referral matter.",
+      "claims": [
+        "IS23-080"
+      ],
+      "status": "expert-verified"
+    }
+  ]
+}

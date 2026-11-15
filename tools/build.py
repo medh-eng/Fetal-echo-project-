@@ -15,6 +15,7 @@ Outputs per unit in dist/<unit>/:
 import argparse
 import html
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -96,6 +97,10 @@ def validate(release=False):
         for m in u.get("missing_claims", []):
             warnings.append(f"{path.name}: MISSING CLAIM - {m}")
 
+    def order(u):
+        m = re.match(r"([A-Z]+)(\d+)", u["id"])
+        return (m.group(1), int(m.group(2))) if m else (u["id"], 0)
+    units.sort(key=order)
     return errors, warnings, sources, claims, units
 
 
@@ -383,6 +388,8 @@ def main():
         print(f"built {u['id']} ({status}) -> dist/{u['id']}/")
     import outputs
     outputs.build_all(units, claims, sources, unit_status, banner, cite, STATUSES)
+    import editor_pack
+    editor_pack.build(units, claims)
     return 0
 
 

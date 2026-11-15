@@ -1,0 +1,168 @@
+{
+  "unit": "D13",
+  "title": "Quality assurance and audit",
+  "status": "ai-extracted",
+  "items": [
+    {
+      "id": "D13-Q01",
+      "question": "By which four things is the quality of a cardiac screening examination judged?",
+      "options": [
+        "Image quality, acquisition of the standard planes, interpretation of the views, and documentation",
+        "Scan duration, machine model, transducer type and gestational age",
+        "Number of images, colour Doppler use, 3D use and report length",
+        "Patient satisfaction, waiting time, cost and report turnaround"
+      ],
+      "answer": 0,
+      "explanation": "Quality assessment covers image quality, acquisition of the standard planes, appropriate interpretation and complete documentation.",
+      "claims": [
+        "IS23-087"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "D13-Q02",
+      "question": "Why should stills and clips of the cardiac views be archived?",
+      "options": [
+        "So the examination can be reviewed later for adequacy",
+        "Only to give copies to the family",
+        "Because clips replace the written report",
+        "There is no recommendation to store them"
+      ],
+      "answer": 0,
+      "explanation": "Still frames and clips of the recommended views should be archived so the examination can later be reviewed for adequacy.",
+      "claims": [
+        "IS23-017"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D13-Q03",
+      "question": "What should be labelled on stored images where appropriate?",
+      "options": [
+        "Laterality and orientation",
+        "The examiner's opinion of the family history",
+        "The thermal index only",
+        "Nothing; labels reduce image quality"
+      ],
+      "answer": 0,
+      "explanation": "Stored images should carry labelling of laterality and orientation where appropriate.",
+      "claims": [
+        "IS23-017"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D13-Q04",
+      "question": "For the outflow-tract and three-vessel planes, which is the more reliable record?",
+      "options": [
+        "A cine clip",
+        "A single still frame of each",
+        "A written description alone",
+        "A measurement of each vessel"
+      ],
+      "answer": 0,
+      "explanation": "These planes are a continuum that varies with probe orientation and fetal lie; assessment is more reliable live or on cine-loop than from stills alone.",
+      "claims": [
+        "IS23-063"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D13-Q05",
+      "question": "How often is a practice encouraged to review its detection rates and diagnostic accuracy?",
+      "options": [
+        "Every year",
+        "Every ten years",
+        "Only when a diagnosis is missed",
+        "Never; this is the job of the referral centre"
+      ],
+      "answer": 0,
+      "explanation": "Annual review of local detection rates and accuracy is encouraged.",
+      "claims": [
+        "IS23-089"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "D13-Q06",
+      "question": "What is audit of stored images measured against?",
+      "options": [
+        "Quality criteria set in advance",
+        "The examiner's memory of the scan",
+        "The length of the examination",
+        "The number of images stored"
+      ],
+      "answer": 0,
+      "explanation": "Audit against predetermined quality criteria for still images or clips is encouraged.",
+      "claims": [
+        "IS23-089"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "D13-Q07",
+      "question": "Your annual review shows that outflow-tract views were often not stored or not adequate. What does the guideline encourage?",
+      "options": [
+        "Further training targeted at the gap",
+        "Dropping outflow-tract views from the protocol",
+        "No action unless a baby was harmed",
+        "Replacing the machine"
+      ],
+      "answer": 0,
+      "explanation": "Practices are encouraged to review their results and provide further training as needed; outflow-tract views are an integral part of the screen.",
+      "claims": [
+        "IS23-089",
+        "IS23-048"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "D13-Q08",
+      "question": "How large should the heart appear on the screen for a good-quality image?",
+      "options": [
+        "At least a third to a half of the screen",
+        "About a tenth of the screen",
+        "Size on screen does not matter",
+        "The whole fetus should be in view with the heart"
+      ],
+      "answer": 0,
+      "explanation": "The image should be magnified until the heart fills at least one third to one half of the screen.",
+      "claims": [
+        "IS23-015"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D13-Q09",
+      "question": "Which settings favour a good-quality cardiac image?",
+      "options": [
+        "High frame rate, low persistence, a single focal zone and a narrow image field",
+        "Low frame rate, high persistence and a wide image field",
+        "Multiple focal zones and maximum depth",
+        "The general obstetric preset, unchanged"
+      ],
+      "answer": 0,
+      "explanation": "Settings should emphasise high frame rate, contrast and resolution, with low persistence, a single focal zone and a relatively narrow field; cardiac presets usually include these.",
+      "claims": [
+        "IS23-014"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D13-Q10",
+      "question": "What did the 2023 screening guideline add?",
+      "options": [
+        "Sections on quality assurance and on use of a checklist",
+        "A requirement for 3D imaging in every screen",
+        "Removal of the outflow-tract views",
+        "A requirement for pulsed-wave Doppler in every screen"
+      ],
+      "answer": 0,
+      "explanation": "The 2023 update encourages colour flow Doppler and adds sections on quality assurance and on use of a checklist.",
+      "claims": [
+        "IS23-002"
+      ],
+      "status": "ai-extracted"
+    }
+  ]
+}

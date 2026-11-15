@@ -8,3 +8,9 @@ sources-private/
 *.mp4
 *.avi
 *.pdf
+# clinic working folders and catalogue exports stay at the clinic
+clean/
+key-keep-at-clinic/
+catalogue*.json
+catalogue*.csv
+*.check.png

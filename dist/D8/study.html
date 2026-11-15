@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rate and rhythm for the screener</title>
+<style>
+:root{--ink:#1c2430;--mute:#5d6b7a;--line:#d9dee5;--bg:#f6f4ef;--card:#fff;--accent:#9b2c3f;--ok:#1f6f4a;--bad:#a23b2a}
+*{box-sizing:border-box}body{margin:0;font:17px/1.55 Georgia,'Times New Roman',serif;color:var(--ink);background:var(--bg)}
+main{max-width:720px;margin:0 auto;padding:20px 18px 80px}
+h1{font-size:1.7rem;line-height:1.2;margin:.4em 0 .2em}h2{font-size:1.15rem;margin:1.6em 0 .4em}
+.meta,.small{font:13px/1.4 system-ui,sans-serif;color:var(--mute)}
+.banner{font:14px/1.4 system-ui,sans-serif;background:#fff3cd;border:1px solid #e0c97a;padding:10px 12px;border-radius:6px;margin:12px 0}
+.banner.ok{background:#e3f3ea;border-color:#9ccdb3}
+nav{display:flex;gap:8px;margin:16px 0;border-bottom:1px solid var(--line)}
+nav button{font:15px system-ui,sans-serif;background:none;border:0;border-bottom:3px solid transparent;padding:8px 4px;margin-right:12px;cursor:pointer;color:var(--mute)}
+nav button[aria-selected=true]{color:var(--ink);border-color:var(--accent);font-weight:600}
+sup{font:11px system-ui,sans-serif;color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px;margin:14px 0}
+.opt{display:block;width:100%;text-align:left;font:16px/1.4 system-ui,sans-serif;background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px;margin:8px 0;cursor:pointer;color:var(--ink)}
+.opt:hover:not(:disabled){border-color:var(--ink)}.opt.right{border-color:var(--ok);background:#e3f3ea}.opt.wrong{border-color:var(--bad);background:#f7e4e0}
+.next{font:15px system-ui,sans-serif;background:var(--ink);color:#fff;border:0;border-radius:8px;padding:10px 18px;cursor:pointer;margin-top:8px}
+ol.refs{font:14px/1.45 system-ui,sans-serif;color:var(--mute);padding-left:22px}
+ul{padding-left:22px}[hidden]{display:none}table{border-collapse:collapse;width:100%;font:14px/1.4 system-ui,sans-serif;margin:10px 0}th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}th{background:#eee}
+</style></head><body><main>
+<div class="meta">Fetal Echo Project &middot; Unit D8 &middot; Detect tier &middot; v0.1</div>
+<h1>Rate and rhythm for the screener</h1>
+<div class="banner ">DRAFT - NOT FOR CLINICAL USE. Contains claims with status &#x27;ai-extracted&#x27; that no clinician has verified.</div>
+<nav role="tablist"><button id="t-read" aria-selected="true">Read</button><button id="t-drill" aria-selected="false">Drill</button></nav>
+<section id="read"><h2>You will be able to</h2><ul><li>Give the normal fetal heart rate at screening.</li><li>Tell benign ectopic beats from an irregular rhythm that needs assessment.</li><li>Tell transient slowing from persistent bradycardia, and transient speeding from persistent tachycardia.</li><li>Name the rhythm findings that are indications for fetal echocardiography.</li><li>Describe in outline how a specialist works out the mechanism of an arrhythmia.</li></ul>
+<h2>Normal</h2>
+<p>The normal heart rate is 120 to 160 beats per minute, and the rhythm should be regular.<sup>1</sup></p>
+<p>Rate and rhythm are checked on the four-chamber view as part of every screen. The screener&#x27;s task is not to name the arrhythmia. It is to decide between three answers: normal, watch and re-check, or refer.</p>
+<h2>The irregular beat</h2>
+<p>Ectopic beats, seen as skipped beats, are the most common rhythm disturbance. They are often benign and resolve on their own. In low-risk populations they are not linked to a higher risk of structural heart disease.<sup>2</sup></p>
+<p>Further assessment is indicated when ectopic episodes are frequent, meaning more often than every three to five beats, or when the rhythm stays irregular for more than one to two weeks.<sup>3</sup></p>
+<h2>The slow heart</h2>
+<p>A brief slow rate, often caused by pressure from the transducer, is seen in normal second-trimester fetuses.<sup>4</sup></p>
+<p>A rate that stays at 110 beats per minute or below in a fetus that is otherwise well needs timely evaluation by a fetal cardiac specialist. Possible causes include frequent blocked atrial ectopic beats, atrioventricular block and sinus bradycardia.<sup>4</sup></p>
+<p>Transducer pressure is a common cause of brief slowing, so ease the pressure and watch the rate. What matters is whether the slow rate persists.<sup>4</sup></p>
+<h2>The fast heart</h2>
+<p>A mild, brief rise to 160 to 180 beats per minute can be a normal variant during fetal movement.<sup>5</sup></p>
+<p>A rate that stays at 180 beats per minute or above should be evaluated further for a tachyarrhythmia or fetal hypoxia.<sup>5</sup></p>
+<h2>At a glance</h2>
+<p>Rate and rhythm findings and what each means at screening.<sup>1,2,3,4,5</sup></p>
+<table><tr><th>Finding</th><th>Meaning for the screener</th></tr><tr><td>120 to 160 per minute, regular</td><td>Normal</td></tr><tr><td>Occasional skipped beats</td><td>Common and often benign</td></tr><tr><td>Skipped beats more often than every three to five beats, or irregular for more than one to two weeks</td><td>Further assessment</td></tr><tr><td>Brief slowing that recovers, often with probe pressure</td><td>Seen in normal fetuses</td></tr><tr><td>Stays at 110 per minute or below</td><td>Timely specialist evaluation</td></tr><tr><td>Brief rise to 160 to 180 per minute with movement</td><td>Can be a normal variant</td></tr><tr><td>Stays at 180 per minute or above</td><td>Further evaluation</td></tr></table>
+<h2>Rhythm findings that are indications for fetal echocardiography</h2>
+<p>The guideline lists these among the fetal indications for fetal echocardiography: persistent tachycardia at 180 beats per minute or more, suspected heart block or persistent bradycardia at 110 or less, and a rhythm that is frequently or persistently irregular.<sup>6</sup></p>
+<h2>What the specialist will do</h2>
+<p>When the rhythm is irregular, slow or fast, the mechanism should be documented with M-mode, pulsed-wave Doppler or tissue Doppler, alone or together.<sup>7</sup></p>
+<p>M-mode times the atria against the ventricles: the cursor passes through an atrial wall and the free wall of a ventricle together.<sup>8</sup></p>
+<p>Pulsed-wave Doppler does the same by sampling two flows at once: superior vena cava with ascending aorta, mitral inflow with aortic outflow, or pulmonary artery with pulmonary vein.<sup>9</sup></p>
+<p>You do not need these techniques to screen. Knowing what they are helps you explain to the family why they are being referred.</p>
+<h2>Rate and rhythm at every screen</h2><ul><li>Rate between 120 and 160 per minute<sup>1</sup></li><li>Rhythm regular<sup>1</sup></li><li>If slow: probe pressure eased and rate watched until it recovers or is shown to persist<sup>4</sup></li><li>Persistent rate of 110 or below: specialist evaluation arranged<sup>4</sup></li><li>Persistent rate of 180 or above: further evaluation arranged<sup>5</sup></li><li>Ectopic beats: frequency noted; re-check arranged; referred if frequent or still irregular after one to two weeks<sup>3</sup></li></ul>
+<h2>Still to be written</h2><ul class='small'><li>How urgently each rhythm finding should be seen (same day, within a week) - not stated in the screening guideline; needs a source and the editor&#x27;s decision.</li><li>Signs that a fetus with an arrhythmia is unwell (hydrops, effusions) and what the screener should record - needs a source.</li><li>How to count the fetal heart rate reliably at screening (M-mode or Doppler method) - needs a source.</li><li>Maternal conditions linked to heart block and how they change follow-up - planned for XC4.</li></ul>
+<h2>References</h2><ol class='refs'>
+<li>Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 &ndash; Four-chamber view, p. 791; Appendix 1. <em>IS23-033, expert-verified</em></li>
+<li>Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 &ndash; Four-chamber view, p. 791. <em>IS23-034, expert-verified</em></li>
+<li>Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 &ndash; Four-chamber view, p. 792. <em>IS23-035, expert-verified</em></li>
+<li>Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 &ndash; Four-chamber view, p. 792. <em>IS23-036, expert-verified</em></li>
+<li>Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 &ndash; Four-chamber view, p. 792. <em>IS23-037, expert-verified</em></li>
+<li>Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 &ndash; Table 2, &#x27;Fetal factors&#x27;, p. 797. <em>IS23-082, ai-extracted</em></li>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; Key points; IV.A Rhythm, p. 697. <em>AS23-016, ai-extracted</em></li>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; IV.A Rhythm; Figure 11, p. 697. <em>AS23-017, ai-extracted</em></li>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; IV.A Rhythm; Figure 11, p. 697. <em>AS23-018, ai-extracted</em></li>
+</ol></section>
+<section id="drill" hidden><div id="quiz"></div></section>
+</main>
+<script>
+const DATA = {"unit": "D8", "title": "Rate and rhythm for the screener", "status": "ai-extracted", "items": [{"id": "D8-Q01", "question": "What is the normal fetal heart rate at a screening scan?", "options": ["120 to 160 beats per minute, regular", "100 to 140 beats per minute, regular", "140 to 180 beats per minute, regular", "Any rate above 100, regular or not"], "answer": 0, "explanation": "Normal is 120 to 160 beats per minute with a regular rhythm.", "claims": ["IS23-033"], "status": "expert-verified"}, {"id": "D8-Q02", "question": "You see an occasional skipped beat in an otherwise normal heart in a low-risk pregnancy. What does the guideline say about this finding?", "options": ["It is the most common rhythm disturbance, often benign, and usually resolves on its own", "It indicates structural heart disease until proven otherwise", "It is a sign of fetal hypoxia", "It always needs a fetal echocardiogram the same day"], "answer": 0, "explanation": "Ectopic beats are common, often benign and resolve spontaneously; in low-risk populations they are not associated with increased risk of structural heart disease.", "claims": ["IS23-034"], "status": "expert-verified"}, {"id": "D8-Q03", "question": "A beat is dropped after every second or third normal beat throughout the scan. What next?", "options": ["Arrange further assessment: ectopic beats this frequent are an indication", "Reassure; all ectopic beats are benign", "Record a normal rhythm", "Repeat the scan only if the mother notices reduced movement"], "answer": 0, "explanation": "Frequent ectopic episodes, more often than every three to five beats, are an indication for further assessment.", "claims": ["IS23-035"], "status": "expert-verified"}, {"id": "D8-Q04", "question": "Occasional ectopic beats were seen two weeks ago. Today the rhythm is still irregular. What next?", "options": ["Arrange further assessment: the irregularity has persisted beyond one to two weeks", "Review again in another month", "No action; duration does not matter", "Stop checking the rhythm at later scans"], "answer": 0, "explanation": "A rhythm that stays irregular for more than one to two weeks is an indication for further assessment.", "claims": ["IS23-035"], "status": "expert-verified"}, {"id": "D8-Q05", "question": "The heart slows for a few seconds while you press to improve the view, then recovers when you ease off. What is this?", "options": ["Transient bradycardia, which is seen in normal second-trimester fetuses", "Atrioventricular block", "Persistent bradycardia needing urgent referral", "A sign of a structural heart defect"], "answer": 0, "explanation": "Transient bradycardia, often from transducer pressure, is seen in normal fetuses. Persistent bradycardia is what needs evaluation.", "claims": ["IS23-036"], "status": "expert-verified"}, {"id": "D8-Q06", "question": "The rate stays at 100 beats per minute for the whole examination. The fetus is otherwise well. What next?", "options": ["Timely evaluation by a fetal cardiac specialist", "Nothing; this is normal", "Recheck at the next routine visit", "Record it as probe-pressure bradycardia"], "answer": 0, "explanation": "Persistent bradycardia at 110 or below in a well fetus needs timely evaluation by a fetal cardiac specialist.", "claims": ["IS23-036"], "status": "expert-verified"}, {"id": "D8-Q07", "question": "Which of these is a possible cause of persistent fetal bradycardia?", "options": ["Frequent blocked atrial ectopic beats", "Fetal movement", "A cardiac axis of 45 degrees", "A thin rim of pericardial fluid"], "answer": 0, "explanation": "Possible causes named in the guideline are frequent blocked atrial ectopic beats, atrioventricular block and sinus bradycardia.", "claims": ["IS23-036"], "status": "expert-verified"}, {"id": "D8-Q08", "question": "During active fetal movement the rate rises to 170 beats per minute for a short time and then returns to 150. How is this read?", "options": ["It can be a normal variant", "Persistent tachycardia; refer", "A tachyarrhythmia", "A sign of fetal hypoxia"], "answer": 0, "explanation": "Mild transient tachycardia of 160 to 180 can be a normal variant during fetal movement.", "claims": ["IS23-037"], "status": "expert-verified"}, {"id": "D8-Q09", "question": "The rate stays at 190 beats per minute. What should be considered?", "options": ["A tachyarrhythmia or fetal hypoxia; evaluate further", "A normal response to movement", "Probe pressure", "Nothing, if the four-chamber view is normal"], "answer": 0, "explanation": "Persistent tachycardia at 180 or more should be evaluated further for tachyarrhythmia or fetal hypoxia.", "claims": ["IS23-037"], "status": "expert-verified"}, {"id": "D8-Q10", "question": "Which rhythm finding is listed as an indication for fetal echocardiography?", "options": ["Persistent bradycardia at 110 beats per minute or less", "A rate of 150 beats per minute", "A single ectopic beat seen once", "Brief slowing with probe pressure"], "answer": 0, "explanation": "Persistent tachycardia (180 or more), suspected heart block or persistent bradycardia (110 or less) and frequent or persistently irregular rhythm are listed fetal indications.", "claims": ["IS23-082"], "status": "ai-extracted"}, {"id": "D8-Q11", "question": "How does M-mode help the specialist work out the mechanism of an arrhythmia?", "options": ["It times atrial against ventricular contraction with one cursor through an atrial wall and a ventricular wall", "It measures the peak velocity across a valve", "It shows the direction of flow in the arches", "It measures the size of the heart against the chest"], "answer": 0, "explanation": "M-mode times atrial against ventricular contraction; the cursor passes through an atrial wall and the free wall of a ventricle together.", "claims": ["AS23-017"], "status": "ai-extracted"}]};
+const $ = s => document.querySelector(s);
+function tab(which){
+  $('#read').hidden = which !== 'read'; $('#drill').hidden = which !== 'drill';
+  $('#t-read').setAttribute('aria-selected', which === 'read');
+  $('#t-drill').setAttribute('aria-selected', which === 'drill');
+}
+$('#t-read').onclick = () => tab('read');
+$('#t-drill').onclick = () => { tab('drill'); if (!started) start(); };
+function shuffle(a){ a = a.slice(); for (let i = a.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+function esc(s){ const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+let started = false, queue = [], pos = 0, score = 0;
+function start(){ started = true; queue = shuffle(DATA.items); pos = 0; score = 0; show(); }
+function show(){
+  const q = $('#quiz');
+  if (pos >= queue.length){
+    q.innerHTML = '<div class="card"><h2 style="margin-top:0">' + score + ' of ' + queue.length + ' correct</h2><p class="small">Missed items come back first next time once scheduling is added.</p><button class="next" id="again">Go again</button></div>';
+    $('#again').onclick = start; return;
+  }
+  const it = queue[pos];
+  const opts = shuffle(it.options.map((text, i) => ({ text, correct: i === it.answer })));
+  q.innerHTML = '<div class="card"><div class="small">Question ' + (pos + 1) + ' of ' + queue.length + '</div><p><strong>' + esc(it.question) + '</strong></p><div id="opts"></div><div id="fb"></div></div>';
+  opts.forEach(o => {
+    const b = document.createElement('button'); b.className = 'opt'; b.textContent = o.text;
+    b.onclick = () => {
+      document.querySelectorAll('.opt').forEach((x, k) => { x.disabled = true; if (opts[k].correct) x.classList.add('right'); });
+      if (o.correct) score++; else b.classList.add('wrong');
+      $('#fb').innerHTML = '<p>' + esc(it.explanation) + '</p><div class="small">Rests on ' + it.claims.join(', ') + ' (' + it.status + ')</div><button class="next" id="nx">Next</button>';
+      $('#nx').onclick = () => { pos++; show(); };
+    };
+    $('#opts').appendChild(b);
+  });
+}
+</script></body></html>

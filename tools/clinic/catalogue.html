@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Case catalogue - Fetal Echo Project</title>
+<style>
+:root{--ink:#1c2430;--mute:#5d6b7a;--line:#d9dee5;--bg:#f6f4ef;--card:#fff;--accent:#9b2c3f;--ok:#1f6f4a;--bad:#a23b2a}
+*{box-sizing:border-box}body{margin:0;font:15px/1.45 system-ui,sans-serif;color:var(--ink);background:var(--bg)}
+main{max-width:1100px;margin:0 auto;padding:16px}
+h1{font:600 1.4rem Georgia,serif;margin:.2em 0}h2{font-size:1.05rem;margin:1.2em 0 .5em}
+.warn{background:#fff3cd;border:1px solid #e0c97a;border-radius:6px;padding:10px 12px;margin:10px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;margin:12px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px}
+label{display:block;font-size:13px;color:var(--mute)}
+input,select,textarea{width:100%;font:inherit;padding:7px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink);margin-top:3px}
+textarea{min-height:60px}
+button{font:inherit;padding:8px 14px;border-radius:8px;border:1px solid var(--ink);background:var(--ink);color:#fff;cursor:pointer}
+button.alt{background:#fff;color:var(--ink)}button.small{padding:3px 8px;font-size:13px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:10px}
+table{border-collapse:collapse;width:100%;font-size:13px}th,td{border:1px solid var(--line);padding:5px 7px;text-align:left;vertical-align:top}th{background:#eee;position:sticky;top:0}
+.tag{display:inline-block;border-radius:10px;padding:1px 8px;font-size:12px;border:1px solid var(--line)}
+.tag.ok{background:#e3f3ea;border-color:#9ccdb3}.tag.no{background:#f7e4e0;border-color:#e0a79d}
+.counts{color:var(--mute);font-size:13px}#msg{color:var(--bad);font-size:13px}
+</style></head><body><main>
+<h1>Case catalogue</h1>
+<div class="counts">Fetal Echo Project. For the clinic computer. Works offline; data stays in this browser until you export it.</div>
+<div class="warn"><strong>No patient details here.</strong> No name, hospital number, phone, address, scan date or date of birth, in any box. Nothing about the sex of the fetus. The link between a case code and a patient is kept only in the clinic's paper or key register.</div>
+
+<div class="card">
+<h2 id="formtitle" style="margin-top:0">Add a case</h2>
+<div class="grid">
+  <label>Case code<input id="code" placeholder="made automatically"></label>
+  <label>Gestation (completed weeks)<input id="weeks" type="number" min="10" max="42"></label>
+  <label>Media<select id="media"><option>clip</option><option>still</option><option>4D volume</option><option>clip + stills</option></select></label>
+  <label>Number of files<input id="nfiles" type="number" min="1" value="1"></label>
+  <label>Views held (hold Ctrl to pick several)<select id="views" multiple size="5"><option>abdomen</option><option>4CV</option><option>LVOT</option><option>RVOT</option><option>3VV</option><option>3VT</option><option>sweep</option><option>arch-sagittal</option><option>other</option></select></label>
+  <label>Modes held (hold Ctrl to pick several)<select id="modes" multiple size="5"><option>2D</option><option>colour</option><option>power</option><option>PW</option><option>CW</option><option>M-mode</option><option>3D-4D</option></select></label>
+  <label>Heart<select id="heart"><option>normal</option><option>abnormal</option><option>variant or pitfall</option><option>uncertain</option></select></label>
+  <label>Finding (editor's words)<input id="finding" placeholder="e.g. normal; or the diagnosis"></label>
+  <label>Diagnosis confirmed by<select id="confirmed"><option>not applicable</option><option>fetal echo here</option><option>cardiologist</option><option>after birth</option><option>not confirmed</option></select></label>
+  <label>Image quality<select id="quality"><option value="3">3 - teaching quality</option><option value="2">2 - usable</option><option value="1">1 - poor</option></select></label>
+  <label>Teaching consent on file<select id="consent"><option>not checked</option><option>yes - covers teaching and publication</option><option>clinical care only</option><option>none found</option></select></label>
+  <label>Where the original is stored<input id="store" placeholder="e.g. Voluson disk, DVD 14, drive B"></label>
+  <label>Anonymised?<select id="anon"><option>not yet</option><option>done - 1 check</option><option>done - 2 checks</option></select></label>
+  <label>Use for<select id="use"><option>undecided</option><option>drill</option><option>atlas</option><option>video</option><option>do not use</option></select></label>
+</div>
+<label style="margin-top:10px">Teaching note (what this case teaches; no patient details)<textarea id="note"></textarea></label>
+<div class="row"><button id="save">Save case</button><button class="alt" id="clear">Clear form</button><span id="msg"></span></div>
+</div>
+
+<div class="card">
+<div class="row" style="margin-top:0">
+  <input id="q" placeholder="Search finding, view, note, code" style="max-width:320px">
+  <select id="fheart" style="max-width:170px"><option value="">All hearts</option><option>normal</option><option>abnormal</option><option>variant or pitfall</option><option>uncertain</option></select>
+  <button class="alt" id="xcsv">Export CSV</button><button class="alt" id="xjson">Export backup</button>
+  <button class="alt" id="ijson">Import backup</button><input type="file" id="file" accept=".json" hidden>
+</div>
+<p class="counts" id="counts"></p>
+<div style="overflow:auto;max-height:70vh"><table id="tbl"></table></div>
+</div>
+</main>
+<script>
+const KEY = 'fetal-echo-catalogue-v1';
+const $ = id => document.getElementById(id);
+const FIELDS = ['code','weeks','media','nfiles','views','modes','heart','finding','confirmed','quality','consent','store','anon','use','note'];
+let cases = [], editing = null;
+try { cases = JSON.parse(localStorage.getItem(KEY)) || []; } catch (e) { cases = []; }
+function persist(){ localStorage.setItem(KEY, JSON.stringify(cases)); }
+function newCode(){
+  const a = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; let c;
+  do { c = 'FE-' + Array.from(crypto.getRandomValues(new Uint8Array(6)), b => a[b % a.length]).join(''); }
+  while (cases.some(x => x.code === c));
+  return c;
+}
+function multi(id){ return Array.from($(id).selectedOptions, o => o.value); }
+function setMulti(id, vals){ Array.from($(id).options).forEach(o => o.selected = (vals || []).includes(o.value)); }
+// Crude guard: refuse text that looks like a date, a long ID number or a sex word.
+function risky(text){
+  if (/\b\d{1,2}[\/.-]\d{1,2}[\/.-]\d{2,4}\b/.test(text)) return 'looks like a date';
+  if (/\b\d{6,}\b/.test(text)) return 'looks like an ID or phone number';
+  if (/\b(male|female|boy|girl|son|daughter)\b/i.test(text)) return 'mentions sex';
+  if (/\b(mrs|mr|smt|shri|ms)\.?\s/i.test(text)) return 'looks like a name';
+  return null;
+}
+function read(){
+  const c = {};
+  FIELDS.forEach(f => c[f] = (f === 'views' || f === 'modes') ? multi(f) : $(f).value.trim());
+  return c;
+}
+function fill(c){
+  FIELDS.forEach(f => { if (f === 'views' || f === 'modes') setMulti(f, c[f]); else $(f).value = c[f] ?? ''; });
+}
+function clearForm(){
+  editing = null; $('formtitle').textContent = 'Add a case'; $('msg').textContent = '';
+  fill({ media:'clip', nfiles:'1', heart:'normal', confirmed:'not applicable', quality:'3', consent:'not checked', anon:'not yet', use:'undecided' });
+}
+$('clear').onclick = clearForm;
+$('save').onclick = () => {
+  const c = read();
+  for (const f of ['code','finding','store','note']){
+    const r = risky(c[f]); if (r){ $('msg').textContent = 'Not saved: "' + f + '" ' + r + '. Remove it.'; return; }
+  }
+  if (!c.weeks){ $('msg').textContent = 'Not saved: gestation is needed.'; return; }
+  if (!c.views.length){ $('msg').textContent = 'Not saved: pick at least one view.'; return; }
+  if (!c.code) c.code = newCode();
+  if (cases.some((x, i) => x.code === c.code && i !== editing)){ $('msg').textContent = 'Not saved: that code is already used.'; return; }
+  if (editing === null) cases.unshift(c); else cases[editing] = c;
+  persist(); clearForm(); draw();
+};
+function esc(s){ const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+function draw(){
+  const q = $('q').value.toLowerCase(), fh = $('fheart').value;
+  const rows = cases.map((c, i) => [c, i]).filter(([c]) =>
+    (!fh || c.heart === fh) && (!q || JSON.stringify(c).toLowerCase().includes(q)));
+  const n = k => cases.filter(c => c.heart === k).length;
+  const ready = cases.filter(c => c.anon === 'done - 2 checks' && c.consent.startsWith('yes')).length;
+  $('counts').textContent = cases.length + ' cases: ' + n('normal') + ' normal, ' + n('abnormal') + ' abnormal, ' +
+    n('variant or pitfall') + ' variant or pitfall. Ready for the course (consent yes, two checks): ' + ready + '.';
+  let h = '<tr><th>Code</th><th>Weeks</th><th>Heart</th><th>Finding</th><th>Views</th><th>Modes</th><th>Media</th><th>Q</th><th>Consent</th><th>Anonymised</th><th>Use</th><th>Note</th><th></th></tr>';
+  for (const [c, i] of rows){
+    const ok = c.consent.startsWith('yes');
+    h += '<tr><td>' + esc(c.code) + '</td><td>' + esc(c.weeks) + '</td><td>' + esc(c.heart) + '</td><td>' + esc(c.finding) +
+      '</td><td>' + esc(c.views.join(', ')) + '</td><td>' + esc(c.modes.join(', ')) + '</td><td>' + esc(c.media) + ' x' + esc(c.nfiles) +
+      '</td><td>' + esc(c.quality) + '</td><td><span class="tag ' + (ok ? 'ok' : 'no') + '">' + esc(c.consent) + '</span></td><td>' + esc(c.anon) +
+      '</td><td>' + esc(c.use) + '</td><td>' + esc(c.note) + '</td><td><button class="small alt" data-e="' + i + '">Edit</button> <button class="small alt" data-d="' + i + '">Delete</button></td></tr>';
+  }
+  $('tbl').innerHTML = h;
+}
+$('tbl').onclick = ev => {
+  const e = ev.target.dataset.e, d = ev.target.dataset.d;
+  if (e !== undefined){ editing = +e; fill(cases[editing]); $('formtitle').textContent = 'Edit ' + cases[editing].code; scrollTo(0, 0); }
+  if (d !== undefined && ev.target.textContent === 'Sure?'){ cases.splice(+d, 1); persist(); draw(); }
+  else if (d !== undefined){ ev.target.textContent = 'Sure?'; }
+};
+$('q').oninput = draw; $('fheart').onchange = draw;
+function download(name, text, type){
+  const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([text], { type })); a.download = name; a.click();
+}
+$('xjson').onclick = () => download('catalogue-backup.json', JSON.stringify(cases, null, 2), 'application/json');
+$('xcsv').onclick = () => {
+  const cell = v => '"' + String(Array.isArray(v) ? v.join('; ') : v ?? '').replace(/"/g, '""') + '"';
+  download('catalogue.csv', [FIELDS.join(',')].concat(cases.map(c => FIELDS.map(f => cell(c[f])).join(','))).join('\r\n'), 'text/csv');
+};
+$('ijson').onclick = () => $('file').click();
+$('file').onchange = async ev => {
+  try {
+    const add = JSON.parse(await ev.target.files[0].text());
+    if (!Array.isArray(add)) throw 0;
+    let n = 0;
+    for (const c of add) if (c.code && !cases.some(x => x.code === c.code)){ cases.push(c); n++; }
+    persist(); draw(); $('msg').textContent = n + ' case(s) added from backup.';
+  } catch (e) { $('msg').textContent = 'That file is not a catalogue backup.'; }
+  ev.target.value = '';
+};
+clearForm(); draw();
+</script></body></html>

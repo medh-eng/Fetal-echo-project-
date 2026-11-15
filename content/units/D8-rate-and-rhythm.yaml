@@ -1,0 +1,247 @@
+# Unit D8. Every text block and drill lists the claim IDs it rests on.
+# A block with no claims must be `kind: framing` (orientation only, no clinical facts).
+# IS23 claims are from the ISUOG screening guideline; AS23 claims are from the ASE
+# fetal echocardiography guideline and are not yet cross-checked.
+
+id: D8
+title: "Rate and rhythm for the screener"
+tier: Detect
+version: 0.1
+summary: "The normal fetal heart rate, which irregular, slow and fast rhythms can be watched, and which need a specialist."
+drafted_by: "Claude (15 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "Give the normal fetal heart rate at screening."
+  - "Tell benign ectopic beats from an irregular rhythm that needs assessment."
+  - "Tell transient slowing from persistent bradycardia, and transient speeding from persistent tachycardia."
+  - "Name the rhythm findings that are indications for fetal echocardiography."
+  - "Describe in outline how a specialist works out the mechanism of an arrhythmia."
+
+sections:
+
+  - heading: "Normal"
+    blocks:
+      - text: "The normal heart rate is 120 to 160 beats per minute, and the rhythm should be regular."
+        claims: [IS23-033]
+      - kind: framing
+        text: "Rate and rhythm are checked on the four-chamber view as part of every screen. The screener's task is not to name the arrhythmia. It is to decide between three answers: normal, watch and re-check, or refer."
+
+  - heading: "The irregular beat"
+    blocks:
+      - text: "Ectopic beats, seen as skipped beats, are the most common rhythm disturbance. They are often benign and resolve on their own. In low-risk populations they are not linked to a higher risk of structural heart disease."
+        claims: [IS23-034]
+      - text: "Further assessment is indicated when ectopic episodes are frequent, meaning more often than every three to five beats, or when the rhythm stays irregular for more than one to two weeks."
+        claims: [IS23-035]
+
+  - heading: "The slow heart"
+    blocks:
+      - text: "A brief slow rate, often caused by pressure from the transducer, is seen in normal second-trimester fetuses."
+        claims: [IS23-036]
+      - text: "A rate that stays at 110 beats per minute or below in a fetus that is otherwise well needs timely evaluation by a fetal cardiac specialist. Possible causes include frequent blocked atrial ectopic beats, atrioventricular block and sinus bradycardia."
+        claims: [IS23-036]
+      - text: "Transducer pressure is a common cause of brief slowing, so ease the pressure and watch the rate. What matters is whether the slow rate persists."
+        claims: [IS23-036]
+
+  - heading: "The fast heart"
+    blocks:
+      - text: "A mild, brief rise to 160 to 180 beats per minute can be a normal variant during fetal movement."
+        claims: [IS23-037]
+      - text: "A rate that stays at 180 beats per minute or above should be evaluated further for a tachyarrhythmia or fetal hypoxia."
+        claims: [IS23-037]
+
+  - heading: "At a glance"
+    blocks:
+      - table:
+          columns: ["Finding", "Meaning for the screener"]
+          rows:
+            - ["120 to 160 per minute, regular", "Normal"]
+            - ["Occasional skipped beats", "Common and often benign"]
+            - ["Skipped beats more often than every three to five beats, or irregular for more than one to two weeks", "Further assessment"]
+            - ["Brief slowing that recovers, often with probe pressure", "Seen in normal fetuses"]
+            - ["Stays at 110 per minute or below", "Timely specialist evaluation"]
+            - ["Brief rise to 160 to 180 per minute with movement", "Can be a normal variant"]
+            - ["Stays at 180 per minute or above", "Further evaluation"]
+        text: "Rate and rhythm findings and what each means at screening."
+        claims: [IS23-033, IS23-034, IS23-035, IS23-036, IS23-037]
+
+  - heading: "Rhythm findings that are indications for fetal echocardiography"
+    blocks:
+      - text: "The guideline lists these among the fetal indications for fetal echocardiography: persistent tachycardia at 180 beats per minute or more, suspected heart block or persistent bradycardia at 110 or less, and a rhythm that is frequently or persistently irregular."
+        claims: [IS23-082]
+
+  - heading: "What the specialist will do"
+    blocks:
+      - text: "When the rhythm is irregular, slow or fast, the mechanism should be documented with M-mode, pulsed-wave Doppler or tissue Doppler, alone or together."
+        claims: [AS23-016]
+      - text: "M-mode times the atria against the ventricles: the cursor passes through an atrial wall and the free wall of a ventricle together."
+        claims: [AS23-017]
+      - text: "Pulsed-wave Doppler does the same by sampling two flows at once: superior vena cava with ascending aorta, mitral inflow with aortic outflow, or pulmonary artery with pulmonary vein."
+        claims: [AS23-018]
+      - kind: framing
+        text: "You do not need these techniques to screen. Knowing what they are helps you explain to the family why they are being referred."
+
+missing_claims:
+  - "How urgently each rhythm finding should be seen (same day, within a week) - not stated in the screening guideline; needs a source and the editor's decision."
+  - "Signs that a fetus with an arrhythmia is unwell (hydrops, effusions) and what the screener should record - needs a source."
+  - "How to count the fetal heart rate reliably at screening (M-mode or Doppler method) - needs a source."
+  - "Maternal conditions linked to heart block and how they change follow-up - planned for XC4."
+
+drills:
+  - id: D8-Q01
+    question: "What is the normal fetal heart rate at a screening scan?"
+    options:
+      - "120 to 160 beats per minute, regular"
+      - "100 to 140 beats per minute, regular"
+      - "140 to 180 beats per minute, regular"
+      - "Any rate above 100, regular or not"
+    answer: 0
+    explanation: "Normal is 120 to 160 beats per minute with a regular rhythm."
+    claims: [IS23-033]
+
+  - id: D8-Q02
+    question: "You see an occasional skipped beat in an otherwise normal heart in a low-risk pregnancy. What does the guideline say about this finding?"
+    options:
+      - "It is the most common rhythm disturbance, often benign, and usually resolves on its own"
+      - "It indicates structural heart disease until proven otherwise"
+      - "It is a sign of fetal hypoxia"
+      - "It always needs a fetal echocardiogram the same day"
+    answer: 0
+    explanation: "Ectopic beats are common, often benign and resolve spontaneously; in low-risk populations they are not associated with increased risk of structural heart disease."
+    claims: [IS23-034]
+
+  - id: D8-Q03
+    question: "A beat is dropped after every second or third normal beat throughout the scan. What next?"
+    options:
+      - "Arrange further assessment: ectopic beats this frequent are an indication"
+      - "Reassure; all ectopic beats are benign"
+      - "Record a normal rhythm"
+      - "Repeat the scan only if the mother notices reduced movement"
+    answer: 0
+    explanation: "Frequent ectopic episodes, more often than every three to five beats, are an indication for further assessment."
+    claims: [IS23-035]
+
+  - id: D8-Q04
+    question: "Occasional ectopic beats were seen two weeks ago. Today the rhythm is still irregular. What next?"
+    options:
+      - "Arrange further assessment: the irregularity has persisted beyond one to two weeks"
+      - "Review again in another month"
+      - "No action; duration does not matter"
+      - "Stop checking the rhythm at later scans"
+    answer: 0
+    explanation: "A rhythm that stays irregular for more than one to two weeks is an indication for further assessment."
+    claims: [IS23-035]
+
+  - id: D8-Q05
+    question: "The heart slows for a few seconds while you press to improve the view, then recovers when you ease off. What is this?"
+    options:
+      - "Transient bradycardia, which is seen in normal second-trimester fetuses"
+      - "Atrioventricular block"
+      - "Persistent bradycardia needing urgent referral"
+      - "A sign of a structural heart defect"
+    answer: 0
+    explanation: "Transient bradycardia, often from transducer pressure, is seen in normal fetuses. Persistent bradycardia is what needs evaluation."
+    claims: [IS23-036]
+
+  - id: D8-Q06
+    question: "The rate stays at 100 beats per minute for the whole examination. The fetus is otherwise well. What next?"
+    options:
+      - "Timely evaluation by a fetal cardiac specialist"
+      - "Nothing; this is normal"
+      - "Recheck at the next routine visit"
+      - "Record it as probe-pressure bradycardia"
+    answer: 0
+    explanation: "Persistent bradycardia at 110 or below in a well fetus needs timely evaluation by a fetal cardiac specialist."
+    claims: [IS23-036]
+
+  - id: D8-Q07
+    question: "Which of these is a possible cause of persistent fetal bradycardia?"
+    options:
+      - "Frequent blocked atrial ectopic beats"
+      - "Fetal movement"
+      - "A cardiac axis of 45 degrees"
+      - "A thin rim of pericardial fluid"
+    answer: 0
+    explanation: "Possible causes named in the guideline are frequent blocked atrial ectopic beats, atrioventricular block and sinus bradycardia."
+    claims: [IS23-036]
+
+  - id: D8-Q08
+    question: "During active fetal movement the rate rises to 170 beats per minute for a short time and then returns to 150. How is this read?"
+    options:
+      - "It can be a normal variant"
+      - "Persistent tachycardia; refer"
+      - "A tachyarrhythmia"
+      - "A sign of fetal hypoxia"
+    answer: 0
+    explanation: "Mild transient tachycardia of 160 to 180 can be a normal variant during fetal movement."
+    claims: [IS23-037]
+
+  - id: D8-Q09
+    question: "The rate stays at 190 beats per minute. What should be considered?"
+    options:
+      - "A tachyarrhythmia or fetal hypoxia; evaluate further"
+      - "A normal response to movement"
+      - "Probe pressure"
+      - "Nothing, if the four-chamber view is normal"
+    answer: 0
+    explanation: "Persistent tachycardia at 180 or more should be evaluated further for tachyarrhythmia or fetal hypoxia."
+    claims: [IS23-037]
+
+  - id: D8-Q10
+    question: "Which rhythm finding is listed as an indication for fetal echocardiography?"
+    options:
+      - "Persistent bradycardia at 110 beats per minute or less"
+      - "A rate of 150 beats per minute"
+      - "A single ectopic beat seen once"
+      - "Brief slowing with probe pressure"
+    answer: 0
+    explanation: "Persistent tachycardia (180 or more), suspected heart block or persistent bradycardia (110 or less) and frequent or persistently irregular rhythm are listed fetal indications."
+    claims: [IS23-082]
+
+  - id: D8-Q11
+    question: "How does M-mode help the specialist work out the mechanism of an arrhythmia?"
+    options:
+      - "It times atrial against ventricular contraction with one cursor through an atrial wall and a ventricular wall"
+      - "It measures the peak velocity across a valve"
+      - "It shows the direction of flow in the arches"
+      - "It measures the size of the heart against the chest"
+    answer: 0
+    explanation: "M-mode times atrial against ventricular contraction; the cursor passes through an atrial wall and the free wall of a ventricle together."
+    claims: [AS23-017]
+
+checklist:
+  title: "Rate and rhythm at every screen"
+  items:
+    - text: "Rate between 120 and 160 per minute"
+      claims: [IS23-033]
+    - text: "Rhythm regular"
+      claims: [IS23-033]
+    - text: "If slow: probe pressure eased and rate watched until it recovers or is shown to persist"
+      claims: [IS23-036]
+    - text: "Persistent rate of 110 or below: specialist evaluation arranged"
+      claims: [IS23-036]
+    - text: "Persistent rate of 180 or above: further evaluation arranged"
+      claims: [IS23-037]
+    - text: "Ectopic beats: frequency noted; re-check arranged; referred if frequent or still irregular after one to two weeks"
+      claims: [IS23-035]
+
+video:
+  title: "Rate and rhythm in one minute of scanning"
+  target_minutes: 4
+  beats:
+    - shot: "Four-chamber clip, normal rhythm, with rate displayed"
+      narration: "One-twenty to one-sixty, and regular. Check it on every four-chamber view."
+      claims: [IS23-033]
+    - shot: "Clip with an occasional early beat and a pause"
+      narration: "A skipped beat now and then is the commonest rhythm finding. It is often harmless and usually settles."
+      claims: [IS23-034]
+    - shot: "Graphic: counting beats between pauses"
+      narration: "Count the beats between the pauses. More often than every three to five beats, or still irregular after a week or two, and the fetus needs further assessment."
+      claims: [IS23-035]
+    - shot: "Split screen: hand pressing then easing / rate slowing then recovering"
+      narration: "Slow? Ease the pressure and watch. If it recovers, that is seen in normal fetuses. If it stays at one-ten or below, a specialist needs to see this fetus."
+      claims: [IS23-036]
+    - shot: "Clip of a fast regular rhythm with rate displayed"
+      narration: "Fast for a moment with movement, up to one-eighty, can be normal. Staying at one-eighty or above cannot be left."
+      claims: [IS23-037]

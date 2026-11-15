@@ -1,0 +1,248 @@
+# Unit D7. Every text block and drill lists the claim IDs it rests on.
+# A block with no claims must be `kind: framing` (orientation only, no clinical facts).
+# IS23 claims are from the ISUOG screening guideline; AS23 claims are from the ASE
+# fetal echocardiography guideline and are not yet cross-checked.
+
+id: D7
+title: "Colour Doppler in screening"
+tier: Detect
+version: 0.1
+summary: "Whether colour is needed for a screening scan, what it adds on each view, and how to set it."
+drafted_by: "Claude (15 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "Say whether colour Doppler is required for cardiac screening."
+  - "Set the colour box, velocity scale and persistence for the heart and for veins."
+  - "Describe normal colour flow through the heart and the great arteries."
+  - "Name the abnormal patterns colour makes easier to see."
+  - "Apply the safety limits for Doppler in early pregnancy."
+
+sections:
+
+  - heading: "Is colour required?"
+    blocks:
+      - text: "Colour flow Doppler is not mandatory in cardiac screening. The 2023 guideline encourages examiners to become familiar with it and to add it to the routine scan, and it can be used when the operator feels competent."
+        claims: [IS23-002, IS23-073]
+      - text: "Colour may be valuable in obese patients and may further improve detection of major heart disease in low-risk pregnancies."
+        claims: [IS23-075]
+      - kind: framing
+        text: "Grey-scale comes first. Colour is added to a plane you have already obtained properly; it does not rescue a poor view."
+
+  - heading: "What normal colour shows"
+    blocks:
+      - text: "In a normal heart, colour shows forward flow across both atrioventricular valves, both semilunar valves and both great arteries."
+        claims: [IS23-074]
+      - text: "In the three-vessel-and-trachea view, colour helps to show the V formed by the two arches."
+        claims: [IS23-074]
+      - text: "A pulmonary vein entering the left atrium should be shown on grey-scale where technically feasible. Colour can help with this but is not mandatory for it."
+        claims: [IS23-040]
+
+  - heading: "What colour exposes"
+    blocks:
+      - text: "Colour highlights abnormal flow patterns such as regurgitation through an atrioventricular valve and reversed flow in the ductus arteriosus or the aortic arch."
+        claims: [IS23-074]
+      - text: "In a full fetal echocardiogram, colour is used to look for valve stenosis and regurgitation, flow across the foramen ovale, the integrity of the septa and the patency of vessels."
+        claims: [AS23-009]
+
+  - heading: "Setting up colour"
+    blocks:
+      - text: "Keep the colour box narrow and place it only over the area of interest. This preserves frame rate and the quality of the colour image."
+        claims: [IS23-076]
+      - text: "For a second-trimester screen, set the colour velocity scale to about 50 to 70 cm/s for the heart and the arteries, with low colour persistence. Use a lower scale, about 15 to 25 cm/s, for veins."
+        claims: [IS23-077]
+      - text: "Set the scale to suit the velocities you are looking at. Adjust colour gain and persistence so that colour fills the chamber or vessel without hiding the grey-scale image."
+        claims: [AS23-010]
+      - table:
+          columns: ["Looking at", "Colour velocity scale", "Other settings"]
+          rows:
+            - ["Valves, ventricles, great arteries, arches", "About 50 to 70 cm/s", "Narrow box, low persistence"]
+            - ["Veins, such as the pulmonary veins", "About 15 to 25 cm/s", "Narrow box"]
+        text: "Starting settings for a second-trimester screen."
+        claims: [IS23-076, IS23-077]
+
+  - heading: "Always beside grey-scale"
+    blocks:
+      - text: "When colour is used, display it alongside the grey-scale image. This avoids false-negative findings."
+        claims: [IS23-041]
+
+  - heading: "Power Doppler"
+    blocks:
+      - text: "Power Doppler shows the strength of the Doppler signal, not the frequency shift. It helps to show small vessels, slow flow such as in veins, and septal defects. Directional power Doppler adds the direction of flow."
+        claims: [AS23-011]
+
+  - heading: "Colour in early pregnancy"
+    blocks:
+      - text: "For early cardiac screening, colour or high-quality power Doppler is recommended in addition to grey-scale."
+        claims: [IS23-092]
+      - text: "In early screening, use Doppler mainly for the four-chamber view and the three-vessel-and-trachea view. Keep the thermal index at 1.0 or less and the exposure as short as possible, usually no more than 5 to 10 minutes."
+        claims: [IS23-093]
+      - text: "The echocardiography guideline gives the same direction: in early gestation keep the thermal and mechanical indices at or below 1.0 and use Doppler sparingly."
+        claims: [AS23-006]
+
+missing_claims:
+  - "Common colour traps (aliasing, colour bleeding over a septum, wrong scale hiding a jet) with how to recognise each - needs a source; partly planned for D10 and XA4."
+  - "How to use colour on the ventricular septum to look for a defect at screening level - not stated in the screening guideline."
+  - "Voluson-specific colour presets and HD-flow - needs a source and the editor's input."
+
+drills:
+  - id: D7-Q01
+    question: "Is colour flow Doppler mandatory for a cardiac screening examination?"
+    options:
+      - "No, but it is encouraged and can be used when the operator feels competent"
+      - "Yes, on every view"
+      - "Yes, but only on the four-chamber view"
+      - "No, and it should be avoided in the second trimester"
+    answer: 0
+    explanation: "Colour is not mandatory in screening. The guideline encourages becoming familiar with it and adding it to the routine scan."
+    claims: [IS23-073]
+
+  - id: D7-Q02
+    question: "For a second-trimester screen, which colour velocity scale suits the heart and great arteries?"
+    options:
+      - "About 50 to 70 cm/s"
+      - "About 15 to 25 cm/s"
+      - "About 5 to 10 cm/s"
+      - "About 150 to 200 cm/s"
+    answer: 0
+    explanation: "About 50 to 70 cm/s for intracardiac structures and vessels, with low persistence."
+    claims: [IS23-077]
+
+  - id: D7-Q03
+    question: "You want to show a pulmonary vein with colour. Which velocity scale is appropriate?"
+    options:
+      - "About 15 to 25 cm/s"
+      - "About 50 to 70 cm/s"
+      - "About 100 cm/s"
+      - "The same scale as for the aortic valve"
+    answer: 0
+    explanation: "Veins need a lower scale, about 15 to 25 cm/s."
+    claims: [IS23-077]
+
+  - id: D7-Q04
+    question: "How should the colour box be set?"
+    options:
+      - "Narrow, and only over the area of interest"
+      - "As wide as the whole sector"
+      - "Over the whole fetal chest and abdomen"
+      - "Its size does not affect the image"
+    answer: 0
+    explanation: "A narrow box over the area of interest preserves frame rate and colour image quality."
+    claims: [IS23-076]
+
+  - id: D7-Q05
+    question: "Why should the colour image be displayed alongside the grey-scale image?"
+    options:
+      - "To avoid false-negative findings"
+      - "To reduce the thermal index"
+      - "To increase the frame rate"
+      - "Because colour cannot be stored on its own"
+    answer: 0
+    explanation: "Showing colour beside grey-scale avoids false-negative findings."
+    claims: [IS23-041]
+
+  - id: D7-Q06
+    question: "What does normal colour flow look like across the four heart valves?"
+    options:
+      - "Forward flow across both atrioventricular valves and both semilunar valves"
+      - "Forward flow across the atrioventricular valves, with a small backward jet at each"
+      - "Flow in opposite directions in the two great arteries"
+      - "No visible flow across the semilunar valves at screening settings"
+    answer: 0
+    explanation: "A normal heart shows antegrade flow across the atrioventricular and semilunar valves and the great arteries."
+    claims: [IS23-074]
+
+  - id: D7-Q07
+    question: "Which finding does colour Doppler make easier to see?"
+    options:
+      - "Reversed flow in the aortic arch or the ductus arteriosus"
+      - "The thickness of the ventricular wall"
+      - "The size of the heart against the chest"
+      - "The cardiac axis"
+    answer: 0
+    explanation: "Colour highlights abnormal patterns such as atrioventricular valve regurgitation and flow reversal in the ductus arteriosus or aortic arch. Size and axis are grey-scale judgements."
+    claims: [IS23-074]
+
+  - id: D7-Q08
+    question: "Is colour Doppler needed to show a pulmonary vein entering the left atrium at screening?"
+    options:
+      - "No: it should be shown on grey-scale where feasible; colour can help but is not mandatory"
+      - "Yes: pulmonary veins can only be shown with colour"
+      - "Yes: pulsed-wave Doppler is also required"
+      - "Pulmonary veins are not part of the screening examination"
+    answer: 0
+    explanation: "At least one pulmonary vein should be seen entering the left atrium on B-mode when technically feasible. Colour can help but is not mandatory."
+    claims: [IS23-040]
+
+  - id: D7-Q09
+    question: "You are using colour Doppler at an early cardiac screen. What is the limit for the thermal index?"
+    options:
+      - "1.0 or less"
+      - "2.0 or less"
+      - "There is no limit for colour Doppler"
+      - "5.0 or less"
+    answer: 0
+    explanation: "In early screening the thermal index should be 1.0 or less and exposure as short as possible."
+    claims: [IS23-093, AS23-006]
+
+  - id: D7-Q10
+    question: "At an early cardiac screen, on which views should Doppler mainly be used?"
+    options:
+      - "The four-chamber view and the three-vessel-and-trachea view"
+      - "Every plane, for as long as needed"
+      - "The upper abdomen only"
+      - "The sagittal arch views only"
+    answer: 0
+    explanation: "In early screening Doppler is used mainly for the four-chamber and three-vessel-and-trachea views, with exposure kept short."
+    claims: [IS23-093]
+
+  - id: D7-Q11
+    question: "What does power Doppler display?"
+    options:
+      - "The strength of the Doppler signal, which helps with small vessels and slow flow"
+      - "The peak velocity of flow in cm/s"
+      - "The timing of atrial against ventricular contraction"
+      - "Tissue movement at the valve annulus"
+    answer: 0
+    explanation: "Power Doppler displays signal amplitude, not frequency shift, and helps to show small vessels, low-velocity flow and septal defects."
+    claims: [AS23-011]
+
+checklist:
+  title: "Colour on a screening scan"
+  items:
+    - text: "Colour box narrow, over the area of interest only"
+      claims: [IS23-076]
+    - text: "Scale about 50 to 70 cm/s for heart and arteries; about 15 to 25 cm/s for veins; low persistence"
+      claims: [IS23-077]
+    - text: "Colour shown beside the grey-scale image"
+      claims: [IS23-041]
+    - text: "Forward flow across all four valves and both great arteries"
+      claims: [IS23-074]
+    - text: "V of the two arches shown at the three-vessel-and-trachea view"
+      claims: [IS23-074]
+    - text: "Early pregnancy: thermal index 1.0 or less, exposure kept short"
+      claims: [IS23-093]
+
+video:
+  title: "Adding colour to the sweep"
+  target_minutes: 5
+  beats:
+    - shot: "Presenter to camera"
+      narration: "Colour is not compulsory for screening. It is encouraged. Learn it on normal hearts first."
+      claims: [IS23-073]
+    - shot: "Machine console: colour key, box size, scale control"
+      narration: "Small box, only where you are looking. Scale fifty to seventy for the heart and arteries. Fifteen to twenty-five for veins. Persistence low."
+      claims: [IS23-076, IS23-077]
+    - shot: "Split screen: grey-scale four-chamber beside the same view in colour"
+      narration: "Keep grey-scale beside colour. Two valves, two streams filling the ventricles, both going forward."
+      claims: [IS23-041, IS23-074]
+    - shot: "Outflow tract clips in colour"
+      narration: "Forward flow through the aortic valve. Forward flow through the pulmonary valve."
+      claims: [IS23-074]
+    - shot: "Three-vessel-and-trachea clip in colour"
+      narration: "Two arches meeting in a V, the same colour. If one arch is the opposite colour, flow is reversed. That is not normal."
+      claims: [IS23-074]
+    - shot: "Screen close-up of thermal index display"
+      narration: "In early pregnancy, watch the thermal index. One or less. Keep it short."
+      claims: [IS23-093]

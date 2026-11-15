@@ -14,6 +14,8 @@ A book, an app, videos and study material for fetal echocardiography, all genera
 | [docs/04-ai-workflow.md](docs/04-ai-workflow.md) | How Claude, ChatGPT and Gemini are used, step by step |
 | [docs/05-governance.md](docs/05-governance.md) | Consent, PC-PNDT, data protection, copyright, safety |
 | [docs/06-build-plan.md](docs/06-build-plan.md) | What is being built, the steps, and who does each |
+| [docs/07-clinic-checks.md](docs/07-clinic-checks.md) | One form: archive survey, Voluson export check, consent check |
+| [docs/08-pilot-protocol.md](docs/08-pilot-protocol.md) | How the course will be tested on learners |
 
 ## How it works
 
@@ -26,6 +28,9 @@ dist/<unit>/       chapter.md, drills.json, video-script.md, study.html, review.
 dist/app/          installable course app (all units, offline)
 dist/book/         book.md, book.html, book.pdf (all units)
 dist/web/          website pages and WordPress fragments for public units
+dist/editor/       one review pack for the editor-in-chief (all unsigned units)
+tools/clinic/      case catalogue and anonymiser, for the clinic computer
+tasks/             ready-to-paste tasks for the other AI models
 prompts/           the four prompts for harvest, cross-check, draft, audit
 ```
 
@@ -45,10 +50,21 @@ Then open `dist/app/index.html` in a browser for the course app, or `dist/D1/stu
 
 ## What exists now
 
-- **118 claims**: 96 from the ISUOG 2023 screening guideline and 22 from the ASE 2023 fetal echocardiography guideline, all with page references.
-- Unit **D1, The normal heart in five views**: 10 sections, 22 drills, video outline. Reviewed and signed by the editor on 13 Nov 2026 (62 claims expert-verified).
-- Unit **F1, Ultrasound modes used in fetal echocardiography**: 13 sections, 15 drills, checklist, video outline. Draft: its 22 ASE claims are not yet cross-checked or signed.
+- **118 claims**: 96 from the ISUOG 2023 screening guideline and 22 from the ASE 2023 fetal echocardiography guideline, all with page references. 62 are expert-verified.
+- **8 units.** Signed: **D1** The normal heart in five views. Draft, awaiting cross-check, audit and signature: **D0** Why hearts are missed, **D7** Colour Doppler in screening, **D8** Rate and rhythm, **D9** The heart at 11 to 14 weeks, **D11** When and how to refer, **D13** Quality assurance and audit, **F1** Ultrasound modes. 102 drills in all.
 - Course app, combined book and website page generated from the units.
+- **Editor's review pack** (`dist/editor/review-pack.html`): one printable document with every open decision and every claim still to check, each listed once.
+- **Clinic tools** (`tools/clinic/`): offline case catalogue and clip anonymiser.
+- **Tasks for ChatGPT** (`tasks/chatgpt-tasks.md`): cross-check, audit and further harvest, ready to paste.
+
+## Where things stand
+
+| Next step | Who | Where |
+|---|---|---|
+| Run the three ChatGPT tasks and bring back the results | Project owner | `tasks/chatgpt-tasks.md` |
+| Fill the clinic checks form (archive, Voluson export, consent) | Project owner | `docs/07-clinic-checks.md` |
+| Apply results, fix units, rebuild the review pack | Claude | `tools/apply_crosscheck.py` |
+| Sign the review pack | Dr Kunda | `dist/editor/review-pack.html` |
 
 ## Rules
 

@@ -1,0 +1,21 @@
+# Decisions only the editor-in-chief can make. Keep this list short.
+# Each has a default: if no answer is given, work continues on the default
+# and the item stays visibly open. Remove an item once answered and logged.
+
+- id: Q1
+  question: "ASE guideline: are the aortic arch and isthmus required or optional sites for pulsed-wave Doppler in a fetal echocardiogram? The text (p. 689) and Table 6 (p. 693) appear to differ."
+  options: ["Teach as optional (as in Table 6)", "Teach as required (as in the text)", "State both and explain"]
+  default: "Wait for the ChatGPT cross-check of claim AS23-014 against the PDF; if the difference is real, teach as optional and note the text."
+  affects: "Unit F1"
+
+- id: Q2
+  question: "After a normal early (11 to 14 week) heart check, may the course say plainly that the full second-trimester cardiac screen is still required?"
+  options: ["Yes, say it plainly as the editor's teaching", "Only once a source is added"]
+  default: "Left out of unit D9 until a source is added."
+  affects: "Unit D9"
+
+- id: Q3
+  question: "Does the consent held for archive cases cover publication for teaching in a paid product (not only clinical care)?"
+  options: ["Yes, wording covers it", "No or unsure: re-consent or do not use", "Ask the legal advisor"]
+  default: "No archive clip is published until this is confirmed in writing."
+  affects: "All clip drills and the case atlas"

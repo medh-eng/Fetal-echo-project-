@@ -60,6 +60,14 @@ Owner: **K** = Dr Kunda, **Y** = you, **C** = Claude, **X** = ChatGPT or Gemini.
 2. ISUOG 2023 guideline harvested from the full PDF: 96 claims with page references. (C)
 3. Unit D1 rewritten on those claims: 10 sections, 22 drills, video outline, editor's review sheet. (C)
 
+4. D1 signed by the editor (13 Nov). Unit F1 drafted. Course app, book and website page built. (C)
+5. Six more Detect units drafted from the existing claims: D0, D7, D8, D9, D11, D13 (15 Nov). (C)
+6. Editor's review pack: one document for all unsigned units, each claim once. (C)
+7. Case catalogue tool and anonymiser built and tested on a made-up clip (were steps 9 and 10). (C)
+8. Clinic checks form (`07-clinic-checks.md`) replacing three separate requests; pilot protocol drafted (`08-pilot-protocol.md`). (C)
+
+Status at 15 Nov 2026: the numbered steps below are unchanged, except that the tools in steps 9 and 10 exist and step 12 is done. Units D2 to D6, D10, D12 and D14 need sources beyond the two guidelines held, or the editor's own teaching, and are not drafted.
+
 ### Next two weeks
 
 4. **Cross-check.** Give the guideline PDF, `content/ledger/ISUOG-2023-SCREEN.yaml` and `prompts/02-crosscheck.md` to ChatGPT or Gemini. Bring back its table. (Y, X) About 30 minutes.
