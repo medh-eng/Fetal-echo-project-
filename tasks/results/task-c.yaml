@@ -1,0 +1,855 @@
+- id: AS23-023
+  statement: "Suspected cardiac disease on obstetric screening requires fetal echocardiography even in the absence of other risk factors."
+  source: ASE-2023-FETALECHO
+  locator: "II. Indications, p. 680; Key Points, p. 682"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-024
+  statement: "Pregestational diabetes is an indication for fetal echocardiography."
+  source: ASE-2023-FETALECHO
+  locator: "II. Indications, Table 1, ASE column, p. 681"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-025
+  statement: "Maternal autoimmune disease with SSA/SSB antibody positivity is an indication for fetal echocardiography."
+  source: ASE-2023-FETALECHO
+  locator: "II. Indications, Table 1, ASE column, p. 681"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-026
+  statement: "A first-degree family history of congenital heart disease is an indication for fetal echocardiography."
+  source: ASE-2023-FETALECHO
+  locator: "II. Indications, Table 1, ASE column, p. 681"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-027
+  statement: "After in vitro fertilisation, fetal echocardiography may be considered despite a normal cardiac screen, taking local screening accuracy into account."
+  source: ASE-2023-FETALECHO
+  locator: "II. Indications, Table 1, ASE column and referral footnote, p. 681"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-028
+  statement: "Hydrops on fetal screening is an indication for fetal echocardiography."
+  source: ASE-2023-FETALECHO
+  locator: "II. Indications, Table 1, ASE column, p. 681"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-029
+  statement: "An extracardiac anomaly on fetal screening is an indication for fetal echocardiography."
+  source: ASE-2023-FETALECHO
+  locator: "II. Indications, Table 1, ASE column, p. 681"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-030
+  statement: "Monochorionic twins are an indication for fetal echocardiography."
+  source: ASE-2023-FETALECHO
+  locator: "II. Indications, Table 1, ASE column, p. 681"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-031
+  statement: "At a nuchal translucency of 3.0–3.4 mm, referral for fetal echocardiography may be considered. After a normal cardiac screen, the decision should account for local screening accuracy."
+  source: ASE-2023-FETALECHO
+  locator: "II. Indications, Table 1, ASE column and referral footnote, p. 681"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-032
+  statement: "A nuchal translucency of 3.5 mm or greater is an indication for fetal echocardiography."
+  source: ASE-2023-FETALECHO
+  locator: "II. Indications, Table 1, ASE column, p. 681"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-033
+  statement: "An isolated single umbilical artery does not itself indicate fetal echocardiography when the second-trimester cardiac screen is normal."
+  source: ASE-2023-FETALECHO
+  locator: "II. Indications, Table 1, ASE column and table footnote, p. 681"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-034
+  statement: "The optimal window for a comprehensive transabdominal fetal echocardiogram is 18–22 weeks."
+  source: ASE-2023-FETALECHO
+  locator: "III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-035
+  statement: "An abnormal fetal heart is usually reassessed every 2–8 weeks until about 34–36 weeks, with the interval guided by the lesion and clinical concerns."
+  source: ASE-2023-FETALECHO
+  locator: "III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-036
+  statement: "Near-term reassessment is targeted to findings that could change care immediately after birth."
+  source: ASE-2023-FETALECHO
+  locator: "III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-037
+  statement: "A normal midtrimester fetal echocardiogram generally needs no follow-up unless there is concern for a progressive lesion."
+  source: ASE-2023-FETALECHO
+  locator: "III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-038
+  statement: "When a progressive lesion is suspected despite a normal midtrimester echocardiogram, repeat assessment is recommended at intervals of up to 2–4 weeks."
+  source: ASE-2023-FETALECHO
+  locator: "III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-039
+  statement: "The fetal cardiology and obstetric teams should decide the follow-up interval together."
+  source: ASE-2023-FETALECHO
+  locator: "III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-040
+  statement: "If a standard view cannot be obtained, the study is complete only if all the cardiovascular structures are adequately seen by another approach or are anatomically absent."
+  source: ASE-2023-FETALECHO
+  locator: "III.H. Complete Fetal Cardiac Assessment Using Segmental Analysis, p. 692"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-041
+  statement: "To assign abdominal situs, the examiner evaluates an upper abdominal cross-section showing the stomach, liver, descending aorta and systemic veins in the fetus's established orientation."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Abdominal situs, p. 687"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-042
+  statement: "Two-dimensional imaging is required for visceral and atrial situs. Colour Doppler is optional for that determination."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Table 3, situs row, p. 686"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-043
+  statement: "The cardiac axis must be assessed in two dimensions. Measuring the angle is optional."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Table 3, cardiac axis row, p. 686"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-044
+  statement: "A complete study requires a measured cardiac-to-thoracic area ratio."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Table 3, cardiac size row, p. 686; III.F, Table 4, p. 690"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-045
+  statement: "The four-chamber view should be examined in at least two perpendicular planes to account for how the beam meets different structures."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Figure 4, p. 686"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-046
+  statement: "Systemic venous connections require assessment with both two-dimensional and colour Doppler imaging."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Table 3, systemic venous connections row, p. 686; III.H, Table 7, p. 695"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-047
+  statement: "The four-chamber assessment must show pulmonary venous connections from at least one vein on each side using two-dimensional and colour Doppler imaging."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Table 3, pulmonary venous connections row, p. 686; four-chamber view, p. 687"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-048
+  statement: "Imaging further pulmonary veins from either lung is optional once the required connection from each side has been demonstrated."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Table 3, pulmonary venous connections row, p. 686; III.H, Table 7, p. 695"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-049
+  statement: "The atrioventricular connections require assessment on two-dimensional and colour images in the four-chamber view."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Table 3, atrioventricular connections row, p. 686; III.H, Table 7, p. 695"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-050
+  statement: "Both two-dimensional and colour images are required to assess the ventricular septum and locate any defect."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Table 3, ventricular septum row, p. 686; four-chamber view, p. 687"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-051
+  statement: "Assessing relative ventricular size in two dimensions is required. Measuring maximum ventricular length and width is optional."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Table 3, ventricular morphology row, p. 686"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-052
+  statement: "The normal left ventricular outflow view shows the outflow below the aortic valve, the valve itself, the region above it and the ascending aorta."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, LV outflow tract, Figure 5, pp. 687–688"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-053
+  statement: "The normal right ventricular outflow view shows the tract below the pulmonary valve, the valve and the proximal pulmonary trunk. Its bifurcation may enter this plane."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, RV outflow tract, pp. 688–689; Figure 6, p. 687"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-054
+  statement: "The right and left pulmonary artery origins at the bifurcation require two-dimensional and colour imaging. Measuring their diameters is optional."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Table 3, proximal branch pulmonary arteries row, p. 686"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-055
+  statement: "In the normal three-vessel view, the pulmonary trunk, ascending aorta and superior vena cava appear in that order from fetal left to right."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Three-vessel view, p. 689; Figure 6, p. 687"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-056
+  statement: "In the three-vessel view, abnormalities of vessel number, size, alignment or arrangement should be recorded."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Three-vessel view, p. 689"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-057
+  statement: "In the normal three-vessel-and-trachea view the two arches join the descending aorta on the left of the trachea."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Three-vessel-and-trachea view, p. 689; Figure 6, p. 687"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-058
+  statement: "Colour Doppler should demonstrate patency and flow direction in both arches in the three-vessel-and-trachea view."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Three-vessel-and-trachea view, p. 689"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-059
+  statement: "The sagittal bicaval view establishes whether the inferior vena cava is continuous."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Bicaval view, p. 689; Figure 8A, p. 688"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-060
+  statement: "The bicaval view shows whether the superior and inferior venae cavae lie on the same side."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Bicaval view, p. 689; Figure 8A, p. 688"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-061
+  statement: "The parasagittal aortic arch view should establish continuity from ascending to descending aorta."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Long-axis view of the aortic arch, p. 689; Figure 8B, p. 688"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-062
+  statement: "The examiner should assess the ascending aorta, transverse arch and isthmus for hypoplasia."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Long-axis view of the aortic arch, p. 689"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-063
+  statement: "Measuring the ductus and the aortic isthmus is optional in the standard assessment of arch size and shape."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Table 3, aortic and ductal arch morphology row, p. 686"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-064
+  statement: "A sagittal plane just left of the fetal midline usually shows the long axis of the ductal arch."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Long-axis view of the ductal arch, p. 689; Figure 8C, p. 688"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-065
+  statement: "To assess ductal restriction, systolic and diastolic velocities at both the pulmonary and aortic ends should be evaluated using colour or spectral Doppler, or both."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Long-axis view of the ductal arch, p. 689"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-066
+  statement: "A high short-axis view shows the aortic valve face-on with the right ventricular outflow and pulmonary artery wrapping in front of it."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Short-axis views, p. 689; Figure 7A, p. 688"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-067
+  statement: "The low short-axis view can show muscular ventricular septal defects when colour Doppler is added."
+  source: ASE-2023-FETALECHO
+  locator: "III.E. Standard Views and Imaging Planes, Short-axis views, p. 689; Figure 7B–C, p. 688"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-068
+  statement: "The mitral and tricuspid annular diameters are required measurements in early diastole."
+  source: ASE-2023-FETALECHO
+  locator: "III.F. Cardiac Biometry and Measurement Data, Table 4, p. 690"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-069
+  statement: "The diameters of the aortic and pulmonary valve annuli must be measured in a complete study."
+  source: ASE-2023-FETALECHO
+  locator: "III.F. Cardiac Biometry and Measurement Data, p. 689; Table 4, pp. 691–692"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: "The text on p. 689 and Table 4 footnote on p. 692 specify systole. The measurement row on p. 691 permits end-diastole or early systole with the valve open or closed."
+- id: AS23-070
+  statement: "The usual fetal heart rate given for image optimisation is 120–160 beats/min."
+  source: ASE-2023-FETALECHO
+  locator: "IV.A. Rhythm Disturbances and Tools for Assessment, Figure 12, p. 697; text, p. 699; III.D, p. 684"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: "The rhythm section gives gestation-specific percentiles in Figure 12 and separate criteria for a sustained abnormal rate on p. 699."
+- id: AS23-071
+  statement: "A sustained fetal rate below 120 beats/min is abnormal at any gestation."
+  source: ASE-2023-FETALECHO
+  locator: "IV.A. Rhythm Disturbances and Tools for Assessment, p. 699"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-072
+  statement: "ASE describes a sustained rate above 160–180 beats/min as abnormal at any gestation."
+  source: ASE-2023-FETALECHO
+  locator: "IV.A. Rhythm Disturbances and Tools for Assessment, p. 699"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: "The rhythm section gives a range for the upper threshold and does not select a single cutoff."
+- id: AS23-073
+  statement: "Every fetal echocardiogram must document the fetal heart rate and rhythm."
+  source: ASE-2023-FETALECHO
+  locator: "IV.A. Rhythm Disturbances and Tools for Assessment, Key Points, p. 699"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-074
+  statement: "A premature atrial beat resets the atrial rhythm, producing an incomplete compensatory pause."
+  source: ASE-2023-FETALECHO
+  locator: "IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698; Figure 16, p. 700"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-075
+  statement: "With a premature ventricular beat, the interval between successive atrial beats is preserved."
+  source: ASE-2023-FETALECHO
+  locator: "IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-076
+  statement: "Sinus tachycardia is typically regular with a long interval from ventricular to atrial contraction and a rate below 200 beats/min."
+  source: ASE-2023-FETALECHO
+  locator: "IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-077
+  statement: "In the common pathway-mediated reentrant supraventricular tachycardia, atrial and ventricular beats pair one-to-one with a short interval from ventricle to atrium."
+  source: ASE-2023-FETALECHO
+  locator: "IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698; Figure 14B, p. 699"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-078
+  statement: "In supraventricular tachycardia, ASE advises against using paired mitral inflow and aortic outflow to time the atrium because the inflow waves fuse."
+  source: ASE-2023-FETALECHO
+  locator: "IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-079
+  statement: "One-to-one tachycardia with a long interval from ventricle to atrium is seen in ectopic atrial tachycardia and permanent junctional reciprocating tachycardia."
+  source: ASE-2023-FETALECHO
+  locator: "IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-080
+  statement: "Atrial flutter produces rapid sawtooth atrial motion on M-mode, often with only every second or third atrial beat reaching the ventricles."
+  source: ASE-2023-FETALECHO
+  locator: "IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698; Figure 14A, p. 699"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: "The source describes conventional M-mode here. No separate recommendation for colour M-mode was identified in the guideline."
+- id: AS23-081
+  statement: "In ventricular tachycardia, M-mode or paired arterial and venous Doppler can show atrial contractions independent of the ventricular rhythm."
+  source: ASE-2023-FETALECHO
+  locator: "IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: "The same table row describes the ventricular rate as usually slower than the atrial rate. That wording is unclear in context and should be independently checked before teaching a rate relationship."
+- id: AS23-082
+  statement: "In sinus bradycardia, simultaneous atrial and ventricular recordings show preserved atrioventricular conduction."
+  source: ASE-2023-FETALECHO
+  locator: "IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698; Figure 13, p. 697"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-083
+  statement: "In complete heart block, atrial and ventricular contractions are independent, with a ventricular rate typically between 50 and 80 beats/min."
+  source: ASE-2023-FETALECHO
+  locator: "IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698; Figure 15, p. 699"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-084
+  statement: "Repeated blocked premature atrial contractions can mimic second- or third-degree atrioventricular block and must be distinguished from it."
+  source: ASE-2023-FETALECHO
+  locator: "IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698; Figure 17, p. 700"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-085
+  statement: "When the pregnant patient carries anti-Ro/La antibodies, the fetal mechanical PR interval may be measured to assess atrioventricular conduction."
+  source: ASE-2023-FETALECHO
+  locator: "IV.A. Rhythm Disturbances and Tools for Assessment, p. 699; Figure 13, p. 697"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: "The guideline gives no general numerical normal range for the mechanical PR interval. The 100 ms in Figure 13 refers to isovolumic relaxation time."
+- id: AS23-086
+  statement: "Evidence is unclear that routine surveillance of anti-Ro/La-exposed fetuses reduces progression to higher-degree atrioventricular block."
+  source: ASE-2023-FETALECHO
+  locator: "IV.A. Rhythm Disturbances and Tools for Assessment, p. 699"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-087
+  statement: "Every fetal echocardiogram must include a qualitative assessment of systolic and diastolic function."
+  source: ASE-2023-FETALECHO
+  locator: "IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Key Points, p. 704"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-088
+  statement: "When findings raise concern about cardiac function or output, quantitative assessment should be performed."
+  source: ASE-2023-FETALECHO
+  locator: "IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Key Points, p. 704"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-089
+  statement: "The initial assessment for suspected dysfunction should look for features of hydrops, including ascites, pleural or pericardial fluid, and skin oedema."
+  source: ASE-2023-FETALECHO
+  locator: "IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Imaging Tools for Assessing Fetal Cardiac Function, Table 12, p. 703"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-090
+  statement: "Atrioventricular valve regurgitation on Doppler may indicate systolic dysfunction."
+  source: ASE-2023-FETALECHO
+  locator: "IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Imaging Tools for Assessing Fetal Cardiac Function, p. 703"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-091
+  statement: "As diastolic function worsens, the fraction of the cardiac cycle spent filling may shorten until only one inflow wave is seen."
+  source: ASE-2023-FETALECHO
+  locator: "IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Figure 19C, p. 702"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-092
+  statement: "The myocardial performance index combines systolic and diastolic timing to assess overall ventricular performance."
+  source: ASE-2023-FETALECHO
+  locator: "IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Imaging Tools for Assessing Fetal Cardiac Function, p. 703; Figure 19A, p. 702"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-093
+  statement: "Outside sinus rhythm, venous A-wave reversal is an unreliable indicator of worsening cardiac function."
+  source: ASE-2023-FETALECHO
+  locator: "IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Imaging Tools for Assessing Fetal Cardiac Function, p. 703; Figure 20, p. 702"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-094
+  statement: "The cardiovascular profile score may help track changes in cardiovascular compromise on serial examinations."
+  source: ASE-2023-FETALECHO
+  locator: "IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Cardiovascular Profile Score, Table 12, p. 703"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-095
+  statement: "A comprehensive assessment of a compromised fetus should include pulsed-wave Doppler of the umbilical and middle cerebral arteries, obtained at either the obstetric or cardiac study."
+  source: ASE-2023-FETALECHO
+  locator: "IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Additional Imaging, p. 703"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-096
+  statement: "In suspected mitral valve disease, pulmonary venous pulsed-wave Doppler should be used to look for elevated left atrial pressure."
+  source: ASE-2023-FETALECHO
+  locator: "IV.C. Structural Heart Disease, Complex AV Connections, p. 712"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-097
+  statement: "In a suspected outflow tract abnormality, ductal flow direction must be documented with Doppler."
+  source: ASE-2023-FETALECHO
+  locator: "IV.C. Structural Heart Disease, Look-Alike Outflow Tract Lesions, Key Points, p. 715"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-098
+  statement: "In semilunar valve stenosis, a Doppler pressure gradient can be reported but may not reflect how severe the obstruction is."
+  source: ASE-2023-FETALECHO
+  locator: "IV.C. Structural Heart Disease, Progressive Lesions, Obstructive and Regurgitant, Key Points, p. 716"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-099
+  statement: "In severe Ebstein anomaly or severe tricuspid valve dysplasia, the regurgitant jet should be assessed by pulsed-wave or continuous-wave Doppler to evaluate right ventricular function."
+  source: ASE-2023-FETALECHO
+  locator: "IV.C. Structural Heart Disease, Progressive Lesions, Obstructive and Regurgitant, Key Points, p. 717"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-100
+  statement: "The side of each arch relative to the trachea should be documented at every fetal echocardiogram."
+  source: ASE-2023-FETALECHO
+  locator: "IV.C. Structural Heart Disease, Isolated Arch Abnormalities, Key Points, p. 718"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: "The key points on outflow lesions on p. 715 specify documenting aortic arch sidedness at least once in pregnancy. The general arch section calls for documentation of both arches at each examination."
+- id: AS23-101
+  statement: "Colour and power Doppler in the three-vessel-and-trachea view can help identify an aberrant subclavian artery."
+  source: ASE-2023-FETALECHO
+  locator: "IV.C. Structural Heart Disease, Isolated Arch Abnormalities, p. 717; Figure 30C, p. 718"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-102
+  statement: "Suspicion of a cardiac anomaly in the late first trimester should prompt consideration of an early fetal echocardiogram, depending on available expertise and resources."
+  source: ASE-2023-FETALECHO
+  locator: "III.J. Fetal Echocardiography in Early Gestation, Key Points, p. 697"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-103
+  statement: "Evidence is insufficient to recommend fetal echocardiography before 16 weeks for low-risk pregnancies."
+  source: ASE-2023-FETALECHO
+  locator: "III.J. Fetal Echocardiography in Early Gestation, Key Points, p. 697"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-104
+  statement: "For early endovaginal imaging, Table 8 gives a gestational age beyond 10 weeks."
+  source: ASE-2023-FETALECHO
+  locator: "III.J. Fetal Echocardiography in Early Gestation, Table 8, timing, p. 696"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-105
+  statement: "For an early transabdominal study, Table 8 gives a gestational age beyond 12 weeks, with 13–15 weeks ideal."
+  source: ASE-2023-FETALECHO
+  locator: "III.J. Fetal Echocardiography in Early Gestation, Table 8, timing, p. 696"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-106
+  statement: "Pulmonary and systemic venous anatomy are particularly difficult to assess early in gestation."
+  source: ASE-2023-FETALECHO
+  locator: "III.J. Fetal Echocardiography in Early Gestation, Table 8, examination expectations, p. 696"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-107
+  statement: "Limited early image resolution can obscure subtle defects, including valve lesions."
+  source: ASE-2023-FETALECHO
+  locator: "III.J. Fetal Echocardiography in Early Gestation, Table 8, cardiac pathology, p. 696"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-108
+  statement: "When the early findings are uncertain or suspicious, a repeat examination within 1–2 weeks is suggested."
+  source: ASE-2023-FETALECHO
+  locator: "III.J. Fetal Echocardiography in Early Gestation, Table 8, cardiac pathology, p. 696"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-109
+  statement: "Even after a normal detailed early examination, a repeat study is recommended at 18–20 weeks."
+  source: ASE-2023-FETALECHO
+  locator: "III.J. Fetal Echocardiography in Early Gestation, Table 8, additional considerations, p. 696; III.A, Timing, p. 682"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-110
+  statement: "Early counselling and reporting should address the possibility of missed diagnoses or lesions that progress later."
+  source: ASE-2023-FETALECHO
+  locator: "III.J. Fetal Echocardiography in Early Gestation, Table 8, counselling and reporting, p. 696"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-111
+  statement: "ASE endorses limiting performance and supervision of fetal echocardiograms to appropriately trained or experienced paediatric cardiologists, maternal-fetal medicine specialists, obstetricians or radiologists with fetal echocardiography skills."
+  source: ASE-2023-FETALECHO
+  locator: "III. The Fetal Echocardiographic Examination, opening paragraphs, p. 682"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-112
+  statement: "Ongoing quality improvement in fetal echocardiography should be documented."
+  source: ASE-2023-FETALECHO
+  locator: "III. The Fetal Echocardiographic Examination, opening paragraphs, p. 682"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-113
+  statement: "Images should be kept in a secure digital archive that allows retrieval for review."
+  source: ASE-2023-FETALECHO
+  locator: "III.A. Timing of Examination, Equipment, and Image Storage, Storage, p. 684"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-114
+  statement: "ASE emphasises following local legal requirements when deciding how long to retain clinical images."
+  source: ASE-2023-FETALECHO
+  locator: "III.A. Timing of Examination, Equipment, and Image Storage, Storage, p. 684"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-115
+  statement: "The thermal and mechanical indices should be available to the reviewer in the stored image metadata."
+  source: ASE-2023-FETALECHO
+  locator: "III.A. Timing of Examination, Equipment, and Image Storage, Storage, p. 684"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-116
+  statement: "Where relevant, a reviewer should be able to read the anatomical site and laterality in the stored clinical image metadata."
+  source: ASE-2023-FETALECHO
+  locator: "III.A. Timing of Examination, Equipment, and Image Storage, Storage, p. 684"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-117
+  statement: "If the study remains nondiagnostic after optimisation, the report should identify the limitations."
+  source: ASE-2023-FETALECHO
+  locator: "III.D. Image Optimization, p. 684"
+  status: ai-extracted
+  extracted_by: "ChatGPT (GPT-6, 2026-11-16)"
+  checked_by: null
+  verified_by: null
+  note: null
