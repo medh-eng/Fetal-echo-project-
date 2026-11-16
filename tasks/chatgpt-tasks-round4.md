@@ -28,6 +28,8 @@ Output: one short list per unit, then one line: "Units with nothing left to fix:
 Use nothing from memory. If a fact is missing from the ledger, say MISSING CLAIM.
 ```
 
+On 17 Nov ten units (D2, D3, D4, D6, D9, D10, D11, F2, XA5, XC1) also had single sentences changed to follow twelve reworded claims, listed in `tasks/results/task-1-crosscheck.md`. If time allows, check each changed sentence against its reworded claim.
+
 Save as `tasks/results/task-g.md` (a pull request is fine).
 
 ## Task H. Sixteen claims that need eyes on the PDF (Gemini preferred; ChatGPT may do the twelve reworded ones)
