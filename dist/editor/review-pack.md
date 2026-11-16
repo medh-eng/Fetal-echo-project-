@@ -4,7 +4,7 @@ For Dr Kunda Shahane, editor-in-chief. Everything that needs her decision or sig
 Each claim appears once, even if several units use it. Claims she has already verified are not repeated.
 Claims that a second AI has not yet confirmed against the source are held back, so that she checks each fact only once.
 
-**4 decision(s). 5 claim(s) to approve again. 39 new claim(s) to check. 108 claim(s) held back until cross-checked.**
+**4 decision(s). 5 claim(s) to approve again. 39 new claim(s) to check. 112 claim(s) held back until cross-checked.**
 
 ## Part A. Decisions
 
@@ -64,6 +64,7 @@ A unit can be signed once nothing in it is held back.
 | F1 | Ultrasound modes used in fetal echocardiography | 35 | 8 | 1 | 15 | 11 | not yet |
 | F2 | Fetal rhythm: tools and mechanisms | 29 | 4 | 1 | 4 | 20 | not yet |
 | XA5 | The complete fetal echocardiogram | 49 | 0 | 0 | 2 | 47 | not yet |
+| XC1 | Assessing cardiac function: the first steps | 15 | 1 | 0 | 2 | 12 | not yet |
 
 Read each unit as the learner will see it in `dist/<unit>/chapter.md`, or in the app.
 
@@ -94,12 +95,12 @@ You approved these on 13 Nov in an earlier wording. A check against the guidelin
 | AS23-010 | For colour Doppler the Nyquist limit is set to suit the velocities of interest, and colour gain and persistence are adjusted so that colour fills the chamber or vessel without hiding the grey-scale image. | ASE-2023-FETALECHO: III.D Image optimization, p. 684; III.G, p. 689 | D7, F1 | |
 | AS23-011 | Power Doppler displays the amplitude of the Doppler signal rather than the frequency shift; it helps to show small vessels, low-velocity flow such as in veins, and septal defects. Directional power Doppler adds the direction of flow. | ASE-2023-FETALECHO: III.G Color and Power Doppler Ultrasound, p. 689; III.D Image Optimization, p. 684 (septal defects) | D7, F1 | |
 | AS23-013 | Sites where pulsed-wave Doppler is required in a fetal echocardiogram: umbilical vein, ductus venosus, at least one pulmonary vein on each side, tricuspid and mitral inflow, aortic and pulmonary outflow, the distal ductus arteriosus and the umbilical artery. | ASE-2023-FETALECHO: Table 6, p. 693 | F1, XA5 | |
-| AS23-015 | Continuous-wave Doppler is not needed when the heart is normal. It is used to characterise high velocities and valve gradients and to estimate pressure from an atrioventricular valve regurgitant jet, with the beam aligned along the jet. | ASE-2023-FETALECHO: III.G CW Doppler Ultrasound, p. 692; III.A Equipment, p. 683 | F1 | |
+| AS23-015 | Continuous-wave Doppler is not needed when the heart is normal. It is used to characterise high velocities and valve gradients and to estimate pressure from an atrioventricular valve regurgitant jet, with the beam aligned along the jet. | ASE-2023-FETALECHO: III.G CW Doppler Ultrasound, p. 692; III.A Equipment, p. 683 | F1, XC1 | |
 | AS23-016 | When the rhythm is irregular, or bradycardia or tachycardia is seen, the mechanism should be documented with M-mode, pulsed-wave Doppler or tissue Doppler, alone or in combination. | ASE-2023-FETALECHO: IV.A Rhythm Disturbances and Tools for Assessment, Key Points, p. 699; tools introduced p. 697 | D8, F1, F2 | |
 | AS23-017 | M-mode times atrial against ventricular contraction precisely; the cursor is placed through an atrial wall and the free wall of a ventricle together. | ASE-2023-FETALECHO: Figure 11F, p. 697; IV.A, p. 699 | D8, F1, F2 | |
 | AS23-018 | Pulsed-wave Doppler times atrial against ventricular events by sampling two flows at once: superior vena cava with ascending aorta, mitral inflow with aortic outflow, or pulmonary artery with pulmonary vein. | ASE-2023-FETALECHO: IV.A Rhythm; Figure 11, p. 697 | D8, F1, F2 | |
 | AS23-019 | Pulsed-wave tissue Doppler at the lateral mitral or tricuspid annulus records myocardial velocities and time intervals and may help in assessing rhythm, including bradycardia. | ASE-2023-FETALECHO: IV.A, p. 699; Figure 11D, p. 697; Table 9, p. 698 | F1, F2 | |
-| AS23-020 | M-mode is among the tools for assessing systolic function: ventricular shortening fraction and annular plane excursion of the tricuspid and mitral valves. | ASE-2023-FETALECHO: Table 10, p. 701 | F1 | |
+| AS23-020 | M-mode is among the tools for assessing systolic function: ventricular shortening fraction and annular plane excursion of the tricuspid and mitral valves. | ASE-2023-FETALECHO: Table 10, p. 701 | F1, XC1 | |
 | AS23-021 | Three-dimensional imaging and spatiotemporal image correlation (STIC) can add anatomical and functional information, but STIC has not been validated for clinical use. | ASE-2023-FETALECHO: III.I Alternative ultrasound modalities, p. 693 | F1 | |
 | IS23-001 | The guideline gives recommendations for cardiac screening of low-risk pregnancies in the second trimester, and also considers late first-trimester and early second-trimester screening where technically feasible. | ISUOG-2023-SCREEN: Introduction, p. 788 | D0, D9 | |
 | IS23-002 | The 2023 update encourages colour flow Doppler and adds new sections on quality assurance and on use of a checklist. | ISUOG-2023-SCREEN: Introduction, p. 788; Appendix 1, p. 802 | D7, D13 | |
@@ -129,7 +130,7 @@ You approved these on 13 Nov in an earlier wording. A check against the guidelin
 
 ### C3. Held back
 
-108 claim(s) used by these units are waiting for a cross-check by a second AI and are not shown. They will appear in C2 once confirmed.
+112 claim(s) used by these units are waiting for a cross-check by a second AI and are not shown. They will appear in C2 once confirmed.
 
 ## Signature
 

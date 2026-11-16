@@ -24,6 +24,7 @@ author: Edited by Dr Kunda Shahane, Mayflower Clinic, Nagpur
 - F1 Ultrasound modes used in fetal echocardiography (draft)
 - F2 Fetal rhythm: tools and mechanisms (draft)
 - XA5 The complete fetal echocardiogram (draft)
+- XC1 Assessing cardiac function: the first steps (draft)
 
 # Why hearts are missed
 
@@ -2308,3 +2309,96 @@ The study should include still images, moving clips and a structured report. [49
 47. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.H. Complete Fetal Cardiac Assessment Using Segmental Analysis, p. 692. (AS23-040, ai-extracted)
 48. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.D. Image Optimization, p. 684. (AS23-117, ai-extracted)
 49. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.A Storage, p. 684; III.E, p. 684-688. (AS23-008, ai-extracted)
+
+
+\newpage
+
+# Assessing cardiac function: the first steps
+
+> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-extracted' that no clinician has verified.
+
+Unit XC1 | Tier: Diagnose | Version 0.1
+
+## You will be able to
+
+- State what assessment of function every fetal echocardiogram must include.
+- Say when a quantitative assessment is called for.
+- List the features of hydrops to look for first.
+- Name the tools the guideline describes and one limit of each.
+
+## Always qualitative, sometimes quantitative
+
+Every fetal echocardiogram must include a qualitative assessment of systolic and diastolic function. [1]
+
+When the findings raise concern about cardiac function or output, a quantitative assessment should be performed. [2]
+
+
+## Look for fluid first
+
+The first step when dysfunction is suspected is to look for the features of hydrops: ascites, pleural or pericardial fluid, and skin oedema. [3]
+
+The initial survey of any fetal echocardiogram looks for fluid around the heart, in the pleural spaces and in the abdomen. [4]
+
+At screening, a small amount of pericardial fluid, 2 mm or less at end-systole, is common and normal. [5]
+
+
+## Signs on the valves and the inflow
+
+Regurgitation through an atrioventricular valve on Doppler may indicate systolic dysfunction. [6]
+
+As diastolic function worsens, the part of the cardiac cycle spent filling may shorten, until only a single inflow wave is seen. [7]
+
+
+## The tools the guideline names
+
+Tools for assessing function, each with the limit the guideline attaches to it. [8, 9, 10, 11, 12, 13]
+
+| Tool | What it is used for | Limit or caution |
+|---|---|---|
+| M-mode | Systolic function: ventricular shortening fraction; annular plane excursion of the tricuspid and mitral valves | - |
+| Myocardial performance index | Overall ventricular performance, combining systolic and diastolic timing | - |
+| Venous Doppler: A-wave reversal | Used as an indicator of worsening function | Unreliable outside sinus rhythm |
+| Continuous-wave Doppler | Estimating pressure from an atrioventricular valve regurgitant jet | Not needed when the heart is normal |
+| Cardiovascular profile score | May help to track cardiovascular compromise on serial examinations | - |
+| Tissue Doppler and strain | Myocardial mechanics; strain may detect subclinical dysfunction | Application in pregnancy needs further investigation |
+
+
+## The compromised fetus
+
+A comprehensive assessment of a compromised fetus should include pulsed-wave Doppler of the umbilical artery and the middle cerebral artery, obtained at either the obstetric or the cardiac study. [14]
+
+The fetal cardiology and obstetric teams should decide the follow-up interval together. [15]
+
+## Function: first steps
+
+- [ ] Qualitative systolic and diastolic function recorded in every study [1]
+- [ ] Fluid looked for: pericardial, pleural, abdominal; skin oedema [3, 4]
+- [ ] Atrioventricular valve regurgitation looked for [6]
+- [ ] Concern about function or output: quantitative assessment done [2]
+- [ ] Compromised fetus: umbilical artery and middle cerebral artery Doppler included [14]
+
+## Still to be written
+
+- How each measurement is made and its normal values (shortening fraction, annular excursion, myocardial performance index, inflow E and A waves) - needs sources; planned with XA6.
+- The components of the cardiovascular profile score and how it is scored - not in the claims held; needs a source.
+- Cardiomegaly: definition by cardiothoracic ratio and its causes - needs a source.
+- Causes of fetal heart failure and hydrops, and what to do about each - planned for XC2; needs a source and a cardiology co-editor.
+- This unit's ASE claims were extracted by ChatGPT and are not yet cross-checked against the PDF.
+
+## References
+
+1. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Key Points, p. 704. (AS23-087, ai-extracted)
+2. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Key Points, p. 704. (AS23-088, ai-extracted)
+3. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Imaging Tools for Assessing Fetal Cardiac Function, Table 12, p. 703. (AS23-089, ai-extracted)
+4. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.C Examination Technique, p. 684. (AS23-118, ai-extracted)
+5. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 – Four-chamber view, p. 791. (IS23-027, expert-verified)
+6. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Imaging Tools for Assessing Fetal Cardiac Function, p. 703. (AS23-090, ai-extracted)
+7. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Figure 19C, p. 702. (AS23-091, ai-extracted)
+8. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 10, p. 701. (AS23-020, ai-cross-checked)
+9. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Imaging Tools for Assessing Fetal Cardiac Function, p. 703; Figure 19A, p. 702. (AS23-092, ai-extracted)
+10. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Imaging Tools for Assessing Fetal Cardiac Function, p. 703; Figure 20, p. 702. (AS23-093, ai-extracted)
+11. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Cardiovascular Profile Score, Table 12, p. 703. (AS23-094, ai-extracted)
+12. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.I Alternative ultrasound modalities, p. 693. (AS23-022, ai-extracted)
+13. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.G CW Doppler Ultrasound, p. 692; III.A Equipment, p. 683. (AS23-015, ai-cross-checked)
+14. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Additional Imaging, p. 703. (AS23-095, ai-extracted)
+15. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682. (AS23-039, ai-extracted)

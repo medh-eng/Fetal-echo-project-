@@ -26,3 +26,44 @@ ASE-2023-FETALECHO:
   url: "https://www.asecho.org/guideline/fetal-echo"
   held: false
   licence: "Copyright 2023 Elsevier Inc. on behalf of the American Society of Echocardiography. Free to read on asecho.org; not open-licensed. Facts are paraphrased with citation; no figures or tables may be reused without permission. The PDF must be added to the private sources folder before cross-check."
+
+# ---- Planned sources: not yet held, nothing harvested. Add the PDF to the private folder, then set held: true.
+
+AHA-2014-FETALCARDIAC:
+  type: scientific statement
+  title: "Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association"
+  authors: "Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al."
+  journal: "Circulation"
+  year: 2014
+  volume: "129(21)"
+  pages: "2183-2242"
+  doi: "10.1161/01.cir.0000437597.44550.5d"
+  url: "https://www.ahajournals.org/doi/10.1161/01.cir.0000437597.44550.5d"
+  held: false
+  licence: "Copyright 2014 American Heart Association. Not open-licensed. Facts paraphrased with citation; no figures or tables reused without permission. Published 2014: check every recommendation against later documents before teaching it."
+
+AIUM-2020-FETALECHO:
+  type: practice parameter
+  title: "AIUM Practice Parameter for the Performance of Fetal Echocardiography"
+  authors: "American Institute of Ultrasound in Medicine"
+  journal: "J Ultrasound Med"
+  year: 2020
+  volume: "39(1)"
+  pages: "E5-E16"
+  doi: "10.1002/jum.15188"
+  url: "https://onlinelibrary.wiley.com/doi/10.1002/jum.15188"
+  held: false
+  licence: "Copyright AIUM. Not open-licensed. Facts paraphrased with citation; nothing reproduced."
+
+AHA-2024-ARRHYTHMIA-DRUGS:
+  type: scientific statement
+  title: "Pharmacological Management of Cardiac Arrhythmias in the Fetal and Neonatal Periods: A Scientific Statement From the American Heart Association"
+  authors: "Batra AS, Silka MJ, Borquez A, Cuneo B, Dechert B, Jaeggi E, et al."
+  journal: "Circulation"
+  year: 2024
+  volume: "149(10)"
+  pages: "e937-e952"
+  doi: "10.1161/CIR.0000000000001206"
+  url: "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001206"
+  held: false
+  licence: "Copyright 2024 American Heart Association. Not open-licensed. Facts paraphrased with citation. Drug doses are never taught without a cardiology co-editor's sign-off."

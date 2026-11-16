@@ -1,0 +1,175 @@
+# Unit XC1. Every text block and drill lists the claim IDs it rests on.
+# AS23 claims: ASE fetal echocardiography guideline, mostly extracted by ChatGPT on
+# 16 Nov 2026 and not yet cross-checked. Diagnose tier: needs a cardiology co-editor.
+# This is a first, short version built only from the claims held.
+
+id: XC1
+title: "Assessing cardiac function: the first steps"
+tier: Diagnose
+version: 0.1
+summary: "What every fetal echocardiogram must say about function, when to measure, the first signs to look for, and the tools the guideline names."
+drafted_by: "Claude (16 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "State what assessment of function every fetal echocardiogram must include."
+  - "Say when a quantitative assessment is called for."
+  - "List the features of hydrops to look for first."
+  - "Name the tools the guideline describes and one limit of each."
+
+sections:
+
+  - heading: "Always qualitative, sometimes quantitative"
+    blocks:
+      - text: "Every fetal echocardiogram must include a qualitative assessment of systolic and diastolic function."
+        claims: [AS23-087]
+      - text: "When the findings raise concern about cardiac function or output, a quantitative assessment should be performed."
+        claims: [AS23-088]
+
+  - heading: "Look for fluid first"
+    blocks:
+      - text: "The first step when dysfunction is suspected is to look for the features of hydrops: ascites, pleural or pericardial fluid, and skin oedema."
+        claims: [AS23-089]
+      - text: "The initial survey of any fetal echocardiogram looks for fluid around the heart, in the pleural spaces and in the abdomen."
+        claims: [AS23-118]
+      - text: "At screening, a small amount of pericardial fluid, 2 mm or less at end-systole, is common and normal."
+        claims: [IS23-027]
+
+  - heading: "Signs on the valves and the inflow"
+    blocks:
+      - text: "Regurgitation through an atrioventricular valve on Doppler may indicate systolic dysfunction."
+        claims: [AS23-090]
+      - text: "As diastolic function worsens, the part of the cardiac cycle spent filling may shorten, until only a single inflow wave is seen."
+        claims: [AS23-091]
+
+  - heading: "The tools the guideline names"
+    blocks:
+      - text: "Tools for assessing function, each with the limit the guideline attaches to it."
+        claims: [AS23-020, AS23-092, AS23-093, AS23-094, AS23-022, AS23-015]
+        table:
+          columns: ["Tool", "What it is used for", "Limit or caution"]
+          rows:
+            - ["M-mode", "Systolic function: ventricular shortening fraction; annular plane excursion of the tricuspid and mitral valves", "-"]
+            - ["Myocardial performance index", "Overall ventricular performance, combining systolic and diastolic timing", "-"]
+            - ["Venous Doppler: A-wave reversal", "Used as an indicator of worsening function", "Unreliable outside sinus rhythm"]
+            - ["Continuous-wave Doppler", "Estimating pressure from an atrioventricular valve regurgitant jet", "Not needed when the heart is normal"]
+            - ["Cardiovascular profile score", "May help to track cardiovascular compromise on serial examinations", "-"]
+            - ["Tissue Doppler and strain", "Myocardial mechanics; strain may detect subclinical dysfunction", "Application in pregnancy needs further investigation"]
+
+  - heading: "The compromised fetus"
+    blocks:
+      - text: "A comprehensive assessment of a compromised fetus should include pulsed-wave Doppler of the umbilical artery and the middle cerebral artery, obtained at either the obstetric or the cardiac study."
+        claims: [AS23-095]
+      - text: "The fetal cardiology and obstetric teams should decide the follow-up interval together."
+        claims: [AS23-039]
+
+missing_claims:
+  - "How each measurement is made and its normal values (shortening fraction, annular excursion, myocardial performance index, inflow E and A waves) - needs sources; planned with XA6."
+  - "The components of the cardiovascular profile score and how it is scored - not in the claims held; needs a source."
+  - "Cardiomegaly: definition by cardiothoracic ratio and its causes - needs a source."
+  - "Causes of fetal heart failure and hydrops, and what to do about each - planned for XC2; needs a source and a cardiology co-editor."
+  - "This unit's ASE claims were extracted by ChatGPT and are not yet cross-checked against the PDF."
+
+drills:
+  - id: XC1-Q01
+    question: "What assessment of function must every fetal echocardiogram include?"
+    options:
+      - "A qualitative assessment of systolic and diastolic function"
+      - "A myocardial performance index for both ventricles"
+      - "Strain imaging"
+      - "None, unless the heart is structurally abnormal"
+    answer: 0
+    explanation: "Every fetal echocardiogram must include a qualitative assessment of systolic and diastolic function."
+    claims: [AS23-087]
+
+  - id: XC1-Q02
+    question: "When should function be assessed quantitatively?"
+    options:
+      - "When findings raise concern about cardiac function or output"
+      - "In every study"
+      - "Only after birth"
+      - "Only in twin pregnancies"
+    answer: 0
+    explanation: "Quantitative assessment should be performed when findings raise concern about function or output."
+    claims: [AS23-088]
+
+  - id: XC1-Q03
+    question: "Dysfunction is suspected. What does the initial assessment look for?"
+    options:
+      - "Features of hydrops: ascites, pleural or pericardial fluid, skin oedema"
+      - "The mechanical PR interval"
+      - "The side of the aortic arch"
+      - "An echogenic intracardiac focus"
+    answer: 0
+    explanation: "The initial assessment for suspected dysfunction looks for features of hydrops."
+    claims: [AS23-089]
+
+  - id: XC1-Q04
+    question: "What may atrioventricular valve regurgitation on Doppler indicate?"
+    options:
+      - "Systolic dysfunction"
+      - "Normal function in every case"
+      - "Complete heart block"
+      - "A technical artefact only"
+    answer: 0
+    explanation: "Atrioventricular valve regurgitation on Doppler may indicate systolic dysfunction."
+    claims: [AS23-090]
+
+  - id: XC1-Q05
+    question: "As diastolic function worsens, what may happen to ventricular filling on the inflow Doppler?"
+    options:
+      - "The filling time shortens until only one inflow wave is seen"
+      - "The filling time lengthens and a third wave appears"
+      - "Inflow reverses direction"
+      - "Nothing changes"
+    answer: 0
+    explanation: "The fraction of the cycle spent filling may shorten until only one inflow wave is seen."
+    claims: [AS23-091]
+
+  - id: XC1-Q06
+    question: "The fetus is in a tachyarrhythmia and the venous A-wave is reversed. How reliable is this as a sign of worsening function?"
+    options:
+      - "Unreliable: the sign cannot be trusted outside sinus rhythm"
+      - "Fully reliable in any rhythm"
+      - "More reliable than in sinus rhythm"
+      - "It proves hydrops is present"
+    answer: 0
+    explanation: "Outside sinus rhythm, venous A-wave reversal is an unreliable indicator of worsening cardiac function."
+    claims: [AS23-093]
+
+  - id: XC1-Q07
+    question: "Which measurements of systolic function does the guideline list for M-mode?"
+    options:
+      - "Ventricular shortening fraction and annular plane excursion"
+      - "Peak velocity across the aortic valve"
+      - "Colour velocity scale"
+      - "Cardiac axis"
+    answer: 0
+    explanation: "M-mode is among the tools for systolic function: shortening fraction and annular plane excursion of the tricuspid and mitral valves."
+    claims: [AS23-020]
+
+  - id: XC1-Q08
+    question: "For a compromised fetus, which Doppler recordings should a comprehensive assessment include?"
+    options:
+      - "Umbilical artery and middle cerebral artery"
+      - "Hepatic vein only"
+      - "Branch pulmonary arteries only"
+      - "None beyond the heart"
+    answer: 0
+    explanation: "Pulsed-wave Doppler of the umbilical and middle cerebral arteries should be included, at either the obstetric or the cardiac study."
+    claims: [AS23-095]
+
+checklist:
+  title: "Function: first steps"
+  items:
+    - text: "Qualitative systolic and diastolic function recorded in every study"
+      claims: [AS23-087]
+    - text: "Fluid looked for: pericardial, pleural, abdominal; skin oedema"
+      claims: [AS23-089, AS23-118]
+    - text: "Atrioventricular valve regurgitation looked for"
+      claims: [AS23-090]
+    - text: "Concern about function or output: quantitative assessment done"
+      claims: [AS23-088]
+    - text: "Compromised fetus: umbilical artery and middle cerebral artery Doppler included"
+      claims: [AS23-095]

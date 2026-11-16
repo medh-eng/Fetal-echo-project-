@@ -77,7 +77,10 @@ function unitStats(u){
 function showHome(){
   $('#home').hidden = true; location.hash = '';
   const kids = [el('h1', {}, 'Fetal echocardiography'),
-    el('p', { class: 'small' }, 'Detect and foundation units. Progress is saved on this device. Works offline once opened.')];
+    el('p', { class: 'small' }, 'Progress is saved on this device. Works offline once opened.'),
+    el('a', { class: 'card unit', href: './sweep.html', style: 'display:block;text-decoration:none;color:inherit' },
+      el('div', { class: 'meta' }, 'Tool'), el('div', {}, el('strong', {}, 'Sweep trainer')),
+      el('div', { class: 'small' }, 'Slide the probe through the five planes. Then test yourself: which plane is this?'))];
   for (const u of DATA.units){
     const st = unitStats(u);
     kids.push(el('button', { class: 'card unit', onclick: () => showUnit(u.id) },

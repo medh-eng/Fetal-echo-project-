@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Sweep trainer - Fetal Echo Course</title>
+<style>
+:root{--ink:#1c2430;--mute:#5d6b7a;--line:#d9dee5;--bg:#f6f4ef;--card:#fff;--accent:#9b2c3f;--ok:#1f6f4a;--bad:#a23b2a}
+*{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui,sans-serif;color:var(--ink);background:var(--bg)}
+main{max-width:760px;margin:0 auto;padding:14px 14px 70px}
+h1{font:600 1.45rem Georgia,serif;margin:.3em 0}h2{font-size:1.05rem;margin:1em 0 .3em}
+a{color:var(--accent)}.small{font-size:13px;color:var(--mute)}
+.banner{font-size:14px;background:#fff3cd;border:1px solid #e0c97a;padding:9px 12px;border-radius:6px;margin:10px 0}
+.banner.ok{background:#e3f3ea;border-color:#9ccdb3}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;margin:12px 0}
+svg{width:100%;height:auto;max-width:460px;display:block;margin:0 auto;background:#10151c;border-radius:8px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+button{font:inherit;padding:8px 14px;border-radius:8px;border:1px solid var(--ink);background:#fff;color:var(--ink);cursor:pointer}
+button.on{background:var(--ink);color:#fff}
+button.opt{display:block;width:100%;text-align:left;margin:6px 0;border-color:var(--line)}
+button.right{border-color:var(--ok);background:#e3f3ea}button.wrong{border-color:var(--bad);background:#f7e4e0}
+input[type=range]{width:100%;margin:10px 0}
+ul{padding-left:20px;margin:.3em 0}li{margin:.25em 0}
+.st{font-size:11px;border-radius:9px;padding:0 6px;border:1px solid var(--line);color:var(--mute);white-space:nowrap}
+.st.v{background:#e3f3ea;border-color:#9ccdb3;color:var(--ok)}
+.ticks{display:flex;justify-content:space-between;font-size:12px;color:var(--mute)}
+@media print{body{background:#fff}.noprint{display:none}.card{break-inside:avoid}svg{max-width:330px}}
+</style></head><body><main>
+<div class="small noprint"><a href="./index.html">&larr; All units</a></div>
+<h1>Sweep trainer</h1>
+<div class="banner" id="banner"></div>
+<p class="small">Schematic drawings of the five screening planes, in order from the upper abdomen towards the head. A teaching model: not to scale, not a real image, and not a substitute for clips. Every picture is drawn as a cross-section seen from the feet with the spine at the back, so the <strong>fetal left is on the right of the picture</strong>. On a real scan the picture turns with the position of the fetus.</p>
+<div id="app"></div>
+</main>
+<script>
+const DATA = {"claims": {"IS23-021": {"status": "expert-verified", "locator": "Situs and the four-chamber view: Sonographic technique, p. 789"}, "IS23-024": {"status": "expert-verified", "locator": "Situs, p. 791; Figure 3; Table 1"}, "IS23-026": {"status": "expert-verified", "locator": "Four-chamber view, p. 791; Table 1; Appendix 1"}, "IS23-028": {"status": "expert-verified", "locator": "Four-chamber view, p. 791; Figure 4, p. 792"}, "IS23-038": {"status": "expert-verified", "locator": "Four-chamber view, p. 792; Table 1"}, "IS23-040": {"status": "expert-verified", "locator": "Four-chamber view, p. 792; Table 1"}, "IS23-042": {"status": "expert-verified", "locator": "Four-chamber view, pp. 792-793; Table 1"}, "IS23-043": {"status": "expert-verified", "locator": "Four-chamber view, p. 793"}, "IS23-044": {"status": "expert-verified", "locator": "Four-chamber view, p. 793"}, "IS23-047": {"status": "ai-extracted", "locator": "Four-chamber view, p. 793; Table 1"}, "IS23-051": {"status": "expert-verified", "locator": "Outflow-tract, three-vessel and three-vessel-and-trachea views, p. 793"}, "IS23-052": {"status": "expert-verified", "locator": "Outflow-tract, three-vessel and three-vessel-and-trachea views, p. 793; Appendix 1"}, "IS23-059": {"status": "expert-verified", "locator": "LVOT view, p. 794; Figure 6"}, "IS23-060": {"status": "expert-verified", "locator": "LVOT view, p. 794; Appendix 1"}, "IS23-064": {"status": "expert-verified", "locator": "RVOT view, 3VV and 3VTV, p. 794; Figure 7, p. 795"}, "IS23-065": {"status": "expert-verified", "locator": "RVOT view, 3VV and 3VTV, p. 794"}, "IS23-066": {"status": "expert-verified", "locator": "RVOT view, 3VV and 3VTV, p. 794; Figure 7, p. 795"}, "IS23-068": {"status": "expert-verified", "locator": "RVOT view, 3VV and 3VTV, last paragraph of p. 794 continuing on p. 796; Figure 9, p. 796"}, "IS23-069": {"status": "expert-verified", "locator": "RVOT view, 3VV and 3VTV, p. 796; Figure 9; Appendix 1"}, "IS23-096": {"status": "expert-verified", "locator": "Appendix 1, p. 802"}, "IS23-100": {"status": "ai-extracted", "locator": "Figures 7 and 9, pp. 795-796"}}};
+const PRINT = false;
+const C = DATA.claims;
+// ---- drawing helpers (all coordinates in a 400 x 400 box; anterior is up) ----
+const T = '#c9d1d9', DIM = '#7d8894', RED = '#e0707c', BLU = '#6fa8dc', YEL = '#e8c66a';
+function frame(inner, labels){
+  return '<svg viewBox="0 0 400 400" role="img">' +
+    '<circle cx="200" cy="200" r="172" fill="#1b232d" stroke="#4a5562" stroke-width="3"/>' +
+    '<path d="M186 348 L200 322 L214 348 Z" fill="#e6e6e6"/><circle cx="200" cy="338" r="5" fill="#10151c"/>' +
+    inner +
+    (labels ? '<text x="200" y="368" fill="' + DIM + '" font-size="11" text-anchor="middle">spine</text>' : '') +
+    '<text x="200" y="20" fill="' + DIM + '" font-size="12" text-anchor="middle">front</text>' +
+    '<text x="12" y="204" fill="' + YEL + '" font-size="15" font-weight="700">R</text>' +
+    '<text x="378" y="204" fill="' + YEL + '" font-size="15" font-weight="700">L</text></svg>';
+}
+function lab(x, y, t, on, anchor){ return on ? '<text x="' + x + '" y="' + y + '" fill="' + T + '" font-size="12" text-anchor="' + (anchor || 'middle') + '">' + t + '</text>' : ''; }
+const aortaDesc = '<circle cx="222" cy="306" r="10" fill="none" stroke="' + RED + '" stroke-width="3"/>';
+// heart drawn with its long axis along +x, then turned 45 degrees to the fetal left
+function heart(on, detail){
+  let g = '<g transform="translate(232 200) rotate(-45)">' +
+    '<ellipse rx="105" ry="78" fill="#2a3440" stroke="' + T + '" stroke-width="3"/>';
+  if (detail){
+    g += '<path d="M0 0 L90 -24" stroke="' + T + '" stroke-width="7" stroke-linecap="round"/>' +      // ventricular septum
+      '<path d="M-103 0 L-62 0 M-34 0 L0 0" stroke="' + T + '" stroke-width="4"/>' +                      // atrial septum with foramen
+      '<path d="M-62 0 Q-48 26 -34 4" fill="none" stroke="' + T + '" stroke-width="2"/>' +                // flap, in the left atrium
+      '<path d="M-7 3 L-7 74" stroke="' + YEL + '" stroke-width="3"/>' +                                  // mitral
+      '<path d="M8 -3 L8 -75" stroke="' + YEL + '" stroke-width="3"/>' +                                  // tricuspid, nearer the apex
+      '<path d="M70 -22 L60 -52" stroke="' + T + '" stroke-width="5" stroke-linecap="round"/>' +          // moderator band
+      '<path d="M-70 66 L-88 96 M-52 72 L-66 104" stroke="' + BLU + '" stroke-width="3"/>';               // pulmonary vein
+  }
+  g += '</g>';
+  if (on && detail){
+    g += lab(243, 140, 'RV', 1) + lab(292, 200, 'LV', 1) + lab(168, 212, 'RA', 1) + lab(226, 268, 'LA', 1) +
+      lab(318, 118, 'apex', 1) + lab(300, 86, 'moderator band', 1) + lab(150, 300, 'pulmonary vein', 1);
+  }
+  return g;
+}
+const PLANES = [
+  { n: 'I', title: 'Upper abdomen', short: 'Abdomen',
+    draw: on => frame(
+      '<ellipse cx="282" cy="232" rx="44" ry="30" fill="#05080b" stroke="' + T + '" stroke-width="2"/>' + aortaDesc +
+      '<circle cx="168" cy="292" r="11" fill="none" stroke="' + BLU + '" stroke-width="3"/>' +
+      lab(282, 236, 'stomach', on) + lab(252, 318, 'aorta', on, 'start') + lab(150, 318, 'IVC', on, 'end'), on),
+    points: [['Fetal left and right worked out first, from the position of the fetus', ['IS23-021']],
+             ['Stomach on the fetal left', ['IS23-024']],
+             ['Descending aorta to the left of the spine; inferior vena cava to the right', ['IS23-024']]] },
+  { n: 'II', title: 'Four-chamber view', short: 'Four chambers',
+    draw: on => frame(heart(on, true) + aortaDesc +
+      '<path d="M200 322 L200 60" stroke="' + DIM + '" stroke-width="1" stroke-dasharray="4 4"/>' +
+      '<path d="M158 274 L318 114" stroke="' + YEL + '" stroke-width="1" stroke-dasharray="6 4"/>' +
+      lab(214, 76, 'axis about 45°', on, 'start'), on),
+    points: [['Heart usually no larger than a third of the chest area', ['IS23-026']],
+             ['Mainly in the left chest; axis about 45 degrees to the left, plus or minus 20', ['IS23-028']],
+             ['Atria similar in size; foramen ovale flap moving in the left atrium', ['IS23-038']],
+             ['Ventricles similar in size; moderator band near the apex of the right ventricle; left ventricle forms the apex', ['IS23-042', 'IS23-043']],
+             ['Septum examined from apex to crux', ['IS23-044']],
+             ['Two valves opening separately; tricuspid inserted a little nearer the apex', ['IS23-047']],
+             ['At least one pulmonary vein entering the left atrium, where feasible', ['IS23-040']]] },
+  { n: 'III', title: 'Left ventricular outflow tract', short: 'LVOT',
+    draw: on => frame(
+      '<g transform="translate(232 200) rotate(-45)"><ellipse rx="105" ry="78" fill="#2a3440" stroke="' + T + '" stroke-width="3"/>' +
+      '<path d="M-10 -6 L90 -24" stroke="' + T + '" stroke-width="7" stroke-linecap="round"/>' +
+      '<path d="M-10 -9 L-92 -70 M-22 22 L-118 -44" stroke="' + RED + '" stroke-width="4" fill="none"/>' +
+      '<path d="M-30 -22 L-36 6" stroke="' + YEL + '" stroke-width="3"/></g>' + aortaDesc +
+      lab(292, 204, 'LV', on) + lab(246, 140, 'RV', on) + lab(118, 196, 'aorta', on) + lab(240, 246, 'septum runs into', on, 'start') + lab(240, 260, 'the front wall of the aorta', on, 'start'), on),
+    points: [['A vessel leaves the left ventricle', ['IS23-059']],
+             ['Its anterior wall is continuous with the ventricular septum', ['IS23-052', 'IS23-059']],
+             ['It does not divide', ['IS23-052']],
+             ['Valve moves freely and is not thickened', ['IS23-060']]] },
+  { n: 'IV', title: 'Right ventricular outflow tract and three vessels', short: 'RVOT / 3VV',
+    draw: on => frame(
+      '<path d="M236 92 Q262 128 252 168 L286 232 M252 168 L206 230" fill="none" stroke="' + BLU + '" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>' +
+      '<circle cx="198" cy="176" r="15" fill="none" stroke="' + RED + '" stroke-width="4"/>' +
+      '<circle cx="158" cy="206" r="10" fill="none" stroke="' + BLU + '" stroke-width="3"/>' + aortaDesc +
+      '<path d="M268 126 L140 222" stroke="' + YEL + '" stroke-width="1" stroke-dasharray="6 4"/>' +
+      lab(300, 118, 'pulmonary artery', on, 'start') + lab(196, 150, 'aorta', on) + lab(132, 200, 'SVC', on, 'end') + lab(300, 250, 'divides', on, 'start'), on),
+    points: [['A vessel leaves the right ventricle and divides after a short course', ['IS23-064']],
+             ['It crosses the aorta at almost a right angle and is usually slightly larger', ['IS23-065']],
+             ['Three vessels from left to right: pulmonary artery, aorta, superior vena cava', ['IS23-066']],
+             ['Pulmonary artery most anterior, vena cava most posterior; sizes fall from left to right', ['IS23-066']],
+             ['Great arteries about equal in size', ['IS23-051']]] },
+  { n: 'V', title: 'Three vessels and trachea', short: '3VT',
+    draw: on => frame(
+      '<ellipse cx="214" cy="84" rx="62" ry="26" fill="#0b1016" stroke="' + DIM + '" stroke-width="1" stroke-dasharray="3 3"/>' +
+      '<path d="M252 118 L228 300" stroke="' + BLU + '" stroke-width="15" stroke-linecap="round"/>' +
+      '<path d="M196 150 Q214 220 226 300" fill="none" stroke="' + RED + '" stroke-width="13" stroke-linecap="round"/>' +
+      '<circle cx="182" cy="262" r="11" fill="#05080b" stroke="#fff" stroke-width="3"/>' +
+      '<circle cx="150" cy="176" r="10" fill="none" stroke="' + BLU + '" stroke-width="3"/>' +
+      lab(214, 88, 'thymus', on) + lab(282, 190, 'ductal arch', on, 'start') + lab(176, 140, 'aortic arch', on, 'end') +
+      lab(160, 266, 'trachea', on, 'end') + lab(126, 172, 'SVC', on, 'end') + lab(262, 310, 'V', on, 'start'), on),
+    points: [['Ductal arch and aortic arch meet in a V', ['IS23-069']],
+             ['Both arches pass to the left of the trachea', ['IS23-069', 'IS23-096']],
+             ['Arches similar in size', ['IS23-096']],
+             ['Trachea: a bright ring around a small dark centre', ['IS23-068']],
+             ['Superior vena cava and thymus are also seen in this plane', ['IS23-069', 'IS23-100']]] },
+];
+// ---- status ----
+const used = [...new Set(PLANES.flatMap(p => p.points.flatMap(x => x[1])))];
+const allVerified = used.every(id => C[id] && C[id].status === 'expert-verified');
+const b = document.getElementById('banner');
+b.textContent = allVerified ? 'Every statement on this page is expert-verified. The drawings themselves are schematic.'
+  : 'DRAFT - NOT FOR CLINICAL USE. Some statements are not yet verified, and the drawings have not yet been approved by the editor.';
+if (allVerified) b.classList.add('ok');
+function esc(s){ const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+function pointsHtml(p){
+  return '<ul>' + p.points.map(([t, ids]) => '<li>' + esc(t) + ' ' + ids.map(id => {
+    const c = C[id] || { status: 'missing' };
+    return '<span class="st' + (c.status === 'expert-verified' ? ' v' : '') + '" title="' + esc(c.locator || '') + '">' + id + ' · ' + c.status + '</span>';
+  }).join(' ') + '</li>').join('') + '</ul>';
+}
+const app = document.getElementById('app');
+let pos = 0, labels = true, mode = 'learn', quiz = null, score = [0, 0];
+function render(){
+  if (PRINT){
+    app.innerHTML = '<p class="small">For the editor: mark on each drawing anything that is wrong or misleading, and anything that should be added.</p>' +
+      PLANES.map(p => '<div class="card"><h2>Plane ' + p.n + ': ' + p.title + '</h2>' + p.draw(true) + pointsHtml(p) +
+      '<p class="small">Editor: correct / change: ______________________________________________</p></div>').join('');
+    return;
+  }
+  const head = '<div class="row noprint"><button id="mL" class="' + (mode === 'learn' ? 'on' : '') + '">Learn the sweep</button>' +
+    '<button id="mQ" class="' + (mode === 'quiz' ? 'on' : '') + '">Which plane is this?</button></div>';
+  if (mode === 'learn'){
+    const p = PLANES[pos];
+    app.innerHTML = head + '<div class="card"><h2 style="margin-top:0">Plane ' + p.n + ': ' + p.title + '</h2>' + p.draw(labels) +
+      '<input type="range" id="sl" min="0" max="4" step="1" value="' + pos + '" aria-label="Probe position">' +
+      '<div class="ticks">' + PLANES.map(q => '<span>' + q.short + '</span>').join('') + '</div>' +
+      '<div class="small" style="text-align:center">abdomen &larr; slide the probe &rarr; towards the head</div>' +
+      '<div class="row" style="margin-top:8px"><button id="lb">' + (labels ? 'Hide labels' : 'Show labels') + '</button></div>' +
+      '<h2>This plane must show</h2>' + pointsHtml(p) + '</div>';
+    document.getElementById('sl').oninput = e => { pos = +e.target.value; render(); };
+    document.getElementById('lb').onclick = () => { labels = !labels; render(); };
+  } else {
+    if (!quiz) quiz = { p: Math.floor(Math.random() * 5), done: false, pick: null };
+    const p = PLANES[quiz.p];
+    app.innerHTML = head + '<div class="card"><div class="small">Score ' + score[0] + ' of ' + score[1] + '</div>' + p.draw(quiz.done) +
+      '<p><strong>Which plane is this?</strong></p>' +
+      PLANES.map((q, i) => '<button class="opt' + (quiz.done && i === quiz.p ? ' right' : '') + (quiz.done && i === quiz.pick && i !== quiz.p ? ' wrong' : '') +
+        '" data-i="' + i + '"' + (quiz.done ? ' disabled' : '') + '>' + q.n + '. ' + q.title + '</button>').join('') +
+      (quiz.done ? '<h2>This plane must show</h2>' + pointsHtml(p) + '<button id="nx" class="on">Next</button>' : '') + '</div>';
+    app.querySelectorAll('.opt').forEach(bt => bt.onclick = () => {
+      quiz.pick = +bt.dataset.i; quiz.done = true; score[1]++; if (quiz.pick === quiz.p) score[0]++; render();
+    });
+    const nx = document.getElementById('nx');
+    if (nx) nx.onclick = () => { let n; do { n = Math.floor(Math.random() * 5); } while (n === quiz.p); quiz = { p: n, done: false, pick: null }; render(); };
+  }
+  document.getElementById('mL').onclick = () => { mode = 'learn'; render(); };
+  document.getElementById('mQ').onclick = () => { mode = 'quiz'; quiz = null; render(); };
+}
+render();
+</script></body></html>

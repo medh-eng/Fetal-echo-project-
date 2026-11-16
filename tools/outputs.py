@@ -78,7 +78,7 @@ def build_app(models):
     ver = hashlib.sha1(page.encode()).hexdigest()[:10]
     (out / "sw.js").write_text(
         f"const C='fetal-echo-{ver}';\n"
-        "self.addEventListener('install',e=>{e.waitUntil(caches.open(C).then(c=>c.addAll(['./','./index.html','./manifest.webmanifest','./icon.svg'])));self.skipWaiting();});\n"
+        "self.addEventListener('install',e=>{e.waitUntil(caches.open(C).then(c=>c.addAll(['./','./index.html','./sweep.html','./manifest.webmanifest','./icon.svg'])));self.skipWaiting();});\n"
         "self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==C).map(x=>caches.delete(x)))));self.clients.claim();});\n"
         "self.addEventListener('fetch',e=>{e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request)));});\n",
         encoding="utf-8")
@@ -190,9 +190,26 @@ def build_web(models):
             "fully expert-verified (docs/05-governance.md).\n", encoding="utf-8")
 
 
+def build_sweep(claims):
+    """Sweep trainer: five schematic planes. Also a print version for the editor to mark up."""
+    import re
+    t = (TEMPLATES / "sweep.html").read_text(encoding="utf-8")
+    ids = sorted(set(re.findall(r"[A-Z]{2}\d{2}-\d{3}", t)))
+    missing = [i for i in ids if i not in claims]
+    if missing:
+        raise SystemExit(f"sweep.html cites unknown claims: {missing}")
+    data = json.dumps({"claims": {i: {"status": claims[i]["status"], "locator": claims[i]["locator"]} for i in ids}})
+    (DIST / "app" / "sweep.html").write_text(t.replace("__DATA__", data).replace("__PRINT__", "false"), encoding="utf-8")
+    (DIST / "editor").mkdir(parents=True, exist_ok=True)
+    (DIST / "editor" / "sweep-schematics.html").write_text(
+        t.replace("__DATA__", data).replace("__PRINT__", "true").replace('<a href="./index.html">', '<a hidden>'),
+        encoding="utf-8")
+
+
 def build_all(units, claims, sources, unit_status, banner, cite, statuses):
     models = [model(u, claims, sources, unit_status, banner, cite) for u in units]
     build_app(models)
+    build_sweep(claims)
     build_book(models)
     build_web(models)
     print(f"built app, book and {sum(1 for m in models if m['public'])} web page(s) -> dist/app, dist/book, dist/web")

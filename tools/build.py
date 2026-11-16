@@ -390,6 +390,8 @@ def main():
     outputs.build_all(units, claims, sources, unit_status, banner, cite, STATUSES)
     import editor_pack
     editor_pack.build(units, claims)
+    import status_board
+    status_board.build(units, claims, sources)
     return 0
 
 

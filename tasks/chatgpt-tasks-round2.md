@@ -35,21 +35,21 @@ Save as `tasks/results/task-d.csv`.
 
 ---
 
-## Task E. Audit sixteen units
+## Task E. Audit seventeen units
 
-About 45 minutes; it can be split into two chats of eight units. Attach: the two ledger files from `content/ledger/` and all sixteen files from `content/units/`. PDFs are not needed.
+About 45 minutes; it can be split into two chats of eight units. Attach: the two ledger files from `content/ledger/` and all seventeen files from `content/units/`. PDFs are not needed.
 
 ```
 You are the adversarial reviewer for a medical education course on the fetal heart.
 Assume the drafts contain errors. Errors here can reach clinicians.
 
-Attached are two ledger files (the only permitted facts; each claim has an id) and sixteen
+Attached are two ledger files (the only permitted facts; each claim has an id) and seventeen
 unit files. In a unit, every text block, table, drill, checklist item and video beat lists
 the claim ids it rests on. Blocks marked "kind: framing" may have no claims but must
 contain no clinical fact.
 
 Two groups:
-- NEW units, never audited: D2, D3, D4, D5, D6, D10, F2, XA5. Audit in full.
+- NEW units, never audited: D2, D3, D4, D5, D6, D10, F2, XA5, XC1. Audit in full.
 - REVISED units, changed after your audit of 16 Nov: D0, D1, D7, D8, D9, D11, D13, F1.
   Check that each of your earlier findings was resolved without introducing a new error,
   then audit any text that is new.
@@ -68,7 +68,7 @@ For each unit report:
 5. Wording that could reveal or hint at fetal sex.
 6. Mixing of sources. IS23 claims are a screening guideline; AS23 claims are an
    echocardiography guideline. Flag any place where an echocardiography requirement is
-   presented as a screening requirement, or the reverse. Units F2 and XA5 are about
+   presented as a screening requirement, or the reverse. Units F2, XA5 and XC1 are about
    echocardiography by design.
 
 Output: one numbered list per unit; each finding with location, problem, and a suggested

@@ -1,0 +1,135 @@
+{
+  "unit": "XC1",
+  "title": "Assessing cardiac function: the first steps",
+  "status": "ai-extracted",
+  "items": [
+    {
+      "id": "XC1-Q01",
+      "question": "What assessment of function must every fetal echocardiogram include?",
+      "options": [
+        "A qualitative assessment of systolic and diastolic function",
+        "A myocardial performance index for both ventricles",
+        "Strain imaging",
+        "None, unless the heart is structurally abnormal"
+      ],
+      "answer": 0,
+      "explanation": "Every fetal echocardiogram must include a qualitative assessment of systolic and diastolic function.",
+      "claims": [
+        "AS23-087"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "XC1-Q02",
+      "question": "When should function be assessed quantitatively?",
+      "options": [
+        "When findings raise concern about cardiac function or output",
+        "In every study",
+        "Only after birth",
+        "Only in twin pregnancies"
+      ],
+      "answer": 0,
+      "explanation": "Quantitative assessment should be performed when findings raise concern about function or output.",
+      "claims": [
+        "AS23-088"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "XC1-Q03",
+      "question": "Dysfunction is suspected. What does the initial assessment look for?",
+      "options": [
+        "Features of hydrops: ascites, pleural or pericardial fluid, skin oedema",
+        "The mechanical PR interval",
+        "The side of the aortic arch",
+        "An echogenic intracardiac focus"
+      ],
+      "answer": 0,
+      "explanation": "The initial assessment for suspected dysfunction looks for features of hydrops.",
+      "claims": [
+        "AS23-089"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "XC1-Q04",
+      "question": "What may atrioventricular valve regurgitation on Doppler indicate?",
+      "options": [
+        "Systolic dysfunction",
+        "Normal function in every case",
+        "Complete heart block",
+        "A technical artefact only"
+      ],
+      "answer": 0,
+      "explanation": "Atrioventricular valve regurgitation on Doppler may indicate systolic dysfunction.",
+      "claims": [
+        "AS23-090"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "XC1-Q05",
+      "question": "As diastolic function worsens, what may happen to ventricular filling on the inflow Doppler?",
+      "options": [
+        "The filling time shortens until only one inflow wave is seen",
+        "The filling time lengthens and a third wave appears",
+        "Inflow reverses direction",
+        "Nothing changes"
+      ],
+      "answer": 0,
+      "explanation": "The fraction of the cycle spent filling may shorten until only one inflow wave is seen.",
+      "claims": [
+        "AS23-091"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "XC1-Q06",
+      "question": "The fetus is in a tachyarrhythmia and the venous A-wave is reversed. How reliable is this as a sign of worsening function?",
+      "options": [
+        "Unreliable: the sign cannot be trusted outside sinus rhythm",
+        "Fully reliable in any rhythm",
+        "More reliable than in sinus rhythm",
+        "It proves hydrops is present"
+      ],
+      "answer": 0,
+      "explanation": "Outside sinus rhythm, venous A-wave reversal is an unreliable indicator of worsening cardiac function.",
+      "claims": [
+        "AS23-093"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "XC1-Q07",
+      "question": "Which measurements of systolic function does the guideline list for M-mode?",
+      "options": [
+        "Ventricular shortening fraction and annular plane excursion",
+        "Peak velocity across the aortic valve",
+        "Colour velocity scale",
+        "Cardiac axis"
+      ],
+      "answer": 0,
+      "explanation": "M-mode is among the tools for systolic function: shortening fraction and annular plane excursion of the tricuspid and mitral valves.",
+      "claims": [
+        "AS23-020"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XC1-Q08",
+      "question": "For a compromised fetus, which Doppler recordings should a comprehensive assessment include?",
+      "options": [
+        "Umbilical artery and middle cerebral artery",
+        "Hepatic vein only",
+        "Branch pulmonary arteries only",
+        "None beyond the heart"
+      ],
+      "answer": 0,
+      "explanation": "Pulsed-wave Doppler of the umbilical and middle cerebral arteries should be included, at either the obstetric or the cardiac study.",
+      "claims": [
+        "AS23-095"
+      ],
+      "status": "ai-extracted"
+    }
+  ]
+}
