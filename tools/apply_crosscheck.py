@@ -69,9 +69,9 @@ def main():
             seen.add(cid)
             status = (field(part, "status") or "").strip()
             extractor = (field(part, "extracted_by") or "").strip().strip('"')
-            if extractor and extractor.split(",")[0].split("(")[0].strip().lower() == \
-                    a.by.split(",")[0].split("(")[0].strip().lower():
-                sys.exit(f"{cid}: checker '{a.by}' is the same model as the extractor '{extractor}'")
+            fam = lambda t: (re.match(r"[A-Za-z]+", t.strip()) or [""])[0].lower()
+            if extractor and fam(extractor) == fam(a.by):
+                sys.exit(f"{cid}: checker '{a.by}' is from the same model family as the extractor '{extractor[:40]}'")
             if verdict == "CONFIRMED":
                 if status == "ai-extracted":
                     part = re.sub(r"(?m)^  status: .*$", "  status: ai-cross-checked", part, count=1)

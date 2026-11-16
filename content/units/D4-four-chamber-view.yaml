@@ -1,0 +1,273 @@
+# Unit D4. Every text block and drill lists the claim IDs it rests on.
+# IS23 claims: ISUOG screening guideline. AS23 claims: ASE fetal echocardiography guideline.
+
+id: D4
+title: "The four-chamber view in depth"
+tier: Detect
+version: 0.1
+summary: "Every criterion of the four-chamber view, one structure at a time: size, position, axis, atria, veins, ventricles, septum and valves, with the traps."
+drafted_by: "Claude (16 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "Judge heart size, position and axis."
+  - "Apply the criteria for the atria, pulmonary veins, ventricles, septum and atrioventricular valves."
+  - "Avoid the common false alarms: a pericardial rim and septal drop-out."
+  - "Say what a normal four-chamber view does not exclude."
+
+sections:
+
+  - heading: "More than a count"
+    blocks:
+      - text: "The four-chamber view requires much more than counting four chambers."
+        claims: [IS23-007]
+      - kind: framing
+        text: "Work through it in the same order every time: size, position and axis, then atria, veins, ventricles, septum, valves."
+
+  - heading: "Size and the rim of fluid"
+    blocks:
+      - text: "A normal heart is usually no larger than one third of the area of the chest."
+        claims: [IS23-026]
+      - text: "A small amount of pericardial fluid, 2 mm or less in thickness at end-systole, is common in the second and third trimesters and is normal. A thin dark rim around the heart should not be mistaken for an effusion."
+        claims: [IS23-027]
+
+  - heading: "Position and axis"
+    blocks:
+      - text: "The heart lies mainly in the left chest. Its long axis normally points to the left at about 45 degrees, plus or minus 20 degrees, relative to the front-to-back axis of the chest."
+        claims: [IS23-028]
+      - text: "An abnormal axis raises the risk of a cardiac malformation, especially of the outflow tracts, and may be associated with a chromosomal anomaly."
+        claims: [IS23-031]
+      - text: "A heart displaced from its normal position may point to a diaphragmatic hernia, a space-occupying lesion in the chest, or a small or absent lung."
+        claims: [IS23-032]
+
+  - heading: "Atria"
+    blocks:
+      - text: "The two atria normally look similar in size. The flap of the foramen ovale moves within the left atrium. The septum primum, the lower rim of the atrial septum, should be present."
+        claims: [IS23-038]
+      - text: "The crux of the heart is the point where the lower atrial septum meets the upper ventricular septum and where the atrioventricular valves insert."
+        claims: [IS23-039]
+
+  - heading: "Pulmonary veins"
+    blocks:
+      - text: "Where technically feasible, at least one pulmonary vein should be seen entering the left atrium on grey-scale. Colour can help but is not mandatory for this."
+        claims: [IS23-040]
+      - text: "If colour is used to show the veins, display it alongside the grey-scale image to help avoid false-negative findings."
+        claims: [IS23-041]
+
+  - heading: "Ventricles"
+    blocks:
+      - text: "The moderator band near the apex identifies the morphological right ventricle. The left ventricular apex looks smooth and forms the apex of the heart."
+        claims: [IS23-042]
+      - text: "The ventricles should look similar in size, with no thickening of the walls."
+        claims: [IS23-043]
+      - text: "Mild disproportion can be a normal variant in the third trimester. Right-left asymmetry in mid-gestation is different: it warrants further examination. Important causes are coarctation of the aorta, an evolving hypoplastic left heart and anomalous pulmonary venous return."
+        claims: [IS23-043]
+
+  - heading: "Ventricular septum"
+    blocks:
+      - text: "Examine the septum from apex to crux and, if possible, sweep from its most posterior part towards the outflow tracts."
+        claims: [IS23-044]
+      - text: "The septum is seen best with the beam perpendicular to it. With the beam parallel to the septum, acoustic drop-out can falsely suggest a defect near the crux."
+        claims: [IS23-045]
+      - text: "Small septal defects of 1 to 2 mm can be very difficult to confirm, particularly when fetal size or position is unfavourable. Most are of limited clinical significance and may close on their own before birth."
+        claims: [IS23-046, IS23-099]
+
+  - heading: "Atrioventricular valves"
+    blocks:
+      - text: "There should be two separate atrioventricular valves that open separately and freely. The septal leaflet of the tricuspid valve inserts closer to the apex than the mitral valve: the normal offset."
+        claims: [IS23-047]
+      - text: "Abnormal alignment of the two valves can be a key finding in anomalies such as atrioventricular septal defect."
+        claims: [IS23-047]
+
+  - heading: "Rate and rhythm"
+    blocks:
+      - text: "Normal rate is 120 to 160 beats per minute, with a regular rhythm."
+        claims: [IS23-033]
+      - kind: framing
+        text: "Unit D8 covers rate and rhythm in full."
+
+  - heading: "What a normal four-chamber view does not exclude"
+    blocks:
+      - text: "Some lesions, for example transposition of the great arteries and coarctation of the aorta, may not be evident in the four-chamber plane alone."
+        claims: [IS23-008]
+      - text: "Complete transposition, tetralogy of Fallot, double-outlet right ventricle, common arterial trunk and pulmonary atresia with a ventricular septal defect can have a four-chamber view that looks normal."
+        claims: [IS23-067]
+
+  - heading: "What the fetal echocardiogram adds"
+    blocks:
+      - kind: framing
+        text: "These points are from the echocardiography guideline. They describe the specialist examination, not the screen."
+      - text: "The four-chamber view should be examined in at least two perpendicular planes, because the angle at which the beam meets a structure changes how it is seen."
+        claims: [AS23-045]
+      - text: "The cardiac axis must be assessed; measuring the angle is optional. A complete study requires a measured ratio of cardiac to thoracic area."
+        claims: [AS23-043, AS23-044]
+      - text: "Pulmonary venous connections must be shown from at least one vein on each side, with two-dimensional and colour imaging."
+        claims: [AS23-047]
+      - text: "Both two-dimensional and colour images are required to assess the ventricular septum and to locate any defect."
+        claims: [AS23-050]
+
+missing_claims:
+  - "How to measure the cardiac axis and the cardiothoracic ratio step by step - needs a source."
+  - "The echogenic intracardiac focus: appearance and meaning - the guideline only grades its risk (D11); appearance planned for D10."
+  - "The coronary sinus, and how a dilated one can mimic a septal defect - needs a source."
+  - "Apical against lateral four-chamber views: which structure each shows best - partly covered by the beam-angle claims; a fuller source is needed."
+
+drills:
+  - id: D4-Q01
+    question: "How large is a normal heart in the four-chamber plane?"
+    options:
+      - "Usually no larger than one third of the area of the chest"
+      - "About two thirds of the area of the chest"
+      - "About half the area of the chest"
+      - "About one tenth of the area of the chest"
+    answer: 0
+    explanation: "A normal heart is usually no larger than one third of the chest area."
+    claims: [IS23-026]
+
+  - id: D4-Q02
+    question: "A thin dark rim, less than 2 mm thick, surrounds the heart at 22 weeks. How is this read?"
+    options:
+      - "Normal: a small amount of pericardial fluid is common"
+      - "A pericardial effusion needing urgent referral"
+      - "A sign of heart failure"
+      - "An artefact that means the view must be repeated"
+    answer: 0
+    explanation: "Pericardial fluid of 2 mm or less at end-systole is common in the second and third trimesters and is normal; a small hypoechogenic rim should not be mistaken for an effusion."
+    claims: [IS23-027]
+
+  - id: D4-Q03
+    question: "Which landmark identifies the morphological right ventricle?"
+    options:
+      - "The moderator band near the apex"
+      - "The smooth apex that forms the apex of the heart"
+      - "The foramen ovale flap"
+      - "The pulmonary veins"
+    answer: 0
+    explanation: "The moderator band near the apex identifies the right ventricle; the smooth left ventricle forms the apex of the heart."
+    claims: [IS23-042]
+
+  - id: D4-Q04
+    question: "In which chamber does the foramen ovale flap normally move?"
+    options:
+      - "The left atrium"
+      - "The right atrium"
+      - "The left ventricle"
+      - "It does not move"
+    answer: 0
+    explanation: "The foramen ovale flap moves within the left atrium."
+    claims: [IS23-038]
+
+  - id: D4-Q05
+    question: "With the beam running along the septum, there seems to be a gap in the septum near the crux. What is the first thing to consider?"
+    options:
+      - "Acoustic drop-out; look again with the beam perpendicular to the septum"
+      - "A definite atrioventricular septal defect"
+      - "A definite large ventricular septal defect"
+      - "A normal communication that needs no further look"
+    answer: 0
+    explanation: "With the beam parallel to the septum, drop-out can falsely suggest a defect near the crux. The septum is best seen with the beam perpendicular."
+    claims: [IS23-045]
+
+  - id: D4-Q06
+    question: "Which valve leaflet normally inserts closer to the apex?"
+    options:
+      - "The septal leaflet of the tricuspid valve"
+      - "The anterior leaflet of the mitral valve"
+      - "Both insert at exactly the same level"
+      - "The aortic valve"
+    answer: 0
+    explanation: "The septal leaflet of the tricuspid valve inserts closer to the apex than the mitral valve; this is the normal offset."
+    claims: [IS23-047]
+
+  - id: D4-Q07
+    question: "At 20 weeks the left ventricle is clearly smaller than the right. Which of these is named as an important cause?"
+    options:
+      - "Coarctation of the aorta"
+      - "A normal third-trimester variant"
+      - "An echogenic intracardiac focus"
+      - "Benign ectopic beats"
+    answer: 0
+    explanation: "Asymmetry in mid-gestation warrants further examination; important causes are coarctation, evolving hypoplastic left heart syndrome and anomalous pulmonary venous return."
+    claims: [IS23-043]
+
+  - id: D4-Q08
+    question: "What does the guideline say about a 1 to 2 mm ventricular septal defect?"
+    options:
+      - "It can be very difficult to confirm, and most are of limited clinical significance"
+      - "It is always visible on grey-scale"
+      - "It is always a sign of a chromosomal anomaly"
+      - "It never closes before birth"
+    answer: 0
+    explanation: "Small septal defects (1 to 2 mm) can be very difficult to confirm; most are of limited clinical significance and may close spontaneously in utero."
+    claims: [IS23-046]
+
+  - id: D4-Q09
+    question: "Is colour Doppler required to show a pulmonary vein entering the left atrium at screening?"
+    options:
+      - "No: grey-scale where feasible; colour can help but is not mandatory"
+      - "Yes: always"
+      - "Yes: with pulsed-wave Doppler as well"
+      - "Pulmonary veins are not part of the four-chamber criteria"
+    answer: 0
+    explanation: "At least one pulmonary vein should be seen entering the left atrium on B-mode when technically feasible; colour can help but is not mandatory."
+    claims: [IS23-040]
+
+  - id: D4-Q10
+    question: "The four-chamber view meets every criterion. Which lesion may still be present?"
+    options:
+      - "Transposition of the great arteries"
+      - "A common atrioventricular valve"
+      - "A heart filling two thirds of the chest"
+      - "A single ventricle"
+    answer: 0
+    explanation: "Transposition and coarctation may not be evident in the four-chamber plane alone. The other three would break a four-chamber criterion."
+    claims: [IS23-008, IS23-047, IS23-026, IS23-043]
+
+checklist:
+  title: "Four-chamber view checklist"
+  items:
+    - text: "Heart usually no larger than a third of the chest area"
+      claims: [IS23-026]
+    - text: "Mainly in the left chest; axis about 45 degrees to the left (plus or minus 20)"
+      claims: [IS23-028]
+    - text: "Rate 120 to 160 per minute, regular"
+      claims: [IS23-033]
+    - text: "Atria similar in size; foramen ovale flap moving in the left atrium; septum primum present"
+      claims: [IS23-038]
+    - text: "At least one pulmonary vein entering the left atrium, where technically feasible"
+      claims: [IS23-040]
+    - text: "Ventricles similar in size; walls not thick; moderator band near the apex of the right ventricle"
+      claims: [IS23-042, IS23-043]
+    - text: "Septum examined from apex to crux, beam perpendicular where possible"
+      claims: [IS23-044, IS23-045]
+    - text: "Two atrioventricular valves opening separately and freely; normal offset"
+      claims: [IS23-047]
+    - text: "Pericardial fluid no more than a thin rim (2 mm or less)"
+      claims: [IS23-027]
+
+video:
+  title: "The four-chamber view, structure by structure"
+  target_minutes: 7
+  beats:
+    - shot: "Four-chamber clip with chest outline overlaid"
+      narration: "Size first. The heart is usually no more than a third of the chest."
+      claims: [IS23-026]
+    - shot: "Same clip with axis line"
+      narration: "Mostly in the left chest. Axis about forty-five degrees to the left, give or take twenty."
+      claims: [IS23-028]
+    - shot: "Clip zoomed on atria, flap labelled"
+      narration: "Two atria of similar size. The flap of the foramen ovale moves in the left atrium. The lower rim of the atrial septum is there."
+      claims: [IS23-038]
+    - shot: "Clip zoomed on ventricles, moderator band labelled"
+      narration: "Two ventricles of similar size. The moderator band near the apex marks the right ventricle. The smooth left ventricle forms the apex."
+      claims: [IS23-042, IS23-043]
+    - shot: "Two clips: beam along the septum with apparent gap; beam across the septum, intact"
+      narration: "Follow the septum from apex to crux. With the beam along it, drop-out can fake a defect. Look again with the beam across it."
+      claims: [IS23-044, IS23-045]
+    - shot: "Clip zoomed on the crux, offset marked"
+      narration: "Two valves, opening separately. The tricuspid sits a little nearer the apex than the mitral."
+      claims: [IS23-047]
+    - shot: "Presenter"
+      narration: "A normal four-chamber view is not a normal heart. Transposition and coarctation may not be evident here. Keep sweeping."
+      claims: [IS23-008]

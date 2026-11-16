@@ -1,6 +1,6 @@
 # Video script: The five-view sweep
 
-> Verified content.
+> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-extracted' that no clinician has verified.
 
 Unit D1 | Target length: 8 min
 

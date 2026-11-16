@@ -31,8 +31,6 @@ sections:
     blocks:
       - text: "In one retrospective study of missed diagnoses, failure to meet technical criteria contributed to about half of the misses. Failure to recognise abnormal anatomy on an adequate view accounted for nearly a third more."
         claims: [IS23-088]
-      - kind: framing
-        text: "Both can be measured in your own practice. Stored images show whether the planes met their criteria. Follow-up of outcomes shows whether abnormal hearts were recognised."
 
   - heading: "Image quality starts with set-up"
     blocks:
@@ -43,12 +41,14 @@ sections:
 
   - heading: "What to store"
     blocks:
-      - text: "Still frames and video clips of the recommended structures and views should be archived, so that the examination can be reviewed later for adequacy. Label laterality and orientation where appropriate."
+      - text: "Still frames and video clips of the recommended structures and views should be archived, so that the examination can be reviewed later for adequacy. Identify the patient appropriately in the clinical record, label laterality and orientation where appropriate, and take local or national archiving standards into account."
         claims: [IS23-017]
-      - text: "The upper planes of the sweep are judged more reliably on a clip than on still images. A clip is the better record of them."
+      - text: "The views of the right ventricular outflow tract, the branch pulmonary arteries and the two arches form a continuum. They are likely to be judged more reliably live or on a clip than from still images alone."
         claims: [IS23-063]
-      - text: "For a full fetal echocardiogram, the echocardiography guideline requires both stills and moving clips with a structured report. The clips cover the axial sweep, the four-chamber view, both outflow tracts, the three-vessel views and the sagittal views of both arches."
+      - text: "For a full fetal echocardiogram, the echocardiography guideline asks for stills, moving clips and a structured report. It requires a sweep from the stomach to the upper mediastinum, and two-dimensional and colour clips of the individual views, including the three-vessel view and the three-vessel-and-trachea view."
         claims: [AS23-008]
+      - text: "The same guideline says images should be kept in a secure digital archive that allows retrieval for review, that local legal requirements decide how long they are kept, and that a study which stays non-diagnostic after optimisation should have its limitations stated in the report."
+        claims: [AS23-113, AS23-114, AS23-117]
 
   - heading: "Auditing yourself"
     blocks:
@@ -56,20 +56,21 @@ sections:
         claims: [IS23-089]
       - text: "Each practice is encouraged to review its own detection rates and diagnostic accuracy every year, and to arrange further training where the review shows a need."
         claims: [IS23-089]
-      - text: "Programmes do better with continuous training based on feedback, standardised protocols, a low threshold for referral and easy access to fetal heart specialists."
-        claims: [IS23-006]
+      - text: "Continuous training based on feedback, standardised protocols, a low threshold for referral and easy access to fetal heart specialists can all improve a programme. For fetal echocardiography services, ongoing quality improvement should be documented."
+        claims: [IS23-006, AS23-112]
       - kind: framing
-        text: "One possible routine, for the editor to adjust: once a month, pull a small random set of your own stored cardiac screens. Score each plane against the checklist below as met, not met or not stored. Once a year, list every baby you scanned who was later found to have heart disease, and go back to the stored images of each one."
+        text: "How a practice samples its studies and scores them is a local decision. The guideline gives no method, and none is taught here; see the missing claims for this unit."
 
   - heading: "The checklist"
     blocks:
       - kind: framing
-        text: "The checklist below turns the criteria for the five planes into ticks. Use it on every patient until the order is automatic, and use the same list to audit stored studies."
+        text: "The checklist below gathers the main criteria for the five planes, for learning and for audit. It is a selection. Completing it does not by itself establish a complete normal examination."
 
 missing_claims:
   - "A scoring system for image quality of each cardiac plane (published criteria with points) - needs a source."
   - "A target or benchmark detection rate to audit against - needs a source; none is stated in the guideline claims held."
-  - "How long images must be kept and how PC-PNDT record-keeping applies to stored clips in India - needs an Indian legal source and the advisor's input."
+  - "How long images must be kept and how PC-PNDT record-keeping applies to stored clips in India - the echocardiography guideline only says to follow local legal requirements (AS23-114); needs an Indian legal source and the advisor's input."
+  - "A method for sampling studies, scoring them and working out a practice's own detection rate and accuracy - not given in the guideline; needs a source or the editor's design."
   - "How to obtain outcome feedback after delivery in Indian practice - needs the editor's input."
 
 drills:
@@ -107,14 +108,14 @@ drills:
     claims: [IS23-017]
 
   - id: D13-Q04
-    question: "For the outflow-tract and three-vessel planes, which is the more reliable record?"
+    question: "For the right ventricular outflow tract and arch views, which is likely to be the more reliable basis for assessment?"
     options:
       - "A cine clip"
       - "A single still frame of each"
       - "A written description alone"
       - "A measurement of each vessel"
     answer: 0
-    explanation: "These planes are a continuum that varies with probe orientation and fetal lie; assessment is more reliable live or on cine-loop than from stills alone."
+    explanation: "These views form a continuum that varies with probe orientation and fetal lie; assessment is likely to be more reliable live or on cine-loop than from stills alone."
     claims: [IS23-063]
 
   - id: D13-Q05
@@ -162,12 +163,12 @@ drills:
     claims: [IS23-015]
 
   - id: D13-Q09
-    question: "Which settings favour a good-quality cardiac image?"
+    question: "Which settings does the guideline recommend for the cardiac image?"
     options:
       - "High frame rate, low persistence, a single focal zone and a narrow image field"
       - "Low frame rate, high persistence and a wide image field"
       - "Multiple focal zones and maximum depth"
-      - "The general obstetric preset, unchanged"
+      - "Maximum depth with the whole fetus in view"
     answer: 0
     explanation: "Settings should emphasise high frame rate, contrast and resolution, with low persistence, a single focal zone and a relatively narrow field; cardiac presets usually include these."
     claims: [IS23-014]
@@ -184,37 +185,39 @@ drills:
     claims: [IS23-002]
 
 checklist:
-  title: "Five-plane screening checklist"
+  title: "Five-plane screening checklist (main criteria)"
   items:
     - text: "Fetal left and right worked out first"
       claims: [IS23-021]
-    - text: "Upper abdomen: stomach on the left; aorta left of the spine; inferior vena cava right of the spine"
+    - text: "Upper abdomen at the abdominal circumference level: stomach on the left; descending aorta left of the spine; inferior vena cava right of the spine"
       claims: [IS23-024]
-    - text: "Heart mainly in the left chest; no larger than a third of the chest area"
+    - text: "Heart mainly in the left chest; usually no larger than a third of the chest area"
       claims: [IS23-026, IS23-028]
-    - text: "Axis about 45 degrees to the left (plus or minus 20)"
+    - text: "Axis about 45 degrees to the left (plus or minus 20) of the front-to-back axis of the chest"
       claims: [IS23-028]
     - text: "Rate 120 to 160 per minute, regular"
       claims: [IS23-033]
-    - text: "Atria similar in size; foramen ovale flap in the left atrium; septum primum present"
+    - text: "Atria similar in size; foramen ovale flap moving within the left atrium; septum primum present"
       claims: [IS23-038]
-    - text: "Ventricles similar in size; walls not thick; moderator band in the right ventricle"
+    - text: "At least one pulmonary vein seen entering the left atrium on grey-scale, where technically feasible"
+      claims: [IS23-040]
+    - text: "Ventricles similar in size, walls not thick; moderator band near the apex marks the right ventricle. Asymmetry in mid-gestation needs further examination; mild disproportion can be a third-trimester variant"
       claims: [IS23-042, IS23-043]
-    - text: "Ventricular septum intact from apex to crux"
-      claims: [IS23-044]
-    - text: "Two atrioventricular valves opening freely; tricuspid inserted nearer the apex"
+    - text: "Ventricular septum examined from apex to crux, with the adequacy of the view recorded"
+      claims: [IS23-044, IS23-045]
+    - text: "Two atrioventricular valves opening separately and freely; septal leaflet of the tricuspid valve inserted nearer the apex"
       claims: [IS23-047]
-    - text: "LVOT: vessel from the left ventricle, anterior wall continuous with the septum; valve thin, opening freely"
-      claims: [IS23-059, IS23-060]
-    - text: "RVOT: vessel from the right ventricle, dividing after a short course; valve thin, opening freely"
-      claims: [IS23-064]
-    - text: "Great arteries cross and are about equal in size"
+    - text: "LVOT: vessel from the left ventricle, anterior wall continuous with the septum, not dividing; valve not thickened, moving freely"
+      claims: [IS23-052, IS23-059, IS23-060]
+    - text: "RVOT: vessel from the right ventricle, dividing after a short course; valve not thickened, moving freely"
+      claims: [IS23-052, IS23-064]
+    - text: "Great arteries cross and are approximately equal in size"
       claims: [IS23-051, IS23-052]
-    - text: "Three-vessel view: three vessels, correct order, size falling from left to right"
+    - text: "Three-vessel view: number, size, alignment and arrangement of the three vessels"
       claims: [IS23-066]
     - text: "Three-vessel-and-trachea view: V shape, both arches left of the trachea, arches similar in size"
       claims: [IS23-069, IS23-096]
-    - text: "Stills and clips of each view stored, with laterality labelled"
+    - text: "Stills and clips of the recommended views stored; laterality and orientation labelled where appropriate"
       claims: [IS23-017]
 
 video:
@@ -225,11 +228,11 @@ video:
       narration: "A good screen has four parts. Good images. All the planes. The right reading. And a complete record."
       claims: [IS23-087]
     - shot: "Screen recording: storing a clip of each plane"
-      narration: "Store a clip of each plane. The upper planes especially are judged better moving than still."
+      narration: "Store stills and clips of the recommended views. The outflow and arch views especially are likely to be judged better moving than still."
       claims: [IS23-017, IS23-063]
     - shot: "Desk shot: reviewing stored studies against a printed checklist"
-      narration: "Then check yourself. Pull stored studies and score each plane against the checklist."
+      narration: "Auditing your stored images against criteria set in advance is encouraged."
       claims: [IS23-089]
     - shot: "Presenter"
-      narration: "Once a year, look at your detection. Where there is a gap, train for it."
+      narration: "Once a year, review your detection rates and your diagnostic accuracy. Where there is a gap, train for it."
       claims: [IS23-089]

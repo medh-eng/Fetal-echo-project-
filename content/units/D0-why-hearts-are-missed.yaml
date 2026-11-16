@@ -12,7 +12,7 @@ signed_by: null
 
 objectives:
   - "State how common congenital heart disease is and how much of it is found before birth."
-  - "Name the two main ways a heart lesion is missed on a screening scan."
+  - "Name the two failures that one study of missed diagnoses found most often."
   - "Explain why the four-chamber view alone is not enough."
   - "List the features of a screening service that detects more."
 
@@ -27,7 +27,7 @@ sections:
 
   - heading: "You cannot screen by risk factor"
     blocks:
-      - text: "A high proportion of the heart disease that could be detected before birth occurs in pregnancies with no risk factor and no other anomaly. The routine scan, done well on every patient, is what finds it."
+      - text: "A high proportion of the heart disease that could be detected before birth occurs in pregnancies with no risk factor and no extracardiac anomaly. This is why a quality routine screen of every pregnancy, and timely referral, matter."
         claims: [IS23-080]
 
   - heading: "Where the miss happens"
@@ -35,14 +35,14 @@ sections:
       - text: "In one retrospective study of missed diagnoses, views that did not meet technical criteria contributed to about half of the misses. In nearly a third, the view was technically adequate but the abnormal anatomy was not recognised."
         claims: [IS23-088]
       - kind: framing
-        text: "These are two different failures and they need two different habits. The first is fixed by obtaining every plane to a standard. The second is fixed by knowing exactly what normal looks like, so that anything else stands out. This course trains both."
+        text: "These are two different failures. This course practises both skills: obtaining every plane to a standard, and knowing what each normal plane looks like."
 
   - heading: "Why detection varies"
     blocks:
       - text: "Part of the variation is explained by the examiner's ability, transducer frequency, maternal body habitus, abdominal scars, gestational age, amniotic fluid volume and fetal position."
         claims: [IS23-005]
-      - kind: framing
-        text: "Only some of these are in your hands. Skill and machine set-up are. Fetal position can often be dealt with by waiting or by bringing the patient back."
+      - text: "When the fetus is lying unfavourably, extra examination time or a second examination may be needed."
+        claims: [IS23-056]
 
   - heading: "Four chambers are not enough"
     blocks:
@@ -59,7 +59,7 @@ sections:
 
   - heading: "What a good screening service does"
     blocks:
-      - text: "A screening programme performs better with continuous training based on feedback, a low threshold for referral for echocardiography, standardised protocols and easy access to fetal heart specialists."
+      - text: "Four things can improve the performance of a screening programme: continuous training based on feedback, a low threshold for referral for echocardiography, standardised protocols and easy access to fetal heart specialists."
         claims: [IS23-006]
       - text: "Each practice is encouraged to audit its stored images or clips against set quality criteria, to review its own detection rates and diagnostic accuracy every year, and to provide further training where needed."
         claims: [IS23-089]
@@ -67,7 +67,9 @@ sections:
   - heading: "What this course asks of you"
     blocks:
       - kind: framing
-        text: "Learn one sweep and do it the same way on every patient. Learn the criteria for each plane until a normal heart is boring. Drill on clips until a heart that is not normal catches your eye within a few beats. Refer early when a plane fails."
+        text: "Learn one sweep and do it the same way on every patient. Learn the criteria for each plane. Use the clip drills to practise telling, quickly, whether a plane meets them. The few-second limit in the drills is a training exercise, not a clinical standard."
+      - text: "Keep two situations apart. A view that could not be obtained is an incomplete examination: with an unfavourable lie, more time or a second examination may be needed. A view that looks abnormal is a suspected abnormality, and that fetus is a candidate for fetal echocardiography."
+        claims: [IS23-056, IS23-078]
 
 missing_claims:
   - "Detection rates in India and by lesion type - needs an Indian source."
@@ -91,20 +93,20 @@ drills:
       - "Fewer than half"
       - "Nearly all"
       - "About three quarters"
-      - "Almost none"
+      - "Exactly half"
     answer: 0
     explanation: "Detection varies by region and lesion, but fewer than half of cardiac anomalies are identified before birth."
     claims: [IS23-004]
 
   - id: D0-Q03
-    question: "A colleague proposes examining the heart in detail only when the pregnancy has a risk factor. What is wrong with this?"
+    question: "A colleague proposes doing the full routine cardiac screen only when the pregnancy has a risk factor. What is wrong with this?"
     options:
       - "A high proportion of detectable heart disease occurs in pregnancies with no risk factor"
       - "Nothing; heart disease is rare without a risk factor"
       - "Risk factors cannot be identified before the scan"
       - "Detailed examination is only possible in the third trimester"
     answer: 0
-    explanation: "Much of the heart disease that can be detected before birth is in pregnancies with no risk factor and no other anomaly, so every routine scan must be done to standard."
+    explanation: "A high proportion of prenatally detectable heart disease is in pregnancies with no risk factor and no extracardiac anomaly. That is why quality screening of every pregnancy matters."
     claims: [IS23-080]
 
   - id: D0-Q04
@@ -119,18 +121,18 @@ drills:
     claims: [IS23-088]
 
   - id: D0-Q05
-    question: "In the same study, a technically adequate view was obtained but the diagnosis was still missed in nearly a third of cases. Why?"
+    question: "In one retrospective study of missed prenatal diagnoses, the view was technically adequate in nearly a third of misses. What went wrong in those?"
     options:
       - "The abnormal anatomy was not recognised"
       - "The lesion was too small to be seen by any examiner"
       - "The stored images were lost"
       - "The scan was done too late in pregnancy"
     answer: 0
-    explanation: "Failure to recognise abnormal anatomy on an adequate view accounted for 31% of misses. Recognition is a trainable skill."
+    explanation: "Failure to recognise abnormal anatomy on an adequate view accounted for 31% of misses in that study."
     claims: [IS23-088]
 
   - id: D0-Q06
-    question: "Which pair of lesions may show nothing abnormal in the four-chamber plane alone?"
+    question: "Which pair of lesions does the guideline name as possibly not evident in the four-chamber plane alone?"
     options:
       - "Transposition of the great arteries and coarctation of the aorta"
       - "Atrioventricular septal defect and a single ventricle"
@@ -141,7 +143,7 @@ drills:
     claims: [IS23-008]
 
   - id: D0-Q07
-    question: "The four-chamber view looks normal. Which view is typically abnormal in tetralogy of Fallot, transposition and common arterial trunk?"
+    question: "The four-chamber view looks normal. Which view is typically abnormal in tetralogy of Fallot, complete transposition and common arterial trunk?"
     options:
       - "The three-vessel view"
       - "The upper-abdomen view"
@@ -152,14 +154,14 @@ drills:
     claims: [IS23-067]
 
   - id: D0-Q08
-    question: "Which of these is a feature of a screening programme that performs better?"
+    question: "Which of these can improve the performance of a screening programme?"
     options:
       - "A low threshold for referring for fetal echocardiography"
       - "Referring only when the diagnosis is certain"
       - "Leaving each examiner to choose their own protocol"
       - "Limiting the scan to the four-chamber view to save time"
     answer: 0
-    explanation: "Better programmes have feedback-based training, a low referral threshold, standardised protocols and easy access to fetal heart specialists."
+    explanation: "Feedback-based training, a low referral threshold, standardised protocols and easy access to fetal heart specialists can all improve programme performance."
     claims: [IS23-006]
 
   - id: D0-Q09
@@ -174,12 +176,12 @@ drills:
     claims: [IS23-089]
 
   - id: D0-Q10
-    question: "Which of these factors that affect detection is most directly within the examiner's control?"
+    question: "Which of these does the guideline list among the factors that partly explain variation in detection?"
     options:
-      - "Transducer frequency and examiner skill"
-      - "Maternal body habitus"
-      - "Abdominal scars"
-      - "Amniotic fluid volume"
+      - "Examiner ability and transducer frequency"
+      - "Maternal blood group"
+      - "Number of previous pregnancies"
+      - "Position of the placenta"
     answer: 0
     explanation: "The guideline lists examiner ability and transducer frequency alongside patient factors such as habitus, scars, fluid volume and fetal position."
     claims: [IS23-005]
@@ -187,15 +189,19 @@ drills:
 checklist:
   title: "Habits that close the gap"
   items:
-    - text: "Every patient gets the full sweep: situs, four-chamber, outflow tracts and great-vessel views"
-      claims: [IS23-018]
-    - text: "Each plane is judged against its criteria, not by counting structures"
+    - text: "Routine second-trimester screen includes situs, four-chamber, outflow-tract and great-vessel views"
+      claims: [IS23-001, IS23-018]
+    - text: "Four-chamber and three-vessel views judged against their criteria, not by counting structures"
       claims: [IS23-007]
     - text: "A normal four-chamber view is never taken as proof of a normal heart"
       claims: [IS23-008, IS23-067]
-    - text: "Low threshold to refer for fetal echocardiography"
-      claims: [IS23-006, IS23-078]
-    - text: "Own images audited and detection reviewed every year"
+    - text: "Suspected abnormality: fetus is a candidate for fetal echocardiography"
+      claims: [IS23-078]
+    - text: "View not obtained: more time or a second examination"
+      claims: [IS23-056]
+    - text: "Stored images audited against criteria set in advance"
+      claims: [IS23-089]
+    - text: "Detection rates and diagnostic accuracy reviewed every year"
       claims: [IS23-089]
 
 video:
@@ -203,14 +209,14 @@ video:
   target_minutes: 4
   beats:
     - shot: "Presenter to camera"
-      narration: "Fewer than half of heart anomalies are found before birth. Most of those babies had no risk factor."
+      narration: "Fewer than half of heart anomalies are found before birth. And a high proportion of the detectable ones are in pregnancies with no risk factor."
       claims: [IS23-004, IS23-080]
     - shot: "Graphic: two boxes, 'view not good enough' and 'abnormality not recognised'"
-      narration: "When a diagnosis is missed, it is usually for one of two reasons. The view was not good enough. Or the view was good and nobody saw the problem."
+      narration: "In one study of missed diagnoses, two failures stood out. In about half, the views did not meet technical criteria. In nearly a third, the view was adequate and the abnormal anatomy was not recognised."
       claims: [IS23-088]
     - shot: "Diagram: four-chamber plane, then the planes above it lighting up"
-      narration: "Four chambers are not enough. Transposition and coarctation can hide in that plane. The outflow tracts and the three-vessel views are where they show."
-      claims: [IS23-008, IS23-067]
+      narration: "Four chambers are not enough. Transposition and coarctation may not be evident in that plane. Complete transposition is typically abnormal on the three-vessel view, and the three-vessel-and-trachea view is particularly useful for coarctation."
+      claims: [IS23-008, IS23-067, IS23-054]
     - shot: "Presenter"
-      narration: "One sweep, the same way, every patient. Know normal so well that anything else stops you. And refer early."
-      claims: []
+      narration: "One sweep, the same way, every patient. Know the criteria for each plane. If a view cannot be obtained, take more time or bring the patient back. If a view looks abnormal, the fetus is a candidate for a fetal echocardiogram."
+      claims: [IS23-023, IS23-056, IS23-078]

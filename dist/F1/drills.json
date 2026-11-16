@@ -17,7 +17,7 @@
       "claims": [
         "AS23-001"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "F1-Q02",
@@ -33,7 +33,7 @@
       "claims": [
         "AS23-002"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "F1-Q03",
@@ -54,19 +54,19 @@
     },
     {
       "id": "F1-Q04",
-      "question": "When is continuous-wave Doppler needed?",
+      "question": "Which use of continuous-wave Doppler does the guideline describe?",
       "options": [
-        "When flow is abnormally fast, to measure high velocities and gradients",
-        "In every normal examination",
+        "Characterising high velocities and valve gradients",
+        "Routine recording in every normal heart",
         "To time atrial and ventricular contraction",
         "To show small veins with slow flow"
       ],
       "answer": 0,
-      "explanation": "It is not needed for a normal heart. It characterises high velocities and gradients and helps estimate pressure from a regurgitant jet.",
+      "explanation": "It is not needed when the heart is normal. Where available it can characterise high velocities and gradients and help estimate pressure from a regurgitant jet.",
       "claims": [
         "AS23-015"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "F1-Q05",
@@ -82,7 +82,7 @@
       "claims": [
         "AS23-011"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "F1-Q06",
@@ -98,7 +98,7 @@
       "claims": [
         "AS23-017"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "F1-Q07",
@@ -114,11 +114,11 @@
       "claims": [
         "AS23-018"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "F1-Q08",
-      "question": "The fetal heart rhythm is irregular. What should the examination record?",
+      "question": "During a fetal echocardiogram the rhythm is irregular. What should the examination record?",
       "options": [
         "The mechanism, using M-mode, pulsed-wave Doppler or tissue Doppler",
         "The heart rate only",
@@ -130,19 +130,19 @@
       "claims": [
         "AS23-016"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "F1-Q09",
       "question": "How should the beam lie for a pulsed-wave Doppler recording?",
       "options": [
-        "Along the flow, or within 20 degrees of it",
+        "Along the flow, or at an angle of less than 20 degrees to it",
         "At right angles to the flow",
         "At 45 to 60 degrees to the flow",
         "The angle does not matter"
       ],
       "answer": 0,
-      "explanation": "Align with the flow or keep within 20 degrees, with a small sample gate.",
+      "explanation": "Align with the flow or keep the angle below 20 degrees. A small sample gate reduces the chance of sampling more than one site.",
       "claims": [
         "AS23-012"
       ],
@@ -158,7 +158,7 @@
         "Branch pulmonary arteries"
       ],
       "answer": 0,
-      "explanation": "Required sites include the umbilical vein, ductus venosus, pulmonary veins, both inflows, both outflows, the distal ductus arteriosus and the umbilical artery. The others listed here are optional.",
+      "explanation": "The table of required sites includes the umbilical vein, ductus venosus, at least one pulmonary vein on each side, both inflows, both outflows, the distal ductus arteriosus and the umbilical artery. The other three options are marked optional in the same table.",
       "claims": [
         "AS23-013",
         "AS23-014"
@@ -179,7 +179,7 @@
       "claims": [
         "AS23-021"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "F1-Q12",
@@ -191,7 +191,7 @@
         "Frame rate is not important"
       ],
       "answer": 0,
-      "explanation": "Above 30 to 40 Hz, and 80 to 100 Hz may be needed for fast heart rates or speckle tracking.",
+      "explanation": "Above 30 to 40 Hz. Rates of 80 to 100 Hz may be needed at heart rates above 140 beats per minute or for speckle tracking.",
       "claims": [
         "AS23-007"
       ],
@@ -199,7 +199,7 @@
     },
     {
       "id": "F1-Q13",
-      "question": "In early pregnancy, what limit applies to the thermal and mechanical indices?",
+      "question": "For early fetal echocardiography, what limit applies to the thermal and mechanical indices?",
       "options": [
         "1.0 or less, with Doppler used sparingly",
         "2.0 or less",
@@ -207,12 +207,12 @@
         "3.0 or less if the scan is short"
       ],
       "answer": 0,
-      "explanation": "Keep both indices at or below 1.0, limit Doppler and keep exposure short.",
+      "explanation": "Keep both indices at or below 1.0 and use Doppler sparingly.",
       "claims": [
         "AS23-006",
         "IS23-093"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "F1-Q14",

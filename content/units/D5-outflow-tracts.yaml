@@ -1,0 +1,249 @@
+# Unit D5. Every text block and drill lists the claim IDs it rests on.
+# IS23 claims: ISUOG screening guideline. AS23 claims: ASE fetal echocardiography guideline.
+
+id: D5
+title: "Outflow tracts"
+tier: Detect
+version: 0.1
+summary: "How to obtain the left and right outflow-tract views, what each must show, and which lesions they reveal."
+drafted_by: "Claude (16 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "Obtain both outflow-tract views by the sweep or the rotational technique."
+  - "Confirm the three things that make the outflow tracts normal."
+  - "Identify the aorta and the pulmonary artery by their features."
+  - "Name the lesions that outflow-tract views reveal."
+
+sections:
+
+  - heading: "Why these views are not optional"
+    blocks:
+      - text: "The left and right outflow-tract views, with the three-vessel and three-vessel-and-trachea views, are an integral part of the cardiac screening examination."
+        claims: [IS23-048]
+      - text: "Including outflow-tract and great-vessel views raises detection of major malformations above the four-chamber view alone. It allows detection of tetralogy of Fallot, transposition of the great arteries, double-outlet right ventricle and truncus arteriosus."
+        claims: [IS23-019]
+      - text: "The same views can identify aortic and pulmonary valve stenosis, which may become more severe as pregnancy advances."
+        claims: [IS23-020]
+      - text: "In a survey of more than 18 000 fetuses, 93% of examinations with an adequate four-chamber view also achieved a satisfactory outflow-tract evaluation."
+        claims: [IS23-050]
+
+  - heading: "What to establish"
+    blocks:
+      - text: "For the two great arteries, establish four things: each is connected to the correct ventricle; their size; their position relative to each other; and that the semilunar valves look normal and open normally."
+        claims: [IS23-049]
+      - text: "Three findings confirm normal outflow tracts. The vessel leaving the left ventricle has its anterior wall continuous with the ventricular septum and does not divide: the aorta. The vessel leaving the right ventricle divides: the pulmonary artery. The two great arteries cross each other."
+        claims: [IS23-052, IS23-064, IS23-065]
+        table:
+          columns: ["Feature", "Aorta", "Pulmonary artery"]
+          rows:
+            - ["Arises from", "Left ventricle", "Right ventricle"]
+            - ["Divides early", "No", "Yes, after a short course"]
+            - ["Wall continuity", "Anterior wall continuous with the ventricular septum", "-"]
+            - ["Relative size", "Usually slightly smaller", "Usually slightly larger"]
+            - ["Course", "Posterior, to the right", "Crosses in front of the aorta, running to its left"]
+
+  - heading: "Two ways to get there"
+    blocks:
+      - text: "Sweep technique: from the four-chamber view, sweep transversely towards the fetal head. The left outflow, the right outflow, the three-vessel view and the three-vessel-and-trachea view appear in sequence."
+        claims: [IS23-055]
+      - text: "Rotational technique: from the four-chamber view, rotate the transducer towards the fetal right shoulder. It is easier when the septum is perpendicular to the beam and may need slightly more skill. It optimises the left outflow tract, especially the outlet septum in continuity with the anterior wall of the aorta."
+        claims: [IS23-057]
+      - text: "Once the left outflow tract is obtained, angle towards the head until the pulmonary artery is seen running almost at right angles to the aorta. The relation of the two outflow tracts is shown best on cine clips, not stills."
+        claims: [IS23-058]
+      - text: "When the fetal lie is unfavourable, extra examination time or a second examination may be needed."
+        claims: [IS23-056]
+
+  - heading: "Left ventricular outflow tract"
+    blocks:
+      - text: "The view confirms a great vessel arising from the morphological left ventricle. Document the continuity between the ventricular septum and the anterior wall of the vessel."
+        claims: [IS23-059]
+      - text: "Strictly, only the head and neck vessels arising from it confirm that the vessel is the aorta."
+        claims: [IS23-059]
+      - text: "The aortic valve should move freely and should not be thickened."
+        claims: [IS23-060]
+      - text: "This view helps to identify outlet ventricular septal defects, conotruncal abnormalities and aortic valve abnormalities that are not visible in the four-chamber view."
+        claims: [IS23-062]
+
+  - heading: "Right ventricular outflow tract"
+    blocks:
+      - text: "The view confirms the pulmonary artery arising from the morphological right ventricle and branching after a short course. The pulmonary valve should move freely and should not be thickened."
+        claims: [IS23-064]
+      - text: "The normal pulmonary artery runs to the left of the more posterior ascending aorta, is usually slightly larger than the ascending aorta in fetal life, and crosses it at almost a right angle."
+        claims: [IS23-065]
+
+  - heading: "Size"
+    blocks:
+      - text: "At the least, show that the two great arteries are approximately equal in size. A major discrepancy should lead to further evaluation."
+        claims: [IS23-051]
+
+  - heading: "What is not part of the screen"
+    blocks:
+      - text: "Sagittal views of the aortic and ductal arches, and assessment of the neck vessels, are not currently part of the routine cardiac screening examination."
+        claims: [IS23-061]
+
+  - heading: "What the fetal echocardiogram adds"
+    blocks:
+      - kind: framing
+        text: "These points are from the echocardiography guideline. They describe the specialist examination, not the screen."
+      - text: "The normal left outflow view shows the outflow below the aortic valve, the valve, the region above it and the ascending aorta."
+        claims: [AS23-052]
+      - text: "The normal right outflow view shows the tract below the pulmonary valve, the valve and the proximal pulmonary trunk; the bifurcation may come into the plane."
+        claims: [AS23-053]
+      - text: "The origins of the right and left pulmonary arteries need two-dimensional and colour imaging; measuring them is optional."
+        claims: [AS23-054]
+
+missing_claims:
+  - "What each conotruncal lesion looks like in these views (overriding aorta, parallel great arteries, single trunk) - planned for the lesion atlas; needs a source and a cardiology co-editor."
+  - "Normal sizes of the great arteries by gestation - planned for XA6; needs a source."
+  - "Hand movements for each technique described for the Voluson probe - the editor's own teaching."
+
+drills:
+  - id: D5-Q01
+    question: "Which finding identifies the vessel leaving the left ventricle as the aorta at screening?"
+    options:
+      - "Its anterior wall is continuous with the ventricular septum and it does not divide"
+      - "It divides after a short course"
+      - "It is larger than the other great artery"
+      - "It runs to the left of the other great artery"
+    answer: 0
+    explanation: "The vessel from the left ventricle has its anterior wall continuous with the septum and does not bifurcate."
+    claims: [IS23-052]
+
+  - id: D5-Q02
+    question: "Which finding identifies the pulmonary artery?"
+    options:
+      - "It arises from the right ventricle and divides after a short course"
+      - "It gives off the head and neck vessels"
+      - "Its wall is continuous with the ventricular septum"
+      - "It is always smaller than the aorta"
+    answer: 0
+    explanation: "The pulmonary artery arises from the right ventricle and branches after a short course."
+    claims: [IS23-064]
+
+  - id: D5-Q03
+    question: "How do the two great arteries normally relate to each other as they leave the heart?"
+    options:
+      - "They cross, the pulmonary artery almost at right angles to the aorta"
+      - "They run parallel, side by side"
+      - "They join into one trunk"
+      - "The aorta lies in front and to the left"
+    answer: 0
+    explanation: "The great arteries cross each other; the pulmonary artery crosses the ascending aorta at almost a right angle."
+    claims: [IS23-052, IS23-065]
+
+  - id: D5-Q04
+    question: "Which great artery is usually slightly larger in fetal life?"
+    options:
+      - "The pulmonary artery"
+      - "The aorta"
+      - "They are always exactly equal"
+      - "It alternates through the cardiac cycle"
+    answer: 0
+    explanation: "The pulmonary artery is usually slightly larger than the ascending aorta in fetal life."
+    claims: [IS23-065]
+
+  - id: D5-Q05
+    question: "One great artery is clearly much smaller than the other. What does the guideline say?"
+    options:
+      - "A major discrepancy should lead to further evaluation"
+      - "This is the normal slight difference"
+      - "It matters only if the four-chamber view is abnormal"
+      - "It should be rechecked after birth"
+    answer: 0
+    explanation: "The great arteries should be approximately equal in size; a major discrepancy should lead to further evaluation."
+    claims: [IS23-051]
+
+  - id: D5-Q06
+    question: "In the rotational technique, which way is the transducer rotated from the four-chamber view to open the left outflow tract?"
+    options:
+      - "Towards the fetal right shoulder"
+      - "Towards the fetal left hip"
+      - "Towards the fetal spine"
+      - "It is not rotated; it is slid towards the feet"
+    answer: 0
+    explanation: "From the four-chamber view the transducer is rotated towards the fetal right shoulder."
+    claims: [IS23-057]
+
+  - id: D5-Q07
+    question: "What is the best record of the relationship between the two outflow tracts?"
+    options:
+      - "A cine clip"
+      - "One still frame"
+      - "A measurement of each valve"
+      - "A written note"
+    answer: 0
+    explanation: "The relationship of the two outflow tracts is best shown on cine clips, not still frames."
+    claims: [IS23-058]
+
+  - id: D5-Q08
+    question: "Which lesions does the left outflow-tract view help to identify that the four-chamber view does not show?"
+    options:
+      - "Outlet septal defects, conotruncal abnormalities and aortic valve abnormalities"
+      - "Abnormal abdominal situs"
+      - "Atrial size discrepancy"
+      - "Pericardial effusion"
+    answer: 0
+    explanation: "The LVOT view helps identify outlet ventricular septal defects, conotruncal abnormalities and aortic valve abnormalities not visible in the four-chamber view."
+    claims: [IS23-062]
+
+  - id: D5-Q09
+    question: "Are sagittal views of the aortic and ductal arches part of the routine cardiac screen?"
+    options:
+      - "No: they are not currently part of the routine screening examination"
+      - "Yes: both are mandatory"
+      - "Yes: the aortic arch only"
+      - "Only when colour Doppler is used"
+    answer: 0
+    explanation: "Sagittal arch views and assessment of the neck vessels are not currently part of the routine cardiac screening examination."
+    claims: [IS23-061]
+
+  - id: D5-Q10
+    question: "What should the aortic and pulmonary valves look like?"
+    options:
+      - "Moving freely and not thickened"
+      - "Thick and bright"
+      - "Fixed in the open position"
+      - "Not visible at screening"
+    answer: 0
+    explanation: "Each semilunar valve should move freely and should not be thickened."
+    claims: [IS23-060, IS23-064]
+
+checklist:
+  title: "Outflow tracts checklist"
+  items:
+    - text: "Vessel from the left ventricle; anterior wall continuous with the septum; does not divide"
+      claims: [IS23-052, IS23-059]
+    - text: "Aortic valve moving freely, not thickened"
+      claims: [IS23-060]
+    - text: "Vessel from the right ventricle; divides after a short course"
+      claims: [IS23-052, IS23-064]
+    - text: "Pulmonary valve moving freely, not thickened"
+      claims: [IS23-064]
+    - text: "The two great arteries cross"
+      claims: [IS23-052]
+    - text: "Great arteries approximately equal in size"
+      claims: [IS23-051]
+    - text: "Clip of the outflow tracts stored"
+      claims: [IS23-058, IS23-017]
+
+video:
+  title: "Two outflow tracts, one crossing"
+  target_minutes: 6
+  beats:
+    - shot: "Split screen: hand sliding the probe towards the head / clip moving from four-chamber to LVOT"
+      narration: "From the four chambers, sweep towards the head. The first vessel you meet leaves the left ventricle."
+      claims: [IS23-055]
+    - shot: "LVOT clip with septum and anterior aortic wall traced"
+      narration: "Its front wall runs straight on from the septum. It does not divide. The valve is thin and opens freely."
+      claims: [IS23-052, IS23-059, IS23-060]
+    - shot: "Split screen: small rotation of the hand / LVOT opening out"
+      narration: "The other way in: from the four chambers, rotate towards the fetal right shoulder."
+      claims: [IS23-057]
+    - shot: "RVOT clip with bifurcation labelled"
+      narration: "Tilt towards the head again. A second vessel, from the right ventricle, crossing the first almost at right angles, and dividing."
+      claims: [IS23-058, IS23-064, IS23-065]
+    - shot: "Side-by-side stills of both arteries with calipers hidden"
+      narration: "About the same size, the pulmonary artery slightly larger. A major difference needs further evaluation."
+      claims: [IS23-051, IS23-065]

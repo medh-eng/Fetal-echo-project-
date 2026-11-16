@@ -37,7 +37,7 @@
     },
     {
       "id": "D8-Q03",
-      "question": "A beat is dropped after every second or third normal beat throughout the scan. What next?",
+      "question": "Every other beat is an ectopic beat, throughout the scan. What next?",
       "options": [
         "Arrange further assessment: ectopic beats this frequent are an indication",
         "Reassure; all ectopic beats are benign",
@@ -53,9 +53,9 @@
     },
     {
       "id": "D8-Q04",
-      "question": "Occasional ectopic beats were seen two weeks ago. Today the rhythm is still irregular. What next?",
+      "question": "Ectopic beats were first seen three weeks ago. The rhythm has been irregular at every visit since, including today. What next?",
       "options": [
-        "Arrange further assessment: the irregularity has persisted beyond one to two weeks",
+        "Arrange further assessment: the rhythm has stayed irregular for more than one to two weeks",
         "Review again in another month",
         "No action; duration does not matter",
         "Stop checking the rhythm at later scans"
@@ -69,19 +69,19 @@
     },
     {
       "id": "D8-Q05",
-      "question": "The heart slows for a few seconds while you press to improve the view, then recovers when you ease off. What is this?",
+      "question": "At a second-trimester scan the heart slows for a few seconds while you press to improve the view, then returns to 140. How does the guideline describe this pattern?",
       "options": [
-        "Transient bradycardia, which is seen in normal second-trimester fetuses",
+        "Transient bradycardia, associated with transducer pressure, which is seen in normal second-trimester fetuses",
         "Atrioventricular block",
         "Persistent bradycardia needing urgent referral",
         "A sign of a structural heart defect"
       ],
       "answer": 0,
-      "explanation": "Transient bradycardia, often from transducer pressure, is seen in normal fetuses. Persistent bradycardia is what needs evaluation.",
+      "explanation": "Transient bradycardia associated with transducer pressure is seen in normal second-trimester fetuses. A rate that stays at 110 or below in a well fetus needs timely specialist evaluation.",
       "claims": [
         "IS23-036"
       ],
-      "status": "expert-verified"
+      "status": "ai-extracted"
     },
     {
       "id": "D8-Q06",
@@ -97,7 +97,7 @@
       "claims": [
         "IS23-036"
       ],
-      "status": "expert-verified"
+      "status": "ai-extracted"
     },
     {
       "id": "D8-Q07",
@@ -113,7 +113,7 @@
       "claims": [
         "IS23-036"
       ],
-      "status": "expert-verified"
+      "status": "ai-extracted"
     },
     {
       "id": "D8-Q08",
@@ -167,7 +167,7 @@
       "id": "D8-Q11",
       "question": "How does M-mode help the specialist work out the mechanism of an arrhythmia?",
       "options": [
-        "It times atrial against ventricular contraction with one cursor through an atrial wall and a ventricular wall",
+        "It times atrial against ventricular contraction with one cursor through an atrial wall and a ventricular free wall",
         "It measures the peak velocity across a valve",
         "It shows the direction of flow in the arches",
         "It measures the size of the heart against the chest"
@@ -177,7 +177,7 @@
       "claims": [
         "AS23-017"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     }
   ]
 }

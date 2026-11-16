@@ -29,15 +29,15 @@
         "About 150 to 200 cm/s"
       ],
       "answer": 0,
-      "explanation": "About 50 to 70 cm/s for intracardiac structures and vessels, with low persistence.",
+      "explanation": "About 50 to 70 cm/s for intracardiac structures and vessels. The lower scale is for veins.",
       "claims": [
         "IS23-077"
       ],
-      "status": "expert-verified"
+      "status": "ai-extracted"
     },
     {
       "id": "D7-Q03",
-      "question": "You want to show a pulmonary vein with colour. Which velocity scale is appropriate?",
+      "question": "At a second-trimester screen you want to show a pulmonary vein with colour. Which velocity scale is appropriate?",
       "options": [
         "About 15 to 25 cm/s",
         "About 50 to 70 cm/s",
@@ -49,7 +49,7 @@
       "claims": [
         "IS23-077"
       ],
-      "status": "expert-verified"
+      "status": "ai-extracted"
     },
     {
       "id": "D7-Q04",
@@ -69,15 +69,15 @@
     },
     {
       "id": "D7-Q05",
-      "question": "Why should the colour image be displayed alongside the grey-scale image?",
+      "question": "When colour is used to show the pulmonary veins, why display it alongside the grey-scale image?",
       "options": [
-        "To avoid false-negative findings",
+        "To help avoid false-negative findings",
         "To reduce the thermal index",
         "To increase the frame rate",
         "Because colour cannot be stored on its own"
       ],
       "answer": 0,
-      "explanation": "Showing colour beside grey-scale avoids false-negative findings.",
+      "explanation": "Displaying colour beside grey-scale when showing the pulmonary veins helps to avoid false-negative findings.",
       "claims": [
         "IS23-041"
       ],
@@ -109,7 +109,7 @@
         "The cardiac axis"
       ],
       "answer": 0,
-      "explanation": "Colour highlights abnormal patterns such as atrioventricular valve regurgitation and flow reversal in the ductus arteriosus or aortic arch. Size and axis are grey-scale judgements.",
+      "explanation": "Colour highlights abnormal patterns such as atrioventricular valve regurgitation and flow reversal in the ductus arteriosus or aortic arch.",
       "claims": [
         "IS23-074"
       ],
@@ -143,10 +143,9 @@
       "answer": 0,
       "explanation": "In early screening the thermal index should be 1.0 or less and exposure as short as possible.",
       "claims": [
-        "IS23-093",
-        "AS23-006"
+        "IS23-093"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D7-Q10",
@@ -162,11 +161,11 @@
       "claims": [
         "IS23-093"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D7-Q11",
-      "question": "What does power Doppler display?",
+      "question": "In the echocardiography guideline, what does power Doppler display?",
       "options": [
         "The strength of the Doppler signal, which helps with small vessels and slow flow",
         "The peak velocity of flow in cm/s",
@@ -178,7 +177,7 @@
       "claims": [
         "AS23-011"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     }
   ]
 }

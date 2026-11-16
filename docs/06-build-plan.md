@@ -66,6 +66,11 @@ Owner: **K** = Dr Kunda, **Y** = you, **C** = Claude, **X** = ChatGPT or Gemini.
 7. Case catalogue tool and anonymiser built and tested on a made-up clip (were steps 9 and 10). (C)
 8. Clinic checks form (`07-clinic-checks.md`) replacing three separate requests; pilot protocol drafted (`08-pilot-protocol.md`). (C)
 
+9. ChatGPT cross-checked all 118 claims against the PDFs, audited seven units and extracted 95 further ASE claims (16 Nov). (X)
+10. Cross-check applied: 22 claims reworded, 8 page references corrected; all audit findings worked through in D0, D7, D8, D9, D11, D13, F1; D1 corrected and returned for re-approval of five claims (16 Nov). (C)
+11. Eight more units drafted: D2, D3, D4, D5, D6, D10, F2, XA5. The Detect tier now has 13 of its 15 units in draft (16 Nov). (C)
+12. Review pack now holds back claims that no second AI has confirmed. Task lists written for ChatGPT (round 2) and for Claude Opus and Sonnet. (C)
+
 Status at 15 Nov 2026: the numbered steps below are unchanged, except that the tools in steps 9 and 10 exist and step 12 is done. Units D2 to D6, D10, D12 and D14 need sources beyond the two guidelines held, or the editor's own teaching, and are not drafted.
 
 ### Next two weeks

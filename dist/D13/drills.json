@@ -17,7 +17,7 @@
       "claims": [
         "IS23-087"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D13-Q02",
@@ -33,7 +33,7 @@
       "claims": [
         "IS23-017"
       ],
-      "status": "expert-verified"
+      "status": "ai-extracted"
     },
     {
       "id": "D13-Q03",
@@ -49,11 +49,11 @@
       "claims": [
         "IS23-017"
       ],
-      "status": "expert-verified"
+      "status": "ai-extracted"
     },
     {
       "id": "D13-Q04",
-      "question": "For the outflow-tract and three-vessel planes, which is the more reliable record?",
+      "question": "For the right ventricular outflow tract and arch views, which is likely to be the more reliable basis for assessment?",
       "options": [
         "A cine clip",
         "A single still frame of each",
@@ -61,11 +61,11 @@
         "A measurement of each vessel"
       ],
       "answer": 0,
-      "explanation": "These planes are a continuum that varies with probe orientation and fetal lie; assessment is more reliable live or on cine-loop than from stills alone.",
+      "explanation": "These views form a continuum that varies with probe orientation and fetal lie; assessment is likely to be more reliable live or on cine-loop than from stills alone.",
       "claims": [
         "IS23-063"
       ],
-      "status": "expert-verified"
+      "status": "ai-extracted"
     },
     {
       "id": "D13-Q05",
@@ -81,7 +81,7 @@
       "claims": [
         "IS23-089"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D13-Q06",
@@ -97,7 +97,7 @@
       "claims": [
         "IS23-089"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D13-Q07",
@@ -114,7 +114,7 @@
         "IS23-089",
         "IS23-048"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D13-Q08",
@@ -134,12 +134,12 @@
     },
     {
       "id": "D13-Q09",
-      "question": "Which settings favour a good-quality cardiac image?",
+      "question": "Which settings does the guideline recommend for the cardiac image?",
       "options": [
         "High frame rate, low persistence, a single focal zone and a narrow image field",
         "Low frame rate, high persistence and a wide image field",
         "Multiple focal zones and maximum depth",
-        "The general obstetric preset, unchanged"
+        "Maximum depth with the whole fetus in view"
       ],
       "answer": 0,
       "explanation": "Settings should emphasise high frame rate, contrast and resolution, with low persistence, a single focal zone and a relatively narrow field; cardiac presets usually include these.",
@@ -162,7 +162,7 @@
       "claims": [
         "IS23-002"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     }
   ]
 }

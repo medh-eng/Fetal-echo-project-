@@ -28,7 +28,7 @@ sections:
       - text: "Colour may be valuable in obese patients and may further improve detection of major heart disease in low-risk pregnancies."
         claims: [IS23-075]
       - kind: framing
-        text: "Grey-scale comes first. Colour is added to a plane you have already obtained properly; it does not rescue a poor view."
+        text: "This unit treats colour as an addition to the grey-scale screen taught in unit D1."
 
   - heading: "What normal colour shows"
     blocks:
@@ -50,35 +50,37 @@ sections:
     blocks:
       - text: "Keep the colour box narrow and place it only over the area of interest. This preserves frame rate and the quality of the colour image."
         claims: [IS23-076]
-      - text: "For a second-trimester screen, set the colour velocity scale to about 50 to 70 cm/s for the heart and the arteries, with low colour persistence. Use a lower scale, about 15 to 25 cm/s, for veins."
+      - text: "For a second-trimester screen, set the colour velocity scale to about 50 to 70 cm/s for the heart and the arteries. Use a lower scale, about 15 to 25 cm/s, for veins. Low colour persistence is ordinarily built into cardiac presets."
         claims: [IS23-077]
-      - text: "Set the scale to suit the velocities you are looking at. Adjust colour gain and persistence so that colour fills the chamber or vessel without hiding the grey-scale image."
+      - text: "For a full fetal echocardiogram, the echocardiography guideline says to set the scale to suit the velocities of interest, and to adjust colour gain and persistence so that colour fills the chamber or vessel without hiding the grey-scale image."
         claims: [AS23-010]
       - table:
           columns: ["Looking at", "Colour velocity scale", "Other settings"]
           rows:
-            - ["Valves, ventricles, great arteries, arches", "About 50 to 70 cm/s", "Narrow box, low persistence"]
+            - ["Valves, ventricles, great arteries, arches", "About 50 to 70 cm/s", "Narrow box; low persistence (ordinarily in the cardiac preset)"]
             - ["Veins, such as the pulmonary veins", "About 15 to 25 cm/s", "Narrow box"]
         text: "Starting settings for a second-trimester screen."
         claims: [IS23-076, IS23-077]
 
-  - heading: "Always beside grey-scale"
+  - heading: "Colour beside grey-scale"
     blocks:
-      - text: "When colour is used, display it alongside the grey-scale image. This avoids false-negative findings."
+      - text: "When you use colour to show the pulmonary veins entering the left atrium, display it alongside the grey-scale image. This helps to avoid false-negative findings."
         claims: [IS23-041]
 
   - heading: "Power Doppler"
     blocks:
-      - text: "Power Doppler shows the strength of the Doppler signal, not the frequency shift. It helps to show small vessels, slow flow such as in veins, and septal defects. Directional power Doppler adds the direction of flow."
+      - text: "The echocardiography guideline describes power Doppler as showing the strength of the Doppler signal, not the frequency shift. In fetal echocardiography it helps to show small vessels, slow flow such as in veins, and septal defects. Directional power Doppler adds the direction of flow."
         claims: [AS23-011]
 
   - heading: "Colour in early pregnancy"
     blocks:
-      - text: "For early cardiac screening, colour or high-quality power Doppler is recommended in addition to grey-scale."
+      - text: "For early cardiac screening, colour Doppler, or high-quality power Doppler with bidirectional flow mapping, or both, are recommended in addition to grey-scale."
         claims: [IS23-092]
       - text: "In early screening, use Doppler mainly for the four-chamber view and the three-vessel-and-trachea view. Keep the thermal index at 1.0 or less and the exposure as short as possible, usually no more than 5 to 10 minutes."
         claims: [IS23-093]
-      - text: "The echocardiography guideline gives the same direction: in early gestation keep the thermal and mechanical indices at or below 1.0 and use Doppler sparingly."
+      - text: "At the early scan, the balance between colour and grey-scale is adjusted to favour the flow signal in the small cardiac structures."
+        claims: [IS23-101]
+      - text: "For early fetal echocardiography, which is a different examination, the echocardiography guideline says to keep the thermal and mechanical indices at or below 1.0 and to use Doppler sparingly."
         claims: [AS23-006]
 
 missing_claims:
@@ -106,11 +108,11 @@ drills:
       - "About 5 to 10 cm/s"
       - "About 150 to 200 cm/s"
     answer: 0
-    explanation: "About 50 to 70 cm/s for intracardiac structures and vessels, with low persistence."
+    explanation: "About 50 to 70 cm/s for intracardiac structures and vessels. The lower scale is for veins."
     claims: [IS23-077]
 
   - id: D7-Q03
-    question: "You want to show a pulmonary vein with colour. Which velocity scale is appropriate?"
+    question: "At a second-trimester screen you want to show a pulmonary vein with colour. Which velocity scale is appropriate?"
     options:
       - "About 15 to 25 cm/s"
       - "About 50 to 70 cm/s"
@@ -132,14 +134,14 @@ drills:
     claims: [IS23-076]
 
   - id: D7-Q05
-    question: "Why should the colour image be displayed alongside the grey-scale image?"
+    question: "When colour is used to show the pulmonary veins, why display it alongside the grey-scale image?"
     options:
-      - "To avoid false-negative findings"
+      - "To help avoid false-negative findings"
       - "To reduce the thermal index"
       - "To increase the frame rate"
       - "Because colour cannot be stored on its own"
     answer: 0
-    explanation: "Showing colour beside grey-scale avoids false-negative findings."
+    explanation: "Displaying colour beside grey-scale when showing the pulmonary veins helps to avoid false-negative findings."
     claims: [IS23-041]
 
   - id: D7-Q06
@@ -161,7 +163,7 @@ drills:
       - "The size of the heart against the chest"
       - "The cardiac axis"
     answer: 0
-    explanation: "Colour highlights abnormal patterns such as atrioventricular valve regurgitation and flow reversal in the ductus arteriosus or aortic arch. Size and axis are grey-scale judgements."
+    explanation: "Colour highlights abnormal patterns such as atrioventricular valve regurgitation and flow reversal in the ductus arteriosus or aortic arch."
     claims: [IS23-074]
 
   - id: D7-Q08
@@ -184,7 +186,7 @@ drills:
       - "5.0 or less"
     answer: 0
     explanation: "In early screening the thermal index should be 1.0 or less and exposure as short as possible."
-    claims: [IS23-093, AS23-006]
+    claims: [IS23-093]
 
   - id: D7-Q10
     question: "At an early cardiac screen, on which views should Doppler mainly be used?"
@@ -198,7 +200,7 @@ drills:
     claims: [IS23-093]
 
   - id: D7-Q11
-    question: "What does power Doppler display?"
+    question: "In the echocardiography guideline, what does power Doppler display?"
     options:
       - "The strength of the Doppler signal, which helps with small vessels and slow flow"
       - "The peak velocity of flow in cm/s"
@@ -209,19 +211,19 @@ drills:
     claims: [AS23-011]
 
 checklist:
-  title: "Colour on a screening scan"
+  title: "When colour is used on a second-trimester screen"
   items:
     - text: "Colour box narrow, over the area of interest only"
       claims: [IS23-076]
-    - text: "Scale about 50 to 70 cm/s for heart and arteries; about 15 to 25 cm/s for veins; low persistence"
+    - text: "Scale about 50 to 70 cm/s for heart and arteries; about 15 to 25 cm/s for veins"
       claims: [IS23-077]
-    - text: "Colour shown beside the grey-scale image"
+    - text: "Pulmonary veins: colour shown beside the grey-scale image"
       claims: [IS23-041]
-    - text: "Forward flow across all four valves and both great arteries"
+    - text: "Colour can show forward flow across all four valves and both great arteries"
       claims: [IS23-074]
-    - text: "V of the two arches shown at the three-vessel-and-trachea view"
+    - text: "Colour can help to show the V of the two arches at the three-vessel-and-trachea view"
       claims: [IS23-074]
-    - text: "Early pregnancy: thermal index 1.0 or less, exposure kept short"
+    - text: "At an early screen instead: thermal index 1.0 or less, Doppler exposure kept short"
       claims: [IS23-093]
 
 video:
@@ -229,19 +231,19 @@ video:
   target_minutes: 5
   beats:
     - shot: "Presenter to camera"
-      narration: "Colour is not compulsory for screening. It is encouraged. Learn it on normal hearts first."
+      narration: "Colour is not compulsory for screening. It is encouraged. In this course you practise it on normal hearts first."
       claims: [IS23-073]
     - shot: "Machine console: colour key, box size, scale control"
-      narration: "Small box, only where you are looking. Scale fifty to seventy for the heart and arteries. Fifteen to twenty-five for veins. Persistence low."
+      narration: "For a second-trimester screen: small box, only where you are looking. Scale fifty to seventy centimetres per second for the heart and arteries. Fifteen to twenty-five for veins."
       claims: [IS23-076, IS23-077]
     - shot: "Split screen: grey-scale four-chamber beside the same view in colour"
-      narration: "Keep grey-scale beside colour. Two valves, two streams filling the ventricles, both going forward."
+      narration: "Four-chamber view: forward flow across both atrioventricular valves. For the pulmonary veins, keep grey-scale beside colour."
       claims: [IS23-041, IS23-074]
     - shot: "Outflow tract clips in colour"
       narration: "Forward flow through the aortic valve. Forward flow through the pulmonary valve."
       claims: [IS23-074]
     - shot: "Three-vessel-and-trachea clip in colour"
-      narration: "Two arches meeting in a V, the same colour. If one arch is the opposite colour, flow is reversed. That is not normal."
+      narration: "Two arches meeting in a V. Colour makes the V easier to see, and it can show reversed flow in the ductus or the aortic arch."
       claims: [IS23-074]
     - shot: "Screen close-up of thermal index display"
       narration: "In early pregnancy, watch the thermal index. One or less. Keep it short."

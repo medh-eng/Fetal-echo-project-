@@ -1,0 +1,136 @@
+{
+  "unit": "D10",
+  "title": "Normal variants, artefacts and pitfalls",
+  "status": "ai-extracted",
+  "items": [
+    {
+      "id": "D10-Q01",
+      "question": "A dark rim 1.5 mm thick is seen around the heart at end-systole at 24 weeks. What is this?",
+      "options": [
+        "A normal small amount of pericardial fluid",
+        "A pericardial effusion needing referral",
+        "A sign of hydrops",
+        "A sign of cardiomegaly"
+      ],
+      "answer": 0,
+      "explanation": "Pericardial fluid of 2 mm or less at end-systole is common in the second and third trimesters and is normal.",
+      "claims": [
+        "IS23-027"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D10-Q02",
+      "question": "A gap appears in the ventricular septum near the crux in an apical view, with the beam along the septum. What should you do before calling it a defect?",
+      "options": [
+        "Look again with the beam perpendicular to the septum",
+        "Report an atrioventricular septal defect",
+        "Measure the gap and report its size",
+        "Ignore it; septal defects cannot be seen before birth"
+      ],
+      "answer": 0,
+      "explanation": "With the beam parallel to the septum, drop-out can falsely suggest a defect near the crux; the septum is best seen with the beam perpendicular.",
+      "claims": [
+        "IS23-045"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D10-Q03",
+      "question": "At 34 weeks the right ventricle looks slightly larger than the left. At 20 weeks the same degree of difference is seen in another fetus. How do the two differ?",
+      "options": [
+        "Mild disproportion can be a third-trimester variant; asymmetry in mid-gestation warrants further examination",
+        "Both are normal variants",
+        "Both always indicate coarctation",
+        "The third-trimester finding is the more worrying"
+      ],
+      "answer": 0,
+      "explanation": "Mild disproportion can be a normal variant in the third trimester, but right-left asymmetry in mid-gestation warrants further examination.",
+      "claims": [
+        "IS23-043"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D10-Q04",
+      "question": "The pulmonary artery looks slightly larger than the aorta. How is this read?",
+      "options": [
+        "Usual in fetal life",
+        "A sign of aortic stenosis",
+        "A sign of transposition",
+        "A reason for further evaluation in every case"
+      ],
+      "answer": 0,
+      "explanation": "The pulmonary artery is usually slightly larger than the ascending aorta in fetal life. Only a major discrepancy should lead to further evaluation.",
+      "claims": [
+        "IS23-065",
+        "IS23-051"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D10-Q05",
+      "question": "Ectopic beats are occurring after every second normal beat. Is this still within the benign pattern the guideline describes?",
+      "options": [
+        "No: ectopic beats more often than every three to five beats are an indication for further assessment",
+        "Yes: all ectopic beats are benign",
+        "Yes, provided the four-chamber view is normal",
+        "Yes, until the third trimester"
+      ],
+      "answer": 0,
+      "explanation": "Frequent ectopic episodes, more than every three to five beats, are an indication for further assessment.",
+      "claims": [
+        "IS23-035"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D10-Q06",
+      "question": "What does the guideline say about an echogenic intracardiac focus and the risk of congenital heart disease?",
+      "options": [
+        "Evidence is insufficient that the risk is significantly above baseline",
+        "It doubles the risk",
+        "It is a common indication for fetal echocardiography",
+        "It indicates a cardiac tumour"
+      ],
+      "answer": 0,
+      "explanation": "Echogenic intracardiac focus is among the factors for which evidence of risk significantly above baseline is insufficient.",
+      "claims": [
+        "IS23-085"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "D10-Q07",
+      "question": "The heart rate rises to 170 for a few seconds during vigorous fetal movement, then settles at 145. How is this read?",
+      "options": [
+        "It can be a normal variant",
+        "Persistent tachycardia",
+        "Evidence of fetal hypoxia",
+        "A tachyarrhythmia needing same-day referral"
+      ],
+      "answer": 0,
+      "explanation": "Mild transient tachycardia (160 to 180) can be a normal variant during fetal movement; persistent tachycardia at 180 or more needs further evaluation.",
+      "claims": [
+        "IS23-037"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D10-Q08",
+      "question": "On the three-vessel-and-trachea view there is a relatively dark area between the great vessels and the front of the chest. What normal structure appears like this?",
+      "options": [
+        "The thymus",
+        "The oesophagus",
+        "The left atrium",
+        "The stomach"
+      ],
+      "answer": 0,
+      "explanation": "The thymus appears as a relatively dark area between the great vessels and the front of the chest.",
+      "claims": [
+        "IS23-100"
+      ],
+      "status": "ai-extracted"
+    }
+  ]
+}

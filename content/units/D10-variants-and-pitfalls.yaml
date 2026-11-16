@@ -1,0 +1,214 @@
+# Unit D10. Every text block and drill lists the claim IDs it rests on.
+# IS23 claims: ISUOG screening guideline. This unit is limited to the variants and
+# pitfalls that the guideline itself names. A fuller unit needs further sources.
+
+id: D10
+title: "Normal variants, artefacts and pitfalls"
+tier: Detect
+version: 0.1
+summary: "Findings that look worrying and are usually not, findings that look harmless and are not, and the artefacts that create a false defect."
+drafted_by: "Claude (16 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "Recognise the normal findings that are commonly mistaken for disease."
+  - "Recognise the technical artefact that fakes a septal defect."
+  - "Know which 'variants' are only variants at a certain gestation or for a certain time."
+
+sections:
+
+  - heading: "How to use this unit"
+    blocks:
+      - kind: framing
+        text: "Each item below is paired with its limit: the point at which it stops being a variant. A variant without its limit is how abnormal hearts get passed as normal."
+
+  - heading: "A rim of fluid around the heart"
+    blocks:
+      - text: "A small amount of pericardial fluid, 2 mm or less thick at end-systole, is common in the second and third trimesters and is normal. A thin dark rim around the heart should not be mistaken for an effusion."
+        claims: [IS23-027]
+
+  - heading: "A gap in the septum that is not there"
+    blocks:
+      - text: "With the beam running parallel to the ventricular septum, acoustic drop-out can falsely suggest a defect near the crux. The septum is seen best with the beam perpendicular to it."
+        claims: [IS23-045]
+      - text: "Real small defects exist too. Defects of 1 to 2 mm can be very difficult to confirm, particularly when fetal size or position is unfavourable; most are of limited clinical significance and may close before birth."
+        claims: [IS23-046, IS23-099]
+
+  - heading: "Ventricles that are not quite equal"
+    blocks:
+      - text: "Mild disproportion between the ventricles can be a normal variant in the third trimester."
+        claims: [IS23-043]
+      - text: "The limit: right-left asymmetry in mid-gestation warrants further examination. Important causes are coarctation of the aorta, an evolving hypoplastic left heart and anomalous pulmonary venous return."
+        claims: [IS23-043]
+
+  - heading: "Great arteries that are not quite equal"
+    blocks:
+      - text: "The pulmonary artery is usually slightly larger than the ascending aorta in fetal life."
+        claims: [IS23-065]
+      - text: "The limit: the great arteries should be approximately equal, and a major discrepancy should lead to further evaluation."
+        claims: [IS23-051]
+
+  - heading: "A skipped beat"
+    blocks:
+      - text: "Ectopic beats are the most common rhythm disturbance. They are often benign and resolve on their own, and in low-risk populations they are not associated with a higher risk of structural heart disease."
+        claims: [IS23-034]
+      - text: "The limit: episodes more often than every three to five beats, or a rhythm that stays irregular for more than one to two weeks, are an indication for further assessment."
+        claims: [IS23-035]
+
+  - heading: "A brief slow or fast rate"
+    blocks:
+      - text: "Transient bradycardia, associated with transducer pressure, is seen in normal second-trimester fetuses. Mild transient tachycardia of 160 to 180 beats per minute can be a normal variant during fetal movement."
+        claims: [IS23-036, IS23-037]
+      - text: "The limit: a rate that stays at 110 or below in a well fetus needs timely specialist evaluation, and a rate that stays at 180 or above should be evaluated further."
+        claims: [IS23-036, IS23-037]
+
+  - heading: "A bright spot in a ventricle"
+    blocks:
+      - text: "For an echogenic intracardiac focus, the guideline finds insufficient evidence that the risk of congenital heart disease is significantly above baseline."
+        claims: [IS23-085]
+
+  - heading: "Two arches that will not sit in one picture"
+    blocks:
+      - text: "The aortic arch lies slightly nearer the head than the ductal arch. Showing both together may need a small adjustment away from a true axial plane; failing to see both in one strict axial cut is not in itself abnormal."
+        claims: [IS23-070]
+
+  - heading: "A dark area in front of the great vessels"
+    blocks:
+      - text: "On the upper mediastinal views the thymus appears as a relatively dark area between the great vessels and the front of the chest."
+        claims: [IS23-100]
+
+  - heading: "A poor view is not a normal view"
+    blocks:
+      - text: "When the fetal lie is unfavourable, extra examination time or a second examination may be needed."
+        claims: [IS23-056]
+      - text: "Cardiac axis and position can still be judged when the four-chamber view itself is not seen well."
+        claims: [IS23-029]
+
+missing_claims:
+  - "Echogenic intracardiac focus: appearance, where it lies, and how to tell it from other bright structures - needs a source."
+  - "Other variants and look-alikes not named in the guideline: prominent moderator band, redundant foramen ovale flap, prominent coronary sinus, trivial tricuspid regurgitation, linear insertion of the valves - each needs a source."
+  - "Artefacts beyond septal drop-out: shadowing from ribs and spine, reverberation, colour bleeding - planned with XA4; needs a physics source."
+  - "The editor's own list of pitfalls from 14 years of practice, with example clips from the archive - this would make the unit distinctive."
+
+drills:
+  - id: D10-Q01
+    question: "A dark rim 1.5 mm thick is seen around the heart at end-systole at 24 weeks. What is this?"
+    options:
+      - "A normal small amount of pericardial fluid"
+      - "A pericardial effusion needing referral"
+      - "A sign of hydrops"
+      - "A sign of cardiomegaly"
+    answer: 0
+    explanation: "Pericardial fluid of 2 mm or less at end-systole is common in the second and third trimesters and is normal."
+    claims: [IS23-027]
+
+  - id: D10-Q02
+    question: "A gap appears in the ventricular septum near the crux in an apical view, with the beam along the septum. What should you do before calling it a defect?"
+    options:
+      - "Look again with the beam perpendicular to the septum"
+      - "Report an atrioventricular septal defect"
+      - "Measure the gap and report its size"
+      - "Ignore it; septal defects cannot be seen before birth"
+    answer: 0
+    explanation: "With the beam parallel to the septum, drop-out can falsely suggest a defect near the crux; the septum is best seen with the beam perpendicular."
+    claims: [IS23-045]
+
+  - id: D10-Q03
+    question: "At 34 weeks the right ventricle looks slightly larger than the left. At 20 weeks the same degree of difference is seen in another fetus. How do the two differ?"
+    options:
+      - "Mild disproportion can be a third-trimester variant; asymmetry in mid-gestation warrants further examination"
+      - "Both are normal variants"
+      - "Both always indicate coarctation"
+      - "The third-trimester finding is the more worrying"
+    answer: 0
+    explanation: "Mild disproportion can be a normal variant in the third trimester, but right-left asymmetry in mid-gestation warrants further examination."
+    claims: [IS23-043]
+
+  - id: D10-Q04
+    question: "The pulmonary artery looks slightly larger than the aorta. How is this read?"
+    options:
+      - "Usual in fetal life"
+      - "A sign of aortic stenosis"
+      - "A sign of transposition"
+      - "A reason for further evaluation in every case"
+    answer: 0
+    explanation: "The pulmonary artery is usually slightly larger than the ascending aorta in fetal life. Only a major discrepancy should lead to further evaluation."
+    claims: [IS23-065, IS23-051]
+
+  - id: D10-Q05
+    question: "Ectopic beats are occurring after every second normal beat. Is this still within the benign pattern the guideline describes?"
+    options:
+      - "No: ectopic beats more often than every three to five beats are an indication for further assessment"
+      - "Yes: all ectopic beats are benign"
+      - "Yes, provided the four-chamber view is normal"
+      - "Yes, until the third trimester"
+    answer: 0
+    explanation: "Frequent ectopic episodes, more than every three to five beats, are an indication for further assessment."
+    claims: [IS23-035]
+
+  - id: D10-Q06
+    question: "What does the guideline say about an echogenic intracardiac focus and the risk of congenital heart disease?"
+    options:
+      - "Evidence is insufficient that the risk is significantly above baseline"
+      - "It doubles the risk"
+      - "It is a common indication for fetal echocardiography"
+      - "It indicates a cardiac tumour"
+    answer: 0
+    explanation: "Echogenic intracardiac focus is among the factors for which evidence of risk significantly above baseline is insufficient."
+    claims: [IS23-085]
+
+  - id: D10-Q07
+    question: "The heart rate rises to 170 for a few seconds during vigorous fetal movement, then settles at 145. How is this read?"
+    options:
+      - "It can be a normal variant"
+      - "Persistent tachycardia"
+      - "Evidence of fetal hypoxia"
+      - "A tachyarrhythmia needing same-day referral"
+    answer: 0
+    explanation: "Mild transient tachycardia (160 to 180) can be a normal variant during fetal movement; persistent tachycardia at 180 or more needs further evaluation."
+    claims: [IS23-037]
+
+  - id: D10-Q08
+    question: "On the three-vessel-and-trachea view there is a relatively dark area between the great vessels and the front of the chest. What normal structure appears like this?"
+    options:
+      - "The thymus"
+      - "The oesophagus"
+      - "The left atrium"
+      - "The stomach"
+    answer: 0
+    explanation: "The thymus appears as a relatively dark area between the great vessels and the front of the chest."
+    claims: [IS23-100]
+
+checklist:
+  title: "Before calling it abnormal, and before calling it a variant"
+  items:
+    - text: "Fluid rim: 2 mm or less at end-systole is normal"
+      claims: [IS23-027]
+    - text: "Septal gap near the crux: re-examined with the beam perpendicular"
+      claims: [IS23-045]
+    - text: "Ventricular asymmetry: gestation checked (mid-gestation needs further examination)"
+      claims: [IS23-043]
+    - text: "Great arteries: slight difference is usual; major discrepancy needs further evaluation"
+      claims: [IS23-065, IS23-051]
+    - text: "Ectopic beats: frequency and duration checked against the limits"
+      claims: [IS23-035]
+    - text: "Slow or fast rate: transient or persistent"
+      claims: [IS23-036, IS23-037]
+
+video:
+  title: "Looks abnormal, is not; looks fine, is not"
+  target_minutes: 5
+  beats:
+    - shot: "Four-chamber clip with a thin dark rim"
+      narration: "A thin dark rim around the heart, two millimetres or less, is normal."
+      claims: [IS23-027]
+    - shot: "Two clips: apical view with septal drop-out; lateral view, septum intact"
+      narration: "A gap near the crux with the beam along the septum may be drop-out. Turn the beam across the septum and look again."
+      claims: [IS23-045]
+    - shot: "Two four-chamber clips, mid-gestation and third trimester, labelled"
+      narration: "Slightly unequal ventricles late in pregnancy can be a variant. Unequal ventricles at mid-gestation need further examination."
+      claims: [IS23-043]
+    - shot: "Clip with an occasional ectopic beat, then one with frequent ectopic beats"
+      narration: "An occasional skipped beat is common and often benign. Frequent ones, or a rhythm still irregular after more than one to two weeks, need assessment."
+      claims: [IS23-034, IS23-035]

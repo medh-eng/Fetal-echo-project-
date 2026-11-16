@@ -1,0 +1,212 @@
+# Unit D3. Every text block and drill lists the claim IDs it rests on.
+# IS23 claims: ISUOG screening guideline. AS23 claims: ASE fetal echocardiography guideline.
+
+id: D3
+title: "Laterality and situs"
+tier: Detect
+version: 0.1
+summary: "Working out fetal left and right, reading the upper-abdomen plane, and what to suspect when stomach or heart is not where it should be."
+drafted_by: "Claude (16 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "Establish fetal left and right before judging any organ's position."
+  - "State what the upper-abdomen plane shows in normal situs."
+  - "Explain why normal abdominal situs stands in for normal atrial arrangement."
+  - "Recognise when to suspect a situs abnormality, and tell it from a heart that has been displaced."
+
+sections:
+
+  - heading: "Left and right come first"
+    blocks:
+      - text: "To assess situs, first determine fetal laterality: which side is the fetal right and which the fetal left, from the position of the fetus in the uterus. Only then confirm that the stomach and the heart are both on the fetal left."
+        claims: [IS23-021]
+      - kind: framing
+        text: "The order matters. If you decide that the stomach is 'on the left' because that is where the stomach usually is, you have assumed the answer."
+
+  - heading: "The upper-abdomen plane"
+    blocks:
+      - text: "A transverse sweep, moving the transducer towards the fetal head from the abdomen to the chest, shows the abdominal situs first and then the four-chamber view."
+        claims: [IS23-022]
+      - text: "Abdominal situs is assessed at the level of the standard abdominal circumference. Normal: stomach on the left, descending aorta to the left of the spine, inferior vena cava to the right of the spine."
+        claims: [IS23-024]
+        table:
+          columns: ["Structure", "Normal position in the upper-abdomen plane"]
+          rows:
+            - ["Stomach", "Fetal left"]
+            - ["Descending aorta", "Left of the spine"]
+            - ["Inferior vena cava", "Right of the spine"]
+
+  - heading: "What normal abdominal situs tells you"
+    blocks:
+      - text: "Normal abdominal situs is a surrogate for normal atrial situs: right atrium on the right, left atrium on the left."
+        claims: [IS23-025]
+
+  - heading: "Then the heart"
+    blocks:
+      - text: "The heart lies mainly in the left chest, with its long axis pointing to the left at about 45 degrees, plus or minus 20 degrees, relative to the front-to-back axis of the chest."
+        claims: [IS23-028]
+      - text: "Position and axis can be judged even when the four-chamber view itself is not seen well."
+        claims: [IS23-029]
+
+  - heading: "When something is not on the left"
+    blocks:
+      - text: "Suspect a situs abnormality when the heart, the stomach, or both are not on the left."
+        claims: [IS23-030]
+      - text: "A fetus with a suspected abnormality on cardiac screening is a candidate for fetal echocardiography."
+        claims: [IS23-078]
+
+  - heading: "A displaced heart is a different problem"
+    blocks:
+      - text: "A heart can be pushed or pulled out of its normal position by something next to it: a diaphragmatic hernia, a space-occupying lesion such as a congenital pulmonary airway malformation, or a lung that is small or absent. A leftward shift of the axis may also occur with gastroschisis and omphalocele."
+        claims: [IS23-032]
+      - text: "An abnormal cardiac axis raises the risk of a cardiac malformation, especially of the outflow tracts, and may be associated with a chromosomal anomaly."
+        claims: [IS23-031]
+
+  - heading: "What the fetal echocardiogram adds"
+    blocks:
+      - kind: framing
+        text: "These points are from the echocardiography guideline. They describe the specialist examination, not the screen."
+      - text: "To assign abdominal situs, the examiner evaluates an upper abdominal cross-section showing the stomach, the liver, the descending aorta and the systemic veins, in the fetus's established orientation."
+        claims: [AS23-041]
+      - text: "Two-dimensional imaging is required for visceral and atrial situs; colour Doppler is optional for it."
+        claims: [AS23-042]
+      - text: "A sagittal view of the two venae cavae establishes whether the inferior vena cava is continuous and whether both venae cavae lie on the same side."
+        claims: [AS23-059, AS23-060]
+
+  - heading: "Record it"
+    blocks:
+      - text: "Stored images should carry labels for laterality and orientation where appropriate."
+        claims: [IS23-017]
+
+missing_claims:
+  - "Named practical methods for working out fetal left and right (for example from presentation and spine position) - not described in the guidelines held; needs a source or the editor's own teaching method."
+  - "The patterns of abnormal situs (situs inversus, right and left isomerism) and what each looks like in the abdomen plane - planned for the lesion atlas; needs a source."
+  - "Terms for heart position (dextrocardia, mesocardia, dextroposition) and how to use them in a report - needs a source."
+  - "How often abnormal situs carries heart disease - needs a source."
+
+drills:
+  - id: D3-Q01
+    question: "What must be established before deciding that the stomach is on the fetal left?"
+    options:
+      - "Fetal laterality, from the position of the fetus in the uterus"
+      - "The cardiac axis"
+      - "The heart rate"
+      - "The position of the placenta"
+    answer: 0
+    explanation: "Fetal right and left are determined first, from the position of the fetus in utero; only then are stomach and heart confirmed on the left."
+    claims: [IS23-021]
+
+  - id: D3-Q02
+    question: "At which level is abdominal situs assessed?"
+    options:
+      - "The level of the standard abdominal circumference"
+      - "The level of the bladder"
+      - "The level of the kidneys"
+      - "The level of the four-chamber view"
+    answer: 0
+    explanation: "Abdominal situs is assessed at the level of the standard abdominal circumference."
+    claims: [IS23-024]
+
+  - id: D3-Q03
+    question: "In normal situs, where do the great vessels lie in the upper-abdomen plane?"
+    options:
+      - "Descending aorta left of the spine; inferior vena cava right of the spine"
+      - "Descending aorta right of the spine; inferior vena cava left of the spine"
+      - "Both in front of the spine in the midline"
+      - "Both to the left of the spine"
+    answer: 0
+    explanation: "Stomach on the left, descending aorta on the left and inferior vena cava on the right side of the spine."
+    claims: [IS23-024]
+
+  - id: D3-Q04
+    question: "Why does normal abdominal situs matter for the heart?"
+    options:
+      - "It is a surrogate for normal atrial situs"
+      - "It proves the outflow tracts are normal"
+      - "It shows the heart rate is regular"
+      - "It rules out all heart disease"
+    answer: 0
+    explanation: "Normal abdominal situs stands in for normal atrial situs: right atrium to the right, left atrium to the left."
+    claims: [IS23-025]
+
+  - id: D3-Q05
+    question: "After working out fetal left and right, you find the stomach on the fetal right and the heart on the fetal left. What should you suspect?"
+    options:
+      - "A situs abnormality"
+      - "A normal variant"
+      - "A diaphragmatic hernia only"
+      - "Nothing; only the heart's side matters"
+    answer: 0
+    explanation: "A situs abnormality should be suspected when the heart and/or the stomach are not on the left."
+    claims: [IS23-030]
+
+  - id: D3-Q06
+    question: "The heart is displaced to the right but the stomach is on the left. Which of these can displace the heart from its normal position?"
+    options:
+      - "Diaphragmatic hernia"
+      - "An echogenic intracardiac focus"
+      - "A thin rim of pericardial fluid"
+      - "Occasional ectopic beats"
+    answer: 0
+    explanation: "Displacement can be caused by diaphragmatic hernia, a space-occupying lesion such as a congenital pulmonary airway malformation, or lung hypoplasia or agenesis."
+    claims: [IS23-032]
+
+  - id: D3-Q07
+    question: "The four-chamber view is poor because of fetal position. Can cardiac position and axis still be judged?"
+    options:
+      - "Yes: they can be evaluated even when the four-chamber view is not seen satisfactorily"
+      - "No: they need a perfect four-chamber view"
+      - "Only with colour Doppler"
+      - "Only in the third trimester"
+    answer: 0
+    explanation: "Cardiac axis and position can be evaluated even when the four-chamber view itself is not seen satisfactorily."
+    claims: [IS23-029]
+
+  - id: D3-Q08
+    question: "An abnormal cardiac axis raises the risk of what in particular?"
+    options:
+      - "A cardiac malformation, especially of the outflow tracts"
+      - "Benign ectopic beats"
+      - "A normal variant of the third trimester"
+      - "A technical artefact"
+    answer: 0
+    explanation: "An abnormal axis increases the risk of a cardiac malformation, especially of the outflow tracts, and may be associated with a chromosomal anomaly."
+    claims: [IS23-031]
+
+checklist:
+  title: "Plane I checklist"
+  items:
+    - text: "Fetal left and right established from the position of the fetus"
+      claims: [IS23-021]
+    - text: "Stomach on the fetal left"
+      claims: [IS23-024]
+    - text: "Descending aorta left of the spine; inferior vena cava right of the spine"
+      claims: [IS23-024]
+    - text: "Heart mainly in the left chest; axis about 45 degrees to the left (plus or minus 20)"
+      claims: [IS23-028]
+    - text: "Heart or stomach not on the left: situs abnormality suspected"
+      claims: [IS23-030]
+    - text: "Laterality and orientation labelled on stored images where appropriate"
+      claims: [IS23-017]
+
+video:
+  title: "Left, right and situs"
+  target_minutes: 5
+  beats:
+    - shot: "Presenter with a fetal model in a uterus outline"
+      narration: "Before you say where anything is, work out which side of this fetus is left and which is right, from how it is lying."
+      claims: [IS23-021]
+    - shot: "Split screen: probe on abdomen / upper-abdomen clip with labels"
+      narration: "Abdominal circumference level. Stomach on the left. Aorta left of the spine. Vena cava right of the spine."
+      claims: [IS23-024]
+    - shot: "Sweep clip from abdomen to four-chamber view"
+      narration: "Slide towards the head. The heart appears on the same side as the stomach, pointing left at about forty-five degrees."
+      claims: [IS23-022, IS23-028]
+    - shot: "Diagram: stomach and heart on opposite sides"
+      narration: "If the heart or the stomach is not on the left, suspect a situs abnormality."
+      claims: [IS23-030]
+    - shot: "Diagram: heart displaced by a mass in the chest"
+      narration: "A heart pushed out of place is different. Look beside it: a hernia, a lung mass, a small lung."
+      claims: [IS23-032]

@@ -1,0 +1,263 @@
+# Unit D6. Every text block and drill lists the claim IDs it rests on.
+# IS23 claims: ISUOG screening guideline. AS23 claims: ASE fetal echocardiography guideline.
+
+id: D6
+title: "Three-vessel and three-vessel-and-trachea views"
+tier: Detect
+version: 0.1
+summary: "The two highest planes of the sweep: which vessels, in what order and size, where the arches lie against the trachea, and what goes wrong here."
+drafted_by: "Claude (16 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "Assess the three-vessel view for number, size, alignment and arrangement."
+  - "Describe the normal three-vessel-and-trachea view: the V, its side, and the trachea."
+  - "Name the lesions these two views help to detect."
+  - "Explain how a finding here changes what happens next."
+
+sections:
+
+  - heading: "A continuum, not two pictures"
+    blocks:
+      - text: "The axial appearances of the right outflow tract, the branch pulmonary arteries and the ductal and aortic arches form a continuum of views. What you see varies with the orientation of the transducer and the lie of the fetus."
+        claims: [IS23-063]
+      - text: "Assessment is likely to be more reliable live or on cine-loop than from still images alone."
+        claims: [IS23-063]
+
+  - heading: "The three-vessel view"
+    blocks:
+      - text: "Assess four things: the number of vessels, their size, their alignment and their arrangement."
+        claims: [IS23-066]
+      - text: "From left to right the vessels are the pulmonary artery, the aorta and the right superior vena cava. The pulmonary artery is the most anterior and the vena cava the most posterior. The diameters decrease from left to right."
+        claims: [IS23-066]
+        table:
+          columns: ["Vessel", "Side", "Front to back", "Size"]
+          rows:
+            - ["Pulmonary artery", "Left", "Most anterior", "Largest"]
+            - ["Aorta", "Middle", "Middle", "Middle"]
+            - ["Superior vena cava", "Right", "Most posterior", "Smallest"]
+      - text: "The pulmonary artery is usually slightly larger than the ascending aorta in fetal life. The superior vena cava lies to the right of the aorta."
+        claims: [IS23-065]
+
+  - heading: "The three-vessel-and-trachea view"
+    blocks:
+      - text: "This is a slightly oblique transverse plane, towards the head from the three-vessel view. It shows the main pulmonary artery continuing into the ductus arteriosus, with the transverse aortic arch just to its right."
+        claims: [IS23-068]
+      - text: "The trachea appears as a bright ring around a small fluid-filled space."
+        claims: [IS23-068]
+      - text: "Normally the ductus arteriosus and the aortic arch both run to the left of the trachea and meet at an acute angle, forming a V. The right superior vena cava and the thymus are also seen in this plane."
+        claims: [IS23-069]
+      - text: "The screening checklist asks for two things here: the V-sign, with both arches to the left of the trachea, and ductal and aortic arches of similar size."
+        claims: [IS23-096]
+      - text: "The thymus appears as a relatively dark area between the great vessels and the front of the chest."
+        claims: [IS23-100]
+      - text: "The aortic arch lies slightly nearer the head than the ductal arch, so showing both together may need a small adjustment away from a true axial plane."
+        claims: [IS23-070]
+
+  - heading: "Adding colour"
+    blocks:
+      - text: "Colour helps to show the V-sign and can highlight reversed flow in the ductus arteriosus or the aortic arch."
+        claims: [IS23-074]
+
+  - heading: "What these views detect"
+    blocks:
+      - text: "The two views help to detect anomalies of the outflow tracts, the aortic arch and the systemic veins, including a persistent left superior vena cava, and anomalies of the thymus."
+        claims: [IS23-053]
+      - text: "The three-vessel-and-trachea view is particularly useful for abnormalities of the aortic arch such as coarctation, vascular rings and an aberrant right subclavian artery. It is likely to enable detection of coarctation, right aortic arch and double aortic arch."
+        claims: [IS23-054, IS23-071]
+      - text: "Complete transposition, tetralogy of Fallot, double-outlet right ventricle, common arterial trunk and pulmonary atresia with a ventricular septal defect can have a four-chamber view that looks normal. They are typically abnormal in the three-vessel view."
+        claims: [IS23-067]
+        table:
+          columns: ["Check", "Normal", "Question to ask if not"]
+          rows:
+            - ["Number", "Three vessels", "Is there a fourth vessel, or only two?"]
+            - ["Size", "Decreasing from left to right; arches similar in size", "Is one great artery or one arch much smaller?"]
+            - ["Alignment and arrangement", "Pulmonary artery, aorta, vena cava in a line from left-front to right-back", "Is the order or the line wrong?"]
+            - ["Side of the arches", "Both left of the trachea, meeting in a V", "Does an arch pass to the right of the trachea, or on both sides?"]
+
+  - heading: "Why a finding here matters"
+    blocks:
+      - text: "Anomalies found on the three-vessel views can change counselling and management. Examples: testing for 22q11 microdeletion; planning where delivery takes place, as in complete transposition; being ready to give prostaglandin; being ready for airway problems from vascular compression."
+        claims: [IS23-072]
+      - text: "A fetus with a suspected abnormality on screening is a candidate for fetal echocardiography."
+        claims: [IS23-078]
+
+  - heading: "What the fetal echocardiogram adds"
+    blocks:
+      - kind: framing
+        text: "These points are from the echocardiography guideline. They describe the specialist examination, not the screen."
+      - text: "In the three-vessel view, abnormalities of vessel number, size, alignment or arrangement should be recorded."
+        claims: [AS23-056]
+      - text: "In the normal three-vessel-and-trachea view the two arches join the descending aorta on the left of the trachea. Colour Doppler should demonstrate patency and direction of flow in both arches."
+        claims: [AS23-057, AS23-058]
+      - text: "The side of each arch relative to the trachea should be documented at every fetal echocardiogram."
+        claims: [AS23-100]
+      - text: "Colour and power Doppler in the three-vessel-and-trachea view can help to identify an aberrant subclavian artery."
+        claims: [AS23-101]
+
+missing_claims:
+  - "What each abnormal pattern looks like (four vessels with a left superior vena cava, U-shaped ring of a right arch with left duct, small aortic arch of coarctation) - the table above only poses the questions; the answers need a source and belong to the lesion atlas."
+  - "Normal size ratios of the vessels and arches by gestation - planned for XA6; needs a source."
+  - "How to recognise a small or absent thymus - needs a source."
+  - "The third table column ('question to ask if not') is the drafter's wording of the four checks, not a guideline statement - the editor to confirm or replace."
+
+drills:
+  - id: D6-Q01
+    question: "What are the four things assessed in the three-vessel view?"
+    options:
+      - "Number, size, alignment and arrangement of the vessels"
+      - "Rate, rhythm, axis and size of the heart"
+      - "Colour, power, pulsed-wave and continuous-wave Doppler"
+      - "Atria, ventricles, septum and valves"
+    answer: 0
+    explanation: "The three-vessel view is assessed for vessel number, size, alignment and arrangement."
+    claims: [IS23-066]
+
+  - id: D6-Q02
+    question: "From fetal left to right, what is the normal order of the three vessels?"
+    options:
+      - "Pulmonary artery, aorta, superior vena cava"
+      - "Aorta, pulmonary artery, superior vena cava"
+      - "Superior vena cava, aorta, pulmonary artery"
+      - "Pulmonary artery, superior vena cava, aorta"
+    answer: 0
+    explanation: "From left to right: pulmonary artery, aorta, right superior vena cava."
+    claims: [IS23-066]
+
+  - id: D6-Q03
+    question: "How do the vessel diameters normally compare in the three-vessel view?"
+    options:
+      - "They decrease from left to right"
+      - "They increase from left to right"
+      - "All three are equal"
+      - "The vena cava is the largest"
+    answer: 0
+    explanation: "Diameters decrease from left to right: pulmonary artery largest, superior vena cava smallest."
+    claims: [IS23-066]
+
+  - id: D6-Q04
+    question: "In the normal three-vessel-and-trachea view, where do the two arches lie?"
+    options:
+      - "Both to the left of the trachea, meeting in a V"
+      - "One on each side of the trachea"
+      - "Both to the right of the trachea"
+      - "In front of the trachea, running parallel"
+    answer: 0
+    explanation: "The ductus arteriosus and aortic arch both run to the left of the trachea and meet at an acute angle (V shape)."
+    claims: [IS23-069]
+
+  - id: D6-Q05
+    question: "How is the trachea recognised in this plane?"
+    options:
+      - "A bright ring around a small fluid-filled space"
+      - "A solid bright dot"
+      - "A large dark circle bigger than the aorta"
+      - "It cannot be seen on ultrasound"
+    answer: 0
+    explanation: "The trachea appears as a bright ring around a small fluid-filled space."
+    claims: [IS23-068]
+
+  - id: D6-Q06
+    question: "Besides the V-sign, what does the screening checklist ask for at the three-vessel-and-trachea view?"
+    options:
+      - "Ductal and aortic arches of similar size"
+      - "An aortic arch twice the size of the ductal arch"
+      - "Four vessels in a row"
+      - "Pulsed-wave Doppler of both arches"
+    answer: 0
+    explanation: "The checklist asks for the V-sign with both arches left of the trachea, and arches of similar size."
+    claims: [IS23-096]
+
+  - id: D6-Q07
+    question: "For which group of abnormalities is the three-vessel-and-trachea view particularly useful?"
+    options:
+      - "Aortic arch abnormalities such as coarctation and vascular rings"
+      - "Atrioventricular valve offset"
+      - "Abdominal situs"
+      - "Pericardial effusion"
+    answer: 0
+    explanation: "It is particularly useful for arch abnormalities such as coarctation, vascular rings and aberrant right subclavian artery."
+    claims: [IS23-054]
+
+  - id: D6-Q08
+    question: "Which venous anomaly do the three-vessel views help to detect?"
+    options:
+      - "Persistent left superior vena cava"
+      - "Absent ductus venosus"
+      - "Umbilical vein varix"
+      - "Hepatic vein thrombosis"
+    answer: 0
+    explanation: "These views help detect anomalies of the systemic veins, including persistent left superior vena cava."
+    claims: [IS23-053]
+
+  - id: D6-Q09
+    question: "The four-chamber view is normal. In complete transposition, which view is typically abnormal?"
+    options:
+      - "The three-vessel view"
+      - "The upper-abdomen view"
+      - "None of the axial views"
+      - "Only the sagittal views"
+    answer: 0
+    explanation: "Lesions such as complete transposition can have a seemingly normal four-chamber view but are typically abnormal in the three-vessel view."
+    claims: [IS23-067]
+
+  - id: D6-Q10
+    question: "An anomaly is found on the three-vessel-and-trachea view. Which of these is an example of how that can change management?"
+    options:
+      - "It can prompt testing for 22q11 microdeletion"
+      - "It removes the need for fetal echocardiography"
+      - "It means the anomaly scan need not be completed"
+      - "It has no effect on counselling"
+    answer: 0
+    explanation: "Findings on the three-vessel views can prompt 22q11 testing, change the planned place of delivery, and prepare the team for prostaglandin or airway problems."
+    claims: [IS23-072]
+
+  - id: D6-Q11
+    question: "Both arches cannot be shown in one true axial plane. Why might that be?"
+    options:
+      - "The aortic arch lies slightly nearer the head than the ductal arch"
+      - "One arch must be absent"
+      - "The trachea hides the aortic arch"
+      - "The arches are only visible in the third trimester"
+    answer: 0
+    explanation: "The aortic arch is more cranial than the ductal arch, so showing both together may need a slight adjustment away from a true axial plane."
+    claims: [IS23-070]
+
+checklist:
+  title: "Three-vessel views checklist"
+  items:
+    - text: "Three vessels: pulmonary artery, aorta, superior vena cava, from left to right"
+      claims: [IS23-066]
+    - text: "Sizes decrease from left to right"
+      claims: [IS23-066]
+    - text: "Vessels in line, pulmonary artery most anterior, vena cava most posterior"
+      claims: [IS23-066]
+    - text: "Three-vessel-and-trachea view: ductal and aortic arches meet in a V"
+      claims: [IS23-069]
+    - text: "Both arches to the left of the trachea"
+      claims: [IS23-069, IS23-096]
+    - text: "Arches similar in size"
+      claims: [IS23-096]
+    - text: "Clip of these views stored"
+      claims: [IS23-063, IS23-017]
+
+video:
+  title: "Three vessels, then the V"
+  target_minutes: 6
+  beats:
+    - shot: "Sweep clip from RVOT up to the three-vessel view"
+      narration: "Keep sweeping towards the head. Three vessels come into line."
+      claims: [IS23-055]
+    - shot: "Three-vessel clip, vessels labelled one by one"
+      narration: "Pulmonary artery, aorta, vena cava. Left to right, front to back, large to small."
+      claims: [IS23-066]
+    - shot: "Three-vessel-and-trachea clip with trachea ringed"
+      narration: "A little higher. Find the trachea: a bright ring. Both arches pass to its left and meet in a V."
+      claims: [IS23-068, IS23-069]
+    - shot: "Same view in colour"
+      narration: "Colour makes the V easier to see, and can show flow going the wrong way in an arch."
+      claims: [IS23-074]
+    - shot: "Presenter"
+      narration: "Number, size, alignment, arrangement. Then the V and its side. This is where arch problems and several outflow lesions show."
+      claims: [IS23-066, IS23-054, IS23-067]

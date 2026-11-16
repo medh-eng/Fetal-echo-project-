@@ -1,0 +1,183 @@
+{
+  "unit": "D6",
+  "title": "Three-vessel and three-vessel-and-trachea views",
+  "status": "ai-extracted",
+  "items": [
+    {
+      "id": "D6-Q01",
+      "question": "What are the four things assessed in the three-vessel view?",
+      "options": [
+        "Number, size, alignment and arrangement of the vessels",
+        "Rate, rhythm, axis and size of the heart",
+        "Colour, power, pulsed-wave and continuous-wave Doppler",
+        "Atria, ventricles, septum and valves"
+      ],
+      "answer": 0,
+      "explanation": "The three-vessel view is assessed for vessel number, size, alignment and arrangement.",
+      "claims": [
+        "IS23-066"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D6-Q02",
+      "question": "From fetal left to right, what is the normal order of the three vessels?",
+      "options": [
+        "Pulmonary artery, aorta, superior vena cava",
+        "Aorta, pulmonary artery, superior vena cava",
+        "Superior vena cava, aorta, pulmonary artery",
+        "Pulmonary artery, superior vena cava, aorta"
+      ],
+      "answer": 0,
+      "explanation": "From left to right: pulmonary artery, aorta, right superior vena cava.",
+      "claims": [
+        "IS23-066"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D6-Q03",
+      "question": "How do the vessel diameters normally compare in the three-vessel view?",
+      "options": [
+        "They decrease from left to right",
+        "They increase from left to right",
+        "All three are equal",
+        "The vena cava is the largest"
+      ],
+      "answer": 0,
+      "explanation": "Diameters decrease from left to right: pulmonary artery largest, superior vena cava smallest.",
+      "claims": [
+        "IS23-066"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D6-Q04",
+      "question": "In the normal three-vessel-and-trachea view, where do the two arches lie?",
+      "options": [
+        "Both to the left of the trachea, meeting in a V",
+        "One on each side of the trachea",
+        "Both to the right of the trachea",
+        "In front of the trachea, running parallel"
+      ],
+      "answer": 0,
+      "explanation": "The ductus arteriosus and aortic arch both run to the left of the trachea and meet at an acute angle (V shape).",
+      "claims": [
+        "IS23-069"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D6-Q05",
+      "question": "How is the trachea recognised in this plane?",
+      "options": [
+        "A bright ring around a small fluid-filled space",
+        "A solid bright dot",
+        "A large dark circle bigger than the aorta",
+        "It cannot be seen on ultrasound"
+      ],
+      "answer": 0,
+      "explanation": "The trachea appears as a bright ring around a small fluid-filled space.",
+      "claims": [
+        "IS23-068"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D6-Q06",
+      "question": "Besides the V-sign, what does the screening checklist ask for at the three-vessel-and-trachea view?",
+      "options": [
+        "Ductal and aortic arches of similar size",
+        "An aortic arch twice the size of the ductal arch",
+        "Four vessels in a row",
+        "Pulsed-wave Doppler of both arches"
+      ],
+      "answer": 0,
+      "explanation": "The checklist asks for the V-sign with both arches left of the trachea, and arches of similar size.",
+      "claims": [
+        "IS23-096"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D6-Q07",
+      "question": "For which group of abnormalities is the three-vessel-and-trachea view particularly useful?",
+      "options": [
+        "Aortic arch abnormalities such as coarctation and vascular rings",
+        "Atrioventricular valve offset",
+        "Abdominal situs",
+        "Pericardial effusion"
+      ],
+      "answer": 0,
+      "explanation": "It is particularly useful for arch abnormalities such as coarctation, vascular rings and aberrant right subclavian artery.",
+      "claims": [
+        "IS23-054"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D6-Q08",
+      "question": "Which venous anomaly do the three-vessel views help to detect?",
+      "options": [
+        "Persistent left superior vena cava",
+        "Absent ductus venosus",
+        "Umbilical vein varix",
+        "Hepatic vein thrombosis"
+      ],
+      "answer": 0,
+      "explanation": "These views help detect anomalies of the systemic veins, including persistent left superior vena cava.",
+      "claims": [
+        "IS23-053"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "D6-Q09",
+      "question": "The four-chamber view is normal. In complete transposition, which view is typically abnormal?",
+      "options": [
+        "The three-vessel view",
+        "The upper-abdomen view",
+        "None of the axial views",
+        "Only the sagittal views"
+      ],
+      "answer": 0,
+      "explanation": "Lesions such as complete transposition can have a seemingly normal four-chamber view but are typically abnormal in the three-vessel view.",
+      "claims": [
+        "IS23-067"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D6-Q10",
+      "question": "An anomaly is found on the three-vessel-and-trachea view. Which of these is an example of how that can change management?",
+      "options": [
+        "It can prompt testing for 22q11 microdeletion",
+        "It removes the need for fetal echocardiography",
+        "It means the anomaly scan need not be completed",
+        "It has no effect on counselling"
+      ],
+      "answer": 0,
+      "explanation": "Findings on the three-vessel views can prompt 22q11 testing, change the planned place of delivery, and prepare the team for prostaglandin or airway problems.",
+      "claims": [
+        "IS23-072"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "D6-Q11",
+      "question": "Both arches cannot be shown in one true axial plane. Why might that be?",
+      "options": [
+        "The aortic arch lies slightly nearer the head than the ductal arch",
+        "One arch must be absent",
+        "The trachea hides the aortic arch",
+        "The arches are only visible in the third trimester"
+      ],
+      "answer": 0,
+      "explanation": "The aortic arch is more cranial than the ductal arch, so showing both together may need a slight adjustment away from a true axial plane.",
+      "claims": [
+        "IS23-070"
+      ],
+      "status": "ai-cross-checked"
+    }
+  ]
+}

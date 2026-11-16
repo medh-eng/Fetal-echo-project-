@@ -1,0 +1,330 @@
+# Unit XA5. Every text block and drill lists the claim IDs it rests on.
+# AS23 claims: ASE fetal echocardiography guideline. Most were extracted by ChatGPT on
+# 16 Nov 2026 and are not yet cross-checked against the PDF.
+# Diagnose tier. This unit needs review by a cardiology co-editor before release.
+
+id: XA5
+title: "The complete fetal echocardiogram"
+tier: Diagnose
+version: 0.1
+summary: "What a full fetal echocardiogram contains: when it is done and by whom, each view and what it must show, required measurements and Doppler, and when the study counts as complete."
+drafted_by: "Claude (16 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "State when a fetal echocardiogram is done and how follow-up is timed."
+  - "List the views of a complete study and what each must show."
+  - "Separate required from optional elements for imaging, measurement and Doppler."
+  - "Say what makes a study complete, and what to report when it is not."
+
+sections:
+
+  - heading: "Screening scan and fetal echocardiogram"
+    blocks:
+      - kind: framing
+        text: "The Detect units teach the screening scan: five planes on every pregnancy. This unit describes the examination that follows a referral. It is longer, uses Doppler throughout, and is done by a specialist."
+      - text: "The guideline endorses limiting the performance and supervision of fetal echocardiograms to appropriately trained or experienced paediatric cardiologists, maternal-fetal medicine specialists, obstetricians or radiologists with fetal echocardiography skills."
+        claims: [AS23-111]
+      - text: "Two-dimensional imaging, colour Doppler and spectral Doppler should all be used, with settings optimised for the fetal heart."
+        claims: [AS23-001]
+
+  - heading: "Timing and follow-up"
+    blocks:
+      - text: "The optimal window for a comprehensive transabdominal fetal echocardiogram is 18 to 22 weeks."
+        claims: [AS23-034]
+      - text: "A normal mid-trimester fetal echocardiogram generally needs no follow-up, unless there is concern for a progressive lesion. Where one is suspected, repeat assessment is recommended at intervals of up to 2 to 4 weeks."
+        claims: [AS23-037, AS23-038]
+      - text: "An abnormal heart is usually reassessed every 2 to 8 weeks until about 34 to 36 weeks, the interval depending on the lesion and the clinical concerns. Near term, reassessment targets findings that could change care immediately after birth."
+        claims: [AS23-035, AS23-036]
+      - text: "The fetal cardiology and obstetric teams should decide the follow-up interval together."
+        claims: [AS23-039]
+
+  - heading: "Start with a survey"
+    blocks:
+      - text: "In the initial survey, look for fluid around the heart, in the pleural spaces and in the abdomen, and record whether it is present."
+        claims: [AS23-118]
+      - text: "Assign abdominal situs from an upper abdominal cross-section showing the stomach, liver, descending aorta and systemic veins, in the fetus's established orientation. Two-dimensional imaging is required for visceral and atrial situs; colour is optional."
+        claims: [AS23-041, AS23-042]
+
+  - heading: "Four-chamber view"
+    blocks:
+      - text: "Examine the four-chamber view in at least two perpendicular planes, to allow for the way the beam meets different structures."
+        claims: [AS23-045]
+      - text: "What the guideline requires in and around the four-chamber view."
+        claims: [AS23-043, AS23-044, AS23-046, AS23-047, AS23-048, AS23-049, AS23-050, AS23-051]
+        table:
+          columns: ["Element", "Required", "Optional"]
+          rows:
+            - ["Cardiac axis", "Assessed on two-dimensional imaging", "Measuring the angle"]
+            - ["Cardiac size", "Measured cardiac-to-thoracic area ratio", "-"]
+            - ["Systemic venous connections", "Two-dimensional and colour imaging", "-"]
+            - ["Pulmonary venous connections", "At least one vein from each side, two-dimensional and colour", "Further veins from either lung"]
+            - ["Atrioventricular connections", "Two-dimensional and colour imaging", "-"]
+            - ["Ventricular septum", "Two-dimensional and colour imaging, locating any defect", "-"]
+            - ["Ventricles", "Relative size assessed on two-dimensional imaging", "Maximum length and width"]
+
+  - heading: "Outflow tracts"
+    blocks:
+      - text: "The normal left ventricular outflow view shows the outflow below the aortic valve, the valve itself, the region above it and the ascending aorta."
+        claims: [AS23-052]
+      - text: "The normal right ventricular outflow view shows the tract below the pulmonary valve, the valve and the proximal pulmonary trunk. The bifurcation may come into this plane."
+        claims: [AS23-053]
+      - text: "The origins of the right and left pulmonary arteries at the bifurcation require two-dimensional and colour imaging. Measuring their diameters is optional."
+        claims: [AS23-054]
+
+  - heading: "Three-vessel views"
+    blocks:
+      - text: "In the normal three-vessel view the pulmonary trunk, ascending aorta and superior vena cava appear in that order from fetal left to right. Record any abnormality of vessel number, size, alignment or arrangement."
+        claims: [AS23-055, AS23-056]
+      - text: "In the normal three-vessel-and-trachea view the two arches join the descending aorta on the left of the trachea. Colour Doppler should show that both arches are patent, and the direction of flow in each."
+        claims: [AS23-057, AS23-058]
+      - text: "The side of each arch relative to the trachea should be documented at every fetal echocardiogram."
+        claims: [AS23-100]
+
+  - heading: "Sagittal views"
+    blocks:
+      - text: "Bicaval view: establishes whether the inferior vena cava is continuous, and whether the superior and inferior venae cavae lie on the same side."
+        claims: [AS23-059, AS23-060]
+      - text: "Aortic arch, long axis: establish continuity from the ascending to the descending aorta, and assess the ascending aorta, transverse arch and isthmus for hypoplasia."
+        claims: [AS23-061, AS23-062]
+      - text: "Ductal arch, long axis: a sagittal plane just to the left of the fetal midline usually shows it. To assess ductal restriction, evaluate systolic and diastolic velocities at both the pulmonary and the aortic end, with colour or spectral Doppler or both."
+        claims: [AS23-064, AS23-065]
+      - text: "Measuring the ductus and the aortic isthmus is optional in the standard assessment of arch size and shape."
+        claims: [AS23-063]
+
+  - heading: "Short-axis views"
+    blocks:
+      - text: "A high short-axis view shows the aortic valve face-on, with the right ventricular outflow and pulmonary artery wrapping in front of it."
+        claims: [AS23-066]
+      - text: "A low short-axis view can show muscular ventricular septal defects when colour Doppler is added."
+        claims: [AS23-067]
+
+  - heading: "Measurements"
+    blocks:
+      - text: "The mitral and tricuspid annular diameters are required measurements, taken in early diastole. The aortic and pulmonary valve annuli must also be measured."
+        claims: [AS23-068, AS23-069]
+      - text: "The guideline is not consistent on when in the cycle the aortic and pulmonary annuli are measured: its text and a table footnote specify systole, while the table row allows end-diastole or early systole. This course does not yet teach one reading as the rule."
+        claims: [AS23-069]
+
+  - heading: "Pulsed-wave Doppler"
+    blocks:
+      - text: "The guideline's table lists as required: umbilical vein, ductus venosus, at least one pulmonary vein on each side, tricuspid and mitral inflow, aortic and pulmonary outflow, the distal ductus arteriosus and the umbilical artery."
+        claims: [AS23-013]
+      - text: "The table marks as optional: hepatic vein, the venae cavae, branch pulmonary arteries, middle cerebral artery, a combined left ventricular inflow and outflow recording, and tissue Doppler at the lateral annulus. Whether the aortic arch and isthmus are required or optional is not settled within the guideline."
+        claims: [AS23-014]
+
+  - heading: "Rhythm and function"
+    blocks:
+      - text: "Every fetal echocardiogram must document heart rate and rhythm, and must include a qualitative assessment of systolic and diastolic function."
+        claims: [AS23-073, AS23-087]
+      - text: "When findings raise concern about cardiac function or output, a quantitative assessment should be performed. The first step in suspected dysfunction is to look for features of hydrops: ascites, pleural or pericardial fluid, and skin oedema."
+        claims: [AS23-088, AS23-089]
+      - text: "Regurgitation through an atrioventricular valve on Doppler may indicate systolic dysfunction."
+        claims: [AS23-090]
+
+  - heading: "When is the study complete?"
+    blocks:
+      - text: "If a standard view cannot be obtained, the study is complete only if all the cardiovascular structures have been adequately seen by another approach, or are anatomically absent."
+        claims: [AS23-040]
+      - text: "If the study remains non-diagnostic after optimisation, the report should state the limitations."
+        claims: [AS23-117]
+      - text: "The study should include still images, moving clips and a structured report."
+        claims: [AS23-008]
+
+missing_claims:
+  - "The segmental sequence itself (situs, atrioventricular connection, ventriculo-arterial connection) explained as a method - needs a source and the cardiology co-editor."
+  - "Normal values and Z-scores for every measurement named here - planned for XA6; needs sources."
+  - "Timing in the cycle for aortic and pulmonary annulus measurement - the guideline is inconsistent (note on claim AS23-069); the editor or co-editor to decide."
+  - "Arch and isthmus as required or optional pulsed-wave sites - open (question Q1)."
+  - "ISUOG fetal echocardiography guideline and AIUM practice parameter - not yet harvested; compare with ASE before release."
+  - "This unit's ASE claims were extracted by ChatGPT and are not yet cross-checked against the PDF."
+
+drills:
+  - id: XA5-Q01
+    question: "What is the optimal window for a comprehensive transabdominal fetal echocardiogram?"
+    options:
+      - "18 to 22 weeks"
+      - "11 to 14 weeks"
+      - "26 to 30 weeks"
+      - "34 to 36 weeks"
+    answer: 0
+    explanation: "The optimal window is 18 to 22 weeks."
+    claims: [AS23-034]
+
+  - id: XA5-Q02
+    question: "A mid-trimester fetal echocardiogram is normal and no progressive lesion is suspected. What follow-up does the guideline generally call for?"
+    options:
+      - "None"
+      - "Repeat every 2 weeks until delivery"
+      - "Repeat at 34 to 36 weeks in every case"
+      - "Repeat within 1 week"
+    answer: 0
+    explanation: "A normal mid-trimester fetal echocardiogram generally needs no follow-up unless there is concern for a progressive lesion."
+    claims: [AS23-037]
+
+  - id: XA5-Q03
+    question: "How often is an abnormal fetal heart usually reassessed?"
+    options:
+      - "Every 2 to 8 weeks until about 34 to 36 weeks, depending on the lesion"
+      - "Once only, at diagnosis"
+      - "Every day"
+      - "Only after birth"
+    answer: 0
+    explanation: "An abnormal heart is usually reassessed every 2 to 8 weeks until about 34 to 36 weeks, guided by the lesion and clinical concerns."
+    claims: [AS23-035]
+
+  - id: XA5-Q04
+    question: "For pulmonary venous connections, what must a complete study show?"
+    options:
+      - "At least one vein from each side, on two-dimensional and colour imaging"
+      - "All four veins on pulsed-wave Doppler"
+      - "One vein on either side, on grey-scale only"
+      - "Nothing; pulmonary veins are optional"
+    answer: 0
+    explanation: "The four-chamber assessment must show pulmonary venous connections from at least one vein on each side using two-dimensional and colour imaging; further veins are optional."
+    claims: [AS23-047, AS23-048]
+
+  - id: XA5-Q05
+    question: "For the cardiac axis, what is required and what is optional?"
+    options:
+      - "Assessing the axis is required; measuring the angle is optional"
+      - "Measuring the angle is required; assessing by eye is optional"
+      - "Both are optional"
+      - "The axis is assessed only with colour Doppler"
+    answer: 0
+    explanation: "The cardiac axis must be assessed in two dimensions; measuring the angle is optional."
+    claims: [AS23-043]
+
+  - id: XA5-Q06
+    question: "Which measurement of heart size does a complete study require?"
+    options:
+      - "A measured cardiac-to-thoracic area ratio"
+      - "Heart weight"
+      - "Cardiac length only"
+      - "None; size is judged by eye only"
+    answer: 0
+    explanation: "A complete study requires a measured cardiac-to-thoracic area ratio."
+    claims: [AS23-044]
+
+  - id: XA5-Q07
+    question: "Which view establishes whether the inferior vena cava is continuous?"
+    options:
+      - "The sagittal bicaval view"
+      - "The three-vessel view"
+      - "The left outflow-tract view"
+      - "The high short-axis view"
+    answer: 0
+    explanation: "The sagittal bicaval view establishes whether the inferior vena cava is continuous and whether both venae cavae lie on the same side."
+    claims: [AS23-059, AS23-060]
+
+  - id: XA5-Q08
+    question: "What should colour Doppler demonstrate in the three-vessel-and-trachea view?"
+    options:
+      - "Patency and direction of flow in both arches"
+      - "The peak velocity in the aortic arch"
+      - "Flow in the pulmonary veins"
+      - "The mechanical PR interval"
+    answer: 0
+    explanation: "Colour Doppler should demonstrate patency and flow direction in both arches."
+    claims: [AS23-058]
+
+  - id: XA5-Q09
+    question: "A standard view cannot be obtained. When can the study still count as complete?"
+    options:
+      - "When every cardiovascular structure has been adequately seen by another approach, or is anatomically absent"
+      - "When at least half the views were obtained"
+      - "When the four-chamber view was normal"
+      - "Never"
+    answer: 0
+    explanation: "The study is complete only if all cardiovascular structures are adequately seen by another approach or are anatomically absent."
+    claims: [AS23-040]
+
+  - id: XA5-Q10
+    question: "The study is still non-diagnostic after every adjustment. What should the report do?"
+    options:
+      - "State the limitations"
+      - "Describe the heart as normal"
+      - "Leave out the views not seen without comment"
+      - "Describe the heart as abnormal"
+    answer: 0
+    explanation: "If the study remains non-diagnostic after optimisation, the report should identify the limitations."
+    claims: [AS23-117]
+
+  - id: XA5-Q11
+    question: "Which two assessments must every fetal echocardiogram include, beyond anatomy?"
+    options:
+      - "Heart rate and rhythm, and a qualitative assessment of systolic and diastolic function"
+      - "Strain imaging and STIC"
+      - "Middle cerebral artery Doppler and cervical length"
+      - "Myocardial performance index and cardiovascular profile score"
+    answer: 0
+    explanation: "Every study must document rate and rhythm and include a qualitative assessment of systolic and diastolic function."
+    claims: [AS23-073, AS23-087]
+
+  - id: XA5-Q12
+    question: "Which view, with colour Doppler added, can show muscular ventricular septal defects?"
+    options:
+      - "The low short-axis view"
+      - "The bicaval view"
+      - "The upper-abdomen view"
+      - "The ductal arch view"
+    answer: 0
+    explanation: "The low short-axis view can show muscular ventricular septal defects when colour Doppler is added."
+    claims: [AS23-067]
+
+checklist:
+  title: "Complete fetal echocardiogram: views"
+  items:
+    - text: "Survey for fluid around the heart, in the pleural spaces and in the abdomen"
+      claims: [AS23-118]
+    - text: "Abdominal situs: stomach, liver, descending aorta, systemic veins"
+      claims: [AS23-041]
+    - text: "Four-chamber view in at least two perpendicular planes; axis; cardiac-to-thoracic area ratio"
+      claims: [AS23-045, AS23-043, AS23-044]
+    - text: "Systemic and pulmonary venous connections, two-dimensional and colour (at least one pulmonary vein each side)"
+      claims: [AS23-046, AS23-047]
+    - text: "Atrioventricular connections and ventricular septum, two-dimensional and colour"
+      claims: [AS23-049, AS23-050]
+    - text: "Left and right outflow tracts; branch pulmonary artery origins"
+      claims: [AS23-052, AS23-053, AS23-054]
+    - text: "Three-vessel view; three-vessel-and-trachea view with colour; side of each arch documented"
+      claims: [AS23-056, AS23-058, AS23-100]
+    - text: "Bicaval, aortic arch and ductal arch sagittal views"
+      claims: [AS23-059, AS23-061, AS23-064]
+    - text: "Short-axis views"
+      claims: [AS23-066, AS23-067]
+    - text: "Four valve annuli measured"
+      claims: [AS23-068, AS23-069]
+    - text: "Pulsed-wave Doppler at the required sites"
+      claims: [AS23-013]
+    - text: "Rate, rhythm and qualitative function documented"
+      claims: [AS23-073, AS23-087]
+    - text: "Stills, clips and structured report; limitations stated if any"
+      claims: [AS23-008, AS23-117]
+
+video:
+  title: "A complete fetal echocardiogram, view by view"
+  target_minutes: 10
+  beats:
+    - shot: "Presenter to camera"
+      narration: "The screen asks one question: normal or not. The echocardiogram asks what exactly, and what next."
+      claims: []
+    - shot: "Upper-abdomen clip, then sweep to the chest"
+      narration: "Survey first. Any fluid around the heart, in the chest, in the abdomen. Then situs: stomach, liver, aorta, veins."
+      claims: [AS23-118, AS23-041]
+    - shot: "Four-chamber clips, apical and lateral, grey-scale and colour"
+      narration: "Four chambers from at least two directions. Axis and size. Veins into both atria. Both valves. The septum, in grey-scale and in colour."
+      claims: [AS23-045, AS23-046, AS23-047, AS23-049, AS23-050]
+    - shot: "Outflow tract clips"
+      narration: "Left outflow: below the valve, the valve, above it, the ascending aorta. Right outflow: below the valve, the valve, the trunk, the branches."
+      claims: [AS23-052, AS23-053, AS23-054]
+    - shot: "Three-vessel-and-trachea clip in colour"
+      narration: "Three vessels. Then the arches against the trachea, with colour: both open, and which way each flows."
+      claims: [AS23-056, AS23-058]
+    - shot: "Sagittal clips: bicaval, aortic arch, ductal arch"
+      narration: "Turn to the long axis. Both venae cavae. The aortic arch, continuous and not narrow. The ductal arch."
+      claims: [AS23-059, AS23-061, AS23-062, AS23-064]
+    - shot: "Screen: report template"
+      narration: "Rate, rhythm and function in every study. And if something could not be seen, the report says so."
+      claims: [AS23-073, AS23-087, AS23-117]

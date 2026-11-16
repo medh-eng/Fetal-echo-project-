@@ -42,13 +42,25 @@ def build(units, claims):
         for cid in used(u):
             if claims[cid]["status"] != "expert-verified":
                 where.setdefault(cid, []).append(u["id"])
-    flagged = [c for c in sorted(where) if claims[c].get("note")]
-    plain = [c for c in sorted(where) if not claims[c].get("note")]
+
+    def kind(cid):
+        c = claims[cid]
+        if "re-approval" in (c.get("note") or ""):
+            return "again"       # she approved an earlier wording
+        if c["status"] == "ai-cross-checked":
+            return "ready"       # confirmed against the source by a second AI
+        return "waiting"         # not yet confirmed by a second AI: not shown to her
+
+    again = [c for c in sorted(where) if kind(c) == "again"]
+    ready = [c for c in sorted(where) if kind(c) == "ready"]
+    waiting = [c for c in sorted(where) if kind(c) == "waiting"]
 
     md = ["# Editor's review pack", "",
           "For Dr Kunda Shahane, editor-in-chief. Everything that needs her decision or signature is in this one document.",
-          "Each claim appears once, even if several units use it. Claims she has already verified are not repeated.", "",
-          f"**{len(pending_units)} unit(s) awaiting signature. {len(where)} claim(s) to check. {len(questions)} decision(s).**", ""]
+          "Each claim appears once, even if several units use it. Claims she has already verified are not repeated.",
+          "Claims that a second AI has not yet confirmed against the source are held back, so that she checks each fact only once.", "",
+          f"**{len(questions)} decision(s). {len(again)} claim(s) to approve again. {len(ready)} new claim(s) to check. "
+          f"{len(waiting)} claim(s) held back until cross-checked.**", ""]
 
     md += ["## Part A. Decisions", ""]
     if not questions:
@@ -58,33 +70,44 @@ def build(units, claims):
         md += [f"- [ ] {o}" for o in q.get("options", [])]
         md += ["", f"If no answer: {q['default']}", f"Affects: {q['affects']}", ""]
 
-    md += ["## Part B. Units awaiting signature", "",
-           "| Unit | Title | Claims used | Already verified | In this pack | Sign |", "|---|---|---|---|---|---|"]
+    md += ["## Part B. Units", "",
+           "A unit can be signed once nothing in it is held back.", "",
+           "| Unit | Title | Claims used | Verified | To approve again | New, ready to check | Held back | Can sign after this pack |",
+           "|---|---|---|---|---|---|---|---|"]
+    signable = []
     for u in pending_units:
         cs = used(u)
+        n = {k: sum(1 for c in cs if claims[c]["status"] != "expert-verified" and kind(c) == k)
+             for k in ("again", "ready", "waiting")}
         done = sum(1 for c in cs if claims[c]["status"] == "expert-verified")
-        md.append(f"| {u['id']} | {u['title']} | {len(cs)} | {done} | {len(cs) - done} | |")
+        ok = n["waiting"] == 0
+        if ok:
+            signable.append(u)
+        md.append(f"| {u['id']} | {u['title']} | {len(cs)} | {done} | {n['again']} | {n['ready']} | {n['waiting']} | "
+                  f"{'yes' if ok else 'not yet'} |")
     md += ["", "Read each unit as the learner will see it in `dist/<unit>/chapter.md`, or in the app.", ""]
 
     def table(ids):
-        rows = ["| Claim | Statement | Where in source | AI check | Used in | OK / change / remove |",
-                "|---|---|---|---|---|---|"]
+        rows = ["| Claim | Statement | Where in source | Used in | OK / change / remove |", "|---|---|---|---|---|"]
         for cid in ids:
             c = claims[cid]
-            checked = "cross-checked" if c["status"] == "ai-cross-checked" else "not yet"
             note = f" **Note:** {c['note']}" if c.get("note") else ""
-            rows.append(f"| {cid} | {c['statement']}{note} | {c['source']}: {c['locator']} | {checked} | "
-                        f"{', '.join(where[cid])} | |")
+            rows.append(f"| {cid} | {c['statement']}{note} | {c['source']}: {c['locator']} | {', '.join(where[cid])} | |")
         return rows
 
-    md += ["## Part C. Claims to check", "",
-           "Mark each: OK / change (write the correction) / remove.", ""]
-    if flagged:
-        md += ["### Read these first (flagged)", ""] + table(flagged) + [""]
-    md += ["### All other claims", ""] + table(plain) + [""]
+    md += ["## Part C. Claims to check", "", "Mark each: OK / change (write the correction) / remove.", ""]
+    md += ["### C1. To approve again", "",
+           "You approved these on 13 Nov in an earlier wording. A check against the guideline PDF found that each had lost a qualifier. "
+           "The wording below restores it; the note says what changed.", ""]
+    md += (table(again) if again else ["None."]) + [""]
+    md += ["### C2. New claims, confirmed against the source by a second AI", ""]
+    md += (table(ready) if ready else ["None."]) + [""]
+    md += ["### C3. Held back", "",
+           f"{len(waiting)} claim(s) used by these units are waiting for a cross-check by a second AI and are not shown. "
+           "They will appear in C2 once confirmed.", ""]
     md += ["## Signature", "",
            "I have checked the claims above and approve these units for release, except where marked:", "",
-           "Units: " + "   ".join(f"[ ] {u['id']}" for u in pending_units), "",
+           "Units that can be signed now: " + ("   ".join(f"[ ] {u['id']}" for u in signable) or "none yet"), "",
            "Signed: ____________________   Date: __________", ""]
 
     out = ROOT / "dist" / "editor"
@@ -92,7 +115,8 @@ def build(units, claims):
     text = "\n".join(md)
     (out / "review-pack.md").write_text(text, encoding="utf-8")
     (out / "review-pack.html").write_text(to_html(md), encoding="utf-8")
-    print(f"built editor pack: {len(pending_units)} unit(s), {len(where)} claim(s) -> dist/editor/")
+    print(f"built editor pack: {len(pending_units)} unit(s); {len(again)} to approve again, {len(ready)} ready, "
+          f"{len(waiting)} held back -> dist/editor/")
 
 
 def inline(s):

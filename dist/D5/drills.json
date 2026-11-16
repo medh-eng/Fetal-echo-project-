@@ -1,0 +1,169 @@
+{
+  "unit": "D5",
+  "title": "Outflow tracts",
+  "status": "ai-extracted",
+  "items": [
+    {
+      "id": "D5-Q01",
+      "question": "Which finding identifies the vessel leaving the left ventricle as the aorta at screening?",
+      "options": [
+        "Its anterior wall is continuous with the ventricular septum and it does not divide",
+        "It divides after a short course",
+        "It is larger than the other great artery",
+        "It runs to the left of the other great artery"
+      ],
+      "answer": 0,
+      "explanation": "The vessel from the left ventricle has its anterior wall continuous with the septum and does not bifurcate.",
+      "claims": [
+        "IS23-052"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D5-Q02",
+      "question": "Which finding identifies the pulmonary artery?",
+      "options": [
+        "It arises from the right ventricle and divides after a short course",
+        "It gives off the head and neck vessels",
+        "Its wall is continuous with the ventricular septum",
+        "It is always smaller than the aorta"
+      ],
+      "answer": 0,
+      "explanation": "The pulmonary artery arises from the right ventricle and branches after a short course.",
+      "claims": [
+        "IS23-064"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D5-Q03",
+      "question": "How do the two great arteries normally relate to each other as they leave the heart?",
+      "options": [
+        "They cross, the pulmonary artery almost at right angles to the aorta",
+        "They run parallel, side by side",
+        "They join into one trunk",
+        "The aorta lies in front and to the left"
+      ],
+      "answer": 0,
+      "explanation": "The great arteries cross each other; the pulmonary artery crosses the ascending aorta at almost a right angle.",
+      "claims": [
+        "IS23-052",
+        "IS23-065"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D5-Q04",
+      "question": "Which great artery is usually slightly larger in fetal life?",
+      "options": [
+        "The pulmonary artery",
+        "The aorta",
+        "They are always exactly equal",
+        "It alternates through the cardiac cycle"
+      ],
+      "answer": 0,
+      "explanation": "The pulmonary artery is usually slightly larger than the ascending aorta in fetal life.",
+      "claims": [
+        "IS23-065"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D5-Q05",
+      "question": "One great artery is clearly much smaller than the other. What does the guideline say?",
+      "options": [
+        "A major discrepancy should lead to further evaluation",
+        "This is the normal slight difference",
+        "It matters only if the four-chamber view is abnormal",
+        "It should be rechecked after birth"
+      ],
+      "answer": 0,
+      "explanation": "The great arteries should be approximately equal in size; a major discrepancy should lead to further evaluation.",
+      "claims": [
+        "IS23-051"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D5-Q06",
+      "question": "In the rotational technique, which way is the transducer rotated from the four-chamber view to open the left outflow tract?",
+      "options": [
+        "Towards the fetal right shoulder",
+        "Towards the fetal left hip",
+        "Towards the fetal spine",
+        "It is not rotated; it is slid towards the feet"
+      ],
+      "answer": 0,
+      "explanation": "From the four-chamber view the transducer is rotated towards the fetal right shoulder.",
+      "claims": [
+        "IS23-057"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "D5-Q07",
+      "question": "What is the best record of the relationship between the two outflow tracts?",
+      "options": [
+        "A cine clip",
+        "One still frame",
+        "A measurement of each valve",
+        "A written note"
+      ],
+      "answer": 0,
+      "explanation": "The relationship of the two outflow tracts is best shown on cine clips, not still frames.",
+      "claims": [
+        "IS23-058"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "D5-Q08",
+      "question": "Which lesions does the left outflow-tract view help to identify that the four-chamber view does not show?",
+      "options": [
+        "Outlet septal defects, conotruncal abnormalities and aortic valve abnormalities",
+        "Abnormal abdominal situs",
+        "Atrial size discrepancy",
+        "Pericardial effusion"
+      ],
+      "answer": 0,
+      "explanation": "The LVOT view helps identify outlet ventricular septal defects, conotruncal abnormalities and aortic valve abnormalities not visible in the four-chamber view.",
+      "claims": [
+        "IS23-062"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D5-Q09",
+      "question": "Are sagittal views of the aortic and ductal arches part of the routine cardiac screen?",
+      "options": [
+        "No: they are not currently part of the routine screening examination",
+        "Yes: both are mandatory",
+        "Yes: the aortic arch only",
+        "Only when colour Doppler is used"
+      ],
+      "answer": 0,
+      "explanation": "Sagittal arch views and assessment of the neck vessels are not currently part of the routine cardiac screening examination.",
+      "claims": [
+        "IS23-061"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "D5-Q10",
+      "question": "What should the aortic and pulmonary valves look like?",
+      "options": [
+        "Moving freely and not thickened",
+        "Thick and bright",
+        "Fixed in the open position",
+        "Not visible at screening"
+      ],
+      "answer": 0,
+      "explanation": "Each semilunar valve should move freely and should not be thickened.",
+      "claims": [
+        "IS23-060",
+        "IS23-064"
+      ],
+      "status": "expert-verified"
+    }
+  ]
+}

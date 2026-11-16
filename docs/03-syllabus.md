@@ -10,6 +10,7 @@ Legend: ● planned for the phase shown, ◐ needs cardiology co-editor, ○ nee
 | Code | Unit | Notes |
 |---|---|---|
 | **F1** | **Ultrasound modes used in fetal echocardiography** | Requested by the editor-in-chief, 13 Nov 2026. 2D, colour, power, pulsed and continuous-wave Doppler, M-mode, tissue Doppler, 3D/4D, strain; probe and safety. Overlaps D2 and XA4, which will build on it |
+| **F2** | **Fetal rhythm: tools and mechanisms** | Added 16 Nov 2026 from the ASE guideline. How the atria are timed against the ventricles and the pattern of each common mechanism. Feeds D8, XC3 and XC4. Needs the cardiology co-editor |
 
 ## Tier D: Detect (Phase 1–2)
 

@@ -1,0 +1,135 @@
+{
+  "unit": "D3",
+  "title": "Laterality and situs",
+  "status": "ai-extracted",
+  "items": [
+    {
+      "id": "D3-Q01",
+      "question": "What must be established before deciding that the stomach is on the fetal left?",
+      "options": [
+        "Fetal laterality, from the position of the fetus in the uterus",
+        "The cardiac axis",
+        "The heart rate",
+        "The position of the placenta"
+      ],
+      "answer": 0,
+      "explanation": "Fetal right and left are determined first, from the position of the fetus in utero; only then are stomach and heart confirmed on the left.",
+      "claims": [
+        "IS23-021"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D3-Q02",
+      "question": "At which level is abdominal situs assessed?",
+      "options": [
+        "The level of the standard abdominal circumference",
+        "The level of the bladder",
+        "The level of the kidneys",
+        "The level of the four-chamber view"
+      ],
+      "answer": 0,
+      "explanation": "Abdominal situs is assessed at the level of the standard abdominal circumference.",
+      "claims": [
+        "IS23-024"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D3-Q03",
+      "question": "In normal situs, where do the great vessels lie in the upper-abdomen plane?",
+      "options": [
+        "Descending aorta left of the spine; inferior vena cava right of the spine",
+        "Descending aorta right of the spine; inferior vena cava left of the spine",
+        "Both in front of the spine in the midline",
+        "Both to the left of the spine"
+      ],
+      "answer": 0,
+      "explanation": "Stomach on the left, descending aorta on the left and inferior vena cava on the right side of the spine.",
+      "claims": [
+        "IS23-024"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D3-Q04",
+      "question": "Why does normal abdominal situs matter for the heart?",
+      "options": [
+        "It is a surrogate for normal atrial situs",
+        "It proves the outflow tracts are normal",
+        "It shows the heart rate is regular",
+        "It rules out all heart disease"
+      ],
+      "answer": 0,
+      "explanation": "Normal abdominal situs stands in for normal atrial situs: right atrium to the right, left atrium to the left.",
+      "claims": [
+        "IS23-025"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D3-Q05",
+      "question": "After working out fetal left and right, you find the stomach on the fetal right and the heart on the fetal left. What should you suspect?",
+      "options": [
+        "A situs abnormality",
+        "A normal variant",
+        "A diaphragmatic hernia only",
+        "Nothing; only the heart's side matters"
+      ],
+      "answer": 0,
+      "explanation": "A situs abnormality should be suspected when the heart and/or the stomach are not on the left.",
+      "claims": [
+        "IS23-030"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D3-Q06",
+      "question": "The heart is displaced to the right but the stomach is on the left. Which of these can displace the heart from its normal position?",
+      "options": [
+        "Diaphragmatic hernia",
+        "An echogenic intracardiac focus",
+        "A thin rim of pericardial fluid",
+        "Occasional ectopic beats"
+      ],
+      "answer": 0,
+      "explanation": "Displacement can be caused by diaphragmatic hernia, a space-occupying lesion such as a congenital pulmonary airway malformation, or lung hypoplasia or agenesis.",
+      "claims": [
+        "IS23-032"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D3-Q07",
+      "question": "The four-chamber view is poor because of fetal position. Can cardiac position and axis still be judged?",
+      "options": [
+        "Yes: they can be evaluated even when the four-chamber view is not seen satisfactorily",
+        "No: they need a perfect four-chamber view",
+        "Only with colour Doppler",
+        "Only in the third trimester"
+      ],
+      "answer": 0,
+      "explanation": "Cardiac axis and position can be evaluated even when the four-chamber view itself is not seen satisfactorily.",
+      "claims": [
+        "IS23-029"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D3-Q08",
+      "question": "An abnormal cardiac axis raises the risk of what in particular?",
+      "options": [
+        "A cardiac malformation, especially of the outflow tracts",
+        "Benign ectopic beats",
+        "A normal variant of the third trimester",
+        "A technical artefact"
+      ],
+      "answer": 0,
+      "explanation": "An abnormal axis increases the risk of a cardiac malformation, especially of the outflow tracts, and may be associated with a chromosomal anomaly.",
+      "claims": [
+        "IS23-031"
+      ],
+      "status": "expert-verified"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "unit": "D2",
+  "title": "Setting up the machine for the heart",
+  "status": "ai-extracted",
+  "items": [
+    {
+      "id": "D2-Q01",
+      "question": "When is the cardiac screening examination optimally performed?",
+      "options": [
+        "Between 18 and 22 weeks",
+        "Between 11 and 14 weeks",
+        "Between 24 and 28 weeks",
+        "After 32 weeks"
+      ],
+      "answer": 0,
+      "explanation": "The screening examination is performed optimally between 18 and 22 weeks.",
+      "claims": [
+        "IS23-010"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D2-Q02",
+      "question": "Compared with a screen at 18 to 20 weeks, a screen at 20 to 22 weeks is:",
+      "options": [
+        "Less likely to need an additional scan to complete it",
+        "More likely to need an additional scan to complete it",
+        "Not recommended",
+        "Only possible with colour Doppler"
+      ],
+      "answer": 0,
+      "explanation": "Screening at 20 to 22 weeks is less likely to need an additional scan for completion than at 18 to 20 weeks.",
+      "claims": [
+        "IS23-011"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "D2-Q03",
+      "question": "Which transducer frequency should be used for the cardiac screen?",
+      "options": [
+        "The highest possible, accepting the trade-off between resolution and penetration",
+        "The lowest possible, to maximise penetration",
+        "Always the same frequency as for biometry",
+        "Frequency does not affect the cardiac image"
+      ],
+      "answer": 0,
+      "explanation": "The highest possible frequency should be used, accepting the trade-off between resolution and penetration.",
+      "claims": [
+        "IS23-012"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D2-Q04",
+      "question": "Which group of settings does the guideline recommend for the cardiac image?",
+      "options": [
+        "High frame rate, low persistence, a single focal zone, a relatively narrow field",
+        "Low frame rate, high persistence, several focal zones, a wide field",
+        "High frame rate, high persistence, several focal zones, a wide field",
+        "Low frame rate, low persistence, a single focal zone, a wide field"
+      ],
+      "answer": 0,
+      "explanation": "Settings should emphasise a high frame rate with increased contrast and resolution, using low persistence, a single focal zone and a relatively narrow field.",
+      "claims": [
+        "IS23-014"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D2-Q05",
+      "question": "How large should the heart be on the screen?",
+      "options": [
+        "At least one third to one half of the screen",
+        "About one tenth of the screen",
+        "As small as possible, to keep the whole fetus in view",
+        "Size on the screen does not matter"
+      ],
+      "answer": 0,
+      "explanation": "Magnify until the heart fills at least one third to one half of the screen.",
+      "claims": [
+        "IS23-015"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D2-Q06",
+      "question": "When does tissue harmonic imaging help most?",
+      "options": [
+        "With increased abdominal wall thickness and in the third trimester",
+        "Only in the first trimester",
+        "Only when colour Doppler is on",
+        "It reduces image quality and should be switched off"
+      ],
+      "answer": 0,
+      "explanation": "Harmonic imaging improves images, especially with increased abdominal wall thickness and in the third trimester.",
+      "claims": [
+        "IS23-013"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D2-Q07",
+      "question": "What is cine-loop used for during the cardiac screen?",
+      "options": [
+        "To assist real-time evaluation, such as confirming valve leaflet movement through the cycle",
+        "To measure the thermal index",
+        "To replace storing clips",
+        "To increase the frame rate"
+      ],
+      "answer": 0,
+      "explanation": "Cine-loop assists real-time evaluation, for example confirming movement of valve leaflets through the cardiac cycle.",
+      "claims": [
+        "IS23-016"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D2-Q08",
+      "question": "The fetus is lying so that the outflow tracts cannot be shown. What does the guideline say may be needed?",
+      "options": [
+        "Extra examination time or a second examination",
+        "Reporting the outflow tracts as normal",
+        "Leaving the outflow tracts out of the screen",
+        "Immediate referral for fetal echocardiography in every case"
+      ],
+      "answer": 0,
+      "explanation": "When fetal lie is unfavourable, extra examination time or a second examination may be needed.",
+      "claims": [
+        "IS23-056"
+      ],
+      "status": "expert-verified"
+    },
+    {
+      "id": "D2-Q09",
+      "question": "What frame rate does the echocardiography guideline recommend for scanning the fetal heart?",
+      "options": [
+        "Above 30 to 40 Hz",
+        "About 10 Hz",
+        "About 15 to 20 Hz",
+        "Frame rate is not specified"
+      ],
+      "answer": 0,
+      "explanation": "Frame rates above 30 to 40 Hz are recommended; a narrow sector and appropriate depth help to achieve them.",
+      "claims": [
+        "AS23-007"
+      ],
+      "status": "ai-extracted"
+    }
+  ]
+}

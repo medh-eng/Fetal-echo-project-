@@ -10,14 +10,14 @@
         "Shown to be effective, but neither routine nor mandatory",
         "Mandatory at every nuchal translucency scan",
         "Not possible before 18 weeks",
-        "It replaces the second-trimester cardiac screen"
+        "Shown to be ineffective in low-risk populations"
       ],
       "answer": 0,
       "explanation": "Early screening has been shown to be effective in low-risk populations but is neither routine nor mandatory; where possible it can be done at the nuchal translucency scan.",
       "claims": [
         "IS23-090"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D9-Q02",
@@ -33,7 +33,7 @@
       "claims": [
         "IS23-091"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D9-Q03",
@@ -49,7 +49,7 @@
       "claims": [
         "IS23-091"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D9-Q04",
@@ -61,7 +61,7 @@
         "Upper abdomen; LVOT; RVOT"
       ],
       "answer": 0,
-      "explanation": "Situs and cardiac axis on grey-scale; four-chamber view on grey-scale and colour or power Doppler; three-vessel-and-trachea view on colour or power Doppler.",
+      "explanation": "Situs and cardiac axis on grey-scale; four-chamber view on grey-scale and on colour and/or bidirectional power Doppler; three-vessel-and-trachea view on colour and/or bidirectional power Doppler.",
       "claims": [
         "IS23-094"
       ],
@@ -69,7 +69,7 @@
     },
     {
       "id": "D9-Q05",
-      "question": "At an early screen, what should the three-vessel-and-trachea view show on colour or power Doppler?",
+      "question": "At a detailed early screen, what should the three-vessel-and-trachea view show on colour or bidirectional power Doppler?",
       "options": [
         "Aortic and ductal arches, both on the left",
         "One arch on each side of the trachea",
@@ -95,10 +95,9 @@
       "answer": 0,
       "explanation": "The thermal index should be 1.0 or less, with exposure as short as possible.",
       "claims": [
-        "IS23-093",
-        "AS23-006"
+        "IS23-093"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D9-Q07",
@@ -114,19 +113,19 @@
       "claims": [
         "IS23-093"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D9-Q08",
       "question": "At 12 weeks the outflow tracts look possibly abnormal but the view is difficult. What next?",
       "options": [
-        "Refer for early fetal echocardiography",
+        "Refer for early fetal echocardiography: heart disease is suspected",
         "Report a definite outflow-tract anomaly",
         "Report the heart as normal, because early outflow views are unreliable",
         "Wait until the third trimester"
       ],
       "answer": 0,
-      "explanation": "Early outflow-tract views are prone to false-positive and false-negative diagnosis; any suspicion at the early scan should lead to referral for early fetal echocardiography.",
+      "explanation": "Early outflow-tract views are prone to false-positive and false-negative diagnosis; suspicion of congenital heart disease at the early scan should lead to referral for early fetal echocardiography.",
       "claims": [
         "IS23-095"
       ],
@@ -134,7 +133,7 @@
     },
     {
       "id": "D9-Q09",
-      "question": "Nuchal translucency was 3.8 mm at 12 weeks. At 16 weeks the nuchal fold is normal. Is detailed cardiac evaluation still indicated?",
+      "question": "Nuchal translucency was 3.8 mm at 12 weeks. A later measurement fell within the normal range. Is detailed cardiac evaluation still indicated?",
       "options": [
         "Yes: 3.5 mm or more is an indication even if the measurement later becomes normal",
         "No: the measurement has resolved",
@@ -146,11 +145,11 @@
       "claims": [
         "IS23-081"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D9-Q10",
-      "question": "Nuchal translucency is 3.2 mm. What does the guideline say about fetal echocardiography?",
+      "question": "At the 11 to 14 week scan nuchal translucency is 3.2 mm. What does the guideline say about fetal echocardiography?",
       "options": [
         "It may be considered",
         "It is not relevant at this measurement",
@@ -163,7 +162,7 @@
         "IS23-084",
         "IS23-081"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D9-Q11",

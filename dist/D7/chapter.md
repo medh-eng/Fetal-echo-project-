@@ -18,7 +18,7 @@ Colour flow Doppler is not mandatory in cardiac screening. The 2023 guideline en
 
 Colour may be valuable in obese patients and may further improve detection of major heart disease in low-risk pregnancies. [3]
 
-Grey-scale comes first. Colour is added to a plane you have already obtained properly; it does not rescue a poor view.
+This unit treats colour as an addition to the grey-scale screen taught in unit D1.
 
 
 ## What normal colour shows
@@ -41,44 +41,46 @@ In a full fetal echocardiogram, colour is used to look for valve stenosis and re
 
 Keep the colour box narrow and place it only over the area of interest. This preserves frame rate and the quality of the colour image. [7]
 
-For a second-trimester screen, set the colour velocity scale to about 50 to 70 cm/s for the heart and the arteries, with low colour persistence. Use a lower scale, about 15 to 25 cm/s, for veins. [8]
+For a second-trimester screen, set the colour velocity scale to about 50 to 70 cm/s for the heart and the arteries. Use a lower scale, about 15 to 25 cm/s, for veins. Low colour persistence is ordinarily built into cardiac presets. [8]
 
-Set the scale to suit the velocities you are looking at. Adjust colour gain and persistence so that colour fills the chamber or vessel without hiding the grey-scale image. [9]
+For a full fetal echocardiogram, the echocardiography guideline says to set the scale to suit the velocities of interest, and to adjust colour gain and persistence so that colour fills the chamber or vessel without hiding the grey-scale image. [9]
 
 Starting settings for a second-trimester screen. [7, 8]
 
 | Looking at | Colour velocity scale | Other settings |
 |---|---|---|
-| Valves, ventricles, great arteries, arches | About 50 to 70 cm/s | Narrow box, low persistence |
+| Valves, ventricles, great arteries, arches | About 50 to 70 cm/s | Narrow box; low persistence (ordinarily in the cardiac preset) |
 | Veins, such as the pulmonary veins | About 15 to 25 cm/s | Narrow box |
 
 
-## Always beside grey-scale
+## Colour beside grey-scale
 
-When colour is used, display it alongside the grey-scale image. This avoids false-negative findings. [10]
+When you use colour to show the pulmonary veins entering the left atrium, display it alongside the grey-scale image. This helps to avoid false-negative findings. [10]
 
 
 ## Power Doppler
 
-Power Doppler shows the strength of the Doppler signal, not the frequency shift. It helps to show small vessels, slow flow such as in veins, and septal defects. Directional power Doppler adds the direction of flow. [11]
+The echocardiography guideline describes power Doppler as showing the strength of the Doppler signal, not the frequency shift. In fetal echocardiography it helps to show small vessels, slow flow such as in veins, and septal defects. Directional power Doppler adds the direction of flow. [11]
 
 
 ## Colour in early pregnancy
 
-For early cardiac screening, colour or high-quality power Doppler is recommended in addition to grey-scale. [12]
+For early cardiac screening, colour Doppler, or high-quality power Doppler with bidirectional flow mapping, or both, are recommended in addition to grey-scale. [12]
 
 In early screening, use Doppler mainly for the four-chamber view and the three-vessel-and-trachea view. Keep the thermal index at 1.0 or less and the exposure as short as possible, usually no more than 5 to 10 minutes. [13]
 
-The echocardiography guideline gives the same direction: in early gestation keep the thermal and mechanical indices at or below 1.0 and use Doppler sparingly. [14]
+At the early scan, the balance between colour and grey-scale is adjusted to favour the flow signal in the small cardiac structures. [14]
 
-## Colour on a screening scan
+For early fetal echocardiography, which is a different examination, the echocardiography guideline says to keep the thermal and mechanical indices at or below 1.0 and to use Doppler sparingly. [15]
+
+## When colour is used on a second-trimester screen
 
 - [ ] Colour box narrow, over the area of interest only [7]
-- [ ] Scale about 50 to 70 cm/s for heart and arteries; about 15 to 25 cm/s for veins; low persistence [8]
-- [ ] Colour shown beside the grey-scale image [10]
-- [ ] Forward flow across all four valves and both great arteries [4]
-- [ ] V of the two arches shown at the three-vessel-and-trachea view [4]
-- [ ] Early pregnancy: thermal index 1.0 or less, exposure kept short [13]
+- [ ] Scale about 50 to 70 cm/s for heart and arteries; about 15 to 25 cm/s for veins [8]
+- [ ] Pulmonary veins: colour shown beside the grey-scale image [10]
+- [ ] Colour can show forward flow across all four valves and both great arteries [4]
+- [ ] Colour can help to show the V of the two arches at the three-vessel-and-trachea view [4]
+- [ ] At an early screen instead: thermal index 1.0 or less, Doppler exposure kept short [13]
 
 ## Still to be written (awaiting sourced claims)
 
@@ -88,17 +90,18 @@ The echocardiography guideline gives the same direction: in early gestation keep
 
 ## References
 
-1. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Introduction, p. 788; Appendix 1, p. 802. *Claim IS23-002, ai-extracted.*
+1. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Introduction, p. 788; Appendix 1, p. 802. *Claim IS23-002, ai-cross-checked.*
 2. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Color flow Doppler ultrasound, p. 796. *Claim IS23-073, expert-verified.*
-3. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Color flow Doppler ultrasound, p. 796. *Claim IS23-075, ai-extracted.*
+3. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Color flow Doppler ultrasound, p. 796. *Claim IS23-075, ai-cross-checked.*
 4. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Color flow Doppler ultrasound, p. 796. *Claim IS23-074, expert-verified.*
 5. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Four-chamber view, p. 792; Table 1. *Claim IS23-040, expert-verified.*
-6. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.G Doppler ultrasonography, p. 689. *Claim AS23-009, ai-extracted.*
+6. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.E Standard views: four-chamber view, p. 687; LV outflow tract, p. 688; RV outflow, three-vessel-and-trachea, bicaval and short-axis views, p. 689; Table 3, p. 686. *Claim AS23-009, ai-cross-checked.*
 7. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Color flow Doppler ultrasound, p. 796. *Claim IS23-076, expert-verified.*
-8. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Color flow Doppler ultrasound, p. 796. *Claim IS23-077, expert-verified.*
-9. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.D Image optimization, p. 684; III.G, p. 689. *Claim AS23-010, ai-extracted.*
+8. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Color flow Doppler ultrasound, p. 796. *Claim IS23-077, ai-extracted.*
+9. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.D Image optimization, p. 684; III.G, p. 689. *Claim AS23-010, ai-cross-checked.*
 10. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Four-chamber view, p. 792. *Claim IS23-041, ai-extracted.*
-11. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.G Doppler ultrasonography, p. 689. *Claim AS23-011, ai-extracted.*
+11. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.G Color and Power Doppler Ultrasound, p. 689; III.D Image Optimization, p. 684 (septal defects). *Claim AS23-011, ai-cross-checked.*
 12. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Early fetal cardiac screening, p. 798. *Claim IS23-092, ai-extracted.*
-13. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Early fetal cardiac screening, p. 798. *Claim IS23-093, ai-extracted.*
-14. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - Table 8 (early gestation), p. 695-696. *Claim AS23-006, ai-extracted.*
+13. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Early fetal cardiac screening, p. 798. *Claim IS23-093, ai-cross-checked.*
+14. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Early fetal cardiac screening, p. 798. *Claim IS23-101, ai-extracted.*
+15. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - Table 8 (early gestation), p. 695-696. *Claim AS23-006, ai-cross-checked.*

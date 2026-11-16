@@ -1,0 +1,186 @@
+{
+  "unit": "F2",
+  "title": "Fetal rhythm: tools and mechanisms",
+  "status": "ai-extracted",
+  "items": [
+    {
+      "id": "F2-Q01",
+      "question": "According to the echocardiography guideline, a sustained fetal heart rate below what value is abnormal at any gestation?",
+      "options": [
+        "120 beats per minute",
+        "100 beats per minute",
+        "140 beats per minute",
+        "80 beats per minute"
+      ],
+      "answer": 0,
+      "explanation": "A sustained rate below 120 beats per minute is described as abnormal at any gestation. The screening guideline's threshold for referral is a persistent rate of 110 or less.",
+      "claims": [
+        "AS23-071",
+        "IS23-036"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "F2-Q02",
+      "question": "Where is the M-mode cursor placed to time atrial against ventricular contraction?",
+      "options": [
+        "Through an atrial wall and a ventricular free wall together",
+        "Through the ventricular septum alone",
+        "Through both atria only",
+        "Along the descending aorta"
+      ],
+      "answer": 0,
+      "explanation": "The cursor passes through an atrial wall and the free wall of a ventricle so both contractions appear on one trace.",
+      "claims": [
+        "AS23-017"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "F2-Q03",
+      "question": "Which pair of flows does the guideline list for timing atrial against ventricular events with pulsed-wave Doppler?",
+      "options": [
+        "Superior vena cava with ascending aorta",
+        "Umbilical artery with umbilical vein",
+        "Middle cerebral artery with ductus venosus",
+        "Right with left branch pulmonary artery"
+      ],
+      "answer": 0,
+      "explanation": "The listed pairs are superior vena cava with ascending aorta, mitral inflow with aortic outflow, and pulmonary artery with pulmonary vein.",
+      "claims": [
+        "AS23-018"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "F2-Q04",
+      "question": "In suspected supraventricular tachycardia, why does the guideline advise against the mitral inflow and aortic outflow recording?",
+      "options": [
+        "The inflow waves fuse, which hides the atrial timing",
+        "The aortic flow disappears at fast rates",
+        "It exposes the fetus to more ultrasound energy",
+        "It can only be recorded with continuous-wave Doppler"
+      ],
+      "answer": 0,
+      "explanation": "At fast rates the mitral inflow waves fuse, so this pair is not advised for timing the atrium in supraventricular tachycardia.",
+      "claims": [
+        "AS23-078"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "F2-Q05",
+      "question": "After a premature beat, the next atrial beat comes earlier than a full compensatory pause would predict. Which kind of premature beat resets the atrial rhythm like this?",
+      "options": [
+        "A premature atrial beat",
+        "A premature ventricular beat",
+        "Neither",
+        "Both in the same way"
+      ],
+      "answer": 0,
+      "explanation": "A premature atrial beat resets the atrial rhythm, producing an incomplete compensatory pause. With a premature ventricular beat the interval between atrial beats is preserved.",
+      "claims": [
+        "AS23-074",
+        "AS23-075"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "F2-Q06",
+      "question": "A tachycardia shows one atrial beat for each ventricular beat, with a short interval from ventricle to atrium. Which mechanism fits the guideline's description?",
+      "options": [
+        "The common re-entrant supraventricular tachycardia through an accessory pathway",
+        "Sinus tachycardia",
+        "Atrial flutter",
+        "Complete heart block"
+      ],
+      "answer": 0,
+      "explanation": "Pathway-mediated re-entrant tachycardia pairs atrial and ventricular beats one to one with a short ventriculo-atrial interval. Sinus tachycardia has a long interval.",
+      "claims": [
+        "AS23-077",
+        "AS23-076"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "F2-Q07",
+      "question": "M-mode shows rapid sawtooth atrial movement, with only every second atrial beat followed by a ventricular beat. Which rhythm is described?",
+      "options": [
+        "Atrial flutter",
+        "Sinus tachycardia",
+        "Sinus bradycardia",
+        "Premature ventricular beats"
+      ],
+      "answer": 0,
+      "explanation": "Atrial flutter produces rapid sawtooth atrial motion on M-mode, often with only every second or third atrial beat conducted.",
+      "claims": [
+        "AS23-080"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "F2-Q08",
+      "question": "Atrial and ventricular contractions are completely independent, and the ventricular rate is 60 per minute. Which rhythm is described?",
+      "options": [
+        "Complete heart block",
+        "Sinus bradycardia",
+        "Atrial flutter",
+        "Sinus tachycardia"
+      ],
+      "answer": 0,
+      "explanation": "In complete heart block the atria and ventricles contract independently, with a ventricular rate typically between 50 and 80 per minute.",
+      "claims": [
+        "AS23-083"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "F2-Q09",
+      "question": "Why must repeated blocked premature atrial beats be identified carefully?",
+      "options": [
+        "They can mimic second- or third-degree atrioventricular block",
+        "They always progress to ventricular tachycardia",
+        "They cannot be recorded with M-mode",
+        "They are a form of sinus tachycardia"
+      ],
+      "answer": 0,
+      "explanation": "Repeated blocked premature atrial contractions can mimic atrioventricular block and must be distinguished from it.",
+      "claims": [
+        "AS23-084"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "F2-Q10",
+      "question": "The rate is slow, with one atrial contraction before every ventricular contraction and preserved conduction. Which rhythm is described?",
+      "options": [
+        "Sinus bradycardia",
+        "Complete heart block",
+        "Atrial flutter",
+        "Blocked atrial bigeminy"
+      ],
+      "answer": 0,
+      "explanation": "In sinus bradycardia simultaneous atrial and ventricular recordings show preserved atrioventricular conduction.",
+      "claims": [
+        "AS23-082"
+      ],
+      "status": "ai-extracted"
+    },
+    {
+      "id": "F2-Q11",
+      "question": "What does the guideline say about routine surveillance of fetuses exposed to anti-Ro/La antibodies?",
+      "options": [
+        "Evidence is unclear that it reduces progression to higher-degree block",
+        "It is proven to prevent complete heart block",
+        "It is harmful and should not be done",
+        "It is needed only after birth"
+      ],
+      "answer": 0,
+      "explanation": "The evidence is unclear that routine surveillance reduces progression to higher-degree atrioventricular block.",
+      "claims": [
+        "AS23-086"
+      ],
+      "status": "ai-extracted"
+    }
+  ]
+}

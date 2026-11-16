@@ -5,9 +5,9 @@
   "items": [
     {
       "id": "D11-Q01",
-      "question": "One plane of the sweep does not meet its criteria, but you cannot say what the lesion is. What next?",
+      "question": "On a technically adequate view, the anatomy in one plane looks abnormal, but you cannot say what the lesion is. What next?",
       "options": [
-        "Refer for fetal echocardiography: a suspected abnormality is enough",
+        "The fetus is a candidate for fetal echocardiography: a suspected abnormality is enough",
         "Wait until you can name the lesion",
         "Report the heart as normal if the four-chamber view is normal",
         "Repeat the scan after delivery"
@@ -21,12 +21,12 @@
     },
     {
       "id": "D11-Q02",
-      "question": "The mother has pregestational diabetes with a good HbA1c. Is fetal echocardiography indicated?",
+      "question": "The mother has pregestational diabetes with a good HbA1c. How does the guideline list this?",
       "options": [
-        "Yes: pregestational diabetes is an indication whatever the HbA1c",
-        "No: only if the HbA1c is raised",
-        "No: diabetes is not a risk factor",
-        "Only if the screening scan is abnormal"
+        "As an indication for fetal echocardiography, whatever the HbA1c",
+        "As an indication only if the HbA1c is raised",
+        "Among factors with insufficient evidence of raised risk",
+        "Among factors where echocardiography may be considered"
       ],
       "answer": 0,
       "explanation": "Pregestational diabetes is listed as an indication regardless of HbA1c.",
@@ -70,15 +70,15 @@
     },
     {
       "id": "D11-Q05",
-      "question": "The fetus's older sibling had surgery for congenital heart disease. Is fetal echocardiography indicated?",
+      "question": "The fetus's older sibling had surgery for congenital heart disease. How does the guideline list this?",
       "options": [
-        "Yes: heart disease in a first-degree relative of the fetus is an indication",
-        "No: only parents count as relatives",
-        "It may be considered but is not indicated",
-        "No: family history does not change risk"
+        "As an indication: congenital heart disease in a first-degree relative of the fetus",
+        "Not listed: only parents count as first-degree relatives",
+        "Among factors where echocardiography may be considered",
+        "Among factors with insufficient evidence of raised risk"
       ],
       "answer": 0,
-      "explanation": "A first-degree relative of the fetus with congenital heart disease is a listed indication. A second-degree relative falls under 'may be considered'.",
+      "explanation": "Congenital heart disease in a first-degree relative of the fetus (parents, siblings and half-siblings) is a listed indication. A second-degree relative falls under 'may be considered'.",
       "claims": [
         "IS23-083",
         "IS23-084"
@@ -99,7 +99,7 @@
       "claims": [
         "IS23-084"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D11-Q07",
@@ -137,12 +137,12 @@
     },
     {
       "id": "D11-Q09",
-      "question": "The mother is known to have anti-Ro/SSA antibodies. The screening scan is normal. Is fetal echocardiography indicated?",
+      "question": "The mother is known to have anti-Ro/SSA antibodies. How does the guideline list this?",
       "options": [
-        "Yes: anti-Ro/SSA antibodies are a listed indication",
-        "No: only if the heart rate is already slow",
-        "No: antibodies are not relevant to the fetal heart",
-        "Only after 32 weeks"
+        "As an indication for fetal echocardiography",
+        "As an indication only once the fetal heart rate is slow",
+        "Among factors with insufficient evidence of raised risk",
+        "It is not mentioned"
       ],
       "answer": 0,
       "explanation": "Anti-Ro/SSA antibodies are among the listed maternal indications.",
@@ -171,13 +171,13 @@
       "id": "D11-Q11",
       "question": "Who is best placed to perform the fetal echocardiogram?",
       "options": [
-        "A trained specialist familiar with prenatal diagnosis and with the course after birth",
+        "A trained specialist familiar with prenatal diagnosis and with postnatal course, management and prognosis",
         "Any sonologist with a machine that has colour Doppler",
         "A general paediatrician after delivery",
-        "The referring doctor, at the next routine visit"
+        "Whoever made the referral, with or without specialist training"
       ],
       "answer": 0,
-      "explanation": "Fetal echocardiography is best performed by a trained specialist familiar with prenatal diagnosis and postnatal course.",
+      "explanation": "Fetal echocardiography is best performed by a trained specialist familiar with prenatal diagnosis, postnatal course, postnatal management and prognosis.",
       "claims": [
         "IS23-086"
       ],
@@ -185,15 +185,15 @@
     },
     {
       "id": "D11-Q12",
-      "question": "Why do most babies with heart disease not come from the group with risk factors?",
+      "question": "Which observation explains why quality routine screening of every pregnancy matters?",
       "options": [
-        "A high proportion of detectable heart disease occurs in pregnancies with no risk factor",
-        "Risk factors protect against heart disease",
-        "Pregnancies with risk factors are never screened",
-        "Heart disease in pregnancies with risk factors cannot be detected"
+        "A high proportion of prenatally detectable heart disease occurs in pregnancies with no risk factor",
+        "Risk factors are rarely recorded correctly",
+        "Fetal echocardiography is unreliable when a risk factor is present",
+        "Heart disease cannot be detected before birth unless a risk factor is present"
       ],
       "answer": 0,
-      "explanation": "This is why quality screening of every pregnancy and timely referral matter.",
+      "explanation": "A high proportion of prenatally detectable heart disease occurs in pregnancies with no risk factor or extracardiac anomaly, so quality screening and timely referral matter.",
       "claims": [
         "IS23-080"
       ],

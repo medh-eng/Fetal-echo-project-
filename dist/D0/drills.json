@@ -26,7 +26,7 @@
         "Fewer than half",
         "Nearly all",
         "About three quarters",
-        "Almost none"
+        "Exactly half"
       ],
       "answer": 0,
       "explanation": "Detection varies by region and lesion, but fewer than half of cardiac anomalies are identified before birth.",
@@ -37,7 +37,7 @@
     },
     {
       "id": "D0-Q03",
-      "question": "A colleague proposes examining the heart in detail only when the pregnancy has a risk factor. What is wrong with this?",
+      "question": "A colleague proposes doing the full routine cardiac screen only when the pregnancy has a risk factor. What is wrong with this?",
       "options": [
         "A high proportion of detectable heart disease occurs in pregnancies with no risk factor",
         "Nothing; heart disease is rare without a risk factor",
@@ -45,7 +45,7 @@
         "Detailed examination is only possible in the third trimester"
       ],
       "answer": 0,
-      "explanation": "Much of the heart disease that can be detected before birth is in pregnancies with no risk factor and no other anomaly, so every routine scan must be done to standard.",
+      "explanation": "A high proportion of prenatally detectable heart disease is in pregnancies with no risk factor and no extracardiac anomaly. That is why quality screening of every pregnancy matters.",
       "claims": [
         "IS23-080"
       ],
@@ -69,7 +69,7 @@
     },
     {
       "id": "D0-Q05",
-      "question": "In the same study, a technically adequate view was obtained but the diagnosis was still missed in nearly a third of cases. Why?",
+      "question": "In one retrospective study of missed prenatal diagnoses, the view was technically adequate in nearly a third of misses. What went wrong in those?",
       "options": [
         "The abnormal anatomy was not recognised",
         "The lesion was too small to be seen by any examiner",
@@ -77,7 +77,7 @@
         "The scan was done too late in pregnancy"
       ],
       "answer": 0,
-      "explanation": "Failure to recognise abnormal anatomy on an adequate view accounted for 31% of misses. Recognition is a trainable skill.",
+      "explanation": "Failure to recognise abnormal anatomy on an adequate view accounted for 31% of misses in that study.",
       "claims": [
         "IS23-088"
       ],
@@ -85,7 +85,7 @@
     },
     {
       "id": "D0-Q06",
-      "question": "Which pair of lesions may show nothing abnormal in the four-chamber plane alone?",
+      "question": "Which pair of lesions does the guideline name as possibly not evident in the four-chamber plane alone?",
       "options": [
         "Transposition of the great arteries and coarctation of the aorta",
         "Atrioventricular septal defect and a single ventricle",
@@ -101,7 +101,7 @@
     },
     {
       "id": "D0-Q07",
-      "question": "The four-chamber view looks normal. Which view is typically abnormal in tetralogy of Fallot, transposition and common arterial trunk?",
+      "question": "The four-chamber view looks normal. Which view is typically abnormal in tetralogy of Fallot, complete transposition and common arterial trunk?",
       "options": [
         "The three-vessel view",
         "The upper-abdomen view",
@@ -117,7 +117,7 @@
     },
     {
       "id": "D0-Q08",
-      "question": "Which of these is a feature of a screening programme that performs better?",
+      "question": "Which of these can improve the performance of a screening programme?",
       "options": [
         "A low threshold for referring for fetal echocardiography",
         "Referring only when the diagnosis is certain",
@@ -125,7 +125,7 @@
         "Limiting the scan to the four-chamber view to save time"
       ],
       "answer": 0,
-      "explanation": "Better programmes have feedback-based training, a low referral threshold, standardised protocols and easy access to fetal heart specialists.",
+      "explanation": "Feedback-based training, a low referral threshold, standardised protocols and easy access to fetal heart specialists can all improve programme performance.",
       "claims": [
         "IS23-006"
       ],
@@ -145,23 +145,23 @@
       "claims": [
         "IS23-089"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D0-Q10",
-      "question": "Which of these factors that affect detection is most directly within the examiner's control?",
+      "question": "Which of these does the guideline list among the factors that partly explain variation in detection?",
       "options": [
-        "Transducer frequency and examiner skill",
-        "Maternal body habitus",
-        "Abdominal scars",
-        "Amniotic fluid volume"
+        "Examiner ability and transducer frequency",
+        "Maternal blood group",
+        "Number of previous pregnancies",
+        "Position of the placenta"
       ],
       "answer": 0,
       "explanation": "The guideline lists examiner ability and transducer frequency alongside patient factors such as habitus, scars, fluid volume and fetal position.",
       "claims": [
         "IS23-005"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     }
   ]
 }

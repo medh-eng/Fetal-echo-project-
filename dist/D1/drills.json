@@ -1,7 +1,7 @@
 {
   "unit": "D1",
   "title": "The normal heart in five views",
-  "status": "expert-verified",
+  "status": "ai-extracted",
   "items": [
     {
       "id": "D1-Q01",
@@ -61,12 +61,12 @@
         "Record it as transient probe-pressure bradycardia"
       ],
       "answer": 0,
-      "explanation": "Normal is 120 to 160. Persistent bradycardia at 110 or below needs specialist evaluation; transient slowing from probe pressure does not persist.",
+      "explanation": "Normal is 120 to 160. Persistent bradycardia at 110 or below needs specialist evaluation; transient slowing associated with probe pressure is seen in normal second-trimester fetuses.",
       "claims": [
         "IS23-033",
         "IS23-036"
       ],
-      "status": "expert-verified"
+      "status": "ai-extracted"
     },
     {
       "id": "D1-Q05",
@@ -210,7 +210,7 @@
       "claims": [
         "IS23-047"
       ],
-      "status": "expert-verified"
+      "status": "ai-extracted"
     },
     {
       "id": "D1-Q14",
@@ -325,7 +325,7 @@
       "claims": [
         "IS23-077"
       ],
-      "status": "expert-verified"
+      "status": "ai-extracted"
     },
     {
       "id": "D1-Q21",

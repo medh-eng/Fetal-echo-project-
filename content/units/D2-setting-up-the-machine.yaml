@@ -1,0 +1,235 @@
+# Unit D2. Every text block and drill lists the claim IDs it rests on.
+# IS23 claims: ISUOG screening guideline. AS23 claims: ASE fetal echocardiography guideline.
+
+id: D2
+title: "Setting up the machine for the heart"
+tier: Detect
+version: 0.1
+summary: "When to scan, which probe and frequency, the settings that make a cardiac image, and what to do when the view is poor."
+drafted_by: "Claude (16 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "Choose the gestation, probe and frequency for a cardiac screen."
+  - "Set the image for the heart: frame rate, persistence, focus, sector and zoom."
+  - "Set colour for a second-trimester screen."
+  - "Apply the safety principle for output and exposure."
+  - "Say what to do when the fetus is lying badly."
+
+sections:
+
+  - heading: "When to scan"
+    blocks:
+      - text: "The cardiac screening examination is performed optimally between 18 and 22 weeks."
+        claims: [IS23-010]
+      - text: "A screen at 20 to 22 weeks is less likely to need a second scan to complete it than one at 18 to 20 weeks, although many patients prefer to know about major defects as early as possible."
+        claims: [IS23-011]
+      - text: "Many cardiac structures can still be assessed satisfactorily after 22 weeks."
+        claims: [IS23-097]
+
+  - heading: "Probe and frequency"
+    blocks:
+      - text: "Use the highest transducer frequency you can, accepting the trade-off between resolution and penetration."
+        claims: [IS23-012]
+      - text: "The echocardiography guideline prefers curvilinear transducers and recommends a range of 2 to 7 MHz for the late second and third trimesters. Linear and sector transducers may also be used."
+        claims: [AS23-004]
+      - text: "Tissue harmonic imaging improves the image, especially when the abdominal wall is thick and in the third trimester."
+        claims: [IS23-013]
+
+  - heading: "The cardiac image"
+    blocks:
+      - text: "Settings should favour a high frame rate with increased contrast and high resolution. That means low persistence, a single focal zone and a relatively narrow image field. Cardiac presets usually have these built in."
+        claims: [IS23-014]
+      - text: "For fetal echocardiography, frame rates above 30 to 40 Hz are recommended. Narrowing the sector and choosing an appropriate depth help to achieve them."
+        claims: [AS23-007]
+        table:
+          columns: ["Setting", "For the heart"]
+          rows:
+            - ["Frame rate", "High"]
+            - ["Persistence", "Low"]
+            - ["Focal zones", "One"]
+            - ["Image field (sector)", "Relatively narrow"]
+            - ["Contrast and resolution", "Increased contrast, high resolution"]
+            - ["Magnification", "Heart fills at least a third to a half of the screen"]
+
+  - heading: "Zoom and cine-loop"
+    blocks:
+      - text: "Magnify the image until the heart fills at least one third to one half of the screen."
+        claims: [IS23-015]
+      - text: "Use cine-loop to help the real-time assessment, for example to confirm that the valve leaflets move through the whole cardiac cycle."
+        claims: [IS23-016]
+
+  - heading: "Colour, when you use it"
+    blocks:
+      - text: "Keep the colour box narrow and only over the area of interest. This preserves frame rate and the quality of the colour image."
+        claims: [IS23-076]
+      - text: "For a second-trimester screen, set the velocity scale to about 50 to 70 cm/s for the heart and arteries and about 15 to 25 cm/s for veins. Low colour persistence is ordinarily built into cardiac presets."
+        claims: [IS23-077]
+      - kind: framing
+        text: "Unit D7 covers colour in full."
+
+  - heading: "Safety"
+    blocks:
+      - text: "Fetal echocardiography follows the principle of keeping exposure as low as reasonably achievable. Operators should be aware of the thermal and mechanical indices and limit power output and exposure time."
+        claims: [AS23-005]
+      - text: "At an early cardiac screen with Doppler, the thermal index should be 1.0 or less and exposure as short as possible."
+        claims: [IS23-093]
+
+  - heading: "Store what you see"
+    blocks:
+      - text: "Archive still frames and clips of the recommended structures and views so that the examination can be reviewed later for adequacy, labelling laterality and orientation where appropriate."
+        claims: [IS23-017]
+
+  - heading: "When the view is poor"
+    blocks:
+      - text: "Several things affect what can be seen: transducer frequency, maternal body habitus, abdominal scars, gestational age, amniotic fluid volume and fetal position, as well as the examiner's ability."
+        claims: [IS23-005]
+      - text: "When the fetal lie is unfavourable, extra examination time or a second examination may be needed."
+        claims: [IS23-056]
+      - text: "In a fetal echocardiogram, if diagnostic images cannot be obtained after optimisation, the report should state the limitation."
+        claims: [AS23-117]
+
+missing_claims:
+  - "Voluson-specific steps: which preset, where each control is, recommended values on this machine - needs the machine manual and the editor's own settings."
+  - "Depth, gain and dynamic range advice in practical terms - needs a source."
+  - "Techniques for the difficult patient (high BMI, anterior spine, late gestation) - planned for D14; needs a source."
+  - "How frame rate, sector width and depth trade off physically - planned for XA4; needs a physics source."
+
+drills:
+  - id: D2-Q01
+    question: "When is the cardiac screening examination optimally performed?"
+    options:
+      - "Between 18 and 22 weeks"
+      - "Between 11 and 14 weeks"
+      - "Between 24 and 28 weeks"
+      - "After 32 weeks"
+    answer: 0
+    explanation: "The screening examination is performed optimally between 18 and 22 weeks."
+    claims: [IS23-010]
+
+  - id: D2-Q02
+    question: "Compared with a screen at 18 to 20 weeks, a screen at 20 to 22 weeks is:"
+    options:
+      - "Less likely to need an additional scan to complete it"
+      - "More likely to need an additional scan to complete it"
+      - "Not recommended"
+      - "Only possible with colour Doppler"
+    answer: 0
+    explanation: "Screening at 20 to 22 weeks is less likely to need an additional scan for completion than at 18 to 20 weeks."
+    claims: [IS23-011]
+
+  - id: D2-Q03
+    question: "Which transducer frequency should be used for the cardiac screen?"
+    options:
+      - "The highest possible, accepting the trade-off between resolution and penetration"
+      - "The lowest possible, to maximise penetration"
+      - "Always the same frequency as for biometry"
+      - "Frequency does not affect the cardiac image"
+    answer: 0
+    explanation: "The highest possible frequency should be used, accepting the trade-off between resolution and penetration."
+    claims: [IS23-012]
+
+  - id: D2-Q04
+    question: "Which group of settings does the guideline recommend for the cardiac image?"
+    options:
+      - "High frame rate, low persistence, a single focal zone, a relatively narrow field"
+      - "Low frame rate, high persistence, several focal zones, a wide field"
+      - "High frame rate, high persistence, several focal zones, a wide field"
+      - "Low frame rate, low persistence, a single focal zone, a wide field"
+    answer: 0
+    explanation: "Settings should emphasise a high frame rate with increased contrast and resolution, using low persistence, a single focal zone and a relatively narrow field."
+    claims: [IS23-014]
+
+  - id: D2-Q05
+    question: "How large should the heart be on the screen?"
+    options:
+      - "At least one third to one half of the screen"
+      - "About one tenth of the screen"
+      - "As small as possible, to keep the whole fetus in view"
+      - "Size on the screen does not matter"
+    answer: 0
+    explanation: "Magnify until the heart fills at least one third to one half of the screen."
+    claims: [IS23-015]
+
+  - id: D2-Q06
+    question: "When does tissue harmonic imaging help most?"
+    options:
+      - "With increased abdominal wall thickness and in the third trimester"
+      - "Only in the first trimester"
+      - "Only when colour Doppler is on"
+      - "It reduces image quality and should be switched off"
+    answer: 0
+    explanation: "Harmonic imaging improves images, especially with increased abdominal wall thickness and in the third trimester."
+    claims: [IS23-013]
+
+  - id: D2-Q07
+    question: "What is cine-loop used for during the cardiac screen?"
+    options:
+      - "To assist real-time evaluation, such as confirming valve leaflet movement through the cycle"
+      - "To measure the thermal index"
+      - "To replace storing clips"
+      - "To increase the frame rate"
+    answer: 0
+    explanation: "Cine-loop assists real-time evaluation, for example confirming movement of valve leaflets through the cardiac cycle."
+    claims: [IS23-016]
+
+  - id: D2-Q08
+    question: "The fetus is lying so that the outflow tracts cannot be shown. What does the guideline say may be needed?"
+    options:
+      - "Extra examination time or a second examination"
+      - "Reporting the outflow tracts as normal"
+      - "Leaving the outflow tracts out of the screen"
+      - "Immediate referral for fetal echocardiography in every case"
+    answer: 0
+    explanation: "When fetal lie is unfavourable, extra examination time or a second examination may be needed."
+    claims: [IS23-056]
+
+  - id: D2-Q09
+    question: "What frame rate does the echocardiography guideline recommend for scanning the fetal heart?"
+    options:
+      - "Above 30 to 40 Hz"
+      - "About 10 Hz"
+      - "About 15 to 20 Hz"
+      - "Frame rate is not specified"
+    answer: 0
+    explanation: "Frame rates above 30 to 40 Hz are recommended; a narrow sector and appropriate depth help to achieve them."
+    claims: [AS23-007]
+
+checklist:
+  title: "Before the sweep"
+  items:
+    - text: "Highest frequency that still penetrates; harmonics on if the wall is thick or the pregnancy is late"
+      claims: [IS23-012, IS23-013]
+    - text: "High frame rate, low persistence, single focal zone, relatively narrow field (usually the cardiac preset)"
+      claims: [IS23-014]
+    - text: "Heart magnified to at least a third to a half of the screen"
+      claims: [IS23-015]
+    - text: "Cine-loop used to review valve movement"
+      claims: [IS23-016]
+    - text: "If colour is used: narrow box; scale about 50 to 70 cm/s for heart and arteries, about 15 to 25 cm/s for veins (second trimester)"
+      claims: [IS23-076, IS23-077]
+    - text: "Stills and clips of the recommended views stored"
+      claims: [IS23-017]
+    - text: "Unfavourable lie: more time or a second examination"
+      claims: [IS23-056]
+
+video:
+  title: "Setting up for the heart"
+  target_minutes: 5
+  beats:
+    - shot: "Machine console, probe selection"
+      narration: "Use the highest frequency that still gets through. If the wall is thick, or it is the third trimester, harmonics help."
+      claims: [IS23-012, IS23-013]
+    - shot: "Screen: obstetric preset image, then cardiac preset image, side by side"
+      narration: "The heart needs a high frame rate, low persistence, one focal zone and a narrow field. The cardiac preset usually gives you these."
+      claims: [IS23-014]
+    - shot: "Screen: zooming until the heart fills the frame"
+      narration: "Zoom until the heart fills a third to a half of the screen."
+      claims: [IS23-015]
+    - shot: "Screen: scrolling back through a cine-loop"
+      narration: "Use the cine-loop. Watch the valves open and close through the whole cycle."
+      claims: [IS23-016]
+    - shot: "Presenter"
+      narration: "If the fetus is lying badly, take more time, or bring the patient back."
+      claims: [IS23-056]

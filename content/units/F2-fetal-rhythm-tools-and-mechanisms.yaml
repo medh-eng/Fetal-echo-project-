@@ -1,0 +1,281 @@
+# Unit F2. Every text block and drill lists the claim IDs it rests on.
+# AS23 claims: ASE fetal echocardiography guideline (most extracted by ChatGPT on 16 Nov 2026,
+# not yet cross-checked). IS23 claims: ISUOG screening guideline.
+# This unit goes beyond screening. It needs review by a cardiology co-editor before release.
+
+id: F2
+title: "Fetal rhythm: tools and mechanisms"
+tier: Foundation
+version: 0.1
+summary: "How a fetal echocardiogram works out an abnormal rhythm: the tools, and the pattern each common mechanism produces."
+drafted_by: "Claude (16 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "State what counts as an abnormal sustained fetal heart rate."
+  - "Describe how M-mode, pulsed-wave Doppler and tissue Doppler time the atria against the ventricles."
+  - "Tell a premature atrial beat from a premature ventricular beat."
+  - "Recognise the patterns of the main fast and slow rhythms."
+  - "Explain why blocked atrial beats must be told apart from heart block."
+
+sections:
+
+  - heading: "Every study records the rhythm"
+    blocks:
+      - text: "Every fetal echocardiogram must document the fetal heart rate and rhythm."
+        claims: [AS23-073]
+      - text: "When the rhythm is irregular, or the rate is slow or fast, the mechanism should be documented with M-mode, pulsed-wave Doppler or tissue Doppler, alone or together."
+        claims: [AS23-016]
+
+  - heading: "Normal and abnormal rates"
+    blocks:
+      - text: "The usual fetal heart rate is 120 to 160 beats per minute."
+        claims: [AS23-070, IS23-033]
+      - text: "The echocardiography guideline describes a sustained rate below 120 beats per minute as abnormal at any gestation. For the upper limit it gives a range: a sustained rate above 160 to 180 is abnormal."
+        claims: [AS23-071, AS23-072]
+      - text: "The screening guideline sets its thresholds for referral at a persistent rate of 110 or less, and 180 or more."
+        claims: [IS23-036, IS23-037]
+
+  - heading: "The principle: time the atria against the ventricles"
+    blocks:
+      - kind: framing
+        text: "In a fetal echocardiogram the rhythm is worked out from movement and flow: when does each atrial contraction happen, when does each ventricular contraction happen, and how are the two related?"
+      - text: "M-mode: the cursor passes through an atrial wall and the free wall of a ventricle together. Its high temporal resolution allows precise timing of atrial and ventricular contraction."
+        claims: [AS23-017]
+      - text: "Pulsed-wave Doppler: two flows are sampled at once so that atrial and ventricular events appear on one trace. The pairs are superior vena cava with ascending aorta, mitral inflow with aortic outflow, and pulmonary artery with pulmonary vein."
+        claims: [AS23-018]
+      - text: "In suspected supraventricular tachycardia the guideline advises against the mitral inflow and aortic outflow pair, because the inflow waves fuse and the atrial timing is hidden."
+        claims: [AS23-078]
+      - text: "Tissue Doppler at the lateral mitral or tricuspid annulus records myocardial velocities and time intervals and may help in assessing rhythm."
+        claims: [AS23-017, AS23-018, AS23-019, AS23-078]
+        table:
+          columns: ["Tool", "What is recorded together"]
+          rows:
+            - ["M-mode", "An atrial wall and a ventricular free wall"]
+            - ["Pulsed-wave Doppler", "Superior vena cava with ascending aorta"]
+            - ["Pulsed-wave Doppler", "Mitral inflow with aortic outflow (not advised in suspected supraventricular tachycardia)"]
+            - ["Pulsed-wave Doppler", "Pulmonary artery with pulmonary vein"]
+            - ["Tissue Doppler", "Myocardial velocities and time intervals at the lateral mitral or tricuspid annulus"]
+
+  - heading: "Premature beats"
+    blocks:
+      - text: "A premature atrial beat resets the atrial rhythm, so the pause that follows is incomplete."
+        claims: [AS23-074]
+      - text: "With a premature ventricular beat, the interval between successive atrial beats is preserved."
+        claims: [AS23-075]
+      - text: "Ectopic beats are the most common rhythm disturbance and are often benign. Frequent episodes, more often than every three to five beats, or a rhythm that stays irregular for more than one to two weeks, are an indication for further assessment."
+        claims: [IS23-034, IS23-035]
+
+  - heading: "Fast rhythms"
+    blocks:
+      - text: "The patterns the guideline describes for fast rhythms."
+        claims: [AS23-076, AS23-077, AS23-079, AS23-080, AS23-081]
+        table:
+          columns: ["Rhythm", "Atria and ventricles", "Distinguishing feature"]
+          rows:
+            - ["Sinus tachycardia", "One to one, regular", "Long interval from ventricular to atrial contraction; rate below 200 per minute"]
+            - ["Re-entrant supraventricular tachycardia through an accessory pathway (the common form)", "One to one", "Short interval from ventricle to atrium"]
+            - ["Ectopic atrial tachycardia; permanent junctional reciprocating tachycardia", "One to one", "Long interval from ventricle to atrium"]
+            - ["Atrial flutter", "Often only every second or third atrial beat reaches the ventricles", "Rapid sawtooth atrial movement on M-mode"]
+            - ["Ventricular tachycardia", "Atrial contractions independent of the ventricular rhythm", "Shown by M-mode or by paired arterial and venous Doppler"]
+      - text: "A persistent rate of 180 or more found at screening should be evaluated further for a tachyarrhythmia or fetal hypoxia."
+        claims: [IS23-037]
+
+  - heading: "Slow rhythms"
+    blocks:
+      - text: "The patterns the guideline describes for slow rhythms."
+        claims: [AS23-082, AS23-083, AS23-084]
+        table:
+          columns: ["Rhythm", "Atria and ventricles", "Distinguishing feature"]
+          rows:
+            - ["Sinus bradycardia", "One to one", "Atrioventricular conduction preserved on simultaneous recording"]
+            - ["Blocked premature atrial beats, repeated", "-", "Can mimic second- or third-degree block and must be told apart from it"]
+            - ["Complete heart block", "Independent of each other", "Ventricular rate typically 50 to 80 per minute"]
+      - text: "The screening guideline names the same three possibilities for a persistent slow rate: frequent blocked atrial ectopic beats, atrioventricular block and sinus bradycardia."
+        claims: [IS23-036]
+      - text: "Tissue Doppler at the lateral tricuspid annulus is named as a possible aid in sinus bradycardia."
+        claims: [AS23-019]
+
+  - heading: "Maternal antibodies"
+    blocks:
+      - text: "When the pregnant patient carries anti-Ro or anti-La antibodies, the fetal mechanical PR interval may be measured to assess atrioventricular conduction."
+        claims: [AS23-085]
+      - text: "The evidence is unclear that routine surveillance of these fetuses reduces progression to higher-degree atrioventricular block."
+        claims: [AS23-086]
+      - text: "Anti-Ro/SSA antibodies are a listed indication for fetal echocardiography."
+        claims: [IS23-083, AS23-025]
+
+  - heading: "When the rhythm is not sinus, read function with care"
+    blocks:
+      - text: "Outside sinus rhythm, reversal of the venous A-wave is an unreliable indicator of worsening cardiac function."
+        claims: [AS23-093]
+
+missing_claims:
+  - "Normal values for the mechanical PR interval - the guideline gives no general range (note on claim AS23-085); needs a source."
+  - "Treatment of fetal arrhythmias (drugs, when to deliver) - planned for XC3, XC4 and Z4; needs a source and a cardiology co-editor."
+  - "The relation of atrial to ventricular rate in ventricular tachycardia - the guideline table is unclear here (note on claim AS23-081); left out until checked."
+  - "Second-degree block and its types; long-QT and other channelopathies - not in the claims held; needs a source."
+  - "Signs of hydrops and how often each arrhythmia causes it - needs a source."
+  - "This unit's ASE claims were extracted by ChatGPT and are not yet cross-checked against the PDF."
+
+drills:
+  - id: F2-Q01
+    question: "According to the echocardiography guideline, a sustained fetal heart rate below what value is abnormal at any gestation?"
+    options:
+      - "120 beats per minute"
+      - "100 beats per minute"
+      - "140 beats per minute"
+      - "80 beats per minute"
+    answer: 0
+    explanation: "A sustained rate below 120 beats per minute is described as abnormal at any gestation. The screening guideline's threshold for referral is a persistent rate of 110 or less."
+    claims: [AS23-071, IS23-036]
+
+  - id: F2-Q02
+    question: "Where is the M-mode cursor placed to time atrial against ventricular contraction?"
+    options:
+      - "Through an atrial wall and a ventricular free wall together"
+      - "Through the ventricular septum alone"
+      - "Through both atria only"
+      - "Along the descending aorta"
+    answer: 0
+    explanation: "The cursor passes through an atrial wall and the free wall of a ventricle so both contractions appear on one trace."
+    claims: [AS23-017]
+
+  - id: F2-Q03
+    question: "Which pair of flows does the guideline list for timing atrial against ventricular events with pulsed-wave Doppler?"
+    options:
+      - "Superior vena cava with ascending aorta"
+      - "Umbilical artery with umbilical vein"
+      - "Middle cerebral artery with ductus venosus"
+      - "Right with left branch pulmonary artery"
+    answer: 0
+    explanation: "The listed pairs are superior vena cava with ascending aorta, mitral inflow with aortic outflow, and pulmonary artery with pulmonary vein."
+    claims: [AS23-018]
+
+  - id: F2-Q04
+    question: "In suspected supraventricular tachycardia, why does the guideline advise against the mitral inflow and aortic outflow recording?"
+    options:
+      - "The inflow waves fuse, which hides the atrial timing"
+      - "The aortic flow disappears at fast rates"
+      - "It exposes the fetus to more ultrasound energy"
+      - "It can only be recorded with continuous-wave Doppler"
+    answer: 0
+    explanation: "At fast rates the mitral inflow waves fuse, so this pair is not advised for timing the atrium in supraventricular tachycardia."
+    claims: [AS23-078]
+
+  - id: F2-Q05
+    question: "After a premature beat, the next atrial beat comes earlier than a full compensatory pause would predict. Which kind of premature beat resets the atrial rhythm like this?"
+    options:
+      - "A premature atrial beat"
+      - "A premature ventricular beat"
+      - "Neither"
+      - "Both in the same way"
+    answer: 0
+    explanation: "A premature atrial beat resets the atrial rhythm, producing an incomplete compensatory pause. With a premature ventricular beat the interval between atrial beats is preserved."
+    claims: [AS23-074, AS23-075]
+
+  - id: F2-Q06
+    question: "A tachycardia shows one atrial beat for each ventricular beat, with a short interval from ventricle to atrium. Which mechanism fits the guideline's description?"
+    options:
+      - "The common re-entrant supraventricular tachycardia through an accessory pathway"
+      - "Sinus tachycardia"
+      - "Atrial flutter"
+      - "Complete heart block"
+    answer: 0
+    explanation: "Pathway-mediated re-entrant tachycardia pairs atrial and ventricular beats one to one with a short ventriculo-atrial interval. Sinus tachycardia has a long interval."
+    claims: [AS23-077, AS23-076]
+
+  - id: F2-Q07
+    question: "M-mode shows rapid sawtooth atrial movement, with only every second atrial beat followed by a ventricular beat. Which rhythm is described?"
+    options:
+      - "Atrial flutter"
+      - "Sinus tachycardia"
+      - "Sinus bradycardia"
+      - "Premature ventricular beats"
+    answer: 0
+    explanation: "Atrial flutter produces rapid sawtooth atrial motion on M-mode, often with only every second or third atrial beat conducted."
+    claims: [AS23-080]
+
+  - id: F2-Q08
+    question: "Atrial and ventricular contractions are completely independent, and the ventricular rate is 60 per minute. Which rhythm is described?"
+    options:
+      - "Complete heart block"
+      - "Sinus bradycardia"
+      - "Atrial flutter"
+      - "Sinus tachycardia"
+    answer: 0
+    explanation: "In complete heart block the atria and ventricles contract independently, with a ventricular rate typically between 50 and 80 per minute."
+    claims: [AS23-083]
+
+  - id: F2-Q09
+    question: "Why must repeated blocked premature atrial beats be identified carefully?"
+    options:
+      - "They can mimic second- or third-degree atrioventricular block"
+      - "They always progress to ventricular tachycardia"
+      - "They cannot be recorded with M-mode"
+      - "They are a form of sinus tachycardia"
+    answer: 0
+    explanation: "Repeated blocked premature atrial contractions can mimic atrioventricular block and must be distinguished from it."
+    claims: [AS23-084]
+
+  - id: F2-Q10
+    question: "The rate is slow, with one atrial contraction before every ventricular contraction and preserved conduction. Which rhythm is described?"
+    options:
+      - "Sinus bradycardia"
+      - "Complete heart block"
+      - "Atrial flutter"
+      - "Blocked atrial bigeminy"
+    answer: 0
+    explanation: "In sinus bradycardia simultaneous atrial and ventricular recordings show preserved atrioventricular conduction."
+    claims: [AS23-082]
+
+  - id: F2-Q11
+    question: "What does the guideline say about routine surveillance of fetuses exposed to anti-Ro/La antibodies?"
+    options:
+      - "Evidence is unclear that it reduces progression to higher-degree block"
+      - "It is proven to prevent complete heart block"
+      - "It is harmful and should not be done"
+      - "It is needed only after birth"
+    answer: 0
+    explanation: "The evidence is unclear that routine surveillance reduces progression to higher-degree atrioventricular block."
+    claims: [AS23-086]
+
+checklist:
+  title: "Working out a rhythm"
+  items:
+    - text: "Rate and rhythm documented"
+      claims: [AS23-073]
+    - text: "If abnormal: mechanism documented with M-mode, pulsed-wave Doppler or tissue Doppler"
+      claims: [AS23-016]
+    - text: "Atrial and ventricular events shown on one trace"
+      claims: [AS23-017, AS23-018]
+    - text: "Fast rhythm: mitral inflow and aortic outflow pair avoided for atrial timing"
+      claims: [AS23-078]
+    - text: "Slow rhythm: blocked atrial beats told apart from atrioventricular block"
+      claims: [AS23-084]
+    - text: "Venous A-wave reversal not relied on as a sign of worsening function when the rhythm is not sinus"
+      claims: [AS23-093]
+
+video:
+  title: "Which contracts when"
+  target_minutes: 7
+  beats:
+    - shot: "Presenter with a simple ladder diagram"
+      narration: "To name a rhythm, you need to know when the atria contract, when the ventricles contract, and how the two are linked."
+      claims: []
+    - shot: "M-mode trace, atrial and ventricular walls labelled"
+      narration: "M-mode. One line through an atrial wall and a ventricular free wall. Both movements on one trace."
+      claims: [AS23-017]
+    - shot: "Doppler trace of superior vena cava and aorta, A and V marked"
+      narration: "Or pulsed-wave Doppler across two flows together, such as the superior vena cava and the ascending aorta, so atrial and ventricular events appear on one trace."
+      claims: [AS23-018]
+    - shot: "Animated ladder diagram: premature atrial beat, then premature ventricular beat"
+      narration: "A premature atrial beat resets the atrial rhythm. A premature ventricular beat leaves the atrial rhythm undisturbed."
+      claims: [AS23-074, AS23-075]
+    - shot: "Animated ladder diagrams of flutter and complete block"
+      narration: "Flutter: fast sawtooth atria, and only some beats get through. Complete block: atria and ventricles each keep their own time, the ventricles slow."
+      claims: [AS23-080, AS23-083]
+    - shot: "Animated ladder diagram of blocked atrial bigeminy beside complete block"
+      narration: "And the trap. Blocked early atrial beats can look like heart block. They must be told apart."
+      claims: [AS23-084]

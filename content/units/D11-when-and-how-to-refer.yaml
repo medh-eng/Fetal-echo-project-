@@ -5,17 +5,17 @@ id: D11
 title: "When and how to refer"
 tier: Detect
 version: 0.1
-summary: "Which findings and which risk factors lead to a fetal echocardiogram, which do not, and who should do it."
+summary: "Which findings and risk factors are indications for a fetal echocardiogram, how the guideline grades the others, and who should do it."
 drafted_by: "Claude (15 Nov 2026)"
 audited_by: null
 signed_by: null
 
 objectives:
-  - "Apply the basic rule: an abnormal or suspicious screen leads to fetal echocardiography."
+  - "Apply the basic rule: a fetus with a suspected abnormality on screening is a candidate for fetal echocardiography."
   - "List the fetal findings that are indications for fetal echocardiography."
   - "List the maternal and family factors that are indications."
   - "Tell apart factors where echocardiography may be considered and factors with insufficient evidence."
-  - "Say who should perform the fetal echocardiogram and what counselling must take into account."
+  - "Say who should perform the fetal echocardiogram and what counselling should take into account."
 
 sections:
 
@@ -23,33 +23,36 @@ sections:
     blocks:
       - text: "A fetus with a known or suspected abnormality on cardiac screening is a candidate for fetal echocardiography."
         claims: [IS23-078]
-      - text: "Screening programmes with a low threshold for referral perform better."
+      - text: "The echocardiography guideline says the same from its side: suspected cardiac disease on obstetric screening requires fetal echocardiography even when there is no other risk factor."
+        claims: [AS23-023]
+      - text: "A low threshold for referral is one of the measures that can improve a screening programme."
         claims: [IS23-006]
-      - kind: framing
-        text: "You do not need a diagnosis to refer. 'One plane did not meet its criteria' is reason enough."
+      - text: "You do not need to name the lesion: suspicion on an adequate view is enough. A view that could not be obtained is a different situation. With an unfavourable fetal lie, extra examination time or a second examination may be needed."
+        claims: [IS23-078, IS23-056]
 
   - heading: "Risk factors add to screening; they do not replace it"
     blocks:
-      - text: "When there is a significant risk factor for congenital heart disease, fetal echocardiography is indicated in addition to routine screening. How this is arranged depends on local resources, the setting, the availability of examiners and the screening results."
+      - text: "When there is a significant risk factor for congenital heart disease, fetal echocardiography is indicated in addition to routine screening, depending on local resources, the setting, the availability of examiners and the screening results."
         claims: [IS23-079]
-      - text: "A high proportion of detectable heart disease occurs in pregnancies with no risk factor and no other anomaly. A clean history never excuses a poor screen."
+      - text: "A high proportion of detectable heart disease occurs in pregnancies with no risk factor and no extracardiac anomaly. This is why quality screening and timely referral matter."
         claims: [IS23-080]
 
   - heading: "Fetal indications"
     blocks:
       - text: "The guideline lists these fetal factors as common indications for fetal echocardiography."
-        claims: [IS23-082]
+        claims: [IS23-082, IS23-081]
         table:
           columns: ["Fetal factor", "Detail"]
           rows:
-            - ["Suspected structural heart anomaly", ""]
-            - ["Extracardiac anomaly", "Of a kind associated with heart disease"]
+            - ["Suspected structural anomaly of the heart", ""]
+            - ["Extracardiac structural anomaly", "With a known association with congenital heart disease"]
             - ["Suspected abnormal function or a large heart", ""]
             - ["Hydrops", ""]
             - ["Persistent tachycardia", "180 beats per minute or more"]
-            - ["Suspected heart block or persistent bradycardia", "110 beats per minute or less"]
+            - ["Suspected heart block", ""]
+            - ["Persistent bradycardia", "110 beats per minute or less"]
             - ["Irregular rhythm", "Frequent or persistent"]
-            - ["Increased nuchal translucency", "3.5 mm or more"]
+            - ["Increased nuchal translucency", "3.5 mm or more at 11 to 14 weeks"]
             - ["Genetic abnormality", "Confirmed or suspected"]
             - ["Monochorionic twins", "If resources allow"]
       - text: "A nuchal translucency of 3.5 mm or more at 11 to 14 weeks remains an indication even if the measurement later becomes normal."
@@ -73,7 +76,7 @@ sections:
         table:
           columns: ["Factor", "Detail"]
           rows:
-            - ["Congenital heart disease in a first-degree relative of the fetus", ""]
+            - ["Congenital heart disease in a first-degree relative of the fetus", "Parents, siblings and half-siblings"]
             - ["Mendelian disease with childhood cardiac manifestations", "In a first- or second-degree relative"]
             - ["Pregestational diabetes", "Whatever the HbA1c"]
             - ["Anti-Ro/SSA antibodies", ""]
@@ -97,27 +100,40 @@ sections:
 
   - heading: "Not enough evidence of raised risk"
     blocks:
-      - text: "For these factors the guideline finds insufficient evidence that risk is significantly above baseline. It does not list them as indications for fetal echocardiography."
+      - text: "For each of these factors, taken on its own, the guideline finds insufficient evidence that the risk of congenital heart disease is significantly above baseline."
         claims: [IS23-085]
         table:
           columns: ["Factor", "Detail"]
           rows:
-            - ["Obesity", "BMI 35 or more"]
+            - ["Obesity", "BMI 35 kg/m2 or more"]
             - ["SSRI exposure", "Other than paroxetine"]
-            - ["Non-cardiac soft markers", ""]
+            - ["Non-cardiac soft markers", "For aneuploidy"]
             - ["Abnormal serum analytes", ""]
             - ["Single umbilical artery", "Isolated"]
             - ["Gestational diabetes", "Diagnosed after the second trimester"]
             - ["Warfarin or alcohol exposure", ""]
             - ["Echogenic intracardiac focus", ""]
-            - ["Fever, or viral infection with seroconversion only", ""]
-            - ["Heart disease in a distant relative", "Isolated; more distant than second degree"]
+            - ["Prenatal fever, or viral infection with seroconversion only", ""]
+            - ["Congenital heart disease in a distant relative", "Isolated; more distant than second degree"]
+      - text: "This is a statement about the factor alone. A suspected abnormality on the screen makes the fetus a candidate for fetal echocardiography whatever the history, and a significant risk factor that is also present still counts."
+        claims: [IS23-078, IS23-079]
+      - text: "These pregnancies have the same routine cardiac screen as every other: situs, four-chamber view, outflow tracts and great-vessel views."
+        claims: [IS23-018]
+
+  - heading: "How the echocardiography guideline compares"
+    blocks:
       - kind: framing
-        text: "These patients still need a careful routine screen, like everyone else."
+        text: "The American echocardiography guideline has its own table of indications. Most entries agree with the screening guideline. The points below are where its wording adds something."
+      - text: "It lists as indications: pregestational diabetes, maternal SSA/SSB antibodies, congenital heart disease in a first-degree relative, hydrops, an extracardiac anomaly, monochorionic twins, and a nuchal translucency of 3.5 mm or more."
+        claims: [AS23-024, AS23-025, AS23-026, AS23-028, AS23-029, AS23-030, AS23-032]
+      - text: "After IVF, or with a nuchal translucency of 3.0 to 3.4 mm, it says fetal echocardiography may be considered, and that after a normal cardiac screen the decision should take the accuracy of local screening into account."
+        claims: [AS23-027, AS23-031]
+      - text: "An isolated single umbilical artery does not by itself indicate fetal echocardiography when the second-trimester cardiac screen is normal."
+        claims: [AS23-033]
 
   - heading: "Who does the echocardiogram, and what families need"
     blocks:
-      - text: "Fetal echocardiography is best performed by a trained specialist who knows both prenatal diagnosis and the course after birth."
+      - text: "Fetal echocardiography is best performed by a trained specialist who is familiar with prenatal diagnosis and with the course, management and prognosis after birth."
         claims: [IS23-086]
       - text: "Counselling after a heart problem is detected should take into account the high prevalence of psychological distress in the mother."
         claims: [IS23-086]
@@ -132,9 +148,9 @@ missing_claims:
 
 drills:
   - id: D11-Q01
-    question: "One plane of the sweep does not meet its criteria, but you cannot say what the lesion is. What next?"
+    question: "On a technically adequate view, the anatomy in one plane looks abnormal, but you cannot say what the lesion is. What next?"
     options:
-      - "Refer for fetal echocardiography: a suspected abnormality is enough"
+      - "The fetus is a candidate for fetal echocardiography: a suspected abnormality is enough"
       - "Wait until you can name the lesion"
       - "Report the heart as normal if the four-chamber view is normal"
       - "Repeat the scan after delivery"
@@ -143,12 +159,12 @@ drills:
     claims: [IS23-078]
 
   - id: D11-Q02
-    question: "The mother has pregestational diabetes with a good HbA1c. Is fetal echocardiography indicated?"
+    question: "The mother has pregestational diabetes with a good HbA1c. How does the guideline list this?"
     options:
-      - "Yes: pregestational diabetes is an indication whatever the HbA1c"
-      - "No: only if the HbA1c is raised"
-      - "No: diabetes is not a risk factor"
-      - "Only if the screening scan is abnormal"
+      - "As an indication for fetal echocardiography, whatever the HbA1c"
+      - "As an indication only if the HbA1c is raised"
+      - "Among factors with insufficient evidence of raised risk"
+      - "Among factors where echocardiography may be considered"
     answer: 0
     explanation: "Pregestational diabetes is listed as an indication regardless of HbA1c."
     claims: [IS23-083]
@@ -176,14 +192,14 @@ drills:
     claims: [IS23-085]
 
   - id: D11-Q05
-    question: "The fetus's older sibling had surgery for congenital heart disease. Is fetal echocardiography indicated?"
+    question: "The fetus's older sibling had surgery for congenital heart disease. How does the guideline list this?"
     options:
-      - "Yes: heart disease in a first-degree relative of the fetus is an indication"
-      - "No: only parents count as relatives"
-      - "It may be considered but is not indicated"
-      - "No: family history does not change risk"
+      - "As an indication: congenital heart disease in a first-degree relative of the fetus"
+      - "Not listed: only parents count as first-degree relatives"
+      - "Among factors where echocardiography may be considered"
+      - "Among factors with insufficient evidence of raised risk"
     answer: 0
-    explanation: "A first-degree relative of the fetus with congenital heart disease is a listed indication. A second-degree relative falls under 'may be considered'."
+    explanation: "Congenital heart disease in a first-degree relative of the fetus (parents, siblings and half-siblings) is a listed indication. A second-degree relative falls under 'may be considered'."
     claims: [IS23-083, IS23-084]
 
   - id: D11-Q06
@@ -220,12 +236,12 @@ drills:
     claims: [IS23-084, IS23-085]
 
   - id: D11-Q09
-    question: "The mother is known to have anti-Ro/SSA antibodies. The screening scan is normal. Is fetal echocardiography indicated?"
+    question: "The mother is known to have anti-Ro/SSA antibodies. How does the guideline list this?"
     options:
-      - "Yes: anti-Ro/SSA antibodies are a listed indication"
-      - "No: only if the heart rate is already slow"
-      - "No: antibodies are not relevant to the fetal heart"
-      - "Only after 32 weeks"
+      - "As an indication for fetal echocardiography"
+      - "As an indication only once the fetal heart rate is slow"
+      - "Among factors with insufficient evidence of raised risk"
+      - "It is not mentioned"
     answer: 0
     explanation: "Anti-Ro/SSA antibodies are among the listed maternal indications."
     claims: [IS23-083]
@@ -244,41 +260,41 @@ drills:
   - id: D11-Q11
     question: "Who is best placed to perform the fetal echocardiogram?"
     options:
-      - "A trained specialist familiar with prenatal diagnosis and with the course after birth"
+      - "A trained specialist familiar with prenatal diagnosis and with postnatal course, management and prognosis"
       - "Any sonologist with a machine that has colour Doppler"
       - "A general paediatrician after delivery"
-      - "The referring doctor, at the next routine visit"
+      - "Whoever made the referral, with or without specialist training"
     answer: 0
-    explanation: "Fetal echocardiography is best performed by a trained specialist familiar with prenatal diagnosis and postnatal course."
+    explanation: "Fetal echocardiography is best performed by a trained specialist familiar with prenatal diagnosis, postnatal course, postnatal management and prognosis."
     claims: [IS23-086]
 
   - id: D11-Q12
-    question: "Why do most babies with heart disease not come from the group with risk factors?"
+    question: "Which observation explains why quality routine screening of every pregnancy matters?"
     options:
-      - "A high proportion of detectable heart disease occurs in pregnancies with no risk factor"
-      - "Risk factors protect against heart disease"
-      - "Pregnancies with risk factors are never screened"
-      - "Heart disease in pregnancies with risk factors cannot be detected"
+      - "A high proportion of prenatally detectable heart disease occurs in pregnancies with no risk factor"
+      - "Risk factors are rarely recorded correctly"
+      - "Fetal echocardiography is unreliable when a risk factor is present"
+      - "Heart disease cannot be detected before birth unless a risk factor is present"
     answer: 0
-    explanation: "This is why quality screening of every pregnancy and timely referral matter."
+    explanation: "A high proportion of prenatally detectable heart disease occurs in pregnancies with no risk factor or extracardiac anomaly, so quality screening and timely referral matter."
     claims: [IS23-080]
 
 checklist:
-  title: "Before you close the report: refer?"
+  title: "Before you close the report: common reasons to refer (not a complete list)"
   items:
-    - text: "Any plane that failed its criteria, or any suspected cardiac abnormality"
-      claims: [IS23-078]
-    - text: "Persistent rate of 110 or below, or 180 or above, or frequent or persistent irregular rhythm"
+    - text: "Suspected cardiac abnormality on any plane. (A view that could not be obtained is an incomplete scan: more time or a second examination.)"
+      claims: [IS23-078, IS23-056]
+    - text: "Rate stays at 110 or below, or at 180 or above; suspected heart block; frequent or persistently irregular rhythm"
       claims: [IS23-082]
-    - text: "Ventricles unequal in mid-gestation, or great arteries clearly unequal"
+    - text: "Ventricles asymmetric in mid-gestation: further examination. Major difference in size between the great arteries: further evaluation"
       claims: [IS23-043, IS23-051]
-    - text: "Heart or stomach not on the left; abnormal axis"
+    - text: "Heart or stomach not on the left: suspect a situs abnormality. Abnormal axis: raised risk of a cardiac malformation"
       claims: [IS23-030, IS23-031]
-    - text: "Extracardiac anomaly associated with heart disease, hydrops, or a genetic abnormality"
+    - text: "Extracardiac structural anomaly known to go with heart disease; hydrops; confirmed or suspected genetic abnormality; monochorionic twins if resources allow"
       claims: [IS23-082]
-    - text: "Nuchal translucency was 3.5 mm or more"
+    - text: "Nuchal translucency was 3.5 mm or more at 11 to 14 weeks, even if it later became normal"
       claims: [IS23-081]
-    - text: "Maternal or family indication present: first-degree relative, pregestational diabetes, anti-Ro/SSA, phenylketonuria, retinoids, confirmed fetal infection"
+    - text: "Maternal or family indication: check the full table in this unit (examples: congenital heart disease in a parent, sibling or half-sibling; pregestational diabetes; anti-Ro/SSA antibodies)"
       claims: [IS23-083]
 
 video:
@@ -289,14 +305,14 @@ video:
       narration: "You do not need a diagnosis to refer. A suspicion is enough."
       claims: [IS23-078]
     - shot: "Graphic: list of fetal indications appearing one by one"
-      narration: "From the scan: a suspected heart anomaly, another anomaly linked to the heart, a large or poorly working heart, hydrops, a rate that stays too slow or too fast, an irregular rhythm that persists, a thick nuchal translucency."
+      narration: "Examples from the scan: a suspected structural heart anomaly; an anomaly outside the heart that is known to go with heart disease; suspected poor function or a large heart; hydrops; a rate that stays at one-ten or below, or at one-eighty or above; a frequent or persistently irregular rhythm; a nuchal translucency of three and a half millimetres or more."
       claims: [IS23-082]
     - shot: "Graphic: list of maternal and family indications"
-      narration: "From the history: heart disease in a parent or sibling of this fetus, diabetes before pregnancy, anti-Ro antibodies, phenylketonuria, retinoids, a confirmed fetal infection."
+      narration: "Examples from the history: congenital heart disease in a parent, sibling or half-sibling of this fetus; diabetes before pregnancy; anti-Ro antibodies. The full list is in the unit."
       claims: [IS23-083]
     - shot: "Graphic: 'not enough evidence' list"
-      narration: "And the ones where the evidence for raised risk is not enough: an isolated bright spot in the heart, a single umbilical artery on its own, soft markers outside the heart."
-      claims: [IS23-085]
+      narration: "Some factors, taken alone, lack enough evidence of a clearly raised risk: an isolated bright spot in the heart, a single umbilical artery on its own, soft markers for aneuploidy outside the heart. A suspicious screen still counts, whatever the history."
+      claims: [IS23-085, IS23-078]
     - shot: "Presenter"
-      narration: "Most babies with heart disease have no risk factor. The screen you do on every patient is what finds them."
+      narration: "A high proportion of detectable heart disease is in pregnancies with no risk factor. Quality screening of every pregnancy, and timely referral, are what matter."
       claims: [IS23-080]

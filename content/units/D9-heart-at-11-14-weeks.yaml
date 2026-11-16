@@ -13,7 +13,7 @@ audited_by: null
 signed_by: null
 
 objectives:
-  - "State the place of early cardiac screening: effective, but not routine or mandatory."
+  - "State the place of early cardiac screening in low-risk pregnancies: shown to be effective, but not routine or mandatory."
   - "Give the minimum cardiac check at the early scan."
   - "List the components of a detailed early cardiac screen."
   - "Apply the Doppler safety limits for early pregnancy."
@@ -23,7 +23,7 @@ sections:
 
   - heading: "Where early screening stands"
     blocks:
-      - text: "The screening guideline is written for the second trimester. It also considers screening in the late first and early second trimester where this is technically feasible."
+      - text: "The screening guideline is written for low-risk pregnancies in the second trimester. It also considers screening in the late first and early second trimester where this is technically feasible."
         claims: [IS23-001]
       - text: "First-trimester cardiac screening has been shown to be effective in low-risk populations. It is neither routine nor mandatory. Where possible, it can be done at the nuchal translucency scan."
         claims: [IS23-090]
@@ -39,7 +39,7 @@ sections:
 
   - heading: "Equipment"
     blocks:
-      - text: "High-frequency transabdominal transducers are recommended for early screening; a transvaginal transducer may be used. Colour Doppler, high-quality power Doppler, or both are used in addition to grey-scale."
+      - text: "High-frequency transabdominal transducers are recommended for early screening; a transvaginal transducer may be used. Colour Doppler, or high-quality power Doppler with bidirectional flow mapping, or both, are used in addition to grey-scale."
         claims: [IS23-092]
       - text: "The echocardiography guideline notes that frequencies of 5 to 12 MHz may help in the late first and early second trimesters."
         claims: [AS23-004]
@@ -48,7 +48,7 @@ sections:
     blocks:
       - text: "In early screening, use Doppler mainly for the four-chamber view and the three-vessel-and-trachea view. Keep the thermal index at 1.0 or less. Keep exposure as short as possible, usually no more than 5 to 10 minutes."
         claims: [IS23-093]
-      - text: "The echocardiography guideline gives the same direction for early gestation: thermal and mechanical indices at or below 1.0, and Doppler used sparingly."
+      - text: "For early fetal echocardiography, which is a different examination, the echocardiography guideline says to keep the thermal and mechanical indices at or below 1.0 and to use Doppler sparingly."
         claims: [AS23-006]
 
   - heading: "A detailed early cardiac screen"
@@ -58,20 +58,33 @@ sections:
         table:
           columns: ["Component", "Mode", "What to show"]
           rows:
-            - ["Situs and cardiac axis", "Grey-scale", "Position and axis of the heart"]
-            - ["Four-chamber view", "Grey-scale, and colour or power Doppler", "The four-chamber view on both"]
-            - ["Three-vessel-and-trachea view", "Colour or power Doppler", "Aortic and ductal arches, both on the left"]
+            - ["Situs and cardiac axis", "Grey-scale", "Situs and cardiac axis"]
+            - ["Four-chamber view", "Grey-scale, and colour and/or bidirectional power Doppler", "The four-chamber view on both"]
+            - ["Three-vessel-and-trachea view", "Colour and/or bidirectional power Doppler", "Aortic and ductal arches, both on the left"]
+      - text: "Two practical points for the early four-chamber view with colour: a posterior fetal spine is the preferred position for showing inflow into both ventricles, and the balance between colour and grey-scale is adjusted to favour the flow signal in the small structures."
+        claims: [IS23-102, IS23-101]
 
   - heading: "Limits of the early scan"
     blocks:
       - text: "Outflow-tract views are often difficult in early gestation and are prone to both false-negative and false-positive diagnosis."
         claims: [IS23-095]
-      - text: "Any suspicion at the early scan should lead to referral for early fetal echocardiography."
+      - text: "Suspicion of congenital heart disease at the early scan should lead to referral for early fetal echocardiography."
         claims: [IS23-095]
       - text: "Some lesions are not discovered until later in pregnancy."
         claims: [IS23-008]
+
+  - heading: "What the echocardiography guideline adds"
+    blocks:
       - kind: framing
-        text: "Treat an early look as a first look. See the first item under missing claims: the wording on the later screen is waiting for a source or the editor."
+        text: "These points come from the guideline on fetal echocardiography, the specialist examination. They are included so the screener knows what happens after an early referral."
+      - text: "Suspicion of a cardiac anomaly in the late first trimester should prompt consideration of an early fetal echocardiogram, depending on available expertise and resources. Evidence is insufficient to recommend fetal echocardiography before 16 weeks for low-risk pregnancies."
+        claims: [AS23-102, AS23-103]
+      - text: "Early imaging has limits. Pulmonary and systemic veins are particularly difficult to assess, and limited resolution can hide subtle defects, including valve lesions."
+        claims: [AS23-106, AS23-107]
+      - text: "When early findings are uncertain or suspicious, a repeat examination within 1 to 2 weeks is suggested. Even after a normal detailed early examination, a repeat study is recommended at 18 to 20 weeks."
+        claims: [AS23-108, AS23-109]
+      - text: "Early counselling and reporting should mention the possibility of missed diagnoses and of lesions that progress later."
+        claims: [AS23-110]
 
   - heading: "Nuchal translucency and the heart"
     blocks:
@@ -81,7 +94,7 @@ sections:
         claims: [IS23-084]
 
 missing_claims:
-  - "An explicit statement that a normal early cardiac scan does not replace the second-trimester screen - implied by the guideline's scope; needs a direct source or the editor's wording."
+  - "An explicit statement, for screening, that a normal early cardiac scan does not replace the second-trimester screen. The echocardiography guideline says this for early fetal echocardiography (claim AS23-109); the editor to decide whether the course states it for screening (question Q2)."
   - "Other first-trimester markers linked to heart disease (tricuspid regurgitation, ductus venosus flow) - not in the screening guideline; needs a source."
   - "Which lesions can and cannot be detected at 11 to 14 weeks, with detection rates - needs a source."
   - "Transvaginal technique for the early heart - needs a source."
@@ -93,7 +106,7 @@ drills:
       - "Shown to be effective, but neither routine nor mandatory"
       - "Mandatory at every nuchal translucency scan"
       - "Not possible before 18 weeks"
-      - "It replaces the second-trimester cardiac screen"
+      - "Shown to be ineffective in low-risk populations"
     answer: 0
     explanation: "Early screening has been shown to be effective in low-risk populations but is neither routine nor mandatory; where possible it can be done at the nuchal translucency scan."
     claims: [IS23-090]
@@ -128,11 +141,11 @@ drills:
       - "Both outflow tracts; pulmonary veins; aortic isthmus"
       - "Upper abdomen; LVOT; RVOT"
     answer: 0
-    explanation: "Situs and cardiac axis on grey-scale; four-chamber view on grey-scale and colour or power Doppler; three-vessel-and-trachea view on colour or power Doppler."
+    explanation: "Situs and cardiac axis on grey-scale; four-chamber view on grey-scale and on colour and/or bidirectional power Doppler; three-vessel-and-trachea view on colour and/or bidirectional power Doppler."
     claims: [IS23-094]
 
   - id: D9-Q05
-    question: "At an early screen, what should the three-vessel-and-trachea view show on colour or power Doppler?"
+    question: "At a detailed early screen, what should the three-vessel-and-trachea view show on colour or bidirectional power Doppler?"
     options:
       - "Aortic and ductal arches, both on the left"
       - "One arch on each side of the trachea"
@@ -151,7 +164,7 @@ drills:
       - "No limit applies to colour Doppler"
     answer: 0
     explanation: "The thermal index should be 1.0 or less, with exposure as short as possible."
-    claims: [IS23-093, AS23-006]
+    claims: [IS23-093]
 
   - id: D9-Q07
     question: "How long should Doppler exposure usually last at an early cardiac screen?"
@@ -167,16 +180,16 @@ drills:
   - id: D9-Q08
     question: "At 12 weeks the outflow tracts look possibly abnormal but the view is difficult. What next?"
     options:
-      - "Refer for early fetal echocardiography"
+      - "Refer for early fetal echocardiography: heart disease is suspected"
       - "Report a definite outflow-tract anomaly"
       - "Report the heart as normal, because early outflow views are unreliable"
       - "Wait until the third trimester"
     answer: 0
-    explanation: "Early outflow-tract views are prone to false-positive and false-negative diagnosis; any suspicion at the early scan should lead to referral for early fetal echocardiography."
+    explanation: "Early outflow-tract views are prone to false-positive and false-negative diagnosis; suspicion of congenital heart disease at the early scan should lead to referral for early fetal echocardiography."
     claims: [IS23-095]
 
   - id: D9-Q09
-    question: "Nuchal translucency was 3.8 mm at 12 weeks. At 16 weeks the nuchal fold is normal. Is detailed cardiac evaluation still indicated?"
+    question: "Nuchal translucency was 3.8 mm at 12 weeks. A later measurement fell within the normal range. Is detailed cardiac evaluation still indicated?"
     options:
       - "Yes: 3.5 mm or more is an indication even if the measurement later becomes normal"
       - "No: the measurement has resolved"
@@ -187,7 +200,7 @@ drills:
     claims: [IS23-081]
 
   - id: D9-Q10
-    question: "Nuchal translucency is 3.2 mm. What does the guideline say about fetal echocardiography?"
+    question: "At the 11 to 14 week scan nuchal translucency is 3.2 mm. What does the guideline say about fetal echocardiography?"
     options:
       - "It may be considered"
       - "It is not relevant at this measurement"
@@ -211,21 +224,21 @@ drills:
 checklist:
   title: "Early cardiac screen"
   items:
-    - text: "Heart within the chest"
+    - text: "Minimum: heart within the chest"
       claims: [IS23-091]
-    - text: "Rhythm regular"
+    - text: "Minimum: rhythm regular"
       claims: [IS23-091]
-    - text: "Situs and cardiac axis on grey-scale"
+    - text: "If a detailed early screen is done: situs and cardiac axis on grey-scale"
       claims: [IS23-094]
-    - text: "Four-chamber view on grey-scale and on colour or power Doppler"
+    - text: "If a detailed early screen is done: four-chamber view on grey-scale and on colour and/or bidirectional power Doppler"
       claims: [IS23-094]
-    - text: "Three-vessel-and-trachea view on colour or power Doppler: both arches on the left"
+    - text: "If a detailed early screen is done: three-vessel-and-trachea view on colour and/or bidirectional power Doppler, both arches on the left"
       claims: [IS23-094]
-    - text: "Thermal index 1.0 or less; Doppler time kept short"
+    - text: "When Doppler is used: thermal index 1.0 or less; exposure kept short"
       claims: [IS23-093]
-    - text: "Nuchal translucency 3.5 mm or more: detailed cardiac evaluation arranged"
+    - text: "Nuchal translucency 3.5 mm or more at 11 to 14 weeks: detailed cardiac evaluation arranged"
       claims: [IS23-081]
-    - text: "Any suspicion: referred for early fetal echocardiography"
+    - text: "Suspicion of heart disease: referred for early fetal echocardiography"
       claims: [IS23-095]
 
 video:
@@ -233,17 +246,17 @@ video:
   target_minutes: 5
   beats:
     - shot: "Presenter to camera"
-      narration: "At the early scan, a look at the heart is useful but it is not compulsory. The least you confirm is a heart inside the chest, beating regularly."
+      narration: "In a low-risk pregnancy, a look at the heart at the early scan can be done where possible. It is not compulsory. The least you confirm is a heart inside the chest, beating regularly."
       claims: [IS23-090, IS23-091]
     - shot: "Machine console: transducer selection and thermal index display"
-      narration: "High-frequency probe. Thermal index one or less. Doppler only where it counts, and briefly."
+      narration: "High-frequency transabdominal probe; a transvaginal probe can be used. Thermal index one or less. Doppler mainly on two views, and briefly."
       claims: [IS23-092, IS23-093]
     - shot: "Early four-chamber clip, grey-scale then colour"
-      narration: "Situs and axis on grey-scale. Four chambers, then colour: two streams filling two ventricles."
+      narration: "Situs and axis on grey-scale. Four chambers on grey-scale, then with colour or bidirectional power Doppler."
       claims: [IS23-094]
     - shot: "Early three-vessel-and-trachea clip in colour"
-      narration: "Slide up with colour on. Two arches, both on the left."
-      claims: [IS23-094]
+      narration: "The three-vessel-and-trachea view with colour or bidirectional power Doppler. Two arches, both on the left. Keep Doppler time short."
+      claims: [IS23-094, IS23-093]
     - shot: "Presenter"
-      narration: "Outflow tracts are hard this early and easy to get wrong. If anything looks doubtful, refer for an early fetal echocardiogram."
+      narration: "Outflow tracts are hard this early and easy to get wrong. If you suspect heart disease, refer for an early fetal echocardiogram."
       claims: [IS23-095]

@@ -4,10 +4,10 @@
 id: D1
 title: "The normal heart in five views"
 tier: Detect
-version: 0.2
+version: 0.3
 drafted_by: "Claude (13 Nov 2026)"
 audited_by: null
-signed_by: "Dr Kunda Shahane, 2026-11-13 (approved review sheet for v0.2 in full; approval relayed by the project owner)"
+signed_by: null  # v0.2 was signed by Dr Kunda Shahane on 2026-11-13. v0.3 restores qualifiers in five claims after the cross-check of 16 Nov; she needs to re-approve those five (see dist/editor/review-pack).
 
 objectives:
   - "Perform the five-plane sweep in order and say what each plane must show."
@@ -46,7 +46,7 @@ sections:
     blocks:
       - text: "The examination is one continuous transverse sweep towards the fetal head through five planes: upper abdomen, four-chamber view, left ventricular outflow tract, right ventricular outflow tract with the three-vessel view, and the three-vessel-and-trachea view."
         claims: [IS23-022, IS23-023, IS23-055]
-      - text: "The upper planes are a continuum, not fixed pictures. They are judged more reliably live or on a clip than from stills."
+      - text: "The upper planes are a continuum, not fixed pictures. They are likely to be judged more reliably live or on a clip than from stills alone."
         claims: [IS23-063]
       - text: "If the fetus is lying badly, take more time or bring the patient back."
         claims: [IS23-056]
@@ -70,7 +70,7 @@ sections:
         claims: [IS23-031, IS23-032]
       - text: "Rate is 120 to 160 beats per minute and regular. Occasional ectopic beats are common and usually harmless. Refer if they are frequent or the rhythm stays irregular for more than a week or two."
         claims: [IS23-033, IS23-034, IS23-035]
-      - text: "A brief slow rate from probe pressure is normal. A rate that stays at 110 or below, or at 180 or above, needs specialist assessment."
+      - text: "A brief slow rate, associated with probe pressure, is seen in normal second-trimester fetuses. A rate that stays at 110 or below in a well fetus, or at 180 or above, needs specialist assessment."
         claims: [IS23-036, IS23-037]
 
   - heading: "Plane II: the four-chamber criteria"
@@ -85,7 +85,7 @@ sections:
         claims: [IS23-043]
       - text: "Septum: follow it from apex to crux. It is best seen with the beam at right angles; with the beam along the septum, drop-out can fake a defect near the crux."
         claims: [IS23-044, IS23-045]
-      - text: "Valves: two, opening separately and freely, with the tricuspid attached slightly nearer the apex than the mitral. Loss of that offset is a key sign of atrioventricular septal defect."
+      - text: "Valves: two, opening separately and freely, with the tricuspid attached slightly nearer the apex than the mitral. Abnormal alignment of the two valves can be a key finding in anomalies such as atrioventricular septal defect."
         claims: [IS23-047]
       - text: "A thin rim of pericardial fluid, up to 2 mm, is normal."
         claims: [IS23-027]
@@ -178,7 +178,7 @@ drills:
       - "Repeat the anomaly scan in the third trimester"
       - "Record it as transient probe-pressure bradycardia"
     answer: 0
-    explanation: "Normal is 120 to 160. Persistent bradycardia at 110 or below needs specialist evaluation; transient slowing from probe pressure does not persist."
+    explanation: "Normal is 120 to 160. Persistent bradycardia at 110 or below needs specialist evaluation; transient slowing associated with probe pressure is seen in normal second-trimester fetuses."
     claims: [IS23-033, IS23-036]
 
   - id: D1-Q05
