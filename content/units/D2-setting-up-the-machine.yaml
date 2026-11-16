@@ -4,7 +4,7 @@
 id: D2
 title: "Setting up the machine for the heart"
 tier: Detect
-version: 0.2
+version: 0.3
 summary: "When to scan, which probe and frequency, the settings that make a cardiac image, and what to do when the view is poor."
 drafted_by: "Claude (16 Nov 2026)"
 audited_by: "ChatGPT (Codex), 16 Nov 2026, against the ledger only; findings applied by Claude (Fable)."
@@ -25,7 +25,7 @@ sections:
         claims: [IS23-010]
       - text: "A screen at 20 to 22 weeks is less likely to need a second scan to complete it than one at 18 to 20 weeks, although many patients prefer to know about major defects as early as possible."
         claims: [IS23-011]
-      - text: "Many cardiac structures can still be assessed satisfactorily after 22 weeks."
+      - text: "Many anatomical structures can still be seen satisfactorily beyond 22 weeks."
         claims: [IS23-097]
 
   - heading: "Probe and frequency"

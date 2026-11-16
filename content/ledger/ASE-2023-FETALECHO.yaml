@@ -278,40 +278,39 @@ claims:
     Doppler and strain jointly for assessing myocardial mechanics. It attributes detection of subclinical dysfunction
     specifically to 2D strain/speckle tracking. Their application in pregnancy needs further investigation.'
 - id: AS23-023
-  statement: Suspected cardiac disease on obstetric screening requires fetal echocardiography even in the absence
-    of other risk factors.
+  statement: "Fetal echocardiography is indicated when the screening ultrasound of the heart is abnormal, whether or not other risk factors are present."
   source: ASE-2023-FETALECHO
-  locator: II. Indications, p. 680; Key Points, p. 682
+  locator: "II. Indications, Table 1 footnote, p. 681; Key Points, p. 682"
   status: ai-extracted
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
   checked_by: null
   verified_by: null
-  note: null
+  note: "REWORDED 17 Nov 2026 by Claude after cross-check: the guideline says 'abnormal results on screening ultrasound' and 'is indicated', not 'suspected cardiac disease' and 'requires'; wording found on pp. 681-682, not p. 680. Was: 'Suspected cardiac disease on obstetric screening requires fetal echocardiography even in the absence of other risk factors.' Awaits re-check by another model."
 - id: AS23-024
   statement: Pregestational diabetes is an indication for fetal echocardiography.
   source: ASE-2023-FETALECHO
   locator: II. Indications, Table 1, ASE column, p. 681
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-025
   statement: Maternal autoimmune disease with SSA/SSB antibody positivity is an indication for fetal echocardiography.
   source: ASE-2023-FETALECHO
   locator: II. Indications, Table 1, ASE column, p. 681
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-026
   statement: A first-degree family history of congenital heart disease is an indication for fetal echocardiography.
   source: ASE-2023-FETALECHO
   locator: II. Indications, Table 1, ASE column, p. 681
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-027
@@ -319,36 +318,36 @@ claims:
     taking local screening accuracy into account.
   source: ASE-2023-FETALECHO
   locator: II. Indications, Table 1, ASE column and referral footnote, p. 681
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-028
   statement: Hydrops on fetal screening is an indication for fetal echocardiography.
   source: ASE-2023-FETALECHO
   locator: II. Indications, Table 1, ASE column, p. 681
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-029
   statement: An extracardiac anomaly on fetal screening is an indication for fetal echocardiography.
   source: ASE-2023-FETALECHO
   locator: II. Indications, Table 1, ASE column, p. 681
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-030
   statement: Monochorionic twins are an indication for fetal echocardiography.
   source: ASE-2023-FETALECHO
   locator: II. Indications, Table 1, ASE column, p. 681
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-031
@@ -356,18 +355,18 @@ claims:
     a normal cardiac screen, the decision should account for local screening accuracy.
   source: ASE-2023-FETALECHO
   locator: II. Indications, Table 1, ASE column and referral footnote, p. 681
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-032
   statement: A nuchal translucency of 3.5 mm or greater is an indication for fetal echocardiography.
   source: ASE-2023-FETALECHO
   locator: II. Indications, Table 1, ASE column, p. 681
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-033
@@ -375,18 +374,18 @@ claims:
     cardiac screen is normal.
   source: ASE-2023-FETALECHO
   locator: II. Indications, Table 1, ASE column and table footnote, p. 681
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-034
   statement: The optimal window for a comprehensive transabdominal fetal echocardiogram is 18–22 weeks.
   source: ASE-2023-FETALECHO
   locator: III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-035
@@ -394,18 +393,18 @@ claims:
     guided by the lesion and clinical concerns.
   source: ASE-2023-FETALECHO
   locator: III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-036
   statement: Near-term reassessment is targeted to findings that could change care immediately after birth.
   source: ASE-2023-FETALECHO
   locator: III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-037
@@ -413,9 +412,9 @@ claims:
     a progressive lesion.
   source: ASE-2023-FETALECHO
   locator: III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-038
@@ -423,86 +422,84 @@ claims:
     is recommended at intervals of up to 2–4 weeks.
   source: ASE-2023-FETALECHO
   locator: III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-039
-  statement: The fetal cardiology and obstetric teams should decide the follow-up interval together.
+  statement: "The follow-up interval should be decided by the fetal cardiology and obstetric teams caring for the patient."
   source: ASE-2023-FETALECHO
   locator: III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682
   status: ai-extracted
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
   checked_by: null
   verified_by: null
-  note: null
+  note: "REWORDED 17 Nov 2026 by Claude after cross-check: 'together' is not in the source. Was: 'The fetal cardiology and obstetric teams should decide the follow-up interval together.' Awaits re-check by another model."
 - id: AS23-040
   statement: If a standard view cannot be obtained, the study is complete only if all the cardiovascular structures
     are adequately seen by another approach or are anatomically absent.
   source: ASE-2023-FETALECHO
   locator: III.H. Complete Fetal Cardiac Assessment Using Segmental Analysis, p. 692
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-041
-  statement: To assign abdominal situs, the examiner evaluates an upper abdominal cross-section showing the stomach,
-    liver, descending aorta and systemic veins in the fetus's established orientation.
+  statement: "To assign abdominal situs, the examiner evaluates an upper abdominal cross-section showing the stomach, liver, descending aorta and systemic veins, with careful attention to fetal lie and transducer orientation."
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Abdominal situs, p. 687
   status: ai-extracted
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
   checked_by: null
   verified_by: null
-  note: null
+  note: "REWORDED 17 Nov 2026 by Claude after cross-check: the source stresses attention to fetal lie and transducer orientation; 'established orientation' understated it. Was: 'To assign abdominal situs, the examiner evaluates an upper abdominal cross-section showing the stomach, liver, descending aorta and systemic veins in the fetus's established orientation.' Awaits re-check by another model."
 - id: AS23-042
   statement: Two-dimensional imaging is required for visceral and atrial situs. Colour Doppler is optional for that
     determination.
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Table 3, situs row, p. 686
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-043
   statement: The cardiac axis must be assessed in two dimensions. Measuring the angle is optional.
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Table 3, cardiac axis row, p. 686
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-044
   statement: A complete study requires a measured cardiac-to-thoracic area ratio.
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Table 3, cardiac size row, p. 686; III.F, Table 4, p. 690
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-045
-  statement: The four-chamber view should be examined in at least two perpendicular planes to account for how the
-    beam meets different structures.
+  statement: "The fetal heart should be examined from at least two orthogonal planes, depending on the size, thickness and orientation of the structure."
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Figure 4, p. 686
   status: ai-extracted
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
   checked_by: null
   verified_by: null
-  note: null
+  note: "REWORDED 17 Nov 2026 by Claude after cross-check: the Figure 4 caption is about the fetal heart in general, not the four-chamber view only. Was: 'The four-chamber view should be examined in at least two perpendicular planes to account for how the beam meets different structures.' Awaits re-check by another model."
 - id: AS23-046
   statement: Systemic venous connections require assessment with both two-dimensional and colour Doppler imaging.
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Table 3, systemic venous connections row, p. 686; III.H, Table
     7, p. 695
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-047
@@ -511,9 +508,9 @@ claims:
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Table 3, pulmonary venous connections row, p. 686; four-chamber
     view, p. 687
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-048
@@ -526,16 +523,16 @@ claims:
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
   checked_by: null
   verified_by: null
-  note: null
+  note: "NOT SETTLED (Claude cross-check, 17 Nov 2026): Table 7 lists further pulmonary veins as 'additional views'; whether that column means optional could not be read from the flattened table text. Needs a reader who can see the PDF page."
 - id: AS23-049
   statement: The atrioventricular connections require assessment on two-dimensional and colour images in the four-chamber
     view.
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Table 3, atrioventricular connections row, p. 686; III.H, Table
     7, p. 695
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-050
@@ -544,9 +541,9 @@ claims:
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Table 3, ventricular septum row, p. 686; four-chamber view,
     p. 687
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-051
@@ -554,9 +551,9 @@ claims:
     and width is optional.
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Table 3, ventricular morphology row, p. 686
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-052
@@ -564,9 +561,9 @@ claims:
     the region above it and the ascending aorta.
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, LV outflow tract, Figure 5, pp. 687–688
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-053
@@ -574,9 +571,9 @@ claims:
     the proximal pulmonary trunk. Its bifurcation may enter this plane.
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, RV outflow tract, pp. 688–689; Figure 6, p. 687
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-054
@@ -584,9 +581,9 @@ claims:
     Measuring their diameters is optional.
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Table 3, proximal branch pulmonary arteries row, p. 686
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-055
@@ -594,9 +591,9 @@ claims:
     in that order from fetal left to right.
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Three-vessel view, p. 689; Figure 6, p. 687
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-056
@@ -604,9 +601,9 @@ claims:
     recorded.
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Three-vessel view, p. 689
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-057
@@ -614,9 +611,9 @@ claims:
     the trachea.
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Three-vessel-and-trachea view, p. 689; Figure 6, p. 687
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-058
@@ -624,45 +621,45 @@ claims:
     view.
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Three-vessel-and-trachea view, p. 689
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-059
   statement: The sagittal bicaval view establishes whether the inferior vena cava is continuous.
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Bicaval view, p. 689; Figure 8A, p. 688
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-060
   statement: The bicaval view shows whether the superior and inferior venae cavae lie on the same side.
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Bicaval view, p. 689; Figure 8A, p. 688
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-061
   statement: The parasagittal aortic arch view should establish continuity from ascending to descending aorta.
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Long-axis view of the aortic arch, p. 689; Figure 8B, p. 688
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-062
   statement: The examiner should assess the ascending aorta, transverse arch and isthmus for hypoplasia.
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Long-axis view of the aortic arch, p. 689
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-063
@@ -670,18 +667,18 @@ claims:
     shape.
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Table 3, aortic and ductal arch morphology row, p. 686
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-064
   statement: A sagittal plane just left of the fetal midline usually shows the long axis of the ductal arch.
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Long-axis view of the ductal arch, p. 689; Figure 8C, p. 688
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-065
@@ -689,9 +686,9 @@ claims:
     should be evaluated using colour or spectral Doppler, or both.
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Long-axis view of the ductal arch, p. 689
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-066
@@ -699,92 +696,90 @@ claims:
     artery wrapping in front of it.
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Short-axis views, p. 689; Figure 7A, p. 688
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-067
   statement: The low short-axis view can show muscular ventricular septal defects when colour Doppler is added.
   source: ASE-2023-FETALECHO
   locator: III.E. Standard Views and Imaging Planes, Short-axis views, p. 689; Figure 7B–C, p. 688
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-068
-  statement: The mitral and tricuspid annular diameters are required measurements in early diastole.
+  statement: "Measurement of the mitral and tricuspid valve annulus in early diastole is required."
   source: ASE-2023-FETALECHO
   locator: III.F. Cardiac Biometry and Measurement Data, Table 4, p. 690
   status: ai-extracted
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
   checked_by: null
   verified_by: null
-  note: null
+  note: "REWORDED 17 Nov 2026 by Claude after cross-check: the source says 'annulus', not 'diameters'. Was: 'The mitral and tricuspid annular diameters are required measurements in early diastole.' Awaits re-check by another model."
 - id: AS23-069
-  statement: The diameters of the aortic and pulmonary valve annuli must be measured in a complete study.
+  statement: "Measurement of the aortic and pulmonary valve annuli is required in a complete study."
   source: ASE-2023-FETALECHO
   locator: III.F. Cardiac Biometry and Measurement Data, p. 689; Table 4, pp. 691–692
   status: ai-extracted
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
   checked_by: null
   verified_by: null
-  note: The text on p. 689 and Table 4 footnote on p. 692 specify systole. The measurement row on p. 691 permits
-    end-diastole or early systole with the valve open or closed.
+  note: "The text on p. 689 and Table 4 footnote on p. 692 specify systole. The measurement row on p. 691 permits end-diastole or early systole with the valve open or closed. REWORDED 17 Nov 2026 by Claude after cross-check: the source text says 'should be measured' and does not say 'diameters'; 'required' rests on Tables 3 and 4. Was: 'The diameters of the aortic and pulmonary valve annuli must be measured in a complete study.' Awaits re-check by another model."
 - id: AS23-070
-  statement: The usual fetal heart rate given for image optimisation is 120–160 beats/min.
+  statement: "The guideline gives 120-160 beats/min as the normal range of fetal heart rate, in explaining the frame rate needed."
   source: ASE-2023-FETALECHO
-  locator: IV.A. Rhythm Disturbances and Tools for Assessment, Figure 12, p. 697; text, p. 699; III.D, p. 684
+  locator: "III.D. Image Optimization, p. 684"
   status: ai-extracted
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
   checked_by: null
   verified_by: null
-  note: The rhythm section gives gestation-specific percentiles in Figure 12 and separate criteria for a sustained
-    abnormal rate on p. 699.
+  note: "The rhythm section gives gestation-specific percentiles in Figure 12 and separate criteria for a sustained abnormal rate on p. 699. REWORDED 17 Nov 2026 by Claude after cross-check: the range is given as the normal fetal heart rate, not as a 'usual rate for image optimisation'. Was: 'The usual fetal heart rate given for image optimisation is 120–160 beats/min.' Awaits re-check by another model."
 - id: AS23-071
   statement: A sustained fetal rate below 120 beats/min is abnormal at any gestation.
   source: ASE-2023-FETALECHO
   locator: IV.A. Rhythm Disturbances and Tools for Assessment, p. 699
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-072
   statement: ASE describes a sustained rate above 160–180 beats/min as abnormal at any gestation.
   source: ASE-2023-FETALECHO
   locator: IV.A. Rhythm Disturbances and Tools for Assessment, p. 699
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: The rhythm section gives a range for the upper threshold and does not select a single cutoff.
 - id: AS23-073
   statement: Every fetal echocardiogram must document the fetal heart rate and rhythm.
   source: ASE-2023-FETALECHO
   locator: IV.A. Rhythm Disturbances and Tools for Assessment, Key Points, p. 699
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-074
   statement: A premature atrial beat resets the atrial rhythm, producing an incomplete compensatory pause.
   source: ASE-2023-FETALECHO
   locator: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698; Figure 16, p. 700
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-075
   statement: With a premature ventricular beat, the interval between successive atrial beats is preserved.
   source: ASE-2023-FETALECHO
   locator: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-076
@@ -796,15 +791,15 @@ claims:
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
   checked_by: null
   verified_by: null
-  note: null
+  note: "NOT SETTLED (Claude cross-check, 17 Nov 2026): The Table 9 cell for sinus tachycardia could not be separated from the neighbouring 'long VA' cell in the flattened text; '<200 beats/min' and 'regular' were found. Needs a reader who can see the PDF page."
 - id: AS23-077
   statement: In the common pathway-mediated reentrant supraventricular tachycardia, atrial and ventricular beats
     pair one-to-one with a short interval from ventricle to atrium.
   source: ASE-2023-FETALECHO
   locator: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698; Figure 14B, p. 699
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-078
@@ -812,9 +807,9 @@ claims:
     to time the atrium because the inflow waves fuse.
   source: ASE-2023-FETALECHO
   locator: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-079
@@ -822,9 +817,9 @@ claims:
     and permanent junctional reciprocating tachycardia.
   source: ASE-2023-FETALECHO
   locator: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-080
@@ -832,9 +827,9 @@ claims:
     atrial beat reaching the ventricles.
   source: ASE-2023-FETALECHO
   locator: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698; Figure 14A, p. 699
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: The source describes conventional M-mode here. No separate recommendation for colour M-mode was identified
     in the guideline.
@@ -843,9 +838,9 @@ claims:
     independent of the ventricular rhythm.
   source: ASE-2023-FETALECHO
   locator: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: The same table row describes the ventricular rate as usually slower than the atrial rate. That wording is
     unclear in context and should be independently checked before teaching a rate relationship.
@@ -858,15 +853,15 @@ claims:
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
   checked_by: null
   verified_by: null
-  note: null
+  note: "NOT SETTLED (Claude cross-check, 17 Nov 2026): Table 9 was found to say only that any modality showing atrial and ventricular contraction simultaneously may be used; 'preserved atrioventricular conduction' was not found in the text. Figure 13 could not be seen. Needs a reader who can see the PDF page."
 - id: AS23-083
   statement: In complete heart block, atrial and ventricular contractions are independent, with a ventricular rate
     typically between 50 and 80 beats/min.
   source: ASE-2023-FETALECHO
   locator: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698; Figure 15, p. 699
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-084
@@ -874,9 +869,9 @@ claims:
     and must be distinguished from it.
   source: ASE-2023-FETALECHO
   locator: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698; Figure 17, p. 700
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-085
@@ -884,9 +879,9 @@ claims:
     to assess atrioventricular conduction.
   source: ASE-2023-FETALECHO
   locator: IV.A. Rhythm Disturbances and Tools for Assessment, p. 699; Figure 13, p. 697
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: The guideline gives no general numerical normal range for the mechanical PR interval. The 100 ms in Figure
     13 refers to isovolumic relaxation time.
@@ -895,48 +890,46 @@ claims:
     higher-degree atrioventricular block.
   source: ASE-2023-FETALECHO
   locator: IV.A. Rhythm Disturbances and Tools for Assessment, p. 699
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-087
   statement: Every fetal echocardiogram must include a qualitative assessment of systolic and diastolic function.
   source: ASE-2023-FETALECHO
   locator: IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Key Points, p. 704
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-088
   statement: When findings raise concern about cardiac function or output, quantitative assessment should be performed.
   source: ASE-2023-FETALECHO
   locator: IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Key Points, p. 704
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-089
-  statement: The initial assessment for suspected dysfunction should look for features of hydrops, including ascites,
-    pleural or pericardial fluid, and skin oedema.
+  statement: "When cardiac dysfunction is suspected, it is important at initial imaging to assess for fetal hydrops or its component findings."
   source: ASE-2023-FETALECHO
-  locator: IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Imaging Tools for Assessing Fetal Cardiac
-    Function, Table 12, p. 703
+  locator: "IV.B. Assessment of Fetal Cardiac Functional Abnormalities, p. 702"
   status: ai-extracted
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
   checked_by: null
   verified_by: null
-  note: null
+  note: "REWORDED 17 Nov 2026 by Claude after cross-check: the list of ascites, effusions and skin oedema is in Table 12 (p. 703) as scoring categories, not in the statement about initial assessment. Was: 'The initial assessment for suspected dysfunction should look for features of hydrops, including ascites, pleural or pericardial fluid, and skin oedema.' Awaits re-check by another model."
 - id: AS23-090
   statement: Atrioventricular valve regurgitation on Doppler may indicate systolic dysfunction.
   source: ASE-2023-FETALECHO
   locator: IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Imaging Tools for Assessing Fetal Cardiac
     Function, p. 703
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-091
@@ -944,9 +937,9 @@ claims:
     one inflow wave is seen.
   source: ASE-2023-FETALECHO
   locator: IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Figure 19C, p. 702
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-092
@@ -955,9 +948,9 @@ claims:
   source: ASE-2023-FETALECHO
   locator: IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Imaging Tools for Assessing Fetal Cardiac
     Function, p. 703; Figure 19A, p. 702
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-093
@@ -965,9 +958,9 @@ claims:
   source: ASE-2023-FETALECHO
   locator: IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Imaging Tools for Assessing Fetal Cardiac
     Function, p. 703; Figure 20, p. 702
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-094
@@ -975,9 +968,9 @@ claims:
   source: ASE-2023-FETALECHO
   locator: IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Cardiovascular Profile Score, Table 12, p.
     703
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-095
@@ -985,9 +978,9 @@ claims:
     and middle cerebral arteries, obtained at either the obstetric or cardiac study.
   source: ASE-2023-FETALECHO
   locator: IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Additional Imaging, p. 703
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-096
@@ -995,18 +988,18 @@ claims:
     elevated left atrial pressure.
   source: ASE-2023-FETALECHO
   locator: IV.C. Structural Heart Disease, Complex AV Connections, p. 712
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-097
   statement: In a suspected outflow tract abnormality, ductal flow direction must be documented with Doppler.
   source: ASE-2023-FETALECHO
   locator: IV.C. Structural Heart Disease, Look-Alike Outflow Tract Lesions, Key Points, p. 715
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-098
@@ -1014,9 +1007,9 @@ claims:
     the obstruction is.
   source: ASE-2023-FETALECHO
   locator: IV.C. Structural Heart Disease, Progressive Lesions, Obstructive and Regurgitant, Key Points, p. 716
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-099
@@ -1024,29 +1017,28 @@ claims:
     by pulsed-wave or continuous-wave Doppler to evaluate right ventricular function.
   source: ASE-2023-FETALECHO
   locator: IV.C. Structural Heart Disease, Progressive Lesions, Obstructive and Regurgitant, Key Points, p. 717
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-100
-  statement: The side of each arch relative to the trachea should be documented at every fetal echocardiogram.
+  statement: "Aortic and ductal arch sidedness should be documented at every fetal echocardiographic examination."
   source: ASE-2023-FETALECHO
-  locator: IV.C. Structural Heart Disease, Isolated Arch Abnormalities, Key Points, p. 718
+  locator: "IV.C. Structural Heart Disease, Key Points, p. 718"
   status: ai-extracted
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
   checked_by: null
   verified_by: null
-  note: The key points on outflow lesions on p. 715 specify documenting aortic arch sidedness at least once in pregnancy.
-    The general arch section calls for documentation of both arches at each examination.
+  note: "The key points on outflow lesions on p. 715 specify documenting aortic arch sidedness at least once in pregnancy. The general arch section calls for documentation of both arches at each examination. REWORDED 17 Nov 2026 by Claude after cross-check: the p. 718 key point speaks of aortic and ductal arch laterality; 'relative to the trachea' is the wording of the p. 715 key point. Was: 'The side of each arch relative to the trachea should be documented at every fetal echocardiogram.' Awaits re-check by another model."
 - id: AS23-101
   statement: Colour and power Doppler in the three-vessel-and-trachea view can help identify an aberrant subclavian
     artery.
   source: ASE-2023-FETALECHO
   locator: IV.C. Structural Heart Disease, Isolated Arch Abnormalities, p. 717; Figure 30C, p. 718
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-102
@@ -1054,27 +1046,27 @@ claims:
     fetal echocardiogram, depending on available expertise and resources.
   source: ASE-2023-FETALECHO
   locator: III.J. Fetal Echocardiography in Early Gestation, Key Points, p. 697
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-103
   statement: Evidence is insufficient to recommend fetal echocardiography before 16 weeks for low-risk pregnancies.
   source: ASE-2023-FETALECHO
   locator: III.J. Fetal Echocardiography in Early Gestation, Key Points, p. 697
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-104
   statement: For early endovaginal imaging, Table 8 gives a gestational age beyond 10 weeks.
   source: ASE-2023-FETALECHO
   locator: III.J. Fetal Echocardiography in Early Gestation, Table 8, timing, p. 696
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-105
@@ -1082,36 +1074,36 @@ claims:
     ideal.
   source: ASE-2023-FETALECHO
   locator: III.J. Fetal Echocardiography in Early Gestation, Table 8, timing, p. 696
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-106
-  statement: Pulmonary and systemic venous anatomy are particularly difficult to assess early in gestation.
+  statement: "In early gestation, assessment of the pulmonary and systemic veins is limited."
   source: ASE-2023-FETALECHO
   locator: III.J. Fetal Echocardiography in Early Gestation, Table 8, examination expectations, p. 696
   status: ai-extracted
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
   checked_by: null
   verified_by: null
-  note: null
+  note: "REWORDED 17 Nov 2026 by Claude after cross-check: Table 8 says 'limited', not 'particularly difficult'. Was: 'Pulmonary and systemic venous anatomy are particularly difficult to assess early in gestation.' Awaits re-check by another model."
 - id: AS23-107
   statement: Limited early image resolution can obscure subtle defects, including valve lesions.
   source: ASE-2023-FETALECHO
   locator: III.J. Fetal Echocardiography in Early Gestation, Table 8, cardiac pathology, p. 696
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-108
   statement: When the early findings are uncertain or suspicious, a repeat examination within 1–2 weeks is suggested.
   source: ASE-2023-FETALECHO
   locator: III.J. Fetal Echocardiography in Early Gestation, Table 8, cardiac pathology, p. 696
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-109
@@ -1119,9 +1111,9 @@ claims:
   source: ASE-2023-FETALECHO
   locator: III.J. Fetal Echocardiography in Early Gestation, Table 8, additional considerations, p. 696; III.A,
     Timing, p. 682
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-110
@@ -1129,9 +1121,9 @@ claims:
     progress later.
   source: ASE-2023-FETALECHO
   locator: III.J. Fetal Echocardiography in Early Gestation, Table 8, counselling and reporting, p. 696
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-111
@@ -1140,45 +1132,45 @@ claims:
     with fetal echocardiography skills.
   source: ASE-2023-FETALECHO
   locator: III. The Fetal Echocardiographic Examination, opening paragraphs, p. 682
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-112
   statement: Ongoing quality improvement in fetal echocardiography should be documented.
   source: ASE-2023-FETALECHO
   locator: III. The Fetal Echocardiographic Examination, opening paragraphs, p. 682
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-113
   statement: Images should be kept in a secure digital archive that allows retrieval for review.
   source: ASE-2023-FETALECHO
   locator: III.A. Timing of Examination, Equipment, and Image Storage, Storage, p. 684
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-114
   statement: ASE emphasises following local legal requirements when deciding how long to retain clinical images.
   source: ASE-2023-FETALECHO
   locator: III.A. Timing of Examination, Equipment, and Image Storage, Storage, p. 684
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-115
   statement: The thermal and mechanical indices should be available to the reviewer in the stored image metadata.
   source: ASE-2023-FETALECHO
   locator: III.A. Timing of Examination, Equipment, and Image Storage, Storage, p. 684
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-116
@@ -1186,18 +1178,18 @@ claims:
     clinical image metadata.
   source: ASE-2023-FETALECHO
   locator: III.A. Timing of Examination, Equipment, and Image Storage, Storage, p. 684
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-117
   statement: If the study remains nondiagnostic after optimisation, the report should identify the limitations.
   source: ASE-2023-FETALECHO
   locator: III.D. Image Optimization, p. 684
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16)
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-118
@@ -1205,9 +1197,9 @@ claims:
     the pleural spaces and in the abdomen, and records whether it is present.
   source: ASE-2023-FETALECHO
   locator: III.C Examination Technique, p. 684
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16), listed as a missed fact in the cross-check report
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: AS23-119
@@ -1219,4 +1211,4 @@ claims:
   extracted_by: ChatGPT (GPT-6, 2026-11-16), listed as a missed fact in the cross-check report
   checked_by: null
   verified_by: null
-  note: null
+  note: "NOT SETTLED (Claude cross-check, 17 Nov 2026): Table 8 lists the soft-tissue index before 10 weeks and the bone index from 10 weeks under a limit for the thermal and mechanical indices; it does not say 'monitored'. The table layout needs reading from the PDF. Needs a reader who can see the PDF page."

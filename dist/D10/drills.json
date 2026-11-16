@@ -130,7 +130,7 @@
       "claims": [
         "IS23-100"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     }
   ]
 }

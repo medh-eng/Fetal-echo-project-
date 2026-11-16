@@ -2,7 +2,7 @@
 
 > DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-extracted' that no clinician has verified.
 
-Unit D3 | Tier: Detect | Version 0.1
+Unit D3 | Tier: Detect | Version 0.2
 
 ## You will be able to
 
@@ -61,7 +61,7 @@ An abnormal cardiac axis raises the risk of a cardiac malformation, especially o
 
 These points are from the echocardiography guideline. They describe the specialist examination, not the screen.
 
-To assign abdominal situs, the examiner evaluates an upper abdominal cross-section showing the stomach, the liver, the descending aorta and the systemic veins, in the fetus's established orientation. [11]
+To assign abdominal situs, the examiner evaluates an upper abdominal cross-section showing the stomach, the liver, the descending aorta and the systemic veins, with careful attention to fetal lie and transducer orientation. [11]
 
 Two-dimensional imaging is required for visceral and atrial situs; colour Doppler is optional for it. [12]
 
@@ -101,7 +101,7 @@ Stored images should carry labels for laterality and orientation where appropria
 9. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Four-chamber view, p. 791. *Claim IS23-032, expert-verified.*
 10. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Four-chamber view, p. 791. *Claim IS23-031, expert-verified.*
 11. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.E. Standard Views and Imaging Planes, Abdominal situs, p. 687. *Claim AS23-041, ai-extracted.*
-12. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.E. Standard Views and Imaging Planes, Table 3, situs row, p. 686. *Claim AS23-042, ai-extracted.*
-13. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.E. Standard Views and Imaging Planes, Bicaval view, p. 689; Figure 8A, p. 688. *Claim AS23-059, ai-extracted.*
-14. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.E. Standard Views and Imaging Planes, Bicaval view, p. 689; Figure 8A, p. 688. *Claim AS23-060, ai-extracted.*
+12. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.E. Standard Views and Imaging Planes, Table 3, situs row, p. 686. *Claim AS23-042, ai-cross-checked.*
+13. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.E. Standard Views and Imaging Planes, Bicaval view, p. 689; Figure 8A, p. 688. *Claim AS23-059, ai-cross-checked.*
+14. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.E. Standard Views and Imaging Planes, Bicaval view, p. 689; Figure 8A, p. 688. *Claim AS23-060, ai-cross-checked.*
 15. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Technical factors: Zoom, cine-loop and image storage, p. 789. *Claim IS23-017, ai-cross-checked.*

@@ -2,7 +2,7 @@
 
 > DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-extracted' that no clinician has verified.
 
-Unit D2 | Tier: Detect | Version 0.2
+Unit D2 | Tier: Detect | Version 0.3
 
 ## You will be able to
 
@@ -18,7 +18,7 @@ The cardiac screening examination is performed optimally between 18 and 22 weeks
 
 A screen at 20 to 22 weeks is less likely to need a second scan to complete it than one at 18 to 20 weeks, although many patients prefer to know about major defects as early as possible. [2]
 
-Many cardiac structures can still be assessed satisfactorily after 22 weeks. [3]
+Many anatomical structures can still be seen satisfactorily beyond 22 weeks. [3]
 
 
 ## Probe and frequency
@@ -120,4 +120,4 @@ In a fetal echocardiogram, if diagnostic images cannot be obtained after optimis
 15. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Technical factors: Zoom, cine-loop and image storage, p. 789. *Claim IS23-017, ai-cross-checked.*
 16. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Introduction, p. 788. *Claim IS23-005, ai-cross-checked.*
 17. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Outflow tracts: Sonographic technique, p. 793. *Claim IS23-056, expert-verified.*
-18. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.D. Image Optimization, p. 684. *Claim AS23-117, ai-extracted.*
+18. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.D. Image Optimization, p. 684. *Claim AS23-117, ai-cross-checked.*

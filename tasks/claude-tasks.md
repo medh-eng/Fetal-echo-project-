@@ -11,18 +11,9 @@ Suggested model is given for each task. "Needs" lists what the project owner mus
 
 ---
 
-## 1. Cross-check the 104 claims ChatGPT extracted (Opus)
+## 1. Cross-check of ChatGPT's 104 claims - DONE 17 Nov, with limits
 
-Needs: both guideline PDFs attached to the chat (links in `tasks/done/2026-11-16-chatgpt-tasks-round2.md`). On 16 Nov Claude could not download them itself: the project owner must attach both files to the chat.
-
-1. Run `python tools/task_lists.py`; open `tasks/claims-for-claude-or-gemini.md`.
-2. For every claim, find the passage in the PDF at or near the locator. Verdict: CONFIRMED, CORRECT LOCATOR, DISTORTED or NOT FOUND, as defined in `prompts/02-crosscheck.md`. Be strict about numbers, qualifiers and lists. Read the PDF page itself; do not rely on memory.
-3. Pay particular attention to the claims with notes: AS23-069, 070, 072, 080, 081, 085, 100.
-4. Write `tasks/results/task-f.csv` (`claim_id,verdict,detail`) and apply it: `python tools/apply_crosscheck.py tasks/results/task-f.csv --by "Claude Opus (version, date)"`.
-5. For DISTORTED claims: do not reword them yourself and then mark them checked. Leave the dispute note; list them in the log for ChatGPT or Gemini to re-extract.
-6. Rebuild. Report how many claims left "held back" in `dist/editor/review-pack.md`.
-
-Done when: the CSV is in the repository, the ledger is updated, the build passes.
+88 confirmed, 12 reworded, 4 not settled. Done through a web reader on the PDF text, not on the PDF pages; method and limits in `tasks/results/task-1-crosscheck.md`. The 16 open claims go to Gemini or ChatGPT with the PDFs: `tasks/chatgpt-tasks-round4.md`, task H. When `task-h.csv` comes back (Sonnet): `python tools/apply_crosscheck.py tasks/results/task-h.csv --by "..."`, fix any unit text, rebuild.
 
 ## 2. Apply ChatGPT's round-2 results - DONE 16 Nov
 

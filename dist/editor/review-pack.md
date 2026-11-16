@@ -4,7 +4,7 @@ For Dr Kunda Shahane, editor-in-chief. Everything that needs her decision or sig
 Each claim appears once, even if several units use it. Claims she has already verified are not repeated.
 Claims that a second AI has not yet confirmed against the source are held back, so that she checks each fact only once.
 
-**4 decision(s). 5 claim(s) to approve again. 56 new claim(s) to check. 95 claim(s) held back until cross-checked.**
+**4 decision(s). 5 claim(s) to approve again. 135 new claim(s) to check. 16 claim(s) held back until cross-checked.**
 
 ## Part A. Decisions
 
@@ -50,21 +50,21 @@ A unit can be signed once nothing in it is held back.
 |---|---|---|---|---|---|---|---|
 | D0 | Why hearts are missed | 19 | 14 | 0 | 5 | 0 | yes |
 | D1 | The normal heart in five views | 62 | 57 | 5 | 0 | 0 | yes |
-| D2 | Setting up the machine for the heart | 18 | 8 | 2 | 6 | 2 | not yet |
-| D3 | Laterality and situs | 15 | 10 | 1 | 0 | 4 | not yet |
-| D4 | The four-chamber view in depth | 25 | 15 | 1 | 3 | 6 | not yet |
-| D5 | Outflow tracts | 21 | 10 | 1 | 7 | 3 | not yet |
-| D6 | Three-vessel and three-vessel-and-trachea views | 22 | 11 | 2 | 3 | 6 | not yet |
-| D7 | Colour Doppler in screening | 15 | 4 | 1 | 9 | 1 | not yet |
-| D8 | Rate and rhythm for the screener | 14 | 4 | 1 | 4 | 5 | not yet |
-| D9 | The heart at 11 to 14 weeks | 22 | 2 | 0 | 11 | 9 | not yet |
-| D10 | Normal variants, artefacts and pitfalls | 16 | 10 | 1 | 3 | 2 | not yet |
-| D11 | When and how to refer | 28 | 8 | 0 | 9 | 11 | not yet |
-| D13 | Quality assurance and audit | 35 | 22 | 3 | 6 | 4 | not yet |
+| D2 | Setting up the machine for the heart | 18 | 8 | 2 | 7 | 1 | not yet |
+| D3 | Laterality and situs | 15 | 10 | 1 | 3 | 1 | not yet |
+| D4 | The four-chamber view in depth | 25 | 15 | 1 | 7 | 2 | not yet |
+| D5 | Outflow tracts | 21 | 10 | 1 | 10 | 0 | yes |
+| D6 | Three-vessel and three-vessel-and-trachea views | 22 | 11 | 2 | 8 | 1 | not yet |
+| D7 | Colour Doppler in screening | 15 | 4 | 1 | 10 | 0 | yes |
+| D8 | Rate and rhythm for the screener | 14 | 4 | 1 | 9 | 0 | yes |
+| D9 | The heart at 11 to 14 weeks | 22 | 2 | 0 | 19 | 1 | not yet |
+| D10 | Normal variants, artefacts and pitfalls | 16 | 10 | 1 | 4 | 1 | not yet |
+| D11 | When and how to refer | 28 | 8 | 0 | 19 | 1 | not yet |
+| D13 | Quality assurance and audit | 35 | 22 | 3 | 10 | 0 | yes |
 | F1 | Ultrasound modes used in fetal echocardiography | 35 | 8 | 1 | 25 | 1 | not yet |
-| F2 | Fetal rhythm: tools and mechanisms | 29 | 4 | 1 | 5 | 19 | not yet |
-| XA5 | The complete fetal echocardiogram | 49 | 0 | 0 | 4 | 45 | not yet |
-| XC1 | Assessing cardiac function: the first steps | 15 | 1 | 0 | 3 | 11 | not yet |
+| F2 | Fetal rhythm: tools and mechanisms | 29 | 4 | 1 | 21 | 3 | not yet |
+| XA5 | The complete fetal echocardiogram | 49 | 0 | 0 | 41 | 8 | not yet |
+| XC1 | Assessing cardiac function: the first steps | 15 | 1 | 0 | 12 | 2 | not yet |
 
 Read each unit as the learner will see it in `dist/<unit>/chapter.md`, or in the app.
 
@@ -110,6 +110,81 @@ You approved these on 13 Nov in an earlier wording. A check against the guidelin
 | AS23-020 | M-mode is among the tools for assessing systolic function: ventricular shortening fraction and annular plane excursion of the tricuspid and mitral valves. | ASE-2023-FETALECHO: Table 10, p. 701 | F1, XC1 | |
 | AS23-021 | Three-dimensional imaging and spatiotemporal image correlation (STIC) can add anatomical and functional information, but STIC has not been validated for clinical use. | ASE-2023-FETALECHO: III.I Alternative ultrasound modalities, p. 693 | F1 | |
 | AS23-022 | Tissue Doppler and strain imaging are discussed together as ways of assessing myocardial mechanics; two-dimensional strain (speckle tracking) may detect subclinical dysfunction. Their application in pregnancy needs further investigation. **Note:** Reworded after the cross-check found: III.I, Alternative Ultrasound Modalities, p. 693 discusses tissue Doppler and strain jointly for assessing myocardial mechanics. It attributes detection of subclinical dysfunction specifically to 2D strain/speckle tracking. Their application in pregnancy needs further investigation. | ASE-2023-FETALECHO: III.I Alternative ultrasound modalities, p. 693 | F1, XC1 | |
+| AS23-024 | Pregestational diabetes is an indication for fetal echocardiography. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column, p. 681 | D11 | |
+| AS23-025 | Maternal autoimmune disease with SSA/SSB antibody positivity is an indication for fetal echocardiography. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column, p. 681 | D11, F2 | |
+| AS23-026 | A first-degree family history of congenital heart disease is an indication for fetal echocardiography. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column, p. 681 | D11 | |
+| AS23-027 | After in vitro fertilisation, fetal echocardiography may be considered despite a normal cardiac screen, taking local screening accuracy into account. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column and referral footnote, p. 681 | D11 | |
+| AS23-028 | Hydrops on fetal screening is an indication for fetal echocardiography. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column, p. 681 | D11 | |
+| AS23-029 | An extracardiac anomaly on fetal screening is an indication for fetal echocardiography. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column, p. 681 | D11 | |
+| AS23-030 | Monochorionic twins are an indication for fetal echocardiography. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column, p. 681 | D11 | |
+| AS23-031 | At a nuchal translucency of 3.0–3.4 mm, referral for fetal echocardiography may be considered. After a normal cardiac screen, the decision should account for local screening accuracy. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column and referral footnote, p. 681 | D11 | |
+| AS23-032 | A nuchal translucency of 3.5 mm or greater is an indication for fetal echocardiography. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column, p. 681 | D11 | |
+| AS23-033 | An isolated single umbilical artery does not itself indicate fetal echocardiography when the second-trimester cardiac screen is normal. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column and table footnote, p. 681 | D11 | |
+| AS23-034 | The optimal window for a comprehensive transabdominal fetal echocardiogram is 18–22 weeks. | ASE-2023-FETALECHO: III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682 | XA5 | |
+| AS23-035 | An abnormal fetal heart is usually reassessed every 2–8 weeks until about 34–36 weeks, with the interval guided by the lesion and clinical concerns. | ASE-2023-FETALECHO: III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682 | XA5 | |
+| AS23-036 | Near-term reassessment is targeted to findings that could change care immediately after birth. | ASE-2023-FETALECHO: III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682 | XA5 | |
+| AS23-037 | A normal midtrimester fetal echocardiogram generally needs no follow-up unless there is concern for a progressive lesion. | ASE-2023-FETALECHO: III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682 | XA5 | |
+| AS23-038 | When a progressive lesion is suspected despite a normal midtrimester echocardiogram, repeat assessment is recommended at intervals of up to 2–4 weeks. | ASE-2023-FETALECHO: III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682 | XA5 | |
+| AS23-040 | If a standard view cannot be obtained, the study is complete only if all the cardiovascular structures are adequately seen by another approach or are anatomically absent. | ASE-2023-FETALECHO: III.H. Complete Fetal Cardiac Assessment Using Segmental Analysis, p. 692 | XA5 | |
+| AS23-042 | Two-dimensional imaging is required for visceral and atrial situs. Colour Doppler is optional for that determination. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Table 3, situs row, p. 686 | D3, XA5 | |
+| AS23-043 | The cardiac axis must be assessed in two dimensions. Measuring the angle is optional. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Table 3, cardiac axis row, p. 686 | D4, XA5 | |
+| AS23-044 | A complete study requires a measured cardiac-to-thoracic area ratio. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Table 3, cardiac size row, p. 686; III.F, Table 4, p. 690 | D4, XA5 | |
+| AS23-046 | Systemic venous connections require assessment with both two-dimensional and colour Doppler imaging. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Table 3, systemic venous connections row, p. 686; III.H, Table 7, p. 695 | XA5 | |
+| AS23-047 | The four-chamber assessment must show pulmonary venous connections from at least one vein on each side using two-dimensional and colour Doppler imaging. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Table 3, pulmonary venous connections row, p. 686; four-chamber view, p. 687 | D4, XA5 | |
+| AS23-049 | The atrioventricular connections require assessment on two-dimensional and colour images in the four-chamber view. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Table 3, atrioventricular connections row, p. 686; III.H, Table 7, p. 695 | XA5 | |
+| AS23-050 | Both two-dimensional and colour images are required to assess the ventricular septum and locate any defect. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Table 3, ventricular septum row, p. 686; four-chamber view, p. 687 | D4, XA5 | |
+| AS23-051 | Assessing relative ventricular size in two dimensions is required. Measuring maximum ventricular length and width is optional. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Table 3, ventricular morphology row, p. 686 | XA5 | |
+| AS23-052 | The normal left ventricular outflow view shows the outflow below the aortic valve, the valve itself, the region above it and the ascending aorta. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, LV outflow tract, Figure 5, pp. 687–688 | D5, XA5 | |
+| AS23-053 | The normal right ventricular outflow view shows the tract below the pulmonary valve, the valve and the proximal pulmonary trunk. Its bifurcation may enter this plane. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, RV outflow tract, pp. 688–689; Figure 6, p. 687 | D5, XA5 | |
+| AS23-054 | The right and left pulmonary artery origins at the bifurcation require two-dimensional and colour imaging. Measuring their diameters is optional. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Table 3, proximal branch pulmonary arteries row, p. 686 | D5, XA5 | |
+| AS23-055 | In the normal three-vessel view, the pulmonary trunk, ascending aorta and superior vena cava appear in that order from fetal left to right. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Three-vessel view, p. 689; Figure 6, p. 687 | XA5 | |
+| AS23-056 | In the three-vessel view, abnormalities of vessel number, size, alignment or arrangement should be recorded. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Three-vessel view, p. 689 | D6, XA5 | |
+| AS23-057 | In the normal three-vessel-and-trachea view the two arches join the descending aorta on the left of the trachea. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Three-vessel-and-trachea view, p. 689; Figure 6, p. 687 | D6, XA5 | |
+| AS23-058 | Colour Doppler should demonstrate patency and flow direction in both arches in the three-vessel-and-trachea view. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Three-vessel-and-trachea view, p. 689 | D6, XA5 | |
+| AS23-059 | The sagittal bicaval view establishes whether the inferior vena cava is continuous. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Bicaval view, p. 689; Figure 8A, p. 688 | D3, XA5 | |
+| AS23-060 | The bicaval view shows whether the superior and inferior venae cavae lie on the same side. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Bicaval view, p. 689; Figure 8A, p. 688 | D3, XA5 | |
+| AS23-061 | The parasagittal aortic arch view should establish continuity from ascending to descending aorta. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Long-axis view of the aortic arch, p. 689; Figure 8B, p. 688 | XA5 | |
+| AS23-062 | The examiner should assess the ascending aorta, transverse arch and isthmus for hypoplasia. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Long-axis view of the aortic arch, p. 689 | XA5 | |
+| AS23-063 | Measuring the ductus and the aortic isthmus is optional in the standard assessment of arch size and shape. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Table 3, aortic and ductal arch morphology row, p. 686 | XA5 | |
+| AS23-064 | A sagittal plane just left of the fetal midline usually shows the long axis of the ductal arch. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Long-axis view of the ductal arch, p. 689; Figure 8C, p. 688 | XA5 | |
+| AS23-065 | To assess ductal restriction, systolic and diastolic velocities at both the pulmonary and aortic ends should be evaluated using colour or spectral Doppler, or both. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Long-axis view of the ductal arch, p. 689 | XA5 | |
+| AS23-066 | A high short-axis view shows the aortic valve face-on with the right ventricular outflow and pulmonary artery wrapping in front of it. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Short-axis views, p. 689; Figure 7A, p. 688 | XA5 | |
+| AS23-067 | The low short-axis view can show muscular ventricular septal defects when colour Doppler is added. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Short-axis views, p. 689; Figure 7B–C, p. 688 | XA5 | |
+| AS23-071 | A sustained fetal rate below 120 beats/min is abnormal at any gestation. | ASE-2023-FETALECHO: IV.A. Rhythm Disturbances and Tools for Assessment, p. 699 | D8, F2 | |
+| AS23-072 | ASE describes a sustained rate above 160–180 beats/min as abnormal at any gestation. **Note:** The rhythm section gives a range for the upper threshold and does not select a single cutoff. | ASE-2023-FETALECHO: IV.A. Rhythm Disturbances and Tools for Assessment, p. 699 | D8, F2 | |
+| AS23-073 | Every fetal echocardiogram must document the fetal heart rate and rhythm. | ASE-2023-FETALECHO: IV.A. Rhythm Disturbances and Tools for Assessment, Key Points, p. 699 | D8, F2, XA5 | |
+| AS23-074 | A premature atrial beat resets the atrial rhythm, producing an incomplete compensatory pause. | ASE-2023-FETALECHO: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698; Figure 16, p. 700 | F2 | |
+| AS23-075 | With a premature ventricular beat, the interval between successive atrial beats is preserved. | ASE-2023-FETALECHO: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698 | F2 | |
+| AS23-077 | In the common pathway-mediated reentrant supraventricular tachycardia, atrial and ventricular beats pair one-to-one with a short interval from ventricle to atrium. | ASE-2023-FETALECHO: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698; Figure 14B, p. 699 | F2 | |
+| AS23-078 | In supraventricular tachycardia, ASE advises against using paired mitral inflow and aortic outflow to time the atrium because the inflow waves fuse. | ASE-2023-FETALECHO: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698 | F2 | |
+| AS23-079 | One-to-one tachycardia with a long interval from ventricle to atrium is seen in ectopic atrial tachycardia and permanent junctional reciprocating tachycardia. | ASE-2023-FETALECHO: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698 | F2 | |
+| AS23-080 | Atrial flutter produces rapid sawtooth atrial motion on M-mode, often with only every second or third atrial beat reaching the ventricles. **Note:** The source describes conventional M-mode here. No separate recommendation for colour M-mode was identified in the guideline. | ASE-2023-FETALECHO: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698; Figure 14A, p. 699 | F2 | |
+| AS23-081 | In ventricular tachycardia, M-mode or paired arterial and venous Doppler can show atrial contractions independent of the ventricular rhythm. **Note:** The same table row describes the ventricular rate as usually slower than the atrial rate. That wording is unclear in context and should be independently checked before teaching a rate relationship. | ASE-2023-FETALECHO: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698 | F2 | |
+| AS23-083 | In complete heart block, atrial and ventricular contractions are independent, with a ventricular rate typically between 50 and 80 beats/min. | ASE-2023-FETALECHO: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698; Figure 15, p. 699 | F2 | |
+| AS23-084 | Repeated blocked premature atrial contractions can mimic second- or third-degree atrioventricular block and must be distinguished from it. | ASE-2023-FETALECHO: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698; Figure 17, p. 700 | D8, F2 | |
+| AS23-085 | When the pregnant patient carries anti-Ro/La antibodies, the fetal mechanical PR interval may be measured to assess atrioventricular conduction. **Note:** The guideline gives no general numerical normal range for the mechanical PR interval. The 100 ms in Figure 13 refers to isovolumic relaxation time. | ASE-2023-FETALECHO: IV.A. Rhythm Disturbances and Tools for Assessment, p. 699; Figure 13, p. 697 | F2 | |
+| AS23-086 | Evidence is unclear that routine surveillance of anti-Ro/La-exposed fetuses reduces progression to higher-degree atrioventricular block. | ASE-2023-FETALECHO: IV.A. Rhythm Disturbances and Tools for Assessment, p. 699 | F2 | |
+| AS23-087 | Every fetal echocardiogram must include a qualitative assessment of systolic and diastolic function. | ASE-2023-FETALECHO: IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Key Points, p. 704 | XA5, XC1 | |
+| AS23-088 | When findings raise concern about cardiac function or output, quantitative assessment should be performed. | ASE-2023-FETALECHO: IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Key Points, p. 704 | XA5, XC1 | |
+| AS23-090 | Atrioventricular valve regurgitation on Doppler may indicate systolic dysfunction. | ASE-2023-FETALECHO: IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Imaging Tools for Assessing Fetal Cardiac Function, p. 703 | XA5, XC1 | |
+| AS23-091 | As diastolic function worsens, the fraction of the cardiac cycle spent filling may shorten until only one inflow wave is seen. | ASE-2023-FETALECHO: IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Figure 19C, p. 702 | XC1 | |
+| AS23-092 | The myocardial performance index combines systolic and diastolic timing to assess overall ventricular performance. | ASE-2023-FETALECHO: IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Imaging Tools for Assessing Fetal Cardiac Function, p. 703; Figure 19A, p. 702 | XC1 | |
+| AS23-093 | Outside sinus rhythm, venous A-wave reversal is an unreliable indicator of worsening cardiac function. | ASE-2023-FETALECHO: IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Imaging Tools for Assessing Fetal Cardiac Function, p. 703; Figure 20, p. 702 | F2, XC1 | |
+| AS23-094 | The cardiovascular profile score may help track changes in cardiovascular compromise on serial examinations. | ASE-2023-FETALECHO: IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Cardiovascular Profile Score, Table 12, p. 703 | XC1 | |
+| AS23-095 | A comprehensive assessment of a compromised fetus should include pulsed-wave Doppler of the umbilical and middle cerebral arteries, obtained at either the obstetric or cardiac study. | ASE-2023-FETALECHO: IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Additional Imaging, p. 703 | XC1 | |
+| AS23-101 | Colour and power Doppler in the three-vessel-and-trachea view can help identify an aberrant subclavian artery. | ASE-2023-FETALECHO: IV.C. Structural Heart Disease, Isolated Arch Abnormalities, p. 717; Figure 30C, p. 718 | D6 | |
+| AS23-102 | Suspicion of a cardiac anomaly in the late first trimester should prompt consideration of an early fetal echocardiogram, depending on available expertise and resources. | ASE-2023-FETALECHO: III.J. Fetal Echocardiography in Early Gestation, Key Points, p. 697 | D9 | |
+| AS23-103 | Evidence is insufficient to recommend fetal echocardiography before 16 weeks for low-risk pregnancies. | ASE-2023-FETALECHO: III.J. Fetal Echocardiography in Early Gestation, Key Points, p. 697 | D9 | |
+| AS23-107 | Limited early image resolution can obscure subtle defects, including valve lesions. | ASE-2023-FETALECHO: III.J. Fetal Echocardiography in Early Gestation, Table 8, cardiac pathology, p. 696 | D9 | |
+| AS23-108 | When the early findings are uncertain or suspicious, a repeat examination within 1–2 weeks is suggested. | ASE-2023-FETALECHO: III.J. Fetal Echocardiography in Early Gestation, Table 8, cardiac pathology, p. 696 | D9 | |
+| AS23-109 | Even after a normal detailed early examination, a repeat study is recommended at 18–20 weeks. | ASE-2023-FETALECHO: III.J. Fetal Echocardiography in Early Gestation, Table 8, additional considerations, p. 696; III.A, Timing, p. 682 | D9 | |
+| AS23-110 | Early counselling and reporting should address the possibility of missed diagnoses or lesions that progress later. | ASE-2023-FETALECHO: III.J. Fetal Echocardiography in Early Gestation, Table 8, counselling and reporting, p. 696 | D9 | |
+| AS23-111 | ASE endorses limiting performance and supervision of fetal echocardiograms to appropriately trained or experienced paediatric cardiologists, maternal-fetal medicine specialists, obstetricians or radiologists with fetal echocardiography skills. | ASE-2023-FETALECHO: III. The Fetal Echocardiographic Examination, opening paragraphs, p. 682 | XA5 | |
+| AS23-112 | Ongoing quality improvement in fetal echocardiography should be documented. | ASE-2023-FETALECHO: III. The Fetal Echocardiographic Examination, opening paragraphs, p. 682 | D13 | |
+| AS23-113 | Images should be kept in a secure digital archive that allows retrieval for review. | ASE-2023-FETALECHO: III.A. Timing of Examination, Equipment, and Image Storage, Storage, p. 684 | D13 | |
+| AS23-114 | ASE emphasises following local legal requirements when deciding how long to retain clinical images. | ASE-2023-FETALECHO: III.A. Timing of Examination, Equipment, and Image Storage, Storage, p. 684 | D13 | |
+| AS23-117 | If the study remains nondiagnostic after optimisation, the report should identify the limitations. | ASE-2023-FETALECHO: III.D. Image Optimization, p. 684 | D2, D13, XA5 | |
+| AS23-118 | In the initial survey of a fetal echocardiogram, the examiner looks for fluid around the heart, in the pleural spaces and in the abdomen, and records whether it is present. | ASE-2023-FETALECHO: III.C Examination Technique, p. 684 | XA5, XC1 | |
 | IS23-001 | The guideline gives recommendations for cardiac screening of low-risk pregnancies in the second trimester, and also considers late first-trimester and early second-trimester screening where technically feasible. | ISUOG-2023-SCREEN: Introduction, p. 788 | D0, D9 | |
 | IS23-002 | The 2023 update encourages colour flow Doppler and adds new sections on quality assurance and on use of a checklist. | ISUOG-2023-SCREEN: Introduction, p. 788; Appendix 1, p. 802 | D7, D13 | |
 | IS23-005 | Variation in detection is partly explained by examiner ability, transducer frequency, body habitus, abdominal scars, gestational age, amniotic fluid volume and fetal position. | ISUOG-2023-SCREEN: Introduction, p. 788 | D0, D2 | |
@@ -144,15 +219,19 @@ You approved these on 13 Nov in an earlier wording. A check against the guidelin
 | IS23-093 | In early screening, Doppler should be used mainly for the four-chamber view and the three-vessel-and-trachea view; the thermal index should be 1.0 or less and exposure as short as possible (usually no more than 5-10 minutes). | ISUOG-2023-SCREEN: Early fetal cardiac screening, p. 798 | D2, D7, D9, F1 | |
 | IS23-094 | Recommended components of a detailed early cardiac screen: situs and cardiac axis on greyscale; four-chamber view on greyscale and on colour and/or bidirectional power Doppler; three-vessel-and-trachea view on colour and/or bidirectional power Doppler showing left-sided aortic and ductal arches (good practice point). **Note:** Reworded after the cross-check found: Early fetal cardiac screening, p. 798, items 2 and 3 and Figure 10, specifies colour and/or bidirectional power Doppler for the four-chamber and three-vessel-and-trachea views. Omitting bidirectionality changes the accepted power mode. | ISUOG-2023-SCREEN: Early fetal cardiac screening, p. 798; Figure 10 | D9 | |
 | IS23-095 | Outflow-tract views in early gestation are often challenging and prone to false-negative and false-positive diagnosis; suspicion of congenital heart disease at the early scan should lead to referral for early fetal echocardiography. **Note:** Reworded after the cross-check found: Early fetal cardiac screening, p. 798 specifies suspicion of congenital heart disease at the early scan as the referral trigger. “Any suspicion” is broader. The limitations of early outflow views are supported. | ISUOG-2023-SCREEN: Early fetal cardiac screening, p. 798 | D9 | |
+| IS23-098 | Recurrent fetal heart-rate decelerations in the third trimester can reflect fetal hypoxia. | ISUOG-2023-SCREEN: Four-chamber view, p. 792 | D8 | |
+| IS23-100 | On the normal upper mediastinal views the thymus appears as a relatively dark area between the great vessels and the front of the chest. | ISUOG-2023-SCREEN: Figures 7 and 9, pp. 795-796 | D6, D10 | |
+| IS23-101 | During first-trimester screening, the balance between colour and greyscale is adjusted to favour the flow signal in the small cardiac structures. | ISUOG-2023-SCREEN: Early fetal cardiac screening, p. 798 | D7, D9 | |
+| IS23-102 | A posterior fetal spine is the preferred orientation for showing inflow into both ventricles in the early four-chamber view. | ISUOG-2023-SCREEN: Early fetal cardiac screening, item 2, p. 798 | D9 | |
 
 ### C3. Held back
 
-95 claim(s) used by these units are waiting for a cross-check by a second AI and are not shown. They will appear in C2 once confirmed.
+16 claim(s) used by these units are waiting for a cross-check by a second AI and are not shown. They will appear in C2 once confirmed.
 
 ## Signature
 
 I have checked the claims above and approve these units for release, except where marked:
 
-Units that can be signed now: [ ] D0   [ ] D1
+Units that can be signed now: [ ] D0   [ ] D1   [ ] D5   [ ] D7   [ ] D8   [ ] D13
 
 Signed: ____________________   Date: __________

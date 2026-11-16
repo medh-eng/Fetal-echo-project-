@@ -4,7 +4,7 @@
 id: D4
 title: "The four-chamber view in depth"
 tier: Detect
-version: 0.1
+version: 0.2
 summary: "Every criterion of the four-chamber view, one structure at a time: size, position, axis, atria, veins, ventricles, septum and valves, with the traps."
 drafted_by: "Claude (16 Nov 2026)"
 audited_by: "ChatGPT (Codex), 16 Nov 2026, against the ledger only; findings applied by Claude (Fable)."
@@ -70,7 +70,7 @@ sections:
         claims: [IS23-044]
       - text: "The septum is seen best with the beam perpendicular to it. With the beam parallel to the septum, acoustic drop-out can falsely suggest a defect near the crux."
         claims: [IS23-045]
-      - text: "Small septal defects of 1 to 2 mm can be very difficult to confirm, particularly when fetal size or position is unfavourable. Most are of limited clinical significance and may close on their own before birth."
+      - text: "Small septal defects of 1 to 2 mm can be very difficult to confirm, particularly when fetal size and position are unfavourable. Most are of limited clinical significance and may close on their own before birth."
         claims: [IS23-046, IS23-099]
 
   - heading: "Atrioventricular valves"
@@ -98,7 +98,7 @@ sections:
     blocks:
       - kind: framing
         text: "These points are from the echocardiography guideline. They describe the specialist examination, not the screen."
-      - text: "The four-chamber view should be examined in at least two perpendicular planes, because the angle at which the beam meets a structure changes how it is seen."
+      - text: "The fetal heart should be examined from at least two orthogonal planes, depending on the size, thickness and orientation of the structure."
         claims: [AS23-045]
       - text: "The cardiac axis must be assessed; measuring the angle is optional. A complete study requires a measured ratio of cardiac to thoracic area."
         claims: [AS23-043, AS23-044]

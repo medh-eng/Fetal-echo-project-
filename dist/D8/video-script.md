@@ -1,6 +1,6 @@
 # Video script: Rate and rhythm in one minute of scanning
 
-> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-extracted' that no clinician has verified.
+> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-cross-checked' that no clinician has verified.
 
 Unit D8 | Target length: 4 min
 

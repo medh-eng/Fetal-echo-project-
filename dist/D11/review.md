@@ -7,17 +7,17 @@ Mark: OK / change (write the correction) / remove.
 
 | Claim | Statement | Where in source | Status | Editor |
 |---|---|---|---|---|
-| AS23-023 | Suspected cardiac disease on obstetric screening requires fetal echocardiography even in the absence of other risk factors. | ASE-2023-FETALECHO: II. Indications, p. 680; Key Points, p. 682 | ai-extracted | |
-| AS23-024 | Pregestational diabetes is an indication for fetal echocardiography. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column, p. 681 | ai-extracted | |
-| AS23-025 | Maternal autoimmune disease with SSA/SSB antibody positivity is an indication for fetal echocardiography. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column, p. 681 | ai-extracted | |
-| AS23-026 | A first-degree family history of congenital heart disease is an indication for fetal echocardiography. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column, p. 681 | ai-extracted | |
-| AS23-027 | After in vitro fertilisation, fetal echocardiography may be considered despite a normal cardiac screen, taking local screening accuracy into account. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column and referral footnote, p. 681 | ai-extracted | |
-| AS23-028 | Hydrops on fetal screening is an indication for fetal echocardiography. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column, p. 681 | ai-extracted | |
-| AS23-029 | An extracardiac anomaly on fetal screening is an indication for fetal echocardiography. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column, p. 681 | ai-extracted | |
-| AS23-030 | Monochorionic twins are an indication for fetal echocardiography. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column, p. 681 | ai-extracted | |
-| AS23-031 | At a nuchal translucency of 3.0–3.4 mm, referral for fetal echocardiography may be considered. After a normal cardiac screen, the decision should account for local screening accuracy. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column and referral footnote, p. 681 | ai-extracted | |
-| AS23-032 | A nuchal translucency of 3.5 mm or greater is an indication for fetal echocardiography. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column, p. 681 | ai-extracted | |
-| AS23-033 | An isolated single umbilical artery does not itself indicate fetal echocardiography when the second-trimester cardiac screen is normal. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column and table footnote, p. 681 | ai-extracted | |
+| AS23-023 | Fetal echocardiography is indicated when the screening ultrasound of the heart is abnormal, whether or not other risk factors are present. | ASE-2023-FETALECHO: II. Indications, Table 1 footnote, p. 681; Key Points, p. 682 | ai-extracted | |
+| AS23-024 | Pregestational diabetes is an indication for fetal echocardiography. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column, p. 681 | ai-cross-checked | |
+| AS23-025 | Maternal autoimmune disease with SSA/SSB antibody positivity is an indication for fetal echocardiography. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column, p. 681 | ai-cross-checked | |
+| AS23-026 | A first-degree family history of congenital heart disease is an indication for fetal echocardiography. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column, p. 681 | ai-cross-checked | |
+| AS23-027 | After in vitro fertilisation, fetal echocardiography may be considered despite a normal cardiac screen, taking local screening accuracy into account. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column and referral footnote, p. 681 | ai-cross-checked | |
+| AS23-028 | Hydrops on fetal screening is an indication for fetal echocardiography. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column, p. 681 | ai-cross-checked | |
+| AS23-029 | An extracardiac anomaly on fetal screening is an indication for fetal echocardiography. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column, p. 681 | ai-cross-checked | |
+| AS23-030 | Monochorionic twins are an indication for fetal echocardiography. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column, p. 681 | ai-cross-checked | |
+| AS23-031 | At a nuchal translucency of 3.0–3.4 mm, referral for fetal echocardiography may be considered. After a normal cardiac screen, the decision should account for local screening accuracy. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column and referral footnote, p. 681 | ai-cross-checked | |
+| AS23-032 | A nuchal translucency of 3.5 mm or greater is an indication for fetal echocardiography. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column, p. 681 | ai-cross-checked | |
+| AS23-033 | An isolated single umbilical artery does not itself indicate fetal echocardiography when the second-trimester cardiac screen is normal. | ASE-2023-FETALECHO: II. Indications, Table 1, ASE column and table footnote, p. 681 | ai-cross-checked | |
 | IS23-006 | Continuous feedback-based training, a low threshold for echocardiography referral, standardised protocols and easy access to fetal heart specialists can improve the performance of a screening programme. | ISUOG-2023-SCREEN: Introduction, p. 788 | ai-cross-checked | |
 | IS23-018 | The cardiac screening examination should include fetal situs and the four-chamber, outflow-tract and great-vessel views (grade of recommendation C). | ISUOG-2023-SCREEN: Cardiac examination, p. 789 | expert-verified | |
 | IS23-030 | A situs abnormality should be suspected when the heart and/or stomach are not on the left. | ISUOG-2023-SCREEN: Four-chamber view, p. 791 | expert-verified | |

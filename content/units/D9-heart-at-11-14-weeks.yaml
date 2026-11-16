@@ -6,7 +6,7 @@
 id: D9
 title: "The heart at 11 to 14 weeks"
 tier: Detect
-version: 0.1
+version: 0.2
 summary: "What can and cannot be checked in the fetal heart at the early scan, how to do it safely, and when to refer."
 drafted_by: "Claude (15 Nov 2026)"
 audited_by: "ChatGPT (Codex), 16 Nov 2026, against the ledger only; findings applied by Claude (Fable)."
@@ -79,7 +79,7 @@ sections:
         text: "These points come from the guideline on fetal echocardiography, the specialist examination. They are included so the screener knows what happens after an early referral."
       - text: "Suspicion of a cardiac anomaly in the late first trimester should prompt consideration of an early fetal echocardiogram, depending on available expertise and resources. Evidence is insufficient to recommend fetal echocardiography before 16 weeks for low-risk pregnancies."
         claims: [AS23-102, AS23-103]
-      - text: "Early imaging has limits. Pulmonary and systemic veins are particularly difficult to assess, and limited resolution can hide subtle defects, including valve lesions."
+      - text: "Early imaging has limits. Assessment of the pulmonary and systemic veins is limited, and limited resolution can hide subtle defects, including valve lesions."
         claims: [AS23-106, AS23-107]
       - text: "When early findings are uncertain or suspicious, a repeat examination within 1 to 2 weeks is suggested. Even after a normal detailed early examination, a repeat study is recommended at 18 to 20 weeks."
         claims: [AS23-108, AS23-109]

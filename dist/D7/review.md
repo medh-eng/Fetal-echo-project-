@@ -21,6 +21,6 @@ Mark: OK / change (write the correction) / remove.
 | IS23-077 | In routine second-trimester screening the colour velocity scale should be about 50-70 cm/s for intracardiac structures and vessels, and lower, about 15-25 cm/s, for venous structures. Low colour persistence is ordinarily built into cardiac presets. | ISUOG-2023-SCREEN: Color flow Doppler ultrasound, p. 796 | ai-cross-checked | |
 | IS23-092 | For early screening, high-frequency transabdominal transducers are recommended (transvaginal may be used), with colour Doppler and/or high-quality power Doppler with bidirectional flow mapping, in addition to greyscale. | ISUOG-2023-SCREEN: Early fetal cardiac screening, p. 798 | ai-cross-checked | |
 | IS23-093 | In early screening, Doppler should be used mainly for the four-chamber view and the three-vessel-and-trachea view; the thermal index should be 1.0 or less and exposure as short as possible (usually no more than 5-10 minutes). | ISUOG-2023-SCREEN: Early fetal cardiac screening, p. 798 | ai-cross-checked | |
-| IS23-101 | During first-trimester screening, the balance between colour and greyscale is adjusted to favour the flow signal in the small cardiac structures. | ISUOG-2023-SCREEN: Early fetal cardiac screening, p. 798 | ai-extracted | |
+| IS23-101 | During first-trimester screening, the balance between colour and greyscale is adjusted to favour the flow signal in the small cardiac structures. | ISUOG-2023-SCREEN: Early fetal cardiac screening, p. 798 | ai-cross-checked | |
 
 Signed: ____________________   Date: __________

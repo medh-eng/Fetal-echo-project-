@@ -1,6 +1,6 @@
 # Video script: Two outflow tracts, one crossing
 
-> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-extracted' that no clinician has verified.
+> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-cross-checked' that no clinician has verified.
 
 Unit D5 | Target length: 6 min
 

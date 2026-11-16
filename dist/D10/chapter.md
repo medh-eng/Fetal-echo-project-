@@ -2,7 +2,7 @@
 
 > DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-extracted' that no clinician has verified.
 
-Unit D10 | Tier: Detect | Version 0.1
+Unit D10 | Tier: Detect | Version 0.2
 
 ## You will be able to
 
@@ -24,7 +24,7 @@ A small amount of pericardial fluid, 2 mm or less thick at end-systole, is commo
 
 With the beam running parallel to the ventricular septum, acoustic drop-out can falsely suggest a defect near the crux. The septum is seen best with the beam perpendicular to it. [2]
 
-Real small defects exist too. Defects of 1 to 2 mm can be very difficult to confirm, particularly when fetal size or position is unfavourable; most are of limited clinical significance and may close before birth. [3, 4]
+Real small defects exist too. Defects of 1 to 2 mm can be very difficult to confirm, particularly when fetal size and position are unfavourable; most are of limited clinical significance and may close before birth. [3, 4]
 
 
 ## Ventricles that are not quite equal
@@ -107,6 +107,6 @@ Cardiac axis and position can still be judged when the four-chamber view itself 
 11. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Four-chamber view, p. 792. *Claim IS23-037, expert-verified.*
 12. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Table 2, 'Other considerations', p. 797. *Claim IS23-085, ai-cross-checked.*
 13. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - RVOT view, 3VV and 3VTV, p. 796. *Claim IS23-070, ai-cross-checked.*
-14. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Figures 7 and 9, pp. 795-796. *Claim IS23-100, ai-extracted.*
+14. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Figures 7 and 9, pp. 795-796. *Claim IS23-100, ai-cross-checked.*
 15. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Outflow tracts: Sonographic technique, p. 793. *Claim IS23-056, expert-verified.*
 16. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Four-chamber view, p. 791. *Claim IS23-029, expert-verified.*

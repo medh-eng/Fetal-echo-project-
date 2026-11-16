@@ -4,7 +4,7 @@
 id: D3
 title: "Laterality and situs"
 tier: Detect
-version: 0.1
+version: 0.2
 summary: "Working out fetal left and right, reading the upper-abdomen plane, and what to suspect when stomach or heart is not where it should be."
 drafted_by: "Claude (16 Nov 2026)"
 audited_by: "ChatGPT (Codex), 16 Nov 2026, against the ledger only; findings applied by Claude (Fable)."
@@ -68,7 +68,7 @@ sections:
     blocks:
       - kind: framing
         text: "These points are from the echocardiography guideline. They describe the specialist examination, not the screen."
-      - text: "To assign abdominal situs, the examiner evaluates an upper abdominal cross-section showing the stomach, the liver, the descending aorta and the systemic veins, in the fetus's established orientation."
+      - text: "To assign abdominal situs, the examiner evaluates an upper abdominal cross-section showing the stomach, the liver, the descending aorta and the systemic veins, with careful attention to fetal lie and transducer orientation."
         claims: [AS23-041]
       - text: "Two-dimensional imaging is required for visceral and atrial situs; colour Doppler is optional for it."
         claims: [AS23-042]

@@ -4,7 +4,7 @@
 id: D6
 title: "Three-vessel and three-vessel-and-trachea views"
 tier: Detect
-version: 0.2
+version: 0.3
 summary: "The two highest planes of the sweep: which vessels, in what order and size, where the arches lie against the trachea, and what goes wrong here."
 drafted_by: "Claude (16 Nov 2026)"
 audited_by: "ChatGPT (Codex), 16 Nov 2026, against the ledger only; findings applied by Claude (Fable)."
@@ -91,7 +91,7 @@ sections:
         claims: [AS23-056]
       - text: "In the normal three-vessel-and-trachea view the two arches join the descending aorta on the left of the trachea. Colour Doppler should demonstrate patency and direction of flow in both arches."
         claims: [AS23-057, AS23-058]
-      - text: "The side of each arch relative to the trachea should be documented at every fetal echocardiogram."
+      - text: "Aortic and ductal arch sidedness should be documented at every fetal echocardiogram."
         claims: [AS23-100]
       - text: "Colour and power Doppler in the three-vessel-and-trachea view can help to identify an aberrant subclavian artery."
         claims: [AS23-101]

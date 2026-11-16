@@ -2,7 +2,7 @@
 
 > DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-extracted' that no clinician has verified.
 
-Unit D4 | Tier: Detect | Version 0.1
+Unit D4 | Tier: Detect | Version 0.2
 
 ## You will be able to
 
@@ -63,7 +63,7 @@ Examine the septum from apex to crux and, if possible, sweep from its most poste
 
 The septum is seen best with the beam perpendicular to it. With the beam parallel to the septum, acoustic drop-out can falsely suggest a defect near the crux. [14]
 
-Small septal defects of 1 to 2 mm can be very difficult to confirm, particularly when fetal size or position is unfavourable. Most are of limited clinical significance and may close on their own before birth. [15, 16]
+Small septal defects of 1 to 2 mm can be very difficult to confirm, particularly when fetal size and position are unfavourable. Most are of limited clinical significance and may close on their own before birth. [15, 16]
 
 
 ## Atrioventricular valves
@@ -91,7 +91,7 @@ Complete transposition, tetralogy of Fallot, double-outlet right ventricle, comm
 
 These points are from the echocardiography guideline. They describe the specialist examination, not the screen.
 
-The four-chamber view should be examined in at least two perpendicular planes, because the angle at which the beam meets a structure changes how it is seen. [21]
+The fetal heart should be examined from at least two orthogonal planes, depending on the size, thickness and orientation of the structure. [21]
 
 The cardiac axis must be assessed; measuring the angle is optional. A complete study requires a measured ratio of cardiac to thoracic area. [22, 23]
 
@@ -141,7 +141,7 @@ Both two-dimensional and colour images are required to assess the ventricular se
 19. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - General considerations, p. 788. *Claim IS23-008, expert-verified.*
 20. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - RVOT view, 3VV and 3VTV, p. 794. *Claim IS23-067, expert-verified.*
 21. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.E. Standard Views and Imaging Planes, Figure 4, p. 686. *Claim AS23-045, ai-extracted.*
-22. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.E. Standard Views and Imaging Planes, Table 3, cardiac axis row, p. 686. *Claim AS23-043, ai-extracted.*
-23. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.E. Standard Views and Imaging Planes, Table 3, cardiac size row, p. 686; III.F, Table 4, p. 690. *Claim AS23-044, ai-extracted.*
-24. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.E. Standard Views and Imaging Planes, Table 3, pulmonary venous connections row, p. 686; four-chamber view, p. 687. *Claim AS23-047, ai-extracted.*
-25. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.E. Standard Views and Imaging Planes, Table 3, ventricular septum row, p. 686; four-chamber view, p. 687. *Claim AS23-050, ai-extracted.*
+22. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.E. Standard Views and Imaging Planes, Table 3, cardiac axis row, p. 686. *Claim AS23-043, ai-cross-checked.*
+23. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.E. Standard Views and Imaging Planes, Table 3, cardiac size row, p. 686; III.F, Table 4, p. 690. *Claim AS23-044, ai-cross-checked.*
+24. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.E. Standard Views and Imaging Planes, Table 3, pulmonary venous connections row, p. 686; four-chamber view, p. 687. *Claim AS23-047, ai-cross-checked.*
+25. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.E. Standard Views and Imaging Planes, Table 3, ventricular septum row, p. 686; four-chamber view, p. 687. *Claim AS23-050, ai-cross-checked.*

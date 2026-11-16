@@ -6,7 +6,7 @@
 id: F2
 title: "Fetal rhythm: tools and mechanisms"
 tier: Foundation
-version: 0.1
+version: 0.2
 summary: "How a fetal echocardiogram works out an abnormal rhythm: the tools, and the pattern each common mechanism produces."
 drafted_by: "Claude (16 Nov 2026)"
 audited_by: "ChatGPT (Codex), 16 Nov 2026, against the ledger only; findings applied by Claude (Fable)."
@@ -30,7 +30,7 @@ sections:
 
   - heading: "Normal and abnormal rates"
     blocks:
-      - text: "The usual fetal heart rate is 120 to 160 beats per minute."
+      - text: "The normal fetal heart rate ranges from 120 to 160 beats per minute."
         claims: [AS23-070, IS23-033]
       - text: "The echocardiography guideline describes a sustained rate below 120 beats per minute as abnormal at any gestation. For the upper limit it gives a range: a sustained rate above 160 to 180 is abnormal."
         claims: [AS23-071, AS23-072]

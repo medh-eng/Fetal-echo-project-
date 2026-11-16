@@ -6,7 +6,7 @@
 id: XA5
 title: "The complete fetal echocardiogram"
 tier: Diagnose
-version: 0.2
+version: 0.3
 summary: "What a full fetal echocardiogram contains: when it is done and by whom, each view and what it must show, required measurements and Doppler, and when the study counts as complete."
 drafted_by: "Claude (16 Nov 2026)"
 audited_by: "ChatGPT (Codex), 16 Nov 2026, against the ledger only; findings applied by Claude (Fable)."
@@ -37,19 +37,19 @@ sections:
         claims: [AS23-037, AS23-038]
       - text: "An abnormal heart is usually reassessed every 2 to 8 weeks until about 34 to 36 weeks, the interval depending on the lesion and the clinical concerns. Near term, reassessment targets findings that could change care immediately after birth."
         claims: [AS23-035, AS23-036]
-      - text: "The fetal cardiology and obstetric teams should decide the follow-up interval together."
+      - text: "The follow-up interval should be decided by the fetal cardiology and obstetric teams caring for the patient."
         claims: [AS23-039]
 
   - heading: "Start with a survey"
     blocks:
       - text: "In the initial survey, look for fluid around the heart, in the pleural spaces and in the abdomen, and record whether it is present."
         claims: [AS23-118]
-      - text: "Assign abdominal situs from an upper abdominal cross-section showing the stomach, liver, descending aorta and systemic veins, in the fetus's established orientation. Two-dimensional imaging is required for visceral and atrial situs; colour is optional."
+      - text: "Assign abdominal situs from an upper abdominal cross-section showing the stomach, liver, descending aorta and systemic veins, with careful attention to fetal lie and transducer orientation. Two-dimensional imaging is required for visceral and atrial situs; colour is optional."
         claims: [AS23-041, AS23-042]
 
   - heading: "Four-chamber view"
     blocks:
-      - text: "Examine the four-chamber view in at least two perpendicular planes, to allow for the way the beam meets different structures."
+      - text: "Examine the heart from at least two orthogonal planes, depending on the size, thickness and orientation of the structure."
         claims: [AS23-045]
       - text: "What the guideline requires in and around the four-chamber view."
         claims: [AS23-043, AS23-044, AS23-046, AS23-047, AS23-048, AS23-049, AS23-050, AS23-051]
@@ -79,7 +79,7 @@ sections:
         claims: [AS23-055, AS23-056]
       - text: "In the normal three-vessel-and-trachea view the two arches join the descending aorta on the left of the trachea. Colour Doppler should show that both arches are patent, and the direction of flow in each."
         claims: [AS23-057, AS23-058]
-      - text: "The side of each arch relative to the trachea should be documented at every fetal echocardiogram."
+      - text: "Aortic and ductal arch sidedness should be documented at every fetal echocardiogram."
         claims: [AS23-100]
 
   - heading: "Sagittal views"
@@ -102,7 +102,7 @@ sections:
 
   - heading: "Measurements"
     blocks:
-      - text: "The mitral and tricuspid annular diameters are required measurements, taken in early diastole. The aortic and pulmonary valve annuli must also be measured."
+      - text: "Measurement of the mitral and tricuspid annulus in early diastole is required. Measurement of the aortic and pulmonary valve annuli is also required."
         claims: [AS23-068, AS23-069]
       - text: "The guideline is not consistent on when in the cycle the aortic and pulmonary annuli are measured: its text and a table footnote specify systole, while the table row allows end-diastole or early systole. This course does not yet teach one reading as the rule."
         claims: [AS23-069]
@@ -118,7 +118,7 @@ sections:
     blocks:
       - text: "Every fetal echocardiogram must document heart rate and rhythm, and must include a qualitative assessment of systolic and diastolic function."
         claims: [AS23-073, AS23-087]
-      - text: "When findings raise concern about cardiac function or output, a quantitative assessment should be performed. The first step in suspected dysfunction is to look for features of hydrops: ascites, pleural or pericardial fluid, and skin oedema."
+      - text: "When findings raise concern about cardiac function or output, a quantitative assessment should be performed. When dysfunction is suspected, it is important at initial imaging to assess for fetal hydrops or its component findings."
         claims: [AS23-088, AS23-089]
       - text: "Regurgitation through an atrioventricular valve on Doppler may indicate systolic dysfunction."
         claims: [AS23-090]
@@ -281,7 +281,7 @@ checklist:
       claims: [AS23-118]
     - text: "Abdominal situs: stomach, liver, descending aorta, systemic veins"
       claims: [AS23-041]
-    - text: "Four-chamber view in at least two perpendicular planes; axis; cardiac-to-thoracic area ratio"
+    - text: "Heart examined from at least two orthogonal planes; axis; cardiac-to-thoracic area ratio"
       claims: [AS23-045, AS23-043, AS23-044]
     - text: "Systemic and pulmonary venous connections, two-dimensional and colour (at least one pulmonary vein each side)"
       claims: [AS23-046, AS23-047]
@@ -315,7 +315,7 @@ video:
       narration: "Survey first. Any fluid around the heart, in the chest, in the abdomen. Then situs: stomach, liver, aorta, veins."
       claims: [AS23-118, AS23-041]
     - shot: "Four-chamber clips, apical and lateral, grey-scale and colour"
-      narration: "Four chambers from at least two directions. Axis and size. Veins into both atria. Both valves. The septum, in grey-scale and in colour."
+      narration: "The heart from at least two orthogonal planes. Four chambers: axis and size. Veins into both atria. Both valves. The septum, in grey-scale and in colour."
       claims: [AS23-045, AS23-046, AS23-047, AS23-049, AS23-050]
     - shot: "Outflow tract clips"
       narration: "Left outflow: below the valve, the valve, above it, the ascending aorta. Right outflow: below the valve, the valve, the trunk, the branches."

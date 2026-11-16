@@ -51,7 +51,7 @@ Then open `dist/app/index.html` in a browser for the course app, or `dist/D1/stu
 
 ## What exists now
 
-- **222 claims** from two guidelines (ISUOG 2023 screening, ASE 2023 fetal echocardiography), all with page references. ChatGPT has checked the first 118 against the PDFs, including a second pass on 22 that were reworded. Status now: 57 expert-verified, 61 cross-checked, 104 awaiting cross-check (extracted by ChatGPT; to be checked by Claude or Gemini).
+- **222 claims** from two guidelines (ISUOG 2023 screening, ASE 2023 fetal echocardiography), all with page references. ChatGPT has checked the first 118 against the PDFs, including a second pass on 22 that were reworded. Claude has checked the remaining 104 through a reader on the PDF text (limits in `tasks/results/task-1-crosscheck.md`). Status now: 57 expert-verified, 149 cross-checked, 16 awaiting re-check.
 - **17 units, 189 drills**, all in the app and the book:
   - Detect: D0 Why hearts are missed, D1 Five views, D2 Machine set-up, D3 Laterality and situs, D4 Four-chamber view, D5 Outflow tracts, D6 Three-vessel views, D7 Colour Doppler, D8 Rate and rhythm, D9 The heart at 11 to 14 weeks, D10 Variants and pitfalls, D11 When and how to refer, D13 Quality and audit.
   - Foundation: F1 Ultrasound modes, F2 Fetal rhythm: tools and mechanisms.
@@ -70,12 +70,12 @@ Then open `dist/app/index.html` in a browser for the course app, or `dist/D1/stu
 
 | Next step | Who | Where |
 |---|---|---|
-| Cross-check of the 104 claims ChatGPT extracted (attach both PDFs) | Claude Opus, or Gemini | `tasks/claude-tasks.md`, task 1 |
+| Sixteen claims that need eyes on the PDF | Gemini (or ChatGPT for twelve) | `tasks/chatgpt-tasks-round4.md`, task H |
 | Harvest for the Diagnose and Decide tiers | ChatGPT, Gemini | `tasks/chatgpt-tasks-round3.md` |
 | One sitting with the review pack | Dr Kunda | `dist/editor/review-pack.html` |
 | Mark up the five sweep drawings | Dr Kunda | `dist/editor/sweep-schematics.html` |
 | Clinic checks form (archive, Voluson export, consent) | Project owner | `docs/07-clinic-checks.md` |
-| Re-audit of six revised units | ChatGPT | `tasks/chatgpt-tasks-round4.md` |
+| Re-audit of revised units | ChatGPT | `tasks/chatgpt-tasks-round4.md` |
 | Record sign-off; first real clips; lesion atlas drafts | Claude Sonnet / Opus | `tasks/claude-tasks.md`, tasks 3, 6, 7, 12 |
 
 ## Rules

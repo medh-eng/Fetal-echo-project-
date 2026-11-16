@@ -4,7 +4,7 @@
 id: D11
 title: "When and how to refer"
 tier: Detect
-version: 0.1
+version: 0.2
 summary: "Which findings and risk factors are indications for a fetal echocardiogram, how the guideline grades the others, and who should do it."
 drafted_by: "Claude (15 Nov 2026)"
 audited_by: "ChatGPT (Codex), 16 Nov 2026, against the ledger only; findings applied by Claude (Fable). One finding not applied, see docs/log.md."
@@ -23,7 +23,7 @@ sections:
     blocks:
       - text: "A fetus with a known or suspected abnormality on cardiac screening is a candidate for fetal echocardiography."
         claims: [IS23-078]
-      - text: "The echocardiography guideline says the same from its side: suspected cardiac disease on obstetric screening requires fetal echocardiography even when there is no other risk factor."
+      - text: "The echocardiography guideline says the same from its side: fetal echocardiography is indicated when the screening ultrasound of the heart is abnormal, whether or not there are other risk factors."
         claims: [AS23-023]
       - text: "A low threshold for referral is one of the measures that can improve a screening programme."
         claims: [IS23-006]

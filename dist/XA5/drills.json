@@ -17,7 +17,7 @@
       "claims": [
         "AS23-034"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "XA5-Q02",
@@ -33,7 +33,7 @@
       "claims": [
         "AS23-037"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "XA5-Q03",
@@ -49,7 +49,7 @@
       "claims": [
         "AS23-035"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "XA5-Q04",
@@ -82,7 +82,7 @@
       "claims": [
         "AS23-043"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "XA5-Q06",
@@ -98,7 +98,7 @@
       "claims": [
         "AS23-044"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "XA5-Q07",
@@ -115,7 +115,7 @@
         "AS23-059",
         "AS23-060"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "XA5-Q08",
@@ -131,7 +131,7 @@
       "claims": [
         "AS23-058"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "XA5-Q09",
@@ -147,7 +147,7 @@
       "claims": [
         "AS23-040"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "XA5-Q10",
@@ -163,7 +163,7 @@
       "claims": [
         "AS23-117"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "XA5-Q11",
@@ -180,7 +180,7 @@
         "AS23-073",
         "AS23-087"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "XA5-Q12",
@@ -196,7 +196,7 @@
       "claims": [
         "AS23-067"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     }
   ]
 }

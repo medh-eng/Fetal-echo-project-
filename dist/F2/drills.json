@@ -18,7 +18,7 @@
         "AS23-071",
         "IS23-036"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "F2-Q02",
@@ -66,7 +66,7 @@
       "claims": [
         "AS23-078"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "F2-Q05",
@@ -83,7 +83,7 @@
         "AS23-074",
         "AS23-075"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "F2-Q06",
@@ -116,7 +116,7 @@
       "claims": [
         "AS23-080"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "F2-Q08",
@@ -132,7 +132,7 @@
       "claims": [
         "AS23-083"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "F2-Q09",
@@ -148,7 +148,7 @@
       "claims": [
         "AS23-084"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "F2-Q10",
@@ -180,7 +180,7 @@
       "claims": [
         "AS23-086"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     }
   ]
 }

@@ -6,7 +6,7 @@
 id: XC1
 title: "Assessing cardiac function: the first steps"
 tier: Diagnose
-version: 0.1
+version: 0.2
 summary: "What every fetal echocardiogram must say about function, when to measure, the first signs to look for, and the tools the guideline names."
 drafted_by: "Claude (16 Nov 2026)"
 audited_by: "ChatGPT (Codex), 16 Nov 2026, against the ledger only; findings applied by Claude (Fable)."
@@ -29,7 +29,7 @@ sections:
 
   - heading: "Look for fluid first"
     blocks:
-      - text: "The first step when dysfunction is suspected is to look for the features of hydrops: ascites, pleural or pericardial fluid, and skin oedema."
+      - text: "When dysfunction is suspected, it is important at the first examination to assess for fetal hydrops or its component findings."
         claims: [AS23-089]
       - text: "The initial survey of any fetal echocardiogram looks for fluid around the heart, in the pleural spaces and in the abdomen."
         claims: [AS23-118]
@@ -61,7 +61,7 @@ sections:
     blocks:
       - text: "A comprehensive assessment of a compromised fetus should include pulsed-wave Doppler of the umbilical artery and the middle cerebral artery, obtained at either the obstetric or the cardiac study."
         claims: [AS23-095]
-      - text: "The fetal cardiology and obstetric teams should decide the follow-up interval together."
+      - text: "The follow-up interval should be decided by the fetal cardiology and obstetric teams caring for the patient."
         claims: [AS23-039]
 
 missing_claims:
@@ -97,12 +97,12 @@ drills:
   - id: XC1-Q03
     question: "Dysfunction is suspected. What does the initial assessment look for?"
     options:
-      - "Features of hydrops: ascites, pleural or pericardial fluid, skin oedema"
+      - "Fetal hydrops or its component findings"
       - "The mechanical PR interval"
       - "The side of the aortic arch"
       - "An echogenic intracardiac focus"
     answer: 0
-    explanation: "The initial assessment for suspected dysfunction looks for features of hydrops."
+    explanation: "At initial imaging for suspected dysfunction it is important to assess for fetal hydrops or its component findings."
     claims: [AS23-089]
 
   - id: XC1-Q04
@@ -165,7 +165,7 @@ checklist:
   items:
     - text: "Qualitative systolic and diastolic function recorded in every study"
       claims: [AS23-087]
-    - text: "Fluid looked for: pericardial, pleural, abdominal; skin oedema"
+    - text: "Hydrops and its component findings looked for; fluid: pericardial, pleural, abdominal"
       claims: [AS23-089, AS23-118]
     - text: "Atrioventricular valve regurgitation looked for"
       claims: [AS23-090]

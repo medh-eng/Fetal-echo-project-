@@ -1109,41 +1109,40 @@ claims:
     owner)
   note: Also confirmed against the PDF by ChatGPT (GPT-6, 2026-11-16).
 - id: IS23-097
-  statement: Many cardiac structures can still be assessed satisfactorily after 22 weeks.
+  statement: "Many anatomical structures can still be visualised satisfactorily beyond 22 weeks."
   source: ISUOG-2023-SCREEN
   locator: Gestational age, p. 789
   status: ai-extracted
   extracted_by: ChatGPT (GPT-6, 2026-11-16), listed as a missed fact in the cross-check report
   checked_by: null
   verified_by: null
-  note: null
+  note: "REWORDED 17 Nov 2026 by Claude after cross-check: the guideline says 'anatomical structures', not 'cardiac structures'. Was: 'Many cardiac structures can still be assessed satisfactorily after 22 weeks.' Awaits re-check by another model."
 - id: IS23-098
   statement: Recurrent fetal heart-rate decelerations in the third trimester can reflect fetal hypoxia.
   source: ISUOG-2023-SCREEN
   locator: Four-chamber view, p. 792
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16), listed as a missed fact in the cross-check report
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: IS23-099
-  statement: Limited lateral resolution makes a small ventricular septal defect particularly difficult to confirm
-    when fetal size or position is unfavourable.
+  statement: "Limited lateral resolution makes a small ventricular septal defect particularly difficult to confirm when fetal size and position are unfavourable."
   source: ISUOG-2023-SCREEN
   locator: Four-chamber view, p. 793
   status: ai-extracted
   extracted_by: ChatGPT (GPT-6, 2026-11-16), listed as a missed fact in the cross-check report
   checked_by: null
   verified_by: null
-  note: null
+  note: "REWORDED 17 Nov 2026 by Claude after cross-check: the guideline says size and position, not size or position. Was: 'Limited lateral resolution makes a small ventricular septal defect particularly difficult to confirm when fetal size or position is unfavourable.' Awaits re-check by another model."
 - id: IS23-100
   statement: On the normal upper mediastinal views the thymus appears as a relatively dark area between the great
     vessels and the front of the chest.
   source: ISUOG-2023-SCREEN
   locator: Figures 7 and 9, pp. 795-796
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16), listed as a missed fact in the cross-check report
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: IS23-101
@@ -1151,9 +1150,9 @@ claims:
     flow signal in the small cardiac structures.
   source: ISUOG-2023-SCREEN
   locator: Early fetal cardiac screening, p. 798
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16), listed as a missed fact in the cross-check report
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: IS23-102
@@ -1161,9 +1160,9 @@ claims:
     early four-chamber view.
   source: ISUOG-2023-SCREEN
   locator: Early fetal cardiac screening, item 2, p. 798
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16), listed as a missed fact in the cross-check report
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null
 - id: IS23-103
@@ -1171,8 +1170,8 @@ claims:
     diastole and on the three-vessel-and-trachea view in systole.
   source: ISUOG-2023-SCREEN
   locator: Figure 10 caption, p. 798
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: ChatGPT (GPT-6, 2026-11-16), listed as a missed fact in the cross-check report
-  checked_by: null
+  checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
   verified_by: null
   note: null

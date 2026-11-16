@@ -5,7 +5,7 @@
 id: D10
 title: "Normal variants, artefacts and pitfalls"
 tier: Detect
-version: 0.1
+version: 0.2
 summary: "Findings that look worrying and are usually not, findings that look harmless and are not, and the artefacts that create a false defect."
 drafted_by: "Claude (16 Nov 2026)"
 audited_by: "ChatGPT (Codex), 16 Nov 2026, against the ledger only; findings applied by Claude (Fable)."
@@ -32,7 +32,7 @@ sections:
     blocks:
       - text: "With the beam running parallel to the ventricular septum, acoustic drop-out can falsely suggest a defect near the crux. The septum is seen best with the beam perpendicular to it."
         claims: [IS23-045]
-      - text: "Real small defects exist too. Defects of 1 to 2 mm can be very difficult to confirm, particularly when fetal size or position is unfavourable; most are of limited clinical significance and may close before birth."
+      - text: "Real small defects exist too. Defects of 1 to 2 mm can be very difficult to confirm, particularly when fetal size and position are unfavourable; most are of limited clinical significance and may close before birth."
         claims: [IS23-046, IS23-099]
 
   - heading: "Ventricles that are not quite equal"
