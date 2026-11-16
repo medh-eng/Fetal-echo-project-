@@ -1,0 +1,41 @@
+# Pilot clip set 2 (file name: set-b). Thirty items, mostly normal with some abnormal (docs/08-pilot-protocol.md).
+# clip: file name inside the folder media/pilot/ on the hosting server. Never in this repository.
+#       While clip is null the test page shows a grey placeholder.
+# key:  filled and signed by the editor-in-chief before the pilot starts. It is never sent to the
+#       test page; tools/pilot_score.py reads it here. plane and region use the codes in form.yaml;
+#       normal is true or false; region is null for a normal clip.
+# No clip listed here may appear in the course drills.
+
+set: B
+key_signed_by: null
+items:
+  - {id: B01, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B02, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B03, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B04, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B05, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B06, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B07, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B08, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B09, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B10, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B11, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B12, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B13, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B14, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B15, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B16, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B17, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B18, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B19, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B20, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B21, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B22, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B23, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B24, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B25, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B26, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B27, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B28, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B29, clip: null, key: {plane: null, normal: null, region: null}}
+  - {id: B30, clip: null, key: {plane: null, normal: null, region: null}}

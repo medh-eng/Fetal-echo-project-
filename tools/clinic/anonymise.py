@@ -43,6 +43,8 @@ import numpy as np
 
 STILLS = {".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff"}
 VIEWS = ["abdomen", "4CV", "LVOT", "RVOT", "3VV", "3VT", "sweep", "arch-sagittal", "other"]
+REGIONS = ["situs", "position-size", "atria-veins", "ventricles-septum", "av-valves", "outflow",
+           "vessels-arches", "rhythm"]  # where the finding is; same codes as content/pilot/form.yaml
 MODES = ["2D", "colour", "power", "PW", "CW", "M-mode", "3D-4D", "other"]
 ALPHABET = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"  # no look-alike characters
 
@@ -184,6 +186,7 @@ def make(a):
     side = {
         "code": code, "file": media, "kind": "still" if still else "clip",
         "gestation_weeks": a.weeks, "view": a.view, "mode": a.mode, "finding": a.finding,
+        "region": a.region,
         "width": w if still else w - w % 2, "height": h if still else h - h % 2,
         "frames": n, "frame_rate": round(fps, 2) if not still else None,
         "masked_areas": len(a.mask or []), "plays_in_all_browsers": browser_safe,
@@ -238,6 +241,7 @@ def main():
     m.add_argument("--view", choices=VIEWS, required=True)
     m.add_argument("--mode", choices=MODES, required=True)
     m.add_argument("--finding", required=True, help="'normal' or a short description; no patient details")
+    m.add_argument("--region", choices=REGIONS, help="for an abnormal clip: where the finding is (used by the clip drills)")
     m.add_argument("--out", default="clean")
     m.add_argument("--key", default="key-keep-at-clinic")
     m.set_defaults(fn=make)

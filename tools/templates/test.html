@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#9b2c3f">
+<meta name="robots" content="noindex">
+<link rel="icon" href="icon.svg">
+<title>Pilot test | Fetal Echo Course</title>
+<style>
+:root{--ink:#1c2430;--mute:#5d6b7a;--line:#d9dee5;--bg:#f6f4ef;--card:#fff;--accent:#9b2c3f}
+*{box-sizing:border-box}body{margin:0;font:17px/1.5 system-ui,sans-serif;color:var(--ink);background:var(--bg)}
+main{max-width:720px;margin:0 auto;padding:16px 16px 80px}
+header.top{font:600 15px system-ui,sans-serif;color:var(--accent);margin-bottom:6px}header.top a{color:var(--accent);text-decoration:none}
+h1{font:1.5rem/1.2 Georgia,serif;margin:.3em 0 .4em}h2{font-size:1.05rem;margin:1.2em 0 .3em}
+.small{font-size:13px;color:var(--mute)}
+.banner{font-size:14px;background:#fff3cd;border:1px solid #e0c97a;padding:10px 12px;border-radius:6px;margin:12px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin:12px 0}
+.btn{font:15px system-ui,sans-serif;background:var(--ink);color:#fff;border:0;border-radius:8px;padding:11px 20px;cursor:pointer;margin:10px 8px 0 0}
+.btn:disabled{opacity:.4;cursor:default}.btn.alt{background:#fff;color:var(--ink);border:1px solid var(--line)}
+input[type=text],select,textarea{font:16px system-ui,sans-serif;padding:9px;border:1px solid var(--line);border-radius:8px;width:100%;background:#fff;color:var(--ink)}
+textarea{min-height:70px}
+fieldset{border:0;padding:0;margin:14px 0 0}legend{font-weight:600;padding:0;margin-bottom:4px}
+.choices{display:flex;flex-wrap:wrap;gap:6px}
+.choices label{flex:1 1 46%;border:1px solid var(--line);border-radius:8px;padding:9px 10px;background:#fff;cursor:pointer;font-size:15px;display:flex;gap:8px;align-items:flex-start}
+.choices label:has(input:checked){border-color:var(--ink);background:#eef1f5}
+.clip{background:#111;border-radius:8px;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;color:#9aa;overflow:hidden}
+.clip video,.clip img{width:100%;height:100%;object-fit:contain}
+.clip.empty{background:#8a8f96;color:#fff;font-size:15px;text-align:center;padding:20px}
+.bar{height:6px;background:#e5e5e5;border-radius:4px;overflow:hidden;margin:6px 0 12px}.bar i{display:block;height:100%;background:var(--accent)}
+[hidden]{display:none!important}
+</style></head><body><main>
+<header class="top"><a href="./index.html">&larr; Course</a> · Pilot test</header>
+<div id="view"></div>
+</main>
+<script>
+// The answer key is not in this page. Answers are exported as a CSV and scored with tools/pilot_score.py.
+const T = __DATA__;
+const view = document.getElementById('view');
+const KEY = 'fetal-echo-pilot-v1';
+function el(tag, attrs, ...kids){
+  const e = document.createElement(tag);
+  for (const k in (attrs||{})){ if (k === 'class') e.className = attrs[k]; else if (k.startsWith('on')) e[k] = attrs[k]; else e.setAttribute(k, attrs[k]); }
+  for (const c of kids.flat()) if (c != null) e.append(c.nodeType ? c : document.createTextNode(c));
+  return e;
+}
+function load(){ try { return JSON.parse(localStorage.getItem(KEY)) || null; } catch (e) { return null; } }
+function store(s){ try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (e) {} }
+function shuffle(a){ a = a.slice(); for (let i = a.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+function radios(name, map, onchange){
+  return el('div', { class: 'choices' }, Object.entries(map).map(([code, label]) => {
+    const i = el('input', { type: 'radio', name, value: code }); i.onchange = onchange;
+    return el('label', {}, i, el('span', {}, label));
+  }));
+}
+function picked(name){ const i = document.querySelector('input[name="' + name + '"]:checked'); return i ? i.value : ''; }
+
+let S = null;   // session: {code, set, sitting, background, order, pos, answers, feedback, started}
+
+function start(){
+  const old = load();
+  const kids = [el('h1', {}, 'Pilot test'),
+    el('div', { class: 'banner' }, T.placeholder ? 'Trial version: the clips are not loaded yet, so grey boxes stand in for them. Use it to try the page, not to collect results.' : 'There is no feedback during the test. Your answers are stored under your code, not your name.')];
+  if (old && !old.done) kids.push(el('div', { class: 'card' }, el('strong', {}, 'A test is in progress on this device'),
+    el('p', { class: 'small' }, 'Code ' + old.code + ', set ' + old.set + ', item ' + (old.pos + 1) + ' of ' + old.order.length + '.'),
+    el('button', { class: 'btn', onclick: () => { S = old; item(); } }, 'Continue'),
+    el('button', { class: 'btn alt', onclick: () => { if (confirm('Discard the unfinished test?')) { localStorage.removeItem(KEY); start(); } } }, 'Discard')));
+  if (old && old.done) kids.push(el('div', { class: 'card' }, el('strong', {}, 'A finished test is stored on this device'),
+    el('p', { class: 'small' }, 'Code ' + old.code + ', set ' + old.set + '.'),
+    el('button', { class: 'btn', onclick: () => { S = old; finish(); } }, 'Show results file')));
+  const code = el('input', { type: 'text', maxlength: '8', autocomplete: 'off', placeholder: 'for example P07' });
+  const set = el('select', {}, el('option', { value: '' }, 'Choose'), Object.keys(T.sets).map(k => el('option', { value: k }, 'Set ' + k)));
+  const sitting = el('select', {}, el('option', { value: '' }, 'Choose'), el('option', { value: '1' }, 'First test (before the course)'), el('option', { value: '2' }, 'Second test (after the course)'));
+  const err = el('p', { class: 'small', style: 'color:#a23b2a' });
+  kids.push(el('div', { class: 'card' },
+    el('h2', { style: 'margin-top:0' }, 'Start a test'),
+    el('fieldset', {}, el('legend', {}, 'Your participant code'), code, el('div', { class: 'small' }, 'Given to you by the organiser. Letters and numbers only. Do not type your name.')),
+    el('fieldset', {}, el('legend', {}, 'Clip set'), set, el('div', { class: 'small' }, 'The organiser tells you which set to take.')),
+    el('fieldset', {}, el('legend', {}, 'Which test is this?'), sitting), err,
+    el('button', { class: 'btn', onclick: () => {
+      const c = code.value.trim().toUpperCase();
+      if (!/^[A-Z0-9]{2,8}$/.test(c)) return err.textContent = 'The code must be 2 to 8 letters or numbers.';
+      if (!set.value || !sitting.value) return err.textContent = 'Choose the clip set and which test this is.';
+      S = { code: c, set: set.value, sitting: +sitting.value, background: {}, feedback: {}, order: shuffle(T.sets[set.value].map(i => i.id)), pos: 0, answers: [], started: new Date().toISOString(), done: false };
+      S.sitting === 1 ? background() : intro();
+    } }, 'Continue')));
+  view.replaceChildren(...kids);
+}
+
+function background(){
+  const sel = {};
+  view.replaceChildren(el('h1', {}, 'About you'), el('div', { class: 'card' },
+    T.form.background.map(q => { sel[q.id] = el('select', {}, el('option', { value: '' }, 'Choose'), q.options.map(o => el('option', {}, o))); return el('fieldset', {}, el('legend', {}, q.question), sel[q.id]); }),
+    el('button', { class: 'btn', onclick: () => { for (const k in sel) S.background[k] = sel[k].value; intro(); } }, 'Continue')));
+}
+
+function intro(){
+  view.replaceChildren(el('h1', {}, 'Before you begin'), el('div', { class: 'card' },
+    el('p', {}, S.order.length + ' clips. For each one you answer four questions: which plane, normal or not, where the problem is, and how sure you are.'),
+    el('p', {}, T.form.seconds_per_clip_note),
+    el('p', {}, 'You cannot go back to an earlier clip. You will not be told whether an answer was right. Set aside about 20 minutes without interruption.'),
+    el('button', { class: 'btn', onclick: () => { store(S); item(); } }, 'Start the test')));
+}
+
+function item(){
+  if (S.pos >= S.order.length) return S.sitting === 2 ? feedback() : finish();
+  const it = T.sets[S.set].find(i => i.id === S.order[S.pos]);
+  const t0 = performance.now();
+  let clip;
+  if (!it.clip) clip = el('div', { class: 'clip empty' }, 'Clip ' + (S.pos + 1) + ' will play here');
+  else if (/\.(png|jpe?g|webp)$/i.test(it.clip)) clip = el('div', { class: 'clip' }, el('img', { src: T.media + it.clip, alt: '' }));
+  else { const v = el('video', { src: T.media + it.clip, playsinline: '', controlslist: 'nodownload nofullscreen' }); v.autoplay = v.loop = v.muted = true; clip = el('div', { class: 'clip' }, v); }
+  const next = el('button', { class: 'btn', disabled: '' }, S.pos + 1 === S.order.length ? 'Finish' : 'Next clip');
+  const where = el('fieldset', { hidden: '' }, el('legend', {}, 'Where is the problem?'), radios('region', T.form.regions, check));
+  function check(){
+    const n = picked('normal'); where.hidden = n !== 'not-normal';
+    next.disabled = !(picked('plane') && n && picked('sure') && (n === 'normal' || picked('region')));
+  }
+  next.onclick = () => {
+    S.answers.push({ item: it.id, position: S.pos + 1, plane: picked('plane'), normal: picked('normal'),
+      region: picked('normal') === 'not-normal' ? picked('region') : '', sure: picked('sure'), seconds: Math.round((performance.now() - t0) / 100) / 10 });
+    S.pos++; store(S); window.scrollTo(0, 0); item();
+  };
+  view.replaceChildren(
+    el('div', { class: 'small' }, 'Clip ' + (S.pos + 1) + ' of ' + S.order.length),
+    el('div', { class: 'bar' }, el('i', { style: 'width:' + (100 * S.pos / S.order.length) + '%' })),
+    clip,
+    el('fieldset', {}, el('legend', {}, 'Which plane is this?'), radios('plane', T.form.planes, check)),
+    el('fieldset', {}, el('legend', {}, 'Normal or not normal?'), radios('normal', { 'normal': 'Normal', 'not-normal': 'Not normal' }, check)),
+    where,
+    el('fieldset', {}, el('legend', {}, 'How sure are you?'), radios('sure', T.form.confidence, check)),
+    next);
+}
+
+function feedback(){
+  const box = {};
+  view.replaceChildren(el('h1', {}, 'Five last questions'), el('div', { class: 'card' },
+    el('p', { class: 'small' }, 'A line or two each. Do not name patients or colleagues.'),
+    T.form.feedback.map(q => { box[q.id] = el('textarea', { maxlength: '600' }); return el('fieldset', {}, el('legend', {}, q.question), box[q.id]); }),
+    el('button', { class: 'btn', onclick: () => { for (const k in box) S.feedback[k] = box[k].value.trim(); finish(); } }, 'Finish')));
+}
+
+function csv(){
+  const q = v => '"' + String(v == null ? '' : v).replace(/"/g, '""').replace(/\s+/g, ' ') + '"';
+  const head = ['participant', 'set', 'sitting', 'started', 'item', 'position', 'plane', 'normal', 'region', 'sure', 'seconds'];
+  const rows = [head.join(',')];
+  for (const a of S.answers) rows.push([S.code, S.set, S.sitting, S.started, a.item, a.position, a.plane, a.normal, a.region, a.sure, a.seconds].map(q).join(','));
+  // background and feedback travel in the same file as extra rows, item = "form:<id>", answer in the "plane" column
+  for (const [k, v] of Object.entries(Object.assign({}, S.background, S.feedback)))
+    rows.push([S.code, S.set, S.sitting, S.started, 'form:' + k, '', v, '', '', '', ''].map(q).join(','));
+  return rows.join('\r\n') + '\r\n';
+}
+
+function finish(){
+  S.done = true; store(S);
+  const name = 'pilot-' + S.code + '-set' + S.set + '-test' + S.sitting + '.csv';
+  const text = csv();
+  const a = el('a', { class: 'btn', href: URL.createObjectURL(new Blob([text], { type: 'text/csv' })), download: name, style: 'display:inline-block;text-decoration:none' }, 'Save results file');
+  const area = el('textarea', { readonly: '', style: 'min-height:120px;font:12px monospace' }); area.value = text;
+  view.replaceChildren(el('h1', {}, 'Finished. Thank you.'), el('div', { class: 'card' },
+    el('p', {}, 'Save the results file and send it to the organiser. It contains your code and your answers, nothing else.'),
+    a, el('p', { class: 'small' }, 'File name: ' + name + '. If saving does not work on this device, copy the text below into a message instead.'), area,
+    el('button', { class: 'btn alt', onclick: () => { if (confirm('Remove this test from the device? Do this only after the file is saved.')) { localStorage.removeItem(KEY); S = null; start(); } } }, 'Clear and start another')));
+}
+start();
+</script></body></html>

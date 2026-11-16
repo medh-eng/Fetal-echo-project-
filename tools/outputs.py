@@ -59,10 +59,10 @@ def model(u, claims, sources, unit_status, banner, cite):
     }
 
 
-def build_app(models):
+def build_app(models, form=None):
     out = DIST / "app"
     out.mkdir(parents=True, exist_ok=True)
-    data = json.dumps({"units": models}, ensure_ascii=False).replace("</", "<\\/")
+    data = json.dumps({"units": models, "planes": (form or {}).get("planes", {}), "regions": (form or {}).get("regions", {})}, ensure_ascii=False).replace("</", "<\\/")
     page = (TEMPLATES / "app.html").read_text(encoding="utf-8").replace("__DATA__", data)
     (out / "index.html").write_text(page, encoding="utf-8")
     (out / "manifest.webmanifest").write_text(json.dumps({
@@ -78,7 +78,7 @@ def build_app(models):
     ver = hashlib.sha1(page.encode()).hexdigest()[:10]
     (out / "sw.js").write_text(
         f"const C='fetal-echo-{ver}';\n"
-        "self.addEventListener('install',e=>{e.waitUntil(caches.open(C).then(c=>c.addAll(['./','./index.html','./sweep.html','./manifest.webmanifest','./icon.svg'])));self.skipWaiting();});\n"
+        "self.addEventListener('install',e=>{e.waitUntil(caches.open(C).then(c=>c.addAll(['./','./index.html','./sweep.html','./test.html','./manifest.webmanifest','./icon.svg'])));self.skipWaiting();});\n"
         "self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==C).map(x=>caches.delete(x)))));self.clients.claim();});\n"
         "self.addEventListener('fetch',e=>{e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request)));});\n",
         encoding="utf-8")
@@ -206,9 +206,45 @@ def build_sweep(claims):
         encoding="utf-8")
 
 
+def build_pilot():
+    """Pilot test page (docs/08-pilot-protocol.md). The answer key stays out of the page."""
+    import re
+    import yaml
+    root = Path(__file__).resolve().parent.parent
+    pdir = root / "content" / "pilot"
+    form = yaml.safe_load((pdir / "form.yaml").read_text(encoding="utf-8"))
+    anon = (root / "tools" / "clinic" / "anonymise.py").read_text(encoding="utf-8")
+    regions = re.findall(r'"([a-z-]+)"', re.search(r"REGIONS = \[(.*?)\]", anon, re.S).group(1))
+    if regions != list(form["regions"]):
+        raise SystemExit("region codes differ between content/pilot/form.yaml and tools/clinic/anonymise.py")
+    sets, placeholder, seen = {}, False, set()
+    for path in sorted(pdir.glob("set-*.yaml")):
+        d = yaml.safe_load(path.read_text(encoding="utf-8"))
+        items = []
+        for it in d["items"]:
+            clip = it.get("clip")
+            if clip and (not re.fullmatch(r"[A-Za-z0-9._-]+", clip) or clip in seen):
+                raise SystemExit(f"{path.name}: bad or repeated clip name {clip!r}")
+            k = it.get("key") or {}
+            if k.get("plane") not in (None, *form["planes"]) or k.get("region") not in (None, *form["regions"]) \
+                    or k.get("normal") not in (None, True, False):
+                raise SystemExit(f"{path.name}: item {it['id']} has a key value that is not a code in form.yaml")
+            seen.add(clip) if clip else None
+            placeholder = placeholder or not clip
+            items.append({"id": it["id"], "clip": clip})   # never the key
+        sets[str(d["set"])] = items
+    form["confidence"] = {str(k): v for k, v in form["confidence"].items()}
+    data = json.dumps({"form": form, "sets": sets, "media": "media/pilot/", "placeholder": placeholder},
+                      ensure_ascii=False).replace("</", "<\\/")
+    page = (TEMPLATES / "test.html").read_text(encoding="utf-8").replace("__DATA__", data)
+    (DIST / "app" / "test.html").write_text(page, encoding="utf-8")
+    return form
+
+
 def build_all(units, claims, sources, unit_status, banner, cite, statuses):
     models = [model(u, claims, sources, unit_status, banner, cite) for u in units]
-    build_app(models)
+    form = build_pilot()
+    build_app(models, form)
     build_sweep(claims)
     build_book(models)
     build_web(models)

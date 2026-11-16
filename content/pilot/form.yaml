@@ -1,0 +1,54 @@
+# Wording of the pilot test (docs/08-pilot-protocol.md) and of the clip drills.
+# The editor may change any label. Codes (left of each colon) must not change once testing has started.
+# The region codes must match REGIONS in tools/clinic/anonymise.py; the build checks this.
+
+seconds_per_clip_note: "Each clip loops until you answer. Answer as you would in the scan room: first impression, no going back."
+
+planes:
+  abdomen: "Plane I: upper abdomen"
+  4CV: "Plane II: four-chamber view"
+  LVOT: "Plane III: left ventricular outflow tract"
+  RVOT-3VV: "Plane IV: right ventricular outflow tract and three-vessel view"
+  3VT: "Plane V: three-vessel-and-trachea view"
+  none: "Not one of the five standard planes"
+
+regions:
+  situs: "Abdomen and situs"
+  position-size: "Heart position, axis or size"
+  atria-veins: "Atria, atrial septum or veins"
+  ventricles-septum: "Ventricles or ventricular septum"
+  av-valves: "Atrioventricular valves"
+  outflow: "Outflow tracts"
+  vessels-arches: "Three vessels, arches or trachea"
+  rhythm: "Rate or rhythm"
+
+confidence:
+  1: "Guessing"
+  2: "Fairly sure"
+  3: "Very sure"
+
+background:   # asked once, before the first test
+  - id: specialty
+    question: "Your specialty"
+    options: ["Obstetrics and gynaecology", "Radiology", "Fetal medicine", "Sonologist", "Fellow or trainee", "Other"]
+  - id: years
+    question: "Years performing obstetric scans"
+    options: ["Under 2", "2 to 5", "6 to 10", "Over 10"]
+  - id: scans
+    question: "Obstetric scans you perform in a week"
+    options: ["Under 10", "10 to 30", "31 to 60", "Over 60"]
+  - id: training
+    question: "Any formal training in fetal echocardiography"
+    options: ["None", "A workshop or short course", "A fellowship or longer"]
+
+feedback:     # asked once, after the second test
+  - id: helped
+    question: "Which part of the course helped most?"
+  - id: not_helped
+    question: "Which part did not help, or wasted time?"
+  - id: missing
+    question: "What was missing?"
+  - id: change
+    question: "Has anything changed in how you scan the heart? What?"
+  - id: recommend
+    question: "Would you recommend it to a colleague? Why, or why not?"

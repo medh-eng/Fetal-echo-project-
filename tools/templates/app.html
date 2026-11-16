@@ -35,6 +35,9 @@ table{border-collapse:collapse;width:100%;font:14px/1.4 system-ui,sans-serif;mar
 label.chk{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line);font:16px/1.4 system-ui,sans-serif}
 label.chk input{width:22px;height:22px;margin-top:2px;flex:none}
 .bar{height:8px;background:#e5e5e5;border-radius:4px;overflow:hidden;margin-top:8px}.bar i{display:block;height:100%;background:var(--accent)}
+.clip{background:#111;border-radius:8px;aspect-ratio:4/3;overflow:hidden;margin-bottom:10px}.clip video,.clip img{width:100%;height:100%;object-fit:contain}
+.choices{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 12px}.choices button{flex:1 1 46%;margin:0;font-size:15px;padding:9px 10px}
+.opt.on{border-color:var(--ink);background:#eef1f5}
 .beat{border-left:3px solid var(--accent);padding:2px 12px;margin:14px 0}
 </style></head><body><main>
 <header class="top"><button id="home" hidden>&larr; All units</button><span>Fetal Echo Course</span></header>
@@ -81,6 +84,15 @@ function showHome(){
     el('a', { class: 'card unit', href: './sweep.html', style: 'display:block;text-decoration:none;color:inherit' },
       el('div', { class: 'meta' }, 'Tool'), el('div', {}, el('strong', {}, 'Sweep trainer')),
       el('div', { class: 'small' }, 'Slide the probe through the five planes. Then test yourself: which plane is this?'))];
+  kids.push(el('a', { class: 'card unit', href: './test.html', style: 'display:block;text-decoration:none;color:inherit' },
+    el('div', { class: 'meta' }, 'Pilot'), el('div', {}, el('strong', {}, 'Pilot test')),
+    el('div', { class: 'small' }, 'For invited participants. A timed test on clips, before and after the course.')));
+  if (CLIPS.length){
+    const dueC = CLIPS.filter(c => due('clip:' + c.code)).length;
+    kids.push(el('button', { class: 'card unit', onclick: showClips },
+      el('div', { class: 'meta' }, 'Drill'), el('div', {}, el('strong', {}, 'Clip drills')),
+      el('div', { class: 'small' }, CLIPS.length + ' clips · ' + dueC + ' due. Which plane? Normal or not? Where?')));
+  }
   for (const u of DATA.units){
     const st = unitStats(u);
     kids.push(el('button', { class: 'card unit', onclick: () => showUnit(u.id) },
@@ -175,8 +187,60 @@ function drillTab(u, body){
     })();
   }
 }
+// ---- clip drills: clips and media.json sit in ./media/ on the hosting server, never in the code repository ----
+let CLIPS = [];
+function showClips(){
+  $('#home').hidden = false; location.hash = 'clips'; window.scrollTo(0, 0);
+  const body = el('div');
+  view.replaceChildren(el('h1', {}, 'Clip drills'),
+    el('div', { class: 'banner' }, 'Answers come from the labels given at the clinic when each clip was prepared. Every clip was checked by two people before it was listed.'), body);
+  const dueC = CLIPS.filter(c => due('clip:' + c.code));
+  let queue = shuffle(dueC.length ? dueC : CLIPS).slice(0, 10), pos = 0, score = 0;
+  (function show(){
+    if (pos >= queue.length){
+      body.replaceChildren(el('div', { class: 'card' }, el('h2', { style: 'margin-top:0' }, score + ' of ' + queue.length + ' fully correct'),
+        el('button', { class: 'btn', onclick: showClips }, 'More clips'), el('button', { class: 'btn alt', onclick: showHome }, 'Done')));
+      return;
+    }
+    const c = queue[pos], pick = {};
+    let media;
+    if (c.kind === 'still') media = el('img', { src: 'media/' + c.file, alt: '' });
+    else { media = el('video', { src: 'media/' + c.file, playsinline: '' }); media.autoplay = media.loop = media.muted = true; }
+    const fb = el('div'), go = el('button', { class: 'btn', disabled: '' }, 'Check');
+    const whereBox = el('div', { hidden: '' });
+    function group(name, map){
+      const bs = Object.entries(map).map(([code, label]) => el('button', { class: 'opt', onclick: ev => {
+        pick[name] = code; bs.forEach(b => b.classList.remove('on')); ev.currentTarget.classList.add('on');
+        whereBox.hidden = pick.normal !== 'no';
+        go.disabled = !(pick.plane && pick.normal && (pick.normal === 'yes' || pick.region));
+      } }, label));
+      return el('div', { class: 'choices' }, bs);
+    }
+    whereBox.append(el('strong', {}, 'Where is the problem?'), group('region', DATA.regions));
+    go.onclick = () => {
+      const okPlane = pick.plane === c.plane, okNormal = (pick.normal === 'yes') === c.normal;
+      const okRegion = c.normal || pick.region === c.region, ok = okPlane && okNormal && okRegion;
+      if (ok) score++; grade('clip:' + c.code, ok);
+      body.querySelectorAll('.opt').forEach(b => b.disabled = true); go.hidden = true;
+      const line = (good, text) => el('p', { style: 'color:' + (good ? 'var(--ok)' : 'var(--bad)') }, (good ? 'Right. ' : 'Not right. ') + text);
+      fb.append(...[line(okPlane, DATA.planes[c.plane] || c.plane), line(okNormal, c.normal ? 'Normal.' : 'Not normal: ' + c.finding + '.'),
+        c.normal ? null : line(okRegion, 'Region: ' + (DATA.regions[c.region] || c.region) + '.'),
+        c.note ? el('p', {}, c.note) : null,
+        el('div', { class: 'small' }, 'Clip ' + c.code + ' · ' + c.weeks + ' weeks · ' + c.mode),
+        el('button', { class: 'btn', onclick: () => { pos++; show(); } }, 'Next')].filter(Boolean));
+    };
+    body.replaceChildren(el('div', { class: 'card' }, el('div', { class: 'small' }, 'Clip ' + (pos + 1) + ' of ' + queue.length),
+      el('div', { class: 'clip' }, media),
+      el('strong', {}, 'Which plane is this?'), group('plane', DATA.planes),
+      el('strong', {}, 'Normal or not normal?'), group('normal', { yes: 'Normal', no: 'Not normal' }),
+      whereBox, go, fb));
+  })();
+}
 $('#home').onclick = showHome;
 const start = (location.hash || '').slice(1);
 if (start && DATA.units.some(u => u.id === start)) showUnit(start); else showHome();
+fetch('media/media.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).then(m => {
+  if (m && Array.isArray(m.clips)){ CLIPS = m.clips; if (!location.hash) showHome(); }
+}).catch(() => {});
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
 </script></body></html>

@@ -52,6 +52,17 @@ Each learner is compared with themselves (before against after). With 15 to 20 l
 |---|---|---|
 | About 60 anonymised clips not used in the course (two sets of 30, each mostly normal with some abnormal) | Clinic, with the anonymiser | Waits on consent and export checks |
 | Answer key signed by the editor | Dr Kunda | After clips exist |
-| Test page in the app, with results export | Claude | Can be built now on placeholder clips |
+| Test page in the app, with results export | Claude | Built 16 Nov (`dist/app/test.html`), on placeholders. Scoring: `tools/pilot_score.py` |
+| Clip file names entered in `content/pilot/set-a.yaml` and `set-b.yaml` | Claude, from the clinic's list | After clips exist |
+| A place to host the app and the clips, behind a password | Project owner | Open |
 | Ethics view on a learner study | Dr Kunda, with the ethics committee | Open |
 | Units D1 to D13 signed | Dr Kunda | D1 signed; others in the review pack |
+
+## How the test page works
+
+- The learner types a participant code (never a name), picks the clip set and says whether it is the first or second test.
+- Clips come in a different random order for each learner. Each loops until answered. There is no going back and no feedback.
+- The time taken for each clip is recorded.
+- The first test begins with four questions about the learner; the second ends with five questions about the course. Wording: `content/pilot/form.yaml`.
+- At the end the learner saves one results file and sends it to the organiser. An interrupted test can be continued on the same device.
+- The answer key is not in the page. `python tools/pilot_score.py FOLDER` compares the result files with the key and writes the before-and-after table. It refuses to run until the key is complete and signed.

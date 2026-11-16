@@ -13,7 +13,7 @@ Suggested model is given for each task. "Needs" lists what the project owner mus
 
 ## 1. Cross-check the 104 claims ChatGPT extracted (Opus)
 
-Needs: both guideline PDFs attached to the chat (links in `tasks/chatgpt-tasks-round2.md`).
+Needs: both guideline PDFs attached to the chat (links in `tasks/done/2026-11-16-chatgpt-tasks-round2.md`). On 16 Nov Claude could not download them itself: the project owner must attach both files to the chat.
 
 1. Run `python tools/task_lists.py`; open `tasks/claims-for-claude-or-gemini.md`.
 2. For every claim, find the passage in the PDF at or near the locator. Verdict: CONFIRMED, CORRECT LOCATOR, DISTORTED or NOT FOUND, as defined in `prompts/02-crosscheck.md`. Be strict about numbers, qualifiers and lists. Read the PDF page itself; do not rely on memory.
@@ -24,14 +24,9 @@ Needs: both guideline PDFs attached to the chat (links in `tasks/chatgpt-tasks-r
 
 Done when: the CSV is in the repository, the ledger is updated, the build passes.
 
-## 2. Apply ChatGPT's round-2 results (Sonnet)
+## 2. Apply ChatGPT's round-2 results - DONE 16 Nov
 
-Needs: `tasks/results/task-d.csv` and `tasks/results/task-e.md` from ChatGPT.
-
-1. `python tools/apply_crosscheck.py tasks/results/task-d.csv --by "ChatGPT (model, date)"`.
-2. Work through every finding in `task-e.md`. Fix the unit text using only ledger claims. Where the fix needs a fact that is not in the ledger, add a line to the unit's `missing_claims`; do not write the fact.
-3. Do not weaken a finding because it is inconvenient. If you disagree with one, leave the text as is and record the disagreement in `docs/log.md` for the editor.
-4. Rebuild; open `dist/app/index.html` and click through two of the changed units.
+All 22 reworded claims confirmed. Audit findings fixed in D0, D1, D2, D5, D6, XA5; one finding on D11 not applied (see `docs/log.md`). All 17 units now carry `audited_by`. The six changed units need a short re-audit: `tasks/chatgpt-tasks-round4.md`, task G.
 
 ## 3. Record the editor's sign-off (Sonnet)
 
@@ -46,15 +41,17 @@ Needs: a statement from the project owner of which units Dr Kunda approved, the 
 
 Built on 16 Nov (`tools/templates/sweep.html`, generated into `dist/app/sweep.html`). The five schematics were drawn by Claude and go beyond what the claims state in places: which chamber is anterior, the course of each vessel, the position of the inferior vena cava relative to the aorta. Needs: Dr Kunda's marked-up printout of `dist/editor/sweep-schematics.html`. Change the drawings exactly as she marks them. Do not add lesions until the lesion claims exist (task 12).
 
-## 5. Pilot test page (Sonnet)
+## 5. Pilot test page - DONE 16 Nov
 
-Follow `docs/08-pilot-protocol.md`. Add a "Test" page to the app: a fixed set of items, each with a clip slot (use a grey placeholder until clips exist), four questions per item (plane, normal or not, where, how sure), a timer per item, no feedback during the test, and an export of the answers as a CSV with a participant code typed at the start. Two clip sets, A and B. Item definitions live in `content/pilot/set-a.yaml` and `set-b.yaml`; the answer key is filled by the editor later.
+Built: `tools/templates/test.html` -> `dist/app/test.html`; wording in `content/pilot/form.yaml`; items and answer key in `content/pilot/set-a.yaml`, `set-b.yaml` (30 items each, all empty); scoring with `tools/pilot_score.py`. The key is never sent to the page. Tested in a browser on placeholders and with a made-up key.
 
-## 6. Clips in the app (Sonnet)
+Left to do when clips exist (Sonnet): put each clip's file name in the set files; the editor fills and signs the key (`key_signed_by`); upload the clips to `media/pilot/` beside the app.
 
-Needs: at least one real clip through the anonymiser with two checks (see `tools/clinic/README.md`).
+## 6. Clips in the app - DONE 16 Nov
 
-Teach the app to load a `media.json` list that sits beside `index.html` on the hosting server (not in this repository) and to show clip drills: play a few beats, then ask plane, normal or not, and where. Only clips whose details file has two different checkers may be listed. Add a script that builds `media.json` from a folder of anonymiser `.json` files and refuses any with fewer than two checks.
+Built: the app reads `media/media.json` beside `index.html` and shows a 'Clip drills' card when clips are listed. `tools/clinic/build_media.py` writes that file from the anonymiser's folder and leaves out any clip without two different checkers, any abnormal clip without a `--region` label, and any clip kept for the pilot (`--exclude`). Tested with made-up clips only.
+
+Left to do (Sonnet), needs the first real checked clips: try on a phone; add clip drills inside each unit's Drill tab, chosen by plane; let the editor's teaching note be typed into the details file.
 
 ## 7. Anonymiser: real exports (Sonnet)
 
@@ -87,6 +84,12 @@ Needs: results of `tasks/chatgpt-tasks-round3.md`, added to the ledger and cross
 3. Drug doses: never in unit text or drills until the cardiology co-editor exists and has signed. Put them under `missing_claims` as "dose held back".
 4. AHA 2014 is twelve years old. Where ASE 2023 or AHA 2024 says something different, teach the newer one and note the difference.
 5. Remove each unit from `content/plan/units.yaml` when its draft exists; the status board then tracks it automatically.
+
+## 14. Hosting for the pilot (Sonnet)
+
+Needs: the project owner's choice of where the app is hosted (the clinic website or a separate address) and whether it sits behind a password.
+
+The app is a folder of static files (`dist/app/`). Write a short script that uploads it, and a page of instructions for adding the `media/` folder by hand at the server so that clips never pass through this repository. The pilot test must not be reachable by people who have not been invited: a password on the folder is enough.
 
 ## 13. Lesions in the sweep trainer (Opus)
 
