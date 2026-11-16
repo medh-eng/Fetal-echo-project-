@@ -4,10 +4,10 @@
 id: D2
 title: "Setting up the machine for the heart"
 tier: Detect
-version: 0.1
+version: 0.2
 summary: "When to scan, which probe and frequency, the settings that make a cardiac image, and what to do when the view is poor."
 drafted_by: "Claude (16 Nov 2026)"
-audited_by: null
+audited_by: "ChatGPT (Codex), 16 Nov 2026, against the ledger only; findings applied by Claude (Fable)."
 signed_by: null
 
 objectives:
@@ -43,6 +43,8 @@ sections:
         claims: [IS23-014]
       - text: "For fetal echocardiography, frame rates above 30 to 40 Hz are recommended. Narrowing the sector and choosing an appropriate depth help to achieve them."
         claims: [AS23-007]
+      - text: "The screening settings at a glance."
+        claims: [IS23-014, IS23-015]
         table:
           columns: ["Setting", "For the heart"]
           rows:
@@ -225,11 +227,11 @@ video:
       narration: "The heart needs a high frame rate, low persistence, one focal zone and a narrow field. The cardiac preset usually gives you these."
       claims: [IS23-014]
     - shot: "Screen: zooming until the heart fills the frame"
-      narration: "Zoom until the heart fills a third to a half of the screen."
+      narration: "Zoom until the heart fills at least a third to a half of the screen."
       claims: [IS23-015]
     - shot: "Screen: scrolling back through a cine-loop"
       narration: "Use the cine-loop. Watch the valves open and close through the whole cycle."
       claims: [IS23-016]
     - shot: "Presenter"
-      narration: "If the fetus is lying badly, take more time, or bring the patient back."
+      narration: "If the fetus is lying badly, more time or a second examination may be needed."
       claims: [IS23-056]

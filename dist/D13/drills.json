@@ -33,7 +33,7 @@
       "claims": [
         "IS23-017"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D13-Q03",
@@ -49,7 +49,7 @@
       "claims": [
         "IS23-017"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D13-Q04",
@@ -65,7 +65,7 @@
       "claims": [
         "IS23-063"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D13-Q05",

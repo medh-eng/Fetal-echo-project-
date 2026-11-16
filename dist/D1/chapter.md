@@ -1,8 +1,8 @@
 # The normal heart in five views
 
-> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-extracted' that no clinician has verified.
+> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-cross-checked' that no clinician has verified.
 
-Unit D1 | Tier: Detect | Version 0.3
+Unit D1 | Tier: Detect | Version 0.4
 
 ## You will be able to
 
@@ -14,7 +14,7 @@ Unit D1 | Tier: Detect | Version 0.3
 
 ## Why five views
 
-A screening scan does not need to name the lesion. It needs to answer one question reliably: is this heart normal? The five-view sweep is the shortest route to that answer.
+A screening scan does not need to name the lesion. This unit teaches one systematic assessment of five views, done in the same order every time.
 
 Congenital heart disease affects about 8 in every 1000 live births, and fewer than half of cardiac anomalies are found before birth. [1, 2]
 
@@ -31,7 +31,7 @@ Use the highest transducer frequency that still penetrates. Harmonic imaging hel
 
 Choose the cardiac preset: high frame rate, more contrast, low persistence, a single focal zone and a narrow sector. [11]
 
-Zoom until the heart fills a third to a half of the screen. Use cine-loop to watch the valves through the whole cycle. [12, 13]
+Zoom until the heart fills at least a third to a half of the screen. Use cine-loop to watch the valves through the whole cycle. [12, 13]
 
 Store stills and clips of each view so the examination can be reviewed later. [14]
 
@@ -42,7 +42,7 @@ The examination is one continuous transverse sweep towards the fetal head throug
 
 The upper planes are a continuum, not fixed pictures. They are likely to be judged more reliably live or on a clip than from stills alone. [18]
 
-If the fetus is lying badly, take more time or bring the patient back. [19]
+If the fetus is lying badly, more examination time or a second examination may be needed. [19]
 
 
 ## Plane I: left, right and situs
@@ -56,13 +56,13 @@ Normal abdominal situs stands in for normal atrial arrangement. If heart or stom
 
 ## Plane II: size, position, axis, rate
 
-A normal heart is no larger than a third of the chest area. [24]
+A normal heart is usually no larger than a third of the chest area. [24]
 
 It lies mainly in the left chest with its axis pointing left at about 45 degrees, 20 degrees either way. You can judge axis and position even when the rest of the view is poor. [25, 26]
 
 An abnormal axis raises the chance of a heart defect, especially of the outflow tracts. A heart that is pushed out of place points to something beside it: diaphragmatic hernia, a lung mass, or a small or absent lung. [27, 28]
 
-Rate is 120 to 160 beats per minute and regular. Occasional ectopic beats are common and usually harmless. Refer if they are frequent or the rhythm stays irregular for more than a week or two. [29, 30, 31]
+Rate is 120 to 160 beats per minute and regular. Skipped (ectopic) beats are the most common rhythm disturbance and are often benign; in low-risk populations they are not linked to a higher risk of structural heart disease. Further assessment is indicated when they come more often than every three to five beats, or when the rhythm stays irregular for more than 1 to 2 weeks. [29, 30, 31]
 
 A brief slow rate, associated with probe pressure, is seen in normal second-trimester fetuses. A rate that stays at 110 or below in a well fetus, or at 180 or above, needs specialist assessment. [32, 33]
 
@@ -145,11 +145,11 @@ About half of missed diagnoses in one study came from views that did not meet te
 11. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Technical factors: Imaging parameters, p. 789. *Claim IS23-014, expert-verified.*
 12. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Technical factors: Zoom, cine-loop and image storage, p. 789. *Claim IS23-015, expert-verified.*
 13. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Technical factors: Zoom, cine-loop and image storage, p. 789. *Claim IS23-016, expert-verified.*
-14. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Technical factors: Zoom, cine-loop and image storage, p. 789. *Claim IS23-017, ai-extracted.*
+14. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Technical factors: Zoom, cine-loop and image storage, p. 789. *Claim IS23-017, ai-cross-checked.*
 15. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Situs and the four-chamber view: Sonographic technique, p. 789. *Claim IS23-022, expert-verified.*
 16. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Figure 1 legend, p. 789; Figure 2, p. 790. *Claim IS23-023, expert-verified.*
 17. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Outflow tracts: Sonographic technique, p. 793. *Claim IS23-055, expert-verified.*
-18. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - RVOT view, 3VV and 3VTV, p. 794; Figure 8, p. 795. *Claim IS23-063, ai-extracted.*
+18. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - RVOT view, 3VV and 3VTV, p. 794; Figure 8, p. 795. *Claim IS23-063, ai-cross-checked.*
 19. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Outflow tracts: Sonographic technique, p. 793. *Claim IS23-056, expert-verified.*
 20. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Situs and the four-chamber view: Sonographic technique, p. 789. *Claim IS23-021, expert-verified.*
 21. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Situs, p. 791; Figure 3; Table 1. *Claim IS23-024, expert-verified.*
@@ -163,7 +163,7 @@ About half of missed diagnoses in one study came from views that did not meet te
 29. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Four-chamber view, p. 791; Appendix 1. *Claim IS23-033, expert-verified.*
 30. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Four-chamber view, p. 791. *Claim IS23-034, expert-verified.*
 31. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Four-chamber view, p. 792. *Claim IS23-035, expert-verified.*
-32. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Four-chamber view, p. 792. *Claim IS23-036, ai-extracted.*
+32. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Four-chamber view, p. 792. *Claim IS23-036, ai-cross-checked.*
 33. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Four-chamber view, p. 792. *Claim IS23-037, expert-verified.*
 34. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - General considerations, p. 788. *Claim IS23-007, expert-verified.*
 35. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Four-chamber view, p. 792; Table 1. *Claim IS23-038, expert-verified.*
@@ -172,7 +172,7 @@ About half of missed diagnoses in one study came from views that did not meet te
 38. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Four-chamber view, p. 793. *Claim IS23-043, expert-verified.*
 39. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Four-chamber view, p. 793. *Claim IS23-044, expert-verified.*
 40. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Four-chamber view, p. 793. *Claim IS23-045, expert-verified.*
-41. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Four-chamber view, p. 793; Table 1. *Claim IS23-047, ai-extracted.*
+41. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Four-chamber view, p. 793; Table 1. *Claim IS23-047, ai-cross-checked.*
 42. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Four-chamber view, p. 791. *Claim IS23-027, expert-verified.*
 43. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Outflow-tract, three-vessel and three-vessel-and-trachea views, p. 793; Appendix 1. *Claim IS23-052, expert-verified.*
 44. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - LVOT view, p. 794; Figure 6. *Claim IS23-059, expert-verified.*
@@ -190,7 +190,7 @@ About half of missed diagnoses in one study came from views that did not meet te
 56. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - RVOT view, 3VV and 3VTV, p. 796. *Claim IS23-071, expert-verified.*
 57. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Color flow Doppler ultrasound, p. 796. *Claim IS23-073, expert-verified.*
 58. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Color flow Doppler ultrasound, p. 796. *Claim IS23-076, expert-verified.*
-59. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Color flow Doppler ultrasound, p. 796. *Claim IS23-077, ai-extracted.*
+59. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Color flow Doppler ultrasound, p. 796. *Claim IS23-077, ai-cross-checked.*
 60. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Color flow Doppler ultrasound, p. 796. *Claim IS23-074, expert-verified.*
 61. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Fetal echocardiography, p. 796. *Claim IS23-078, expert-verified.*
 62. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Quality assurance, p. 797. *Claim IS23-088, expert-verified.*

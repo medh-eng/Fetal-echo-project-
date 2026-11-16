@@ -4,10 +4,10 @@
 id: D6
 title: "Three-vessel and three-vessel-and-trachea views"
 tier: Detect
-version: 0.1
+version: 0.2
 summary: "The two highest planes of the sweep: which vessels, in what order and size, where the arches lie against the trachea, and what goes wrong here."
 drafted_by: "Claude (16 Nov 2026)"
-audited_by: null
+audited_by: "ChatGPT (Codex), 16 Nov 2026, against the ledger only; findings applied by Claude (Fable)."
 signed_by: null
 
 objectives:
@@ -78,7 +78,7 @@ sections:
 
   - heading: "Why a finding here matters"
     blocks:
-      - text: "Anomalies found on the three-vessel views can change counselling and management. Examples: testing for 22q11 microdeletion; planning where delivery takes place, as in complete transposition; being ready to give prostaglandin; being ready for airway problems from vascular compression."
+      - text: "Anomalies found on the three-vessel views can change counselling and management. What follows depends on the anomaly found; none of these follows from every abnormal view. The guideline's examples: testing for 22q11 microdeletion; planning where delivery takes place, as in complete transposition; being ready to give prostaglandin; being ready for airway problems from vascular compression."
         claims: [IS23-072]
       - text: "A fetus with a suspected abnormality on screening is a candidate for fetal echocardiography."
         claims: [IS23-078]

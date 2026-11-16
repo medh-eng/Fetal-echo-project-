@@ -7,7 +7,7 @@ tier: Detect
 version: 0.1
 summary: "Which findings and risk factors are indications for a fetal echocardiogram, how the guideline grades the others, and who should do it."
 drafted_by: "Claude (15 Nov 2026)"
-audited_by: null
+audited_by: "ChatGPT (Codex), 16 Nov 2026, against the ledger only; findings applied by Claude (Fable). One finding not applied, see docs/log.md."
 signed_by: null
 
 objectives:

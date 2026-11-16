@@ -33,10 +33,10 @@ claims:
   statement: Where the system has it, continuous-wave Doppler can be used to characterise high flow velocities.
   source: ASE-2023-FETALECHO
   locator: III.A Equipment, p. 683
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude; reworded 16 Nov 2026 from the ChatGPT cross-check of the PDF. Needs re-check against the
     PDF by a model other than Claude.
-  checked_by: null
+  checked_by: "ChatGPT (Codex, 2026-11-16)"
   verified_by: null
   note: 'Reworded after the cross-check found: III.A, Equipment, p. 683 makes CW Doppler an option for characterising
     high velocities when available. The claim changes a permitted use to a categorical description.'
@@ -46,10 +46,10 @@ claims:
     first and early second trimesters.
   source: ASE-2023-FETALECHO
   locator: III.A Equipment, p. 683
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude; reworded 16 Nov 2026 from the ChatGPT cross-check of the PDF. Needs re-check against the
     PDF by a model other than Claude.
-  checked_by: null
+  checked_by: "ChatGPT (Codex, 2026-11-16)"
   verified_by: null
   note: 'Reworded after the cross-check found: III.A, Equipment, p. 683 recommends a 2–7 MHz range for late second-
     and third-trimester scanning. The 5–12 MHz range for the earlier window is a possible aid. The claim treats
@@ -59,10 +59,10 @@ claims:
     be aware of the thermal and mechanical indices and limit power output and exposure time.
   source: ASE-2023-FETALECHO
   locator: III.B Safety, p. 684
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude; reworded 16 Nov 2026 from the ChatGPT cross-check of the PDF. Needs re-check against the
     PDF by a model other than Claude.
-  checked_by: null
+  checked_by: "ChatGPT (Codex, 2026-11-16)"
   verified_by: null
   note: 'Reworded after the cross-check found: III.B, Acoustic Bioeffects, p. 684 applies ALARA to fetal echocardiographic
     studies. It says operators should be aware of TI and MI and limit power and exposure time. “Every fetal study”
@@ -84,10 +84,10 @@ claims:
     choosing an appropriate depth help achieve this.
   source: ASE-2023-FETALECHO
   locator: III.D Image optimization, p. 684
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude; reworded 16 Nov 2026 from the ChatGPT cross-check of the PDF. Needs re-check against the
     PDF by a model other than Claude.
-  checked_by: null
+  checked_by: "ChatGPT (Codex, 2026-11-16)"
   verified_by: null
   note: 'Reworded after the cross-check found: III.D, Image Optimization, p. 684 gives the higher 80–100 Hz range
     for capturing important events at heart rates above 140 beats/min or for speckle tracking. “Faster” omits the
@@ -99,10 +99,10 @@ claims:
     view.
   source: ASE-2023-FETALECHO
   locator: III.A Storage, p. 684; III.E, p. 684-688
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude; reworded 16 Nov 2026 from the ChatGPT cross-check of the PDF. Needs re-check against the
     PDF by a model other than Claude.
-  checked_by: null
+  checked_by: "ChatGPT (Codex, 2026-11-16)"
   verified_by: null
   note: 'Reworded after the cross-check found: III.A, Storage, p. 684 says the study should include stills, motion
     and a structured report. It requires an abdominal-stomach to upper-mediastinal sweep and both 2D and colour
@@ -148,10 +148,10 @@ claims:
     than one site.
   source: ASE-2023-FETALECHO
   locator: III.G Doppler ultrasonography, p. 689
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude; reworded 16 Nov 2026 from the ChatGPT cross-check of the PDF. Needs re-check against the
     PDF by a model other than Claude.
-  checked_by: null
+  checked_by: "ChatGPT (Codex, 2026-11-16)"
   verified_by: null
   note: 'Reworded after the cross-check found: III.G, PW Doppler Ultrasound, p. 689 specifies alignment along flow
     or an angle strictly below 20°, excluding 20°. A small gate reduces the chance of sampling multiple sites. It
@@ -175,7 +175,7 @@ claims:
     and tissue Doppler at the lateral tricuspid and mitral annulus.'
   source: ASE-2023-FETALECHO
   locator: Table 6, p. 693
-  status: ai-extracted
+  status: ai-cross-checked
   note: The guideline text (III.G PW Doppler, p. 689; Figure 10, p. 694) includes 'arches' generically in its minimum
     pulsed-wave assessment, while Table 6 (p. 693) marks the transverse aortic segment and isthmus optional and
     separately requires the distal ductus arteriosus at its aortic insertion. The guideline does not reconcile the
@@ -183,7 +183,7 @@ claims:
     Q1).
   extracted_by: Claude; reworded 16 Nov 2026 from the ChatGPT cross-check of the PDF. Needs re-check against the
     PDF by a model other than Claude.
-  checked_by: null
+  checked_by: "ChatGPT (Codex, 2026-11-16)"
   verified_by: null
 - id: AS23-015
   statement: Continuous-wave Doppler is not needed when the heart is normal. It is used to characterise high velocities
@@ -269,10 +269,10 @@ claims:
     needs further investigation.
   source: ASE-2023-FETALECHO
   locator: III.I Alternative ultrasound modalities, p. 693
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude; reworded 16 Nov 2026 from the ChatGPT cross-check of the PDF. Needs re-check against the
     PDF by a model other than Claude.
-  checked_by: null
+  checked_by: "ChatGPT (Codex, 2026-11-16)"
   verified_by: null
   note: 'Reworded after the cross-check found: III.I, Alternative Ultrasound Modalities, p. 693 discusses tissue
     Doppler and strain jointly for assessing myocardial mechanics. It attributes detection of subclinical dysfunction

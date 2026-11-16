@@ -8,7 +8,7 @@ tier: Detect
 version: 0.1
 summary: "Findings that look worrying and are usually not, findings that look harmless and are not, and the artefacts that create a false defect."
 drafted_by: "Claude (16 Nov 2026)"
-audited_by: null
+audited_by: "ChatGPT (Codex), 16 Nov 2026, against the ledger only; findings applied by Claude (Fable)."
 signed_by: null
 
 objectives:

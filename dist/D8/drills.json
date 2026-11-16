@@ -81,7 +81,7 @@
       "claims": [
         "IS23-036"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D8-Q06",
@@ -97,7 +97,7 @@
       "claims": [
         "IS23-036"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D8-Q07",
@@ -113,7 +113,7 @@
       "claims": [
         "IS23-036"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D8-Q08",
@@ -161,7 +161,7 @@
       "claims": [
         "IS23-082"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D8-Q11",

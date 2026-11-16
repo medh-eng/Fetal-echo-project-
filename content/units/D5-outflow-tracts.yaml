@@ -4,10 +4,10 @@
 id: D5
 title: "Outflow tracts"
 tier: Detect
-version: 0.1
+version: 0.2
 summary: "How to obtain the left and right outflow-tract views, what each must show, and which lesions they reveal."
 drafted_by: "Claude (16 Nov 2026)"
-audited_by: null
+audited_by: "ChatGPT (Codex), 16 Nov 2026, against the ledger only; findings applied by Claude (Fable)."
 signed_by: null
 
 objectives:
@@ -33,7 +33,7 @@ sections:
     blocks:
       - text: "For the two great arteries, establish four things: each is connected to the correct ventricle; their size; their position relative to each other; and that the semilunar valves look normal and open normally."
         claims: [IS23-049]
-      - text: "Three findings confirm normal outflow tracts. The vessel leaving the left ventricle has its anterior wall continuous with the ventricular septum and does not divide: the aorta. The vessel leaving the right ventricle divides: the pulmonary artery. The two great arteries cross each other."
+      - text: "Alongside those four checks, three features of continuity and crossing are confirmed; they do not replace the four. The vessel leaving the left ventricle has its anterior wall continuous with the ventricular septum and does not divide: the aorta. The vessel leaving the right ventricle divides: the pulmonary artery. The two great arteries cross each other."
         claims: [IS23-052, IS23-064, IS23-065]
         table:
           columns: ["Feature", "Aorta", "Pulmonary artery"]
@@ -42,7 +42,7 @@ sections:
             - ["Divides early", "No", "Yes, after a short course"]
             - ["Wall continuity", "Anterior wall continuous with the ventricular septum", "-"]
             - ["Relative size", "Usually slightly smaller", "Usually slightly larger"]
-            - ["Course", "Posterior, to the right", "Crosses in front of the aorta, running to its left"]
+            - ["Course, each relative to the other", "The ascending aorta is the more posterior", "Runs to the left of the ascending aorta and crosses it at almost a right angle"]
 
   - heading: "Two ways to get there"
     blocks:

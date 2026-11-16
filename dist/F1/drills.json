@@ -50,7 +50,7 @@
         "AS23-012",
         "AS23-013"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "F1-Q04",
@@ -146,7 +146,7 @@
       "claims": [
         "AS23-012"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "F1-Q10",
@@ -163,7 +163,7 @@
         "AS23-013",
         "AS23-014"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "F1-Q11",
@@ -195,7 +195,7 @@
       "claims": [
         "AS23-007"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "F1-Q13",
@@ -244,7 +244,7 @@
       "claims": [
         "AS23-004"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     }
   ]
 }

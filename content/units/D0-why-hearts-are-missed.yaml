@@ -4,10 +4,10 @@
 id: D0
 title: "Why hearts are missed"
 tier: Detect
-version: 0.1
+version: 0.2
 summary: "How often heart disease is missed before birth, where the miss happens, and what a screening service can do about it."
 drafted_by: "Claude (15 Nov 2026)"
-audited_by: null
+audited_by: "ChatGPT (Codex), 16 Nov 2026, against the ledger only; findings applied by Claude (Fable)."
 signed_by: null
 
 objectives:
@@ -218,5 +218,5 @@ video:
       narration: "Four chambers are not enough. Transposition and coarctation may not be evident in that plane. Complete transposition is typically abnormal on the three-vessel view, and the three-vessel-and-trachea view is particularly useful for coarctation."
       claims: [IS23-008, IS23-067, IS23-054]
     - shot: "Presenter"
-      narration: "One sweep, the same way, every patient. Know the criteria for each plane. If a view cannot be obtained, take more time or bring the patient back. If a view looks abnormal, the fetus is a candidate for a fetal echocardiogram."
+      narration: "One sweep, the same way, every patient. Know the criteria for each plane. If a view cannot be obtained because of the lie, more time or a second examination may be needed. If a view looks abnormal, the fetus is a candidate for a fetal echocardiogram."
       claims: [IS23-023, IS23-056, IS23-078]

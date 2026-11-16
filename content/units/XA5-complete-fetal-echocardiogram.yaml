@@ -6,10 +6,10 @@
 id: XA5
 title: "The complete fetal echocardiogram"
 tier: Diagnose
-version: 0.1
+version: 0.2
 summary: "What a full fetal echocardiogram contains: when it is done and by whom, each view and what it must show, required measurements and Doppler, and when the study counts as complete."
 drafted_by: "Claude (16 Nov 2026)"
-audited_by: null
+audited_by: "ChatGPT (Codex), 16 Nov 2026, against the ledger only; findings applied by Claude (Fable)."
 signed_by: null
 
 objectives:
@@ -23,7 +23,7 @@ sections:
   - heading: "Screening scan and fetal echocardiogram"
     blocks:
       - kind: framing
-        text: "The Detect units teach the screening scan: five planes on every pregnancy. This unit describes the examination that follows a referral. It is longer, uses Doppler throughout, and is done by a specialist."
+        text: "The Detect units teach the screening scan: five planes on every pregnancy. This unit describes the fetal echocardiogram, the examination that follows a referral."
       - text: "The guideline endorses limiting the performance and supervision of fetal echocardiograms to appropriately trained or experienced paediatric cardiologists, maternal-fetal medicine specialists, obstetricians or radiologists with fetal echocardiography skills."
         claims: [AS23-111]
       - text: "Two-dimensional imaging, colour Doppler and spectral Doppler should all be used, with settings optimised for the fetal heart."
@@ -133,6 +133,7 @@ sections:
         claims: [AS23-008]
 
 missing_claims:
+  - "How long a fetal echocardiogram takes compared with a screening scan - no claim held; the comparison was removed from the opening after the audit of 16 Nov."
   - "The segmental sequence itself (situs, atrioventricular connection, ventriculo-arterial connection) explained as a method - needs a source and the cardiology co-editor."
   - "Normal values and Z-scores for every measurement named here - planned for XA6; needs sources."
   - "Timing in the cycle for aortic and pulmonary annulus measurement - the guideline is inconsistent (note on claim AS23-069); the editor or co-editor to decide."

@@ -1,7 +1,7 @@
 {
   "unit": "D1",
   "title": "The normal heart in five views",
-  "status": "ai-extracted",
+  "status": "ai-cross-checked",
   "items": [
     {
       "id": "D1-Q01",
@@ -66,7 +66,7 @@
         "IS23-033",
         "IS23-036"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D1-Q05",
@@ -136,7 +136,7 @@
       "id": "D1-Q09",
       "question": "How far should you zoom for the cardiac views?",
       "options": [
-        "Until the heart fills a third to a half of the screen",
+        "Until the heart fills at least a third to a half of the screen",
         "Until the whole fetus is on screen",
         "Until the heart fills about a tenth of the screen",
         "Zoom does not matter if the frame rate is high"
@@ -210,7 +210,7 @@
       "claims": [
         "IS23-047"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D1-Q14",
@@ -325,13 +325,13 @@
       "claims": [
         "IS23-077"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D1-Q21",
       "question": "You notice occasional skipped beats in an otherwise normal low-risk scan. What is the usual significance?",
       "options": [
-        "Often benign and self-resolving; refer if frequent or persisting beyond a week or two",
+        "Often benign; further assessment if more often than every three to five beats, or if the rhythm stays irregular for more than 1 to 2 weeks",
         "Always a sign of structural heart disease",
         "An indication for immediate delivery planning",
         "A sign of heart block"

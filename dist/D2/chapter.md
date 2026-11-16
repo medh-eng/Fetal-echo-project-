@@ -2,7 +2,7 @@
 
 > DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-extracted' that no clinician has verified.
 
-Unit D2 | Tier: Detect | Version 0.1
+Unit D2 | Tier: Detect | Version 0.2
 
 ## You will be able to
 
@@ -35,6 +35,8 @@ Tissue harmonic imaging improves the image, especially when the abdominal wall i
 Settings should favour a high frame rate with increased contrast and high resolution. That means low persistence, a single focal zone and a relatively narrow image field. Cardiac presets usually have these built in. [7]
 
 For fetal echocardiography, frame rates above 30 to 40 Hz are recommended. Narrowing the sector and choosing an appropriate depth help to achieve them. [8]
+
+The screening settings at a glance. [7, 9]
 
 | Setting | For the heart |
 |---|---|
@@ -105,17 +107,17 @@ In a fetal echocardiogram, if diagnostic images cannot be obtained after optimis
 2. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Gestational age, p. 789. *Claim IS23-011, ai-cross-checked.*
 3. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Gestational age, p. 789. *Claim IS23-097, ai-extracted.*
 4. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Technical factors: Ultrasound transducer, p. 789. *Claim IS23-012, expert-verified.*
-5. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.A Equipment, p. 683. *Claim AS23-004, ai-extracted.*
+5. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.A Equipment, p. 683. *Claim AS23-004, ai-cross-checked.*
 6. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Technical factors: Ultrasound transducer, p. 789. *Claim IS23-013, expert-verified.*
 7. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Technical factors: Imaging parameters, p. 789. *Claim IS23-014, expert-verified.*
-8. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.D Image optimization, p. 684. *Claim AS23-007, ai-extracted.*
+8. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.D Image optimization, p. 684. *Claim AS23-007, ai-cross-checked.*
 9. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Technical factors: Zoom, cine-loop and image storage, p. 789. *Claim IS23-015, expert-verified.*
 10. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Technical factors: Zoom, cine-loop and image storage, p. 789. *Claim IS23-016, expert-verified.*
 11. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Color flow Doppler ultrasound, p. 796. *Claim IS23-076, expert-verified.*
-12. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Color flow Doppler ultrasound, p. 796. *Claim IS23-077, ai-extracted.*
-13. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.B Safety, p. 684. *Claim AS23-005, ai-extracted.*
+12. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Color flow Doppler ultrasound, p. 796. *Claim IS23-077, ai-cross-checked.*
+13. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.B Safety, p. 684. *Claim AS23-005, ai-cross-checked.*
 14. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Early fetal cardiac screening, p. 798. *Claim IS23-093, ai-cross-checked.*
-15. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Technical factors: Zoom, cine-loop and image storage, p. 789. *Claim IS23-017, ai-extracted.*
+15. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Technical factors: Zoom, cine-loop and image storage, p. 789. *Claim IS23-017, ai-cross-checked.*
 16. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Introduction, p. 788. *Claim IS23-005, ai-cross-checked.*
 17. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Outflow tracts: Sonographic technique, p. 793. *Claim IS23-056, expert-verified.*
 18. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.D. Image Optimization, p. 684. *Claim AS23-117, ai-extracted.*

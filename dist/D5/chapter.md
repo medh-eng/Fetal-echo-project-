@@ -2,7 +2,7 @@
 
 > DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-extracted' that no clinician has verified.
 
-Unit D5 | Tier: Detect | Version 0.1
+Unit D5 | Tier: Detect | Version 0.2
 
 ## You will be able to
 
@@ -26,7 +26,7 @@ In a survey of more than 18 000 fetuses, 93% of examinations with an adequate fo
 
 For the two great arteries, establish four things: each is connected to the correct ventricle; their size; their position relative to each other; and that the semilunar valves look normal and open normally. [5]
 
-Three findings confirm normal outflow tracts. The vessel leaving the left ventricle has its anterior wall continuous with the ventricular septum and does not divide: the aorta. The vessel leaving the right ventricle divides: the pulmonary artery. The two great arteries cross each other. [6, 7, 8]
+Alongside those four checks, three features of continuity and crossing are confirmed; they do not replace the four. The vessel leaving the left ventricle has its anterior wall continuous with the ventricular septum and does not divide: the aorta. The vessel leaving the right ventricle divides: the pulmonary artery. The two great arteries cross each other. [6, 7, 8]
 
 | Feature | Aorta | Pulmonary artery |
 |---|---|---|
@@ -34,7 +34,7 @@ Three findings confirm normal outflow tracts. The vessel leaving the left ventri
 | Divides early | No | Yes, after a short course |
 | Wall continuity | Anterior wall continuous with the ventricular septum | - |
 | Relative size | Usually slightly smaller | Usually slightly larger |
-| Course | Posterior, to the right | Crosses in front of the aorta, running to its left |
+| Course, each relative to the other | The ascending aorta is the more posterior | Runs to the left of the ascending aorta and crosses it at almost a right angle |
 
 
 ## Two ways to get there
@@ -124,4 +124,4 @@ The origins of the right and left pulmonary arteries need two-dimensional and co
 18. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.E. Standard Views and Imaging Planes, LV outflow tract, Figure 5, pp. 687–688. *Claim AS23-052, ai-extracted.*
 19. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.E. Standard Views and Imaging Planes, RV outflow tract, pp. 688–689; Figure 6, p. 687. *Claim AS23-053, ai-extracted.*
 20. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.E. Standard Views and Imaging Planes, Table 3, proximal branch pulmonary arteries row, p. 686. *Claim AS23-054, ai-extracted.*
-21. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Technical factors: Zoom, cine-loop and image storage, p. 789. *Claim IS23-017, ai-extracted.*
+21. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Technical factors: Zoom, cine-loop and image storage, p. 789. *Claim IS23-017, ai-cross-checked.*

@@ -1,8 +1,8 @@
 # Why hearts are missed
 
-> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-extracted' that no clinician has verified.
+> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-cross-checked' that no clinician has verified.
 
-Unit D0 | Tier: Detect | Version 0.1
+Unit D0 | Tier: Detect | Version 0.2
 
 ## You will be able to
 
@@ -92,7 +92,7 @@ Keep two situations apart. A view that could not be obtained is an incomplete ex
 10. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Cardiac examination, p. 789. *Claim IS23-019, expert-verified.*
 11. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - RVOT view, 3VV and 3VTV, p. 794. *Claim IS23-067, expert-verified.*
 12. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Cardiac examination, p. 789. *Claim IS23-020, ai-cross-checked.*
-13. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Introduction, p. 788. *Claim IS23-006, ai-extracted.*
+13. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Introduction, p. 788. *Claim IS23-006, ai-cross-checked.*
 14. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Quality assurance, p. 797. *Claim IS23-089, ai-cross-checked.*
 15. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Fetal echocardiography, p. 796. *Claim IS23-078, expert-verified.*
 16. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Introduction, p. 788. *Claim IS23-001, ai-cross-checked.*

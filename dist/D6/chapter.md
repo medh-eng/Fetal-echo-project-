@@ -2,7 +2,7 @@
 
 > DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-extracted' that no clinician has verified.
 
-Unit D6 | Tier: Detect | Version 0.1
+Unit D6 | Tier: Detect | Version 0.2
 
 ## You will be able to
 
@@ -71,7 +71,7 @@ Complete transposition, tetralogy of Fallot, double-outlet right ventricle, comm
 
 ## Why a finding here matters
 
-Anomalies found on the three-vessel views can change counselling and management. Examples: testing for 22q11 microdeletion; planning where delivery takes place, as in complete transposition; being ready to give prostaglandin; being ready for airway problems from vascular compression. [14]
+Anomalies found on the three-vessel views can change counselling and management. What follows depends on the anomaly found; none of these follows from every abnormal view. The guideline's examples: testing for 22q11 microdeletion; planning where delivery takes place, as in complete transposition; being ready to give prostaglandin; being ready for airway problems from vascular compression. [14]
 
 A fetus with a suspected abnormality on screening is a candidate for fetal echocardiography. [15]
 
@@ -107,7 +107,7 @@ Colour and power Doppler in the three-vessel-and-trachea view can help to identi
 
 ## References
 
-1. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - RVOT view, 3VV and 3VTV, p. 794; Figure 8, p. 795. *Claim IS23-063, ai-extracted.*
+1. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - RVOT view, 3VV and 3VTV, p. 794; Figure 8, p. 795. *Claim IS23-063, ai-cross-checked.*
 2. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - RVOT view, 3VV and 3VTV, p. 794; Figure 7, p. 795. *Claim IS23-066, expert-verified.*
 3. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - RVOT view, 3VV and 3VTV, p. 794. *Claim IS23-065, expert-verified.*
 4. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - RVOT view, 3VV and 3VTV, last paragraph of p. 794 continuing on p. 796; Figure 9, p. 796. *Claim IS23-068, expert-verified.*
@@ -127,4 +127,4 @@ Colour and power Doppler in the three-vessel-and-trachea view can help to identi
 18. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.E. Standard Views and Imaging Planes, Three-vessel-and-trachea view, p. 689. *Claim AS23-058, ai-extracted.*
 19. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - IV.C. Structural Heart Disease, Isolated Arch Abnormalities, Key Points, p. 718. *Claim AS23-100, ai-extracted.*
 20. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - IV.C. Structural Heart Disease, Isolated Arch Abnormalities, p. 717; Figure 30C, p. 718. *Claim AS23-101, ai-extracted.*
-21. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Technical factors: Zoom, cine-loop and image storage, p. 789. *Claim IS23-017, ai-extracted.*
+21. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Technical factors: Zoom, cine-loop and image storage, p. 789. *Claim IS23-017, ai-cross-checked.*

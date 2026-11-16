@@ -1,7 +1,7 @@
 {
   "unit": "D0",
   "title": "Why hearts are missed",
-  "status": "ai-extracted",
+  "status": "ai-cross-checked",
   "items": [
     {
       "id": "D0-Q01",
@@ -129,7 +129,7 @@
       "claims": [
         "IS23-006"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "D0-Q09",

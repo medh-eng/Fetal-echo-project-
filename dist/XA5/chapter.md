@@ -2,7 +2,7 @@
 
 > DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-extracted' that no clinician has verified.
 
-Unit XA5 | Tier: Diagnose | Version 0.1
+Unit XA5 | Tier: Diagnose | Version 0.2
 
 ## You will be able to
 
@@ -13,7 +13,7 @@ Unit XA5 | Tier: Diagnose | Version 0.1
 
 ## Screening scan and fetal echocardiogram
 
-The Detect units teach the screening scan: five planes on every pregnancy. This unit describes the examination that follows a referral. It is longer, uses Doppler throughout, and is done by a specialist.
+The Detect units teach the screening scan: five planes on every pregnancy. This unit describes the fetal echocardiogram, the examination that follows a referral.
 
 The guideline endorses limiting the performance and supervision of fetal echocardiograms to appropriately trained or experienced paediatric cardiologists, maternal-fetal medicine specialists, obstetricians or radiologists with fetal echocardiography skills. [1]
 
@@ -140,6 +140,7 @@ The study should include still images, moving clips and a structured report. [49
 
 ## Still to be written (awaiting sourced claims)
 
+- How long a fetal echocardiogram takes compared with a screening scan - no claim held; the comparison was removed from the opening after the audit of 16 Nov.
 - The segmental sequence itself (situs, atrioventricular connection, ventriculo-arterial connection) explained as a method - needs a source and the cardiology co-editor.
 - Normal values and Z-scores for every measurement named here - planned for XA6; needs sources.
 - Timing in the cycle for aortic and pulmonary annulus measurement - the guideline is inconsistent (note on claim AS23-069); the editor or co-editor to decide.
@@ -189,7 +190,7 @@ The study should include still images, moving clips and a structured report. [49
 38. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.F. Cardiac Biometry and Measurement Data, Table 4, p. 690. *Claim AS23-068, ai-extracted.*
 39. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.F. Cardiac Biometry and Measurement Data, p. 689; Table 4, pp. 691–692. *Claim AS23-069, ai-extracted.*
 40. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - Table 6, p. 693. *Claim AS23-013, ai-cross-checked.*
-41. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - Table 6, p. 693. *Claim AS23-014, ai-extracted.*
+41. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - Table 6, p. 693. *Claim AS23-014, ai-cross-checked.*
 42. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - IV.A. Rhythm Disturbances and Tools for Assessment, Key Points, p. 699. *Claim AS23-073, ai-extracted.*
 43. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Key Points, p. 704. *Claim AS23-087, ai-extracted.*
 44. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Key Points, p. 704. *Claim AS23-088, ai-extracted.*
@@ -197,4 +198,4 @@ The study should include still images, moving clips and a structured report. [49
 46. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Imaging Tools for Assessing Fetal Cardiac Function, p. 703. *Claim AS23-090, ai-extracted.*
 47. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.H. Complete Fetal Cardiac Assessment Using Segmental Analysis, p. 692. *Claim AS23-040, ai-extracted.*
 48. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.D. Image Optimization, p. 684. *Claim AS23-117, ai-extracted.*
-49. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.A Storage, p. 684; III.E, p. 684-688. *Claim AS23-008, ai-extracted.*
+49. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - III.A Storage, p. 684; III.E, p. 684-688. *Claim AS23-008, ai-cross-checked.*
