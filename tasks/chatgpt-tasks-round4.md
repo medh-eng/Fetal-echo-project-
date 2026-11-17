@@ -32,29 +32,25 @@ On 17 Nov ten units (D2, D3, D4, D6, D9, D10, D11, F2, XA5, XC1) also had single
 
 Save as `tasks/results/task-g.md` (a pull request is fine).
 
-## Task H. Sixteen claims that need eyes on the PDF (Gemini preferred; ChatGPT may do the twelve reworded ones)
+## Task H. Fourteen claims reworded by Claude (Gemini or ChatGPT; not Claude)
 
 About 20 minutes. Attach: both guideline PDFs, `tasks/claims-for-claude-or-gemini.md` (the sixteen claims) and `tasks/results/task-1-crosscheck.md`.
 
 ```
-Sixteen claims are attached with the two guideline PDFs. Read the PDF page itself for each.
-Twelve were reworded by Claude on 17 Nov after a cross-check; four could not be settled
-because Claude's reader could not see table layout or figures (AS23-048, 076, 082, 119).
+Fourteen claims are attached with the two guideline PDFs. Read the PDF page itself for each.
+All fourteen were reworded by Claude on 17 Nov after a cross-check (twelve in the morning,
+AS23-082 and AS23-119 in the afternoon); check that each new wording matches the source.
 
 For each claim give: claim_id, verdict, detail.
 Verdicts: CONFIRMED, CORRECT LOCATOR, DISTORTED, NOT FOUND.
-For the four unsettled claims, look at the table cell or figure named in the note and say
-exactly what it shows.
-Also look at Table 3 of the ASE guideline (p. 686) and confirm, row by row, the
-required/optional entries used by claims AS23-042, 046, 047, 049, 050, 054 and 063.
 Use nothing from memory.
 ```
 
-Save as `tasks/results/task-h.csv` (columns `claim_id,verdict,detail`). ChatGPT extracted the four unsettled claims, so those four must be checked by Gemini or Claude, not ChatGPT.
+Save as `tasks/results/task-h.csv` (columns `claim_id,verdict,detail`). The file `tasks/claims-for-claude-or-gemini.md` lists them because ChatGPT first extracted them; Claude has since reworded all fourteen, so Claude must not check them.
 
-## Task I. Cross-check 349 claims Claude harvested on 17 Nov (ChatGPT or Gemini; not Claude)
+## Task I. Cross-check 365 claims Claude harvested on 17 Nov (ChatGPT or Gemini; not Claude)
 
-Claude read both documents through a web reader that sees text, not pages: figures were not seen, tables were flattened, page numbers come from the reader. Your check against the PDF pages is what makes these claims usable.
+Claude first read both documents through a web reader, then checked its own extraction against the PDF pages (every number, every page number, every table row read as printed) and corrected it. That is the extractor's own check; yours is the independent one that makes the claims usable. Both PDFs are in the project owner's Downloads folder.
 
 Attach:
 - the ASE 2023 PDF (as before) with `content/ledger/ASE-2023-FETALECHO.yaml`, and
@@ -65,14 +61,14 @@ One chat per batch, so each stays within length:
 
 | Batch | Claims | Source pages |
 |---|---|---|
-| I1 | AS23-150 to 166 (biometry) and AS23-600 to 615 (IV.D, Table 15) | pp. 689-693, 718-719 |
+| I1 | AS23-150 to 168 (biometry) and AS23-600 to 615 (IV.D, Table 15) | pp. 689-693, 718-719 |
 | I2 | AS23-200 to 286 (single ventricle, AV valves, septal) | pp. 704-713, Tables 13-14 |
-| I3 | AS23-300 to 351 (outflow tract lesions) | pp. 707-715 |
-| I4 | AS23-400 to 447 (obstructive and regurgitant lesions) | pp. 708-718 |
+| I3 | AS23-300 to 357 (outflow tract lesions, Table 13 headings) | pp. 707-715 |
+| I4 | AS23-400 to 448 (obstructive and regurgitant lesions) | pp. 708-718 |
 | I5 | AS23-500 to 525 (arch, ductus, veins, other) | pp. 705-718 |
-| I6 | AH14-001 to 025 (the Recommendations section) | pp. 2226-2227 |
+| I6 | AH14-001 to 027 (the 27 numbered recommendations) | pp. 2226-2227 |
 | I7 | AH14-100 to 131 (genetics, extracardiac, wellness, counselling) | pp. 2206-2211 |
-| I8 | AH14-200 to 220 and AH14-300 to 324 (intervention, TTTS, delivery planning) | pp. 2217-2226 |
+| I8 | AH14-200 to 220 and AH14-300 to 329 (intervention, TTTS, delivery planning, Tables 19-20) | pp. 2217-2226 |
 
 Prompt for each batch:
 
@@ -91,4 +87,4 @@ Use nothing from memory.
 
 Save each as `tasks/results/task-i1.csv` ... `task-i8.csv` (columns `claim_id,verdict,detail`). A pull request is fine.
 
-Also look for, and report as MISSING CLAIM with page, these items the reader saw but Claude left out because the text was unclear: the TOF row of ASE Table 13 on aortic-to-pulmonary valve ratio and pulmonary valve Z-score as predictors of neonatal intervention; the pulmonary stenosis row on tricuspid regurgitation and the risk of sinusoids; the gestation at which ductal flow direction is read in tetralogy; AHA 2014 recommendation on nuchal translucency of 3 mm or more with abnormal ductus venosus flow.
+The items Claude had left out on the first pass (TOF valve ratio and Z-score, pulmonary stenosis and sinusoids, ductal direction at 28 weeks, nuchal translucency with abnormal ductus venosus) were found on the pages and added (AS23-316, 353, 448; AH14-002). Report anything else you see missing as MISSING CLAIM with its page.

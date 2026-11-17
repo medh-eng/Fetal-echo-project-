@@ -21,12 +21,12 @@ Needs: C = cardiology co-editor, S = other specialist reviewer, K = Dr Kunda's o
 | D13 | Quality assurance and audit | Detect | yes | yes | yes | yes | yes | - | 22/35 claims verified | Editor sign-off |
 | D14 | Scanning with limited equipment | Detect | - | - | - | - | - | - | TO FIND · needs K | Source search; Dr Kunda's practical teaching (gemini task S1) |
 | F1 | Ultrasound modes used in fetal echocardiography | Foundation | yes | yes | - | yes | yes | - | 8/35 claims verified | Cross-check 1 claim(s) |
-| F2 | Fetal rhythm: tools and mechanisms | Foundation | yes | yes | - | yes | yes | - | 4/29 claims verified | Cross-check 3 claim(s) |
+| F2 | Fetal rhythm: tools and mechanisms | Foundation | yes | yes | - | yes | yes | - | 4/29 claims verified | Cross-check 2 claim(s) |
 | XA1 | Cardiac embryology: what breaks when | Diagnose | - | - | - | - | - | - | TO FIND · needs C | Source search for an open-access embryology review (gemini task S1) |
 | XA2 | Genetics of congenital heart disease and the work-up after diagnosis | Diagnose | - | - | - | - | - | - | AHA-2014-FETALCARDIAC, TO FIND · needs S | Cross-check AH14-100 to 116 (genetics, extracardiac), then draft (chatgpt round 4, task I) |
 | XA3 | Fetal circulation and the transition at birth | Diagnose | - | - | - | - | - | - | TO FIND · needs C | Source search (gemini task S1) |
 | XA4 | Physics and Doppler for the echocardiographer | Diagnose | - | - | - | - | - | - | TO FIND | Source search for an open-access physics text or review (gemini task S1) |
-| XA5 | The complete fetal echocardiogram | Diagnose | yes | yes | - | yes | yes | - | 0/49 claims verified | Cross-check 8 claim(s) |
+| XA5 | The complete fetal echocardiogram | Diagnose | yes | yes | - | yes | yes | - | 0/49 claims verified | Cross-check 7 claim(s) |
 | XA6 | Biometry and Z-scores | Diagnose | - | - | - | - | - | - | ASE-2023-FETALECHO, TO FIND · needs C | Cross-check AS23-150 to 166 (biometry); pick a Z-score source (tasks/results/task-s1.md, topic 4) (chatgpt round 4, task I) |
 | XA7 | 3D/4D and STIC | Diagnose | - | - | - | - | - | - | ASE-2023-FETALECHO, TO FIND | Source search (gemini task S1) |
 | XA8 | Fetal cardiac MRI | Diagnose | - | - | - | - | - | - | AHA-2014-FETALCARDIAC, TO FIND · needs S | Source search (gemini task S1) |

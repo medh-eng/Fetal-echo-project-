@@ -5,7 +5,7 @@
 id: F1
 title: "Ultrasound modes used in fetal echocardiography"
 tier: Foundation
-version: 0.2
+version: 0.3
 public: true
 summary: "Which modes are used to examine the fetal heart, what each one answers, and which are essential, optional or still research."
 drafted_by: "Claude (13 Nov 2026)"
@@ -121,7 +121,7 @@ sections:
         claims: [AS23-004, IS23-012]
       - text: "Fetal echocardiography follows the principle of keeping exposure as low as reasonably achievable. Be aware of the thermal and mechanical indices, and limit power output and exposure time."
         claims: [AS23-005]
-      - text: "For early fetal echocardiography, keep the thermal and mechanical indices at or below 1.0 and use Doppler sparingly. The soft-tissue thermal index is monitored before 10 weeks and the bone thermal index from 10 weeks onward."
+      - text: "For early fetal echocardiography, keep the thermal and mechanical indices at or below 1.0 and use Doppler sparingly. The table lists the soft-tissue thermal index before 10 weeks and the bone thermal index from 10 weeks."
         claims: [AS23-006, AS23-119]
       - text: "For early cardiac screening, a different examination, the screening guideline says: thermal index 1.0 or less, and Doppler exposure as short as possible, usually no more than 5 to 10 minutes. This is not a time allowance for a whole fetal echocardiogram."
         claims: [IS23-093]

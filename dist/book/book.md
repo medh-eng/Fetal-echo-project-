@@ -1775,7 +1775,7 @@ The checklist below gathers the main criteria for the five planes, for learning 
 
 > DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-extracted' that no clinician has verified.
 
-Unit F1 | Tier: Foundation | Version 0.2
+Unit F1 | Tier: Foundation | Version 0.3
 
 ## You will be able to
 
@@ -1885,7 +1885,7 @@ A curvilinear probe is preferred; linear and sector probes can also be used. A r
 
 Fetal echocardiography follows the principle of keeping exposure as low as reasonably achievable. Be aware of the thermal and mechanical indices, and limit power output and exposure time. [31]
 
-For early fetal echocardiography, keep the thermal and mechanical indices at or below 1.0 and use Doppler sparingly. The soft-tissue thermal index is monitored before 10 weeks and the bone thermal index from 10 weeks onward. [32, 33]
+For early fetal echocardiography, keep the thermal and mechanical indices at or below 1.0 and use Doppler sparingly. The table lists the soft-tissue thermal index before 10 weeks and the bone thermal index from 10 weeks. [32, 33]
 
 For early cardiac screening, a different examination, the screening guideline says: thermal index 1.0 or less, and Doppler exposure as short as possible, usually no more than 5 to 10 minutes. This is not a time allowance for a whole fetal echocardiogram. [34]
 
@@ -1959,7 +1959,7 @@ A screening scan rests on grey-scale views, with colour encouraged. A fetal echo
 
 > DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-extracted' that no clinician has verified.
 
-Unit F2 | Tier: Foundation | Version 0.2
+Unit F2 | Tier: Foundation | Version 0.3
 
 ## You will be able to
 
@@ -2036,7 +2036,7 @@ The patterns the guideline describes for slow rhythms. [22, 23, 24]
 
 | Rhythm | Atria and ventricles | Distinguishing feature |
 |---|---|---|
-| Sinus bradycardia | One to one | Atrioventricular conduction preserved on simultaneous recording |
+| Sinus bradycardia | Recorded together with any modality | Most have a ventricular rate above 90 to 100 per minute |
 | Blocked premature atrial beats, repeated | - | Can mimic second- or third-degree block and must be told apart from it |
 | Complete heart block | Independent of each other | Ventricular rate typically 50 to 80 per minute |
 
@@ -2094,7 +2094,7 @@ Outside sinus rhythm, reversal of the venous A-wave is an unreliable indicator o
 14. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698. (AS23-075, ai-cross-checked)
 15. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 – Four-chamber view, p. 791. (IS23-034, expert-verified)
 16. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 – Four-chamber view, p. 792. (IS23-035, expert-verified)
-17. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698. (AS23-076, ai-extracted)
+17. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698. (AS23-076, ai-cross-checked)
 18. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698; Figure 14B, p. 699. (AS23-077, ai-cross-checked)
 19. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698. (AS23-079, ai-cross-checked)
 20. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698; Figure 14A, p. 699. (AS23-080, ai-cross-checked)
@@ -2279,7 +2279,7 @@ The study should include still images, moving clips and a structured report. [49
 14. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.E. Standard Views and Imaging Planes, Table 3, cardiac size row, p. 686; III.F, Table 4, p. 690. (AS23-044, ai-cross-checked)
 15. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.E. Standard Views and Imaging Planes, Table 3, systemic venous connections row, p. 686; III.H, Table 7, p. 695. (AS23-046, ai-cross-checked)
 16. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.E. Standard Views and Imaging Planes, Table 3, pulmonary venous connections row, p. 686; four-chamber view, p. 687. (AS23-047, ai-cross-checked)
-17. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.E. Standard Views and Imaging Planes, Table 3, pulmonary venous connections row, p. 686; III.H, Table 7, p. 695. (AS23-048, ai-extracted)
+17. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.E. Standard Views and Imaging Planes, Table 3, pulmonary venous connections row, p. 686; III.H, Table 7, p. 695. (AS23-048, ai-cross-checked)
 18. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.E. Standard Views and Imaging Planes, Table 3, atrioventricular connections row, p. 686; III.H, Table 7, p. 695. (AS23-049, ai-cross-checked)
 19. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.E. Standard Views and Imaging Planes, Table 3, ventricular septum row, p. 686; four-chamber view, p. 687. (AS23-050, ai-cross-checked)
 20. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.E. Standard Views and Imaging Planes, Table 3, ventricular morphology row, p. 686. (AS23-051, ai-cross-checked)

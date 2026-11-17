@@ -2,7 +2,7 @@
 
 > DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-extracted' that no clinician has verified.
 
-Unit F2 | Tier: Foundation | Version 0.2
+Unit F2 | Tier: Foundation | Version 0.3
 
 ## You will be able to
 
@@ -79,7 +79,7 @@ The patterns the guideline describes for slow rhythms. [22, 23, 24]
 
 | Rhythm | Atria and ventricles | Distinguishing feature |
 |---|---|---|
-| Sinus bradycardia | One to one | Atrioventricular conduction preserved on simultaneous recording |
+| Sinus bradycardia | Recorded together with any modality | Most have a ventricular rate above 90 to 100 per minute |
 | Blocked premature atrial beats, repeated | - | Can mimic second- or third-degree block and must be told apart from it |
 | Complete heart block | Independent of each other | Ventricular rate typically 50 to 80 per minute |
 
@@ -137,7 +137,7 @@ Outside sinus rhythm, reversal of the venous A-wave is an unreliable indicator o
 14. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698. *Claim AS23-075, ai-cross-checked.*
 15. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Four-chamber view, p. 791. *Claim IS23-034, expert-verified.*
 16. Carvalho JS, Axt-Fliedner R, Chaoui R, Copel JA, Cuneo BF, Goff D, et al.. ISUOG Practice Guidelines (updated): fetal cardiac screening. Ultrasound Obstet Gynecol. 2023 61:788-803. doi:10.1002/uog.26224 - Four-chamber view, p. 792. *Claim IS23-035, expert-verified.*
-17. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698. *Claim AS23-076, ai-extracted.*
+17. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698. *Claim AS23-076, ai-cross-checked.*
 18. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698; Figure 14B, p. 699. *Claim AS23-077, ai-cross-checked.*
 19. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698. *Claim AS23-079, ai-cross-checked.*
 20. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 - IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698; Figure 14A, p. 699. *Claim AS23-080, ai-cross-checked.*

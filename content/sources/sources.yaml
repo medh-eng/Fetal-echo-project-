@@ -23,6 +23,7 @@ ASE-2023-FETALECHO:
   volume: "36(7)"
   pages: "679-723"
   doi: "10.1016/j.echo.2023.04.014"
+  local_copy: "Saved to the project owner's computer (Downloads folder) on 17 Nov 2026 from the free publisher copy, and read page by page. Not in this repository."
   url: "https://www.asecho.org/guideline/fetal-echo"
   held: false
   licence: "Copyright 2023 Elsevier Inc. on behalf of the American Society of Echocardiography. Free to read on asecho.org; not open-licensed. Facts are paraphrased with citation; no figures or tables may be reused without permission. The PDF must be added to the private sources folder before cross-check."
@@ -38,6 +39,8 @@ AHA-2014-FETALCARDIAC:
   volume: "129(21)"
   pages: "2183-2242"
   doi: "10.1161/01.cir.0000437597.44550.5d"
+  local_copy: "Saved to the project owner's computer (Downloads folder) on 17 Nov 2026 from the free publisher copy, and read page by page. Not in this repository."
+  correction: "Circulation 2014;129:e512 (endorsements only; no effect on content)"
   url: "https://www.ahajournals.org/doi/10.1161/01.cir.0000437597.44550.5d"
   held: false
   open_copy: "https://escholarship.org/uc/item/9dq2k9vh (UC eScholarship, Previously Published Works: the published PDF). Read through a web reader on 17 Nov 2026 for the first harvest."

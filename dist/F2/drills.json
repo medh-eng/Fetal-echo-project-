@@ -100,7 +100,7 @@
         "AS23-077",
         "AS23-076"
       ],
-      "status": "ai-extracted"
+      "status": "ai-cross-checked"
     },
     {
       "id": "F2-Q07",
@@ -152,7 +152,7 @@
     },
     {
       "id": "F2-Q10",
-      "question": "The rate is slow, with one atrial contraction before every ventricular contraction and preserved conduction. Which rhythm is described?",
+      "question": "A slow rhythm is recorded with atrial and ventricular contraction shown together. In which rhythm does the ventricular rate usually stay above 90 to 100 per minute?",
       "options": [
         "Sinus bradycardia",
         "Complete heart block",
@@ -160,9 +160,10 @@
         "Blocked atrial bigeminy"
       ],
       "answer": 0,
-      "explanation": "In sinus bradycardia simultaneous atrial and ventricular recordings show preserved atrioventricular conduction.",
+      "explanation": "Most sinus bradycardias have a ventricular rate above 90 to 100 per minute; in complete heart block it is typically 50 to 80.",
       "claims": [
-        "AS23-082"
+        "AS23-082",
+        "AS23-083"
       ],
       "status": "ai-extracted"
     },

@@ -4,7 +4,7 @@ For Dr Kunda Shahane, editor-in-chief. Everything that needs her decision or sig
 Each claim appears once, even if several units use it. Claims she has already verified are not repeated.
 Claims that a second AI has not yet confirmed against the source are held back, so that she checks each fact only once.
 
-**4 decision(s). 5 claim(s) to approve again. 135 new claim(s) to check. 16 claim(s) held back until cross-checked.**
+**4 decision(s). 5 claim(s) to approve again. 137 new claim(s) to check. 14 claim(s) held back until cross-checked.**
 
 ## Part A. Decisions
 
@@ -62,8 +62,8 @@ A unit can be signed once nothing in it is held back.
 | D11 | When and how to refer | 28 | 8 | 0 | 19 | 1 | not yet |
 | D13 | Quality assurance and audit | 35 | 22 | 3 | 10 | 0 | yes |
 | F1 | Ultrasound modes used in fetal echocardiography | 35 | 8 | 1 | 25 | 1 | not yet |
-| F2 | Fetal rhythm: tools and mechanisms | 29 | 4 | 1 | 21 | 3 | not yet |
-| XA5 | The complete fetal echocardiogram | 49 | 0 | 0 | 41 | 8 | not yet |
+| F2 | Fetal rhythm: tools and mechanisms | 29 | 4 | 1 | 22 | 2 | not yet |
+| XA5 | The complete fetal echocardiogram | 49 | 0 | 0 | 42 | 7 | not yet |
 | XC1 | Assessing cardiac function: the first steps | 15 | 1 | 0 | 12 | 2 | not yet |
 
 Read each unit as the learner will see it in `dist/<unit>/chapter.md`, or in the app.
@@ -131,6 +131,7 @@ You approved these on 13 Nov in an earlier wording. A check against the guidelin
 | AS23-044 | A complete study requires a measured cardiac-to-thoracic area ratio. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Table 3, cardiac size row, p. 686; III.F, Table 4, p. 690 | D4, XA5 | |
 | AS23-046 | Systemic venous connections require assessment with both two-dimensional and colour Doppler imaging. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Table 3, systemic venous connections row, p. 686; III.H, Table 7, p. 695 | XA5 | |
 | AS23-047 | The four-chamber assessment must show pulmonary venous connections from at least one vein on each side using two-dimensional and colour Doppler imaging. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Table 3, pulmonary venous connections row, p. 686; four-chamber view, p. 687 | D4, XA5 | |
+| AS23-048 | Imaging further pulmonary veins from either lung is optional once the required connection from each side has been demonstrated. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Table 3, pulmonary venous connections row, p. 686; III.H, Table 7, p. 695 | XA5 | |
 | AS23-049 | The atrioventricular connections require assessment on two-dimensional and colour images in the four-chamber view. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Table 3, atrioventricular connections row, p. 686; III.H, Table 7, p. 695 | XA5 | |
 | AS23-050 | Both two-dimensional and colour images are required to assess the ventricular septum and locate any defect. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Table 3, ventricular septum row, p. 686; four-chamber view, p. 687 | D4, XA5 | |
 | AS23-051 | Assessing relative ventricular size in two dimensions is required. Measuring maximum ventricular length and width is optional. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Table 3, ventricular morphology row, p. 686 | XA5 | |
@@ -155,6 +156,7 @@ You approved these on 13 Nov in an earlier wording. A check against the guidelin
 | AS23-073 | Every fetal echocardiogram must document the fetal heart rate and rhythm. | ASE-2023-FETALECHO: IV.A. Rhythm Disturbances and Tools for Assessment, Key Points, p. 699 | D8, F2, XA5 | |
 | AS23-074 | A premature atrial beat resets the atrial rhythm, producing an incomplete compensatory pause. | ASE-2023-FETALECHO: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698; Figure 16, p. 700 | F2 | |
 | AS23-075 | With a premature ventricular beat, the interval between successive atrial beats is preserved. | ASE-2023-FETALECHO: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698 | F2 | |
+| AS23-076 | Sinus tachycardia is typically regular with a long interval from ventricular to atrial contraction and a rate below 200 beats/min. | ASE-2023-FETALECHO: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698 | F2 | |
 | AS23-077 | In the common pathway-mediated reentrant supraventricular tachycardia, atrial and ventricular beats pair one-to-one with a short interval from ventricle to atrium. | ASE-2023-FETALECHO: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698; Figure 14B, p. 699 | F2 | |
 | AS23-078 | In supraventricular tachycardia, ASE advises against using paired mitral inflow and aortic outflow to time the atrium because the inflow waves fuse. | ASE-2023-FETALECHO: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698 | F2 | |
 | AS23-079 | One-to-one tachycardia with a long interval from ventricle to atrium is seen in ectopic atrial tachycardia and permanent junctional reciprocating tachycardia. | ASE-2023-FETALECHO: IV.A. Rhythm Disturbances and Tools for Assessment, Table 9, p. 698 | F2 | |
@@ -226,7 +228,7 @@ You approved these on 13 Nov in an earlier wording. A check against the guidelin
 
 ### C3. Held back
 
-16 claim(s) used by these units are waiting for a cross-check by a second AI and are not shown. They will appear in C2 once confirmed.
+14 claim(s) used by these units are waiting for a cross-check by a second AI and are not shown. They will appear in C2 once confirmed.
 
 ## Signature
 

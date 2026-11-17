@@ -2,7 +2,7 @@
 
 > DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-extracted' that no clinician has verified.
 
-Unit F1 | Tier: Foundation | Version 0.2
+Unit F1 | Tier: Foundation | Version 0.3
 
 ## You will be able to
 
@@ -112,7 +112,7 @@ A curvilinear probe is preferred; linear and sector probes can also be used. A r
 
 Fetal echocardiography follows the principle of keeping exposure as low as reasonably achievable. Be aware of the thermal and mechanical indices, and limit power output and exposure time. [31]
 
-For early fetal echocardiography, keep the thermal and mechanical indices at or below 1.0 and use Doppler sparingly. The soft-tissue thermal index is monitored before 10 weeks and the bone thermal index from 10 weeks onward. [32, 33]
+For early fetal echocardiography, keep the thermal and mechanical indices at or below 1.0 and use Doppler sparingly. The table lists the soft-tissue thermal index before 10 weeks and the bone thermal index from 10 weeks. [32, 33]
 
 For early cardiac screening, a different examination, the screening guideline says: thermal index 1.0 or less, and Doppler exposure as short as possible, usually no more than 5 to 10 minutes. This is not a time allowance for a whole fetal echocardiogram. [34]
 

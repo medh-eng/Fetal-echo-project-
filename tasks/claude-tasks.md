@@ -84,7 +84,7 @@ The app is a folder of static files (`dist/app/`). Write a short script that upl
 
 ## 15. Apply task I and draft the Diagnose and Decide units (Opus)
 
-Needs: `tasks/results/task-i1.csv` to `task-i8.csv` from ChatGPT or Gemini (round 4, task I).
+Needs: `tasks/results/task-i1.csv` to `task-i8.csv` from ChatGPT or Gemini (round 4, task I). The guideline PDFs are in the project owner's Downloads folder; with the desktop app linked, stage them from there to read pages directly.
 
 1. Apply each file: `python tools/apply_crosscheck.py tasks/results/task-iN.csv --by "ChatGPT (model, date)"`. Reword any DISTORTED claim to match the detail, and put it back for re-check.
 2. Draft, in this order, only from cross-checked claims: Z2 surveillance, XB4 conotruncal, XB2 left heart, XB1 septal and AV, XB8 single ventricle, XB3 right heart, XB5 arch, XA6 biometry, Z3 delivery planning, XA2 genetics, Z1 counselling, Z5 intervention. Each Diagnose unit needs the cardiology co-editor before release.

@@ -6,7 +6,7 @@
 id: F2
 title: "Fetal rhythm: tools and mechanisms"
 tier: Foundation
-version: 0.2
+version: 0.3
 summary: "How a fetal echocardiogram works out an abnormal rhythm: the tools, and the pattern each common mechanism produces."
 drafted_by: "Claude (16 Nov 2026)"
 audited_by: "ChatGPT (Codex), 16 Nov 2026, against the ledger only; findings applied by Claude (Fable)."
@@ -89,7 +89,7 @@ sections:
         table:
           columns: ["Rhythm", "Atria and ventricles", "Distinguishing feature"]
           rows:
-            - ["Sinus bradycardia", "One to one", "Atrioventricular conduction preserved on simultaneous recording"]
+            - ["Sinus bradycardia", "Recorded together with any modality", "Most have a ventricular rate above 90 to 100 per minute"]
             - ["Blocked premature atrial beats, repeated", "-", "Can mimic second- or third-degree block and must be told apart from it"]
             - ["Complete heart block", "Independent of each other", "Ventricular rate typically 50 to 80 per minute"]
       - text: "The screening guideline names the same three possibilities for a persistent slow rate: frequent blocked atrial ectopic beats, atrioventricular block and sinus bradycardia."
@@ -220,15 +220,15 @@ drills:
     claims: [AS23-084]
 
   - id: F2-Q10
-    question: "The rate is slow, with one atrial contraction before every ventricular contraction and preserved conduction. Which rhythm is described?"
+    question: "A slow rhythm is recorded with atrial and ventricular contraction shown together. In which rhythm does the ventricular rate usually stay above 90 to 100 per minute?"
     options:
       - "Sinus bradycardia"
       - "Complete heart block"
       - "Atrial flutter"
       - "Blocked atrial bigeminy"
     answer: 0
-    explanation: "In sinus bradycardia simultaneous atrial and ventricular recordings show preserved atrioventricular conduction."
-    claims: [AS23-082]
+    explanation: "Most sinus bradycardias have a ventricular rate above 90 to 100 per minute; in complete heart block it is typically 50 to 80."
+    claims: [AS23-082, AS23-083]
 
   - id: F2-Q11
     question: "What does the guideline say about routine surveillance of fetuses exposed to anti-Ro/La antibodies?"

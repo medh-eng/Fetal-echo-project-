@@ -53,3 +53,10 @@ The old wording is kept in each claim's `note`. Units that cite these claims wer
 | AS23-119 | Table 8 lists the soft-tissue index before 10 weeks and the bone index from 10 weeks under a limit for the thermal and mechanical indices; it does not say 'monitored'. The table layout needs reading from the PDF. |
 
 Units still use these four claims with ChatGPT's wording (F1, F2, XA5). They stay held back from the editor.
+
+## Update, 17 Nov afternoon: PDF pages read directly
+
+The two PDFs were saved to the project owner's computer through the built-in browser and read page by page (text, and the tables as printed images).
+- **The four unsettled claims:** AS23-048 and AS23-076 confirmed (Tables 7 and 9). AS23-082 and AS23-119 reworded to match Tables 9 and 8; they wait for re-check by another model. Units F1 and F2 changed to match.
+- **Table 3:** all ten claims that depend on it (AS23-042, 043, 044, 046, 047, 049, 050, 051, 054, 063) confirmed against the printed table; the column of every entry is now certain. Table: `task-1b-crosscheck.csv`.
+- The twelve claims Claude reworded in the morning were **not** re-checked by Claude (whoever changed a claim does not check it). They stay for Gemini or ChatGPT.
