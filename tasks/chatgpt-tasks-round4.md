@@ -1,6 +1,6 @@
 # Tasks for ChatGPT, round 4 (16 Nov 2026, evening)
 
-Two short jobs. Round 3 (`tasks/chatgpt-tasks-round3.md`, the harvest for the Diagnose and Decide tiers) is still open and matters more; do that first if time is short.
+Three jobs. **Task I is the largest and matters most**: it unblocks the Diagnose and Decide tiers. Round 3 (`tasks/chatgpt-tasks-round3.md`, the harvest for the Diagnose and Decide tiers) is still open and matters more; do that first if time is short.
 
 ## Task G. Re-audit six revised units
 
@@ -51,3 +51,44 @@ Use nothing from memory.
 ```
 
 Save as `tasks/results/task-h.csv` (columns `claim_id,verdict,detail`). ChatGPT extracted the four unsettled claims, so those four must be checked by Gemini or Claude, not ChatGPT.
+
+## Task I. Cross-check 349 claims Claude harvested on 17 Nov (ChatGPT or Gemini; not Claude)
+
+Claude read both documents through a web reader that sees text, not pages: figures were not seen, tables were flattened, page numbers come from the reader. Your check against the PDF pages is what makes these claims usable.
+
+Attach:
+- the ASE 2023 PDF (as before) with `content/ledger/ASE-2023-FETALECHO.yaml`, and
+- the AHA 2014 PDF (free copy: https://escholarship.org/uc/item/9dq2k9vh) with `content/ledger/AHA-2014-FETALCARDIAC.yaml`,
+- and `prompts/02-crosscheck.md`.
+
+One chat per batch, so each stays within length:
+
+| Batch | Claims | Source pages |
+|---|---|---|
+| I1 | AS23-150 to 166 (biometry) and AS23-600 to 615 (IV.D, Table 15) | pp. 689-693, 718-719 |
+| I2 | AS23-200 to 286 (single ventricle, AV valves, septal) | pp. 704-713, Tables 13-14 |
+| I3 | AS23-300 to 351 (outflow tract lesions) | pp. 707-715 |
+| I4 | AS23-400 to 447 (obstructive and regurgitant lesions) | pp. 708-718 |
+| I5 | AS23-500 to 525 (arch, ductus, veins, other) | pp. 705-718 |
+| I6 | AH14-001 to 025 (the Recommendations section) | pp. 2226-2227 |
+| I7 | AH14-100 to 131 (genetics, extracardiac, wellness, counselling) | pp. 2206-2211 |
+| I8 | AH14-200 to 220 and AH14-300 to 324 (intervention, TTTS, delivery planning) | pp. 2217-2226 |
+
+Prompt for each batch:
+
+```
+Follow the attached prompts/02-crosscheck.md. Check every claim with the IDs [RANGE] in
+the attached ledger against the attached PDF pages. For each give: claim_id, verdict,
+detail. Verdicts: CONFIRMED, CORRECT LOCATOR, DISTORTED, NOT FOUND.
+Pay special attention to:
+- claims whose note says the table text was flattened: confirm the row and column;
+- every number, threshold, percentage and gestation: confirm it digit by digit, and
+  check for lost minus signs;
+- the strength of wording (must / should / may / is reasonable) and, for AHA claims,
+  the Class and Level of Evidence of each item.
+Use nothing from memory.
+```
+
+Save each as `tasks/results/task-i1.csv` ... `task-i8.csv` (columns `claim_id,verdict,detail`). A pull request is fine.
+
+Also look for, and report as MISSING CLAIM with page, these items the reader saw but Claude left out because the text was unclear: the TOF row of ASE Table 13 on aortic-to-pulmonary valve ratio and pulmonary valve Z-score as predictors of neonatal intervention; the pulmonary stenosis row on tricuspid regurgitation and the risk of sinusoids; the gestation at which ductal flow direction is read in tetralogy; AHA 2014 recommendation on nuchal translucency of 3 mm or more with abnormal ductus venosus flow.

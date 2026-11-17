@@ -82,6 +82,14 @@ Needs: the project owner's choice of where the app is hosted (the clinic website
 
 The app is a folder of static files (`dist/app/`). Write a short script that uploads it, and a page of instructions for adding the `media/` folder by hand at the server so that clips never pass through this repository. The pilot test must not be reachable by people who have not been invited: a password on the folder is enough.
 
+## 15. Apply task I and draft the Diagnose and Decide units (Opus)
+
+Needs: `tasks/results/task-i1.csv` to `task-i8.csv` from ChatGPT or Gemini (round 4, task I).
+
+1. Apply each file: `python tools/apply_crosscheck.py tasks/results/task-iN.csv --by "ChatGPT (model, date)"`. Reword any DISTORTED claim to match the detail, and put it back for re-check.
+2. Draft, in this order, only from cross-checked claims: Z2 surveillance, XB4 conotruncal, XB2 left heart, XB1 septal and AV, XB8 single ventricle, XB3 right heart, XB5 arch, XA6 biometry, Z3 delivery planning, XA2 genetics, Z1 counselling, Z5 intervention. Each Diagnose unit needs the cardiology co-editor before release.
+3. Where ASE 2023 and AHA 2014 differ (for example d-TGA delivery planning, AH14-022), teach the later document and show the difference to the editor.
+
 ## 13. Lesions in the sweep trainer (Opus)
 
 After task 12 and the editor's mark-up of the normal schematics: add a switch for each lesion whose `views` claims are cross-checked, changing only what those claims describe.

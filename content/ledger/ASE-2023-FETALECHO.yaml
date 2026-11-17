@@ -4,6 +4,9 @@
 # ai-extracted and need a re-check by a model other than Claude.
 # AS23-023 to 119: extracted from the PDF by ChatGPT on 16 Nov 2026. They need
 # a cross-check by a model other than ChatGPT. Paraphrased throughout.
+# AS23-150 to 166 (biometry) and AS23-200 to 615 (lesions, surveillance, delivery
+# planning): extracted by Claude on 17 Nov 2026 through a web reader. They need a
+# cross-check against the PDF pages by a model other than Claude.
 
 source: ASE-2023-FETALECHO
 claims:
@@ -1212,3 +1215,3157 @@ claims:
   checked_by: null
   verified_by: null
   note: "NOT SETTLED (Claude cross-check, 17 Nov 2026): Table 8 lists the soft-tissue index before 10 weeks and the bone index from 10 weeks under a limit for the thermal and mechanical indices; it does not say 'monitored'. The table layout needs reading from the PDF. Needs a reader who can see the PDF page."
+- id: AS23-150
+  lesion: biometry
+  aspect: measure
+  statement: Fetal heart rate and rhythm should be documented in every fetal echocardiogram, alongside the valve annulus
+    measurements.
+  source: ASE-2023-FETALECHO
+  locator: III.F Cardiac Biometry and Measurement Data, p. 689
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-151
+  lesion: biometry
+  aspect: measure
+  statement: Additional cardiac and vessel measurements should be made for specific structural defects; Table 4 lists
+    them.
+  source: ASE-2023-FETALECHO
+  locator: III.F Cardiac Biometry and Measurement Data, p. 689
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-152
+  lesion: biometry
+  aspect: measure
+  statement: Fetal cardiac measurements are typically converted to Z-scores, which express the deviation from the mean
+    in standard deviations, adjusted for gestational age.
+  source: ASE-2023-FETALECHO
+  locator: III.F Cardiac Biometry and Measurement Data, p. 689
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-153
+  lesion: biometry
+  aspect: measure
+  statement: Several published Z-score equations exist; some alternative formulas use biparietal diameter and femur length
+    instead of gestational age.
+  source: ASE-2023-FETALECHO
+  locator: III.F Cardiac Biometry and Measurement Data, p. 689
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-154
+  lesion: biometry
+  aspect: measure
+  statement: Table 5 lists the published fetal cardiac Z-score equations with their strengths and weaknesses.
+  source: ASE-2023-FETALECHO
+  locator: Table 5, p. 693; referred to in III.F, p. 689
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: The reader saw the table title and reference only; the equations themselves were not extracted.
+- id: AS23-155
+  lesion: biometry
+  aspect: measure
+  statement: Measurements made in every study should be compared with published or internal normal values.
+  source: ASE-2023-FETALECHO
+  locator: Table 4 (measurements), footnote, p. 692
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-156
+  lesion: biometry
+  aspect: measure
+  statement: Optional measurements, especially when abnormalities are found, are not limited to those listed in Table
+    4.
+  source: ASE-2023-FETALECHO
+  locator: Table 4 (measurements), footnote, p. 692
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-157
+  lesion: biometry
+  aspect: measure
+  statement: Right and left ventricular length, measured in diastole on the four-chamber view, is an optional measurement.
+  source: ASE-2023-FETALECHO
+  locator: Table 4 (measurements), p. 690
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Optional status is from the table footnote marking.
+- id: AS23-158
+  lesion: biometry
+  aspect: measure
+  statement: Transverse atrial dimensions are an optional measurement.
+  source: ASE-2023-FETALECHO
+  locator: Table 4 (measurements), p. 690
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Timing and view not stated in the table.
+- id: AS23-159
+  lesion: biometry
+  aspect: measure
+  statement: The main pulmonary artery diameter, measured proximal to the bifurcation in systole, is optional.
+  source: ASE-2023-FETALECHO
+  locator: Table 4 (measurements), p. 691
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-160
+  lesion: biometry
+  aspect: measure
+  statement: Branch pulmonary artery diameters, measured in systole, are optional.
+  source: ASE-2023-FETALECHO
+  locator: Table 4 (measurements), p. 691
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-161
+  lesion: biometry
+  aspect: measure
+  statement: The ascending aorta diameter, measured in systole, is optional.
+  source: ASE-2023-FETALECHO
+  locator: Table 4 (measurements), p. 691
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-162
+  lesion: biometry
+  aspect: measure
+  statement: Optional arch measurements, taken in systole from the long axis of the aortic arch or the three-vessel-and-trachea
+    view, compare the transverse aortic arch with the ductal arch and the aortic isthmus with the distal ductus arteriosus.
+  source: ASE-2023-FETALECHO
+  locator: Table 4 (measurements), p. 691
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-163
+  lesion: biometry
+  aspect: measure
+  statement: Ventricular free wall and septal thickness, measured in diastole on a low short-axis view, are optional.
+  source: ASE-2023-FETALECHO
+  locator: Table 4 (measurements), p. 692
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-164
+  lesion: biometry
+  aspect: measure
+  statement: Right and left ventricular dimensions are optional measurements taken in diastole on a low short-axis view,
+    with systolic measurements added if function is a concern.
+  source: ASE-2023-FETALECHO
+  locator: Table 4 (measurements), p. 692
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-165
+  lesion: biometry
+  aspect: measure
+  statement: Right and left ventricular volumes, with ejection fraction, are optional measurements.
+  source: ASE-2023-FETALECHO
+  locator: Table 4 (measurements), p. 692
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Method named in the table not extracted. III.F text does not mention volumes.
+- id: AS23-166
+  lesion: biometry
+  aspect: measure
+  statement: Combined cardiac output (pulmonary plus aortic), indexed to estimated fetal weight, is an optional measurement,
+    calculated from vessel cross-sectional area, velocity-time integral and heart rate.
+  source: ASE-2023-FETALECHO
+  locator: Table 4 (measurements), p. 692
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-200
+  lesion: single ventricle
+  aspect: definition
+  statement: Single-ventricle heart disease is often detected at routine screening because of an abnormal four-chamber
+    view, and most cases are diagnosed before birth.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-201
+  lesion: single ventricle
+  aspect: definition
+  statement: A univentricular atrioventricular connection is one in which the atria connect completely or mainly to one
+    ventricle; it includes double-inlet left ventricle, single inlet and common inlet.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-202
+  lesion: single ventricle
+  aspect: perinatal
+  statement: Single-ventricle heart disease needs a series of palliative operations ending in a total cavopulmonary (Fontan)
+    connection.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-203
+  lesion: hypoplastic left heart syndrome
+  aspect: definition
+  statement: Hypoplastic left heart syndrome is the most common form of single ventricle, with an incidence of 0.26 per
+    1,000 live births.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-204
+  lesion: hypoplastic right heart syndrome
+  aspect: definition
+  statement: Hypoplastic right heart syndrome has an incidence of 0.22 per 1,000 live births.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-205
+  lesion: single ventricle
+  aspect: views
+  statement: In suspected single ventricle, visceroatrial situs, systemic venous connections, the atrioventricular junction,
+    ventricular morphology and function, and heart rate and rhythm should be assessed.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-206
+  lesion: single ventricle
+  aspect: views
+  statement: A segmental approach to imaging is recommended in single ventricle to identify important associated findings.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-207
+  lesion: single ventricle
+  aspect: views
+  statement: In single ventricle, the inferior vena cava should be evaluated for interruption and bilateral superior
+    venae cavae should be looked for.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704 (Venous Connections)
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-208
+  lesion: single ventricle
+  aspect: views
+  statement: In single ventricle, pulmonary venous connections should be assessed, because anomalous drainage affects
+    the surgical approach and outcome.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704 (Venous Connections)
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-209
+  lesion: single ventricle
+  aspect: views
+  statement: In single ventricle the tricuspid or mitral valve may be hypoplastic or atretic, or a common atrioventricular
+    valve may be unbalanced.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704 (AV Junctions)
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-210
+  lesion: single ventricle
+  aspect: pitfall
+  statement: Significant atrioventricular valve regurgitation in single ventricle can affect fetal well-being and postnatal
+    surgical outcome.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704 (AV Junctions)
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-211
+  lesion: single ventricle
+  aspect: views
+  statement: In single ventricle, the outflow tracts should be imaged thoroughly for orientation, patency, size and flow
+    direction.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704 (Ventriculoarterial Junction)
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-212
+  lesion: single ventricle
+  aspect: measure
+  statement: When the aortic valve is stenotic or atretic in single ventricle, the ascending aorta diameter should be
+    measured.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704 (Ventriculoarterial Junction)
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-213
+  lesion: single ventricle
+  aspect: doppler
+  statement: Retrograde flow in the aortic or ductal arch is described as perhaps the single most powerful indicator
+    that prostaglandin will be needed after birth.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704 (Ventriculoarterial Junction)
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-214
+  lesion: single ventricle
+  aspect: associations
+  statement: Bradyarrhythmias are associated with left atrial isomerism and discordant atrioventricular connections;
+    the combination carries a poor prognosis and a high risk of death in utero.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704 (Rhythm, Function, and Morphology)
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-215
+  lesion: single ventricle
+  aspect: measure
+  statement: In single ventricle, function is assessed qualitatively in practice; strain imaging is not routinely used.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704 (Rhythm, Function, and Morphology)
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-216
+  lesion: single ventricle
+  aspect: keypoint
+  statement: A complete fetal echocardiogram must be performed for a suspected single ventricle before a reasonable prognosis
+    can be given.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Key Points, p. 704
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-217
+  lesion: single ventricle
+  aspect: keypoint
+  statement: In single ventricle, the direction of flow and any restriction at the atrial septum, the ductus arteriosus
+    and the aortic isthmus must be demonstrated.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Key Points, p. 704
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-218
+  lesion: single ventricle
+  aspect: keypoint
+  statement: In single ventricle, systemic and pulmonary venous anatomy should be imaged, for counselling and postnatal
+    planning.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Key Points, p. 704
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-219
+  lesion: single ventricle
+  aspect: keypoint
+  statement: In single ventricle, atrioventricular valve diameter or area should be measured and regurgitation assessed
+    with colour Doppler.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Key Points, p. 704
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-220
+  lesion: hypoplastic left heart syndrome
+  aspect: keypoint
+  statement: In hypoplastic left heart syndrome, the pulmonary venous forward-to-reverse velocity-time integral ratio
+    should be measured at every fetal echocardiogram, the last measurement near term.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Key Points, p. 704
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Wording 'and related lack of left atrial egress' may extend this beyond HLHS; check.
+- id: AS23-221
+  lesion: hypoplastic left heart syndrome
+  aspect: doppler
+  statement: The pulmonary venous forward-to-reverse velocity-time integral ratio is used to detect left atrial hypertension.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-222
+  lesion: hypoplastic left heart syndrome
+  aspect: doppler
+  statement: In hypoplastic left heart syndrome, a pulmonary venous forward-to-reverse velocity-time integral ratio below
+    3 predicts inadequate left atrial egress and a greater likelihood of emergency atrial septoplasty in the newborn.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), HLHS row, p. 705
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-223
+  lesion: hypoplastic left heart syndrome
+  aspect: keypoint
+  statement: Maternal hyperoxygenation testing late in the third trimester may be considered in selected cases of hypoplastic
+    left heart syndrome.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Key Points, p. 704
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-224
+  lesion: hypoplastic left heart syndrome
+  aspect: perinatal
+  statement: Lack of pulmonary vasoreactivity on maternal hyperoxygenation (a fall of less than 10% in pulmonary artery
+    pulsatility index) is associated with neonatal instability and urgent opening of the atrial septum after birth.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Some centres use this test; the text describes use, not a recommendation.
+- id: AS23-225
+  lesion: single ventricle
+  aspect: views
+  statement: Ventricular disproportion or single ventricle is suspected when the axial chest view clearly lacks two symmetric
+    ventricles.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), category 'SV and ventricular disproportion', p. 705
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-226
+  lesion: tricuspid atresia
+  aspect: definition
+  statement: Tricuspid atresia is suspected when there is no atrioventricular connection on the right, a small right
+    ventricle and a ventricular septal defect.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 705
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-227
+  lesion: tricuspid atresia
+  aspect: evolution
+  statement: In tricuspid atresia the ventricular septal defect can become progressively obstructive, compromising outflow
+    from the right ventricle.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 705
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-228
+  lesion: tricuspid atresia
+  aspect: measure
+  statement: Ventricular septal defect dimensions can be measured in two orthogonal planes.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), tricuspid atresia row, p. 705
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-229
+  lesion: double-inlet left ventricle
+  aspect: definition
+  statement: In double-inlet left ventricle both atrioventricular valves open into the morphological left ventricle;
+    the four-chamber view shows a large ventricular septal defect or no ventricular septum.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 705
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-230
+  lesion: double-inlet left ventricle
+  aspect: associations
+  statement: Double-inlet left ventricle with L-looped ventricles is at risk of complete heart block.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 705
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-231
+  lesion: hypoplastic left heart syndrome
+  aspect: definition
+  statement: Hypoplastic left heart syndrome shows a small left ventricle on the four-chamber view with mitral and aortic
+    stenosis or atresia.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 705
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-232
+  lesion: hypoplastic left heart syndrome
+  aspect: views
+  statement: In hypoplastic left heart syndrome, aortic valve patency, ascending aorta size, the transverse arch and
+    the direction of flow in the distal transverse arch should be assessed.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 705
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-233
+  lesion: hypoplastic left heart syndrome
+  aspect: measure
+  statement: In hypoplastic left heart syndrome, the ascending aorta diameter may predict outcome after the Norwood operation.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 705
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-234
+  lesion: hypoplastic left heart syndrome
+  aspect: associations
+  statement: In hypoplastic left heart syndrome, tricuspid regurgitation with right ventricular dysfunction may increase
+    the risk of fetal death and postnatal morbidity and mortality.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 705
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-235
+  lesion: unbalanced atrioventricular septal defect
+  aspect: associations
+  statement: With features of an unbalanced atrioventricular septal defect, right or left atrial isomerism (heterotaxy)
+    should be considered.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 705
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-236
+  lesion: unbalanced atrioventricular septal defect
+  aspect: evolution
+  statement: In unbalanced atrioventricular septal defect, regurgitation of the common valve may be progressive.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 705
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-237
+  lesion: unbalanced atrioventricular septal defect
+  aspect: measure
+  statement: For unbalanced atrioventricular septal defect, right and left atrioventricular valve diameter or area are
+    measured, and the Cohen index, atrioventricular valve index and right-to-left ventricular inflow angle are listed.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), pp. 705-706
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-238
+  lesion: atrioventricular valve abnormalities
+  aspect: associations
+  statement: Abnormal or malformed atrioventricular valves carry high rates of ventricular disproportion, ventricular
+    septal defects and malformation of the outflow tracts and great arteries, and may need single-ventricle palliation.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii AV valve abnormalities, General Imaging Approach, p. 712
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-239
+  lesion: atrioventricular valve abnormalities
+  aspect: views
+  statement: With an atrioventricular valve abnormality, all cardiac structures, including ventricular size and function
+    and the balance of the atrioventricular junction over the ventricles, should be evaluated.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii Key Points, p. 713
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-240
+  lesion: atrioventricular valve abnormalities
+  aspect: views
+  statement: The four-chamber view is the starting point, with the atrioventricular septum aligned perpendicular to the
+    beam to define valve morphology.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii AV valve abnormalities, General Imaging Approach, p. 712
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-241
+  lesion: atrioventricular valve abnormalities
+  aspect: measure
+  statement: Atrioventricular valve annular dimensions should be measured in early diastole at the hinge points.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii AV valve abnormalities, General Imaging Approach, p. 712
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-242
+  lesion: atrioventricular valve abnormalities
+  aspect: views
+  statement: Cephalad sweeps should be obtained to define outflow tract and great artery anatomy when an atrioventricular
+    valve abnormality is present.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii AV valve abnormalities, General Imaging Approach, p. 712
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-243
+  lesion: atrioventricular valve abnormalities
+  aspect: views
+  statement: A sagittal view of the fetal thorax best shows atrioventricular valve morphology, chordae and papillary
+    muscles in short axis.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii AV valve abnormalities, General Imaging Approach, p. 712
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-244
+  lesion: atrioventricular valve abnormalities
+  aspect: doppler
+  statement: Pulsed-wave Doppler evaluation of atrioventricular inflow is essential; peak velocity may underestimate
+    the severity of stenosis because fetal flow can redistribute.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii AV valve abnormalities, General Imaging Approach, p. 712
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-245
+  lesion: atrioventricular valve abnormalities
+  aspect: doppler
+  statement: Annulus size (in right-sided valve disease) and left-to-right atrial shunting (in left-sided obstruction)
+    should be documented.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii AV valve abnormalities, General Imaging Approach, p. 712
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-246
+  lesion: atrioventricular valve abnormalities
+  aspect: keypoint
+  statement: At each examination with an atrioventricular valve abnormality, a complete Doppler assessment must be done,
+    including valve stenosis and regurgitation and flow at the atrial septum and ductus.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii Key Points, p. 713
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-247
+  lesion: atrioventricular valve abnormalities
+  aspect: keypoint
+  statement: Non-standard planes and en face imaging should be used when an abnormality of the atrioventricular junction
+    is suspected.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii Key Points, p. 713
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-248
+  lesion: atrioventricular valve abnormalities
+  aspect: keypoint
+  statement: Additional lesions that affect the surgical approach must be delineated, to help decide between palliation
+    and biventricular repair.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii Key Points, p. 713
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-249
+  lesion: complex atrioventricular connections
+  aspect: associations
+  statement: Lesions of the atrioventricular junction may be isolated (often with aneuploidy, including trisomy 21) or
+    complex, with multiple associated defects.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii opening, p. 704
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Page as reported by the reader; check.
+- id: AS23-250
+  lesion: atrioventricular septal defect
+  aspect: views
+  statement: An abnormal crux on the four-chamber view, with the septal leaflet of the right valve level with the anterior
+    leaflet of the left valve, should prompt further assessment for atrioventricular septal defect.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii AV Septal Defects, p. 712; Figures 23, 24
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-251
+  lesion: atrioventricular septal defect
+  aspect: views
+  statement: In suspected atrioventricular septal defect, the left atrioventricular valve should be examined en face
+    for a cleft or common orifice.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii AV Septal Defects, p. 712
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-252
+  lesion: atrioventricular septal defect
+  aspect: views
+  statement: In suspected atrioventricular septal defect, the atrial septum should be checked for a primum defect and
+    the ventricular septum for an inlet defect.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii AV Septal Defects, p. 712
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-253
+  lesion: atrioventricular septal defect
+  aspect: measure
+  statement: The valve area over each ventricle can be measured in diastole from a parasagittal view to derive an atrioventricular
+    valve index.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii AV Septal Defects, p. 712; Figure 23
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-254
+  lesion: atrioventricular septal defect
+  aspect: measure
+  statement: The right-to-left ventricular inflow angle can be measured from an apical four-chamber view; a smaller angle
+    indicates greater imbalance.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii AV Septal Defects, p. 712; Figure 24, pp. 712-713
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-255
+  lesion: atrioventricular septal defect
+  aspect: measure
+  statement: An atrioventricular valve index of about 2:1 or more suggests that single-ventricle palliation will be needed.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii AV Septal Defects, p. 712; Figure 23, p. 713
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Check the exact wording and direction of the ratio against the PDF.
+- id: AS23-256
+  lesion: atrioventricular septal defect
+  aspect: doppler
+  statement: In atrioventricular septal defect, valve regurgitation should be assessed with colour Doppler.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii AV Septal Defects, p. 712
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-257
+  lesion: atrioventricular septal defect
+  aspect: views
+  statement: In atrioventricular septal defect, the outflow tracts should be assessed for conal, subvalvular, valvular
+    or accessory-tissue obstruction.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii AV Septal Defects, p. 712
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-258
+  lesion: common atrioventricular valve
+  aspect: views
+  statement: A common atrioventricular valve is suspected when the crux lacks offset or the atrioventricular valves appear
+    at the same level, with large atrial or ventricular septal defects.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 706
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-259
+  lesion: common atrioventricular valve
+  aspect: associations
+  statement: A common atrioventricular valve often accompanies bilateral superior venae cavae, an interrupted inferior
+    vena cava or total anomalous pulmonary venous return.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 706
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-260
+  lesion: common atrioventricular valve
+  aspect: pitfall
+  statement: With a common atrioventricular valve, additional ventricular septal defects may be missed unless specifically
+    looked for.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 706
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-261
+  lesion: mitral valve disease
+  aspect: associations
+  statement: Mitral valve abnormalities may reduce flow to the left heart and reverse flow at the foramen ovale.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii Congenital Mitral Valve Abnormalities, p. 712
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-262
+  lesion: mitral valve disease
+  aspect: views
+  statement: With a mitral valve abnormality, two-dimensional and colour Doppler imaging of the mitral valve and atrial
+    septum should be performed.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii Congenital Mitral Valve Abnormalities, p. 712
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-263
+  lesion: mitral valve disease
+  aspect: doppler
+  statement: With a mitral valve abnormality, pulsed-wave Doppler of the pulmonary veins should be used to look for increased
+    left atrial pressure.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii Congenital Mitral Valve Abnormalities, p. 712
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Overlaps AS23-096 (cross-checked); kept for the lesion atlas grouping.
+- id: AS23-264
+  lesion: mitral valve disease
+  aspect: definition
+  statement: Isolated mitral dysplasia and mitral arcade cause significant mitral regurgitation; any degree of mitral
+    regurgitation in the fetus is abnormal.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii Congenital Mitral Valve Abnormalities, p. 712
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-265
+  lesion: mitral valve disease
+  aspect: associations
+  statement: When mitral regurgitation is present, associated left ventricular outflow obstruction should be considered.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii Congenital Mitral Valve Abnormalities, p. 712
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-266
+  lesion: mitral valve disease
+  aspect: doppler
+  statement: In mitral stenosis, peak velocity may underestimate severity because fetal flow redistributes; annulus size
+    and atrial shunting should be documented.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii Congenital Mitral Valve Abnormalities, p. 712
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-267
+  lesion: mitral valve disease
+  aspect: views
+  statement: Mitral stenosis may have parachute or hypoplastic morphology; papillary muscles and a Z-score of the valve
+    are listed for assessment.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 706
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-268
+  lesion: mitral valve disease
+  aspect: associations
+  statement: A hypoplastic left atrioventricular valve places the fetus at risk of left atrial hypertension.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 706
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-269
+  lesion: mitral valve disease
+  aspect: measure
+  statement: The direction of flow at the foramen ovale is critical in judging whether the mitral valve is adequate.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 706
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-270
+  lesion: straddling atrioventricular valve
+  aspect: definition
+  statement: In a straddling atrioventricular valve, chordae pass through a ventricular septal defect and attach in the
+    opposite ventricle.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii Straddling/Overriding AV Valves and Crisscross Heart, pp. 712-713
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-271
+  lesion: overriding atrioventricular valve
+  aspect: definition
+  statement: In an overriding atrioventricular valve, the annulus sits over the ventricular septum and opens into both
+    ventricles.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii Straddling/Overriding AV Valves and Crisscross Heart, pp. 712-713
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-272
+  lesion: crisscross heart
+  aspect: definition
+  statement: In a crisscross atrioventricular connection the two valve apparatuses cross, typically with the right atrium
+    opening into the left ventricle.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii Straddling/Overriding AV Valves and Crisscross Heart, pp. 712-713
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: '''Typically'' as reported by the reader; check.'
+- id: AS23-273
+  lesion: complex atrioventricular connections
+  aspect: views
+  statement: A complex atrioventricular junction is suspected when the four-chamber view does not show two separate atrioventricular
+    valves with offset at the crux.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 706
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-274
+  lesion: crisscross heart
+  aspect: pitfall
+  statement: Foreshortening in a crisscross heart can cause confusion between one and two ventricles.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 706
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-275
+  lesion: complex atrioventricular connections
+  aspect: doppler
+  statement: Atrioventricular valves in complex connections should be imaged with combined two-dimensional, colour and
+    pulsed-wave Doppler from multiple views.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii Straddling/Overriding AV Valves and Crisscross Heart, pp. 712-713; Figure 25
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-276
+  lesion: straddling atrioventricular valve
+  aspect: associations
+  statement: With atrioventricular discordance there is almost always a ventricular septal defect, with a high incidence
+    of atrioventricular valve straddling.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii Straddling/Overriding AV Valves and Crisscross Heart, pp. 712-713
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-277
+  lesion: straddling atrioventricular valve
+  aspect: perinatal
+  statement: A straddling or overriding atrioventricular valve may make closure of the ventricular septal defect impossible
+    and may require a single-ventricle approach.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.ii Straddling/Overriding AV Valves and Crisscross Heart, pp. 712-713
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-278
+  lesion: straddling atrioventricular valve
+  aspect: pitfall
+  statement: The anatomy of straddling valves is shown better with video clips and live scanning than with still images.
+  source: ASE-2023-FETALECHO
+  locator: Figure 25 caption, p. 714
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-279
+  lesion: straddling atrioventricular valve
+  aspect: measure
+  statement: With a straddling valve, the foramen ovale dimension and the pulmonary venous forward-to-reverse ratio should
+    be measured.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 706
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-280
+  lesion: straddling atrioventricular valve
+  aspect: associations
+  statement: Straddling can be associated with D- or L-looped ventricles and a risk of heart block.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 706
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-281
+  lesion: foramen ovale restriction
+  aspect: associations
+  statement: Restriction of the foramen ovale occurs in transposition of the great arteries, hypoplastic left heart syndrome
+    and critical left heart obstruction, and can also occur in isolation.
+  source: ASE-2023-FETALECHO
+  locator: Table 14 (mechanisms and patterns of progression), pp. 710-711
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-282
+  lesion: foramen ovale restriction
+  aspect: evolution
+  statement: Foramen ovale restriction can lead to pulmonary congestion (nutmeg lung) and, in hypoplastic left heart
+    syndrome, to postnatal hypoxaemia, left atrial hypertension and the need for urgent balloon atrial septostomy.
+  source: ASE-2023-FETALECHO
+  locator: Table 14 (mechanisms and patterns of progression), pp. 710-711
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-283
+  lesion: foramen ovale restriction
+  aspect: pitfall
+  statement: Isolated foramen ovale restriction may make the left-sided structures look small without consequence after
+    birth.
+  source: ASE-2023-FETALECHO
+  locator: Table 14 (mechanisms and patterns of progression), pp. 710-711
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-284
+  lesion: foramen ovale restriction
+  aspect: doppler
+  statement: Left-to-right flow across the atrial septum, enlarged pulmonary veins and an abnormal forward-and-reverse
+    pulmonary venous pattern indicate moderately raised left atrial pressure.
+  source: ASE-2023-FETALECHO
+  locator: Figure 21 caption, p. 711
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-285
+  lesion: ventricular septal defect
+  aspect: evolution
+  statement: Simple isolated ventricular septal defects (the table names muscular defects) may become smaller before
+    birth, lessening or resolving the defect; this can occur in other heart disease too.
+  source: ASE-2023-FETALECHO
+  locator: Table 14 (mechanisms and patterns of progression), pp. 710-711
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Reader gave 'ventricular or muscular'; the exact defect types named need checking.
+- id: AS23-286
+  lesion: ventricular septal defect
+  aspect: measure
+  statement: The size of a ventricular septal defect and any atrioventricular valve attachments that could prevent biventricular
+    repair should be defined.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), DORV row, p. 707
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-300
+  lesion: outflow tract lesions
+  aspect: definition
+  statement: Outflow tract lesions are found at screening with the outflow, three-vessel and three-vessel-and-trachea
+    views, and often show little abnormality on the four-chamber view.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Look-Alike Outflow Tract Lesions, p. 713
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-301
+  lesion: outflow tract lesions
+  aspect: views
+  statement: Sweeps from the four-chamber view through the outflow, three-vessel and three-vessel-and-trachea views detail
+    the segmental anatomy of outflow lesions.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Look-Alike Outflow Tract Lesions, p. 713
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-302
+  lesion: outflow tract lesions
+  aspect: views
+  statement: Short-axis and coronal views help locate ventricular septal defects and show how the great arteries relate
+    to each other.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Look-Alike Outflow Tract Lesions, p. 713
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-303
+  lesion: outflow tract lesions
+  aspect: associations
+  statement: Outflow tract heart disease is often associated with anomalies of the veins, atrioventricular valves, septum,
+    branch pulmonary arteries and arch.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Look-Alike Outflow Tract Lesions, p. 713
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-304
+  lesion: outflow tract lesions
+  aspect: pitfall
+  statement: A ventricular septal defect with an overriding great vessel has a differential diagnosis that includes tetralogy
+    of Fallot, pulmonary atresia with ventricular septal defect, double-outlet right ventricle and common arterial trunk.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714; Figure 26
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-305
+  lesion: outflow tract lesions
+  aspect: keypoint
+  statement: Suspected outflow tract abnormalities should be fully evaluated before prognosis, associated anomalies and
+    testing, including genetic testing, are discussed.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Key Points, p. 715
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-306
+  lesion: outflow tract lesions
+  aspect: keypoint
+  statement: A complete evaluation of an outflow tract lesion includes imaging the branch pulmonary arteries at their
+    origins.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Key Points, p. 715
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-307
+  lesion: outflow tract lesions
+  aspect: keypoint
+  statement: Aortic arch sidedness must be documented at least once during the pregnancy; when the aortic and ductal
+    arches are on opposite sides of the trachea, the branching pattern should be attempted.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Key Points, p. 715
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: The IV.D key point (AS23-100) says arch sidedness should be documented at every examination. The two key points
+    differ in strength and frequency; for the editor.
+- id: AS23-308
+  lesion: outflow tract lesions
+  aspect: keypoint
+  statement: The aortic arch is at risk in any lesion with subaortic obstruction or a subpulmonary ventricular septal
+    defect and should be imaged with two-dimensional and Doppler imaging in axial and sagittal planes.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Key Points, p. 715
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-309
+  lesion: tetralogy of Fallot
+  aspect: definition
+  statement: Tetralogy of Fallot has an overriding aorta with variable obstruction below or at the pulmonary valve, from
+    mild stenosis to atresia, or a dilated outflow with absent pulmonary valve.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-310
+  lesion: tetralogy of Fallot
+  aspect: views
+  statement: Tetralogy of Fallot is suspected with an abnormal cardiac axis or left ventricular outflow view, a ventricular
+    septal defect with an overriding vessel, or an abnormal three-vessel view.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 707
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-311
+  lesion: tetralogy of Fallot
+  aspect: views
+  statement: In tetralogy of Fallot the branch pulmonary arteries must be identified at their origins, because discontinuity,
+    segmental stenosis and major aortopulmonary collaterals can coexist with an outflow or ductus that looks patent.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-312
+  lesion: tetralogy of Fallot
+  aspect: associations
+  statement: Tetralogy of Fallot may occur with atrioventricular septal defect.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-313
+  lesion: tetralogy of Fallot
+  aspect: associations
+  statement: Imaging the arch and the thymus allows counselling tailored to the risk of 22q11 deletion.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-314
+  lesion: tetralogy of Fallot
+  aspect: associations
+  statement: Venous and arch variants listed with tetralogy of Fallot include bilateral superior venae cavae, a retroaortic
+    innominate vein, right aortic arch, vascular rings and aortopulmonary window.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 707
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-315
+  lesion: tetralogy of Fallot
+  aspect: measure
+  statement: Additional measurements listed for tetralogy of Fallot are the branch pulmonary arteries, serial pulmonary
+    valve annulus and the infundibulum.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 707
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-316
+  lesion: tetralogy of Fallot
+  aspect: perinatal
+  statement: In tetralogy of Fallot, the direction of ductal flow at a gestation stated in the table predicts the need
+    for neonatal intervention.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 707
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+    The reader gave '28 weeks'; the gestation was left out of the statement until checked.
+- id: AS23-317
+  lesion: absent pulmonary valve syndrome
+  aspect: associations
+  statement: Absent pulmonary valve syndrome is most often linked with tetralogy of Fallot with a subaortic ventricular
+    septal defect, but may also occur with an intact ventricular septum.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-318
+  lesion: absent pulmonary valve syndrome
+  aspect: associations
+  statement: Distinguishing absent pulmonary valve with a subaortic ventricular septal defect from absent pulmonary valve
+    with an intact septum is critical for surgical planning and for assessing 22q11.2 deletion.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-319
+  lesion: absent pulmonary valve syndrome
+  aspect: views
+  statement: Absent pulmonary valve syndrome shows a hypoplastic pulmonary annulus with tiny leaflets and to-and-fro
+    colour flow across the valve.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 709
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-320
+  lesion: absent pulmonary valve syndrome
+  aspect: measure
+  statement: In absent pulmonary valve syndrome, dilatation of the main and branch pulmonary arteries and of the right
+    atrium and ventricle are key findings.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 709
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-321
+  lesion: absent pulmonary valve syndrome
+  aspect: doppler
+  statement: In absent pulmonary valve syndrome the ductus arteriosus is typically absent, but its presence should be
+    assessed because it affects prognosis.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 709; IV.C.iv, p. 717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-322
+  lesion: absent pulmonary valve syndrome
+  aspect: pitfall
+  statement: In tetralogy with absent pulmonary valve, arch position matters because an aneurysmal branch pulmonary artery
+    on the same side may compress the airway.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-323
+  lesion: absent pulmonary valve syndrome
+  aspect: evolution
+  statement: In absent pulmonary valve syndrome, progressive right ventricular dysfunction predicts perinatal death,
+    and left ventricular dysfunction independently predicts fetal death.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-324
+  lesion: absent pulmonary valve syndrome
+  aspect: keypoint
+  statement: Cardiac position should be assessed in tetralogy with absent pulmonary valve, because an abnormal axis from
+    segmental fluid trapping in the lung may signal airway obstruction after birth and can predict outcome.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Key Points (regurgitation), p. 717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-325
+  lesion: absent pulmonary valve syndrome
+  aspect: perinatal
+  statement: Fetal MRI may be useful to measure lung volumes or fluid trapping in tetralogy with absent pulmonary valve.
+  source: ASE-2023-FETALECHO
+  locator: IV.D Imaging-Based Risk Assessment and Delivery Planning, p. 718
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-326
+  lesion: transposition of the great arteries
+  aspect: views
+  statement: Transposition of the great arteries is suspected with an abnormal three-vessel view, an abnormal left ventricular
+    outflow view or parallel outflow tracts.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 707
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-327
+  lesion: transposition of the great arteries
+  aspect: views
+  statement: A vessel arising from the left ventricular outflow that branches early is a pulmonary artery, which makes
+    the diagnosis of transposition.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715; Figure 26E
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-328
+  lesion: transposition of the great arteries
+  aspect: pitfall
+  statement: Both D-transposition and congenitally corrected transposition show a posterior pulmonary artery arising
+    from the left ventricular outflow.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715; Figure 26
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-329
+  lesion: transposition of the great arteries
+  aspect: perinatal
+  statement: A diagnosis of D-transposition should prompt imaging of the atrial septum late in gestation, and delivery
+    where the atrial communication can be enlarged if shunting is inadequate.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-330
+  lesion: transposition of the great arteries
+  aspect: keypoint
+  statement: Any fetus with D-transposition should have the patency of the foramen ovale assessed late in gestation.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Key Points, p. 715
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-331
+  lesion: transposition of the great arteries
+  aspect: measure
+  statement: In D-transposition the foramen ovale size is best defined in the sagittal view; a septal excursion index
+    is an additional measurement.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 707
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-332
+  lesion: transposition of the great arteries
+  aspect: evolution
+  statement: Constriction of the ductus arteriosus can be lethal in critical heart disease, with transposition at higher
+    risk.
+  source: ASE-2023-FETALECHO
+  locator: Table 14 (mechanisms and patterns of progression), pp. 710-711
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-333
+  lesion: transposition of the great arteries
+  aspect: perinatal
+  statement: Gaps remain in predicting which fetuses with D-transposition and a restrictive atrial septum will need intervention
+    immediately after birth; maternal hyperoxygenation testing has been studied but data are incomplete.
+  source: ASE-2023-FETALECHO
+  locator: IV.D Imaging-Based Risk Assessment and Delivery Planning, p. 718
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-334
+  lesion: congenitally corrected transposition
+  aspect: definition
+  statement: In congenitally corrected transposition, atrioventricular and ventriculoarterial discordance together give
+    physiologically corrected flow.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-335
+  lesion: congenitally corrected transposition
+  aspect: views
+  statement: Congenitally corrected transposition is recognised by an abnormal crux on the four-chamber view and a moderator
+    band at the apex of the left-sided right ventricle.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-336
+  lesion: congenitally corrected transposition
+  aspect: associations
+  statement: A ventricular septal defect may be present in 60% to 70% of cases of congenitally corrected transposition,
+    of variable type and location.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-337
+  lesion: congenitally corrected transposition
+  aspect: associations
+  statement: Tricuspid valve dysplasia, Ebstein malformation and coarctation of the aorta can be associated with congenitally
+    corrected transposition.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-338
+  lesion: congenitally corrected transposition
+  aspect: evolution
+  statement: In congenitally corrected transposition, rhythm abnormalities including congenital heart block can arise
+    in fetal life and affect survival.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-339
+  lesion: congenitally corrected transposition
+  aspect: keypoint
+  statement: Serial fetal echocardiography should be offered in congenitally corrected transposition to identify progressive
+    atrioventricular valve regurgitation and rhythm abnormalities, including complete heart block.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Key Points, p. 715
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-340
+  lesion: double-outlet right ventricle
+  aspect: definition
+  statement: In double-outlet right ventricle the ventricular septal defect may be subaortic, subpulmonary, doubly committed
+    or remote; its position and the relative sizes of aorta and pulmonary artery must be determined.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-341
+  lesion: double-outlet right ventricle
+  aspect: perinatal
+  statement: Double-outlet right ventricle with a subaortic defect may resemble tetralogy of Fallot in anatomy and postnatal
+    physiology.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-342
+  lesion: double-outlet right ventricle
+  aspect: pitfall
+  statement: With a subpulmonary ventricular septal defect, the anterior aorta may be obstructed below the valve, and
+    coarctation often accompanies it, so the arch needs careful two-dimensional and colour imaging.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-343
+  lesion: double-outlet right ventricle
+  aspect: definition
+  statement: The Taussig-Bing anomaly shows a posterior vessel giving rise to the pulmonary artery over a subpulmonary
+    ventricular septal defect, with an anterior aorta.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715; Figure 26A
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-344
+  lesion: double-outlet right ventricle
+  aspect: perinatal
+  statement: In double-outlet right ventricle with a subpulmonary defect and a straddling mitral valve, a neonatal Damus-Kaye-Stansel
+    operation may be more feasible than an arterial switch.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715; Figure 25
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-345
+  lesion: common arterial trunk
+  aspect: definition
+  statement: In common arterial trunk a single arterial trunk gives rise directly to the coronary arteries, the aorta
+    and one or both pulmonary arteries.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-346
+  lesion: common arterial trunk
+  aspect: definition
+  statement: Common arterial trunk ranges from pulmonary-dominant forms (smaller aortic part, with or without arch interruption)
+    to aortic-dominant forms.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-347
+  lesion: common arterial trunk
+  aspect: evolution
+  statement: Function of the truncal valve, especially significant regurgitation, can affect survival in utero.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-348
+  lesion: common arterial trunk
+  aspect: views
+  statement: In common arterial trunk the ductus arteriosus is often absent, but one may be present in all forms.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-349
+  lesion: common arterial trunk
+  aspect: perinatal
+  statement: Pulmonary-dominant common trunk, and common trunk with interrupted arch, depend entirely on ductal patency
+    and need prostaglandin E1 at birth.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-350
+  lesion: common arterial trunk
+  aspect: associations
+  statement: In common arterial trunk, a right aortic arch is associated with a risk of 22q11 deletion above 50%.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 707
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-351
+  lesion: common arterial trunk
+  aspect: measure
+  statement: In common arterial trunk, truncal valve velocity and regurgitation and the proximal branch pulmonary artery
+    dimensions are assessed.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 707
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-400
+  lesion: semilunar valve obstruction
+  aspect: definition
+  statement: Fetal aortic and pulmonary stenosis span a broad range of severity.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-401
+  lesion: semilunar valve obstruction
+  aspect: evolution
+  statement: Semilunar valve obstruction with an intact ventricular septum has the greatest potential to progress in
+    utero, so serial assessment is essential.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-402
+  lesion: semilunar valve obstruction
+  aspect: evolution
+  statement: Severe obstruction, especially early in gestation, may lead to progressive hypoplasia of the ventricle,
+    or to hydrops.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-403
+  lesion: semilunar valve obstruction
+  aspect: evolution
+  statement: With longer-standing obstruction the downstream great artery can dilate or become hypoplastic, so measurements
+    need repeating.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-404
+  lesion: semilunar valve obstruction
+  aspect: doppler
+  statement: Valve morphology, size, patency and competence should be evaluated with colour, pulsed-wave and continuous-wave
+    Doppler.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716; Figure 27
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-405
+  lesion: semilunar valve obstruction
+  aspect: doppler
+  statement: Retrograde flow in the arch on the same side as the obstructed valve heralds critical obstruction at any
+    gestational age; if absent at first, it should be looked for repeatedly through the pregnancy.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716; Figure 28
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-406
+  lesion: semilunar valve obstruction
+  aspect: followup
+  statement: As semilunar obstruction progresses, routine Doppler of systemic venous, ductus venosus, umbilical and middle
+    cerebral flows is essential.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Reader placed this on p. 715; check page and wording.
+- id: AS23-407
+  lesion: semilunar valve obstruction
+  aspect: measure
+  statement: Ventricular size (end-diastolic diameter and length), whether the ventricle forms the apex, hypertrophy,
+    endocardial fibroelastosis and systolic and diastolic function help judge severity and suitability for prenatal intervention.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-408
+  lesion: semilunar valve obstruction
+  aspect: keypoint
+  statement: Serial evaluation should be performed when valve stenosis is suspected, including ventricular size and function
+    and endocardial fibroelastosis.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Key Points (semilunar obstruction), p. 716
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-409
+  lesion: semilunar valve obstruction
+  aspect: keypoint
+  statement: Ductal and aortic arch flow direction must be documented at every examination; abnormal direction heralds
+    critical obstruction after birth.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Key Points (semilunar obstruction), p. 716
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-410
+  lesion: semilunar valve obstruction
+  aspect: keypoint
+  statement: Atrial septal flow direction must be documented at every examination when semilunar valve stenosis is present.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Key Points (semilunar obstruction), p. 716
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-411
+  lesion: semilunar valve obstruction
+  aspect: keypoint
+  statement: Evaluation of both ventricles' function is recommended in aortic and pulmonary stenosis.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Key Points (semilunar obstruction), p. 716
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-412
+  lesion: aortic stenosis
+  aspect: views
+  statement: Aortic stenosis shows a thickened valve in systole on the left ventricular outflow view, a dilated ascending
+    aorta on the three-vessel view, and left ventricular hypertrophy or dysfunction on the four-chamber view.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 708
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-413
+  lesion: aortic stenosis
+  aspect: pitfall
+  statement: In aortic stenosis, aortic valve Doppler may not reflect severity when left ventricular dysfunction is severe;
+    reversed flow in the transverse arch predicts severe obstruction.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 708
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-414
+  lesion: aortic stenosis
+  aspect: doppler
+  statement: 'In aortic stenosis, continuous-wave Doppler of mitral regurgitation gives insight into severity: higher
+    velocities suggest preserved ventricular function; low velocities may mean mild obstruction, severe myocardial dysfunction
+    or a primary myocardial disease.'
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-415
+  lesion: aortic stenosis
+  aspect: evolution
+  statement: In severe aortic obstruction, raised left atrial pressure can cause left-to-right atrial shunting and atrial
+    restriction, altering pulmonary venous flow; foramen ovale size and flow should be assessed.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-416
+  lesion: aortic stenosis
+  aspect: associations
+  statement: In aortic stenosis the arch and isthmus are at risk of coarctation and should be assessed.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 708
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-417
+  lesion: aortic stenosis
+  aspect: evolution
+  statement: Aortic stenosis with severe left ventricular dysfunction can progress to a left ventricle that no longer
+    forms the apex late in pregnancy.
+  source: ASE-2023-FETALECHO
+  locator: Figure 27 caption, p. 716
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Case illustration; the gestation in the caption was not carried into the statement.
+- id: AS23-418
+  lesion: pulmonary stenosis
+  aspect: views
+  statement: Pulmonary stenosis may show right atrial enlargement and a right ventricle smaller than the left, hypertrophied
+    and with reduced function, but the four-chamber view may look normal; reversed colour flow in the ductus or main
+    pulmonary artery may be seen on the three-vessel view.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 708
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-419
+  lesion: pulmonary stenosis
+  aspect: doppler
+  statement: In pulmonary stenosis, increased A-wave reversal in the systemic veins is common.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 708
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-420
+  lesion: pulmonary stenosis
+  aspect: doppler
+  statement: Reversed ductal flow suggests ductal dependence.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), pulmonary stenosis row, p. 708
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-421
+  lesion: pulmonary atresia with intact septum
+  aspect: associations
+  statement: Pulmonary valve atresia or near-atresia with a small right ventricle can be associated with coronary artery
+    fistulae, suspected when to-and-fro flow is seen in the right ventricular free wall or septum with low-velocity colour
+    Doppler.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-422
+  lesion: pulmonary stenosis
+  aspect: measure
+  statement: In pulmonary stenosis, tricuspid annulus dimension and pulsed-wave inflow duration are listed as key measurements.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 708
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-423
+  lesion: hypoplastic left heart syndrome
+  aspect: followup
+  statement: Hypoplastic left heart syndrome with mitral regurgitation is at risk of heart failure and should have comprehensive
+    function assessment every 2-4 weeks.
+  source: ASE-2023-FETALECHO
+  locator: Table 15 (follow-up imaging for specific CHD diagnoses), p. 719
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-424
+  lesion: Ebstein anomaly and tricuspid dysplasia
+  aspect: definition
+  statement: Significant right atrial dilatation, with or without right ventricular dilatation, is the first clue to
+    Ebstein anomaly or tricuspid valve dysplasia.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-425
+  lesion: Ebstein anomaly and tricuspid dysplasia
+  aspect: views
+  statement: Tricuspid valve anatomy on the four-chamber and short-axis views clarifies the diagnosis of Ebstein anomaly
+    or tricuspid dysplasia.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-426
+  lesion: Ebstein anomaly and tricuspid dysplasia
+  aspect: measure
+  statement: Tricuspid regurgitation severity is assessed by the width of the vena contracta relative to the annulus.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-427
+  lesion: Ebstein anomaly and tricuspid dysplasia
+  aspect: doppler
+  statement: Pulsed- and continuous-wave Doppler of the tricuspid regurgitant jet is critical to exclude primary pulmonary
+    obstruction and to gauge right ventricular systolic pressure.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-428
+  lesion: Ebstein anomaly and tricuspid dysplasia
+  aspect: pitfall
+  statement: In severe tricuspid disease, the right ventricle may be unable to exceed systemic pressure and open the
+    pulmonary valve (functional pulmonary atresia).
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-429
+  lesion: Ebstein anomaly and tricuspid dysplasia
+  aspect: doppler
+  statement: Structural or functional pulmonary atresia in severe tricuspid disease is always associated with retrograde
+    ductal flow, which can develop at any point and must be documented serially.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-430
+  lesion: Ebstein anomaly and tricuspid dysplasia
+  aspect: evolution
+  statement: In Ebstein anomaly or tricuspid dysplasia, hypoplasia of the pulmonary valve and main pulmonary artery is
+    common because right ventricular output is reduced.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-431
+  lesion: Ebstein anomaly and tricuspid dysplasia
+  aspect: measure
+  statement: Branch pulmonary arteries should be imaged and measured, because their hypoplasia correlates with lung hypoplasia.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-432
+  lesion: Ebstein anomaly and tricuspid dysplasia
+  aspect: measure
+  statement: Left ventricular morphology, size and function should be assessed, because left ventricular dysfunction
+    can cause compromise.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-433
+  lesion: Ebstein anomaly and tricuspid dysplasia
+  aspect: pitfall
+  statement: Reduced radial displacement, reduced circumferential strain and left ventricular dyssynchrony mark severe
+    disease, but these methods remain investigational.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-434
+  lesion: Ebstein anomaly and tricuspid dysplasia
+  aspect: followup
+  statement: Rhythm should be assessed in Ebstein anomaly and tricuspid dysplasia, because atrial ectopy and supraventricular
+    tachyarrhythmias are common.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-435
+  lesion: Ebstein anomaly and tricuspid dysplasia
+  aspect: associations
+  statement: Other defects, including coarctation and ventricular septal defect, should be looked for in Ebstein anomaly
+    and tricuspid dysplasia.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-436
+  lesion: Ebstein anomaly and tricuspid dysplasia
+  aspect: measure
+  statement: Tricuspid annulus dimension and peak tricuspid regurgitation velocity are listed as predictive of progression.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 708
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-437
+  lesion: Ebstein anomaly and tricuspid dysplasia
+  aspect: evolution
+  statement: Severe tricuspid regurgitation with progressive cardiomegaly can evolve into heart failure and hydrops.
+  source: ASE-2023-FETALECHO
+  locator: Figure 29 caption, p. 718
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-438
+  lesion: valve regurgitation
+  aspect: evolution
+  statement: Significant atrioventricular or semilunar regurgitation imposes a volume load that the fetal circulation
+    tolerates poorly, causing progressive cardiomegaly.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-439
+  lesion: valve regurgitation
+  aspect: evolution
+  statement: Dysfunction of both ventricles can impair redistribution of preload, leading to haemodynamic instability,
+    raised filling pressures and hydrops.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-440
+  lesion: valve regurgitation
+  aspect: keypoint
+  statement: Valve regurgitation should be followed serially, because it may worsen with advancing gestation.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Key Points (regurgitation), p. 717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-441
+  lesion: valve regurgitation
+  aspect: keypoint
+  statement: Progressive cardiomegaly is common with significant atrioventricular or semilunar regurgitation.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Key Points (regurgitation), p. 717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-442
+  lesion: valve regurgitation
+  aspect: evolution
+  statement: Pulmonary regurgitation with a patent ductus arteriosus can cause a circular shunt and placental steal.
+  source: ASE-2023-FETALECHO
+  locator: Table 14 (mechanisms and patterns of progression), pp. 710-711
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-443
+  lesion: coarctation of the aorta
+  aspect: views
+  statement: Coarctation is suggested by a right ventricle larger than the left, an ascending aorta smaller than the
+    superior vena cava, and a small transverse arch and isthmus.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 709
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-444
+  lesion: coarctation of the aorta
+  aspect: pitfall
+  statement: Prenatal diagnosis of coarctation has substantial false-positive and false-negative rates.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 709
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-445
+  lesion: coarctation of the aorta
+  aspect: views
+  statement: A size discrepancy between the arches, abnormal flow direction, or a U shape on the three-vessel-and-trachea
+    view should alert the examiner to coarctation.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.v Isolated Arch Abnormalities, p. 717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-446
+  lesion: coarctation of the aorta
+  aspect: views
+  statement: Isolated coarctation is suspected when the transverse aorta is smaller than the ductal arch.
+  source: ASE-2023-FETALECHO
+  locator: Figure 30D caption, p. 718
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-447
+  lesion: coarctation of the aorta
+  aspect: measure
+  statement: The aortic isthmus is listed as an additional measurement in suspected coarctation.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 709
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-500
+  lesion: aortic arch
+  aspect: views
+  statement: On the normal three-vessel-and-trachea view, two arches of similar size form a V to the left of the trachea.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.v Isolated Arch Abnormalities, p. 717; Figure 30A
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-501
+  lesion: aortic arch
+  aspect: views
+  statement: Axial, sagittal and parasagittal two-dimensional and colour imaging should trace the ductal and aortic arches
+    and the origins of the head and neck vessels.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.v Isolated Arch Abnormalities, p. 717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-502
+  lesion: aortic arch
+  aspect: views
+  statement: A size mismatch between arches, abnormal flow, a U shape, or separation of the superior vena cava from the
+    trachea should prompt evaluation for coarctation, ductal aneurysm, right aortic arch or vascular ring.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.v Isolated Arch Abnormalities, p. 717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-503
+  lesion: vascular ring
+  aspect: views
+  statement: On the three-vessel-and-trachea view, a U shape around the trachea and oesophagus, instead of a V, is the
+    key sign of a vascular ring.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 709
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-504
+  lesion: vascular ring
+  aspect: views
+  statement: With a suspected vascular ring, aberrant subclavian arteries and a double aortic arch should be excluded.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 709
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-505
+  lesion: vascular ring
+  aspect: associations
+  statement: A vascular ring carries an increased risk of tracheal anomalies, including complete tracheal rings.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 709
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-506
+  lesion: pulmonary artery sling
+  aspect: perinatal
+  statement: A pulmonary artery sling is not a vascular ring but may coexist with airway abnormalities; delivery should
+    be where assisted ventilation is available if needed.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.v Isolated Arch Abnormalities, p. 717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-507
+  lesion: double aortic arch
+  aspect: doppler
+  statement: Colour and power Doppler on the three-vessel-and-trachea view can show retrograde and antegrade flow in
+    the smaller arch of a double arch.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.v Isolated Arch Abnormalities, p. 717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Overlaps AS23-101 (aberrant subclavian, cross-checked).
+- id: AS23-508
+  lesion: double aortic arch
+  aspect: views
+  statement: In double aortic arch, colour Doppler shows two arches encircling the trachea and oesophagus, with the innominate
+    vein passing in front of both.
+  source: ASE-2023-FETALECHO
+  locator: Figure 30G caption, p. 718
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-509
+  lesion: aberrant right subclavian artery
+  aspect: views
+  statement: An isolated aberrant right subclavian artery running behind the oesophagus is seen more clearly with colour
+    Doppler.
+  source: ASE-2023-FETALECHO
+  locator: Figure 30C caption, p. 718
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-510
+  lesion: aortic arch
+  aspect: keypoint
+  statement: The three-vessel-and-trachea view should be used to assess vascular anatomy, because vascular rings, slings
+    and right aortic arch are readily detectable on it.
+  source: ASE-2023-FETALECHO
+  locator: IV.D Key Points, p. 718
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-511
+  lesion: aortic arch
+  aspect: keypoint
+  statement: Attempts should be made to diagnose an aberrant subclavian artery, especially when an abnormality of arch
+    sidedness is suspected.
+  source: ASE-2023-FETALECHO
+  locator: IV.D Key Points, p. 718
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-512
+  lesion: ductal aneurysm
+  aspect: definition
+  statement: A ductal aneurysm appears late in gestation as a pulsatile, tortuous duct on the three-vessel, three-vessel-and-trachea
+    or sagittal arch views.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 709
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-513
+  lesion: ductal aneurysm
+  aspect: measure
+  statement: A ductal aneurysm should be measured at its widest; it is generally a normal variant with no clinical consequence
+    in the newborn.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 709
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-514
+  lesion: ductal aneurysm
+  aspect: evolution
+  statement: Ductal aneurysm occurs at 35-40 weeks in 1%-2% of fetuses, mostly closes spontaneously with a low risk of
+    rupture or compression, and is associated with connective tissue disorders.
+  source: ASE-2023-FETALECHO
+  locator: Table 14 (mechanisms and patterns of progression), pp. 710-711
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Check the figures against the PDF.
+- id: AS23-515
+  lesion: ductal constriction
+  aspect: associations
+  statement: Ductal constriction occurs in isolation and is associated with cyclo-oxygenase inhibitors (non-steroidal
+    anti-inflammatory drugs) and certain foods or herbal teas; it rarely occurs with structural heart disease.
+  source: ASE-2023-FETALECHO
+  locator: Table 14 (mechanisms and patterns of progression), pp. 710-711
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-516
+  lesion: ductal constriction
+  aspect: evolution
+  statement: Isolated ductal constriction can lead to right heart failure, hydrops and persistent pulmonary hypertension
+    after birth.
+  source: ASE-2023-FETALECHO
+  locator: Table 14 (mechanisms and patterns of progression), pp. 710-711
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-517
+  lesion: heterotaxy
+  aspect: evolution
+  statement: In heterotaxy with atrial isomerism, regurgitation of the common atrioventricular valve may be progressive
+    and can affect prognosis.
+  source: ASE-2023-FETALECHO
+  locator: IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-518
+  lesion: systemic venous anomalies
+  aspect: associations
+  statement: Common venous variations listed with unbalanced atrioventricular septal defect include the course and side
+    of the superior and inferior venae cavae, the azygos system and hepatic venous connections.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 705
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-519
+  lesion: systemic venous anomalies
+  aspect: associations
+  statement: A left superior vena cava draining to the coronary sinus is listed as a common venous variation with coarctation.
+  source: ASE-2023-FETALECHO
+  locator: Table 13 (lesion-specific evaluation), p. 709
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-520
+  lesion: obstructed pulmonary venous return
+  aspect: perinatal
+  statement: Fetal MRI for lymphangiectasis may help prognosis and planning in obstructed total anomalous pulmonary venous
+    return, and in hypoplastic left heart syndrome with a restrictive or intact atrial septum.
+  source: ASE-2023-FETALECHO
+  locator: IV.D Imaging-Based Risk Assessment and Delivery Planning, p. 718
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-521
+  lesion: cardiac tumours
+  aspect: evolution
+  statement: The effect of a cardiac tumour depends on its type and on how it affects filling, function and rhythm.
+  source: ASE-2023-FETALECHO
+  locator: Table 14 (mechanisms and patterns of progression), pp. 710-711
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-522
+  lesion: rhabdomyoma
+  aspect: evolution
+  statement: Rhabdomyomas grow in mid-pregnancy and regress after 32 weeks.
+  source: ASE-2023-FETALECHO
+  locator: Table 14 (mechanisms and patterns of progression), pp. 710-711
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Check the gestation against the PDF.
+- id: AS23-523
+  lesion: ventricular dysfunction
+  aspect: associations
+  statement: Fetal ventricular dysfunction can result from primary myocardial disease, structural heart disease with
+    volume load, outflow obstruction on both sides, and arrhythmias.
+  source: ASE-2023-FETALECHO
+  locator: Table 14 (mechanisms and patterns of progression), pp. 710-711
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-524
+  lesion: heart failure
+  aspect: associations
+  statement: Fetal heart failure can result from ventricular dysfunction with inadequate preload redistribution, volume
+    or pressure overload, arrhythmia, or compression of the heart.
+  source: ASE-2023-FETALECHO
+  locator: Table 14 (mechanisms and patterns of progression), pp. 710-711
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-525
+  lesion: arrhythmia risk
+  aspect: associations
+  statement: Arrhythmia risk is higher when associated with structural heart disease, myocardial disease, cardiac tumours,
+    or Ebstein anomaly and tricuspid dysplasia.
+  source: ASE-2023-FETALECHO
+  locator: Table 14 (mechanisms and patterns of progression), pp. 710-711
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Check which lesions the table lists.
+- id: AS23-600
+  lesion: delivery planning
+  aspect: keypoint
+  statement: Once fetal heart disease is diagnosed, maternal, fetal and neonatal providers must work together on its
+    implications, follow-up visits and the expected level of neonatal care.
+  source: ASE-2023-FETALECHO
+  locator: IV.D Key Points, p. 718; IV.D Imaging-Based Risk Assessment and Delivery Planning, p. 718
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-601
+  lesion: delivery planning
+  aspect: followup
+  statement: Serial follow-up is indicated for diagnoses at risk of haemodynamic compromise after birth; Tables 14 and
+    15 list the situations.
+  source: ASE-2023-FETALECHO
+  locator: IV.D Key Points, p. 718; IV.D Imaging-Based Risk Assessment and Delivery Planning, p. 718
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-602
+  lesion: delivery planning
+  aspect: perinatal
+  statement: Certain forms of critical heart disease require cardiac intervention immediately after birth.
+  source: ASE-2023-FETALECHO
+  locator: IV.D Imaging-Based Risk Assessment and Delivery Planning, p. 718
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-603
+  lesion: delivery planning
+  aspect: keypoint
+  statement: Image-based risk stratification paired with level-of-care plans is recommended for prenatally diagnosed
+    heart disease, and may standardise communication and perinatal management.
+  source: ASE-2023-FETALECHO
+  locator: IV.D Key Points, p. 718; IV.D Imaging-Based Risk Assessment and Delivery Planning, p. 718
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-604
+  lesion: delivery planning
+  aspect: perinatal
+  statement: A coordinated perinatal plan of care has the greatest potential to influence outcome.
+  source: ASE-2023-FETALECHO
+  locator: IV.D Imaging-Based Risk Assessment and Delivery Planning, p. 718
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-605
+  lesion: surveillance
+  aspect: followup
+  statement: Follow-up intervals in Table 15 are suggestions, at the discretion of the cardiology and obstetric providers.
+  source: ASE-2023-FETALECHO
+  locator: Table 15 (follow-up imaging for specific CHD diagnoses), p. 719 (column header)
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-606
+  lesion: surveillance
+  aspect: followup
+  statement: 'Fetal heart disease at risk of heart failure (examples: hypoplastic left heart with mitral regurgitation,
+    tetralogy with absent pulmonary valve, Ebstein anomaly, atrioventricular septal defect with valve regurgitation,
+    cardiac tumours) is followed every 2-4 weeks with comprehensive function assessment.'
+  source: ASE-2023-FETALECHO
+  locator: Table 15 (follow-up imaging for specific CHD diagnoses), p. 719
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-607
+  lesion: surveillance
+  aspect: followup
+  statement: 'Fetal heart disease at risk of arrhythmia (examples: long-QT syndrome, congenitally corrected transposition,
+    left atrial isomerism) is followed every 2-4 weeks with documentation of rate and rhythm.'
+  source: ASE-2023-FETALECHO
+  locator: Table 15 (follow-up imaging for specific CHD diagnoses), p. 719
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-608
+  lesion: surveillance
+  aspect: followup
+  statement: 'An extracardiac anomaly at risk of hydrops (examples: CPAM, sacrococcygeal teratoma, twin-twin transfusion,
+    arteriovenous malformation, TRAP sequence, fetal anaemia) is followed every 2-4 weeks with comprehensive function
+    assessment.'
+  source: ASE-2023-FETALECHO
+  locator: Table 15 (follow-up imaging for specific CHD diagnoses), p. 719
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-609
+  lesion: surveillance
+  aspect: followup
+  statement: 'A fetus at risk of cyanosis after birth (examples: transposition with intact septum or ventricular septal
+    defect, double-outlet right ventricle with subpulmonary defect, tetralogy) is followed every 4-8 weeks and late in
+    the third trimester, assessing atrial septal excursion, foramen opening and ductal shunting, with maternal hyperoxygenation
+    testing considered.'
+  source: ASE-2023-FETALECHO
+  locator: Table 15 (follow-up imaging for specific CHD diagnoses), p. 719
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-610
+  lesion: surveillance
+  aspect: followup
+  statement: 'A fetus at risk of pulmonary venous obstruction after birth (examples: hypoplastic left heart with restrictive
+    atrial septum, obstructed anomalous pulmonary venous return, cor triatriatum) is followed every 4-8 weeks and late
+    in the third trimester, assessing the pulmonary venous forward-to-reverse ratio, atrial septal position and thickness,
+    vertical vein Doppler, with maternal hyperoxygenation testing considered.'
+  source: ASE-2023-FETALECHO
+  locator: Table 15 (follow-up imaging for specific CHD diagnoses), p. 719
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-611
+  lesion: surveillance
+  aspect: followup
+  statement: Fetal tachycardia (atrial flutter, supraventricular tachycardia) is followed every 2 weeks unless well controlled,
+    assessing rate and rhythm, heart size, hydrops and heart failure.
+  source: ASE-2023-FETALECHO
+  locator: Table 15 (follow-up imaging for specific CHD diagnoses), p. 719
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-612
+  lesion: surveillance
+  aspect: followup
+  statement: 'A fetus at risk of respiratory compromise after birth (examples: tetralogy with absent pulmonary valve,
+    Ebstein anomaly, hypoplastic left heart with restrictive atrial septum) is followed every 4-8 weeks and late in the
+    third trimester, assessing mediastinal shift, cardiothoracic area ratio and ventricular function, with fetal MRI
+    of the lungs considered.'
+  source: ASE-2023-FETALECHO
+  locator: Table 15 (follow-up imaging for specific CHD diagnoses), p. 719
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-613
+  lesion: surveillance
+  aspect: followup
+  statement: A fetus at risk of atrioventricular block (congenitally corrected transposition, left atrial isomerism,
+    others) is followed every 2-4 weeks, assessing the atrioventricular interval, atrial and ventricular rates, hydrops
+    and extracardiac Doppler.
+  source: ASE-2023-FETALECHO
+  locator: Table 15 (follow-up imaging for specific CHD diagnoses), p. 719
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: Table text is flattened in the reader; the column this entry belongs to was inferred. Check against the table.
+- id: AS23-614
+  lesion: surveillance
+  aspect: followup
+  statement: After fetal intervention for aortic stenosis with evolving hypoplastic left heart, follow-up is every 4
+    weeks in the third trimester, assessing aortic outflow, arch flow direction, atrial septal flow, left ventricular
+    size and function, mitral regurgitation and endocardial brightness.
+  source: ASE-2023-FETALECHO
+  locator: Table 15 (follow-up imaging for specific CHD diagnoses), p. 719
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AS23-615
+  lesion: surveillance
+  aspect: followup
+  statement: After fetal intervention for hypoplastic left heart with restrictive atrial septum, follow-up is every 4
+    weeks in the third trimester, assessing patency of the atrial communication and the pulmonary venous forward-to-reverse
+    ratio.
+  source: ASE-2023-FETALECHO
+  locator: Table 15 (follow-up imaging for specific CHD diagnoses), p. 719
+  status: ai-extracted
+  extracted_by: Claude (Opus 5.5, 2026-11-17), from the PDF text on asecho.org read through a web reader; page numbers
+    as reported by the reader, not seen on the page
+  checked_by: null
+  verified_by: null
+  note: null

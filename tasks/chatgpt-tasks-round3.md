@@ -1,5 +1,7 @@
 # Tasks for ChatGPT, round 3: harvest for the Diagnose and Decide tiers
 
+**Update 17 Nov:** Claude harvested G1, G2a-d and H1 and H3 itself through a web reader (349 claims, all ai-extracted). Those tasks are closed; ChatGPT now cross-checks them instead (`tasks/chatgpt-tasks-round4.md`, task I). Task S1 has a first answer in `tasks/results/task-s1.md`. **Still open here: H2 (AHA 2024 arrhythmia statement).**
+
 Written 16 Nov 2026. Do round 2 first (`chatgpt-tasks-round2.md`); it unblocks the Detect tier. These tasks open the next two tiers. A new chat for each task. Save each result in `tasks/results/` under the file name given. Everything ChatGPT extracts here will be cross-checked by Claude or Gemini before use.
 
 For every task, paste the whole of `prompts/05-harvest-lesion.md` (tasks G2, H1) or `prompts/01-harvest.md` (the others) and fill in the fields as shown.

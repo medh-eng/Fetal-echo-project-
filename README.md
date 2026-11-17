@@ -52,6 +52,7 @@ Then open `dist/app/index.html` in a browser for the course app, or `dist/D1/stu
 ## What exists now
 
 - **222 claims** from two guidelines (ISUOG 2023 screening, ASE 2023 fetal echocardiography), all with page references. ChatGPT has checked the first 118 against the PDFs, including a second pass on 22 that were reworded. Claude has checked the remaining 104 through a reader on the PDF text (limits in `tasks/results/task-1-crosscheck.md`). Status now: 57 expert-verified, 149 cross-checked, 16 awaiting re-check.
+- **349 more claims for the Diagnose and Decide tiers** (lesion atlas, biometry, surveillance, delivery planning, counselling, intervention), harvested by Claude on 17 Nov from ASE 2023 and AHA 2014. Awaiting cross-check by ChatGPT or Gemini.
 - **17 units, 189 drills**, all in the app and the book:
   - Detect: D0 Why hearts are missed, D1 Five views, D2 Machine set-up, D3 Laterality and situs, D4 Four-chamber view, D5 Outflow tracts, D6 Three-vessel views, D7 Colour Doppler, D8 Rate and rhythm, D9 The heart at 11 to 14 weeks, D10 Variants and pitfalls, D11 When and how to refer, D13 Quality and audit.
   - Foundation: F1 Ultrasound modes, F2 Fetal rhythm: tools and mechanisms.
@@ -71,7 +72,9 @@ Then open `dist/app/index.html` in a browser for the course app, or `dist/D1/stu
 | Next step | Who | Where |
 |---|---|---|
 | Sixteen claims that need eyes on the PDF | Gemini (or ChatGPT for twelve) | `tasks/chatgpt-tasks-round4.md`, task H |
-| Harvest for the Diagnose and Decide tiers | ChatGPT, Gemini | `tasks/chatgpt-tasks-round3.md` |
+| Cross-check the 349 Diagnose/Decide claims (8 batches) | ChatGPT or Gemini | `tasks/chatgpt-tasks-round4.md`, task I |
+| Pick one source per topic | Dr Kunda | `tasks/results/task-s1.md` |
+| Harvest AHA 2024 arrhythmia statement | ChatGPT | `tasks/chatgpt-tasks-round3.md`, H2 |
 | One sitting with the review pack | Dr Kunda | `dist/editor/review-pack.html` |
 | Mark up the five sweep drawings | Dr Kunda | `dist/editor/sweep-schematics.html` |
 | Clinic checks form (archive, Voluson export, consent) | Project owner | `docs/07-clinic-checks.md` |
