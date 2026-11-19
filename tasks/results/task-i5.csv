@@ -1,0 +1,27 @@
+claim_id,verdict,detail
+AS23-500,CONFIRMED,The opening paragraph of IV.C.v on p. 717 gives the normal geometry and relative arch sizes. Figure 30A itself is on p. 718.
+AS23-501,CONFIRMED,The second paragraph of IV.C.v on p. 717 specifies these planes and imaging modes for following both arches and their branches.
+AS23-502,CONFIRMED,The list of abnormal 3VT findings and the diagnoses to investigate are in the opening paragraph of IV.C.v on p. 717. Its differential is broader than the examples in the claim.
+AS23-503,CONFIRMED,"Table 13 on p. 709, vascular ring row, 2D/colour assessment column: the abnormal U configuration surrounds both structures on 3VT."
+AS23-504,CONFIRMED,"Table 13 on p. 709, vascular ring row, 2D/colour assessment column: both branching and double-arch alternatives are to be excluded."
+AS23-505,CONFIRMED,"Table 13 on p. 709, vascular ring row, pearls/pitfalls column: complete rings are the airway example."
+AS23-506,CONFIRMED,IV.C.v on p. 717 distinguishes a sling from a ring and links associated airway disease to access to ventilatory support at delivery.
+AS23-507,CONFIRMED,IV.C.v on p. 717 describes both directions of flow in the smaller arch and the role of colour and power Doppler.
+AS23-508,CONFIRMED,"Figure 30G and its caption on p. 718 identify both arches, the enclosed airway and oesophagus, and the anterior vein."
+AS23-509,CONFIRMED,Figure 30C and its caption on p. 718 show the retro-oesophageal course and the improvement with colour Doppler.
+AS23-510,CORRECT LOCATOR,"Use IV.C.v, Isolated Arch Abnormalities, first Key Point on p. 718. The box is above the heading that begins IV.D. The imaging recommendation is supported."
+AS23-511,CORRECT LOCATOR,"Use IV.C.v, Isolated Arch Abnormalities, second Key Point on p. 718. The box precedes IV.D and gives particular emphasis to suspected abnormal arch sidedness."
+AS23-512,CONFIRMED,"Table 13 on p. 709, ductal aneurysm row: the 2D/colour column gives the morphology and all three views. The pearls/pitfalls column gives the timing."
+AS23-513,CONFIRMED,"Table 13 on p. 709, ductal aneurysm row: the measurements column gives the widest diameter and the pearls/pitfalls column describes the usual neonatal outcome."
+AS23-514,CONFIRMED,"Table 14 on p. 711, ductal aneurysm row, supports the 35–40-week interval, 1%–2% frequency, natural history, low complication risks and connective tissue association."
+AS23-515,CONFIRMED,"Table 14 on p. 711, ductal constriction row, anatomy and mechanism columns, supports the exposure associations and rarity with structural cardiac disease."
+AS23-516,CONFIRMED,"Table 14 on p. 711, ductal constriction row, outcomes column, lists all three as possible consequences."
+AS23-517,CONFIRMED,IV.C.iv on p. 717 explicitly links progression and prognostic significance to common-valve regurgitation in atrial isomerism.
+AS23-518,CONFIRMED,"Table 13 on p. 705, unbalanced AVSD row, pearls/pitfalls column, lists the caval, azygos and hepatic venous variants."
+AS23-519,CONFIRMED,"Table 13 on p. 709, coarctation row, pearls/pitfalls column, identifies this drainage route as an associated variation."
+AS23-520,CONFIRMED,IV.D on p. 718 describes MRI evaluation for pulmonary lymphangiectasis in both settings and its possible value for prognosis and planning.
+AS23-521,CONFIRMED,"Table 14 on p. 711, cardiac tumours row, mechanism column, identifies tumour type and the three functional effects."
+AS23-522,CONFIRMED,"Table 14 on p. 711, cardiac tumours row, outcomes column, specifies mid-trimester evolution and regression after 32 weeks."
+AS23-523,CONFIRMED,"Table 14 on p. 711, ventricular dysfunction row, mechanism column, includes these four categories, including bilateral outflow obstruction."
+AS23-524,CONFIRMED,"Table 14 on p. 711, heart failure row, mechanism column, lists impaired preload redistribution with dysfunction, loading, arrhythmia and compression."
+AS23-525,CONFIRMED,"Table 14 on p. 711, arrhythmia row, mechanism and outcomes columns, supports the named settings and the distinction concerning severity."

@@ -1,0 +1,50 @@
+claim_id,verdict,detail
+AS23-400,CONFIRMED,IV.C.iv p.715 describes the spectrum for both valves.
+AS23-401,DISTORTED,"IV.C.iv p.715 groups two categories among the lesions most likely to progress, including those with significant valve regurgitation. The singular superlative loses that distinction. Serial assessment is essential for both."
+AS23-402,DISTORTED,IV.C.iv p.715 specifically links hydrops to impaired filling of the opposite ventricle. The qualifier was lost.
+AS23-403,CONFIRMED,IV.C.iv p.715 ties repeat measurement to downstream arterial growth and either direction of size change.
+AS23-404,CONFIRMED,IV.C.iv p.715 identifies all four valve features and all three complementary Doppler modalities. Fig. 27 illustrates aortic stenosis.
+AS23-405,CONFIRMED,"IV.C.iv pp.715–716 gives the ipsilateral arch finding, its significance at any gestation and the need to reassess flow. The illustration itself is Fig. 28 on p.717."
+AS23-406,DISTORTED,IV.C.iv p.715 specifies both umbilical arterial and umbilical venous Doppler. Unspecified umbilical flows could omit either vessel from surveillance. The instruction also applies to significant valve regurgitation.
+AS23-407,CONFIRMED,IV.C.iv p.716 supports these features for grading stenosis and evaluating candidacy. The functional assessment in this passage concerns the ipsilateral ventricle.
+AS23-408,CONFIRMED,"IV.C.iv p.716, first semilunar obstruction key point, includes serial assessment even at the stage of suspicion."
+AS23-409,CONFIRMED,"IV.C.iv p.716, second semilunar obstruction key point, specifies both arches, every examination and the postnatal significance."
+AS23-410,CONFIRMED,"IV.C.iv p.716, fourth semilunar obstruction key point, specifies documentation at each examination."
+AS23-411,CONFIRMED,"IV.C.iv p.716, final semilunar obstruction key point, recommends biventricular assessment in both lesions."
+AS23-412,DISTORTED,"Table 13 p.708, aortic stenosis, key observations. A printed plus/minus precedes ascending aortic dilatation. It is optional. The four-chamber findings also include LV dilatation."
+AS23-413,CONFIRMED,"Table 13 p.708, aortic stenosis, outflow imaging. Both the arch-flow finding and the caveat about valve Doppler are in this cell."
+AS23-414,DISTORTED,IV.C.iv p.716 qualifies the higher-velocity interpretation as applying in more severe disease. For a low velocity it also allows a primary lesion related to severe AV regurgitation. Less severe obstruction is not necessarily mild.
+AS23-415,CONFIRMED,IV.C.iv p.716 links high left-sided filling pressures to the described atrial and pulmonary venous changes and calls for foramen ovale assessment.
+AS23-416,CONFIRMED,"Table 13 p.708, aortic stenosis, additional measurements. The arch and isthmus are listed together with the coarctation concern."
+AS23-417,CONFIRMED,Figure 27D p.716 illustrates loss of apex formation on follow-up in one fetus. The claim appropriately describes a possibility.
+AS23-418,CONFIRMED,"Table 13 p.708, pulmonary stenosis, key observations. The chamber may appear normal in the presence of reversal on colour imaging."
+AS23-419,CONFIRMED,"Table 13 p.708, pulmonary stenosis, common venous variations. The systemic venous A-wave finding is described as common."
+AS23-420,CONFIRMED,"Table 13 p.708, pulmonary stenosis, outflow imaging. The association is suggestive."
+AS23-421,CORRECT LOCATOR,"IV.C.iv p.716 supports the lesion, fistulae and flow pattern. Add Table 13 p.708, pulmonary stenosis, other key points, for the low-velocity colour setting."
+AS23-422,CONFIRMED,"Table 13 p.708, pulmonary stenosis, specific AV valve issues. Both measurements appear in this column."
+AS23-423,DISTORTED,Table 15 p.719 lists this lesion under risk for heart failure. The 2–4 week interval is suggested at the cardiology and obstetric providers’ discretion. The claim turns this into an instruction.
+AS23-424,CONFIRMED,IV.C.iv p.716 identifies marked right atrial enlargement as the first clue and RV enlargement as variable.
+AS23-425,CONFIRMED,IV.C.iv pp.716–717 identifies both planes for defining the tricuspid abnormality.
+AS23-426,DISTORTED,IV.C.iv p.717 presents vena contracta width relative to annular size as one way severity can be assessed. The categorical wording loses the optionality.
+AS23-427,CONFIRMED,IV.C.iv p.717 specifies both spectral modes and identifies TR velocity as relevant to differential diagnosis and RV pressure generation.
+AS23-428,CONFIRMED,IV.C.iv p.717 explains functional pulmonary atresia in terms of RV pressure and failure of the pulmonary valve to open.
+AS23-429,CONFIRMED,IV.C.iv p.717 states the association for both forms of pulmonary atresia and requires serial documentation of ductal direction.
+AS23-430,CONFIRMED,IV.C.iv p.717 attributes the frequent hypoplasia of these two structures to reduced RV outflow.
+AS23-431,CONFIRMED,IV.C.iv p.717 supports both branch assessment and the association with lung hypoplasia in tricuspid valve disease.
+AS23-432,CONFIRMED,IV.C.iv p.717 identifies all three LV assessments and the possible haemodynamic consequence.
+AS23-433,DISTORTED,"IV.C.iv p.717 describes failure of radial displacement to augment. That can include an unchanged value and is different from reduced displacement. The strain, synchrony and investigational qualifiers agree."
+AS23-434,CONFIRMED,IV.C.iv p.717 calls for rhythm evaluation and specifically describes these atrial rhythm findings as common.
+AS23-435,CONFIRMED,"IV.C.iv p.717, continuation of general imaging approach, gives both defects as examples."
+AS23-436,CONFIRMED,"Table 13 p.708, Ebstein anomaly and TV dysplasia, specific AV valve issues. Both markers appear in that cell."
+AS23-437,CONFIRMED,Figure 29A p.718 illustrates progressive cardiomegaly with severe TR and describes possible heart failure or hydrops.
+AS23-438,CONFIRMED,"IV.C.iv p.716 describes the volume burden, poor tolerance and progressive heart enlargement."
+AS23-439,CONFIRMED,IV.C.iv p.716 describes this sequence in the context of volume loading from significant valve regurgitation.
+AS23-440,CONFIRMED,"IV.C.iv p.717, regurgitation key points, supports serial assessment and possible deterioration."
+AS23-441,CONFIRMED,"IV.C.iv p.717, regurgitation key points, supports common progressive enlargement with significant regurgitation."
+AS23-442,CONFIRMED,"Table 14 p.710, AV and semilunar valve regurgitation, evolution/progression. Both consequences appear in the patent-ductus condition."
+AS23-443,CONFIRMED,"Table 13 p.709, coarctation, key observations. Both size comparisons and arch/isthmus findings match."
+AS23-444,CONFIRMED,"Table 13 p.709, coarctation, other key points. Both types of diagnostic error are included."
+AS23-445,DISTORTED,IV.C.v p.717 gives warning signs for a group of arch anomalies. Assigning a U shape specifically to coarctation is misleading. Table 13 p.709 places the U-shaped configuration in the vascular rings row.
+AS23-446,CONFIRMED,Figure 30D p.718 describes the comparative arch size that prompted suspicion in the illustrated case.
+AS23-447,CONFIRMED,"Table 13 p.709, coarctation, additional measurements. This cell identifies the isthmus."
+AS23-448,CONFIRMED,"Table 13 p.708, pulmonary stenosis, specific AV valve issues. The printed inequality is greater than mild and the stated association is with lower risk."

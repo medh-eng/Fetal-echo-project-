@@ -1,0 +1,1117 @@
+# Round 3 H2, fetal evidence for XC3, XC4 and Z4. All claims await independent cross-check.
+# Batra et al., Circulation 2024, doi:10.1161/CIR.0000000000001206.
+# Correction doi:10.1161/CIR.0000000000001226 affects neonatal Figure 5 (p. e945).
+# The fetal material below uses Table 2 and Figures 1–3. The statement gives no formal recommendation classes for these pathways.
+- id: AH24-001
+  statement: Fetal echocardiography identifies rhythm mechanisms from the timing and rate of atrial and ventricular
+    mechanical activity using two-dimensional imaging, M-mode and spectral Doppler.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Classification and Diagnosis, p. e938
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-002
+  statement: After classifying a fetal rhythm disturbance, assess cardiac anatomy for associated structural
+    disease.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Classification and Diagnosis, p. e938
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-003
+  statement: Functional assessment includes systolic and diastolic performance, atrioventricular valve leakage,
+    venous Doppler and signs of fluid accumulation.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Classification and Diagnosis, p. e938
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-004
+  statement: Specialist fetal electrocardiography or magnetocardiography may identify repolarisation abnormalities
+    in suspected long QT syndrome or during drug exposure.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Classification and Diagnosis, p. e938
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-005
+  statement: Premature atrial contractions are the most frequent fetal rhythm disturbance and can occur singly
+    or in patterns such as bigeminy and trigeminy.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Atrial and Ventricular Ectopy, p. e938
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-006
+  statement: Fetal atrial premature beats themselves require no treatment.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Atrial and Ventricular Ectopy, p. e938
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-007
+  statement: The statement advises frequent heart-rate checks until fetal atrial ectopy resolves because 1%–2%
+    of affected fetuses develop a supraventricular arrhythmia.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Atrial and Ventricular Ectopy, p. e938
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-008
+  statement: Ventricular ectopy warrants evaluation for myocardial disease, a cardiac tumour, structural heart
+    disease and inherited rhythm disorders.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Atrial and Ventricular Ectopy, p. e938
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-009
+  statement: Close follow-up before and after birth is advised for fetal ventricular premature beats.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Atrial and Ventricular Ectopy, p. e938
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-010
+  statement: The statement defines fetal tachycardia as a rate above 180 beats/min.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Tachycardia With 1:1 Atrioventricular Ratio, p. e938
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-011
+  statement: Supraventricular tachycardia (SVT) is likely when the fetal rate exceeds 180 beats/min and atrial
+    and ventricular contractions occur one for one.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Tachycardia With 1:1 Atrioventricular Ratio, p. e938
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-012
+  statement: Simultaneous superior vena cava and aortic Doppler permits comparison of atrioventricular and
+    ventriculoatrial intervals.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Tachycardia With 1:1 Atrioventricular Ratio, p. e938
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-013
+  statement: A short ventriculoatrial interval favours atrioventricular re-entry, whereas atrial ectopic tachycardia,
+    permanent junctional reciprocating tachycardia and sinus tachycardia can have a long interval.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Tachycardia With 1:1 Atrioventricular Ratio, p. e938
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-014
+  statement: Persistent fetal sinus tachycardia warrants consideration of maternal Graves disease with thyroid-stimulating
+    receptor antibodies.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Tachycardia With 1:1 Atrioventricular Ratio, p. e938
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-015
+  statement: Atrial flutter typically produces an atrial rate above 300 beats/min, with two, three or four
+    atrial events per ventricular event.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Tachycardia With >1:1 or <1:1 Atrioventricular Ratio, p. e939
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-016
+  statement: Atrial ectopic tachycardia can present with a variable degree of atrioventricular block.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Tachycardia With >1:1 or <1:1 Atrioventricular Ratio, p. e939
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-017
+  statement: A fetal tachycardia with ventricular events outnumbering atrial events points to ventricular tachycardia
+    or junctional ectopic tachycardia.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Tachycardia With >1:1 or <1:1 Atrioventricular Ratio, p. e939
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-018
+  statement: Fetal ventricular tachycardia and congenital junctional ectopic tachycardia can cause hydrops
+    even at ventricular rates below 180 beats/min.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Tachycardia With >1:1 or <1:1 Atrioventricular Ratio, p. e939
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-019
+  statement: Marked reverse venous flow and atrioventricular dissociation can occur with fetal ventricular
+    or junctional ectopic tachycardia.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Tachycardia With >1:1 or <1:1 Atrioventricular Ratio, p. e939
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-020
+  statement: The authors recommend testing for maternal anti-Ro/SSA antibodies when fetal ventricular tachycardia
+    or junctional ectopic tachycardia is suspected.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Tachycardia With >1:1 or <1:1 Atrioventricular Ratio, p. e939
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-021
+  statement: Fetal ventricular tachycardia warrants evaluation for ventricular tumour, diverticulum and long
+    QT syndrome.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Tachycardia With >1:1 or <1:1 Atrioventricular Ratio, p. e939
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-022
+  statement: Sotalol and amiodarone can worsen ventricular tachycardia when long QT syndrome is responsible.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Tachycardia With >1:1 or <1:1 Atrioventricular Ratio, p. e939
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-023
+  statement: A family rhythm history and parental electrocardiograms can help investigate suspected inherited
+    long QT syndrome.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Tachycardia With >1:1 or <1:1 Atrioventricular Ratio, p. e939
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-024
+  statement: Fetal bradycardia is a sustained rate below the third percentile for gestational age.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Bradycardia With 1:1 Atrioventricular Ratio, p. e939
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-025
+  statement: In a slow one-to-one rhythm, consider an ectopic atrial focus with congenital heart disease, an
+    inherited arrhythmia, maternal anti-Ro/SSA antibodies, viral infection or maternal medicine exposure.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Bradycardia With 1:1 Atrioventricular Ratio, p. e939
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-026
+  statement: Genetic testing of the fetus or newborn may reveal a previously unrecognised familial or de novo
+    variant when inherited arrhythmia is suspected.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Bradycardia With 1:1 Atrioventricular Ratio, p. e939
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-027
+  statement: When atrial beats outnumber ventricular beats in fetal bradycardia, consider advanced atrioventricular
+    block and blocked atrial bigeminy.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Bradycardia With >1:1 Atrioventricular Ratio, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-028
+  statement: Advanced fetal atrioventricular block can accompany maternal anti-Ro/SSA antibodies, long QT syndrome,
+    left atrial isomerism or congenitally corrected transposition.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Bradycardia With >1:1 Atrioventricular Ratio, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-029
+  statement: The prognosis of atrioventricular block with congenital heart disease is particularly poor in
+    left atrial isomerism.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Bradycardia With >1:1 Atrioventricular Ratio, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-030
+  statement: The statement reports fetal atrioventricular block in 2%–6% of pregnancies with maternal anti-Ro
+    antibodies.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Bradycardia With >1:1 Atrioventricular Ratio, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-031
+  statement: After a pregnancy affected by anti-Ro-associated fetal atrioventricular block, the statement reports
+    recurrence in 18% of subsequent pregnancies.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Bradycardia With >1:1 Atrioventricular Ratio, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-032
+  statement: Home Doppler surveillance can detect the transition from sinus rhythm to anti-Ro-associated atrioventricular
+    block.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Bradycardia With >1:1 Atrioventricular Ratio, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-033
+  statement: When a new transition to immune-mediated block is detected, the authors emphasise early treatment,
+    preferably within 12 hours.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Bradycardia With >1:1 Atrioventricular Ratio, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: The source refers to detection of the transition. Established third-degree block usually persists despite
+    treatment (p. e942).
+- id: AH24-034
+  statement: Anti-Ro/SSA-associated endocardial fibroelastosis or dilated cardiomyopathy can adversely affect
+    outcome even without atrioventricular block.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Bradycardia With >1:1 Atrioventricular Ratio, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-035
+  statement: In second-degree block the atrial intervals vary by less than 20 ms, whereas the premature atrial
+    beat in blocked bigeminy creates unequal atrial intervals.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Bradycardia With >1:1 Atrioventricular Ratio, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-036
+  statement: Fetal blocked atrial bigeminy can be followed by SVT.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Bradycardia With >1:1 Atrioventricular Ratio, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-037
+  statement: Second-degree fetal block warrants assessment for maternal anti-Ro/SSA antibodies and long QT
+    syndrome.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Bradycardia With >1:1 Atrioventricular Ratio, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-038
+  statement: Treatment of fetal tachyarrhythmia aims to restore the heart rate, prevent or reverse heart failure
+    and avoid premature delivery.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: SVT and AFL, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-039
+  statement: Transplacental therapy takes several days to achieve therapeutic concentrations in the fetus.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: SVT and AFL, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-040
+  statement: Flutter, long ventriculoatrial interval SVT, hydrops and incessant tachycardia are associated
+    with slower or unsuccessful prenatal conversion; the chosen drug also matters.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: SVT and AFL, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-041
+  statement: Without hydrops, the authors describe beginning with one transplacental agent and escalating if
+    fetal status worsens or the arrhythmia persists.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Monotherapy, pp. e940–e941
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-042
+  statement: Comparative evidence for first- and second-line combinations in fetal tachyarrhythmias is limited.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal Conversion Rates With Antiarrhythmic Medication, p. e941
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-043
+  statement: The proposed pathway starts with flecainide for fetal SVT without hydrops.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal management of SVT and AFL, Figure 2, p. e941
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-044
+  statement: For fetal SVT with hydrops, the figure starts with flecainide combined with digoxin.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal management of SVT and AFL, Figure 2, p. e941
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-045
+  statement: For fetal atrial flutter without hydrops, the figure starts with sotalol.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal management of SVT and AFL, Figure 2, p. e941
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-046
+  statement: For hydropic fetal atrial flutter, the figure starts with sotalol combined with digoxin.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal management of SVT and AFL, Figure 2, p. e941
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-047
+  statement: For nonhydropic SVT persisting after first-line flecainide, the figure lists flecainide plus digoxin
+    or sotalol with or without digoxin.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal management of SVT and AFL, Figure 2, p. e941
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-048
+  statement: For hydropic SVT persisting after initial flecainide plus digoxin, the figure lists sotalol with
+    digoxin or sotalol with flecainide.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal management of SVT and AFL, Figure 2, p. e941
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-049
+  statement: For nonhydropic SVT persisting despite the second-line regimen, the figure lists flecainide with
+    sotalol or amiodarone.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal management of SVT and AFL, Figure 2, p. e941
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-050
+  statement: For hydropic SVT persisting after second-line treatment, the figure lists amiodarone with optional
+    digoxin and optional direct fetal treatment.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal management of SVT and AFL, Figure 2, p. e941
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-051
+  statement: For nonhydropic atrial flutter persisting on sotalol, the figure adds digoxin.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal management of SVT and AFL, Figure 2, p. e941
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-052
+  statement: For hydropic atrial flutter persisting despite first-line combination treatment, the figure lists
+    sotalol with flecainide or amiodarone.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal management of SVT and AFL, Figure 2, p. e941
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-053
+  statement: For nonhydropic flutter persisting despite sotalol and digoxin, the figure lists sotalol with
+    flecainide or amiodarone.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal management of SVT and AFL, Figure 2, p. e941
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-054
+  statement: For hydropic flutter persisting despite second-line therapy, the figure lists amiodarone with
+    digoxin and possible direct treatment.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Fetal management of SVT and AFL, Figure 2, p. e941
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-055
+  statement: Fetal intramuscular digoxin has been reported effective in SVT with a poor biophysical profile
+    or hydrops unresponsive to transplacental therapy.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Combination Therapy, Amiodarone, and Direct Treatment, p. e941
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-056
+  statement: Because of maternal and fetal risks, the authors principally reserve amiodarone for life-threatening
+    tachyarrhythmia requiring rapid conversion or persisting with hydrops after other treatment fails.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Combination Therapy, Amiodarone, and Direct Treatment, p. e941
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-057
+  statement: Flecainide, sotalol and amiodarone have been used for fetal ventricular tachycardia.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Ventricular Tachycardia, pp. e941–e942
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: Choice depends on mechanism. QT-prolonging drugs may aggravate ventricular tachycardia due to long
+    QT syndrome (p. e939).
+- id: AH24-058
+  statement: With suspected long QT syndrome or torsades de pointes, the statement lists propranolol, mexiletine,
+    lidocaine and magnesium sulfate as possible treatments.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Ventricular Tachycardia, pp. e941–e942
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-059
+  statement: Accelerated idioventricular rhythm usually requires no treatment unless sustained with haemodynamic
+    compromise.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Ventricular Tachycardia, pp. e941–e942
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-060
+  statement: For complete fetal atrioventricular block, the authors advise maternal oral salbutamol or terbutaline
+    if the ventricular rate is below 50 beats/min or contractility is markedly impaired.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Bradyarrhythmias, p. e942
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-061
+  statement: Prenatal dexamethasone or betamethasone and intravenous immunoglobulin for immune-mediated complete
+    block remain controversial; established block usually persists and maternal and fetal adverse effects are
+    possible.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Bradyarrhythmias, p. e942
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-062
+  statement: Treatment of first- or second-degree immune-mediated atrioventricular block may prevent progression
+    to complete block.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Bradyarrhythmias, p. e942
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-063
+  statement: One study cited by the statement suggests that first-trimester hydroxychloroquine may reduce recurrence
+    of antibody-mediated block in subsequent siblings by more than half.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Bradyarrhythmias, p. e942
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: Preventive use after an affected pregnancy. The source does not describe hydroxychloroquine as reversing
+    existing block.
+- id: AH24-064
+  statement: The proposed pathway for newly diagnosed immune-mediated high-degree block considers adding intravenous
+    immunoglobulin for endocardial fibroelastosis or incomplete block.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Bradyarrhythmias, Figure 3, p. e942
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-065
+  statement: The proposed pathway for immune-mediated high-degree block includes weekly obstetric and fetal
+    cardiology review.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Bradyarrhythmias, Figure 3, p. e942
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-066
+  statement: The proposed pathway for immune-mediated high-degree block calls for delivery at a tertiary centre.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Bradyarrhythmias, Figure 3, p. e942
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-067
+  aspect: dose
+  statement: The maternal oral digoxin loading regimen listed for fetal tachyarrhythmia is 0.5 mg twice daily
+    for two days.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: SVT and AFL, Table 2, maternal oral dose row, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-068
+  aspect: dose
+  statement: The listed maternal oral digoxin maintenance dose is 0.375–0.75 mg per day.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: SVT and AFL, Table 2, maternal oral dose row, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-069
+  aspect: dose
+  statement: The listed maternal oral flecainide regimen totals 200–400 mg per day divided into two or three
+    doses.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: SVT and AFL, Table 2, maternal oral dose row, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-070
+  aspect: dose
+  statement: The listed maternal oral sotalol regimen totals 160–480 mg per day divided into two or three doses.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: SVT and AFL, Table 2, maternal oral dose row, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-071
+  aspect: dose
+  statement: The listed maternal oral amiodarone loading regimen totals 1.2–2.4 g per day for two to seven
+    days.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: SVT and AFL, Table 2, maternal oral dose row, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-072
+  aspect: dose
+  statement: The listed maternal oral amiodarone maintenance dose is 0.2–0.4 g per day.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: SVT and AFL, Table 2, maternal oral dose row, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-073
+  aspect: dose
+  statement: For direct fetal intravenous digoxin the table lists 0.015 mg per kg of fetal weight.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: SVT and AFL, Table 2, fetal intravenous dose row, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: Direct fetal treatment should be limited to experienced centres (p. e943). This row does not give an
+    intramuscular dose.
+- id: AH24-074
+  aspect: dose
+  statement: For direct fetal intravenous amiodarone the table lists 2.5–5 mg per kg of fetal weight over 10
+    minutes.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: SVT and AFL, Table 2, fetal intravenous dose row, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: The statement principally reserves amiodarone for life-threatening fetal tachyarrhythmia (p. e941).
+    Direct fetal treatment requires an experienced centre (p. e943).
+- id: AH24-075
+  aspect: dose
+  statement: If dexamethasone is chosen for newly diagnosed immune-mediated high-degree block, the figure starts
+    maternal treatment at 8 mg daily.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Bradyarrhythmias, Figure 3, dexamethasone box, p. e942
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: Proposed pathway for consideration; antenatal steroid benefit in established complete block is controversial.
+- id: AH24-076
+  aspect: dose
+  statement: After two weeks of dexamethasone in the proposed immune-mediated block regimen, the figure reduces
+    the maternal dose to 4 mg daily.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Bradyarrhythmias, Figure 3, dexamethasone box, p. e942
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-077
+  aspect: dose
+  statement: After the 28-week point in the proposed regimen, the figure lists maternal dexamethasone 2 mg
+    daily, continuing to delivery if anti-Ro positive.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Bradyarrhythmias, Figure 3, dexamethasone box, p. e942
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: The figure labels this milestone “after 28 weeks” and does not explain how to apply the two taper milestones
+    when treatment begins late.
+- id: AH24-078
+  aspect: dose
+  statement: For endocardial fibroelastosis or incomplete block in the proposed immune-mediated block regimen,
+    maternal intravenous immunoglobulin is listed at 1 g/kg per infusion, capped at 70 g, every three to four
+    weeks.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Bradyarrhythmias, Figure 3, add IVIG box, p. e942
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: A proposed option. The authors describe uncertainty over prenatal immunomodulation.
+- id: AH24-079
+  aspect: dose
+  statement: For a ventricular rate below 50 beats/min in the proposed immune-mediated block regimen, the figure
+    lists maternal oral salbutamol totalling 10 mg divided into three doses.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Bradyarrhythmias, Figure 3, add beta-mimetic box, p. e942
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: The printed figure specifies how to divide the stated amount but does not give a dosing period.
+- id: AH24-080
+  aspect: dose
+  statement: For a ventricular rate below 50 beats/min in the proposed immune-mediated block regimen, the figure
+    lists maternal oral terbutaline totalling 10–30 mg divided into four doses.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Bradyarrhythmias, Figure 3, add beta-mimetic box, p. e942
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: The printed figure specifies how to divide the stated amount but does not give a dosing period.
+- id: AH24-081
+  statement: Maternal Wolff-Parkinson-White syndrome, high-grade atrioventricular block and hypertrophic cardiomyopathy
+    are listed as contraindications to digoxin.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: SVT and AFL, Table 2, maternal contraindications row, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-082
+  statement: Maternal congestive heart failure, Brugada syndrome and coronary disease are listed as contraindications
+    to flecainide.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: SVT and AFL, Table 2, maternal contraindications row, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-083
+  statement: Maternal bradycardia, hypotension and asthma are listed as contraindications to sotalol.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: SVT and AFL, Table 2, maternal contraindications row, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-084
+  statement: Flecainide can widen the maternal QRS complex.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: SVT and AFL, Table 2, ECG effects row, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-085
+  statement: Sotalol can prolong the maternal PR and corrected QT intervals.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: SVT and AFL, Table 2, ECG effects row, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-086
+  statement: Amiodarone can prolong the maternal corrected QT interval.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: SVT and AFL, Table 2, ECG effects row, p. e940
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-087
+  statement: Poor digoxin transfer through a hydropic placenta limits its role as initial monotherapy in hydrops.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Specific Considerations Concerning Pharmacology in the Fetus, Digoxin, pp. e942–e943
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-088
+  statement: The authors describe obtaining the first maternal digoxin level at least six hours after the first
+    dose to allow tissue distribution.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Specific Considerations Concerning Pharmacology in the Fetus, Digoxin, pp. e942–e943
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-089
+  statement: The usual maternal serum digoxin range described in the text is 1–2 ng/mL; some experts aim for
+    2–2.5 ng/mL in pregnancy.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Specific Considerations Concerning Pharmacology in the Fetus, Digoxin, pp. e942–e943
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: Table 2 combines these in a single range. A higher target is attributed to some experts.
+- id: AH24-090
+  statement: The maternal flecainide trough target is 0.2–1 microgram/mL, but measured maternal concentration
+    does not reliably predict fetal response.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Specific Considerations Concerning Pharmacology in the Fetus, Flecainide, p. e943
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-091
+  statement: Sotalol crosses the placenta readily and fetal concentrations may exceed maternal concentrations.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Specific Considerations Concerning Pharmacology in the Fetus, Sotalol, p. e943
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-092
+  statement: Placental transfer of amiodarone and its active metabolite is poor and is further impaired by
+    hydrops.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Specific Considerations Concerning Pharmacology in the Fetus, Amiodarone, p. e943
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-093
+  statement: Direct fetal drug administration should take place only in experienced centres.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Alternative Routes of Drug Administration, p. e943
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-094
+  statement: Intracordal drug administration can be effective but entails considerable procedural risk and
+    repeated injections.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Alternative Routes of Drug Administration, p. e943
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-095
+  statement: Intraperitoneal, intra-amniotic and intramuscular fetal administration may prolong drug delivery,
+    but absorption can be unpredictable.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Alternative Routes of Drug Administration, p. e943
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-096
+  statement: The statement supports inpatient antepartum care during initiation of transplacental antiarrhythmic
+    therapy to monitor both patients.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Role of the Maternal-Fetal Medicine Specialist, pp. e943–e944
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-097
+  statement: Initial maternal assessment includes medication review and a family history of cardiac disease,
+    sudden death or long QT syndrome.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Role of the Maternal-Fetal Medicine Specialist, pp. e943–e944
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-098
+  statement: Maternal laboratory testing should assess organ function and investigate secondary causes of the
+    fetal rhythm disturbance.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Role of the Maternal-Fetal Medicine Specialist, pp. e943–e944
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-099
+  statement: Cardio-obstetric and electrophysiology input is indicated for surveillance for maternal arrhythmia,
+    conduction block and QT prolongation.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Role of the Maternal-Fetal Medicine Specialist, pp. e943–e944
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-100
+  statement: Other maternal drugs, including some analgesics and antiemetics, may add to the QT-prolonging
+    effect of antiarrhythmics.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Role of the Maternal-Fetal Medicine Specialist, pp. e943–e944
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-101
+  statement: Daily maternal ECGs until drug steady state may guide dosing and reduce toxicity.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Role of the Maternal-Fetal Medicine Specialist, pp. e943–e944
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-102
+  statement: Baseline maternal echocardiography may be useful, especially before flecainide.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Role of the Maternal-Fetal Medicine Specialist, pp. e943–e944
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-103
+  statement: When large doses of digoxin, flecainide or sotalol are required, serial maternal ECG and drug
+    concentrations should be monitored where available.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Role of the Maternal-Fetal Medicine Specialist, pp. e943–e944
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-104
+  statement: Serial fetal Doppler can show drug-associated atrioventricular interval prolongation of 10–30
+    ms or intermittent block, although direct fetal toxicity monitoring is difficult.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Role of the Maternal-Fetal Medicine Specialist, pp. e943–e944
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-105
+  statement: After therapeutic levels and rhythm control have been achieved, the authors suggest weekly fetal
+    heart-rate monitoring.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Role of the Maternal-Fetal Medicine Specialist, pp. e943–e944
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-106
+  statement: After therapeutic levels and rhythm control have been achieved, the authors suggest fetal echocardiography
+    every two to four weeks.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Role of the Maternal-Fetal Medicine Specialist, pp. e943–e944
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-107
+  statement: Vaginal birth at term is an achievable goal when fetal sinus rhythm is restored and hydrops is
+    absent.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Role of the Maternal-Fetal Medicine Specialist, pp. e943–e944
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-108
+  statement: Approximately half of patients with prenatal SVT have recognised recurrence after birth, typically
+    during the first two to three days.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Risk of Postnatal Arrhythmia Recurrence, p. e944
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-109
+  statement: After fetal SVT the authors advise close neonatal rhythm surveillance and starting antiarrhythmic
+    treatment if tachycardia recurs.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Risk of Postnatal Arrhythmia Recurrence, p. e944
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-110
+  statement: Postnatal flutter recurrence is rare after fetal atrial flutter in the absence of structural disease
+    or another arrhythmia substrate.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Risk of Postnatal Arrhythmia Recurrence, p. e944
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-111
+  statement: The 2024 statement describes an increasing preference for treating fetal SVT at or near term to
+    sustain pregnancy.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Recent Advances and Future Research, p. e949
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AH24-112
+  statement: The statement describes tapering antiarrhythmic treatment following sustained conversion to sinus
+    rhythm as a change in practice.
+  source: AHA-2024-ARRHYTHMIA-DRUGS
+  locator: Recent Advances and Future Research, p. e949
+  status: ai-extracted
+  extracted_by: ChatGPT (GPT-6, 2026-11-19)
+  checked_by: null
+  verified_by: null
+  note: null
