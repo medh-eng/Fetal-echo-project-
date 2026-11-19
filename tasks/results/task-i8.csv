@@ -1,0 +1,52 @@
+claim_id,verdict,detail
+AH14-200,CONFIRMED,p. 2217: Transplacental digoxin is an option with uncertain benefit in fetal heart failure.
+AH14-201,CONFIRMED,p. 2217: The overview describes a potentially reversible interval during progression in selected lesions.
+AH14-202,CONFIRMED,p. 2217: The overview explicitly distinguishes technical success from postnatal benefit.
+AH14-203,CONFIRMED,"p. 2217: Table 16 gives antegrade flow, growth and candidacy for two-ventricle repair as aims."
+AH14-204,CONFIRMED,p. 2217: All four findings are in the aortic stenosis row of Table 16 (IIb/B for intervention).
+AH14-205,CONFIRMED,"p. 2218: The selection description requires demonstrable antegrade valvar flow, minimal or absent subvalvar obstruction and evidence of evolution toward HLHS."
+AH14-206,CONFIRMED,p. 2218: The cited cohort had 52 technical successes among 70 procedures (74%).
+AH14-207,CONFIRMED,"p. 2218: The counselling paragraphs address procedural risks, alternative management and unknown long-term outcomes."
+AH14-208,CONFIRMED,p. 2218: Specialist congenital cardiac care at and after delivery is recommended in this setting.
+AH14-209,DISTORTED,p. 2218: The extreme mortality and critical presentation are attributed specifically to a highly restrictive or intact atrial septum. The same page describes lesser degrees of restriction as typical in HLHS.
+AH14-210,CONFIRMED,p. 2218: The two Doppler assessments support grading atrial obstruction. The diminished oxygen response is an indirect sign.
+AH14-211,CONFIRMED,p. 2218: Technique selection and the timing needed to limit pulmonary vascular damage are explicitly unresolved.
+AH14-212,CONFIRMED,"p. 2218–2219: In the described syndrome, dilated left-sided structures can compress the right heart. Hydrops, when present, is usually fatal."
+AH14-213,CONFIRMED,p. 2219: The discussion limits consideration to selected PA/IVS cases and describes possible fetal survival benefit with severe TR and hydrops when demise is anticipated.
+AH14-214,CONFIRMED,p. 2219: Adequate tricuspid size can permit staged postnatal rehabilitation despite a very small RV.
+AH14-215,CONFIRMED,p. 2219: Both ranges match the 2014 statement and the mortality estimate explicitly concerns untreated TTTS.
+AH14-216,CONFIRMED,p. 2219: Recipient cardiac abnormalities and persistence of some RV outflow lesions after successful laser therapy are supported.
+AH14-217,CONFIRMED,p. 2219: The text explains the omission in Quintero staging and the alternative cardiac scores. Tables 17 and 18 appear on the following page.
+AH14-218,CONFIRMED,p. 2220: Echocardiography is recommended during TTTS diagnosis and initial management.
+AH14-219,CONFIRMED,p. 2219–2220: The text describes limited and conflicting evidence for outcome prediction using cardiovascular findings.
+AH14-220,CONFIRMED,p. 2220: Surviving twins should be considered for echocardiography at 24–48 hours after the procedure.
+AH14-300,CONFIRMED,p. 2221–2222: The statement distinguishes morbidity benefit from less consistent survival evidence.
+AH14-301,CONFIRMED,p. 2222: The comparison concerns infants with ductal-dependent pulmonary or systemic flow and their condition before surgery.
+AH14-302,CONFIRMED,p. 2222: All three services are included in intrapartum planning.
+AH14-303,CONFIRMED,p. 2222: The location recommendation targets fetuses at risk of postnatal compromise and centres equipped for the anticipated intervention.
+AH14-304,CONFIRMED,"p. 2222: The 39-week threshold and the specific obstetric, logistical and fetal well-being exceptions match."
+AH14-305,DISTORTED,p. 2222: Available studies did not demonstrate an inherent advantage. An unqualified statement that none exists is stronger. The absence of randomised trials was reported in 2014 for severe CHD.
+AH14-306,CONFIRMED,p. 2223: The diagnostic team assigns anticipated postnatal care needs and makes plans before birth.
+AH14-307,CONFIRMED,p. 2223: The text explicitly describes many newborns who can receive ordinary delivery-room care.
+AH14-308,CONFIRMED,p. 2224: The transitional circulation description gives the usual interval as 12–72 hours.
+AH14-309,CONFIRMED,p. 2224: The passage concerns minimal-risk left-to-right shunt lesions and explains why substantial shunting generally develops weeks later.
+AH14-310,CONFIRMED,p. 2224: The text supports early prostaglandin and a neonatologist with access to paediatric cardiology advice.
+AH14-311,CONFIRMED,"p. 2225: Table 20 distinguishes the pulmonary and systemic predictors. Angle <90°, flow directions and both Class I/B actions match."
+AH14-312,CONFIRMED,p. 2225: Table 20 gives forward/reverse VTI <3 and absent branch PA pulsatility-index response in the third trimester. Planning for possible decompression is IIa/B.
+AH14-313,CONFIRMED,p. 2225: The text combines concerning atrial findings with an abnormal ductus and requires capacity to manage neonatal compromise.
+AH14-314,DISTORTED,p. 2224–2225: The later study tested tethering or bowing and the outcome of postnatal compromise requiring emergent intervention. It did not invalidate all septum primum criteria for predicting closure.
+AH14-315,CONFIRMED,p. 2226: The wording distinguishes indicated conversion or rhythm control for uncontrolled tachycardia from reasonable chronotropic support or pacing in CHB.
+AH14-316,DISTORTED,"p. 2226: Delivery consideration requires hydrops attributed to heart failure, suitable gestation and treatable or reversible primary pathology, with immediate treatment prepared. The claim drops the heart-failure condition."
+AH14-317,CONFIRMED,"p. 2223: Table 19 row P links a palliative plan to local delivery, family support and palliative services."
+AH14-318,CONFIRMED,"p. 2223: Table 19 level 1 supports the examples, local birth, routine care, neonatal assessment and cardiology follow-up."
+AH14-319,CONFIRMED,"p. 2223: Table 19 level 2 supports near-term induction as an option, neonatal attendance, accessible cardiology, indicated PGE and transport."
+AH14-320,CONFIRMED,"p. 2223: Table 19 level 3 gives 38–39 weeks, possible caesarean for coordination and both specialists. Its d-TGA risk qualifier is preserved."
+AH14-321,CONFIRMED,"p. 2223: Table 19 level 4 supports the listed examples, usual timing of 38–39 weeks and a specialist cardiac delivery facility."
+AH14-322,CONFIRMED,"p. 2223: Table 19 level 5 specifies listing after 35 weeks, caesarean when a heart is available and a specialist team."
+AH14-323,CONFIRMED,p. 2225: Table 20 obstructed TAPVR row lists both decompressing-vein findings and consideration of ECMO (IIb/C).
+AH14-324,CONFIRMED,p. 2225: Table 20 CHB row gives a declining score to <7 and the other stated findings. Both consideration of early delivery and chronotrope or pacing if possible carry IIa/C.
+AH14-325,CONFIRMED,"p. 2225: Table 20 d-TGA row lists <30°, >50%, loss of swinging motion and hypermobility as reported markers. Both urgent septostomy planning and PGE1 are I/B. See the limitations in the adjacent prose."
+AH14-326,DISTORTED,"p. 2225: Table 20 names small calibre as an abnormal ductal finding, but ties consideration of pulmonary hypertension therapy specifically to abnormal ductal FLOW (IIb/C). It specifies accelerated forward flow."
+AH14-327,CONFIRMED,"p. 2225: Table 20 TOF with absent pulmonary valve links MRI evidence of trapped fluid to specialised ventilation and consideration of ECMO, each IIb/C."
+AH14-328,CONFIRMED,p. 2225: Table 20 Ebstein row gives both qualifying findings and consideration of early delivery with the stated support measures (IIb/C).
+AH14-329,CONFIRMED,"p. 2225: Table 20 tachyarrhythmia row supports both actions as I/C, with gestational age and delivery-room feasibility qualifiers."
