@@ -18,21 +18,16 @@ claims:
     C); infection with suspected fetal myocarditis (I, C).'
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Fetal Cardiac Evaluation, p. 2226, recommendation 1
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
 - id: AH14-002
   topic: referral
-  statement: 'Referral is indicated for: heart disease in a first-degree relative of the fetus - mother, father or sibling
-    (Class I, LOE B); a relative with a Mendelian disorder associated with heart disease (I, C); a suspected cardiac
-    abnormality on obstetric ultrasound (I, B); an extracardiac abnormality on obstetric ultrasound (I, B); a suspected
-    or confirmed chromosome abnormality (I, C); fetal tachycardia, bradycardia or frequent or persistent irregular rhythm
-    (I, C); nuchal translucency above the 99th centile (3.5 mm or more), or above the 95th centile (3 mm or more) with
-    abnormal ductus venosus flow (I, A); monochorionic twins (I, A); hydrops or effusions (I, B).'
+  statement: "Referral is indicated for: congenital heart disease in a first-degree relative of the fetus - mother, father or sibling (Class I, LOE B); a relative with a Mendelian disorder associated with congenital heart disease (I, C); a suspected cardiac abnormality on obstetric ultrasound (I, B); an extracardiac abnormality on obstetric ultrasound (I, B); a suspected or confirmed chromosome abnormality (I, C); fetal tachycardia, bradycardia or frequent or persistent irregular rhythm (I, C); nuchal translucency above the 99th centile (3.5 mm or more), or above the 95th centile (3 mm or more) with abnormal ductus venosus flow (I, A); monochorionic twins (I, A); hydrops or effusions (I, B)."
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Fetal Cardiac Evaluation, p. 2226, recommendation 2
   status: ai-extracted
@@ -40,8 +35,7 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2226, recommendation 2. The familial indication is congenital heart disease (CHD), both for the first-degree relative and for the Mendelian association. Generic heart disease broadens referral. The remaining indications, both NT cutoffs, the ductus venosus condition and the individual grades match. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Referral is indicated for: heart disease in a first-degree relative of the fetus - mother, father or sibling (Class I, LOE B); a relative with a Mendelian disorder associated with heart disease (I, C); a suspected cardiac abnormality on obstetric ultrasound (I, B); an extracardiac abnormality on obstetric ultrasound (I, B); a suspected or confirmed chromosome abnormality (I, C); fetal tachycardia, bradycardia or frequent or persistent irregular rhythm (I, C); nuchal translucency above the 99th centile (3.5 mm or more), or above the 95th centile (3 mm or more) with abnormal ductus venosus flow (I, A); monochorionic twins (I, A); hydrops or effusions (I, B). Awaits re-check by a model other than Claude."
 - id: AH14-003
   topic: referral
   statement: 'Referral is reasonable for: SSA/SSB autoantibodies without a previously affected child (Class IIa, LOE
@@ -49,18 +43,16 @@ claims:
     (3.0 mm or more) (IIa, A).'
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Fetal Cardiac Evaluation, p. 2226, recommendation 3
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
 - id: AH14-004
   topic: referral
-  statement: 'Referral may be considered for: anticonvulsants (Class IIb, LOE A); lithium (IIb, B); vitamin A (IIb, B);
-    SSRIs, paroxetine only (IIb, A); NSAIDs in the first or second trimester (IIb, B); heart disease in a second-degree
-    relative (IIb, B); abnormality of the umbilical cord, placenta or intra-abdominal veins (IIb, C).'
+  statement: "Referral may be considered for: anticonvulsants (Class IIb, LOE A); lithium (IIb, B); vitamin A (IIb, B); SSRIs, paroxetine only (IIb, A); NSAIDs in the first or second trimester (IIb, B); congenital heart disease in a second-degree relative (IIb, B); abnormality of the umbilical cord, placenta or intra-abdominal veins (IIb, C)."
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Fetal Cardiac Evaluation, p. 2226, recommendation 4
   status: ai-extracted
@@ -68,14 +60,10 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2226, recommendation 4. The second-degree relative must have congenital heart disease. Generic heart disease expands this IIb/B indication. The listed exposures, anatomical finding and other grades match. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Referral may be considered for: anticonvulsants (Class IIb, LOE A); lithium (IIb, B); vitamin A (IIb, B); SSRIs, paroxetine only (IIb, A); NSAIDs in the first or second trimester (IIb, B); heart disease in a second-degree relative (IIb, B); abnormality of the umbilical cord, placenta or intra-abdominal veins (IIb, C). Awaits re-check by a model other than Claude."
 - id: AH14-005
   topic: referral
-  statement: 'Referral is not indicated for: gestational diabetes with HbA1c below 6% (Class III, LOE B); SSRIs other
-    than paroxetine (III, A); vitamin K agonists, as printed, although a fetal survey is recommended (III, B); infection
-    other than rubella with seroconversion only (III, C); isolated heart disease in a relative beyond the second degree
-    (III, B).'
+  statement: "Referral is not indicated for: gestational diabetes with HbA1c below 6% (Class III, LOE B); SSRIs other than paroxetine (III, A); vitamin K agonists, as printed, although a fetal survey is recommended (III, B); infection other than rubella with seroconversion only (III, C); isolated congenital heart disease in a relative beyond the second degree (III, B)."
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Fetal Cardiac Evaluation, p. 2226, recommendation 5
   status: ai-extracted
@@ -83,8 +71,7 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: '''Vitamin K agonists'' is as printed; vitamin K antagonists (warfarin) are probably meant. For the editor. Checked
-    by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check.'
+  note: "Vitamin K agonists'' is as printed; vitamin K antagonists (warfarin) are probably meant. For the editor. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2226, recommendation 5. The family-history exception refers specifically to isolated congenital heart disease. The HbA1c cutoff and all III grades match. The vitamin K caveat accurately flags an internal inconsistency: recommendation 5 prints “agonists”, whereas Table 2 lists antagonists. Refer the discrepancy to the editor. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Referral is not indicated for: gestational diabetes with HbA1c below 6% (Class III, LOE B); SSRIs other than paroxetine (III, A); vitamin K agonists, as printed, although a fetal survey is recommended (III, B); infection other than rubella with seroconversion only (III, C); isolated heart disease in a relative beyond the second degree (III, B). Awaits re-check by a model other than Claude."
 - id: AH14-006
   topic: fetal echocardiogram
   statement: A fetal echocardiogram should include still and cine images of the standard views - four-chamber sweeping
@@ -92,10 +79,10 @@ claims:
     vena cava (Class I, LOE A) - and short- and long-axis views (I, B).
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Fetal Echocardiogram, p. 2226, recommendation 6
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -107,10 +94,10 @@ claims:
     I, LOE A).
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Fetal Echocardiogram, p. 2226, recommendation 7
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -121,10 +108,10 @@ claims:
     I, LOE B), and pulsed Doppler of the atrioventricular and semilunar valves and ductus venosus (I, B/C).
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Fetal Echocardiogram, p. 2226, recommendation 8
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -134,10 +121,10 @@ claims:
     and assess function qualitatively, excluding cardiomegaly and hydrops (Class I, LOE B).
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Fetal Echocardiogram, p. 2226, recommendation 9
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -149,10 +136,10 @@ claims:
     fraction, cardiovascular profile score) (Class I, LOE B/C).
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Fetal Echocardiogram, p. 2226, recommendation 10
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -163,10 +150,10 @@ claims:
     LOE B).
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Fetal Echocardiogram, p. 2226, recommendation 11
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -176,18 +163,16 @@ claims:
     (Class IIb, LOE B/C).
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Fetal Echocardiogram, p. 2227, recommendation 12
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
 - id: AH14-013
   topic: advanced techniques
-  statement: 'Research tools reasonable for specific indications: cardiac MRI (heterotaxy, venous anatomy, extracardiac
-    anomalies), tissue Doppler (time intervals, rhythm), fetal electrocardiography (monitoring after rupture of membranes)
-    and fetal magnetocardiography (conduction and rhythm in suspected conduction disease) (Class IIa, LOE B/C).'
+  statement: "Research tools reasonable for specific indications: cardiac MRI (heterotaxy, venous anatomy, extracardiac anomalies), tissue Doppler (time intervals, rhythm), fetal electrocardiography (monitoring after rupture of membranes) and fetal magnetocardiography (conduction and rhythm in known or suspected conduction system abnormalities) (Class IIa, LOE B/C)."
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Advanced Techniques, p. 2227, recommendation 13
   status: ai-extracted
@@ -195,12 +180,10 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2227, recommendation 13. The fetal magnetocardiography indication includes known as well as suspected conduction system abnormalities. The ledger gives only suspected disease. The research status, other indications and IIa/B/C grade match. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Research tools reasonable for specific indications: cardiac MRI (heterotaxy, venous anatomy, extracardiac anomalies), tissue Doppler (time intervals, rhythm), fetal electrocardiography (monitoring after rupture of membranes) and fetal magnetocardiography (conduction and rhythm in suspected conduction disease) (Class IIa, LOE B/C). Awaits re-check by a model other than Claude."
 - id: AH14-014
   topic: genetics
-  statement: Fetuses with known heart disease should have genetic counselling with an offer of testing for aneuploidy,
-    and a detailed anatomy ultrasound (Class I, LOE A).
+  statement: "Fetuses with known congenital heart disease should have genetic counselling with an offer of testing for aneuploidy, and a detailed anatomy ultrasound (Class I, LOE A)."
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Extracardiac Assessment, p. 2227, recommendation 14
   status: ai-extracted
@@ -208,12 +191,10 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2227, recommendation 14. The I/A recommendation applies to fetuses with known congenital heart disease. The ledger expands this to known heart disease generally. The counselling, testing offer and detailed survey match. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Fetuses with known heart disease should have genetic counselling with an offer of testing for aneuploidy, and a detailed anatomy ultrasound (Class I, LOE A). Awaits re-check by a model other than Claude."
 - id: AH14-015
   topic: extracardiac
-  statement: Fetal brain MRI is reasonable when a brain abnormality is suspected in known heart disease, and chest MRI
-    to assess lung volume with congenital diaphragmatic hernia (Class IIa, LOE B).
+  statement: "Fetal brain MRI is reasonable when a brain abnormality is suspected in known congenital heart disease, and chest MRI to assess lung volume with congenital diaphragmatic hernia (Class IIa, LOE B)."
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Extracardiac Assessment, p. 2227, recommendation 15
   status: ai-extracted
@@ -221,12 +202,10 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2227, recommendation 15. The brain MRI indication concerns a suspected brain abnormality in known congenital heart disease. The ledger omits congenital. The separate lung-volume indication in diaphragmatic hernia and IIa/B grade agree. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Fetal brain MRI is reasonable when a brain abnormality is suspected in known heart disease, and chest MRI to assess lung volume with congenital diaphragmatic hernia (Class IIa, LOE B). Awaits re-check by a model other than Claude."
 - id: AH14-016
   topic: extracardiac
-  statement: Brain MRI to screen for cerebral anomalies in known heart disease, or chest MRI when pulmonary hypoplasia
-    is suspected, may be reasonable (Class IIb, LOE B).
+  statement: "Brain MRI to screen for cerebral anomalies in known congenital heart disease, or chest MRI to assess lung volumes when pulmonary hypoplasia is suspected, may be reasonable (Class IIb, LOE B)."
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Extracardiac Assessment, p. 2227, recommendation 16
   status: ai-extracted
@@ -234,13 +213,10 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2227, recommendation 16. The brain MRI screening population is known congenital heart disease. The ledger broadens it to all known heart disease. For suspected pulmonary hypoplasia the chest/lung MRI is specifically to assess lung volumes (IIb/B). REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Brain MRI to screen for cerebral anomalies in known heart disease, or chest MRI when pulmonary hypoplasia is suspected, may be reasonable (Class IIb, LOE B). Awaits re-check by a model other than Claude."
 - id: AH14-017
   topic: fetal wellness
-  statement: 'Fetal wellness assessment in known heart disease may be reasonable: maternal kick counts, and non-stress
-    testing and biophysical profile from the third trimester in fetuses at risk of hypoxaemia or acidosis (Class IIb,
-    LOE C).'
+  statement: "Fetal wellness assessment in known congenital heart disease may be reasonable: maternal kick counts, and non-stress testing and biophysical profile from the third trimester in fetuses at risk of hypoxaemia or acidosis (Class IIb, LOE C)."
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Fetal Wellness Assessment, p. 2227, recommendation 17
   status: ai-extracted
@@ -248,8 +224,7 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2227, recommendation 17. The statement limits this IIb/C recommendation to known congenital heart disease. The timing and hypoxaemia/acidosis risk conditions on nonstress testing and biophysical profiling are otherwise preserved. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Fetal wellness assessment in known heart disease may be reasonable: maternal kick counts, and non-stress testing and biophysical profile from the third trimester in fetuses at risk of hypoxaemia or acidosis (Class IIb, LOE C). Awaits re-check by a model other than Claude."
 - id: AH14-018
   topic: arrhythmia treatment
   statement: Medical therapy should be offered for sustained SVT or VT or other sustained tachycardias (multifocal atrial,
@@ -258,18 +233,17 @@ claims:
     LOE A).
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Fetal Medical Therapy, p. 2227, recommendation 18
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Printed wording leaves open whether 'above 200 beats/min' qualifies every tachycardia listed. 2014; check against
     AHA-2024-ARRHYTHMIA-DRUGS. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still
     needs an independent cross-check.
 - id: AH14-019
   topic: arrhythmia treatment
-  statement: Sympathomimetic therapy is reasonable for atrioventricular block with a ventricular rate below 55 beats/min,
-    or at a higher rate with severe heart disease, heart failure or hydrops (Class IIa, LOE B).
+  statement: "Consideration of sympathomimetic therapy is reasonable for atrioventricular block with a ventricular rate below 55 beats/min, or at a higher rate with severe congenital heart disease, heart failure or hydrops (Class IIa, LOE B)."
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Fetal Medical Therapy, p. 2227, recommendation 19
   status: ai-extracted
@@ -277,11 +251,10 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: 2014; check against AHA-2024-ARRHYTHMIA-DRUGS. Checked by the extractor (Claude) against the printed page or
-    table on 17 Nov 2026; still needs an independent cross-check.
+  note: "2014; check against AHA-2024-ARRHYTHMIA-DRUGS. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2227, recommendation 19. For AV block the IIa/B recommendation is to consider sympathomimetics. At higher ventricular rates its structural criterion is severe congenital heart disease, not severe heart disease of any cause. The less-than-55 bpm cutoff and heart failure or hydrops alternatives match. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Sympathomimetic therapy is reasonable for atrioventricular block with a ventricular rate below 55 beats/min, or at a higher rate with severe heart disease, heart failure or hydrops (Class IIa, LOE B). Awaits re-check by a model other than Claude."
 - id: AH14-020
   topic: arrhythmia treatment
-  statement: Medical therapy is reasonable for intermittent VT at rates above 200 beats/min (Class IIa, LOE B).
+  statement: "Consideration of medical therapy is reasonable for intermittent VT at rates above 200 beats/min (Class IIa, LOE B)."
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Fetal Medical Therapy, p. 2227, recommendation 20
   status: ai-extracted
@@ -289,8 +262,7 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: 2014; check against AHA-2024-ARRHYTHMIA-DRUGS. Checked by the extractor (Claude) against the printed page or
-    table on 17 Nov 2026; still needs an independent cross-check.
+  note: "2014; check against AHA-2024-ARRHYTHMIA-DRUGS. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2227, recommendation 20. The statement regards consideration of medical therapy as reasonable. The ledger applies “reasonable” directly to therapy. Preserve the consideration language. Intermittent VT, the strict greater-than-200 bpm threshold and IIa/B are correct. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Medical therapy is reasonable for intermittent VT at rates above 200 beats/min (Class IIa, LOE B). Awaits re-check by a model other than Claude."
 - id: AH14-021
   topic: arrhythmia treatment
   statement: Dexamethasone may be considered for immune-mediated second-degree atrioventricular block, or first-degree
@@ -298,10 +270,10 @@ claims:
     (IIb, A).
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Fetal Medical Therapy, p. 2227, recommendation 21
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: 2014; check against AHA-2024-ARRHYTHMIA-DRUGS. No doses recorded. Checked by the extractor (Claude) against the
     printed page or table on 17 Nov 2026; still needs an independent cross-check.
@@ -312,18 +284,16 @@ claims:
     compromise or hydrops (III, B/C).
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Fetal Medical Therapy, p. 2227, recommendation 22
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: 2014; check against AHA-2024-ARRHYTHMIA-DRUGS. Checked by the extractor (Claude) against the printed page or
     table on 17 Nov 2026; still needs an independent cross-check.
 - id: AH14-023
   topic: fetal intervention
-  statement: Fetal catheter intervention may be considered for aortic stenosis with antegrade flow and evolving hypoplastic
-    left heart; aortic stenosis with severe mitral regurgitation and restrictive atrial septum; hypoplastic left heart
-    with severely restrictive or intact atrial septum; and pulmonary atresia with intact septum (Class IIb, LOE B/C).
+  statement: "Fetal catheter intervention may be considered for aortic stenosis with antegrade flow and evolving hypoplastic left heart; aortic stenosis with severe mitral regurgitation and restrictive atrial septum; hypoplastic left heart with severely restrictive or intact atrial septum; and pulmonary atresia with intact ventricular septum (Class IIb, LOE B/C)."
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Fetal Intervention, p. 2227, recommendation 23
   status: ai-extracted
@@ -331,18 +301,17 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2227, recommendation 23. The fourth IIb/B/C indication specifies pulmonary atresia with an intact ventricular septum (PA/IVS). The ledger leaves the septum unspecified in a list also discussing the atrial septum. The three other lesion combinations match. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Fetal catheter intervention may be considered for aortic stenosis with antegrade flow and evolving hypoplastic left heart; aortic stenosis with severe mitral regurgitation and restrictive atrial septum; hypoplastic left heart with severely restrictive or intact atrial septum; and pulmonary atresia with intact septum (Class IIb, LOE B/C). Awaits re-check by a model other than Claude."
 - id: AH14-024
   topic: delivery planning
   statement: Specialised delivery room care should be planned for d-TGA, and for sustained or uncontrolled tachyarrhythmia
     with heart failure or hydrops (Class I, LOE B/C).
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Specialized Delivery Room Care, p. 2227, recommendation 24
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: ASE 2023 Table 15 and this statement's own Table 19 narrow d-TGA by atrial septum findings; for the editor. Checked
     by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check.
@@ -353,10 +322,10 @@ claims:
     test, and for complete heart block with low ventricular rate, dysfunction or hydrops (Class IIa, LOE B/C).
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Specialized Delivery Room Care, p. 2227, recommendation 25
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -366,10 +335,10 @@ claims:
     anomaly with hydrops (Class IIb, LOE C).
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Specialized Delivery Room Care, p. 2227, recommendation 26
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -379,10 +348,10 @@ claims:
     arrhythmias (Class III, LOE B/C).
   source: AHA-2014-FETALCARDIAC
   locator: Recommendations, Specialized Delivery Room Care, p. 2227, recommendation 27
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -392,10 +361,10 @@ claims:
     such as trisomies 21, 13 and 18 and monosomy X.
   source: AHA-2014-FETALCARDIAC
   locator: Extracardiac Assessment of the Fetus With CHD, Genetic Abnormalities and CHD, p. 2206
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: 2014 data; later statements may differ. Checked by the extractor (Claude) against the printed page or table on
     17 Nov 2026; still needs an independent cross-check.
@@ -405,10 +374,10 @@ claims:
     because of higher mortality in utero.
   source: AHA-2014-FETALCARDIAC
   locator: Extracardiac Assessment of the Fetus With CHD, p. 2206
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: 2014 data; later statements may differ. Checked by the extractor (Claude) against the printed page or table on
     17 Nov 2026; still needs an independent cross-check.
@@ -418,10 +387,10 @@ claims:
     to 30%.
   source: AHA-2014-FETALCARDIAC
   locator: Extracardiac Assessment of the Fetus With CHD, Genetic Testing of Fetuses With CHD, p. 2207
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: 2014 data; later statements may differ. Checked by the extractor (Claude) against the printed page or table on
     17 Nov 2026; still needs an independent cross-check.
@@ -431,10 +400,10 @@ claims:
     or without other anomalies.
   source: AHA-2014-FETALCARDIAC
   locator: Extracardiac Assessment of the Fetus With CHD, Genetic Testing of Fetuses With CHD, p. 2207
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -444,10 +413,10 @@ claims:
     on termination or palliative care.
   source: AHA-2014-FETALCARDIAC
   locator: Extracardiac Assessment of the Fetus With CHD, p. 2207
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -457,10 +426,10 @@ claims:
     it cannot detect balanced rearrangements.
   source: AHA-2014-FETALCARDIAC
   locator: Extracardiac Assessment of the Fetus With CHD, Available Genetic Testing, pp. 2206-2207
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -469,10 +438,10 @@ claims:
   statement: Whether microarray should replace routine cytogenetic testing was debated at the time of writing.
   source: AHA-2014-FETALCARDIAC
   locator: Extracardiac Assessment of the Fetus With CHD, p. 2206
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: The document itself calls this uncertain, limited in evidence or investigational. 2014 data; later statements
     may differ. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
@@ -483,10 +452,10 @@ claims:
     are rarely aneuploid, but parents should still be offered testing.
   source: AHA-2014-FETALCARDIAC
   locator: Extracardiac Assessment of the Fetus With CHD, Genetic Abnormalities Associated With CHD, p. 2207
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -495,10 +464,10 @@ claims:
   statement: Ventricular and atrioventricular septal defects are the lesions most often associated with an abnormal karyotype.
   source: AHA-2014-FETALCARDIAC
   locator: Extracardiac Assessment of the Fetus With CHD, p. 2207
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -507,10 +476,10 @@ claims:
   statement: Of fetuses with atrioventricular septal defect and normal situs, 50% to 70% have trisomy 21.
   source: AHA-2014-FETALCARDIAC
   locator: Extracardiac Assessment of the Fetus With CHD, p. 2207
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: 2014 data; later statements may differ. Checked by the extractor (Claude) against the printed page or table on
     17 Nov 2026; still needs an independent cross-check.
@@ -519,10 +488,10 @@ claims:
   statement: Conotruncal lesions and right aortic arch are associated with 22q11 deletion.
   source: AHA-2014-FETALCARDIAC
   locator: Extracardiac Assessment of the Fetus With CHD, p. 2207
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -532,10 +501,10 @@ claims:
     have tuberous sclerosis.
   source: AHA-2014-FETALCARDIAC
   locator: Extracardiac Assessment of the Fetus With CHD, p. 2207
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: 2014 data; later statements may differ. Checked by the extractor (Claude) against the printed page or table on
     17 Nov 2026; still needs an independent cross-check.
@@ -546,10 +515,10 @@ claims:
     heterotaxy.
   source: AHA-2014-FETALCARDIAC
   locator: Table 10, p. 2207
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: 2014 data; later statements may differ. Checked by the extractor (Claude) against the printed page or table on
     17 Nov 2026; still needs an independent cross-check.
@@ -559,16 +528,16 @@ claims:
     common arterial trunk, 8-35% with tetralogy of Fallot, 25% with isolated arch anomaly, and below 1% with transposition.
   source: AHA-2014-FETALCARDIAC
   locator: Table 11, p. 2208
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: 2014 data; later statements may differ. Checked by the extractor (Claude) against the printed page or table on
     17 Nov 2026; still needs an independent cross-check.
 - id: AH14-114
   topic: extracardiac
-  statement: Extracardiac anomalies occur in up to 20% of infants with heart disease, and in 50% to 70% in fetal reports.
+  statement: "Extracardiac anomalies occur in up to 20% of infants with heart disease; some fetal reports have observed 50% to 70%, an upper-end figure."
   source: AHA-2014-FETALCARDIAC
   locator: Extracardiac Assessment of the Fetus With CHD, Extracardiac Abnormalities, p. 2208
   status: ai-extracted
@@ -576,18 +545,17 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: 2014 data; later statements may differ. Checked by the extractor (Claude) against the printed page or table on
-    17 Nov 2026; still needs an independent cross-check.
+  note: "2014 data; later statements may differ. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2208, Extracardiac Abnormalities, Incidence. The infant ceiling is correct. The fetal figure is an upper-end observation from published reports. Presenting 50–70% as the fetal range drops that qualifier. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Extracardiac anomalies occur in up to 20% of infants with heart disease, and in 50% to 70% in fetal reports. Awaits re-check by a model other than Claude."
 - id: AH14-115
   topic: extracardiac
   statement: Ventricular septal defect and tricuspid atresia are often associated with other anomalies; D-transposition
     and pulmonary atresia with intact septum are more often isolated.
   source: AHA-2014-FETALCARDIAC
   locator: Extracardiac Assessment of the Fetus With CHD, p. 2208
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -597,16 +565,16 @@ claims:
     with heart disease; some anomalies may only be detectable later, so repeat assessment may be appropriate.
   source: AHA-2014-FETALCARDIAC
   locator: Extracardiac Assessment of the Fetus With CHD, Fetal Survey, p. 2208
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
 - id: AH14-117
   topic: extracardiac
-  statement: The role of fetal MRI to screen for anomalies when ultrasound is normal has not been established.
+  statement: "The role of fetal MRI to screen for extracardiac anomalies in a fetus with known congenital heart disease and a normal ultrasound has not been established."
   source: AHA-2014-FETALCARDIAC
   locator: Extracardiac Assessment of the Fetus With CHD, Fetal MRI, p. 2208
   status: ai-extracted
@@ -614,12 +582,10 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: The document itself calls this uncertain, limited in evidence or investigational. Checked by the extractor (Claude)
-    against the printed page or table on 17 Nov 2026; still needs an independent cross-check.
+  note: "The document itself calls this uncertain, limited in evidence or investigational. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2208, Fetal MRI. The question concerns extracardiac anomaly screening in a fetus with known CHD and an otherwise normal ultrasound. As written, the claim extends the uncertainty to all fetuses with normal ultrasound. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: The role of fetal MRI to screen for anomalies when ultrasound is normal has not been established. Awaits re-check by a model other than Claude."
 - id: AH14-118
   topic: fetal wellness
-  statement: Antepartum testing may be considered in selected cardiac cases to reduce stillbirth risk, but none has been
-    tested specifically in heart disease, and false-positive results can lead to caesarean and iatrogenic preterm delivery.
+  statement: "Antepartum testing may be considered in selected cardiac cases to reduce stillbirth risk, but no testing recommendation has been studied for fetuses with isolated congenital heart disease, and false-positive results can lead to caesarean and iatrogenic preterm delivery."
   source: AHA-2014-FETALCARDIAC
   locator: Fetal Wellness Assessment, Rationale, p. 2208
   status: ai-extracted
@@ -627,24 +593,22 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: The document itself calls this uncertain, limited in evidence or investigational. Checked by the extractor (Claude)
-    against the printed page or table on 17 Nov 2026; still needs an independent cross-check.
+  note: "The document itself calls this uncertain, limited in evidence or investigational. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2208, Rationale. The evidence gap specifically concerns recommendations for fetuses with isolated CHD. Extending that gap to all heart disease goes beyond the source. Selected use and risks from false positives are supported. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Antepartum testing may be considered in selected cardiac cases to reduce stillbirth risk, but none has been tested specifically in heart disease, and false-positive results can lead to caesarean and iatrogenic preterm delivery. Awaits re-check by a model other than Claude."
 - id: AH14-119
   topic: fetal wellness
   statement: Cardiotocography is unlikely to be useful in fetal bradycardia or complete heart block.
   source: AHA-2014-FETALCARDIAC
   locator: Fetal Wellness Assessment, Cardiotocography and Nonstress Testing, p. 2209
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
 - id: AH14-120
   topic: fetal wellness
-  statement: Widespread use of the biophysical profile in heart disease should wait until its efficacy is tested, because
-    it may lead to early delivery.
+  statement: "Widespread use of the biophysical profile in the selected congenital heart disease populations at risk of hypoxaemia and acidosis should wait until its efficacy is tested; the authors consider early delivery likely with widespread testing."
   source: AHA-2014-FETALCARDIAC
   locator: Fetal Wellness Assessment, Biophysical Profile, p. 2209
   status: ai-extracted
@@ -652,13 +616,10 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: The document itself calls this uncertain, limited in evidence or investigational. Checked by the extractor (Claude)
-    against the printed page or table on 17 Nov 2026; still needs an independent cross-check.
+  note: "The document itself calls this uncertain, limited in evidence or investigational. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2209, Biophysical Profile. The caution about recommending widespread testing refers to the selected CHD populations just discussed, at risk of hypoxemia and acidosis. The authors consider early delivery likely with widespread testing. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Widespread use of the biophysical profile in heart disease should wait until its efficacy is tested, because it may lead to early delivery. Awaits re-check by a model other than Claude."
 - id: AH14-121
   topic: counselling
-  statement: Prenatal counselling aims to give an accurate diagnosis, a clear prognosis and the management options, and
-    to support the parents' decisions; a care team including social workers and genetic counsellors should support the
-    family.
+  statement: "Prenatal counselling aims to give an accurate diagnosis, a clear prognosis and the management options, and to support the parents' decisions; the care team should provide support, and may include social workers and genetic counsellors."
   source: AHA-2014-FETALCARDIAC
   locator: Prenatal Counseling and Parental Stress, p. 2209
   status: ai-extracted
@@ -666,11 +627,10 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2209, Prenatal Counseling and Parental Stress. The four aims are supported. The team should provide support, while the inclusion of a social worker or genetic counsellor is optional. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Prenatal counselling aims to give an accurate diagnosis, a clear prognosis and the management options, and to support the parents' decisions; a care team including social workers and genetic counsellors should support the family. Awaits re-check by a model other than Claude."
 - id: AH14-122
   topic: counselling
-  statement: Counselling should take place soon after the fetal echocardiogram, ideally the same day.
+  statement: "Counselling should be offered promptly after the fetal echocardiogram, ideally on the same day."
   source: AHA-2014-FETALCARDIAC
   locator: Prenatal Counseling and Parental Stress, Essential Elements, p. 2209
   status: ai-extracted
@@ -678,18 +638,17 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2209, Essential Elements. The recommendation is to offer counselling promptly, ideally on the same day. It specifies when the offer should be made without requiring the encounter to take place then. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Counselling should take place soon after the fetal echocardiogram, ideally the same day. Awaits re-check by a model other than Claude."
 - id: AH14-123
   topic: counselling
   statement: Counselling should discuss the limitations of the examination, such as maternal habitus, fetal position
     and gestational age.
   source: AHA-2014-FETALCARDIAC
   locator: Prenatal Counseling and Parental Stress, Essential Elements, p. 2209
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -699,10 +658,10 @@ claims:
     guilt.
   source: AHA-2014-FETALCARDIAC
   locator: Prenatal Counseling and Parental Stress, Essential Elements, p. 2209
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -712,16 +671,16 @@ claims:
     with caveats.
   source: AHA-2014-FETALCARDIAC
   locator: Prenatal Counseling and Parental Stress, Essential Elements, pp. 2209-2210
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
 - id: AH14-126
   topic: counselling
-  statement: Specific counselling techniques have not been studied scientifically.
+  statement: "Specific techniques for counselling after a prenatal diagnosis of congenital heart disease had not been scientifically studied, as of 2014."
   source: AHA-2014-FETALCARDIAC
   locator: Prenatal Counseling and Parental Stress, Techniques, p. 2210
   status: ai-extracted
@@ -729,12 +688,10 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: The document itself calls this uncertain, limited in evidence or investigational. Checked by the extractor (Claude)
-    against the printed page or table on 17 Nov 2026; still needs an independent cross-check.
+  note: "The document itself calls this uncertain, limited in evidence or investigational. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2210, Techniques. The evidence gap concerns techniques specifically for counselling after a prenatal CHD diagnosis, as understood in 2014. The unqualified statement reads as a claim about counselling in general. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Specific counselling techniques have not been studied scientifically. Awaits re-check by a model other than Claude."
 - id: AH14-127
   topic: counselling
-  statement: Counsellors should check understanding, avoid overloading parents with information, and offer several sessions;
-    counselling should be available throughout the pregnancy, including at follow-up scans.
+  statement: "Counsellors should check understanding, avoid overloading parents with information, and offer continued support, including at follow-up scans and throughout the pregnancy; several sessions may be needed depending on the family's circumstances."
   source: AHA-2014-FETALCARDIAC
   locator: Prenatal Counseling and Parental Stress, Techniques, p. 2210
   status: ai-extracted
@@ -742,17 +699,16 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2210, Techniques. Checking comprehension and offering continued support are recommended. Several sessions may be needed depending on the family's circumstances. The claim turns this conditional need into a universal instruction to offer several sessions. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Counsellors should check understanding, avoid overloading parents with information, and offer several sessions; counselling should be available throughout the pregnancy, including at follow-up scans. Awaits re-check by a model other than Claude."
 - id: AH14-128
   topic: counselling
   statement: The option of termination should be discussed, including the time limits set by the applicable law.
   source: AHA-2014-FETALCARDIAC
   locator: Prenatal Counseling and Parental Stress, Techniques, p. 2210
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: For the Indian legal limits a separate source is needed (round 3, task S1). Checked by the extractor (Claude)
     against the printed page or table on 17 Nov 2026; still needs an independent cross-check.
@@ -761,10 +717,10 @@ claims:
   statement: Counsellors should avoid personal bias and support whatever decision the parents make.
   source: AHA-2014-FETALCARDIAC
   locator: Prenatal Counseling and Parental Stress, Decision Making, p. 2210
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -774,10 +730,10 @@ claims:
     heart disease is found; distress is greater after prenatal than postnatal diagnosis.
   source: AHA-2014-FETALCARDIAC
   locator: Prenatal Counseling and Parental Stress, Parental Stress, p. 2210
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -787,10 +743,10 @@ claims:
     after birth; at the time of writing no randomised trials of fetal cardiac therapy existed.
   source: AHA-2014-FETALCARDIAC
   locator: Fetal Therapy for Cardiovascular Conditions Before Birth, p. 2211
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: The document itself calls this uncertain, limited in evidence or investigational. 2014 data; later statements
     may differ. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
@@ -800,10 +756,10 @@ claims:
   statement: Transplacental digoxin for fetal heart failure may be considered, but its usefulness is not well established.
   source: AHA-2014-FETALCARDIAC
   locator: Medical Therapy for Fetal Congestive Heart Failure, p. 2217
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: The document itself calls this uncertain, limited in evidence or investigational. No doses recorded. Checked
     by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check.
@@ -813,10 +769,10 @@ claims:
     a limited window when their effects on growth and function can still be reversed.
   source: AHA-2014-FETALCARDIAC
   locator: Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, Overview, p. 2217
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -825,10 +781,10 @@ claims:
   statement: Technical success of a fetal procedure does not always translate into clinical success after birth.
   source: AHA-2014-FETALCARDIAC
   locator: Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, Overview, p. 2217
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -838,10 +794,10 @@ claims:
     promote antegrade flow and left heart growth, and make a biventricular repair possible.
   source: AHA-2014-FETALCARDIAC
   locator: Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, Table 16, p. 2217
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -851,10 +807,10 @@ claims:
     left ventricular dysfunction, monophasic short mitral inflow and left-to-right flow at the foramen ovale.
   source: AHA-2014-FETALCARDIAC
   locator: Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, Table 16, p. 2217
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -865,10 +821,10 @@ claims:
   source: AHA-2014-FETALCARDIAC
   locator: Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, AS With Evolving HLHS,
     p. 2218
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -878,10 +834,10 @@ claims:
   source: AHA-2014-FETALCARDIAC
   locator: Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, AS With Evolving HLHS,
     p. 2218
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: 2014 data; later statements may differ. Checked by the extractor (Claude) against the printed page or table on
     17 Nov 2026; still needs an independent cross-check.
@@ -892,10 +848,10 @@ claims:
   source: AHA-2014-FETALCARDIAC
   locator: Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, AS With Evolving HLHS,
     p. 2218
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: The document itself calls this uncertain, limited in evidence or investigational. Checked by the extractor (Claude)
     against the printed page or table on 17 Nov 2026; still needs an independent cross-check.
@@ -905,17 +861,16 @@ claims:
   source: AHA-2014-FETALCARDIAC
   locator: Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, AS With Evolving HLHS,
     p. 2218
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
 - id: AH14-209
   topic: fetal intervention
-  statement: Hypoplastic left heart with restrictive or intact atrial septum has extremely high mortality; the newborn
-    typically becomes critically ill at birth.
+  statement: "Hypoplastic left heart with a highly restrictive or intact atrial septum has extremely high mortality, and the newborn typically becomes critically ill at birth; lesser degrees of restriction are typical in hypoplastic left heart."
   source: AHA-2014-FETALCARDIAC
   locator: Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, HLHS With Restrictive
     or Intact Atrial Septum, p. 2218
@@ -924,8 +879,7 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2218: The extreme mortality and critical presentation are attributed specifically to a highly restrictive or intact atrial septum. The same page describes lesser degrees of restriction as typical in HLHS. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Hypoplastic left heart with restrictive or intact atrial septum has extremely high mortality; the newborn typically becomes critically ill at birth. Awaits re-check by a model other than Claude."
 - id: AH14-210
   topic: fetal intervention
   statement: Greater reversal of pulmonary venous flow during atrial contraction, and reduced pulmonary vasoreactivity
@@ -933,10 +887,10 @@ claims:
   source: AHA-2014-FETALCARDIAC
   locator: Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, HLHS With Restrictive
     or Intact Atrial Septum, p. 2218
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -947,10 +901,10 @@ claims:
   source: AHA-2014-FETALCARDIAC
   locator: Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, HLHS With Restrictive
     or Intact Atrial Septum, p. 2218
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: The document itself calls this uncertain, limited in evidence or investigational. Checked by the extractor (Claude)
     against the printed page or table on 17 Nov 2026; still needs an independent cross-check.
@@ -961,10 +915,10 @@ claims:
   source: AHA-2014-FETALCARDIAC
   locator: Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, Mitral Valve Dysplasia
     Syndrome, pp. 2218-2219
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -975,10 +929,10 @@ claims:
   source: AHA-2014-FETALCARDIAC
   locator: Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, Pulmonary Atresia With
     Intact Ventricular Septum, p. 2219
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: The document itself calls this uncertain, limited in evidence or investigational. Checked by the extractor (Claude)
     against the printed page or table on 17 Nov 2026; still needs an independent cross-check.
@@ -989,10 +943,10 @@ claims:
   source: AHA-2014-FETALCARDIAC
   locator: Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, Pulmonary Atresia With
     Intact Ventricular Septum, p. 2219
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1002,10 +956,10 @@ claims:
     fetal mortality approaches 90% to 100%.
   source: AHA-2014-FETALCARDIAC
   locator: Twin-Twin Transfusion Syndrome, Pathophysiology, p. 2219
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: 2014 data; later statements may differ. Checked by the extractor (Claude) against the printed page or table on
     17 Nov 2026; still needs an independent cross-check.
@@ -1015,10 +969,10 @@ claims:
     valve regurgitation; right ventricular outflow abnormalities can develop and may persist after laser therapy.
   source: AHA-2014-FETALCARDIAC
   locator: Twin-Twin Transfusion Syndrome, Cardiac Effects, p. 2219
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1028,10 +982,10 @@ claims:
     (Cincinnati, CHOP) have been proposed.
   source: AHA-2014-FETALCARDIAC
   locator: Twin-Twin Transfusion Syndrome, Diagnosis and Hemodynamic Assessment, p. 2219; Tables 17-18
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1041,10 +995,10 @@ claims:
     syndrome.
   source: AHA-2014-FETALCARDIAC
   locator: Twin-Twin Transfusion Syndrome, p. 2220
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1053,10 +1007,10 @@ claims:
   statement: Whether cardiac findings predict outcome in twin-twin transfusion is controversial.
   source: AHA-2014-FETALCARDIAC
   locator: Twin-Twin Transfusion Syndrome, pp. 2219-2220
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: The document itself calls this uncertain, limited in evidence or investigational. Checked by the extractor (Claude)
     against the printed page or table on 17 Nov 2026; still needs an independent cross-check.
@@ -1065,10 +1019,10 @@ claims:
   statement: A fetal echocardiogram 24 to 48 hours after laser treatment should be considered for surviving twins.
   source: AHA-2014-FETALCARDIAC
   locator: Twin-Twin Transfusion Syndrome, p. 2220
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: The document itself calls this uncertain, limited in evidence or investigational. Checked by the extractor (Claude)
     against the printed page or table on 17 Nov 2026; still needs an independent cross-check.
@@ -1078,10 +1032,10 @@ claims:
     studies showing improved survival are sparse.
   source: AHA-2014-FETALCARDIAC
   locator: Perinatal Management and Outcome of Fetuses With CHD, Impact on Morbidity / Survival, pp. 2221-2222
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: The document itself calls this uncertain, limited in evidence or investigational. Checked by the extractor (Claude)
     against the printed page or table on 17 Nov 2026; still needs an independent cross-check.
@@ -1090,10 +1044,10 @@ claims:
   statement: Infants with ductal-dependent lesions diagnosed before birth are less compromised before surgery.
   source: AHA-2014-FETALCARDIAC
   locator: Perinatal Management and Outcome of Fetuses With CHD, Impact on Morbidity, pp. 2221-2222
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1102,10 +1056,10 @@ claims:
   statement: Intrapartum care should be coordinated among the obstetric, neonatal and cardiology teams.
   source: AHA-2014-FETALCARDIAC
   locator: Perinatal Management and Outcome of Fetuses With CHD, Delivery Planning, p. 2222
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1115,10 +1069,10 @@ claims:
     disease at risk.
   source: AHA-2014-FETALCARDIAC
   locator: Perinatal Management and Outcome of Fetuses With CHD, Delivery Planning, p. 2222
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1128,17 +1082,16 @@ claims:
     reasons.
   source: AHA-2014-FETALCARDIAC
   locator: Perinatal Management and Outcome of Fetuses With CHD, Delivery Planning, p. 2222
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
 - id: AH14-305
   topic: delivery planning
-  statement: There is no inherent advantage of caesarean over vaginal birth for fetuses with heart disease; no randomised
-    trials exist.
+  statement: "Available studies did not demonstrate an inherent advantage of caesarean over vaginal birth for fetuses with heart disease; as reported in 2014, no randomised trials existed for severe congenital heart disease."
   source: AHA-2014-FETALCARDIAC
   locator: Perinatal Management and Outcome of Fetuses With CHD, Delivery Planning, p. 2222
   status: ai-extracted
@@ -1146,18 +1099,17 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: The document itself calls this uncertain, limited in evidence or investigational. Checked by the extractor (Claude)
-    against the printed page or table on 17 Nov 2026; still needs an independent cross-check.
+  note: "The document itself calls this uncertain, limited in evidence or investigational. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2222: Available studies did not demonstrate an inherent advantage. An unqualified statement that none exists is stronger. The absence of randomised trials was reported in 2014 for severe CHD. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: There is no inherent advantage of caesarean over vaginal birth for fetuses with heart disease; no randomised trials exist. Awaits re-check by a model other than Claude."
 - id: AH14-306
   topic: delivery planning
   statement: The fetal diagnostic team should assign an anticipated level of care, and delivery room and neonatal plans
     should be made before delivery.
   source: AHA-2014-FETALCARDIAC
   locator: Perinatal Management and Outcome of Fetuses With CHD, Delivery Room and Neonatal Care Planning, p. 2223
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1166,10 +1118,10 @@ claims:
   statement: Many newborns with heart disease need no specialised delivery room care.
   source: AHA-2014-FETALCARDIAC
   locator: Perinatal Management and Outcome of Fetuses With CHD, Delivery Room and Neonatal Care Planning, p. 2223
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1178,10 +1130,10 @@ claims:
   statement: The ductus arteriosus usually closes over 12 to 72 hours after birth.
   source: AHA-2014-FETALCARDIAC
   locator: Perinatal Management and Outcome of Fetuses With CHD, Transitional Circulation, p. 2224
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1191,10 +1143,10 @@ claims:
     usually weeks after birth; no specialised delivery room care is recommended.
   source: AHA-2014-FETALCARDIAC
   locator: Perinatal Management and Outcome of Fetuses With CHD, CHD With Minimal Risk During Transition, p. 2224
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1204,10 +1156,10 @@ claims:
     and access to paediatric cardiology is recommended.
   source: AHA-2014-FETALCARDIAC
   locator: Perinatal Management and Outcome of Fetuses With CHD, Ductal-Dependent Lesions, p. 2224
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1219,10 +1171,10 @@ claims:
     B).
   source: AHA-2014-FETALCARDIAC
   locator: Table 20 (fetal predictors for delivery planning), p. 2225
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1233,10 +1185,10 @@ claims:
     should lead to a plan for possible urgent decompression of the left atrium (Class IIa, LOE B).
   source: AHA-2014-FETALCARDIAC
   locator: Table 20 (fetal predictors for delivery planning), p. 2225
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1247,17 +1199,16 @@ claims:
     hypertension can be managed.
   source: AHA-2014-FETALCARDIAC
   locator: Perinatal Management and Outcome of Fetuses With CHD, Foramen Ovale-Dependent Lesions, p. 2225
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
 - id: AH14-314
   topic: delivery planning
-  statement: The septum primum criteria proposed to predict foramen ovale closure in D-transposition lacked acceptable
-    sensitivity and specificity in a later study.
+  statement: "In a later study, the septum primum features of tethering or bowing lacked acceptable sensitivity and specificity for postnatal compromise requiring emergent intervention in D-transposition; this did not invalidate all septum primum criteria for predicting foramen ovale closure."
   source: AHA-2014-FETALCARDIAC
   locator: Perinatal Management and Outcome of Fetuses With CHD, Foramen Ovale-Dependent Lesions, p. 2225
   status: ai-extracted
@@ -1265,25 +1216,23 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: The document itself calls this uncertain, limited in evidence or investigational. Checked by the extractor (Claude)
-    against the printed page or table on 17 Nov 2026; still needs an independent cross-check.
+  note: "The document itself calls this uncertain, limited in evidence or investigational. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2224–2225: The later study tested tethering or bowing and the outcome of postnatal compromise requiring emergent intervention. It did not invalidate all septum primum criteria for predicting closure. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: The septum primum criteria proposed to predict foramen ovale closure in D-transposition lacked acceptable sensitivity and specificity in a later study. Awaits re-check by a model other than Claude."
 - id: AH14-315
   topic: delivery planning
   statement: Planned cardioversion or antiarrhythmic therapy in the delivery room is indicated for uncontrolled tachycardia;
     planned chronotropic drugs or pacing in the early newborn period is reasonable for complete heart block.
   source: AHA-2014-FETALCARDIAC
   locator: Perinatal Management and Outcome of Fetuses With CHD, Fetal Arrhythmias, p. 2226
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
 - id: AH14-316
   topic: delivery planning
-  statement: Hydrops in complex heart disease is ominous; delivery may be considered if the cause is treatable or reversible
-    and gestation is appropriate.
+  statement: "Hydrops attributed to heart failure in complex heart disease is ominous; delivery may be considered if the primary pathology is treatable or reversible, gestation is suitable and immediate treatment is prepared."
   source: AHA-2014-FETALCARDIAC
   locator: Perinatal Management and Outcome of Fetuses With CHD, Complex CHD With Heart Failure, p. 2226
   status: ai-extracted
@@ -1291,18 +1240,17 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2226: Delivery consideration requires hydrops attributed to heart failure, suitable gestation and treatable or reversible primary pathology, with immediate treatment prepared. The claim drops the heart-failure condition. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Hydrops in complex heart disease is ominous; delivery may be considered if the cause is treatable or reversible and gestation is appropriate. Awaits re-check by a model other than Claude."
 - id: AH14-317
   topic: delivery planning
   statement: 'Level of care P: heart disease with palliative care planned (with a severe or fatal chromosomal or multisystem
     disease); arrange family support and palliative care; normal delivery at the local hospital.'
   source: AHA-2014-FETALCARDIAC
   locator: Table 19 (level of care assignment), p. 2223
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1312,10 +1260,10 @@ claims:
     VSD, AVSD, mild tetralogy); normal delivery at the local hospital with routine care and later cardiology review.'
   source: AHA-2014-FETALCARDIAC
   locator: Table 19 (level of care assignment), p. 2223
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1327,10 +1275,10 @@ claims:
     accessible cardiology, start prostaglandin if indicated, then transfer.'
   source: AHA-2014-FETALCARDIAC
   locator: Table 19 (level of care assignment), p. 2223
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1343,10 +1291,10 @@ claims:
     in the delivery room.'
   source: AHA-2014-FETALCARDIAC
   locator: Table 19 (level of care assignment), p. 2223
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1360,10 +1308,10 @@ claims:
     usually at 38-39 weeks.'
   source: AHA-2014-FETALCARDIAC
   locator: Table 19 (level of care assignment), p. 2223
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1374,10 +1322,10 @@ claims:
     caesarean when a heart is available, specialised cardiac team in the delivery room.'
   source: AHA-2014-FETALCARDIAC
   locator: Table 19 (level of care assignment), p. 2223
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1387,10 +1335,10 @@ claims:
     consideration of ECMO (Class IIb, LOE C).
   source: AHA-2014-FETALCARDIAC
   locator: Table 20 (fetal predictors for delivery planning), p. 2225
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1401,10 +1349,10 @@ claims:
     chronotropic drugs or temporary pacing in the delivery room (Class IIa, LOE C).
   source: AHA-2014-FETALCARDIAC
   locator: Table 20 (fetal predictors for delivery planning), p. 2225
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1416,17 +1364,16 @@ claims:
     I, LOE B), and prostaglandin E1 (I, B).'
   source: AHA-2014-FETALCARDIAC
   locator: Table 20 (fetal predictors for delivery planning), p. 2225
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: The table adds that all fetuses with d-TGA and a concerning septum primum should be considered at risk. Checked
     by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check.
 - id: AH14-326
   topic: delivery planning
-  statement: In d-TGA, an abnormal ductus (small, or with accelerated, bidirectional or reversed diastolic flow) should
-    lead to consideration of treatment for pulmonary hypertension (Class IIb, LOE C).
+  statement: "In d-transposition, small calibre is listed as an abnormal ductal finding, but consideration of treatment for pulmonary hypertension is tied specifically to abnormal ductal flow, with accelerated forward flow named in Table 20 (Class IIb, LOE C)."
   source: AHA-2014-FETALCARDIAC
   locator: Table 20 (fetal predictors for delivery planning), p. 2225
   status: ai-extracted
@@ -1434,18 +1381,17 @@ claims:
     then checked by the extractor against the PDF pages
   checked_by: null
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. p. 2225: Table 20 names small calibre as an abnormal ductal finding, but ties consideration of pulmonary hypertension therapy specifically to abnormal ductal FLOW (IIb/C). It specifies accelerated forward flow. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: In d-TGA, an abnormal ductus (small, or with accelerated, bidirectional or reversed diastolic flow) should lead to consideration of treatment for pulmonary hypertension (Class IIb, LOE C). Re-check whether bidirectional or reversed diastolic flow is also named; the original claim listed them and the checker's detail names only accelerated forward flow. Awaits re-check by a model other than Claude."
 - id: AH14-327
   topic: delivery planning
   statement: In tetralogy with absent pulmonary valve, lung findings of lobar emphysema (fluid trapping) on MRI suggest
     planning specialised ventilation and considering ECMO (Class IIb, LOE C).
   source: AHA-2014-FETALCARDIAC
   locator: Table 20 (fetal predictors for delivery planning), p. 2225
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1455,10 +1401,10 @@ claims:
     to lower pulmonary resistance, treat arrhythmia and support output (Class IIb, LOE C).
   source: AHA-2014-FETALCARDIAC
   locator: Table 20 (fetal predictors for delivery planning), p. 2225
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
@@ -1469,10 +1415,10 @@ claims:
     if possible (Class I, LOE C).
   source: AHA-2014-FETALCARDIAC
   locator: Table 20 (fetal predictors for delivery planning), p. 2225
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
     cross-check.
