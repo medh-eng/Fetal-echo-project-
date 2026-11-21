@@ -1333,3 +1333,33 @@ claims:
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
+- id: AH14-330
+  topic: genetics
+  statement: "Parental testing may be used as adjunctive testing to assess recurrence risk when a balanced translocation is suspected in one parent, or to clarify the clinical significance of copy-number variants found on microarray testing of the fetus."
+  source: AHA-2014-FETALCARDIAC
+  locator: "Genetic Testing of Fetuses With CHD, p. 2207"
+  status: ai-extracted
+  extracted_by: "Claude (Opus 5.5, 2026-11-21), from the PDF pages (owner's copy), candidate listed by ChatGPT in tasks/results/task-i-notes.md"
+  checked_by: null
+  verified_by: null
+  note: "Harvested 21 Nov 2026 from the printed page; needs a cross-check by a non-Claude model (round 5, task J)."
+- id: AH14-331
+  topic: counselling
+  statement: "Printed diagrams, drawings, models, videos and other media may help convey the diagnosis to parents; counsellors should advise on the usefulness of online information but warn families about misleading data."
+  source: AHA-2014-FETALCARDIAC
+  locator: "Prenatal Counseling and Parental Stress, Techniques, p. 2210"
+  status: ai-extracted
+  extracted_by: "Claude (Opus 5.5, 2026-11-21), from the PDF pages (owner's copy), candidate listed by ChatGPT in tasks/results/task-i-notes.md"
+  checked_by: null
+  verified_by: null
+  note: "Harvested 21 Nov 2026 from the printed page; needs a cross-check by a non-Claude model (round 5, task J)."
+- id: AH14-332
+  topic: fetal intervention
+  statement: "In aortic stenosis with evolving hypoplastic left heart considered for fetal intervention, factors predicting a favourable outcome for two-ventricle repair include a left ventricular long-axis z score above -2, a left ventricle able to generate at least 10 mm Hg across the aortic valve or a 15 mm Hg mitral regurgitant jet, and a mitral valve diameter z score above -3."
+  source: AHA-2014-FETALCARDIAC
+  locator: "Fetal Cardiac Catheter Intervention, AS With Evolving HLHS, p. 2218"
+  status: ai-extracted
+  extracted_by: "Claude (Opus 5.5, 2026-11-21), from the PDF pages (owner's copy), candidate listed by ChatGPT in tasks/results/task-i-notes.md"
+  checked_by: null
+  verified_by: null
+  note: "Values as printed in 2014; the cardiology co-editor should check them against the study the statement cites before they are taught. A 2014 statement: prefer later sources where they differ. Harvested 21 Nov 2026 from the printed page; needs a cross-check by a non-Claude model (round 5, task J)."

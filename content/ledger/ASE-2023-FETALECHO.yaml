@@ -3324,6 +3324,61 @@ claims:
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
+- id: AS23-358
+  lesion: double-inlet left ventricle
+  aspect: associations
+  statement: "In double-inlet left ventricle, if the left atrioventricular valve is hypoplastic or atretic, the adequacy of the atrial septal defect should be assessed."
+  source: ASE-2023-FETALECHO
+  locator: "Table 13, double-inlet LV, other key points, p. 705"
+  status: ai-extracted
+  extracted_by: "Claude (Opus 5.5, 2026-11-21), from the PDF pages (owner's copy), candidate listed by ChatGPT in tasks/results/task-i-notes.md"
+  checked_by: null
+  verified_by: null
+  note: "Harvested 21 Nov 2026 from the printed page; needs a cross-check by a non-Claude model (round 5, task J)."
+- id: AS23-359
+  lesion: crisscross heart
+  aspect: views
+  statement: "In crisscross hearts the two separate atrioventricular valves cannot be seen in the same imaging plane."
+  source: ASE-2023-FETALECHO
+  locator: "Table 13, crisscross hearts, key observations, p. 706"
+  status: ai-extracted
+  extracted_by: "Claude (Opus 5.5, 2026-11-21), from the PDF pages (owner's copy), candidate listed by ChatGPT in tasks/results/task-i-notes.md"
+  checked_by: null
+  verified_by: null
+  note: "Harvested 21 Nov 2026 from the printed page; needs a cross-check by a non-Claude model (round 5, task J)."
+- id: AS23-360
+  lesion: transposition of the great arteries
+  aspect: views
+  statement: "In d-TGA the pulmonary valve may be bicuspid."
+  source: ASE-2023-FETALECHO
+  locator: "Table 13, d-TGA, outflow imaging, p. 707"
+  status: ai-extracted
+  extracted_by: "Claude (Opus 5.5, 2026-11-21), from the PDF pages (owner's copy), candidate listed by ChatGPT in tasks/results/task-i-notes.md"
+  checked_by: null
+  verified_by: null
+  note: "Harvested 21 Nov 2026 from the printed page; needs a cross-check by a non-Claude model (round 5, task J)."
+- id: AS23-361
+  lesion: pulmonary stenosis
+  aspect: views
+  statement: "Outflow imaging in pulmonary stenosis includes the ductal anatomy; left pulmonary artery stenosis can result from abnormal ductal insertion."
+  source: ASE-2023-FETALECHO
+  locator: "Table 13, pulmonary stenosis, outflow imaging, p. 708"
+  status: ai-extracted
+  extracted_by: "Claude (Opus 5.5, 2026-11-21), from the PDF pages (owner's copy), candidate listed by ChatGPT in tasks/results/task-i-notes.md"
+  checked_by: null
+  verified_by: null
+  note: "Harvested 21 Nov 2026 from the printed page; needs a cross-check by a non-Claude model (round 5, task J)."
+- id: AS23-362
+  lesion: semilunar valve obstruction
+  aspect: pitfall
+  statement: "In semilunar valve stenosis, Doppler pressure gradients may be measured and reported, but they do not necessarily indicate how severe the stenosis is."
+  source: ASE-2023-FETALECHO
+  locator: "IV.C.iv Semilunar Valve Obstruction, Key Points, p. 716"
+  status: ai-extracted
+  extracted_by: "Claude (Opus 5.5, 2026-11-21), from the PDF pages (owner's copy), candidate listed by ChatGPT in tasks/results/task-i-notes.md"
+  checked_by: null
+  verified_by: null
+  note: "Harvested 21 Nov 2026 from the printed page; needs a cross-check by a non-Claude model (round 5, task J)."
 - id: AS23-400
   lesion: semilunar valve obstruction
   aspect: definition
