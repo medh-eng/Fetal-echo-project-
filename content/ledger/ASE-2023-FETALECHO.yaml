@@ -1253,8 +1253,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-151
   lesion: biometry
   aspect: measure
@@ -1267,8 +1266,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-152
   lesion: biometry
   aspect: measure
@@ -1281,8 +1279,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-153
   lesion: biometry
   aspect: measure
@@ -1295,8 +1292,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-154
   lesion: biometry
   aspect: measure
@@ -1308,8 +1304,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: The reader saw the table title and reference only; the equations themselves were not extracted. Checked by the
-    extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check.
+  note: "The reader saw the table title and reference only; the equations themselves were not extracted. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-155
   lesion: biometry
   aspect: measure
@@ -1321,9 +1316,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Table 4's footnote lists aortic and pulmonary valves 'in systole', while the semilunar valve row of the same
-    table says 'end-diastole/early systole, open or closed'. For the editor. Checked by the extractor (Claude) against
-    the printed page or table on 17 Nov 2026; still needs an independent cross-check.
+  note: "Table 4's footnote lists aortic and pulmonary valves 'in systole', while the semilunar valve row of the same table says 'end-diastole/early systole, open or closed'. For the editor. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-156
   lesion: biometry
   aspect: measure
@@ -1336,8 +1329,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-157
   lesion: biometry
   aspect: measure
@@ -1349,8 +1341,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Optional status is from the table footnote marking. Checked by the extractor (Claude) against the printed page
-    or table on 17 Nov 2026; still needs an independent cross-check.
+  note: "Optional status is from the table footnote marking. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-158
   lesion: biometry
   aspect: measure
@@ -1362,8 +1353,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Timing and view not stated in the table. Checked by the extractor (Claude) against the printed page or table
-    on 17 Nov 2026; still needs an independent cross-check.
+  note: "Timing and view not stated in the table. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-159
   lesion: biometry
   aspect: measure
@@ -1375,8 +1365,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-160
   lesion: biometry
   aspect: measure
@@ -1388,8 +1377,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-161
   lesion: biometry
   aspect: measure
@@ -1401,8 +1389,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-162
   lesion: biometry
   aspect: measure
@@ -1415,8 +1402,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-163
   lesion: biometry
   aspect: measure
@@ -1428,8 +1414,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-164
   lesion: biometry
   aspect: measure
@@ -1442,8 +1427,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-165
   lesion: biometry
   aspect: measure
@@ -1455,8 +1439,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Method named in the table not extracted. III.F text does not mention volumes. Checked by the extractor (Claude)
-    against the printed page or table on 17 Nov 2026; still needs an independent cross-check.
+  note: "Method named in the table not extracted. III.F text does not mention volumes. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-166
   lesion: biometry
   aspect: measure
@@ -1469,8 +1452,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-167
   lesion: biometry
   aspect: measure
@@ -1483,8 +1465,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-168
   lesion: biometry
   aspect: measure
@@ -1497,8 +1478,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Differs from the table footnote ('in systole'); see AS23-155. Checked by the extractor (Claude) against the printed
-    page or table on 17 Nov 2026; still needs an independent cross-check.
+  note: "Differs from the table footnote ('in systole'); see AS23-155. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-200
   lesion: single ventricle
   aspect: definition
@@ -1511,8 +1491,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-201
   lesion: single ventricle
   aspect: definition
@@ -1525,8 +1504,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-202
   lesion: single ventricle
   aspect: perinatal
@@ -1539,8 +1517,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-203
   lesion: hypoplastic left heart syndrome
   aspect: definition
@@ -1553,8 +1530,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-204
   lesion: hypoplastic right heart syndrome
   aspect: definition
@@ -1566,8 +1542,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-205
   lesion: single ventricle
   aspect: views
@@ -1580,8 +1555,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-206
   lesion: single ventricle
   aspect: views
@@ -1593,8 +1567,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-207
   lesion: single ventricle
   aspect: views
@@ -1607,8 +1580,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-208
   lesion: single ventricle
   aspect: views
@@ -1621,8 +1593,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-209
   lesion: single ventricle
   aspect: views
@@ -1635,8 +1606,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-210
   lesion: single ventricle
   aspect: pitfall
@@ -1649,8 +1619,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-211
   lesion: single ventricle
   aspect: views
@@ -1663,8 +1632,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-212
   lesion: single ventricle
   aspect: measure
@@ -1677,8 +1645,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-213
   lesion: single ventricle
   aspect: doppler
@@ -1691,8 +1658,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-214
   lesion: single ventricle
   aspect: associations
@@ -1705,8 +1671,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-215
   lesion: single ventricle
   aspect: measure
@@ -1718,8 +1683,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-216
   lesion: single ventricle
   aspect: keypoint
@@ -1732,13 +1696,11 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-217
   lesion: single ventricle
   aspect: keypoint
-  statement: In single ventricle, the direction of flow and any restriction at the atrial septum, the ductus arteriosus
-    and the aortic isthmus must be demonstrated.
+  statement: "In single ventricle, the direction of flow and any restriction must be demonstrated at the atrial septum, and at the ductus arteriosus and the aortic isthmus when these are present."
   source: ASE-2023-FETALECHO
   locator: IV.C.i Key Points, p. 704
   status: ai-extracted
@@ -1746,7 +1708,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. ASE p. 704, IV.C.i, second Key Point. The requirement for ductal and isthmic flow assessment applies when those structures are present. Restore both qualifications."
+  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: ASE p. 704, IV.C.i, second Key Point. The requirement for ductal and isthmic flow assessment applies when those structures are present. Restore both qualifications. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-218
   lesion: single ventricle
   aspect: keypoint
@@ -1759,8 +1721,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-219
   lesion: single ventricle
   aspect: keypoint
@@ -1773,8 +1734,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-220
   lesion: hypoplastic left heart syndrome
   aspect: keypoint
@@ -1787,8 +1747,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Wording 'and related lack of left atrial egress' may extend this beyond HLHS; check. Checked by the extractor
-    (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check.
+  note: "Wording 'and related lack of left atrial egress' may extend this beyond HLHS; check. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-221
   lesion: hypoplastic left heart syndrome
   aspect: doppler
@@ -1800,8 +1759,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-222
   lesion: hypoplastic left heart syndrome
   aspect: doppler
@@ -1814,8 +1772,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-223
   lesion: hypoplastic left heart syndrome
   aspect: keypoint
@@ -1828,8 +1785,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-224
   lesion: hypoplastic left heart syndrome
   aspect: perinatal
@@ -1842,8 +1798,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Some centres use this test; the text describes use, not a recommendation. Checked by the extractor (Claude) against
-    the printed page or table on 17 Nov 2026; still needs an independent cross-check.
+  note: "Some centres use this test; the text describes use, not a recommendation. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-225
   lesion: single ventricle
   aspect: views
@@ -1856,8 +1811,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-226
   lesion: tricuspid atresia
   aspect: definition
@@ -1870,8 +1824,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-227
   lesion: tricuspid atresia
   aspect: evolution
@@ -1884,8 +1837,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-228
   lesion: tricuspid atresia
   aspect: measure
@@ -1897,8 +1849,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-229
   lesion: double-inlet left ventricle
   aspect: definition
@@ -1911,8 +1862,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-230
   lesion: double-inlet left ventricle
   aspect: associations
@@ -1924,8 +1874,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-231
   lesion: hypoplastic left heart syndrome
   aspect: definition
@@ -1938,8 +1887,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-232
   lesion: hypoplastic left heart syndrome
   aspect: views
@@ -1952,8 +1900,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-233
   lesion: hypoplastic left heart syndrome
   aspect: measure
@@ -1965,8 +1912,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-234
   lesion: hypoplastic left heart syndrome
   aspect: associations
@@ -1979,8 +1925,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-235
   lesion: unbalanced atrioventricular septal defect
   aspect: associations
@@ -1993,8 +1938,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-236
   lesion: unbalanced atrioventricular septal defect
   aspect: evolution
@@ -2006,8 +1950,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-237
   lesion: unbalanced atrioventricular septal defect
   aspect: measure
@@ -2020,8 +1963,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-238
   lesion: atrioventricular valve abnormalities
   aspect: associations
@@ -2034,8 +1976,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-239
   lesion: atrioventricular valve abnormalities
   aspect: views
@@ -2048,8 +1989,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-240
   lesion: atrioventricular valve abnormalities
   aspect: views
@@ -2062,8 +2002,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-241
   lesion: atrioventricular valve abnormalities
   aspect: measure
@@ -2075,8 +2014,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-242
   lesion: atrioventricular valve abnormalities
   aspect: views
@@ -2089,8 +2027,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-243
   lesion: atrioventricular valve abnormalities
   aspect: views
@@ -2103,8 +2040,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-244
   lesion: atrioventricular valve abnormalities
   aspect: doppler
@@ -2117,8 +2053,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-245
   lesion: atrioventricular valve abnormalities
   aspect: doppler
@@ -2131,8 +2066,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-246
   lesion: atrioventricular valve abnormalities
   aspect: keypoint
@@ -2145,8 +2079,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-247
   lesion: atrioventricular valve abnormalities
   aspect: keypoint
@@ -2159,8 +2092,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-248
   lesion: atrioventricular valve abnormalities
   aspect: keypoint
@@ -2173,8 +2105,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-249
   lesion: complex atrioventricular connections
   aspect: associations
@@ -2187,13 +2118,11 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Page as reported by the reader; check. Checked by the extractor (Claude) against the printed page or table on
-    17 Nov 2026; still needs an independent cross-check.
+  note: "Page as reported by the reader; check. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-250
   lesion: atrioventricular septal defect
   aspect: views
-  statement: An abnormal crux on the four-chamber view, with the septal leaflet of the right valve level with the anterior
-    leaflet of the left valve, should prompt further assessment for atrioventricular septal defect.
+  statement: "An abnormal crux on the four-chamber view, with the septal leaflet of the right-sided atrioventricular valve at the same level as the anterior leaflet of the left-sided valve when the valves are closed, should prompt further assessment for atrioventricular septal defect."
   source: ASE-2023-FETALECHO
   locator: IV.C.ii AV Septal Defects, p. 712; Figures 23, 24
   status: ai-extracted
@@ -2201,7 +2130,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. ASE p. 712, AV Septal Defects. Add that the leaflets are assessed at the same level in the closed position. The source specifies the phase for this diagnostic comparison."
+  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: ASE p. 712, AV Septal Defects. Add that the leaflets are assessed at the same level in the closed position. The source specifies the phase for this diagnostic comparison. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-251
   lesion: atrioventricular septal defect
   aspect: views
@@ -2214,8 +2143,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-252
   lesion: atrioventricular septal defect
   aspect: views
@@ -2228,8 +2156,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-253
   lesion: atrioventricular septal defect
   aspect: measure
@@ -2242,8 +2169,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-254
   lesion: atrioventricular septal defect
   aspect: measure
@@ -2256,12 +2182,11 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-255
   lesion: atrioventricular septal defect
   aspect: measure
-  statement: An atrioventricular valve index of about 2:1 or more suggests that single-ventricle palliation will be needed.
+  statement: "When the common atrioventricular valve area over each ventricle is measured in a parasagittal view in diastole, an atrioventricular valve index of about 2:1 or higher suggests that single-ventricle palliation will be needed; the threshold depends on which equation is used to calculate the index."
   source: ASE-2023-FETALECHO
   locator: IV.C.ii AV Septal Defects, p. 712; Figure 23, p. 713
   status: ai-extracted
@@ -2269,24 +2194,23 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Check the exact wording and direction of the ratio against the PDF. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. ASE p. 713, Fig. 23. The approximate 2:1 threshold depends explicitly on which equation is used. Using it as an unqualified AVVI cutoff can reverse its meaning."
+  note: "Check the exact wording and direction of the ratio against the PDF. REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: ASE p. 713, Fig. 23. The approximate 2:1 threshold depends explicitly on which equation is used. Using it as an unqualified AVVI cutoff can reverse its meaning. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-256
   lesion: atrioventricular septal defect
   aspect: doppler
   statement: In atrioventricular septal defect, valve regurgitation should be assessed with colour Doppler.
   source: ASE-2023-FETALECHO
-  locator: IV.C.ii AV Septal Defects, p. 712
-  status: ai-extracted
+  locator: "IV.C.ii General Imaging Approach, p. 712; Table 13, common AV valve, p. 706"
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. LOCATOR (ChatGPT (GPT-6, 2026-11-19)): CORRECT LOCATOR. ASE p. 712, IV.C.ii, General Imaging Approach (left column), with Table 13 on 706 for the common valve. The AV Septal Defects paragraph itself does not give the colour Doppler instruction."
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026. Locator corrected 21 Nov 2026 as proposed by ChatGPT (GPT-6, 2026-11-19), who found the statement supported there: ASE p. 712, IV.C.ii, General Imaging Approach (left column), with Table 13 on 706 for the common valve. The AV Septal Defects paragraph itself does not give the colour Doppler instruction."
 - id: AS23-257
   lesion: atrioventricular septal defect
   aspect: views
-  statement: In atrioventricular septal defect, the outflow tracts should be assessed for conal, subvalvular, valvular
-    or accessory-tissue obstruction.
+  statement: "In atrioventricular septal defect, the outflow tracts should be assessed for obstruction from the conal septum, from subvalvular fibrous tissue, or from the atrioventricular valve or its accessory tissue."
   source: ASE-2023-FETALECHO
   locator: IV.C.ii AV Septal Defects, p. 712
   status: ai-extracted
@@ -2294,7 +2218,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. ASE p. 712, AV Septal Defects. ASE identifies the AV valve or its accessory tissue as possible obstructing structures. Unqualified valvular obstruction can be read as semilunar valve obstruction."
+  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: ASE p. 712, AV Septal Defects. ASE identifies the AV valve or its accessory tissue as possible obstructing structures. Unqualified valvular obstruction can be read as semilunar valve obstruction. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-258
   lesion: common atrioventricular valve
   aspect: views
@@ -2307,8 +2231,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-259
   lesion: common atrioventricular valve
   aspect: associations
@@ -2321,8 +2244,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-260
   lesion: common atrioventricular valve
   aspect: pitfall
@@ -2335,8 +2257,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-261
   lesion: mitral valve disease
   aspect: associations
@@ -2348,8 +2269,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-262
   lesion: mitral valve disease
   aspect: views
@@ -2362,8 +2282,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-263
   lesion: mitral valve disease
   aspect: doppler
@@ -2376,8 +2295,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Overlaps AS23-096 (cross-checked); kept for the lesion atlas grouping. Checked by the extractor (Claude) against
-    the printed page or table on 17 Nov 2026; still needs an independent cross-check.
+  note: "Overlaps AS23-096 (cross-checked); kept for the lesion atlas grouping. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-264
   lesion: mitral valve disease
   aspect: definition
@@ -2390,8 +2308,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-265
   lesion: mitral valve disease
   aspect: associations
@@ -2403,21 +2320,19 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-266
   lesion: mitral valve disease
   aspect: doppler
-  statement: In mitral stenosis, peak velocity may underestimate severity because fetal flow redistributes; annulus size
-    and atrial shunting should be documented.
+  statement: "With abnormal atrioventricular valves, peak velocity may underestimate stenosis because fetal flow can redistribute; annulus size should be documented in right atrioventricular valve disease, and left-to-right shunting at atrial level in left atrioventricular valve obstruction."
   source: ASE-2023-FETALECHO
-  locator: IV.C.ii Congenital Mitral Valve Abnormalities, p. 712
+  locator: "IV.C.ii General Imaging Approach, p. 712"
   status: ai-extracted
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. ASE p. 712, General Imaging Approach. Peak velocity may underestimate stenosis. The annular-size instruction here is for right AV disease. For left-sided obstruction ASE highlights the direction of atrial shunting. Table 13 on 706 separately lists a mitral Z-score."
+  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: ASE p. 712, General Imaging Approach. Peak velocity may underestimate stenosis. The annular-size instruction here is for right AV disease. For left-sided obstruction ASE highlights the direction of atrial shunting. Table 13 on 706 separately lists a mitral Z-score. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-267
   lesion: mitral valve disease
   aspect: views
@@ -2430,8 +2345,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-268
   lesion: straddling atrioventricular valve
   aspect: associations
@@ -2444,8 +2358,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-269
   lesion: mitral valve disease
   aspect: measure
@@ -2457,8 +2370,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-270
   lesion: straddling atrioventricular valve
   aspect: definition
@@ -2471,8 +2383,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-271
   lesion: overriding atrioventricular valve
   aspect: definition
@@ -2485,13 +2396,11 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-272
   lesion: crisscross heart
   aspect: definition
-  statement: In a crisscross atrioventricular connection the two valve apparatuses cross, typically with the right atrium
-    opening into the left ventricle.
+  statement: "In a crisscross ('twisted') atrioventricular connection the two valve apparatuses cross, usually so that the atrium on the right opens into the left-sided ventricle and the atrium on the left into the right-sided ventricle; looping may give either atrioventricular concordance or discordance."
   source: ASE-2023-FETALECHO
   locator: IV.C.ii Straddling/Overriding AV Valves and Crisscross Heart, pp. 712-713
   status: ai-extracted
@@ -2499,7 +2408,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Typically'' as reported by the reader; check. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. ASE p. 713, crisscross connections. ASE describes the chamber on the right opening into the ventricle on the left (positional terms). Morphologic AV concordance or discordance is possible. The ledger's chamber names imply a fixed morphological connection."
+  note: "Typically'' as reported by the reader; check. REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: ASE p. 713, crisscross connections. ASE describes the chamber on the right opening into the ventricle on the left (positional terms). Morphologic AV concordance or discordance is possible. The ledger's chamber names imply a fixed morphological connection. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-273
   lesion: complex atrioventricular connections
   aspect: views
@@ -2512,8 +2421,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-274
   lesion: crisscross heart
   aspect: pitfall
@@ -2525,8 +2433,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-275
   lesion: complex atrioventricular connections
   aspect: doppler
@@ -2539,13 +2446,11 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-276
-  lesion: straddling atrioventricular valve
+  lesion: "crisscross heart"
   aspect: associations
-  statement: With atrioventricular discordance there is almost always a ventricular septal defect, with a high incidence
-    of atrioventricular valve straddling.
+  statement: "In a crisscross atrioventricular connection with atrioventricular discordance there is almost always a ventricular septal defect, with a high incidence of atrioventricular valve straddling through it."
   source: ASE-2023-FETALECHO
   locator: IV.C.ii Straddling/Overriding AV Valves and Crisscross Heart, pp. 712-713
   status: ai-extracted
@@ -2553,7 +2458,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. ASE p. 713, IV.C.ii, crisscross connections. The passage discusses AV discordance within the twisted/crisscross connection under discussion. The claim omits that context and generalizes to AV discordance overall."
+  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: ASE p. 713, IV.C.ii, crisscross connections. The passage discusses AV discordance within the twisted/crisscross connection under discussion. The claim omits that context and generalizes to AV discordance overall. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-277
   lesion: straddling atrioventricular valve
   aspect: perinatal
@@ -2566,8 +2471,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-278
   lesion: straddling atrioventricular valve
   aspect: pitfall
@@ -2579,8 +2483,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-279
   lesion: mitral valve disease
   aspect: measure
@@ -2593,8 +2496,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-280
   lesion: straddling atrioventricular valve
   aspect: associations
@@ -2606,13 +2508,11 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-281
   lesion: foramen ovale restriction
   aspect: associations
-  statement: Restriction of the foramen ovale occurs in transposition of the great arteries, hypoplastic left heart syndrome
-    and critical left heart obstruction, and can also occur in isolation.
+  statement: "Restriction of the foramen ovale occurs in d-TGA, hypoplastic left heart syndrome and critical left heart obstruction, and can also occur without other heart disease."
   source: ASE-2023-FETALECHO
   locator: Table 14 (mechanisms and patterns of progression), pp. 710-711
   status: ai-extracted
@@ -2620,7 +2520,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. ASE p. 710, Table 14, foramen ovale restriction. The transposition subtype listed is d-TGA. Restore this qualifier."
+  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: ASE p. 710, Table 14, foramen ovale restriction. The transposition subtype listed is d-TGA. Restore this qualifier. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-282
   lesion: foramen ovale restriction
   aspect: evolution
@@ -2633,8 +2533,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-283
   lesion: foramen ovale restriction
   aspect: pitfall
@@ -2647,13 +2546,11 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-284
   lesion: foramen ovale restriction
   aspect: doppler
-  statement: Left-to-right flow across the atrial septum, enlarged pulmonary veins and an abnormal forward-and-reverse
-    pulmonary venous pattern indicate moderately raised left atrial pressure.
+  statement: "In an illustrated fetus with left heart obstruction (Figure 21), atrial septal restriction was assessed from left-to-right flow across the atrial septum, enlarged pulmonary veins with to-and-fro flow, and a pulsed Doppler forward-and-reverse pulmonary venous pattern described as consistent with moderately raised left atrial pressure. This is an illustrated case, not a grading rule."
   source: ASE-2023-FETALECHO
   locator: Figure 21 caption, p. 711
   status: ai-extracted
@@ -2661,7 +2558,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. ASE p. 711, Fig. 21. This is an illustrated fetus with left heart obstruction. Panel C associates its pulsed Doppler pattern with moderately elevated pressure. The claim turns the illustrated findings into a general rule for grading pressure."
+  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: ASE p. 711, Fig. 21. This is an illustrated fetus with left heart obstruction. Panel C associates its pulsed Doppler pattern with moderately elevated pressure. The claim turns the illustrated findings into a general rule for grading pressure. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-285
   lesion: ventricular septal defect
   aspect: evolution
@@ -2674,8 +2571,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-286
   lesion: double-outlet right ventricle
   aspect: measure
@@ -2689,8 +2585,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-300
   lesion: outflow tract lesions
   aspect: definition
@@ -2703,8 +2598,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-301
   lesion: outflow tract lesions
   aspect: views
@@ -2717,8 +2611,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-302
   lesion: outflow tract lesions
   aspect: views
@@ -2731,8 +2624,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-303
   lesion: outflow tract lesions
   aspect: associations
@@ -2745,8 +2637,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-304
   lesion: outflow tract lesions
   aspect: pitfall
@@ -2759,13 +2650,11 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-305
   lesion: outflow tract lesions
   aspect: keypoint
-  statement: Suspected outflow tract abnormalities should be fully evaluated before prognosis, associated anomalies and
-    testing, including genetic testing, are discussed.
+  statement: "Suspected outflow tract abnormalities should be evaluated by fetal echocardiography before prognosis, associated abnormalities and further testing, including genetic testing, are discussed with the patient."
   source: ASE-2023-FETALECHO
   locator: IV.C.iii Key Points, p. 715
   status: ai-extracted
@@ -2773,7 +2662,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iii Key Points, p. 715. The key point specifies evaluation by fetal echocardiography before counselling. “Fully evaluated” loses the required modality in a section distinguishing screening from diagnostic imaging."
+  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: IV.C.iii Key Points, p. 715. The key point specifies evaluation by fetal echocardiography before counselling. “Fully evaluated” loses the required modality in a section distinguishing screening from diagnostic imaging. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-306
   lesion: outflow tract lesions
   aspect: keypoint
@@ -2786,13 +2675,11 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-307
   lesion: outflow tract lesions
   aspect: keypoint
-  statement: Aortic arch sidedness must be documented at least once during the pregnancy; when the aortic and ductal
-    arches are on opposite sides of the trachea, the branching pattern should be attempted.
+  statement: "Aortic arch sidedness must be documented at least once in pregnancy, and an attempt made to define the branching pattern, especially when the aortic and ductal arches are on opposite sides of the trachea."
   source: ASE-2023-FETALECHO
   locator: IV.C.iii Key Points, p. 715
   status: ai-extracted
@@ -2800,7 +2687,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "The IV.D key point (AS23-100) says arch sidedness should be documented at every examination. The two key points differ in strength and frequency; for the editor. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iii Key Points, p. 715. The third key point calls for an attempt to define branching generally, with particular emphasis on opposite-sided arches. The ledger narrows that instruction to the opposite-sided setting."
+  note: "The IV.D key point (AS23-100) says arch sidedness should be documented at every examination. The two key points differ in strength and frequency; for the editor. REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: IV.C.iii Key Points, p. 715. The third key point calls for an attempt to define branching generally, with particular emphasis on opposite-sided arches. The ledger narrows that instruction to the opposite-sided setting. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-308
   lesion: outflow tract lesions
   aspect: keypoint
@@ -2813,8 +2700,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-309
   lesion: tetralogy of Fallot
   aspect: definition
@@ -2827,13 +2713,11 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-310
   lesion: tetralogy of Fallot
   aspect: views
-  statement: Tetralogy of Fallot is suspected with an abnormal cardiac axis or left ventricular outflow view, a ventricular
-    septal defect with an overriding vessel, or an abnormal three-vessel view.
+  statement: "Key observations listed for tetralogy of Fallot: an abnormal axis or left ventricular outflow tract together with a ventricular septal defect and an overriding vessel; and an abnormal three-vessel view."
   source: ASE-2023-FETALECHO
   locator: Table 13 (lesion-specific evaluation), p. 707
   status: ai-extracted
@@ -2841,7 +2725,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. Table 13 (lesion-specific evaluation), p. 707. TOF row, key observations. The source groups the abnormal axis or LV outflow finding with a VSD and overriding vessel. The ledger makes each an independent alternative."
+  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: Table 13 (lesion-specific evaluation), p. 707. TOF row, key observations. The source groups the abnormal axis or LV outflow finding with a VSD and overriding vessel. The ledger makes each an independent alternative. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-311
   lesion: tetralogy of Fallot
   aspect: views
@@ -2854,8 +2738,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-312
   lesion: tetralogy of Fallot
   aspect: associations
@@ -2867,8 +2750,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-313
   lesion: tetralogy of Fallot
   aspect: associations
@@ -2880,8 +2762,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-314
   lesion: tetralogy of Fallot
   aspect: associations
@@ -2894,8 +2775,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-315
   lesion: tetralogy of Fallot
   aspect: measure
@@ -2908,8 +2788,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-316
   lesion: tetralogy of Fallot
   aspect: perinatal
@@ -2921,8 +2800,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: The reader gave '28 weeks'; the gestation was left out of the statement until checked. Checked by the extractor
-    (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check.
+  note: "The reader gave '28 weeks'; the gestation was left out of the statement until checked. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-317
   lesion: absent pulmonary valve syndrome
   aspect: associations
@@ -2935,8 +2813,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-318
   lesion: absent pulmonary valve syndrome
   aspect: associations
@@ -2949,8 +2826,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-319
   lesion: absent pulmonary valve syndrome
   aspect: views
@@ -2963,8 +2839,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-320
   lesion: absent pulmonary valve syndrome
   aspect: measure
@@ -2977,8 +2852,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-321
   lesion: absent pulmonary valve syndrome
   aspect: doppler
@@ -2991,8 +2865,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-322
   lesion: absent pulmonary valve syndrome
   aspect: pitfall
@@ -3005,8 +2878,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-323
   lesion: absent pulmonary valve syndrome
   aspect: evolution
@@ -3019,8 +2891,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-324
   lesion: absent pulmonary valve syndrome
   aspect: keypoint
@@ -3033,8 +2904,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-325
   lesion: absent pulmonary valve syndrome
   aspect: perinatal
@@ -3046,13 +2916,11 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-326
   lesion: transposition of the great arteries
   aspect: views
-  statement: Transposition of the great arteries is suspected with an abnormal three-vessel view, an abnormal left ventricular
-    outflow view or parallel outflow tracts.
+  statement: "Key observations listed for d-TGA (l-TGA has a separate row): an abnormal three-vessel view, an abnormal left ventricular outflow view, and parallel outflows."
   source: ASE-2023-FETALECHO
   locator: Table 13 (lesion-specific evaluation), p. 707
   status: ai-extracted
@@ -3060,12 +2928,11 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. Table 13 (lesion-specific evaluation), p. 707. These observations belong specifically to the d-TGA row. The guideline gives l-TGA a separate row on p. 708. Preserve the d-TGA scope."
+  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: Table 13 (lesion-specific evaluation), p. 707. These observations belong specifically to the d-TGA row. The guideline gives l-TGA a separate row on p. 708. Preserve the d-TGA scope. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-327
   lesion: transposition of the great arteries
   aspect: views
-  statement: A vessel arising from the left ventricular outflow that branches early is a pulmonary artery, which makes
-    the diagnosis of transposition.
+  statement: "A vessel arising from the left ventricular outflow that branches early is a pulmonary artery. Early branching identifies the vessel, not the lesion: in the illustrated case (Figure 26E) the diagnosis was d-TGA, while the same figure shows a posterior pulmonary artery from the left ventricular outflow in a Taussig-Bing double-outlet right ventricle and in l-TGA."
   source: ASE-2023-FETALECHO
   locator: IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715; Figure 26E
   status: ai-extracted
@@ -3073,7 +2940,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715; Figure 26E. Fig. 26E identifies the PA and illustrates a particular d-TGA case. Early branching identifies the vessel but does not by itself establish transposition. Compare the DORV example in panel A and the l-TGA example in panel F."
+  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715; Figure 26E. Fig. 26E identifies the PA and illustrates a particular d-TGA case. Early branching identifies the vessel but does not by itself establish transposition. Compare the DORV example in panel A and the l-TGA example in panel F. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-328
   lesion: transposition of the great arteries
   aspect: pitfall
@@ -3086,8 +2953,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-329
   lesion: transposition of the great arteries
   aspect: perinatal
@@ -3100,8 +2966,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-330
   lesion: transposition of the great arteries
   aspect: keypoint
@@ -3113,8 +2978,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-331
   lesion: transposition of the great arteries
   aspect: measure
@@ -3127,8 +2991,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-332
   lesion: transposition of the great arteries
   aspect: evolution
@@ -3141,8 +3004,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-333
   lesion: transposition of the great arteries
   aspect: perinatal
@@ -3155,8 +3017,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-334
   lesion: congenitally corrected transposition
   aspect: definition
@@ -3169,13 +3030,11 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-335
   lesion: congenitally corrected transposition
   aspect: views
-  statement: Congenitally corrected transposition is recognised by an abnormal crux on the four-chamber view and a moderator
-    band at the apex of the left-sided right ventricle.
+  statement: "Congenitally corrected transposition (l-TGA) may be identified on the four-chamber view by an abnormal crux and a moderator band at the apex of the left-sided right ventricle."
   source: ASE-2023-FETALECHO
   locator: IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715
   status: ai-extracted
@@ -3183,7 +3042,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715. Page 715 says these four-chamber signs may identify l-TGA. “Is recognised” drops the qualification and can imply consistent detection."
+  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715. Page 715 says these four-chamber signs may identify l-TGA. “Is recognised” drops the qualification and can imply consistent detection. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-336
   lesion: congenitally corrected transposition
   aspect: associations
@@ -3196,8 +3055,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-337
   lesion: congenitally corrected transposition
   aspect: associations
@@ -3210,8 +3068,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-338
   lesion: congenitally corrected transposition
   aspect: evolution
@@ -3224,8 +3081,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-339
   lesion: congenitally corrected transposition
   aspect: keypoint
@@ -3238,8 +3094,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-340
   lesion: double-outlet right ventricle
   aspect: definition
@@ -3252,8 +3107,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-341
   lesion: double-outlet right ventricle
   aspect: perinatal
@@ -3266,21 +3120,20 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-342
   lesion: double-outlet right ventricle
   aspect: pitfall
   statement: With a subpulmonary ventricular septal defect, the anterior aorta may be obstructed below the valve, and
     coarctation often accompanies it, so the arch needs careful two-dimensional and colour imaging.
   source: ASE-2023-FETALECHO
-  locator: IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715
-  status: ai-extracted
+  locator: "IV.C.iii Lesions with a VSD and Overriding Great Vessel, DORV paragraph, p. 714"
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. LOCATOR (ChatGPT (GPT-6, 2026-11-19)): CORRECT LOCATOR. IV.C.iii, p. 714, DORV paragraph under Lesions with a VSD and Overriding Great Vessel. The later subsection on a posterior PA is a different paragraph."
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026. Locator corrected 21 Nov 2026 as proposed by ChatGPT (GPT-6, 2026-11-19), who found the statement supported there: IV.C.iii, p. 714, DORV paragraph under Lesions with a VSD and Overriding Great Vessel. The later subsection on a posterior PA is a different paragraph."
 - id: AS23-343
   lesion: double-outlet right ventricle
   aspect: definition
@@ -3293,8 +3146,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-344
   lesion: double-outlet right ventricle
   aspect: perinatal
@@ -3307,8 +3159,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-345
   lesion: common arterial trunk
   aspect: definition
@@ -3321,8 +3172,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-346
   lesion: common arterial trunk
   aspect: definition
@@ -3335,8 +3185,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-347
   lesion: common arterial trunk
   aspect: evolution
@@ -3348,8 +3197,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-348
   lesion: common arterial trunk
   aspect: views
@@ -3361,13 +3209,11 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-349
   lesion: common arterial trunk
   aspect: perinatal
-  statement: Pulmonary-dominant common trunk, and common trunk with interrupted arch, depend entirely on ductal patency
-    and need prostaglandin E1 at birth.
+  statement: "A ductus may be present in any form of common arterial trunk; the more pulmonary-dominant variants and common trunk with interrupted aortic arch depend entirely on ductal patency for perfusion of the lower body, and these fetuses need prostaglandin E1 started at birth."
   source: ASE-2023-FETALECHO
   locator: IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714
   status: ai-extracted
@@ -3375,7 +3221,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714. Page 714 specifies complete ductal dependence for lower-body perfusion in the more pulmonary-dominant variants or with interrupted arch. The ledger drops the perfusion territory and broadens the first subgroup. PGE1 initiation at birth is supported."
+  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714. Page 714 specifies complete ductal dependence for lower-body perfusion in the more pulmonary-dominant variants or with interrupted arch. The ledger drops the perfusion territory and broadens the first subgroup. PGE1 initiation at birth is supported. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-350
   lesion: common arterial trunk
   aspect: associations
@@ -3387,8 +3233,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-351
   lesion: common arterial trunk
   aspect: measure
@@ -3401,8 +3246,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-352
   lesion: outflow tract lesions
   aspect: views
@@ -3415,8 +3259,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Table 3 gives the normal axis as 35°-65°; the two ranges differ. For the editor. Checked by the extractor (Claude)
-    against the printed page or table on 17 Nov 2026; still needs an independent cross-check.
+  note: "Table 3 gives the normal axis as 35°-65°; the two ranges differ. For the editor. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-353
   lesion: tetralogy of Fallot
   aspect: perinatal
@@ -3429,8 +3272,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-354
   lesion: congenitally corrected transposition
   aspect: views
@@ -3444,8 +3286,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-355
   lesion: lesion evaluation
   aspect: keypoint
@@ -3457,8 +3298,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-356
   lesion: semilunar valve obstruction
   aspect: views
@@ -3471,8 +3311,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-357
   lesion: aortic arch
   aspect: views
@@ -3484,8 +3323,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-400
   lesion: semilunar valve obstruction
   aspect: definition
@@ -3497,13 +3335,11 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-401
   lesion: semilunar valve obstruction
   aspect: evolution
-  statement: Semilunar valve obstruction with an intact ventricular septum has the greatest potential to progress in
-    utero, so serial assessment is essential.
+  statement: "The lesions with the greatest potential to progress in utero include semilunar valve obstruction with an intact ventricular septum and lesions with significant valve regurgitation; serial assessment of both is essential."
   source: ASE-2023-FETALECHO
   locator: IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716
   status: ai-extracted
@@ -3511,12 +3347,11 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iv p.715 groups two categories among the lesions most likely to progress, including those with significant valve regurgitation. The singular superlative loses that distinction. Serial assessment is essential for both."
+  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: IV.C.iv p.715 groups two categories among the lesions most likely to progress, including those with significant valve regurgitation. The singular superlative loses that distinction. Serial assessment is essential for both. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-402
   lesion: semilunar valve obstruction
   aspect: evolution
-  statement: Severe obstruction, especially early in gestation, may lead to progressive hypoplasia of the ventricle,
-    or to hydrops.
+  statement: "Severe semilunar valve obstruction, especially early in gestation, may lead to progressive ventricular hypoplasia, or to hydrops if filling of the opposite ventricle is compromised."
   source: ASE-2023-FETALECHO
   locator: IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716
   status: ai-extracted
@@ -3524,7 +3359,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iv p.715 specifically links hydrops to impaired filling of the opposite ventricle. The qualifier was lost."
+  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: IV.C.iv p.715 specifically links hydrops to impaired filling of the opposite ventricle. The qualifier was lost. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-403
   lesion: semilunar valve obstruction
   aspect: evolution
@@ -3537,8 +3372,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-404
   lesion: semilunar valve obstruction
   aspect: doppler
@@ -3551,8 +3385,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-405
   lesion: semilunar valve obstruction
   aspect: doppler
@@ -3565,13 +3398,11 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-406
   lesion: semilunar valve obstruction
   aspect: followup
-  statement: As semilunar obstruction progresses, routine Doppler of systemic venous, ductus venosus, umbilical and middle
-    cerebral flows is essential.
+  statement: "As semilunar valve obstruction or significant valve regurgitation progresses, routine Doppler of systemic venous, ductus venosus, umbilical arterial, umbilical venous and middle cerebral arterial flows is essential."
   source: ASE-2023-FETALECHO
   locator: IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716
   status: ai-extracted
@@ -3579,7 +3410,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Reader placed this on p. 715; check page and wording. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iv p.715 specifies both umbilical arterial and umbilical venous Doppler. Unspecified umbilical flows could omit either vessel from surveillance. The instruction also applies to significant valve regurgitation."
+  note: "Reader placed this on p. 715; check page and wording. REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: IV.C.iv p.715 specifies both umbilical arterial and umbilical venous Doppler. Unspecified umbilical flows could omit either vessel from surveillance. The instruction also applies to significant valve regurgitation. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-407
   lesion: semilunar valve obstruction
   aspect: measure
@@ -3592,8 +3423,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-408
   lesion: semilunar valve obstruction
   aspect: keypoint
@@ -3606,8 +3436,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-409
   lesion: semilunar valve obstruction
   aspect: keypoint
@@ -3620,8 +3449,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-410
   lesion: semilunar valve obstruction
   aspect: keypoint
@@ -3633,8 +3461,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-411
   lesion: semilunar valve obstruction
   aspect: keypoint
@@ -3646,13 +3473,11 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-412
   lesion: aortic stenosis
   aspect: views
-  statement: Aortic stenosis shows a thickened valve in systole on the left ventricular outflow view, a dilated ascending
-    aorta on the three-vessel view, and left ventricular hypertrophy or dysfunction on the four-chamber view.
+  statement: "Key observations listed for aortic stenosis: a thickened valve in systole on the left ventricular outflow view; with or without a dilated ascending aorta on the three-vessel view; and left ventricular hypertrophy, or dilation and dysfunction, on the four-chamber view."
   source: ASE-2023-FETALECHO
   locator: Table 13 (lesion-specific evaluation), p. 708
   status: ai-extracted
@@ -3660,7 +3485,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. Table 13 p.708, aortic stenosis, key observations. A printed plus/minus precedes ascending aortic dilatation. It is optional. The four-chamber findings also include LV dilatation."
+  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: Table 13 p.708, aortic stenosis, key observations. A printed plus/minus precedes ascending aortic dilatation. It is optional. The four-chamber findings also include LV dilatation. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-413
   lesion: aortic stenosis
   aspect: pitfall
@@ -3673,14 +3498,11 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-414
   lesion: aortic stenosis
   aspect: doppler
-  statement: 'In aortic stenosis, continuous-wave Doppler of mitral regurgitation gives insight into severity: higher
-    velocities suggest preserved ventricular function; low velocities may mean mild obstruction, severe myocardial dysfunction
-    or a primary myocardial disease.'
+  statement: "In aortic stenosis, continuous-wave Doppler of mitral regurgitation gives insight into severity and ventricular function: higher velocities in more severe disease suggest preserved function; low velocities could suggest less severe obstruction, severe myocardial dysfunction, or a primary problem that is myocardial or related to severe atrioventricular valve regurgitation rather than outflow obstruction."
   source: ASE-2023-FETALECHO
   locator: IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716
   status: ai-extracted
@@ -3688,7 +3510,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iv p.716 qualifies the higher-velocity interpretation as applying in more severe disease. For a low velocity it also allows a primary lesion related to severe AV regurgitation. Less severe obstruction is not necessarily mild."
+  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: IV.C.iv p.716 qualifies the higher-velocity interpretation as applying in more severe disease. For a low velocity it also allows a primary lesion related to severe AV regurgitation. Less severe obstruction is not necessarily mild. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-415
   lesion: aortic stenosis
   aspect: evolution
@@ -3701,8 +3523,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-416
   lesion: aortic stenosis
   aspect: associations
@@ -3714,8 +3535,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-417
   lesion: aortic stenosis
   aspect: evolution
@@ -3728,8 +3548,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Case illustration; the gestation in the caption was not carried into the statement. Checked by the extractor
-    (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check.
+  note: "Case illustration; the gestation in the caption was not carried into the statement. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-418
   lesion: pulmonary stenosis
   aspect: views
@@ -3743,8 +3562,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-419
   lesion: pulmonary stenosis
   aspect: doppler
@@ -3756,8 +3574,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-420
   lesion: pulmonary stenosis
   aspect: doppler
@@ -3769,8 +3586,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-421
   lesion: pulmonary atresia with intact septum
   aspect: associations
@@ -3778,13 +3594,13 @@ claims:
     fistulae, suspected when to-and-fro flow is seen in the right ventricular free wall or septum with low-velocity colour
     Doppler.
   source: ASE-2023-FETALECHO
-  locator: IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716
-  status: ai-extracted
+  locator: "IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, p. 716; Table 13, pulmonary stenosis, other key points, p. 708"
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. LOCATOR (ChatGPT (GPT-6, 2026-11-19)): CORRECT LOCATOR. IV.C.iv p.716 supports the lesion, fistulae and flow pattern. Add Table 13 p.708, pulmonary stenosis, other key points, for the low-velocity colour setting."
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026. Locator corrected 21 Nov 2026 as proposed by ChatGPT (GPT-6, 2026-11-19), who found the statement supported there: IV.C.iv p.716 supports the lesion, fistulae and flow pattern. Add Table 13 p.708, pulmonary stenosis, other key points, for the low-velocity colour setting."
 - id: AS23-422
   lesion: pulmonary stenosis
   aspect: measure
@@ -3796,13 +3612,11 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-423
   lesion: hypoplastic left heart syndrome
   aspect: followup
-  statement: Hypoplastic left heart syndrome with mitral regurgitation is at risk of heart failure and should have comprehensive
-    function assessment every 2-4 weeks.
+  statement: "Table 15 gives hypoplastic left heart syndrome with mitral regurgitation as an example of fetal heart disease at risk of heart failure, for which it suggests comprehensive assessment of cardiac function every 2-4 weeks, the interval being at the discretion of the fetal cardiology and obstetric providers."
   source: ASE-2023-FETALECHO
   locator: Table 15 (follow-up imaging for specific CHD diagnoses), p. 719
   status: ai-extracted
@@ -3810,7 +3624,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. Table 15 p.719 lists this lesion under risk for heart failure. The 2–4 week interval is suggested at the cardiology and obstetric providers’ discretion. The claim turns this into an instruction."
+  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: Table 15 p.719 lists this lesion under risk for heart failure. The 2–4 week interval is suggested at the cardiology and obstetric providers’ discretion. The claim turns this into an instruction. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-424
   lesion: Ebstein anomaly and tricuspid dysplasia
   aspect: definition
@@ -3823,8 +3637,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-425
   lesion: Ebstein anomaly and tricuspid dysplasia
   aspect: views
@@ -3837,12 +3650,11 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-426
   lesion: Ebstein anomaly and tricuspid dysplasia
   aspect: measure
-  statement: Tricuspid regurgitation severity is assessed by the width of the vena contracta relative to the annulus.
+  statement: "Tricuspid regurgitation severity can be assessed by measuring the width of the vena contracta relative to the valve annulus."
   source: ASE-2023-FETALECHO
   locator: IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717
   status: ai-extracted
@@ -3850,7 +3662,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iv p.717 presents vena contracta width relative to annular size as one way severity can be assessed. The categorical wording loses the optionality."
+  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: IV.C.iv p.717 presents vena contracta width relative to annular size as one way severity can be assessed. The categorical wording loses the optionality. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-427
   lesion: Ebstein anomaly and tricuspid dysplasia
   aspect: doppler
@@ -3863,8 +3675,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-428
   lesion: Ebstein anomaly and tricuspid dysplasia
   aspect: pitfall
@@ -3877,8 +3688,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-429
   lesion: Ebstein anomaly and tricuspid dysplasia
   aspect: doppler
@@ -3891,8 +3701,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-430
   lesion: Ebstein anomaly and tricuspid dysplasia
   aspect: evolution
@@ -3905,8 +3714,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-431
   lesion: Ebstein anomaly and tricuspid dysplasia
   aspect: measure
@@ -3918,8 +3726,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-432
   lesion: Ebstein anomaly and tricuspid dysplasia
   aspect: measure
@@ -3932,13 +3739,11 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-433
   lesion: Ebstein anomaly and tricuspid dysplasia
   aspect: pitfall
-  statement: Reduced radial displacement, reduced circumferential strain and left ventricular dyssynchrony mark severe
-    disease, but these methods remain investigational.
+  statement: "In severe tricuspid valve disease, failure of left ventricular radial displacement to augment, reduced circumferential strain and left ventricular dyssynchrony are key features, probably reflecting ventricular interaction; these methods are still considered investigational."
   source: ASE-2023-FETALECHO
   locator: IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717
   status: ai-extracted
@@ -3946,7 +3751,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iv p.717 describes failure of radial displacement to augment. That can include an unchanged value and is different from reduced displacement. The strain, synchrony and investigational qualifiers agree."
+  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: IV.C.iv p.717 describes failure of radial displacement to augment. That can include an unchanged value and is different from reduced displacement. The strain, synchrony and investigational qualifiers agree. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-434
   lesion: Ebstein anomaly and tricuspid dysplasia
   aspect: followup
@@ -3959,8 +3764,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-435
   lesion: Ebstein anomaly and tricuspid dysplasia
   aspect: associations
@@ -3973,8 +3777,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-436
   lesion: Ebstein anomaly and tricuspid dysplasia
   aspect: measure
@@ -3986,8 +3789,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-437
   lesion: Ebstein anomaly and tricuspid dysplasia
   aspect: evolution
@@ -3999,8 +3801,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-438
   lesion: valve regurgitation
   aspect: evolution
@@ -4013,8 +3814,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-439
   lesion: valve regurgitation
   aspect: evolution
@@ -4027,8 +3827,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-440
   lesion: valve regurgitation
   aspect: keypoint
@@ -4040,8 +3839,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-441
   lesion: valve regurgitation
   aspect: keypoint
@@ -4053,8 +3851,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-442
   lesion: valve regurgitation
   aspect: evolution
@@ -4066,8 +3863,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-443
   lesion: coarctation of the aorta
   aspect: views
@@ -4080,8 +3876,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-444
   lesion: coarctation of the aorta
   aspect: pitfall
@@ -4093,13 +3888,11 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-445
-  lesion: coarctation of the aorta
+  lesion: "aortic arch"
   aspect: views
-  statement: A size discrepancy between the arches, abnormal flow direction, or a U shape on the three-vessel-and-trachea
-    view should alert the examiner to coarctation.
+  statement: "On the three-vessel-and-trachea view, a size discrepancy between the arches, abnormal colour flow direction, a 'U' shape, or separation of the superior vena cava and trachea by one or two arches should alert the examiner to arch abnormalities, including coarctation, ductal aneurysm, right aortic arch and vascular rings."
   source: ASE-2023-FETALECHO
   locator: IV.C.v Isolated Arch Abnormalities, p. 717
   status: ai-extracted
@@ -4107,7 +3900,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.v p.717 gives warning signs for a group of arch anomalies. Assigning a U shape specifically to coarctation is misleading. Table 13 p.709 places the U-shaped configuration in the vascular rings row."
+  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: IV.C.v p.717 gives warning signs for a group of arch anomalies. Assigning a U shape specifically to coarctation is misleading. Table 13 p.709 places the U-shaped configuration in the vascular rings row. Needs re-check by a non-Claude model (round 5, task J)."
 - id: AS23-446
   lesion: coarctation of the aorta
   aspect: views
@@ -4119,8 +3912,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-447
   lesion: coarctation of the aorta
   aspect: measure
@@ -4132,8 +3924,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-448
   lesion: pulmonary stenosis
   aspect: associations
@@ -4146,8 +3937,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-500
   lesion: aortic arch
   aspect: views
@@ -4159,8 +3949,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-501
   lesion: aortic arch
   aspect: views
@@ -4173,8 +3962,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-502
   lesion: aortic arch
   aspect: views
@@ -4187,8 +3975,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-503
   lesion: vascular ring
   aspect: views
@@ -4201,8 +3988,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-504
   lesion: vascular ring
   aspect: views
@@ -4214,8 +4000,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-505
   lesion: vascular ring
   aspect: associations
@@ -4227,8 +4012,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-506
   lesion: pulmonary artery sling
   aspect: perinatal
@@ -4241,8 +4025,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-507
   lesion: double aortic arch
   aspect: doppler
@@ -4255,8 +4038,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Overlaps AS23-101 (aberrant subclavian, cross-checked). Checked by the extractor (Claude) against the printed
-    page or table on 17 Nov 2026; still needs an independent cross-check.
+  note: "Overlaps AS23-101 (aberrant subclavian, cross-checked). Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-508
   lesion: double aortic arch
   aspect: views
@@ -4269,8 +4051,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-509
   lesion: aberrant right subclavian artery
   aspect: views
@@ -4283,34 +4064,33 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-510
   lesion: aortic arch
   aspect: keypoint
   statement: The three-vessel-and-trachea view should be used to assess vascular anatomy, because vascular rings, slings
     and right aortic arch are readily detectable on it.
   source: ASE-2023-FETALECHO
-  locator: IV.D Key Points, p. 718
-  status: ai-extracted
+  locator: "IV.C.v Isolated Arch Abnormalities, Key Points, p. 718"
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. LOCATOR (ChatGPT (GPT-6, 2026-11-19)): CORRECT LOCATOR. Use IV.C.v, Isolated Arch Abnormalities, first Key Point on p. 718. The box is above the heading that begins IV.D. The imaging recommendation is supported."
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026. Locator corrected 21 Nov 2026 as proposed by ChatGPT (GPT-6, 2026-11-19), who found the statement supported there: Use IV.C.v, Isolated Arch Abnormalities, first Key Point on p. 718. The box is above the heading that begins IV.D. The imaging recommendation is supported."
 - id: AS23-511
   lesion: aortic arch
   aspect: keypoint
   statement: Attempts should be made to diagnose an aberrant subclavian artery, especially when an abnormality of arch
     sidedness is suspected.
   source: ASE-2023-FETALECHO
-  locator: IV.D Key Points, p. 718
-  status: ai-extracted
+  locator: "IV.C.v Isolated Arch Abnormalities, Key Points, p. 718"
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. LOCATOR (ChatGPT (GPT-6, 2026-11-19)): CORRECT LOCATOR. Use IV.C.v, Isolated Arch Abnormalities, second Key Point on p. 718. The box precedes IV.D and gives particular emphasis to suspected abnormal arch sidedness."
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026. Locator corrected 21 Nov 2026 as proposed by ChatGPT (GPT-6, 2026-11-19), who found the statement supported there: Use IV.C.v, Isolated Arch Abnormalities, second Key Point on p. 718. The box precedes IV.D and gives particular emphasis to suspected abnormal arch sidedness."
 - id: AS23-512
   lesion: ductal aneurysm
   aspect: definition
@@ -4323,8 +4103,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-513
   lesion: ductal aneurysm
   aspect: measure
@@ -4337,8 +4116,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-514
   lesion: ductal aneurysm
   aspect: evolution
@@ -4351,8 +4129,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-515
   lesion: ductal constriction
   aspect: associations
@@ -4365,8 +4142,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-516
   lesion: ductal constriction
   aspect: evolution
@@ -4379,8 +4155,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-517
   lesion: heterotaxy
   aspect: evolution
@@ -4393,8 +4168,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-518
   lesion: systemic venous anomalies
   aspect: associations
@@ -4407,8 +4181,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-519
   lesion: systemic venous anomalies
   aspect: associations
@@ -4420,8 +4193,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-520
   lesion: obstructed pulmonary venous return
   aspect: perinatal
@@ -4434,8 +4206,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-521
   lesion: cardiac tumours
   aspect: evolution
@@ -4447,8 +4218,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-522
   lesion: rhabdomyoma
   aspect: evolution
@@ -4460,8 +4230,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-523
   lesion: ventricular dysfunction
   aspect: associations
@@ -4474,8 +4243,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-524
   lesion: heart failure
   aspect: associations
@@ -4488,8 +4256,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-525
   lesion: arrhythmia risk
   aspect: associations
@@ -4502,8 +4269,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-600
   lesion: delivery planning
   aspect: keypoint
@@ -4516,8 +4282,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-601
   lesion: delivery planning
   aspect: followup
@@ -4530,8 +4295,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-602
   lesion: delivery planning
   aspect: perinatal
@@ -4543,8 +4307,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-603
   lesion: delivery planning
   aspect: keypoint
@@ -4557,8 +4320,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-604
   lesion: delivery planning
   aspect: perinatal
@@ -4570,8 +4332,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-605
   lesion: surveillance
   aspect: followup
@@ -4583,8 +4344,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-606
   lesion: surveillance
   aspect: followup
@@ -4598,8 +4358,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-607
   lesion: surveillance
   aspect: followup
@@ -4612,8 +4371,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-608
   lesion: surveillance
   aspect: followup
@@ -4627,8 +4385,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-609
   lesion: surveillance
   aspect: followup
@@ -4643,8 +4400,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-610
   lesion: surveillance
   aspect: followup
@@ -4659,8 +4415,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-611
   lesion: surveillance
   aspect: followup
@@ -4673,8 +4428,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-612
   lesion: surveillance
   aspect: followup
@@ -4689,8 +4443,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-613
   lesion: surveillance
   aspect: followup
@@ -4704,8 +4457,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-614
   lesion: surveillance
   aspect: followup
@@ -4719,8 +4471,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
 - id: AS23-615
   lesion: surveillance
   aspect: followup
@@ -4734,5 +4485,4 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: "ChatGPT (GPT-6, 2026-11-19)"
   verified_by: null
-  note: Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent
-    cross-check.
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026."
