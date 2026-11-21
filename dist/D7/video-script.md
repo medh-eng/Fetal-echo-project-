@@ -1,6 +1,6 @@
 # Video script: Adding colour to the sweep
 
-> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-cross-checked' that no clinician has verified.
+> Verified content.
 
 Unit D7 | Target length: 5 min
 

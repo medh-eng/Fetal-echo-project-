@@ -1,0 +1,25 @@
+# Decisions answered by the editor-in-chief, Dr Kunda Shahane. Relayed by the project owner in chat.
+
+- id: Q1
+  date: 2026-11-21
+  question: "ASE: pulsed-wave Doppler of the aortic arch and isthmus - required (text, p. 689) or optional (Table 6, p. 693)?"
+  answer: "Teach as required."
+  applied: "Claim ED-001; units F1 and XA5 changed."
+
+- id: Q2
+  date: 2026-11-21
+  question: "After a normal 11-14 week heart check, may D9 say plainly that the full second-trimester screen is still required?"
+  answer: "Yes, say it plainly for screening as the editor's teaching."
+  applied: "Claim ED-002; unit D9 changed."
+
+- id: Q3
+  date: 2026-11-21
+  question: "Rate thresholds: ISUOG thresholds for the screener, ASE wording mentioned (D8, D10, F2) - right for this course?"
+  answer: "Yes (relayed as 'Yes, say it plainly for screening as the editor's teaching')."
+  applied: "No change: units already teach the ISUOG thresholds for the screener and mention the ASE wording."
+
+- id: Q4
+  date: 2026-11-21
+  question: "Does the consent held for archive cases cover publication for teaching in a paid product?"
+  answer: "Yes, wording covers it."
+  applied: "Consent no longer blocks use of archive clips. Every clip must still pass the anonymiser and two different checkers, with no view that could show fetal sex (tools/clinic/build_media.py). A written copy of the consent wording should be kept with the clinic's records."

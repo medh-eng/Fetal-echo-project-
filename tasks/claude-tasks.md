@@ -19,7 +19,10 @@ Suggested model is given for each task. "Needs" lists what the project owner mus
 
 All 22 reworded claims confirmed. Audit findings fixed in D0, D1, D2, D5, D6, XA5; one finding on D11 not applied (see `docs/log.md`). All 17 units now carry `audited_by`. The six changed units need a short re-audit: `tasks/chatgpt-tasks-round4.md`, task G.
 
-## 3. Record the editor's sign-off (Sonnet)
+## 3. Record the editor's sign-off (Sonnet) - DONE 21 Nov for the 19 Nov review pack
+
+Done 21 Nov by Claude (Opus): the project owner relayed that Dr Kunda read the whole 19 Nov pack and approved all of it, and answered Q1-Q4. 142 claims (5 re-approvals, 137 new) set to expert-verified; D0, D1, D5, D7, D8, D13 signed (the only units the pack marked signable). The other 11 units in that pack still use 14 held-back claims and stay unsigned until those are cross-checked and approved. The twelve units drafted on 21 Nov were not in the pack she read and are not signed; the rebuilt `dist/editor/review-pack.html` now lists them. Answers in `content/editor/answered.yaml`; Q1 and Q2 entered as editor claims ED-001 and ED-002. Instructions below kept for the next pack.
+
 
 Needs: a statement from the project owner of which units Dr Kunda approved, the date, and any claims she marked "change" or "remove".
 

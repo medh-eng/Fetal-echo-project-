@@ -11,20 +11,20 @@ claims:
     and also considers late first-trimester and early second-trimester screening where technically feasible.
   source: ISUOG-2023-SCREEN
   locator: Introduction, p. 788
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-002
   statement: The 2023 update encourages colour flow Doppler and adds new sections on quality assurance and on use
     of a checklist.
   source: ISUOG-2023-SCREEN
   locator: Introduction, p. 788; Appendix 1, p. 802
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-003
   statement: Congenital heart disease has a prevalence of 8.2 per 1000 live births and is a leading cause of infant
@@ -53,21 +53,21 @@ claims:
     abdominal scars, gestational age, amniotic fluid volume and fetal position.
   source: ISUOG-2023-SCREEN
   locator: Introduction, p. 788
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-006
   statement: Continuous feedback-based training, a low threshold for echocardiography referral, standardised protocols
     and easy access to fetal heart specialists can improve the performance of a screening programme.
   source: ISUOG-2023-SCREEN
   locator: Introduction, p. 788
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude; reworded 16 Nov 2026 from the ChatGPT cross-check of the PDF. Needs re-check against the
     PDF by a model other than Claude.
   checked_by: "ChatGPT (Codex, 2026-11-16)"
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: 'Reworded after the cross-check found: Introduction, p. 788 says the listed measures can improve programme
     performance. The claim states the performance benefit without that qualification.'
 - id: IS23-007
@@ -117,10 +117,10 @@ claims:
     18-20 weeks, although many patients prefer to know about major defects as early as possible.
   source: ISUOG-2023-SCREEN
   locator: Gestational age, p. 789
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-012
   statement: The highest possible transducer frequency should be used, accepting the trade-off between resolution
@@ -185,11 +185,11 @@ claims:
     standards (good practice point).
   source: ISUOG-2023-SCREEN
   locator: 'Technical factors: Zoom, cine-loop and image storage, p. 789'
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude; reworded 16 Nov 2026 from the ChatGPT cross-check of the PDF. Needs re-check against the
     PDF by a model other than Claude.
   checked_by: "ChatGPT (Codex, 2026-11-16)"
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: 'Approved by the editor on 13 Nov 2026 in an earlier wording (Dr Kunda Shahane, 2026-11-13 (approved review
     sheet for v0.2 in full; approval relayed by the project owner)). Reworded after the cross-check found: Technical
     factors, Zoom, cine-loop and image storage, p. 789 also calls for appropriate patient identification in the
@@ -223,10 +223,10 @@ claims:
     stenosis, which may progress in severity as pregnancy advances.
   source: ISUOG-2023-SCREEN
   locator: Cardiac examination, p. 789
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-021
   statement: To assess situs, fetal laterality (fetal right and left, from the position of the fetus in utero) must
@@ -399,11 +399,11 @@ claims:
     bradycardia.
   source: ISUOG-2023-SCREEN
   locator: Four-chamber view, p. 792
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude; reworded 16 Nov 2026 from the ChatGPT cross-check of the PDF. Needs re-check against the
     PDF by a model other than Claude.
   checked_by: "ChatGPT (Codex, 2026-11-16)"
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: 'Approved by the editor on 13 Nov 2026 in an earlier wording (Dr Kunda Shahane, 2026-11-13 (approved review
     sheet for v0.2 in full; approval relayed by the project owner)). Reworded after the cross-check found: Four-chamber
     view, p. 792 describes an association between transient bradycardia and probe pressure. “Often from” strengthens
@@ -436,10 +436,10 @@ claims:
     where the atrioventricular valves insert.
   source: ISUOG-2023-SCREEN
   locator: Four-chamber view, p. 792
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-040
   statement: When technically feasible, at least one pulmonary vein should be seen entering the left atrium on B-mode;
@@ -457,11 +457,11 @@ claims:
     alongside the B-mode image to avoid false-negative findings.
   source: ISUOG-2023-SCREEN
   locator: Four-chamber view, p. 792
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude; reworded 16 Nov 2026 from the ChatGPT cross-check of the PDF. Needs re-check against the
     PDF by a model other than Claude.
   checked_by: "ChatGPT (Codex, 2026-11-16)"
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: 'Reworded after the cross-check found: Four-chamber view, p. 792 advises displaying colour alongside B-mode
     in the passage about showing pulmonary veins entering the left atrium. The claim turns this into a rule for
     every use of colour Doppler.'
@@ -516,10 +516,10 @@ claims:
     and may close spontaneously in utero.
   source: ISUOG-2023-SCREEN
   locator: Four-chamber view, p. 793
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-047
   statement: Two separate atrioventricular valves should open separately and freely, with the septal leaflet of
@@ -527,11 +527,11 @@ claims:
     be a key sonographic finding in anomalies such as atrioventricular septal defect.
   source: ISUOG-2023-SCREEN
   locator: Four-chamber view, p. 793; Table 1
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude; reworded 16 Nov 2026 from the ChatGPT cross-check of the PDF. Needs re-check against the
     PDF by a model other than Claude.
   checked_by: "ChatGPT (Codex, 2026-11-16)"
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: 'Approved by the editor on 13 Nov 2026 in an earlier wording (Dr Kunda Shahane, 2026-11-13 (approved review
     sheet for v0.2 in full; approval relayed by the project owner)). Reworded after the cross-check found: Four-chamber
     view, p. 793 says abnormal AV valve alignment can be a key sonographic finding in anomalies such as AV septal
@@ -542,20 +542,20 @@ claims:
     views are an integral part of the cardiac screening examination.
   source: ISUOG-2023-SCREEN
   locator: Outflow-tract, three-vessel and three-vessel-and-trachea views, p. 793
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-049
   statement: For the two great arteries, the examiner should establish connection to the correct ventricle, size,
     position relative to each other, and normal appearance and opening of the semilunar valves.
   source: ISUOG-2023-SCREEN
   locator: Outflow-tract, three-vessel and three-vessel-and-trachea views, p. 793
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-050
   statement: In a survey of over 18 000 fetuses, 93% of examinations with an adequate four-chamber view also achieved
@@ -563,10 +563,10 @@ claims:
     the right and 1.3% for both.
   source: ISUOG-2023-SCREEN
   locator: Outflow-tract, three-vessel and three-vessel-and-trachea views, p. 793
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-051
   statement: As a minimum, the great arteries should be shown to be approximately equal in size; a major discrepancy
@@ -596,10 +596,10 @@ claims:
     arch and systemic veins, including persistent left superior vena cava, and thymic anomalies.
   source: ISUOG-2023-SCREEN
   locator: Outflow-tract, three-vessel and three-vessel-and-trachea views, p. 793
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-054
   statement: The three-vessel-and-trachea view is particularly useful for aortic arch abnormalities such as coarctation,
@@ -640,10 +640,10 @@ claims:
     the LVOT, especially the outlet septum in continuity with the anterior aortic wall.'
   source: ISUOG-2023-SCREEN
   locator: 'Outflow tracts: Sonographic technique, p. 793'
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-058
   statement: Once the LVOT is obtained, the transducer is angled cephalad until the pulmonary artery is seen running
@@ -651,10 +651,10 @@ claims:
     still frames.
   source: ISUOG-2023-SCREEN
   locator: 'Outflow tracts: Sonographic technique, p. 793'
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-059
   statement: The LVOT view confirms a great vessel arising from the morphological left ventricle; continuity between
@@ -683,10 +683,10 @@ claims:
     part of the routine cardiac screening examination.
   source: ISUOG-2023-SCREEN
   locator: LVOT view, p. 794
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-062
   statement: The LVOT view helps identify outlet ventricular septal defects, conotruncal abnormalities and aortic
@@ -705,11 +705,11 @@ claims:
     or on cine-loop than from still images alone.
   source: ISUOG-2023-SCREEN
   locator: RVOT view, 3VV and 3VTV, p. 794; Figure 8, p. 795
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude; reworded 16 Nov 2026 from the ChatGPT cross-check of the PDF. Needs re-check against the
     PDF by a model other than Claude.
   checked_by: "ChatGPT (Codex, 2026-11-16)"
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: 'Approved by the editor on 13 Nov 2026 in an earlier wording (Dr Kunda Shahane, 2026-11-13 (approved review
     sheet for v0.2 in full; approval relayed by the project owner)). Reworded after the cross-check found: RVOT
     view, 3VV and 3VTV, p. 794 describes greater reliability of live or cine review as likely. The claim states
@@ -789,10 +789,10 @@ claims:
     away from a true axial plane.
   source: ISUOG-2023-SCREEN
   locator: RVOT view, 3VV and 3VTV, p. 796
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-071
   statement: The three-vessel-and-trachea view is likely to enable detection of coarctation of the aorta, right
@@ -811,10 +811,10 @@ claims:
     infusion, or anticipating airway problems from vascular compression.
   source: ISUOG-2023-SCREEN
   locator: RVOT view, 3VV and 3VTV, p. 796
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-073
   statement: Colour flow Doppler is not mandatory in screening, but becoming familiar with it and adding it to routine
@@ -844,10 +844,10 @@ claims:
     in low-risk pregnancies.
   source: ISUOG-2023-SCREEN
   locator: Color flow Doppler ultrasound, p. 796
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-076
   statement: The colour box should be narrow and placed only over the area of interest; this preserves frame rate
@@ -866,11 +866,11 @@ claims:
     built into cardiac presets.
   source: ISUOG-2023-SCREEN
   locator: Color flow Doppler ultrasound, p. 796
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude; reworded 16 Nov 2026 from the ChatGPT cross-check of the PDF. Needs re-check against the
     PDF by a model other than Claude.
   checked_by: "ChatGPT (Codex, 2026-11-16)"
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: 'Approved by the editor on 13 Nov 2026 in an earlier wording (Dr Kunda Shahane, 2026-11-13 (approved review
     sheet for v0.2 in full; approval relayed by the project owner)). Reworded after the cross-check found: Color
     flow Doppler ultrasound, p. 796 recommends the two stated velocity scales. It describes low colour persistence
@@ -893,10 +893,10 @@ claims:
     (good practice point).
   source: ISUOG-2023-SCREEN
   locator: Fetal echocardiography, p. 796
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-080
   statement: A high proportion of prenatally detectable heart disease occurs in pregnancies with no risk factors
@@ -914,10 +914,10 @@ claims:
     even if the measurement later falls within the normal range.
   source: ISUOG-2023-SCREEN
   locator: Fetal echocardiography, p. 797
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-082
   statement: 'Common fetal indications for fetal echocardiography: suspected cardiac structural anomaly; extracardiac
@@ -927,11 +927,11 @@ claims:
     genetic abnormality; monochorionic twinning (if resources allow).'
   source: ISUOG-2023-SCREEN
   locator: Table 2, 'Fetal factors', p. 797
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude; reworded 16 Nov 2026 from the ChatGPT cross-check of the PDF. Needs re-check against the
     PDF by a model other than Claude.
   checked_by: "ChatGPT (Codex, 2026-11-16)"
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: 'Reworded after the cross-check found: Table 2, Fetal factors, p. 797 specifies a suspected cardiac structural
     anomaly. An extracardiac structural anomaly is an indication here when it has a known association with CHD.
     The unqualified first item broadens referral.'
@@ -943,11 +943,11 @@ claims:
     (TORCH or parvovirus B19).'
   source: ISUOG-2023-SCREEN
   locator: Table 2, 'Patient or familial disease or environmental exposure', p. 797
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude; reworded 16 Nov 2026 from the ChatGPT cross-check of the PDF. Needs re-check against the
     PDF by a model other than Claude.
   checked_by: "ChatGPT (Codex, 2026-11-16)"
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: 'Reworded after the cross-check found: Table 2, Patient or familial disease or environmental exposure, p.
     797 explicitly includes parents, siblings and half-siblings in its first family-history entry. Reporting only
     the degree loses the table’s explicit inclusion of half-siblings.'
@@ -958,10 +958,10 @@ claims:
     use of ACE inhibitors.'
   source: ISUOG-2023-SCREEN
   locator: Table 2, 'Other indications when fetal echo may be considered', p. 797
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-085
   statement: 'Evidence is insufficient that the risk of congenital heart disease is significantly above baseline
@@ -971,11 +971,11 @@ claims:
     only, or isolated congenital heart disease in a relative more distant than second degree.'
   source: ISUOG-2023-SCREEN
   locator: Table 2, 'Other considerations', p. 797
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude; reworded 16 Nov 2026 from the ChatGPT cross-check of the PDF. Needs re-check against the
     PDF by a model other than Claude.
   checked_by: "ChatGPT (Codex, 2026-11-16)"
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: 'Reworded after the cross-check found: Table 2, Other considerations, p. 797 qualifies non-cardiac soft
     markers as markers for aneuploidy, fever as prenatal, and the distant relative’s isolated disease as congenital.
     Its BMI threshold is ≥35 kg/m². The evidence statement concerns risk of CHD.'
@@ -985,11 +985,11 @@ claims:
     high prevalence of maternal psychological distress.
   source: ISUOG-2023-SCREEN
   locator: Fetal echocardiography, p. 797
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude; reworded 16 Nov 2026 from the ChatGPT cross-check of the PDF. Needs re-check against the
     PDF by a model other than Claude.
   checked_by: "ChatGPT (Codex, 2026-11-16)"
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: 'Reworded after the cross-check found: Fetal echocardiography, p. 797 includes familiarity with postnatal
     management and prognosis in the specialist’s qualifications, alongside prenatal diagnosis and postnatal course.
     The claim drops those two elements. Its maternal-distress statement is supported.'
@@ -998,10 +998,10 @@ claims:
     appropriate interpretation of the views, and complete documentation.
   source: ISUOG-2023-SCREEN
   locator: Quality assurance, p. 797
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-088
   statement: In one retrospective study of missed prenatal diagnoses, failure to meet technical criteria contributed
@@ -1021,30 +1021,30 @@ claims:
     as needed.
   source: ISUOG-2023-SCREEN
   locator: Quality assurance, p. 797
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-090
   statement: First-trimester cardiac screening has been shown to be effective in low-risk populations, but it is
     neither routine nor mandatory; where possible it can be done at the nuchal translucency scan.
   source: ISUOG-2023-SCREEN
   locator: Early fetal cardiac screening, p. 797
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-091
   statement: Minimum requirements for early screening are seeing the heart within the chest and confirming a regular
     rhythm; success in visualising cardiac structures is significantly higher after 12+3 weeks.
   source: ISUOG-2023-SCREEN
   locator: Early fetal cardiac screening, p. 797
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-092
   statement: For early screening, high-frequency transabdominal transducers are recommended (transvaginal may be
@@ -1052,11 +1052,11 @@ claims:
     greyscale.
   source: ISUOG-2023-SCREEN
   locator: Early fetal cardiac screening, p. 798
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude; reworded 16 Nov 2026 from the ChatGPT cross-check of the PDF. Needs re-check against the
     PDF by a model other than Claude.
   checked_by: "ChatGPT (Codex, 2026-11-16)"
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: 'Reworded after the cross-check found: Early fetal cardiac screening, p. 798 specifies bidirectional flow
     mapping when describing high-quality power Doppler. The claim allows unspecified power Doppler. The transabdominal
     and transvaginal probe statements agree.'
@@ -1065,10 +1065,10 @@ claims:
     view; the thermal index should be 1.0 or less and exposure as short as possible (usually no more than 5-10 minutes).
   source: ISUOG-2023-SCREEN
   locator: Early fetal cardiac screening, p. 798
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude, from the full PDF (13 Nov 2026)
   checked_by: ChatGPT (GPT-6, 2026-11-16)
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-094
   statement: 'Recommended components of a detailed early cardiac screen: situs and cardiac axis on greyscale; four-chamber
@@ -1076,11 +1076,11 @@ claims:
     and/or bidirectional power Doppler showing left-sided aortic and ductal arches (good practice point).'
   source: ISUOG-2023-SCREEN
   locator: Early fetal cardiac screening, p. 798; Figure 10
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude; reworded 16 Nov 2026 from the ChatGPT cross-check of the PDF. Needs re-check against the
     PDF by a model other than Claude.
   checked_by: "ChatGPT (Codex, 2026-11-16)"
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: 'Reworded after the cross-check found: Early fetal cardiac screening, p. 798, items 2 and 3 and Figure 10,
     specifies colour and/or bidirectional power Doppler for the four-chamber and three-vessel-and-trachea views.
     Omitting bidirectionality changes the accepted power mode.'
@@ -1089,11 +1089,11 @@ claims:
     diagnosis; suspicion of congenital heart disease at the early scan should lead to referral for early fetal echocardiography.
   source: ISUOG-2023-SCREEN
   locator: Early fetal cardiac screening, p. 798
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: Claude; reworded 16 Nov 2026 from the ChatGPT cross-check of the PDF. Needs re-check against the
     PDF by a model other than Claude.
   checked_by: "ChatGPT (Codex, 2026-11-16)"
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: 'Reworded after the cross-check found: Early fetal cardiac screening, p. 798 specifies suspicion of congenital
     heart disease at the early scan as the referral trigger. “Any suspicion” is broader. The limitations of early
     outflow views are supported.'
@@ -1121,10 +1121,10 @@ claims:
   statement: Recurrent fetal heart-rate decelerations in the third trimester can reflect fetal hypoxia.
   source: ISUOG-2023-SCREEN
   locator: Four-chamber view, p. 792
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: ChatGPT (GPT-6, 2026-11-16), listed as a missed fact in the cross-check report
   checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-099
   statement: "Limited lateral resolution makes a small ventricular septal defect particularly difficult to confirm when fetal size and position are unfavourable."
@@ -1140,30 +1140,30 @@ claims:
     vessels and the front of the chest.
   source: ISUOG-2023-SCREEN
   locator: Figures 7 and 9, pp. 795-796
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: ChatGPT (GPT-6, 2026-11-16), listed as a missed fact in the cross-check report
   checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-101
   statement: During first-trimester screening, the balance between colour and greyscale is adjusted to favour the
     flow signal in the small cardiac structures.
   source: ISUOG-2023-SCREEN
   locator: Early fetal cardiac screening, p. 798
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: ChatGPT (GPT-6, 2026-11-16), listed as a missed fact in the cross-check report
   checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-102
   statement: A posterior fetal spine is the preferred orientation for showing inflow into both ventricles in the
     early four-chamber view.
   source: ISUOG-2023-SCREEN
   locator: Early fetal cardiac screening, item 2, p. 798
-  status: ai-cross-checked
+  status: expert-verified
   extracted_by: ChatGPT (GPT-6, 2026-11-16), listed as a missed fact in the cross-check report
   checked_by: "Claude (Fable 5.2, 2026-11-17; PDF text read through a reader model, see tasks/results/task-1-crosscheck.md)"
-  verified_by: null
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
   note: null
 - id: IS23-103
   statement: In the guideline's illustration of early screening, colour is assessed on the four-chamber view in

@@ -111,8 +111,8 @@ sections:
     blocks:
       - text: "The guideline's table lists as required: umbilical vein, ductus venosus, at least one pulmonary vein on each side, tricuspid and mitral inflow, aortic and pulmonary outflow, the distal ductus arteriosus and the umbilical artery."
         claims: [AS23-013]
-      - text: "The table marks as optional: hepatic vein, the venae cavae, branch pulmonary arteries, middle cerebral artery, a combined left ventricular inflow and outflow recording, and tissue Doppler at the lateral annulus. Whether the aortic arch and isthmus are required or optional is not settled within the guideline."
-        claims: [AS23-014]
+      - text: "The table marks as optional: hepatic vein, the venae cavae, branch pulmonary arteries, middle cerebral artery, a combined left ventricular inflow and outflow recording, and tissue Doppler at the lateral annulus. The table also marks the aortic arch and isthmus optional, but the guideline's text includes the arches in the minimum assessment; this course follows the text and teaches pulsed-wave Doppler of the transverse arch and isthmus as required (the editor's teaching)."
+        claims: [AS23-014, ED-001]
 
   - heading: "Rhythm and function"
     blocks:
@@ -137,7 +137,6 @@ missing_claims:
   - "The segmental sequence itself (situs, atrioventricular connection, ventriculo-arterial connection) explained as a method - needs a source and the cardiology co-editor."
   - "Normal values and Z-scores for every measurement named here - planned for XA6; needs sources."
   - "Timing in the cycle for aortic and pulmonary annulus measurement - the guideline is inconsistent (note on claim AS23-069); the editor or co-editor to decide."
-  - "Arch and isthmus as required or optional pulsed-wave sites - open (question Q1)."
   - "ISUOG fetal echocardiography guideline and AIUM practice parameter - not yet harvested; compare with ASE before release."
   - "This unit's ASE claims were extracted by ChatGPT and are not yet cross-checked against the PDF."
 
@@ -297,8 +296,8 @@ checklist:
       claims: [AS23-066, AS23-067]
     - text: "Four valve annuli measured"
       claims: [AS23-068, AS23-069]
-    - text: "Pulsed-wave Doppler at the required sites"
-      claims: [AS23-013]
+    - text: "Pulsed-wave Doppler at the required sites, including the transverse arch and isthmus"
+      claims: [AS23-013, ED-001]
     - text: "Rate, rhythm and qualitative function documented"
       claims: [AS23-073, AS23-087]
     - text: "Stills, clips and structured report; limitations stated if any"

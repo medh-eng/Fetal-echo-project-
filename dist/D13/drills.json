@@ -1,7 +1,7 @@
 {
   "unit": "D13",
   "title": "Quality assurance and audit",
-  "status": "ai-cross-checked",
+  "status": "expert-verified",
   "items": [
     {
       "id": "D13-Q01",
@@ -17,7 +17,7 @@
       "claims": [
         "IS23-087"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D13-Q02",
@@ -33,7 +33,7 @@
       "claims": [
         "IS23-017"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D13-Q03",
@@ -49,7 +49,7 @@
       "claims": [
         "IS23-017"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D13-Q04",
@@ -65,7 +65,7 @@
       "claims": [
         "IS23-063"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D13-Q05",
@@ -81,7 +81,7 @@
       "claims": [
         "IS23-089"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D13-Q06",
@@ -97,7 +97,7 @@
       "claims": [
         "IS23-089"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D13-Q07",
@@ -114,7 +114,7 @@
         "IS23-089",
         "IS23-048"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D13-Q08",
@@ -162,7 +162,7 @@
       "claims": [
         "IS23-002"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     }
   ]
 }

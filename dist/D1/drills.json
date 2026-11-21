@@ -1,7 +1,7 @@
 {
   "unit": "D1",
   "title": "The normal heart in five views",
-  "status": "ai-cross-checked",
+  "status": "expert-verified",
   "items": [
     {
       "id": "D1-Q01",
@@ -66,7 +66,7 @@
         "IS23-033",
         "IS23-036"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q05",
@@ -210,7 +210,7 @@
       "claims": [
         "IS23-047"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q14",
@@ -325,7 +325,7 @@
       "claims": [
         "IS23-077"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D1-Q21",

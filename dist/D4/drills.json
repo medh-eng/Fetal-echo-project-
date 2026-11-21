@@ -97,7 +97,7 @@
       "claims": [
         "IS23-047"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D4-Q07",
@@ -129,7 +129,7 @@
       "claims": [
         "IS23-046"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D4-Q09",
@@ -164,7 +164,7 @@
         "IS23-026",
         "IS23-043"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     }
   ]
 }

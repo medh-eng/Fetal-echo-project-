@@ -1,6 +1,6 @@
 # Video script: Audit your own hearts
 
-> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-cross-checked' that no clinician has verified.
+> Verified content.
 
 Unit D13 | Target length: 4 min
 

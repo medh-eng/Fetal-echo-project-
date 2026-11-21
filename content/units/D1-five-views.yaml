@@ -7,7 +7,7 @@ tier: Detect
 version: 0.4
 drafted_by: "Claude (13 Nov 2026)"
 audited_by: "ChatGPT (Codex), 16 Nov 2026, against the ledger only; findings applied by Claude (Fable)."
-signed_by: null  # v0.2 was signed by Dr Kunda Shahane on 2026-11-13. v0.3 restores qualifiers in five claims after the cross-check of 16 Nov; she needs to re-approve those five (see dist/editor/review-pack).
+signed_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
 
 objectives:
   - "Perform the five-plane sweep in order and say what each plane must show."

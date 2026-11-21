@@ -1,7 +1,7 @@
 {
   "unit": "D0",
   "title": "Why hearts are missed",
-  "status": "ai-cross-checked",
+  "status": "expert-verified",
   "items": [
     {
       "id": "D0-Q01",
@@ -129,7 +129,7 @@
       "claims": [
         "IS23-006"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D0-Q09",
@@ -145,7 +145,7 @@
       "claims": [
         "IS23-089"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D0-Q10",
@@ -161,7 +161,7 @@
       "claims": [
         "IS23-005"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     }
   ]
 }

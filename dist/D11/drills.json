@@ -33,7 +33,7 @@
       "claims": [
         "IS23-083"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D11-Q03",
@@ -50,7 +50,7 @@
         "IS23-085",
         "IS23-083"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D11-Q04",
@@ -66,7 +66,7 @@
       "claims": [
         "IS23-085"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D11-Q05",
@@ -83,7 +83,7 @@
         "IS23-083",
         "IS23-084"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D11-Q06",
@@ -99,7 +99,7 @@
       "claims": [
         "IS23-084"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D11-Q07",
@@ -116,7 +116,7 @@
         "IS23-082",
         "IS23-085"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D11-Q08",
@@ -133,7 +133,7 @@
         "IS23-084",
         "IS23-085"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D11-Q09",
@@ -149,7 +149,7 @@
       "claims": [
         "IS23-083"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D11-Q10",
@@ -181,7 +181,7 @@
       "claims": [
         "IS23-086"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D11-Q12",

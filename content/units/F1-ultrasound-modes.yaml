@@ -84,8 +84,8 @@ sections:
         claims: [AS23-013]
       - text: "The same table marks as optional: hepatic vein, the venae cavae, branch pulmonary arteries, middle cerebral artery, a combined left ventricular inflow and outflow recording, and tissue Doppler at the lateral tricuspid and mitral annulus."
         claims: [AS23-014]
-      - text: "Not settled: the table also marks the transverse aortic arch and isthmus as optional, while the guideline's text includes 'arches' in its minimum pulsed-wave assessment. The guideline does not reconcile the two. This course does not yet teach either reading as the rule; the editor's decision is awaited."
-        claims: [AS23-014]
+      - text: "The aortic arch and isthmus: the guideline's table marks them optional, while its text includes the arches in the minimum pulsed-wave assessment. This course follows the text. The editor's teaching: pulsed-wave Doppler of the transverse arch and the isthmus is a required part of the complete fetal echocardiogram."
+        claims: [AS23-014, ED-001]
 
   - heading: "Continuous-wave Doppler"
     blocks:
@@ -133,7 +133,6 @@ sections:
 
 missing_claims:
   - "How each mode forms its image (basic physics, aliasing, Nyquist limit explained) - needs a physics source; planned for unit XA4."
-  - "Arch and isthmus as pulsed-wave sites: the unit states the disagreement inside the guideline and teaches neither reading as the rule. The cross-check of 16 Nov confirmed the disagreement is real. Editor to decide (question Q1)."
   - "Colour M-mode: the harvest of 16 Nov found no separate recommendation for it in the ASE guideline."
   - "ISUOG fetal echocardiography guideline and AIUM practice parameter on modes - not yet harvested; add to compare with ASE."
   - "High-definition (HD) flow and other machine-specific modes on the Voluson - needs a source and the editor's input."
@@ -313,8 +312,8 @@ checklist:
       claims: [AS23-008]
     - text: "Colour Doppler used, with scale set to the velocities of interest and gain and persistence adjusted"
       claims: [AS23-001, AS23-010]
-    - text: "Pulsed-wave Doppler at the sites the guideline table marks required (arch and isthmus: not settled, see the unit text)"
-      claims: [AS23-013, AS23-014]
+    - text: "Pulsed-wave Doppler at the sites the guideline table marks required, and at the transverse arch and isthmus (required in this course)"
+      claims: [AS23-013, ED-001]
     - text: "Single-site recordings: beam along the flow (angle below 20 degrees); small sample gate"
       claims: [AS23-012]
     - text: "Power Doppler can help with small vessels and slow flow"

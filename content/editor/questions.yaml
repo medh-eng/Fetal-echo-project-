@@ -2,26 +2,5 @@
 # Each has a default: if no answer is given, work continues on the default
 # and the item stays visibly open. Remove an item once answered and logged.
 
-- id: Q1
-  question: "ASE guideline, pulsed-wave Doppler of the aortic arch and isthmus. The text (p. 689) includes 'arches' in the minimum assessment; Table 6 (p. 693) marks the transverse arch and isthmus optional and separately requires the distal ductus arteriosus. ChatGPT's check of the PDF confirmed that the guideline does not reconcile the two. How should the course teach it?"
-  options: ["Teach as optional (as in Table 6)", "Teach as required (as in the text)", "Keep the present wording: state both, teach neither as the rule"]
-  default: "Present wording stays: units F1 and XA5 state the disagreement and teach neither reading as the rule."
-  affects: "Units F1 and XA5"
-
-- id: Q2
-  question: "After a normal early (11 to 14 week) heart check, may unit D9 say plainly that the full second-trimester cardiac screen is still required? The ASE guideline says this for early fetal echocardiography (repeat at 18 to 20 weeks); the ISUOG screening guideline does not say it in so many words."
-  options: ["Yes, say it plainly for screening as the editor's teaching", "No, keep it as the ASE statement about echocardiography only"]
-  default: "D9 quotes the ASE statement under its own heading and makes no rule for screening."
-  affects: "Unit D9"
-
-- id: Q3
-  question: "Rate thresholds. ISUOG (screening): refer for a persistent rate of 110 or less, or 180 or more. ASE (echocardiography): a sustained rate below 120, or above 160 to 180, is abnormal. Units D8 and F2 teach the ISUOG thresholds for the screener and mention the ASE wording. Is that right for this course?"
-  options: ["Yes", "No, teach this instead: ____________"]
-  default: "As drafted: ISUOG thresholds for the screener, ASE wording mentioned."
-  affects: "Units D8, D10, F2"
-
-- id: Q4
-  question: "Does the consent held for archive cases cover publication for teaching in a paid product (not only clinical care)?"
-  options: ["Yes, wording covers it", "No or unsure: re-consent or do not use", "Ask the legal advisor"]
-  default: "No archive clip is published until this is confirmed in writing."
-  affects: "All clip drills and the case atlas"
+[]
+# All four questions were answered on 21 Nov 2026; see content/editor/answered.yaml.

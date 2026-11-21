@@ -1,0 +1,27 @@
+# Evidence ledger: the editor-in-chief's own teaching decisions.
+# Each claim records a decision Dr Kunda Shahane made on a question in content/editor/questions.yaml,
+# relayed by the project owner in the chat. Not a guideline statement: units must present these
+# as the course's teaching, and say which guideline wording they settle.
+
+source: EDITOR-KS
+claims:
+- id: ED-001
+  topic: fetal echocardiogram
+  statement: "In this course, pulsed-wave Doppler of the transverse aortic arch and the aortic isthmus is taught as a required part of the complete fetal echocardiogram. This follows the ASE guideline's text, which includes the arches in the minimum pulsed-wave assessment, and not its Table 6, which marks them optional."
+  source: EDITOR-KS
+  locator: "Editor's decision on question Q1, 21 Nov 2026 (ASE 2023 text p. 689 against Table 6 p. 693)"
+  status: expert-verified
+  extracted_by: "Project owner, relaying the editor's answer in chat, 2026-11-21; entered by Claude (Opus 5.5)"
+  checked_by: "Not applicable: the editor's own teaching, not a statement from a published source"
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (answer to Q1, relayed by the project owner)"
+  note: null
+- id: ED-002
+  topic: early screening
+  statement: "In this course, a normal heart check at 11 to 14 weeks does not replace the second-trimester cardiac screen: the full second-trimester screen is still required."
+  source: EDITOR-KS
+  locator: "Editor's decision on question Q2, 21 Nov 2026 (extends ASE 2023 AS23-109, which says this for early fetal echocardiography, to screening)"
+  status: expert-verified
+  extracted_by: "Project owner, relaying the editor's answer in chat, 2026-11-21; entered by Claude (Opus 5.5)"
+  checked_by: "Not applicable: the editor's own teaching, not a statement from a published source"
+  verified_by: "Dr Kunda Shahane, 2026-11-21 (answer to Q2, relayed by the project owner)"
+  note: null

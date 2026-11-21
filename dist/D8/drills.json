@@ -1,7 +1,7 @@
 {
   "unit": "D8",
   "title": "Rate and rhythm for the screener",
-  "status": "ai-cross-checked",
+  "status": "expert-verified",
   "items": [
     {
       "id": "D8-Q01",
@@ -81,7 +81,7 @@
       "claims": [
         "IS23-036"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D8-Q06",
@@ -97,7 +97,7 @@
       "claims": [
         "IS23-036"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D8-Q07",
@@ -113,7 +113,7 @@
       "claims": [
         "IS23-036"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D8-Q08",
@@ -161,7 +161,7 @@
       "claims": [
         "IS23-082"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D8-Q11",
@@ -177,7 +177,7 @@
       "claims": [
         "AS23-017"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     }
   ]
 }

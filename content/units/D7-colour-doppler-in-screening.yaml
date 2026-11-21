@@ -10,7 +10,7 @@ version: 0.1
 summary: "Whether colour is needed for a screening scan, what it adds on each view, and how to set it."
 drafted_by: "Claude (15 Nov 2026)"
 audited_by: "ChatGPT (Codex), 16 Nov 2026, against the ledger only; findings applied by Claude (Fable)."
-signed_by: null
+signed_by: "Dr Kunda Shahane, 2026-11-21 (review pack of 19 Nov approved in full; approval relayed by the project owner)"
 
 objectives:
   - "Say whether colour Doppler is required for cardiac screening."

@@ -1,6 +1,6 @@
 # Video script: Why hearts are missed
 
-> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-cross-checked' that no clinician has verified.
+> Verified content.
 
 Unit D0 | Target length: 4 min
 

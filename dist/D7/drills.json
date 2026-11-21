@@ -1,7 +1,7 @@
 {
   "unit": "D7",
   "title": "Colour Doppler in screening",
-  "status": "ai-cross-checked",
+  "status": "expert-verified",
   "items": [
     {
       "id": "D7-Q01",
@@ -33,7 +33,7 @@
       "claims": [
         "IS23-077"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D7-Q03",
@@ -49,7 +49,7 @@
       "claims": [
         "IS23-077"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D7-Q04",
@@ -81,7 +81,7 @@
       "claims": [
         "IS23-041"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D7-Q06",
@@ -145,7 +145,7 @@
       "claims": [
         "IS23-093"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D7-Q10",
@@ -161,7 +161,7 @@
       "claims": [
         "IS23-093"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D7-Q11",
@@ -177,7 +177,7 @@
       "claims": [
         "AS23-011"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     }
   ]
 }

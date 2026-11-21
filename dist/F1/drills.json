@@ -17,7 +17,7 @@
       "claims": [
         "AS23-001"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "F1-Q02",
@@ -33,7 +33,7 @@
       "claims": [
         "AS23-002"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "F1-Q03",
@@ -50,7 +50,7 @@
         "AS23-012",
         "AS23-013"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "F1-Q04",
@@ -66,7 +66,7 @@
       "claims": [
         "AS23-015"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "F1-Q05",
@@ -82,7 +82,7 @@
       "claims": [
         "AS23-011"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "F1-Q06",
@@ -98,7 +98,7 @@
       "claims": [
         "AS23-017"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "F1-Q07",
@@ -114,7 +114,7 @@
       "claims": [
         "AS23-018"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "F1-Q08",
@@ -130,7 +130,7 @@
       "claims": [
         "AS23-016"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "F1-Q09",
@@ -146,7 +146,7 @@
       "claims": [
         "AS23-012"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "F1-Q10",
@@ -163,7 +163,7 @@
         "AS23-013",
         "AS23-014"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "F1-Q11",
@@ -179,7 +179,7 @@
       "claims": [
         "AS23-021"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "F1-Q12",
@@ -195,7 +195,7 @@
       "claims": [
         "AS23-007"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "F1-Q13",
@@ -212,7 +212,7 @@
         "AS23-006",
         "IS23-093"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "F1-Q14",
@@ -244,7 +244,7 @@
       "claims": [
         "AS23-004"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     }
   ]
 }

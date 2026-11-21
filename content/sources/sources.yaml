@@ -71,3 +71,11 @@ AHA-2024-ARRHYTHMIA-DRUGS:
   url: "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001206"
   held: false
   licence: "Copyright 2024 American Heart Association. Not open-licensed. Facts paraphrased with citation. Drug doses are never taught without a cardiology co-editor's sign-off."
+
+EDITOR-KS:
+  type: editor
+  title: "Teaching decisions of the editor-in-chief, Dr Kunda Shahane (MBBS, MS ObGy, FIFM), Mayflower Clinic, Nagpur"
+  authors: "Shahane K"
+  year: 2026
+  held: true
+  licence: "The editor's own teaching for this course. Recorded as relayed by the project owner; each claim gives the date and the question answered."

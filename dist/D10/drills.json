@@ -98,7 +98,7 @@
       "claims": [
         "IS23-085"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     },
     {
       "id": "D10-Q07",
@@ -130,7 +130,7 @@
       "claims": [
         "IS23-100"
       ],
-      "status": "ai-cross-checked"
+      "status": "expert-verified"
     }
   ]
 }

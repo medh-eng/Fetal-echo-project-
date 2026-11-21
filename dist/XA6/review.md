@@ -7,8 +7,8 @@ Mark: OK / change (write the correction) / remove.
 
 | Claim | Statement | Where in source | Status | Editor |
 |---|---|---|---|---|
-| AS23-043 | The cardiac axis must be assessed in two dimensions. Measuring the angle is optional. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Table 3, cardiac axis row, p. 686 | ai-cross-checked | |
-| AS23-044 | A complete study requires a measured cardiac-to-thoracic area ratio. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Table 3, cardiac size row, p. 686; III.F, Table 4, p. 690 | ai-cross-checked | |
+| AS23-043 | The cardiac axis must be assessed in two dimensions. Measuring the angle is optional. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Table 3, cardiac axis row, p. 686 | expert-verified | |
+| AS23-044 | A complete study requires a measured cardiac-to-thoracic area ratio. | ASE-2023-FETALECHO: III.E. Standard Views and Imaging Planes, Table 3, cardiac size row, p. 686; III.F, Table 4, p. 690 | expert-verified | |
 | AS23-150 | Fetal heart rate and rhythm should be documented in every fetal echocardiogram, alongside the valve annulus measurements. | ASE-2023-FETALECHO: III.F Cardiac Biometry and Measurement Data, p. 689 | ai-cross-checked | |
 | AS23-151 | Additional cardiac and vessel measurements should be made for specific structural defects; Table 4 lists them. | ASE-2023-FETALECHO: III.F Cardiac Biometry and Measurement Data, p. 689 | ai-cross-checked | |
 | AS23-152 | Fetal cardiac measurements are typically converted to Z-scores, which express the deviation from the mean in standard deviations, adjusted for gestational age. | ASE-2023-FETALECHO: III.F Cardiac Biometry and Measurement Data, p. 689 | ai-cross-checked | |

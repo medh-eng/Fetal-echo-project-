@@ -83,6 +83,8 @@ sections:
         claims: [AS23-106, AS23-107]
       - text: "When early findings are uncertain or suspicious, a repeat examination within 1 to 2 weeks is suggested. Even after a normal detailed early examination, a repeat study is recommended at 18 to 20 weeks."
         claims: [AS23-108, AS23-109]
+      - text: "The editor's teaching for screening: a normal heart check at 11 to 14 weeks does not replace the second-trimester cardiac screen. The full second-trimester screen is still required."
+        claims: [ED-002]
       - text: "Early counselling and reporting should mention the possibility of missed diagnoses and of lesions that progress later."
         claims: [AS23-110]
 
@@ -94,7 +96,6 @@ sections:
         claims: [IS23-084]
 
 missing_claims:
-  - "An explicit statement, for screening, that a normal early cardiac scan does not replace the second-trimester screen. The echocardiography guideline says this for early fetal echocardiography (claim AS23-109); the editor to decide whether the course states it for screening (question Q2)."
   - "Other first-trimester markers linked to heart disease (tricuspid regurgitation, ductus venosus flow) - not in the screening guideline; needs a source."
   - "Which lesions can and cannot be detected at 11 to 14 weeks, with detection rates - needs a source."
   - "Transvaginal technique for the early heart - needs a source."
