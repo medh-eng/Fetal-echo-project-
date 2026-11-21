@@ -1,0 +1,180 @@
+# Unit XB8. Every text block and drill lists the claim IDs it rests on.
+# Built only from ai-cross-checked claims (ASE 2023, extracted by Claude, cross-checked by
+# ChatGPT on 19 Nov 2026). Hypoplastic left heart syndrome is taught in detail in XB2;
+# this unit covers the single-ventricle examination as a whole.
+# Diagnose tier: needs the cardiology co-editor before release.
+
+id: XB8
+title: "Lesion atlas: univentricular hearts"
+tier: Diagnose
+version: 0.1
+summary: "The complete examination of a suspected single ventricle, segment by segment, and the findings that decide ductal dependence, surgery and prognosis."
+drafted_by: "Claude (Opus 5.5, 21 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "Define a univentricular atrioventricular connection and name its forms."
+  - "Carry out the segmental examination of a suspected single ventricle."
+  - "Name the single most powerful predictor of prostaglandin need after birth."
+  - "Recognise tricuspid atresia and double-inlet left ventricle and their main risks."
+
+sections:
+
+  - heading: "What single ventricle means"
+    blocks:
+      - text: "In a univentricular atrioventricular connection the atria connect completely or mainly to one ventricle. It includes double-inlet left ventricle, single inlet and common inlet."
+        claims: [AS23-201]
+      - text: "Single ventricle is often detected at routine screening because the four-chamber view is abnormal, and most cases are diagnosed before birth. Suspect it, or ventricular disproportion, when the axial chest view clearly lacks two symmetric ventricles."
+        claims: [AS23-200, AS23-225]
+      - text: "Hypoplastic left heart syndrome is the most common form, at 0.26 per 1,000 live births; hypoplastic right heart syndrome occurs in 0.22 per 1,000."
+        claims: [AS23-203, AS23-204]
+      - text: "Treatment is a series of palliative operations ending in a total cavopulmonary (Fontan) connection."
+        claims: [AS23-202]
+
+  - heading: "The complete examination"
+    blocks:
+      - text: "A complete fetal echocardiogram must be done before a reasonable prognosis can be given. Use a segmental approach to find the associated findings that matter."
+        claims: [AS23-216, AS23-206]
+      - text: "Assess visceroatrial situs, systemic venous connections, the atrioventricular junction, ventricular morphology and function, and heart rate and rhythm."
+        claims: [AS23-205]
+      - text: "Veins: look for interruption of the inferior vena cava and for bilateral superior venae cavae. Assess the pulmonary venous connections, because anomalous drainage affects the surgical approach and outcome. Venous anatomy is needed for counselling and postnatal planning."
+        claims: [AS23-207, AS23-208, AS23-218]
+      - text: "Atrioventricular junction: the tricuspid or mitral valve may be hypoplastic or atretic, or a common valve may be unbalanced. Measure valve diameter or area and assess regurgitation with colour Doppler. Significant regurgitation can affect fetal well-being and the outcome of surgery."
+        claims: [AS23-209, AS23-219, AS23-210]
+      - text: "Outflows: image them thoroughly for orientation, patency, size and flow direction. When the aortic valve is stenotic or atretic, measure the ascending aorta."
+        claims: [AS23-211, AS23-212]
+      - text: "Ductal dependence: retrograde flow in the aortic or ductal arch is described as perhaps the single most powerful indicator that prostaglandin will be needed after birth."
+        claims: [AS23-213]
+      - text: "Function and rhythm: function is assessed qualitatively in practice; strain imaging is not routine. Bradyarrhythmias are associated with left atrial isomerism and discordant atrioventricular connections, and that combination carries a poor prognosis and a high risk of death in utero."
+        claims: [AS23-215, AS23-214]
+
+  - heading: "Tricuspid atresia"
+    blocks:
+      - text: "Views: no atrioventricular connection on the right, a small right ventricle and a ventricular septal defect."
+        claims: [AS23-226]
+      - text: "Measure: the ventricular septal defect, in two orthogonal planes."
+        claims: [AS23-228]
+      - text: "Evolution: obstruction at the defect can progress and compromise flow to the outflow arising from the right ventricle, leading to pulmonary stenosis or coarctation."
+        claims: [AS23-227]
+
+  - heading: "Double-inlet left ventricle"
+    blocks:
+      - text: "Views: both atrioventricular valves open into the morphological left ventricle; the four-chamber view shows a large ventricular septal defect or no septum."
+        claims: [AS23-229]
+      - text: "Associations: with L-looped ventricles there is a risk of complete heart block."
+        claims: [AS23-230]
+
+  - heading: "Heterotaxy with a single ventricle"
+    blocks:
+      - text: "Regurgitation of the common atrioventricular valve may progress and can affect prognosis."
+        claims: [AS23-517]
+
+missing_claims:
+  - "Awaiting re-check after rewording on 21 Nov (round 5, task J): flow direction and restriction at the atrial septum, ductus and isthmus (AS23-217); adequacy of the atrial septal defect when the left valve is hypoplastic in double-inlet left ventricle (AS23-358)."
+  - "Heterotaxy and isomerism: recognition and associated lesions - unit XB7; ASE has little on it and a source is needed."
+  - "Outcomes of the staged single-ventricle pathway, and what to tell parents - needs a source; unit Z7."
+  - "Video outline not yet written."
+
+drills:
+  - id: XB8-Q01
+    question: "Which defines a univentricular atrioventricular connection?"
+    options:
+      - "The atria connect completely or mainly to one ventricle"
+      - "One great artery arises from both ventricles"
+      - "There is a large ventricular septal defect with two normal valves"
+      - "One ventricle is slightly smaller than the other"
+    answer: 0
+    explanation: "Atria connect completely or mainly to one ventricle: double-inlet LV, single inlet and common inlet."
+    claims: [AS23-201]
+
+  - id: XB8-Q02
+    question: "Single ventricle is suspected at screening. When can a reasonable prognosis be given?"
+    options:
+      - "After a complete fetal echocardiogram"
+      - "Immediately, from the four-chamber view"
+      - "Only after birth"
+      - "After genetic testing alone"
+    answer: 0
+    explanation: "A complete fetal echocardiogram must be performed before a reasonable prognosis can be given."
+    claims: [AS23-216]
+
+  - id: XB8-Q03
+    question: "Single ventricle. Why must the pulmonary veins be traced?"
+    options:
+      - "Anomalous drainage affects the surgical approach and outcome"
+      - "They are always normal, so it confirms the diagnosis"
+      - "To measure the fetal heart rate"
+      - "They are not assessed in single ventricle"
+    answer: 0
+    explanation: "Anomalous pulmonary venous drainage affects surgical approach and outcome."
+    claims: [AS23-208]
+
+  - id: XB8-Q04
+    question: "Which finding is described as perhaps the single most powerful indicator that prostaglandin will be needed after birth?"
+    options:
+      - "Retrograde flow in the aortic or ductal arch"
+      - "A small left atrium"
+      - "Mild tricuspid regurgitation"
+      - "A right aortic arch"
+    answer: 0
+    explanation: "Retrograde arch flow is perhaps the single most powerful indicator of prostaglandin need."
+    claims: [AS23-213]
+
+  - id: XB8-Q05
+    question: "Single ventricle with left atrial isomerism and slow ventricular rate. What does the guideline say about this combination?"
+    options:
+      - "Poor prognosis and a high risk of death in utero"
+      - "No effect on prognosis"
+      - "The rate always recovers by term"
+      - "It improves surgical outcome"
+    answer: 0
+    explanation: "Bradyarrhythmias with left atrial isomerism and discordant connections carry a poor prognosis and high risk of fetal death."
+    claims: [AS23-214]
+
+  - id: XB8-Q06
+    question: "No right atrioventricular connection, a small right ventricle and a VSD. Which lesion, and what can progress?"
+    options:
+      - "Tricuspid atresia; obstruction at the VSD"
+      - "Ebstein anomaly; tricuspid regurgitation"
+      - "Pulmonary atresia; ductal constriction"
+      - "AVSD; cleft mitral valve"
+    answer: 0
+    explanation: "These findings suggest tricuspid atresia; obstruction at the VSD can progress, leading to pulmonary stenosis or coarctation."
+    claims: [AS23-226, AS23-227]
+
+  - id: XB8-Q07
+    question: "Double-inlet left ventricle with L-looped ventricles. Which risk should be watched for?"
+    options:
+      - "Complete heart block"
+      - "Ductal aneurysm"
+      - "Pericardial effusion only"
+      - "None"
+    answer: 0
+    explanation: "DILV with L-looping is at risk of complete heart block."
+    claims: [AS23-230]
+
+  - id: XB8-Q08
+    question: "How is ventricular function usually assessed in single ventricle in practice?"
+    options:
+      - "Qualitatively; strain imaging is not routine"
+      - "Always with strain imaging"
+      - "It is not assessed"
+      - "By heart rate alone"
+    answer: 0
+    explanation: "Function is assessed qualitatively in routine practice; strain is not routinely used."
+    claims: [AS23-215]
+
+checklist:
+  title: "Single ventricle: segmental record"
+  items:
+    - text: "Situs, systemic veins (IVC interruption, bilateral SVC), pulmonary veins"
+      claims: [AS23-205, AS23-207, AS23-208]
+    - text: "Atrioventricular valves: diameter or area, regurgitation by colour"
+      claims: [AS23-219]
+    - text: "Outflows: orientation, patency, size, flow direction; ascending aorta if the aortic valve is abnormal"
+      claims: [AS23-211, AS23-212]
+    - text: "Arch flow direction recorded (prostaglandin need)"
+      claims: [AS23-213]
+    - text: "Function (qualitative) and rate and rhythm"
+      claims: [AS23-215, AS23-205]

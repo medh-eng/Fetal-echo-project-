@@ -1,0 +1,225 @@
+# Unit Z3. Every text block and drill lists the claim IDs it rests on.
+# Built only from ai-cross-checked claims. Most rest on the AHA 2014 statement (extracted by
+# Claude, cross-checked by ChatGPT on 19 Nov 2026), with ASE 2023 where it speaks. AHA 2014
+# is twelve years old; levels of care and timing were written for US practice.
+# Decide tier: needs the cardiology co-editor and an Indian perspective before release.
+# No drug doses anywhere (Claude task rule 3).
+
+id: Z3
+title: "Planning delivery: place, timing, mode, first-hour needs"
+tier: Decide
+version: 0.1
+summary: "Assigning a level of care before birth, choosing where and when to deliver, and the fetal findings that predict trouble in the first hour for each lesion."
+drafted_by: "Claude (Opus 5.5, 21 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "Explain why a coordinated perinatal plan matters and who makes it."
+  - "Assign a level of care (P, 1 to 5) from the fetal diagnosis."
+  - "State the guidance on timing and mode of delivery."
+  - "Name the fetal findings that call for a specialist team in the delivery room."
+
+sections:
+
+  - heading: "Why plan, and who plans"
+    blocks:
+      - text: "Prenatal diagnosis of critical heart disease affects illness in the newborn, and survival to a lesser extent; studies showing improved survival are sparse. Infants with ductal-dependent lesions diagnosed before birth are less compromised before surgery."
+        claims: [AH14-300, AH14-301]
+      - text: "A coordinated perinatal plan of care has the greatest potential to influence outcome. Certain critical lesions need cardiac intervention immediately after birth."
+        claims: [AS23-604, AS23-602]
+      - text: "Maternal, fetal and neonatal providers must work together once heart disease is diagnosed. Intrapartum care should be coordinated among the obstetric, neonatal and cardiology teams."
+        claims: [AS23-600, AH14-302]
+      - text: "The fetal diagnostic team should assign an anticipated level of care, and plans for the delivery room and the newborn should be made before delivery. Image-based risk stratification paired with level-of-care plans is recommended."
+        claims: [AH14-306, AS23-603]
+
+  - heading: "Levels of care"
+    blocks:
+      - text: "The AHA 2014 level-of-care scheme. Many newborns with heart disease need no specialised delivery room care."
+        claims: [AH14-307, AH14-317, AH14-318, AH14-319, AH14-320, AH14-321, AH14-322]
+        table:
+          columns: ["Level", "Meaning", "Examples", "Delivery plan"]
+          rows:
+            - ["P", "Palliative care planned, with a severe or fatal chromosomal or multisystem disease", "-", "Family support and palliative care; normal delivery at the local hospital"]
+            - ["1", "No predicted instability in the delivery room or first days", "VSD, AVSD, mild tetralogy", "Normal delivery at the local hospital; routine care; later cardiology review"]
+            - ["2", "Minimal risk in the delivery room, but catheter or surgery needed after birth", "Ductal-dependent lesions: HLHS, critical coarctation, severe aortic stenosis, interrupted arch, PA/IVS, severe tetralogy", "Consider planned induction near term; hospital with a neonatologist and accessible cardiology; prostaglandin if indicated; then transfer"]
+            - ["3", "Likely instability needing immediate specialist stabilisation", "d-TGA with concerning septum primum (all d-TGA without an atrial septal defect may reasonably be treated as at risk); uncontrolled arrhythmia; complete heart block with heart failure", "Planned induction at 38-39 weeks; caesarean if needed to coordinate; neonatologist and cardiac specialist in the delivery room"]
+            - ["4", "Instability at placental separation; immediate catheter or surgery in the delivery room", "HLHS or d-TGA with severely restrictive or intact atrial septum (d-TGA also with abnormal ductus); obstructed TAPVR; Ebstein with hydrops; absent pulmonary valve with severe airway obstruction; uncontrolled arrhythmia with hydrops; complete heart block with low rate, fibroelastosis or hydrops", "Caesarean in a cardiac facility, usually at 38-39 weeks, specialists in the delivery room"]
+            - ["5", "Transplantation planned", "HLHS with intact atrial septum, or severe Ebstein or cardiomyopathy with severe ventricular dysfunction", "Listing after 35 weeks; caesarean when a heart is available; specialised cardiac team in the delivery room"]
+
+  - heading: "Place, timing and mode"
+    blocks:
+      - text: "Place: for heart disease at risk, plan delivery near a cardiac centre with the resources needed. Ductal-dependent lesions need a prostaglandin infusion soon after birth; delivery at a centre with a neonatologist and access to paediatric cardiology is recommended."
+        claims: [AH14-303, AH14-310]
+      - text: "Timing: elective induction before 39 weeks is not recommended unless there are obstetric, logistic or fetal well-being reasons."
+        claims: [AH14-304]
+      - text: "The transition: the ductus usually closes over 12 to 72 hours after birth. Infants with ventricular or atrioventricular septal defects are stable until pulmonary resistance falls, usually weeks after birth, and need no specialised delivery room care."
+        claims: [AH14-308, AH14-309]
+
+  - heading: "Recommendations on specialised delivery room care"
+    blocks:
+      - text: "Recommended (Class I): for d-TGA, and for sustained or uncontrolled tachyarrhythmia with heart failure or hydrops."
+        claims: [AH14-024]
+      - text: "Reasonable (Class IIa): for HLHS with a restrictive or intact atrial septum and abnormal pulmonary vein flow (forward-to-reverse ratio below 3) or an abnormal third-trimester hyperoxia test; and for complete heart block with low ventricular rate, dysfunction or hydrops."
+        claims: [AH14-025]
+      - text: "May be considered (Class IIb): tetralogy with absent pulmonary valve, or Ebstein anomaly with hydrops."
+        claims: [AH14-026]
+      - text: "Not needed (Class III): shunt lesions, most ductal-dependent lesions, and controlled arrhythmias."
+        claims: [AH14-027]
+
+  - heading: "Fetal predictors, lesion by lesion"
+    blocks:
+      - text: "Ductal-dependent circulation: pulmonary flow is ductal-dependent when ductal flow runs from aorta to pulmonary artery or the duct is reversed in orientation (inferior angle below 90°); systemic flow is ductal-dependent with left-to-right atrial flow. For these, prostaglandin E1 is started and no specialised delivery room care is needed."
+        claims: [AH14-311]
+      - text: "HLHS with restrictive or intact atrial septum: a pulmonary vein forward-to-reverse VTI ratio below 3, or no change in branch pulmonary artery pulsatility with third-trimester maternal hyperoxygenation, should lead to a plan for possible urgent decompression of the left atrium."
+        claims: [AH14-312]
+      - text: "D-transposition: septum primum angle below 30° to the atrial septum, bowing more than 50% into the left atrium, loss of normal swinging motion, or a hypermobile septum primum have been reported to predict restriction. These call for planned urgent balloon atrial septostomy, on site if possible, and prostaglandin E1. A small or abnormal ductus with foramen concerns means high risk; deliver where hypoxia and pulmonary hypertension can be managed."
+        claims: [AH14-325, AH14-313]
+      - text: "Obstructed TAPVR: a decompressing vein below the diaphragm, or accelerated flow in it, should lead to consideration of ECMO."
+        claims: [AH14-323]
+      - text: "Tetralogy with absent pulmonary valve: lobar emphysema (fluid trapping) on MRI suggests planning specialised ventilation and considering ECMO."
+        claims: [AH14-327]
+      - text: "Ebstein anomaly with hydrops or uncontrolled arrhythmia: early delivery may be considered, with measures to lower pulmonary resistance, treat arrhythmia and support output."
+        claims: [AH14-328]
+      - text: "Tachyarrhythmia with rapid rate, reduced function, effusion or hydrops: consider early delivery if gestation is appropriate, with urgent cardioversion or medical therapy in the delivery room. For uncontrolled tachycardia, planned cardioversion or antiarrhythmic therapy in the delivery room is indicated."
+        claims: [AH14-329, AH14-315]
+      - text: "Complete heart block: a falling cardiovascular profile score (to below 7), a very low ventricular rate, reduced function or fibroelastosis, or hydrops should lead to consideration of early delivery and of chronotropic drugs or temporary pacing in the delivery room. Planned chronotropic drugs or pacing in the early newborn period is reasonable."
+        claims: [AH14-324, AH14-315]
+
+  - heading: "Monitoring before delivery"
+    blocks:
+      - text: "Cardiotocography is unlikely to be useful in fetal bradycardia or complete heart block."
+        claims: [AH14-119]
+
+missing_claims:
+  - "Awaiting re-check after rewording on 21 Nov (round 5, task J): caesarean against vaginal birth (AH14-305); hydrops in complex heart disease and delivery (AH14-316); septum primum criteria in a later study (AH14-314); ductal flow and pulmonary hypertension therapy in d-TGA (AH14-326); fetal wellness testing (AH14-017, 118, 120)."
+  - "Mode of delivery: without AH14-305 the unit says nothing on caesarean against vaginal birth beyond the level-of-care table."
+  - "Indian adaptation: where level 3 and 4 care is available, transport distances, and how the levels map to Indian hospitals - the editor's input and an Indian source."
+  - "Prostaglandin dosing and newborn drug doses - held back until the cardiology co-editor signs (Claude task rule 3)."
+  - "Newer guidance than AHA 2014 on delivery planning, where it exists - source search."
+  - "Video outline not yet written."
+
+drills:
+  - id: Z3-Q01
+    question: "Who should assign the anticipated level of care, and when?"
+    options:
+      - "The fetal diagnostic team, before delivery"
+      - "The neonatologist, after birth"
+      - "The obstetrician, in labour"
+      - "No one; it is decided at birth"
+    answer: 0
+    explanation: "The fetal diagnostic team should assign a level of care, and plans should be made before delivery."
+    claims: [AH14-306]
+
+  - id: Z3-Q02
+    question: "A fetus has an isolated ventricular septal defect. Which level of care fits?"
+    options:
+      - "Level 1: normal delivery at the local hospital, later cardiology review"
+      - "Level 4: caesarean in a cardiac facility"
+      - "Level 5: transplantation planned"
+      - "Level 3: planned induction at a specialist centre"
+    answer: 0
+    explanation: "VSD is a level 1 example; these infants are stable until pulmonary resistance falls, weeks after birth."
+    claims: [AH14-318, AH14-309]
+
+  - id: Z3-Q03
+    question: "Hypoplastic left heart syndrome with an open atrial septum. Which level, and what is needed at birth?"
+    options:
+      - "Level 2: delivery with a neonatologist and accessible cardiology; prostaglandin if indicated; then transfer"
+      - "Level 1: routine care at a local hospital"
+      - "Level 4: catheter intervention in the delivery room"
+      - "Level P: palliative care only"
+    answer: 0
+    explanation: "Ductal-dependent lesions such as HLHS fall under level 2."
+    claims: [AH14-319]
+
+  - id: Z3-Q04
+    question: "D-transposition without an atrial septal defect. How may it reasonably be regarded?"
+    options:
+      - "At risk: level 3, with specialists in the delivery room"
+      - "Level 1: no risk at birth"
+      - "Level P"
+      - "Level 2 only if the ductus is large"
+    answer: 0
+    explanation: "All d-TGA without an atrial septal defect may reasonably be considered at risk (level 3)."
+    claims: [AH14-320]
+
+  - id: Z3-Q05
+    question: "HLHS with a restrictive atrial septum: pulmonary vein forward-to-reverse VTI ratio below 3. What should be planned?"
+    options:
+      - "Possible urgent decompression of the left atrium"
+      - "Routine delivery at the local hospital"
+      - "Delivery before 34 weeks"
+      - "No change in plan"
+    answer: 0
+    explanation: "A ratio below 3, or no response to maternal hyperoxygenation, should lead to a plan for urgent left atrial decompression."
+    claims: [AH14-312]
+
+  - id: Z3-Q06
+    question: "What does AHA 2014 say about elective induction before 39 weeks?"
+    options:
+      - "Not recommended unless there are obstetric, logistic or fetal well-being reasons"
+      - "Recommended for all heart disease"
+      - "Required for ductal-dependent lesions"
+      - "It gives no guidance"
+    answer: 0
+    explanation: "Elective induction before 39 weeks is not recommended without obstetric, logistic or fetal well-being reasons."
+    claims: [AH14-304]
+
+  - id: Z3-Q07
+    question: "Which group needs no specialised delivery room care, according to the recommendations?"
+    options:
+      - "Shunt lesions, most ductal-dependent lesions and controlled arrhythmias"
+      - "d-TGA"
+      - "Uncontrolled tachyarrhythmia with hydrops"
+      - "HLHS with intact atrial septum"
+    answer: 0
+    explanation: "Class III: specialised delivery room care is not needed for these."
+    claims: [AH14-027]
+
+  - id: Z3-Q08
+    question: "Fetal Doppler shows aorta-to-pulmonary flow in the ductus. What does this predict?"
+    options:
+      - "Ductal-dependent pulmonary circulation; prostaglandin E1 after birth"
+      - "Ductal-dependent systemic circulation"
+      - "A normal transition"
+      - "Complete heart block"
+    answer: 0
+    explanation: "Aorta-to-PA ductal flow predicts ductal-dependent pulmonary circulation; PGE1 is started."
+    claims: [AH14-311]
+
+  - id: Z3-Q09
+    question: "Complete heart block with fibroelastosis and a falling cardiovascular profile score. What should be considered?"
+    options:
+      - "Early delivery, with chronotropic drugs or temporary pacing in the delivery room"
+      - "Cardiotocography to guide timing"
+      - "Routine delivery at term without plans"
+      - "Delivery at home"
+    answer: 0
+    explanation: "These findings should lead to consideration of early delivery and of chronotropic drugs or pacing. Cardiotocography is unlikely to help in heart block."
+    claims: [AH14-324, AH14-119]
+
+  - id: Z3-Q10
+    question: "When does the ductus usually close after birth?"
+    options:
+      - "Over 12 to 72 hours"
+      - "Within one minute"
+      - "After several months"
+      - "Never in a normal baby"
+    answer: 0
+    explanation: "The ductus usually closes over 12 to 72 hours, which is why ductal-dependent lesions present then."
+    claims: [AH14-308]
+
+checklist:
+  title: "Delivery plan before 36 weeks"
+  items:
+    - text: "Level of care assigned and written in the report"
+      claims: [AH14-306, AH14-317, AH14-318, AH14-319, AH14-320, AH14-321, AH14-322]
+    - text: "Obstetric, neonatal and cardiology teams agree the plan"
+      claims: [AH14-302, AS23-600]
+    - text: "Place of delivery fits the level; transfer arranged if needed"
+      claims: [AH14-303, AH14-310]
+    - text: "Timing: no elective induction before 39 weeks without a reason"
+      claims: [AH14-304]
+    - text: "Lesion-specific predictors checked and first-hour needs listed (septostomy, ECMO, pacing, cardioversion, ventilation)"
+      claims: [AH14-312, AH14-325, AH14-323, AH14-324, AH14-327, AH14-329]

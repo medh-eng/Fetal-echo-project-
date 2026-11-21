@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Biometry and Z-scores</title>
+<style>
+:root{--ink:#1c2430;--mute:#5d6b7a;--line:#d9dee5;--bg:#f6f4ef;--card:#fff;--accent:#9b2c3f;--ok:#1f6f4a;--bad:#a23b2a}
+*{box-sizing:border-box}body{margin:0;font:17px/1.55 Georgia,'Times New Roman',serif;color:var(--ink);background:var(--bg)}
+main{max-width:720px;margin:0 auto;padding:20px 18px 80px}
+h1{font-size:1.7rem;line-height:1.2;margin:.4em 0 .2em}h2{font-size:1.15rem;margin:1.6em 0 .4em}
+.meta,.small{font:13px/1.4 system-ui,sans-serif;color:var(--mute)}
+.banner{font:14px/1.4 system-ui,sans-serif;background:#fff3cd;border:1px solid #e0c97a;padding:10px 12px;border-radius:6px;margin:12px 0}
+.banner.ok{background:#e3f3ea;border-color:#9ccdb3}
+nav{display:flex;gap:8px;margin:16px 0;border-bottom:1px solid var(--line)}
+nav button{font:15px system-ui,sans-serif;background:none;border:0;border-bottom:3px solid transparent;padding:8px 4px;margin-right:12px;cursor:pointer;color:var(--mute)}
+nav button[aria-selected=true]{color:var(--ink);border-color:var(--accent);font-weight:600}
+sup{font:11px system-ui,sans-serif;color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px;margin:14px 0}
+.opt{display:block;width:100%;text-align:left;font:16px/1.4 system-ui,sans-serif;background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px;margin:8px 0;cursor:pointer;color:var(--ink)}
+.opt:hover:not(:disabled){border-color:var(--ink)}.opt.right{border-color:var(--ok);background:#e3f3ea}.opt.wrong{border-color:var(--bad);background:#f7e4e0}
+.next{font:15px system-ui,sans-serif;background:var(--ink);color:#fff;border:0;border-radius:8px;padding:10px 18px;cursor:pointer;margin-top:8px}
+ol.refs{font:14px/1.45 system-ui,sans-serif;color:var(--mute);padding-left:22px}
+ul{padding-left:22px}[hidden]{display:none}table{border-collapse:collapse;width:100%;font:14px/1.4 system-ui,sans-serif;margin:10px 0}th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}th{background:#eee}
+</style></head><body><main>
+<div class="meta">Fetal Echo Project &middot; Unit XA6 &middot; Diagnose tier &middot; v0.1</div>
+<h1>Biometry and Z-scores</h1>
+<div class="banner ">DRAFT - NOT FOR CLINICAL USE. Contains claims with status &#x27;ai-cross-checked&#x27; that no clinician has verified.</div>
+<nav role="tablist"><button id="t-read" aria-selected="true">Read</button><button id="t-drill" aria-selected="false">Drill</button></nav>
+<section id="read"><h2>You will be able to</h2><ul><li>List the measurements a complete fetal echocardiogram requires.</li><li>Name the optional measurements and the phase of the cycle each is taken in.</li><li>Explain what a Z-score is and why the equation used must be stated.</li><li>Say when measurements beyond the standard list are needed.</li></ul>
+<h2>Required in every study</h2>
+<p>Fetal heart rate and rhythm should be documented in every fetal echocardiogram, alongside the valve annulus measurements.<sup>1</sup></p>
+<p>A complete study requires a measured cardiothoracic area ratio. The guideline&#x27;s measurement table lists the cardiothoracic ratio as required, and as prognostic in twin-twin transfusion, anaemia, sacrococcygeal teratoma, CPAM and congenital high airway obstruction.<sup>2,3</sup></p>
+<p>The cardiac axis must be assessed in two dimensions; measuring the angle is optional.<sup>4</sup></p>
+<p>Compare the measurements made in every study with published or internal normal values.<sup>5</sup></p>
+<h2>Optional measurements and their timing</h2>
+<p>Optional measurements listed in the guideline, with where and when each is taken.<sup>6,7,8,9,10,11,12,13,14,15</sup></p>
+<table><tr><th>Measurement</th><th>View or method</th><th>Phase</th></tr><tr><td>Right and left ventricular length</td><td>Four-chamber view</td><td>Diastole</td></tr><tr><td>Transverse atrial dimensions</td><td>-</td><td>-</td></tr><tr><td>Main pulmonary artery</td><td>Proximal to the bifurcation</td><td>Systole</td></tr><tr><td>Branch pulmonary arteries</td><td>-</td><td>Systole</td></tr><tr><td>Ascending aorta</td><td>-</td><td>Systole</td></tr><tr><td>Transverse arch against ductal arch; isthmus against distal ductus</td><td>Long axis of the arch or three-vessel-and-trachea view</td><td>Systole</td></tr><tr><td>Free wall and septal thickness</td><td>Low short-axis view</td><td>Diastole</td></tr><tr><td>Ventricular dimensions</td><td>Low short-axis view</td><td>Diastole; add systole if function is a concern</td></tr><tr><td>Ventricular volumes and ejection fraction</td><td>-</td><td>-</td></tr><tr><td>Combined cardiac output, indexed to estimated fetal weight</td><td>Vessel area, velocity-time integral and heart rate</td><td>-</td></tr></table>
+<p>Aortic and pulmonary annuli are listed as measured at end-diastole or early systole, with the valve open or closed.<sup>16</sup></p>
+<h2>Measurements for specific lesions</h2>
+<p>Additional cardiac and vessel measurements should be made for specific structural defects. Optional measurements, especially when an abnormality is found, are not limited to the standard list. The lesion units (XB1 to XB8) give the measurements listed for each lesion.<sup>17,18</sup></p>
+<h2>Z-scores</h2>
+<p>Fetal cardiac measurements are usually converted to Z-scores: the deviation from the mean in standard deviations, adjusted for gestational age.<sup>19</sup></p>
+<p>Several published Z-score equations exist. Some use biparietal diameter and femur length instead of gestational age. The guideline tabulates them with their strengths and weaknesses.<sup>20,21</sup></p>
+<h2>Biometry in the report</h2><ul><li>Heart rate and rhythm documented<sup>1</sup></li><li>Cardiothoracic area ratio measured<sup>2</sup></li><li>Cardiac axis assessed<sup>4</sup></li><li>Measurements compared with published or internal normals<sup>5</sup></li><li>Lesion-specific measurements added<sup>17</sup></li></ul>
+<h2>Still to be written</h2><ul class='small'><li>The Z-score source the course will teach and its normal values for each structure - the editor to choose (tasks/results/task-s1.md, topic 4).</li><li>Required annulus measurements and their timing (AS23-068, AS23-069) are not yet cross-checked (task H was not applied); and the guideline is inconsistent on semilunar annulus timing (flagged 17 Nov). The co-editor to decide what the course teaches.</li><li>Whether reports must name the Z-score equation used - a sensible practice but not a claim held; the co-editor to decide. (The equation-dependent valve index threshold, AS23-255, is awaiting re-check.)</li><li>How to measure each structure step by step, with images - needs a source and the editor&#x27;s own clips.</li><li>Video outline not yet written.</li></ul>
+<h2>References</h2><ol class='refs'>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; III.F Cardiac Biometry and Measurement Data, p. 689. <em>AS23-150, ai-cross-checked</em></li>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; III.E. Standard Views and Imaging Planes, Table 3, cardiac size row, p. 686; III.F, Table 4, p. 690. <em>AS23-044, ai-cross-checked</em></li>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; Table 4, p. 690. <em>AS23-167, ai-cross-checked</em></li>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; III.E. Standard Views and Imaging Planes, Table 3, cardiac axis row, p. 686. <em>AS23-043, ai-cross-checked</em></li>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; Table 4 (measurements), footnote, p. 692. <em>AS23-155, ai-cross-checked</em></li>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; Table 4 (measurements), p. 690. <em>AS23-157, ai-cross-checked</em></li>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; Table 4 (measurements), p. 690. <em>AS23-158, ai-cross-checked</em></li>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; Table 4 (measurements), p. 691. <em>AS23-159, ai-cross-checked</em></li>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; Table 4 (measurements), p. 691. <em>AS23-160, ai-cross-checked</em></li>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; Table 4 (measurements), p. 691. <em>AS23-161, ai-cross-checked</em></li>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; Table 4 (measurements), p. 691. <em>AS23-162, ai-cross-checked</em></li>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; Table 4 (measurements), p. 692. <em>AS23-163, ai-cross-checked</em></li>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; Table 4 (measurements), p. 692. <em>AS23-164, ai-cross-checked</em></li>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; Table 4 (measurements), p. 692. <em>AS23-165, ai-cross-checked</em></li>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; Table 4 (measurements), p. 692. <em>AS23-166, ai-cross-checked</em></li>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; Table 4, semilunar valve row, p. 691. <em>AS23-168, ai-cross-checked</em></li>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; III.F Cardiac Biometry and Measurement Data, p. 689. <em>AS23-151, ai-cross-checked</em></li>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; Table 4 (measurements), footnote, p. 692. <em>AS23-156, ai-cross-checked</em></li>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; III.F Cardiac Biometry and Measurement Data, p. 689. <em>AS23-152, ai-cross-checked</em></li>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; III.F Cardiac Biometry and Measurement Data, p. 689. <em>AS23-153, ai-cross-checked</em></li>
+<li>Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 &ndash; Table 5, p. 693; referred to in III.F, p. 689. <em>AS23-154, ai-cross-checked</em></li>
+</ol></section>
+<section id="drill" hidden><div id="quiz"></div></section>
+</main>
+<script>
+const DATA = {"unit": "XA6", "title": "Biometry and Z-scores", "status": "ai-cross-checked", "items": [{"id": "XA6-Q01", "question": "Which of these is required in every complete fetal echocardiogram?", "options": ["A measured cardiothoracic area ratio", "Ventricular volumes and ejection fraction", "Combined cardiac output", "Free wall thickness"], "answer": 0, "explanation": "A complete study requires a measured cardiothoracic area ratio; the others are optional.", "claims": ["AS23-044", "AS23-167"], "status": "ai-cross-checked"}, {"id": "XA6-Q02", "question": "The cardiac axis. What must be done, and what is optional?", "options": ["Assess it in two dimensions; measuring the angle is optional", "Measure the angle in every study; assessment is optional", "Neither is needed in a complete study", "Only colour Doppler is required"], "answer": 0, "explanation": "Axis must be assessed in 2D; measuring the angle is optional.", "claims": ["AS23-043"], "status": "ai-cross-checked"}, {"id": "XA6-Q03", "question": "What does a Z-score express?", "options": ["Deviation from the mean in standard deviations, adjusted for gestational age", "The percentage of normal size", "The absolute size in millimetres", "The ratio of left to right"], "answer": 0, "explanation": "A Z-score is the deviation from the mean in SDs, adjusted for gestational age.", "claims": ["AS23-152"], "status": "ai-cross-checked"}, {"id": "XA6-Q04", "question": "Two centres report different Z-scores for the same measurement. What is one likely reason?", "options": ["Several published equations exist, some based on fetal biometry rather than gestational age", "Z-scores never differ between centres", "Z-scores are not adjusted for gestation", "One centre measured in millimetres"], "answer": 0, "explanation": "Several equations exist, including some using BPD and femur length.", "claims": ["AS23-153"], "status": "ai-cross-checked"}, {"id": "XA6-Q05", "question": "In which phase are the branch pulmonary arteries and ascending aorta measured?", "options": ["Systole", "Early diastole", "End-diastole only", "Any phase"], "answer": 0, "explanation": "These optional vessel measurements are taken in systole.", "claims": ["AS23-160", "AS23-161"], "status": "ai-cross-checked"}, {"id": "XA6-Q06", "question": "Ventricular dimensions on the low short-axis view. When are systolic measurements added?", "options": ["When function is a concern", "Always", "Never", "Only in twins"], "answer": 0, "explanation": "Dimensions are taken in diastole, with systolic measurements added if function is a concern.", "claims": ["AS23-164"], "status": "ai-cross-checked"}, {"id": "XA6-Q07", "question": "An abnormality is found. Are you limited to the standard measurement list?", "options": ["No: additional measurements should be made for specific defects", "Yes: only listed measurements may be taken", "Yes, unless the patient asks", "Measurements should stop once an abnormality is found"], "answer": 0, "explanation": "Additional measurements should be made for specific defects; optional ones are not limited to the table.", "claims": ["AS23-151", "AS23-156"], "status": "ai-cross-checked"}]};
+const $ = s => document.querySelector(s);
+function tab(which){
+  $('#read').hidden = which !== 'read'; $('#drill').hidden = which !== 'drill';
+  $('#t-read').setAttribute('aria-selected', which === 'read');
+  $('#t-drill').setAttribute('aria-selected', which === 'drill');
+}
+$('#t-read').onclick = () => tab('read');
+$('#t-drill').onclick = () => { tab('drill'); if (!started) start(); };
+function shuffle(a){ a = a.slice(); for (let i = a.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+function esc(s){ const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+let started = false, queue = [], pos = 0, score = 0;
+function start(){ started = true; queue = shuffle(DATA.items); pos = 0; score = 0; show(); }
+function show(){
+  const q = $('#quiz');
+  if (pos >= queue.length){
+    q.innerHTML = '<div class="card"><h2 style="margin-top:0">' + score + ' of ' + queue.length + ' correct</h2><p class="small">Missed items come back first next time once scheduling is added.</p><button class="next" id="again">Go again</button></div>';
+    $('#again').onclick = start; return;
+  }
+  const it = queue[pos];
+  const opts = shuffle(it.options.map((text, i) => ({ text, correct: i === it.answer })));
+  q.innerHTML = '<div class="card"><div class="small">Question ' + (pos + 1) + ' of ' + queue.length + '</div><p><strong>' + esc(it.question) + '</strong></p><div id="opts"></div><div id="fb"></div></div>';
+  opts.forEach(o => {
+    const b = document.createElement('button'); b.className = 'opt'; b.textContent = o.text;
+    b.onclick = () => {
+      document.querySelectorAll('.opt').forEach((x, k) => { x.disabled = true; if (opts[k].correct) x.classList.add('right'); });
+      if (o.correct) score++; else b.classList.add('wrong');
+      $('#fb').innerHTML = '<p>' + esc(it.explanation) + '</p><div class="small">Rests on ' + it.claims.join(', ') + ' (' + it.status + ')</div><button class="next" id="nx">Next</button>';
+      $('#nx').onclick = () => { pos++; show(); };
+    };
+    $('#opts').appendChild(b);
+  });
+}
+</script></body></html>

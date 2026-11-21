@@ -1,0 +1,192 @@
+# Unit XB5. Every text block and drill lists the claim IDs it rests on.
+# Built only from ai-cross-checked claims (ASE 2023, extracted by Claude, cross-checked by
+# ChatGPT on 19 Nov 2026). Coarctation is taught in XB2. Diagnose tier: needs the
+# cardiology co-editor before release.
+
+id: XB5
+title: "Lesion atlas: arch and vessels (right arch, double arch, aberrant subclavian, ductus)"
+tier: Diagnose
+version: 0.1
+summary: "Reading the three-vessel-and-trachea view: the normal V, the signs of rings, slings and right arch, and the two ductal problems - aneurysm and constriction."
+drafted_by: "Claude (Opus 5.5, 21 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "Describe the normal three-vessel-and-trachea view and the four signs that should prompt a closer look."
+  - "Recognise the U sign of a vascular ring and say what must then be excluded."
+  - "State why vascular rings and slings matter for delivery planning."
+  - "Tell a ductal aneurysm from ductal constriction and give the consequences of each."
+
+sections:
+
+  - heading: "The normal view and the warning signs"
+    blocks:
+      - text: "On the normal three-vessel-and-trachea view, two arches of similar size form a V to the left of the trachea."
+        claims: [AS23-500]
+      - text: "Use this view to assess vascular anatomy: vascular rings, slings and right aortic arch are readily detected on it. Arch abnormalities are suspected when the three-vessel or three-vessel-and-trachea view is abnormal."
+        claims: [AS23-510, AS23-357]
+      - text: "Four signs should prompt evaluation for coarctation, ductal aneurysm, right aortic arch or vascular ring: a size mismatch between the arches, abnormal flow, a U shape, or separation of the superior vena cava from the trachea."
+        claims: [AS23-502]
+      - text: "Trace the ductal and aortic arches and the origins of the head and neck vessels with axial, sagittal and parasagittal two-dimensional and colour imaging."
+        claims: [AS23-501]
+
+  - heading: "Vascular rings and double aortic arch"
+    blocks:
+      - text: "Key sign: a U shape around the trachea and oesophagus, instead of a V."
+        claims: [AS23-503]
+      - text: "Next step: exclude aberrant subclavian arteries and a double aortic arch."
+        claims: [AS23-504]
+      - text: "Double aortic arch: colour Doppler shows two arches encircling the trachea and oesophagus, with the innominate vein passing in front of both. Colour and power Doppler can show retrograde and antegrade flow in the smaller arch."
+        claims: [AS23-508, AS23-507]
+      - text: "Associations: a vascular ring carries an increased risk of tracheal anomalies, including complete tracheal rings."
+        claims: [AS23-505]
+
+  - heading: "Aberrant subclavian artery and pulmonary artery sling"
+    blocks:
+      - text: "Attempt to diagnose an aberrant subclavian artery, especially when the side of the arch is abnormal. An isolated aberrant right subclavian artery runs behind the oesophagus and is seen more clearly with colour Doppler."
+        claims: [AS23-511, AS23-509]
+      - text: "A pulmonary artery sling is not a vascular ring, but it may coexist with airway abnormalities. Delivery should be where assisted ventilation is available if needed."
+        claims: [AS23-506]
+
+  - heading: "Ductal aneurysm"
+    blocks:
+      - text: "Views: a pulsatile, tortuous duct late in gestation, on the three-vessel, three-vessel-and-trachea or sagittal arch views. Measure it at its widest."
+        claims: [AS23-512, AS23-513]
+      - text: "Course: it occurs at 35-40 weeks in 1%-2% of fetuses and mostly closes spontaneously, with a low risk of rupture or compression. It is generally a normal variant with no consequence for the newborn, but it is associated with connective tissue disorders."
+        claims: [AS23-514, AS23-513]
+
+  - heading: "Ductal constriction"
+    blocks:
+      - text: "Causes: it occurs in isolation and is associated with cyclo-oxygenase inhibitors (non-steroidal anti-inflammatory drugs) and certain foods or herbal teas. It rarely occurs with structural heart disease."
+        claims: [AS23-515]
+      - text: "Consequences: isolated constriction can lead to right heart failure, hydrops, and persistent pulmonary hypertension after birth. In critical heart disease it can be lethal, with transposition at higher risk."
+        claims: [AS23-516, AS23-332]
+
+  - heading: "Veins seen alongside arch and other lesions"
+    blocks:
+      - text: "A left superior vena cava draining to the coronary sinus is listed as a common venous variation with coarctation."
+        claims: [AS23-519]
+
+missing_claims:
+  - "Awaiting re-check after rewording on 21 Nov (round 5, task J): arch sidedness and branching pattern in outflow lesions (AS23-307)."
+  - "Right aortic arch: mirror-image against aberrant left subclavian branching, the L shape, and the association with 22q11 deletion and with intracardiac disease - needs a source (the checker's suggested Figure 30F claim was not found in the caption)."
+  - "How to report an isolated right arch or aberrant subclavian artery, and whether genetic testing is offered - needs a source and the co-editor."
+  - "Systemic and pulmonary venous anomalies are planned for unit XB6; ASE has little on veins."
+  - "Video outline not yet written."
+
+drills:
+  - id: XB5-Q01
+    question: "What does the normal three-vessel-and-trachea view show?"
+    options:
+      - "Two arches of similar size forming a V to the left of the trachea"
+      - "Two arches forming a U around the trachea"
+      - "A single arch to the right of the trachea"
+      - "Three arches side by side"
+    answer: 0
+    explanation: "Normally the ductal and aortic arches form a V to the left of the trachea."
+    claims: [AS23-500]
+
+  - id: XB5-Q02
+    question: "The arches form a U around the trachea and oesophagus. What is this the key sign of?"
+    options:
+      - "A vascular ring"
+      - "A normal heart"
+      - "Ductal constriction"
+      - "Tetralogy of Fallot"
+    answer: 0
+    explanation: "A U shape instead of a V is the key sign of a vascular ring."
+    claims: [AS23-503]
+
+  - id: XB5-Q03
+    question: "A vascular ring is suspected. What must then be excluded?"
+    options:
+      - "Aberrant subclavian arteries and a double aortic arch"
+      - "Coarctation only"
+      - "Heart block"
+      - "Nothing; the diagnosis is complete"
+    answer: 0
+    explanation: "With a suspected vascular ring, aberrant subclavian arteries and a double arch should be excluded."
+    claims: [AS23-504]
+
+  - id: XB5-Q04
+    question: "Why does a vascular ring matter for the newborn?"
+    options:
+      - "It carries an increased risk of tracheal anomalies, including complete tracheal rings"
+      - "It always needs surgery on the first day"
+      - "It causes heart failure before birth"
+      - "It has no consequence"
+    answer: 0
+    explanation: "A vascular ring carries an increased risk of tracheal anomalies."
+    claims: [AS23-505]
+
+  - id: XB5-Q05
+    question: "A pulmonary artery sling is diagnosed. Where should the baby be delivered?"
+    options:
+      - "Where assisted ventilation is available if needed"
+      - "At home"
+      - "Anywhere; a sling has no airway relevance"
+      - "Only where fetal surgery is possible"
+    answer: 0
+    explanation: "A sling may coexist with airway abnormalities; delivery should be where assisted ventilation is available."
+    claims: [AS23-506]
+
+  - id: XB5-Q06
+    question: "Which tool shows an aberrant right subclavian artery behind the oesophagus more clearly?"
+    options:
+      - "Colour Doppler"
+      - "M-mode"
+      - "Grey scale at high gain"
+      - "Pulsed-wave Doppler of the umbilical artery"
+    answer: 0
+    explanation: "An isolated aberrant right subclavian artery is seen more clearly with colour Doppler."
+    claims: [AS23-509]
+
+  - id: XB5-Q07
+    question: "A pulsatile, tortuous duct is seen at 37 weeks. What is the usual course?"
+    options:
+      - "It mostly closes spontaneously, with a low risk of rupture or compression"
+      - "It always ruptures"
+      - "It needs delivery within a day"
+      - "It always causes hydrops"
+    answer: 0
+    explanation: "Ductal aneurysm mostly closes spontaneously with low risk, though it is associated with connective tissue disorders."
+    claims: [AS23-514]
+
+  - id: XB5-Q08
+    question: "Isolated ductal constriction is found. Which history should you ask about?"
+    options:
+      - "Non-steroidal anti-inflammatory drugs and certain foods or herbal teas"
+      - "Paternal age"
+      - "Previous caesarean section"
+      - "Maternal height"
+    answer: 0
+    explanation: "Constriction is associated with cyclo-oxygenase inhibitors and certain foods or herbal teas."
+    claims: [AS23-515]
+
+  - id: XB5-Q09
+    question: "What can isolated ductal constriction lead to?"
+    options:
+      - "Right heart failure, hydrops, and persistent pulmonary hypertension after birth"
+      - "Left heart hypoplasia"
+      - "Complete heart block"
+      - "Nothing; it is harmless"
+    answer: 0
+    explanation: "Isolated constriction can lead to right heart failure, hydrops and PPHN."
+    claims: [AS23-516]
+
+checklist:
+  title: "Arch and ductus: minimum record"
+  items:
+    - text: "Three-vessel-and-trachea view: V or not; arch sizes and flow; SVC position against the trachea"
+      claims: [AS23-500, AS23-502, AS23-510]
+    - text: "Arches and head and neck vessels traced in axial, sagittal and parasagittal planes with colour"
+      claims: [AS23-501]
+    - text: "U sign: aberrant subclavian and double arch excluded"
+      claims: [AS23-503, AS23-504]
+    - text: "Aberrant subclavian looked for when arch sidedness is abnormal"
+      claims: [AS23-511]
+    - text: "Ring or sling: airway risk passed on to the delivery plan"
+      claims: [AS23-505, AS23-506]
+    - text: "Ductal aneurysm measured at its widest; constriction: drug and diet history"
+      claims: [AS23-513, AS23-515]

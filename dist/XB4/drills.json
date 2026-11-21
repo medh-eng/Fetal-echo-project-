@@ -1,0 +1,203 @@
+{
+  "unit": "XB4",
+  "title": "Lesion atlas: conotruncal lesions (tetralogy, transposition, DORV, common trunk)",
+  "status": "ai-cross-checked",
+  "items": [
+    {
+      "id": "XB4-Q01",
+      "question": "The four-chamber view is normal. Which views find most outflow tract lesions at screening?",
+      "options": [
+        "Outflow, three-vessel and three-vessel-and-trachea views",
+        "Four-chamber view at a different angle",
+        "Abdominal situs view",
+        "Ductus venosus Doppler"
+      ],
+      "answer": 0,
+      "explanation": "Outflow lesions are found with the outflow, three-vessel and three-vessel-and-trachea views and often show little on the four-chamber view.",
+      "claims": [
+        "AS23-300"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB4-Q02",
+      "question": "You see a ventricular septal defect with an overriding great vessel. Which list is the differential the guideline gives?",
+      "options": [
+        "Tetralogy of Fallot, pulmonary atresia with VSD, double-outlet right ventricle, common arterial trunk",
+        "Tetralogy only",
+        "D-transposition and corrected transposition",
+        "Coarctation and interrupted arch"
+      ],
+      "answer": 0,
+      "explanation": "These four make up the differential of a VSD with an overriding vessel.",
+      "claims": [
+        "AS23-304"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB4-Q03",
+      "question": "Tetralogy of Fallot: the outflow and duct look patent. Why still image the branch pulmonary arteries at their origins?",
+      "options": [
+        "Discontinuity, segmental stenosis and major aortopulmonary collaterals can coexist with a patent-looking outflow",
+        "Because the branches are always absent in tetralogy",
+        "Only to measure the heart rate",
+        "It is not needed when the outflow looks patent"
+      ],
+      "answer": 0,
+      "explanation": "The branch pulmonary arteries must be identified at their origins for exactly this reason.",
+      "claims": [
+        "AS23-311"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB4-Q04",
+      "question": "Tetralogy of Fallot. Why image the arch and the thymus?",
+      "options": [
+        "To tailor counselling to the risk of 22q11 deletion",
+        "To measure the cardiac axis",
+        "To predict heart block",
+        "To estimate gestational age"
+      ],
+      "answer": 0,
+      "explanation": "Imaging the arch and the thymus allows counselling tailored to the risk of 22q11 deletion.",
+      "claims": [
+        "AS23-313"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB4-Q05",
+      "question": "Absent pulmonary valve syndrome. Which pair of findings fits?",
+      "options": [
+        "Hypoplastic annulus with to-and-fro flow; dilated main and branch pulmonary arteries",
+        "Large annulus with forward flow only; small pulmonary arteries",
+        "Normal pulmonary valve; dilated aorta",
+        "Absent tricuspid valve; small right ventricle"
+      ],
+      "answer": 0,
+      "explanation": "APVS shows a hypoplastic annulus with tiny leaflets and to-and-fro flow, and dilated main and branch pulmonary arteries with an enlarged right heart.",
+      "claims": [
+        "AS23-319",
+        "AS23-320"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB4-Q06",
+      "question": "Tetralogy with absent pulmonary valve. Why does the side of the aortic arch matter?",
+      "options": [
+        "An aneurysmal branch pulmonary artery on the same side may compress the airway",
+        "It decides the mode of delivery",
+        "It predicts heart block",
+        "It does not matter in this lesion"
+      ],
+      "answer": 0,
+      "explanation": "Arch position matters because an aneurysmal ipsilateral branch pulmonary artery may compress the airway.",
+      "claims": [
+        "AS23-322"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB4-Q07",
+      "question": "Double-outlet right ventricle with a subpulmonary defect. What else must be imaged carefully, and why?",
+      "options": [
+        "The aortic arch, because subaortic obstruction and coarctation often accompany it",
+        "The ductus venosus, because it is often absent",
+        "The pulmonary veins, because they are always anomalous",
+        "Nothing else; the defect is the whole lesion"
+      ],
+      "answer": 0,
+      "explanation": "The anterior aorta may be obstructed below the valve and coarctation often accompanies it, so the arch needs careful 2D and colour imaging.",
+      "claims": [
+        "AS23-342",
+        "AS23-308"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB4-Q08",
+      "question": "Common arterial trunk with a right aortic arch. What is the stated risk of 22q11 deletion?",
+      "options": [
+        "Above 50%",
+        "Below 5%",
+        "No association",
+        "Exactly the same as with a left arch"
+      ],
+      "answer": 0,
+      "explanation": "In common arterial trunk a right aortic arch is associated with a 22q11 deletion risk above 50%.",
+      "claims": [
+        "AS23-350"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB4-Q09",
+      "question": "Common arterial trunk. Which valve finding can affect survival before birth?",
+      "options": [
+        "Significant truncal valve regurgitation",
+        "A bicuspid aortic valve",
+        "Mild tricuspid regurgitation",
+        "None; the trunk is well tolerated in every case"
+      ],
+      "answer": 0,
+      "explanation": "Truncal valve function, especially significant regurgitation, can affect survival in utero.",
+      "claims": [
+        "AS23-347"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB4-Q10",
+      "question": "D-transposition is diagnosed at 22 weeks. What must be assessed late in gestation?",
+      "options": [
+        "Patency of the foramen ovale",
+        "Nuchal translucency",
+        "Pulmonary valve annulus serially",
+        "Nothing more; transposition is fixed"
+      ],
+      "answer": 0,
+      "explanation": "Every fetus with D-transposition should have the foramen ovale assessed late in gestation, with delivery where the atrial communication can be enlarged.",
+      "claims": [
+        "AS23-330",
+        "AS23-329"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB4-Q11",
+      "question": "A posterior pulmonary artery arises from the left ventricular outflow. Does this alone tell you it is D-transposition?",
+      "options": [
+        "No: corrected transposition shows the same appearance",
+        "Yes: it only occurs in D-transposition",
+        "Yes, if the heart rate is normal",
+        "No: it is a normal variant"
+      ],
+      "answer": 0,
+      "explanation": "Both D-transposition and congenitally corrected transposition show a posterior pulmonary artery from the left ventricular outflow.",
+      "claims": [
+        "AS23-328"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB4-Q12",
+      "question": "Congenitally corrected transposition. Which rhythm problem must serial studies watch for?",
+      "options": [
+        "Complete heart block",
+        "Sinus arrhythmia",
+        "Premature atrial beats only",
+        "None; rhythm is always normal"
+      ],
+      "answer": 0,
+      "explanation": "Rhythm abnormalities including congenital heart block can arise in fetal life; serial studies should be offered.",
+      "claims": [
+        "AS23-338",
+        "AS23-339"
+      ],
+      "status": "ai-cross-checked"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "unit": "Z5",
+  "title": "Fetal cardiac intervention",
+  "status": "ai-cross-checked",
+  "items": [
+    {
+      "id": "Z5-Q01",
+      "question": "What is the rationale for fetal cardiac intervention?",
+      "options": [
+        "Some lesions progress in utero, and there may be a window when their effects can still be reversed",
+        "All heart lesions are easier to repair before birth",
+        "It removes the need for surgery after birth",
+        "It is proven by randomised trials"
+      ],
+      "answer": 0,
+      "explanation": "The rationale is progression in utero with a possible limited window for reversal.",
+      "claims": [
+        "AH14-201"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "Z5-Q02",
+      "question": "A fetal valvuloplasty was technically successful. Can the family be told the outcome will be good?",
+      "options": [
+        "No: technical success does not always mean clinical success after birth",
+        "Yes: technical success guarantees a biventricular repair",
+        "Yes, if done before 28 weeks",
+        "Only if the mother had no complications"
+      ],
+      "answer": 0,
+      "explanation": "Technical success does not always translate into clinical success after birth.",
+      "claims": [
+        "AH14-202"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "Z5-Q03",
+      "question": "Aortic stenosis. Which findings suggest evolving hypoplastic left heart?",
+      "options": [
+        "Retrograde arch flow, severe LV dysfunction, monophasic short mitral inflow, left-to-right flow at the foramen ovale",
+        "Antegrade arch flow and normal LV function",
+        "Right-to-left flow at the foramen ovale only",
+        "A normal mitral inflow with two waves"
+      ],
+      "answer": 0,
+      "explanation": "These four are the signs listed in AHA 2014 Table 16.",
+      "claims": [
+        "AH14-204"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "Z5-Q04",
+      "question": "Which fetus could be a candidate for aortic valvuloplasty?",
+      "options": [
+        "Aortic stenosis (not atresia) with antegrade flow, little subvalvar obstruction, and strong evidence of evolving HLHS",
+        "Aortic atresia with no antegrade flow",
+        "Mild aortic stenosis with a normal left ventricle",
+        "Any fetus with a small left ventricle"
+      ],
+      "answer": 0,
+      "explanation": "Candidates need stenosis with antegrade flow, minimal subvalvar obstruction and strong evidence of evolving HLHS.",
+      "claims": [
+        "AH14-205"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "Z5-Q05",
+      "question": "HLHS: which findings indicate clinically important atrial restriction?",
+      "options": [
+        "Greater pulmonary venous flow reversal in atrial contraction, and reduced vasoreactivity to maternal hyperoxygenation",
+        "Forward pulmonary venous flow throughout the cycle",
+        "A large foramen ovale with right-to-left flow",
+        "Normal fetal heart rate"
+      ],
+      "answer": 0,
+      "explanation": "Greater reversal of pulmonary venous flow and reduced vasoreactivity to hyperoxygenation indicate important restriction.",
+      "claims": [
+        "AH14-210"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "Z5-Q06",
+      "question": "Pulmonary atresia with intact septum. When may fetal intervention be lifesaving?",
+      "options": [
+        "With severe tricuspid regurgitation and hydrops",
+        "In every case",
+        "Only when the right ventricle is normal size",
+        "Never"
+      ],
+      "answer": 0,
+      "explanation": "Intervention is controversial; only a small subset should be considered, and it may be lifesaving with severe TR and hydrops.",
+      "claims": [
+        "AH14-213"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "Z5-Q07",
+      "question": "After fetal aortic valvuloplasty, where should the baby be delivered?",
+      "options": [
+        "At a specialised congenital heart centre",
+        "At the local hospital",
+        "At home",
+        "Anywhere with a neonatologist"
+      ],
+      "answer": 0,
+      "explanation": "Delivery and management at a specialised congenital heart centre are recommended.",
+      "claims": [
+        "AH14-208"
+      ],
+      "status": "ai-cross-checked"
+    }
+  ]
+}

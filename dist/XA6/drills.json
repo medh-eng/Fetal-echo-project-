@@ -1,0 +1,122 @@
+{
+  "unit": "XA6",
+  "title": "Biometry and Z-scores",
+  "status": "ai-cross-checked",
+  "items": [
+    {
+      "id": "XA6-Q01",
+      "question": "Which of these is required in every complete fetal echocardiogram?",
+      "options": [
+        "A measured cardiothoracic area ratio",
+        "Ventricular volumes and ejection fraction",
+        "Combined cardiac output",
+        "Free wall thickness"
+      ],
+      "answer": 0,
+      "explanation": "A complete study requires a measured cardiothoracic area ratio; the others are optional.",
+      "claims": [
+        "AS23-044",
+        "AS23-167"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XA6-Q02",
+      "question": "The cardiac axis. What must be done, and what is optional?",
+      "options": [
+        "Assess it in two dimensions; measuring the angle is optional",
+        "Measure the angle in every study; assessment is optional",
+        "Neither is needed in a complete study",
+        "Only colour Doppler is required"
+      ],
+      "answer": 0,
+      "explanation": "Axis must be assessed in 2D; measuring the angle is optional.",
+      "claims": [
+        "AS23-043"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XA6-Q03",
+      "question": "What does a Z-score express?",
+      "options": [
+        "Deviation from the mean in standard deviations, adjusted for gestational age",
+        "The percentage of normal size",
+        "The absolute size in millimetres",
+        "The ratio of left to right"
+      ],
+      "answer": 0,
+      "explanation": "A Z-score is the deviation from the mean in SDs, adjusted for gestational age.",
+      "claims": [
+        "AS23-152"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XA6-Q04",
+      "question": "Two centres report different Z-scores for the same measurement. What is one likely reason?",
+      "options": [
+        "Several published equations exist, some based on fetal biometry rather than gestational age",
+        "Z-scores never differ between centres",
+        "Z-scores are not adjusted for gestation",
+        "One centre measured in millimetres"
+      ],
+      "answer": 0,
+      "explanation": "Several equations exist, including some using BPD and femur length.",
+      "claims": [
+        "AS23-153"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XA6-Q05",
+      "question": "In which phase are the branch pulmonary arteries and ascending aorta measured?",
+      "options": [
+        "Systole",
+        "Early diastole",
+        "End-diastole only",
+        "Any phase"
+      ],
+      "answer": 0,
+      "explanation": "These optional vessel measurements are taken in systole.",
+      "claims": [
+        "AS23-160",
+        "AS23-161"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XA6-Q06",
+      "question": "Ventricular dimensions on the low short-axis view. When are systolic measurements added?",
+      "options": [
+        "When function is a concern",
+        "Always",
+        "Never",
+        "Only in twins"
+      ],
+      "answer": 0,
+      "explanation": "Dimensions are taken in diastole, with systolic measurements added if function is a concern.",
+      "claims": [
+        "AS23-164"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XA6-Q07",
+      "question": "An abnormality is found. Are you limited to the standard measurement list?",
+      "options": [
+        "No: additional measurements should be made for specific defects",
+        "Yes: only listed measurements may be taken",
+        "Yes, unless the patient asks",
+        "Measurements should stop once an abnormality is found"
+      ],
+      "answer": 0,
+      "explanation": "Additional measurements should be made for specific defects; optional ones are not limited to the table.",
+      "claims": [
+        "AS23-151",
+        "AS23-156"
+      ],
+      "status": "ai-cross-checked"
+    }
+  ]
+}

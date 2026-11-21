@@ -23,8 +23,20 @@ author: Edited by Dr Kunda Shahane, Mayflower Clinic, Nagpur
 - D13 Quality assurance and audit (draft)
 - F1 Ultrasound modes used in fetal echocardiography (draft)
 - F2 Fetal rhythm: tools and mechanisms (draft)
+- XA2 Genetics of congenital heart disease and the work-up after diagnosis (draft)
 - XA5 The complete fetal echocardiogram (draft)
+- XA6 Biometry and Z-scores (draft)
+- XB1 Lesion atlas: septal and atrioventricular lesions (AVSD, common valve, straddling, VSD) (draft)
+- XB2 Lesion atlas: left heart (aortic stenosis, HLHS, mitral, coarctation) (draft)
+- XB3 Lesion atlas: right heart (pulmonary stenosis and atresia, Ebstein anomaly, tricuspid dysplasia) (draft)
+- XB4 Lesion atlas: conotruncal lesions (tetralogy, transposition, DORV, common trunk) (draft)
+- XB5 Lesion atlas: arch and vessels (right arch, double arch, aberrant subclavian, ductus) (draft)
+- XB8 Lesion atlas: univentricular hearts (draft)
 - XC1 Assessing cardiac function: the first steps (draft)
+- Z1 Counselling in depth (draft)
+- Z2 Surveillance plans by lesion (draft)
+- Z3 Planning delivery: place, timing, mode, first-hour needs (draft)
+- Z5 Fetal cardiac intervention (draft)
 
 # Why hearts are missed
 
@@ -2111,6 +2123,125 @@ Outside sinus rhythm, reversal of the venous A-wave is an unreliable indicator o
 
 \newpage
 
+# Genetics of congenital heart disease and the work-up after diagnosis
+
+> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-cross-checked' that no clinician has verified.
+
+Unit XA2 | Tier: Diagnose | Version 0.1
+
+## You will be able to
+
+- Give the approximate rate of chromosomal abnormality in fetal heart disease, and why it is higher than in infants.
+- Name the lesions with the highest and lowest aneuploidy risk, and those linked with 22q11 deletion.
+- State what testing and counselling to offer, and what must be disclosed before microarray.
+- Describe the extracardiac survey after a cardiac diagnosis.
+
+## How common, and why it matters
+
+About 15% of infants with heart disease have a recognisable chromosomal abnormality, mostly aneuploidies: trisomies 21, 13 and 18, and monosomy X. [1]
+
+In the fetus the rate is higher: abnormal karyotypes are found in 30% to 40% in most series, probably because affected fetuses die more often before birth. Even isolated heart disease diagnosed by ultrasound carries a risk of at least 15% to 30%. [2, 3]
+
+Genetic results may prompt a further search for anomalies, inform recurrence risk, and influence decisions on termination or palliative care. [4]
+
+
+## Risk by lesion
+
+Ventricular and atrioventricular septal defects are the lesions most often associated with an abnormal karyotype. Of fetuses with atrioventricular septal defect and normal situs, 50% to 70% have trisomy 21. [5, 6]
+
+Risk of aneuploidy by lesion, from the AHA 2014 tables (ranges across published series). [7]
+
+| Lesion | Aneuploidy risk |
+|---|---|
+| Atrioventricular septal defect | 46-73% |
+| Common arterial trunk | 19-78% |
+| Tetralogy of Fallot | 7-39% |
+| Hypoplastic left heart | 4-9% |
+| Transposition | 0% |
+| Heterotaxy | 0% |
+
+Heterotaxy, D-transposition, congenitally corrected transposition and pulmonary atresia with intact septum are rarely aneuploid, but parents should still be offered testing. [8]
+
+
+## 22q11 deletion
+
+Conotruncal lesions and right aortic arch are associated with 22q11 deletion. [9]
+
+Estimated frequency of 22q11 deletion by lesion, from AHA 2014. [10]
+
+| Lesion | 22q11 deletion |
+|---|---|
+| Interrupted aortic arch | 50-90% |
+| Common arterial trunk | 35-40% |
+| Isolated arch anomaly | 25% |
+| Tetralogy of Fallot | 8-35% |
+| Transposition | Below 1% |
+
+On the scan: imaging the arch and the thymus allows counselling tailored to the risk of 22q11 deletion. In common arterial trunk with a right aortic arch the risk is above 50%. In absent pulmonary valve syndrome, telling the subaortic-VSD form from the intact-septum form matters for assessing 22q11.2 deletion. [11, 12, 13]
+
+
+## Other genetic clues
+
+A cardiac tumour found in mid or late gestation should prompt genetic testing: over 60% of such fetuses have tuberous sclerosis. [14]
+
+Lesions of the atrioventricular junction may be isolated, often with aneuploidy including trisomy 21. [15]
+
+
+## What to offer
+
+Genetic testing and counselling should be recommended for every fetus with a cardiac malformation, with or without other anomalies. [16]
+
+Before microarray testing, disclose that it may find variants of unknown significance. Microarray cannot detect balanced rearrangements. In 2014, whether it should replace routine cytogenetic testing was still debated. [17, 18]
+
+
+## The extracardiac survey
+
+Every fetus with heart disease should have a detailed survey of all fetal anatomy by an expert operator. Some anomalies are only detectable later, so a repeat assessment may be appropriate. [19]
+
+Ventricular septal defect and tricuspid atresia are often associated with other anomalies; D-transposition and pulmonary atresia with intact septum are more often isolated. [20]
+
+## Work-up after a cardiac diagnosis
+
+- [ ] Genetic counselling and testing recommended [16]
+- [ ] Microarray: variants of unknown significance disclosed beforehand [17]
+- [ ] Arch and thymus imaged where 22q11 deletion is possible [11, 9]
+- [ ] Detailed extracardiac survey by an expert; repeat planned if appropriate [19]
+- [ ] Cardiac tumour: tuberous sclerosis testing [14]
+
+## Still to be written
+
+- Awaiting re-check after rewording on 21 Nov (round 5, task J): recommendation 14, genetic counselling with offer of aneuploidy testing and detailed anatomy scan (AH14-014); extracardiac anomaly rates (AH14-114); fetal MRI for extracardiac screening (AH14-015, 016, 117); parental testing (AH14-330, new).
+- Current testing: exome and genome sequencing, rapid aneuploidy tests, and how testing has changed since 2014 - needs a newer source and a clinical geneticist.
+- Availability and cost of each test in India, and the legal framework (PC-PNDT) for prenatal genetic testing - needs an Indian source and the editor's input.
+- Recurrence risks for siblings and offspring - needs a source.
+- Video outline not yet written.
+
+## References
+
+1. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Extracardiac Assessment of the Fetus With CHD, Genetic Abnormalities and CHD, p. 2206. (AH14-100, ai-cross-checked)
+2. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Extracardiac Assessment of the Fetus With CHD, p. 2206. (AH14-101, ai-cross-checked)
+3. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Extracardiac Assessment of the Fetus With CHD, Genetic Testing of Fetuses With CHD, p. 2207. (AH14-102, ai-cross-checked)
+4. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Extracardiac Assessment of the Fetus With CHD, p. 2207. (AH14-104, ai-cross-checked)
+5. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Extracardiac Assessment of the Fetus With CHD, p. 2207. (AH14-108, ai-cross-checked)
+6. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Extracardiac Assessment of the Fetus With CHD, p. 2207. (AH14-109, ai-cross-checked)
+7. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Table 10, p. 2207. (AH14-112, ai-cross-checked)
+8. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Extracardiac Assessment of the Fetus With CHD, Genetic Abnormalities Associated With CHD, p. 2207. (AH14-107, ai-cross-checked)
+9. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Extracardiac Assessment of the Fetus With CHD, p. 2207. (AH14-110, ai-cross-checked)
+10. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Table 11, p. 2208. (AH14-113, ai-cross-checked)
+11. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714. (AS23-313, ai-cross-checked)
+12. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 707. (AS23-350, ai-cross-checked)
+13. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717. (AS23-318, ai-cross-checked)
+14. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Extracardiac Assessment of the Fetus With CHD, p. 2207. (AH14-111, ai-cross-checked)
+15. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii opening, p. 704. (AS23-249, ai-cross-checked)
+16. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Extracardiac Assessment of the Fetus With CHD, Genetic Testing of Fetuses With CHD, p. 2207. (AH14-103, ai-cross-checked)
+17. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Extracardiac Assessment of the Fetus With CHD, Available Genetic Testing, pp. 2206-2207. (AH14-105, ai-cross-checked)
+18. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Extracardiac Assessment of the Fetus With CHD, p. 2206. (AH14-106, ai-cross-checked)
+19. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Extracardiac Assessment of the Fetus With CHD, Fetal Survey, p. 2208. (AH14-116, ai-cross-checked)
+20. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Extracardiac Assessment of the Fetus With CHD, p. 2208. (AH14-115, ai-cross-checked)
+
+
+\newpage
+
 # The complete fetal echocardiogram
 
 > DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-extracted' that no clinician has verified.
@@ -2316,6 +2447,854 @@ The study should include still images, moving clips and a structured report. [49
 
 \newpage
 
+# Biometry and Z-scores
+
+> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-cross-checked' that no clinician has verified.
+
+Unit XA6 | Tier: Diagnose | Version 0.1
+
+## You will be able to
+
+- List the measurements a complete fetal echocardiogram requires.
+- Name the optional measurements and the phase of the cycle each is taken in.
+- Explain what a Z-score is and why the equation used must be stated.
+- Say when measurements beyond the standard list are needed.
+
+## Required in every study
+
+Fetal heart rate and rhythm should be documented in every fetal echocardiogram, alongside the valve annulus measurements. [1]
+
+A complete study requires a measured cardiothoracic area ratio. The guideline's measurement table lists the cardiothoracic ratio as required, and as prognostic in twin-twin transfusion, anaemia, sacrococcygeal teratoma, CPAM and congenital high airway obstruction. [2, 3]
+
+The cardiac axis must be assessed in two dimensions; measuring the angle is optional. [4]
+
+Compare the measurements made in every study with published or internal normal values. [5]
+
+
+## Optional measurements and their timing
+
+Optional measurements listed in the guideline, with where and when each is taken. [6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+| Measurement | View or method | Phase |
+|---|---|---|
+| Right and left ventricular length | Four-chamber view | Diastole |
+| Transverse atrial dimensions | - | - |
+| Main pulmonary artery | Proximal to the bifurcation | Systole |
+| Branch pulmonary arteries | - | Systole |
+| Ascending aorta | - | Systole |
+| Transverse arch against ductal arch; isthmus against distal ductus | Long axis of the arch or three-vessel-and-trachea view | Systole |
+| Free wall and septal thickness | Low short-axis view | Diastole |
+| Ventricular dimensions | Low short-axis view | Diastole; add systole if function is a concern |
+| Ventricular volumes and ejection fraction | - | - |
+| Combined cardiac output, indexed to estimated fetal weight | Vessel area, velocity-time integral and heart rate | - |
+
+Aortic and pulmonary annuli are listed as measured at end-diastole or early systole, with the valve open or closed. [16]
+
+
+## Measurements for specific lesions
+
+Additional cardiac and vessel measurements should be made for specific structural defects. Optional measurements, especially when an abnormality is found, are not limited to the standard list. The lesion units (XB1 to XB8) give the measurements listed for each lesion. [17, 18]
+
+
+## Z-scores
+
+Fetal cardiac measurements are usually converted to Z-scores: the deviation from the mean in standard deviations, adjusted for gestational age. [19]
+
+Several published Z-score equations exist. Some use biparietal diameter and femur length instead of gestational age. The guideline tabulates them with their strengths and weaknesses. [20, 21]
+
+## Biometry in the report
+
+- [ ] Heart rate and rhythm documented [1]
+- [ ] Cardiothoracic area ratio measured [2]
+- [ ] Cardiac axis assessed [4]
+- [ ] Measurements compared with published or internal normals [5]
+- [ ] Lesion-specific measurements added [17]
+
+## Still to be written
+
+- The Z-score source the course will teach and its normal values for each structure - the editor to choose (tasks/results/task-s1.md, topic 4).
+- Required annulus measurements and their timing (AS23-068, AS23-069) are not yet cross-checked (task H was not applied); and the guideline is inconsistent on semilunar annulus timing (flagged 17 Nov). The co-editor to decide what the course teaches.
+- Whether reports must name the Z-score equation used - a sensible practice but not a claim held; the co-editor to decide. (The equation-dependent valve index threshold, AS23-255, is awaiting re-check.)
+- How to measure each structure step by step, with images - needs a source and the editor's own clips.
+- Video outline not yet written.
+
+## References
+
+1. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.F Cardiac Biometry and Measurement Data, p. 689. (AS23-150, ai-cross-checked)
+2. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.E. Standard Views and Imaging Planes, Table 3, cardiac size row, p. 686; III.F, Table 4, p. 690. (AS23-044, ai-cross-checked)
+3. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 4, p. 690. (AS23-167, ai-cross-checked)
+4. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.E. Standard Views and Imaging Planes, Table 3, cardiac axis row, p. 686. (AS23-043, ai-cross-checked)
+5. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 4 (measurements), footnote, p. 692. (AS23-155, ai-cross-checked)
+6. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 4 (measurements), p. 690. (AS23-157, ai-cross-checked)
+7. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 4 (measurements), p. 690. (AS23-158, ai-cross-checked)
+8. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 4 (measurements), p. 691. (AS23-159, ai-cross-checked)
+9. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 4 (measurements), p. 691. (AS23-160, ai-cross-checked)
+10. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 4 (measurements), p. 691. (AS23-161, ai-cross-checked)
+11. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 4 (measurements), p. 691. (AS23-162, ai-cross-checked)
+12. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 4 (measurements), p. 692. (AS23-163, ai-cross-checked)
+13. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 4 (measurements), p. 692. (AS23-164, ai-cross-checked)
+14. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 4 (measurements), p. 692. (AS23-165, ai-cross-checked)
+15. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 4 (measurements), p. 692. (AS23-166, ai-cross-checked)
+16. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 4, semilunar valve row, p. 691. (AS23-168, ai-cross-checked)
+17. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.F Cardiac Biometry and Measurement Data, p. 689. (AS23-151, ai-cross-checked)
+18. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 4 (measurements), footnote, p. 692. (AS23-156, ai-cross-checked)
+19. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.F Cardiac Biometry and Measurement Data, p. 689. (AS23-152, ai-cross-checked)
+20. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.F Cardiac Biometry and Measurement Data, p. 689. (AS23-153, ai-cross-checked)
+21. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 5, p. 693; referred to in III.F, p. 689. (AS23-154, ai-cross-checked)
+
+
+\newpage
+
+# Lesion atlas: septal and atrioventricular lesions (AVSD, common valve, straddling, VSD)
+
+> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-cross-checked' that no clinician has verified.
+
+Unit XB1 | Tier: Diagnose | Version 0.1
+
+## You will be able to
+
+- Set out the imaging approach to any atrioventricular valve abnormality.
+- Describe what to examine when an atrioventricular septal defect is suspected, and how imbalance is measured.
+- Define straddling and overriding valves and say why they matter for surgery.
+- Name the associations and pitfalls of a common atrioventricular valve.
+
+## Approach to any atrioventricular valve abnormality
+
+Lesions of the atrioventricular junction may be isolated, often with aneuploidy including trisomy 21, or complex, with several associated defects. [1]
+
+Malformed atrioventricular valves carry high rates of ventricular disproportion, ventricular septal defects and malformation of the outflows and great arteries, and may lead to single-ventricle palliation. [2]
+
+Start with the four-chamber view, the atrioventricular septum aligned perpendicular to the beam. A sagittal view of the thorax best shows valve morphology, chordae and papillary muscles in short axis. Use non-standard planes and en face imaging when the junction looks abnormal. Obtain cephalad sweeps to define the outflows and great arteries. [3, 4, 5, 6]
+
+Measure the annulus in early diastole at the hinge points. [7]
+
+Evaluate every cardiac structure, including ventricular size and function and the balance of the junction over the ventricles. [8]
+
+Doppler: pulsed-wave Doppler of inflow is essential, but peak velocity may underestimate stenosis because fetal flow can redistribute. At each study a complete Doppler assessment must cover stenosis, regurgitation and flow at the atrial septum and ductus. [9, 10]
+
+Delineate any additional lesion that affects the surgical approach, to help decide between palliation and biventricular repair. [11]
+
+
+## Atrioventricular septal defect
+
+Views: examine the left atrioventricular valve en face for a cleft or common orifice; check the atrial septum for a primum defect and the ventricular septum for an inlet defect. [12, 13]
+
+Doppler: assess valve regurgitation with colour Doppler. [14]
+
+Measuring balance: the valve area over each ventricle can be measured in diastole from a parasagittal view to give an atrioventricular valve index. The right-to-left ventricular inflow angle can be measured from an apical four-chamber view; a smaller angle means greater imbalance. [15, 16]
+
+Unbalanced AVSD: measure the right and left atrioventricular valve diameter or area; the Cohen index, valve index and inflow angle are listed. Regurgitation of the common valve may progress. Consider right or left atrial isomerism (heterotaxy). [17, 18, 19]
+
+
+## Common atrioventricular valve
+
+Views: suspected when the crux lacks offset, or the valves appear at the same level, with large atrial or ventricular septal defects. [20]
+
+Associations: bilateral superior venae cavae, an interrupted inferior vena cava, or total anomalous pulmonary venous return. [21]
+
+Pitfall: additional ventricular septal defects may be missed unless they are looked for. [22]
+
+
+## Straddling, overriding and crisscross connections
+
+Definitions: in a straddling valve, chordae pass through a ventricular septal defect and attach in the opposite ventricle. In an overriding valve, the annulus sits over the septum and opens into both ventricles. [23, 24]
+
+Suspect a complex junction when the four-chamber view does not show two separate valves with offset at the crux. Image the valves with combined two-dimensional, colour and pulsed-wave Doppler from several views; video clips and live scanning show straddling better than still images. [25, 26, 27]
+
+Associations: straddling can occur with D- or L-looped ventricles and carries a risk of heart block. If the left valve is hypoplastic, the fetus is at risk of left atrial hypertension. [28, 29]
+
+Surgery: a straddling or overriding valve may make closure of the ventricular septal defect impossible and may require a single-ventricle approach. [30]
+
+Pitfall: in a crisscross heart, foreshortening can cause confusion between one and two ventricles. [31]
+
+
+## Ventricular septal defect
+
+Evolution: a ventricular septal defect can get smaller, with less severe or resolved disease. This usually happens with simple isolated defects, including muscular ones, but can occur in other heart disease. [32]
+
+## Atrioventricular junction: minimum record
+
+- [ ] Four-chamber view with the septum perpendicular; sagittal short-axis view of the valve; en face views [3, 4, 5]
+- [ ] Annulus measured in early diastole at the hinge points [7]
+- [ ] Balance assessed: valve index and inflow angle where an AVSD is present [15, 16, 17]
+- [ ] Complete Doppler: stenosis, regurgitation, atrial septal and ductal flow [10, 14]
+- [ ] Outflows defined with cephalad sweeps [6]
+- [ ] Additional VSDs looked for; straddling recorded on clips [22, 27]
+
+## Still to be written
+
+- Awaiting re-check after rewording on 21 Nov (round 5, task J): the abnormal crux of AVSD with valve levels when closed (AS23-250); the valve index threshold and its dependence on the equation (AS23-255); outflow obstruction in AVSD (AS23-257); crisscross anatomy and discordance (AS23-272, 276, 359).
+- Isolated ventricular septal defect: types, views, colour settings, and how often each closes - needs a source.
+- Atrial septal defects (secundum, sinus venosus) and the normal foramen ovale - needs a source.
+- Genetic work-up after AVSD - unit XA2.
+- Video outline not yet written.
+
+## References
+
+1. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii opening, p. 704. (AS23-249, ai-cross-checked)
+2. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii AV valve abnormalities, General Imaging Approach, p. 712. (AS23-238, ai-cross-checked)
+3. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii AV valve abnormalities, General Imaging Approach, p. 712. (AS23-240, ai-cross-checked)
+4. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii AV valve abnormalities, General Imaging Approach, p. 712. (AS23-243, ai-cross-checked)
+5. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii Key Points, p. 713. (AS23-247, ai-cross-checked)
+6. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii AV valve abnormalities, General Imaging Approach, p. 712. (AS23-242, ai-cross-checked)
+7. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii AV valve abnormalities, General Imaging Approach, p. 712. (AS23-241, ai-cross-checked)
+8. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii Key Points, p. 713. (AS23-239, ai-cross-checked)
+9. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii AV valve abnormalities, General Imaging Approach, p. 712. (AS23-244, ai-cross-checked)
+10. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii Key Points, p. 713. (AS23-246, ai-cross-checked)
+11. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii Key Points, p. 713. (AS23-248, ai-cross-checked)
+12. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii AV Septal Defects, p. 712. (AS23-251, ai-cross-checked)
+13. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii AV Septal Defects, p. 712. (AS23-252, ai-cross-checked)
+14. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii General Imaging Approach, p. 712; Table 13, common AV valve, p. 706. (AS23-256, ai-cross-checked)
+15. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii AV Septal Defects, p. 712; Figure 23. (AS23-253, ai-cross-checked)
+16. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii AV Septal Defects, p. 712; Figure 24, pp. 712-713. (AS23-254, ai-cross-checked)
+17. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), pp. 705-706. (AS23-237, ai-cross-checked)
+18. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 705. (AS23-236, ai-cross-checked)
+19. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 705. (AS23-235, ai-cross-checked)
+20. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 706. (AS23-258, ai-cross-checked)
+21. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 706. (AS23-259, ai-cross-checked)
+22. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 706. (AS23-260, ai-cross-checked)
+23. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii Straddling/Overriding AV Valves and Crisscross Heart, pp. 712-713. (AS23-270, ai-cross-checked)
+24. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii Straddling/Overriding AV Valves and Crisscross Heart, pp. 712-713. (AS23-271, ai-cross-checked)
+25. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 706. (AS23-273, ai-cross-checked)
+26. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii Straddling/Overriding AV Valves and Crisscross Heart, pp. 712-713; Figure 25. (AS23-275, ai-cross-checked)
+27. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Figure 25 caption, p. 714. (AS23-278, ai-cross-checked)
+28. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 706. (AS23-280, ai-cross-checked)
+29. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), straddling valves row, p. 706. (AS23-268, ai-cross-checked)
+30. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii Straddling/Overriding AV Valves and Crisscross Heart, pp. 712-713. (AS23-277, ai-cross-checked)
+31. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 706. (AS23-274, ai-cross-checked)
+32. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 14 (mechanisms and patterns of progression), pp. 710-711. (AS23-285, ai-cross-checked)
+
+
+\newpage
+
+# Lesion atlas: left heart (aortic stenosis, HLHS, mitral, coarctation)
+
+> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-cross-checked' that no clinician has verified.
+
+Unit XB2 | Tier: Diagnose | Version 0.1
+
+## You will be able to
+
+- Name the findings that suggest progressive semilunar obstruction on a screening-level view.
+- List what to record in fetal aortic stenosis at every study, and the signs of critical obstruction.
+- Describe the findings of hypoplastic left heart syndrome and how left atrial hypertension is looked for.
+- Describe the assessment of mitral valve abnormalities.
+- Give the signs of coarctation and its main diagnostic limit.
+
+## Suspecting left heart obstruction
+
+Progressive semilunar valve obstruction is suspected when the three-vessel view is abnormal or the four chambers are asymmetric. [1]
+
+Fetal aortic and pulmonary stenosis span a broad range of severity. [2]
+
+
+## Aortic stenosis
+
+Doppler: evaluate valve morphology, size, patency and competence with colour, pulsed-wave and continuous-wave Doppler. [3]
+
+Pitfall: aortic valve Doppler may not reflect severity when left ventricular dysfunction is severe. Reversed flow in the transverse arch predicts severe obstruction. [4]
+
+Critical obstruction: retrograde flow in the arch on the side of the obstructed valve heralds critical obstruction at any gestation. If it is absent at first, look for it again through the pregnancy. [5]
+
+Measure: ventricular size (end-diastolic diameter and length), whether the left ventricle forms the apex, hypertrophy, endocardial fibroelastosis, and systolic and diastolic function. These help judge severity and suitability for prenatal intervention. Assess the function of both ventricles. [6, 7]
+
+Associations: the arch and isthmus are at risk of coarctation and should be assessed. [8]
+
+Evolution: with longer-standing obstruction the ascending aorta can dilate or become hypoplastic, so repeat the measurements. With severe left ventricular dysfunction, the left ventricle may stop forming the apex late in pregnancy. [9, 10]
+
+Left atrial pressure: in severe aortic obstruction, raised left atrial pressure can cause left-to-right atrial shunting and atrial restriction, altering pulmonary venous flow. Assess foramen ovale size and flow. [11]
+
+Follow-up: serial evaluation from the time stenosis is suspected, including ventricular size and function and fibroelastosis. Document ductal and arch flow direction and atrial septal flow direction at every study. [12, 13, 14]
+
+
+## Hypoplastic left heart syndrome
+
+Definition: a small left ventricle on the four-chamber view, with mitral and aortic stenosis or atresia. It is the most common form of single ventricle, with an incidence of 0.26 per 1,000 live births. [15, 16]
+
+Views: assess aortic valve patency, the size of the ascending aorta, the transverse arch, and the direction of flow in the distal transverse arch. The ascending aorta diameter may predict outcome after the Norwood operation. [17, 18]
+
+Associations: tricuspid regurgitation with right ventricular dysfunction may increase the risk of fetal death and of illness and death after birth. [19]
+
+Left atrial hypertension: the pulmonary venous forward-to-reverse velocity-time integral ratio is used to detect it. Measure it at every study, the last near term. A ratio below 3 predicts inadequate left atrial egress and a greater chance of emergency atrial septoplasty in the newborn. [20, 21, 22]
+
+Maternal hyperoxygenation: may be considered late in the third trimester in selected cases. Lack of pulmonary vasoreactivity - a fall of less than 10% in pulmonary artery pulsatility index - is associated with neonatal instability and urgent opening of the atrial septum after birth. [23, 24]
+
+Evolution: foramen ovale restriction can lead to pulmonary congestion (nutmeg lung) and, in HLHS, to hypoxaemia, left atrial hypertension and the need for urgent balloon atrial septostomy after birth. [25]
+
+Pitfall: isolated restriction of the foramen ovale may make the left-sided structures look small, with no consequence after birth. [26]
+
+
+## Mitral valve abnormalities
+
+Effect: mitral valve abnormalities may reduce flow to the left heart and reverse flow at the foramen ovale. [27]
+
+Views and Doppler: image the mitral valve and atrial septum in two dimensions and colour, and use pulsed-wave Doppler of the pulmonary veins to look for raised left atrial pressure. [28, 29]
+
+Mitral stenosis: the valve may be parachute or hypoplastic; the papillary muscles and a Z-score of the valve are listed for assessment. Foramen ovale size and the pulmonary venous forward-to-reverse ratio are additional measurements. Flow direction at the foramen ovale is critical in judging whether the mitral valve is adequate. [30, 31, 32]
+
+Mitral regurgitation: isolated mitral dysplasia and mitral arcade cause significant regurgitation, and any degree of mitral regurgitation in the fetus is abnormal. When it is present, consider left ventricular outflow obstruction. [33, 34]
+
+
+## Coarctation of the aorta
+
+Views: a right ventricle larger than the left, an ascending aorta smaller than the superior vena cava, and a small transverse arch and isthmus. Isolated coarctation is suspected when the transverse aorta is smaller than the ductal arch. [35, 36]
+
+Measure: the aortic isthmus. [37]
+
+Pitfall: prenatal diagnosis of coarctation has substantial false-positive and false-negative rates. [38]
+
+## Left heart obstruction: each study
+
+- [ ] Valve morphology, size, patency and competence with colour, pulsed-wave and continuous-wave Doppler [3]
+- [ ] Arch and ductal flow direction documented [13, 5]
+- [ ] Atrial septal flow direction documented; foramen ovale size [14, 11]
+- [ ] Left ventricular size, apex, hypertrophy, fibroelastosis and function; both ventricles' function [6, 7]
+- [ ] Arch and isthmus assessed for coarctation [8, 37]
+- [ ] HLHS: pulmonary venous forward-to-reverse VTI ratio, last one near term [21]
+
+## Still to be written
+
+- Awaiting re-check after rewording on 21 Nov (round 5, task J): key observations in aortic stenosis (AS23-412); severity from the mitral regurgitant jet (AS23-414); progression and hydrops in severe obstruction (AS23-401, 402, 406); peak velocity and annulus size in atrioventricular valve disease (AS23-266); Figure 21 assessment of atrial restriction (AS23-284); lesions with restrictive foramen ovale (AS23-281); HLHS with mitral regurgitation in the follow-up table (AS23-423); warning signs on the three-vessel-and-trachea view (AS23-445); gradients not indicating severity (AS23-362, new).
+- Interrupted aortic arch: no claims held - needs a source.
+- Fetal intervention for aortic stenosis with evolving HLHS: candidacy and outcomes are in unit Z5.
+- Normal values and Z-scores for the measurements named here - unit XA6 and a Z-score source.
+- Delivery planning for ductal-dependent left heart lesions - unit Z3.
+- Video outline not yet written.
+
+## References
+
+1. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13, category heading, p. 708. (AS23-356, ai-cross-checked)
+2. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716. (AS23-400, ai-cross-checked)
+3. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716; Figure 27. (AS23-404, ai-cross-checked)
+4. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 708. (AS23-413, ai-cross-checked)
+5. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716; Figure 28. (AS23-405, ai-cross-checked)
+6. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716. (AS23-407, ai-cross-checked)
+7. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Key Points (semilunar obstruction), p. 716. (AS23-411, ai-cross-checked)
+8. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 708. (AS23-416, ai-cross-checked)
+9. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716. (AS23-403, ai-cross-checked)
+10. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Figure 27 caption, p. 716. (AS23-417, ai-cross-checked)
+11. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716. (AS23-415, ai-cross-checked)
+12. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Key Points (semilunar obstruction), p. 716. (AS23-408, ai-cross-checked)
+13. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Key Points (semilunar obstruction), p. 716. (AS23-409, ai-cross-checked)
+14. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Key Points (semilunar obstruction), p. 716. (AS23-410, ai-cross-checked)
+15. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 705. (AS23-231, ai-cross-checked)
+16. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704. (AS23-203, ai-cross-checked)
+17. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 705. (AS23-232, ai-cross-checked)
+18. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 705. (AS23-233, ai-cross-checked)
+19. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 705. (AS23-234, ai-cross-checked)
+20. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704. (AS23-221, ai-cross-checked)
+21. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Key Points, p. 704. (AS23-220, ai-cross-checked)
+22. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), HLHS row, p. 705. (AS23-222, ai-cross-checked)
+23. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Key Points, p. 704. (AS23-223, ai-cross-checked)
+24. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704. (AS23-224, ai-cross-checked)
+25. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 14 (mechanisms and patterns of progression), pp. 710-711. (AS23-282, ai-cross-checked)
+26. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 14 (mechanisms and patterns of progression), pp. 710-711. (AS23-283, ai-cross-checked)
+27. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii Congenital Mitral Valve Abnormalities, p. 712. (AS23-261, ai-cross-checked)
+28. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii Congenital Mitral Valve Abnormalities, p. 712. (AS23-262, ai-cross-checked)
+29. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii Congenital Mitral Valve Abnormalities, p. 712. (AS23-263, ai-cross-checked)
+30. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 706. (AS23-267, ai-cross-checked)
+31. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), mitral stenosis row, p. 706. (AS23-279, ai-cross-checked)
+32. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 706. (AS23-269, ai-cross-checked)
+33. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii Congenital Mitral Valve Abnormalities, p. 712. (AS23-264, ai-cross-checked)
+34. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii Congenital Mitral Valve Abnormalities, p. 712. (AS23-265, ai-cross-checked)
+35. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 709. (AS23-443, ai-cross-checked)
+36. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Figure 30D caption, p. 718. (AS23-446, ai-cross-checked)
+37. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 709. (AS23-447, ai-cross-checked)
+38. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 709. (AS23-444, ai-cross-checked)
+
+
+\newpage
+
+# Lesion atlas: right heart (pulmonary stenosis and atresia, Ebstein anomaly, tricuspid dysplasia)
+
+> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-cross-checked' that no clinician has verified.
+
+Unit XB3 | Tier: Diagnose | Version 0.1
+
+## You will be able to
+
+- Describe the four-chamber and three-vessel findings in pulmonary stenosis, including when the four-chamber view looks normal.
+- Explain what reversed ductal flow means, and how coronary fistulae are looked for.
+- Name the first clue to Ebstein anomaly or tricuspid dysplasia and the Doppler that separates true from functional pulmonary atresia.
+- Explain why severe regurgitation leads to cardiomegaly, heart failure and hydrops.
+
+## Pulmonary stenosis and atresia with intact septum
+
+Views: right atrial enlargement and a right ventricle smaller than the left, hypertrophied and with reduced function. The four-chamber view may look normal, with reversed colour flow in the ductus or main pulmonary artery on the three-vessel view. [1]
+
+Doppler: increased A-wave reversal in the systemic veins is common. Reversed ductal flow suggests ductal dependence. [2, 3]
+
+Measure: the tricuspid annulus and the pulsed-wave inflow duration. [4]
+
+Coronary fistulae: pulmonary valve atresia or near-atresia with a small right ventricle can be associated with coronary artery fistulae. Suspect them when low-velocity colour Doppler shows to-and-fro flow in the right ventricular free wall or septum. Tricuspid regurgitation greater than mild on colour Doppler is associated with a low risk of these sinusoids. [5, 6]
+
+Follow-up: serial evaluation from the time stenosis is suspected; flow direction in the ductal and aortic arches and at the atrial septum at every study; function of both ventricles. [7, 8, 9, 10]
+
+
+## Ebstein anomaly and tricuspid valve dysplasia
+
+First clue: significant right atrial dilatation, with or without right ventricular dilatation. [11]
+
+Views: tricuspid valve anatomy on the four-chamber and short-axis views clarifies the diagnosis. [12]
+
+Doppler: pulsed- and continuous-wave Doppler of the regurgitant jet is critical to exclude primary pulmonary obstruction and to gauge right ventricular systolic pressure. [13]
+
+Functional pulmonary atresia: in severe tricuspid disease the right ventricle may be unable to exceed systemic pressure and open the pulmonary valve. Structural or functional pulmonary atresia here is always associated with retrograde ductal flow, which can appear at any point, so document ductal flow serially. [14, 15]
+
+Measure: the tricuspid annulus and peak tricuspid regurgitation velocity, both listed as predicting progression. Image and measure the branch pulmonary arteries, because their hypoplasia correlates with lung hypoplasia. Assess left ventricular morphology, size and function, because left ventricular dysfunction can cause compromise. [16, 17, 18]
+
+Associations and evolution: hypoplasia of the pulmonary valve and main pulmonary artery is common, because right ventricular output is reduced. Look for other defects, including coarctation and ventricular septal defect. [19, 20]
+
+Rhythm: assess it, because atrial ectopy and supraventricular tachyarrhythmias are common. [21]
+
+
+## Why severe regurgitation is dangerous
+
+Significant atrioventricular or semilunar regurgitation imposes a volume load that the fetal circulation tolerates poorly, causing progressive cardiomegaly. [22, 23]
+
+Severe tricuspid regurgitation with progressive cardiomegaly can evolve into heart failure and hydrops. When both ventricles fail, redistribution of preload is impaired, with haemodynamic instability, raised filling pressures and hydrops. [24, 25]
+
+Pulmonary regurgitation with a patent ductus can cause a circular shunt and placental steal. [26]
+
+Regurgitation may worsen as pregnancy advances, so follow it serially. [27]
+
+## Right heart lesion: each study
+
+- [ ] Ductal flow direction documented [8, 15]
+- [ ] Atrial septal flow direction documented [9]
+- [ ] Tricuspid annulus; tricuspid regurgitation velocity by PW and CW [4, 16, 13]
+- [ ] Branch pulmonary arteries measured [17]
+- [ ] Left ventricle: size and function; both ventricles' function [18, 10]
+- [ ] Heart size and signs of hydrops; rhythm [24, 21]
+- [ ] Pulmonary atresia with small RV: low-velocity colour for fistulae [5]
+
+## Still to be written
+
+- Awaiting re-check after rewording on 21 Nov (round 5, task J): vena contracta width relative to the annulus (AS23-426); left ventricular mechanics in severe tricuspid disease (AS23-433); ductal anatomy and left pulmonary artery stenosis in pulmonary stenosis (AS23-361, new); gradients not indicating severity (AS23-362, new).
+- Displacement of the tricuspid septal leaflet as a measure separating Ebstein anomaly from dysplasia, and outcome scores (for example the Celermajer index) - not in the claims held; needs a source.
+- Fetal pulmonary valvuloplasty for pulmonary atresia with intact septum - unit Z5.
+- Video outline not yet written.
+
+## References
+
+1. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 708. (AS23-418, ai-cross-checked)
+2. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 708. (AS23-419, ai-cross-checked)
+3. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), pulmonary stenosis row, p. 708. (AS23-420, ai-cross-checked)
+4. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 708. (AS23-422, ai-cross-checked)
+5. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, p. 716; Table 13, pulmonary stenosis, other key points, p. 708. (AS23-421, ai-cross-checked)
+6. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13, pulmonary stenosis row, p. 708. (AS23-448, ai-cross-checked)
+7. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Key Points (semilunar obstruction), p. 716. (AS23-408, ai-cross-checked)
+8. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Key Points (semilunar obstruction), p. 716. (AS23-409, ai-cross-checked)
+9. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Key Points (semilunar obstruction), p. 716. (AS23-410, ai-cross-checked)
+10. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Key Points (semilunar obstruction), p. 716. (AS23-411, ai-cross-checked)
+11. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717. (AS23-424, ai-cross-checked)
+12. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717. (AS23-425, ai-cross-checked)
+13. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717. (AS23-427, ai-cross-checked)
+14. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717. (AS23-428, ai-cross-checked)
+15. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717. (AS23-429, ai-cross-checked)
+16. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 708. (AS23-436, ai-cross-checked)
+17. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717. (AS23-431, ai-cross-checked)
+18. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717. (AS23-432, ai-cross-checked)
+19. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717. (AS23-430, ai-cross-checked)
+20. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717. (AS23-435, ai-cross-checked)
+21. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717. (AS23-434, ai-cross-checked)
+22. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717. (AS23-438, ai-cross-checked)
+23. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Key Points (regurgitation), p. 717. (AS23-441, ai-cross-checked)
+24. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Figure 29 caption, p. 718. (AS23-437, ai-cross-checked)
+25. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717. (AS23-439, ai-cross-checked)
+26. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 14 (mechanisms and patterns of progression), pp. 710-711. (AS23-442, ai-cross-checked)
+27. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Key Points (regurgitation), p. 717. (AS23-440, ai-cross-checked)
+
+
+\newpage
+
+# Lesion atlas: conotruncal lesions (tetralogy, transposition, DORV, common trunk)
+
+> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-cross-checked' that no clinician has verified.
+
+Unit XB4 | Tier: Diagnose | Version 0.1
+
+## You will be able to
+
+- Explain why outflow tract lesions are missed on the four-chamber view and which views find them.
+- Give the differential diagnosis of a ventricular septal defect with an overriding vessel.
+- For tetralogy, absent pulmonary valve, DORV, common trunk, D-transposition and congenitally corrected transposition: name the key findings, measurements, associations and perinatal points.
+- Name the conotruncal findings that change delivery planning.
+
+## Finding outflow lesions
+
+Outflow tract lesions are found at screening with the outflow, three-vessel and three-vessel-and-trachea views. They often show little abnormality on the four-chamber view. [1]
+
+When the four-chamber view is normal, Table 13 of the guideline lists three clues: an abnormal cardiac axis (below 30° or above 60°), a left ventricular outflow view that is abnormal or cannot be obtained, and an abnormal three-vessel view. [2]
+
+Sweeps from the four-chamber view through the outflow, three-vessel and three-vessel-and-trachea views detail the segmental anatomy. Short-axis and coronal views help locate the ventricular septal defect and show how the great arteries relate. [3, 4]
+
+Outflow lesions are often associated with anomalies of the veins, atrioventricular valves, septum, branch pulmonary arteries and arch. A complete evaluation includes the branch pulmonary arteries at their origins. [5, 6]
+
+The aortic arch is at risk in any lesion with subaortic obstruction or a subpulmonary ventricular septal defect. Image it with two-dimensional and Doppler imaging in axial and sagittal planes. [7]
+
+Pitfall: a ventricular septal defect with an overriding great vessel has a differential diagnosis - tetralogy of Fallot, pulmonary atresia with ventricular septal defect, double-outlet right ventricle and common arterial trunk. [8]
+
+
+## Tetralogy of Fallot
+
+Definition: an overriding aorta with obstruction below or at the pulmonary valve that ranges from mild stenosis to atresia, or a dilated outflow with absent pulmonary valve. [9]
+
+Views: the branch pulmonary arteries must be identified at their origins. Discontinuity, segmental stenosis and major aortopulmonary collaterals can coexist with an outflow or ductus that looks patent. [10]
+
+Measure: the branch pulmonary arteries, the pulmonary valve annulus serially, and the infundibulum. [11]
+
+Associations: atrioventricular septal defect; bilateral superior venae cavae, a retroaortic innominate vein, right aortic arch, vascular rings and aortopulmonary window. Imaging the arch and the thymus allows counselling tailored to the risk of 22q11 deletion. [12, 13, 14]
+
+Perinatal: ductal flow direction at 28 weeks predicts the need for neonatal intervention. [15]
+
+
+## Absent pulmonary valve syndrome
+
+Definition and associations: most often with tetralogy and a subaortic ventricular septal defect, but it can occur with an intact ventricular septum. Telling these apart is critical for surgical planning and for assessing 22q11.2 deletion. [16, 17]
+
+Views: a hypoplastic pulmonary annulus with tiny leaflets and to-and-fro colour flow across the valve. Key findings: dilated main and branch pulmonary arteries, and an enlarged right atrium and ventricle. [18, 19]
+
+Doppler: the ductus is typically absent, but look for it, because its presence affects prognosis. [20]
+
+Evolution: progressive right ventricular dysfunction predicts perinatal death; left ventricular dysfunction independently predicts fetal death. [21]
+
+Pitfall and perinatal: note the side of the arch, because an aneurysmal branch pulmonary artery on the same side may compress the airway. An abnormal cardiac position from segmental fluid trapping in the lung may signal airway obstruction after birth and can predict outcome. Fetal MRI may be useful to measure lung volumes or fluid trapping. [22, 23, 24]
+
+
+## Double-outlet right ventricle
+
+Definition: the ventricular septal defect may be subaortic, subpulmonary, doubly committed or remote. Its position and the relative sizes of aorta and pulmonary artery must be determined. [25]
+
+Measure: the relationship of the defect to the great vessels and the pathway from left ventricle to aorta - the defect's size and any atrioventricular valve attachments that could prevent a biventricular repair. [26]
+
+Subaortic defect: may resemble tetralogy in anatomy and in physiology after birth. [27]
+
+Subpulmonary defect (Taussig-Bing): a posterior vessel gives rise to the pulmonary artery over the defect, with an anterior aorta. The anterior aorta may be obstructed below the valve and coarctation often accompanies it, so image the arch carefully in two dimensions and colour. [28, 29]
+
+Perinatal: with a subpulmonary defect and a straddling mitral valve, a neonatal Damus-Kaye-Stansel operation may be more feasible than an arterial switch. [30]
+
+
+## Common arterial trunk
+
+Definition: a single arterial trunk gives rise directly to the coronary arteries, the aorta and one or both pulmonary arteries. The spectrum runs from pulmonary-dominant forms (smaller aortic part, with or without arch interruption) to aortic-dominant forms. [31, 32]
+
+Views: the ductus is often absent, but one may be present in any form. [33]
+
+Measure: truncal valve velocity and regurgitation, and the proximal branch pulmonary arteries. [34]
+
+Evolution: truncal valve function, especially significant regurgitation, can affect survival in utero. [35]
+
+Associations: with a right aortic arch the risk of 22q11 deletion is above 50%. [36]
+
+
+## D-transposition of the great arteries
+
+Pitfall: a posterior pulmonary artery arising from the left ventricular outflow is seen in both D-transposition and congenitally corrected transposition. [37]
+
+Measure: the size of the foramen ovale, best defined in the sagittal view; a septal excursion index is an additional measurement. [38]
+
+Follow-up and perinatal: every fetus with D-transposition should have the foramen ovale assessed late in gestation, and delivery planned where the atrial communication can be enlarged if shunting is inadequate. [39, 40]
+
+Evolution: constriction of the ductus can be lethal in critical heart disease, and transposition is at higher risk. [41]
+
+Limits: it is still hard to predict which fetuses with a restrictive atrial septum will need intervention immediately after birth; maternal hyperoxygenation testing has been studied but the data are incomplete. [42]
+
+
+## Congenitally corrected transposition
+
+Definition: atrioventricular and ventriculoarterial discordance together give physiologically corrected flow. [43]
+
+Associations: a ventricular septal defect may be present in 60% to 70%, of variable type and site. Tricuspid valve dysplasia, Ebstein malformation and coarctation can occur with it. [44, 45]
+
+Views and measure: tricuspid displacement and regurgitation are common and affect prognosis; measure atrioventricular intervals and assess the ventricular septal defect. [46]
+
+Evolution and follow-up: rhythm problems, including congenital heart block, can arise before birth and affect survival. Serial studies should be offered to find progressive atrioventricular valve regurgitation and rhythm abnormalities. [47, 48]
+
+## Conotruncal lesion: minimum record
+
+- [ ] Outflow, three-vessel and three-vessel-and-trachea views and sweeps recorded [1, 3]
+- [ ] Position of the ventricular septal defect and relation of the great arteries defined [4, 25]
+- [ ] Branch pulmonary arteries imaged at their origins [6, 10]
+- [ ] Arch imaged in axial and sagittal planes when the arch is at risk [7]
+- [ ] Arch and thymus imaged where 22q11 deletion is a concern [14]
+- [ ] D-transposition: foramen ovale reassessed late in gestation [39]
+- [ ] Corrected transposition: atrioventricular intervals and rhythm recorded; serial studies offered [46, 48]
+
+## Still to be written
+
+- Awaiting re-check after rewording on 21 Nov (round 5, task J), so not used here: key observations for tetralogy (AS23-310) and D-transposition (AS23-326); early branching identifies the pulmonary artery (AS23-327); four-chamber clues to corrected transposition (AS23-335); ductal dependence in common trunk (AS23-349); bicuspid pulmonary valve in D-transposition (AS23-360); counselling only after fetal echocardiography (AS23-305); arch sidedness and branching (AS23-307).
+- Aortic-to-pulmonary valve ratio and pulmonary valve Z-score as predictors in tetralogy (AS23-353): the checker asks the editor to reconcile the ratio's direction with the reference the guideline cites before it is taught.
+- Cardiac axis: Table 13 gives below 30° or above 60° (AS23-352), while Table 3 gives a different normal range - flagged for the editor on 17 Nov; the co-editor to decide which the course teaches.
+- Pulmonary atresia with ventricular septal defect: definition, views and collateral assessment - not in the claims held beyond its place in the differential.
+- Delivery planning by lesion (place, timing, what is needed at birth) - unit Z3.
+- Video outline not yet written.
+
+## References
+
+1. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Look-Alike Outflow Tract Lesions, p. 713. (AS23-300, ai-cross-checked)
+2. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13, outflow tract category heading, p. 707. (AS23-352, ai-cross-checked)
+3. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Look-Alike Outflow Tract Lesions, p. 713. (AS23-301, ai-cross-checked)
+4. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Look-Alike Outflow Tract Lesions, p. 713. (AS23-302, ai-cross-checked)
+5. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Look-Alike Outflow Tract Lesions, p. 713. (AS23-303, ai-cross-checked)
+6. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Key Points, p. 715. (AS23-306, ai-cross-checked)
+7. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Key Points, p. 715. (AS23-308, ai-cross-checked)
+8. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714; Figure 26. (AS23-304, ai-cross-checked)
+9. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714. (AS23-309, ai-cross-checked)
+10. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714. (AS23-311, ai-cross-checked)
+11. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 707. (AS23-315, ai-cross-checked)
+12. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714. (AS23-312, ai-cross-checked)
+13. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 707. (AS23-314, ai-cross-checked)
+14. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714. (AS23-313, ai-cross-checked)
+15. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 707. (AS23-316, ai-cross-checked)
+16. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717. (AS23-317, ai-cross-checked)
+17. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717. (AS23-318, ai-cross-checked)
+18. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 709. (AS23-319, ai-cross-checked)
+19. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 709. (AS23-320, ai-cross-checked)
+20. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 709; IV.C.iv, p. 717. (AS23-321, ai-cross-checked)
+21. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717. (AS23-323, ai-cross-checked)
+22. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717. (AS23-322, ai-cross-checked)
+23. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Key Points (regurgitation), p. 717. (AS23-324, ai-cross-checked)
+24. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.D Imaging-Based Risk Assessment and Delivery Planning, p. 718. (AS23-325, ai-cross-checked)
+25. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714. (AS23-340, ai-cross-checked)
+26. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), DORV row, p. 707. (AS23-286, ai-cross-checked)
+27. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714. (AS23-341, ai-cross-checked)
+28. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715; Figure 26A. (AS23-343, ai-cross-checked)
+29. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Lesions with a VSD and Overriding Great Vessel, DORV paragraph, p. 714. (AS23-342, ai-cross-checked)
+30. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715; Figure 25. (AS23-344, ai-cross-checked)
+31. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714. (AS23-345, ai-cross-checked)
+32. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714. (AS23-346, ai-cross-checked)
+33. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714. (AS23-348, ai-cross-checked)
+34. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 707. (AS23-351, ai-cross-checked)
+35. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714. (AS23-347, ai-cross-checked)
+36. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 707. (AS23-350, ai-cross-checked)
+37. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715; Figure 26. (AS23-328, ai-cross-checked)
+38. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 707. (AS23-331, ai-cross-checked)
+39. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Key Points, p. 715. (AS23-330, ai-cross-checked)
+40. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715. (AS23-329, ai-cross-checked)
+41. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 14 (mechanisms and patterns of progression), pp. 710-711. (AS23-332, ai-cross-checked)
+42. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.D Imaging-Based Risk Assessment and Delivery Planning, p. 718. (AS23-333, ai-cross-checked)
+43. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715. (AS23-334, ai-cross-checked)
+44. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715. (AS23-336, ai-cross-checked)
+45. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715. (AS23-337, ai-cross-checked)
+46. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13, l-TGA row, p. 708. (AS23-354, ai-cross-checked)
+47. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715. (AS23-338, ai-cross-checked)
+48. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Key Points, p. 715. (AS23-339, ai-cross-checked)
+
+
+\newpage
+
+# Lesion atlas: arch and vessels (right arch, double arch, aberrant subclavian, ductus)
+
+> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-cross-checked' that no clinician has verified.
+
+Unit XB5 | Tier: Diagnose | Version 0.1
+
+## You will be able to
+
+- Describe the normal three-vessel-and-trachea view and the four signs that should prompt a closer look.
+- Recognise the U sign of a vascular ring and say what must then be excluded.
+- State why vascular rings and slings matter for delivery planning.
+- Tell a ductal aneurysm from ductal constriction and give the consequences of each.
+
+## The normal view and the warning signs
+
+On the normal three-vessel-and-trachea view, two arches of similar size form a V to the left of the trachea. [1]
+
+Use this view to assess vascular anatomy: vascular rings, slings and right aortic arch are readily detected on it. Arch abnormalities are suspected when the three-vessel or three-vessel-and-trachea view is abnormal. [2, 3]
+
+Four signs should prompt evaluation for coarctation, ductal aneurysm, right aortic arch or vascular ring: a size mismatch between the arches, abnormal flow, a U shape, or separation of the superior vena cava from the trachea. [4]
+
+Trace the ductal and aortic arches and the origins of the head and neck vessels with axial, sagittal and parasagittal two-dimensional and colour imaging. [5]
+
+
+## Vascular rings and double aortic arch
+
+Key sign: a U shape around the trachea and oesophagus, instead of a V. [6]
+
+Next step: exclude aberrant subclavian arteries and a double aortic arch. [7]
+
+Double aortic arch: colour Doppler shows two arches encircling the trachea and oesophagus, with the innominate vein passing in front of both. Colour and power Doppler can show retrograde and antegrade flow in the smaller arch. [8, 9]
+
+Associations: a vascular ring carries an increased risk of tracheal anomalies, including complete tracheal rings. [10]
+
+
+## Aberrant subclavian artery and pulmonary artery sling
+
+Attempt to diagnose an aberrant subclavian artery, especially when the side of the arch is abnormal. An isolated aberrant right subclavian artery runs behind the oesophagus and is seen more clearly with colour Doppler. [11, 12]
+
+A pulmonary artery sling is not a vascular ring, but it may coexist with airway abnormalities. Delivery should be where assisted ventilation is available if needed. [13]
+
+
+## Ductal aneurysm
+
+Views: a pulsatile, tortuous duct late in gestation, on the three-vessel, three-vessel-and-trachea or sagittal arch views. Measure it at its widest. [14, 15]
+
+Course: it occurs at 35-40 weeks in 1%-2% of fetuses and mostly closes spontaneously, with a low risk of rupture or compression. It is generally a normal variant with no consequence for the newborn, but it is associated with connective tissue disorders. [16, 15]
+
+
+## Ductal constriction
+
+Causes: it occurs in isolation and is associated with cyclo-oxygenase inhibitors (non-steroidal anti-inflammatory drugs) and certain foods or herbal teas. It rarely occurs with structural heart disease. [17]
+
+Consequences: isolated constriction can lead to right heart failure, hydrops, and persistent pulmonary hypertension after birth. In critical heart disease it can be lethal, with transposition at higher risk. [18, 19]
+
+
+## Veins seen alongside arch and other lesions
+
+A left superior vena cava draining to the coronary sinus is listed as a common venous variation with coarctation. [20]
+
+## Arch and ductus: minimum record
+
+- [ ] Three-vessel-and-trachea view: V or not; arch sizes and flow; SVC position against the trachea [1, 4, 2]
+- [ ] Arches and head and neck vessels traced in axial, sagittal and parasagittal planes with colour [5]
+- [ ] U sign: aberrant subclavian and double arch excluded [6, 7]
+- [ ] Aberrant subclavian looked for when arch sidedness is abnormal [11]
+- [ ] Ring or sling: airway risk passed on to the delivery plan [10, 13]
+- [ ] Ductal aneurysm measured at its widest; constriction: drug and diet history [15, 17]
+
+## Still to be written
+
+- Awaiting re-check after rewording on 21 Nov (round 5, task J): arch sidedness and branching pattern in outflow lesions (AS23-307).
+- Right aortic arch: mirror-image against aberrant left subclavian branching, the L shape, and the association with 22q11 deletion and with intracardiac disease - needs a source (the checker's suggested Figure 30F claim was not found in the caption).
+- How to report an isolated right arch or aberrant subclavian artery, and whether genetic testing is offered - needs a source and the co-editor.
+- Systemic and pulmonary venous anomalies are planned for unit XB6; ASE has little on veins.
+- Video outline not yet written.
+
+## References
+
+1. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.v Isolated Arch Abnormalities, p. 717; Figure 30A. (AS23-500, ai-cross-checked)
+2. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.v Isolated Arch Abnormalities, Key Points, p. 718. (AS23-510, ai-cross-checked)
+3. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13, category heading, p. 709. (AS23-357, ai-cross-checked)
+4. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.v Isolated Arch Abnormalities, p. 717. (AS23-502, ai-cross-checked)
+5. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.v Isolated Arch Abnormalities, p. 717. (AS23-501, ai-cross-checked)
+6. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 709. (AS23-503, ai-cross-checked)
+7. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 709. (AS23-504, ai-cross-checked)
+8. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Figure 30G caption, p. 718. (AS23-508, ai-cross-checked)
+9. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.v Isolated Arch Abnormalities, p. 717. (AS23-507, ai-cross-checked)
+10. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 709. (AS23-505, ai-cross-checked)
+11. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.v Isolated Arch Abnormalities, Key Points, p. 718. (AS23-511, ai-cross-checked)
+12. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Figure 30C caption, p. 718. (AS23-509, ai-cross-checked)
+13. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.v Isolated Arch Abnormalities, p. 717. (AS23-506, ai-cross-checked)
+14. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 709. (AS23-512, ai-cross-checked)
+15. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 709. (AS23-513, ai-cross-checked)
+16. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 14 (mechanisms and patterns of progression), pp. 710-711. (AS23-514, ai-cross-checked)
+17. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 14 (mechanisms and patterns of progression), pp. 710-711. (AS23-515, ai-cross-checked)
+18. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 14 (mechanisms and patterns of progression), pp. 710-711. (AS23-516, ai-cross-checked)
+19. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 14 (mechanisms and patterns of progression), pp. 710-711. (AS23-332, ai-cross-checked)
+20. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 709. (AS23-519, ai-cross-checked)
+
+
+\newpage
+
+# Lesion atlas: univentricular hearts
+
+> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-cross-checked' that no clinician has verified.
+
+Unit XB8 | Tier: Diagnose | Version 0.1
+
+## You will be able to
+
+- Define a univentricular atrioventricular connection and name its forms.
+- Carry out the segmental examination of a suspected single ventricle.
+- Name the single most powerful predictor of prostaglandin need after birth.
+- Recognise tricuspid atresia and double-inlet left ventricle and their main risks.
+
+## What single ventricle means
+
+In a univentricular atrioventricular connection the atria connect completely or mainly to one ventricle. It includes double-inlet left ventricle, single inlet and common inlet. [1]
+
+Single ventricle is often detected at routine screening because the four-chamber view is abnormal, and most cases are diagnosed before birth. Suspect it, or ventricular disproportion, when the axial chest view clearly lacks two symmetric ventricles. [2, 3]
+
+Hypoplastic left heart syndrome is the most common form, at 0.26 per 1,000 live births; hypoplastic right heart syndrome occurs in 0.22 per 1,000. [4, 5]
+
+Treatment is a series of palliative operations ending in a total cavopulmonary (Fontan) connection. [6]
+
+
+## The complete examination
+
+A complete fetal echocardiogram must be done before a reasonable prognosis can be given. Use a segmental approach to find the associated findings that matter. [7, 8]
+
+Assess visceroatrial situs, systemic venous connections, the atrioventricular junction, ventricular morphology and function, and heart rate and rhythm. [9]
+
+Veins: look for interruption of the inferior vena cava and for bilateral superior venae cavae. Assess the pulmonary venous connections, because anomalous drainage affects the surgical approach and outcome. Venous anatomy is needed for counselling and postnatal planning. [10, 11, 12]
+
+Atrioventricular junction: the tricuspid or mitral valve may be hypoplastic or atretic, or a common valve may be unbalanced. Measure valve diameter or area and assess regurgitation with colour Doppler. Significant regurgitation can affect fetal well-being and the outcome of surgery. [13, 14, 15]
+
+Outflows: image them thoroughly for orientation, patency, size and flow direction. When the aortic valve is stenotic or atretic, measure the ascending aorta. [16, 17]
+
+Ductal dependence: retrograde flow in the aortic or ductal arch is described as perhaps the single most powerful indicator that prostaglandin will be needed after birth. [18]
+
+Function and rhythm: function is assessed qualitatively in practice; strain imaging is not routine. Bradyarrhythmias are associated with left atrial isomerism and discordant atrioventricular connections, and that combination carries a poor prognosis and a high risk of death in utero. [19, 20]
+
+
+## Tricuspid atresia
+
+Views: no atrioventricular connection on the right, a small right ventricle and a ventricular septal defect. [21]
+
+Measure: the ventricular septal defect, in two orthogonal planes. [22]
+
+Evolution: obstruction at the defect can progress and compromise flow to the outflow arising from the right ventricle, leading to pulmonary stenosis or coarctation. [23]
+
+
+## Double-inlet left ventricle
+
+Views: both atrioventricular valves open into the morphological left ventricle; the four-chamber view shows a large ventricular septal defect or no septum. [24]
+
+Associations: with L-looped ventricles there is a risk of complete heart block. [25]
+
+
+## Heterotaxy with a single ventricle
+
+Regurgitation of the common atrioventricular valve may progress and can affect prognosis. [26]
+
+## Single ventricle: segmental record
+
+- [ ] Situs, systemic veins (IVC interruption, bilateral SVC), pulmonary veins [9, 10, 11]
+- [ ] Atrioventricular valves: diameter or area, regurgitation by colour [14]
+- [ ] Outflows: orientation, patency, size, flow direction; ascending aorta if the aortic valve is abnormal [16, 17]
+- [ ] Arch flow direction recorded (prostaglandin need) [18]
+- [ ] Function (qualitative) and rate and rhythm [19, 9]
+
+## Still to be written
+
+- Awaiting re-check after rewording on 21 Nov (round 5, task J): flow direction and restriction at the atrial septum, ductus and isthmus (AS23-217); adequacy of the atrial septal defect when the left valve is hypoplastic in double-inlet left ventricle (AS23-358).
+- Heterotaxy and isomerism: recognition and associated lesions - unit XB7; ASE has little on it and a source is needed.
+- Outcomes of the staged single-ventricle pathway, and what to tell parents - needs a source; unit Z7.
+- Video outline not yet written.
+
+## References
+
+1. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704. (AS23-201, ai-cross-checked)
+2. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704. (AS23-200, ai-cross-checked)
+3. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), category 'SV and ventricular disproportion', p. 705. (AS23-225, ai-cross-checked)
+4. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704. (AS23-203, ai-cross-checked)
+5. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704. (AS23-204, ai-cross-checked)
+6. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704. (AS23-202, ai-cross-checked)
+7. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Key Points, p. 704. (AS23-216, ai-cross-checked)
+8. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704. (AS23-206, ai-cross-checked)
+9. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704. (AS23-205, ai-cross-checked)
+10. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704 (Venous Connections). (AS23-207, ai-cross-checked)
+11. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704 (Venous Connections). (AS23-208, ai-cross-checked)
+12. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Key Points, p. 704. (AS23-218, ai-cross-checked)
+13. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704 (AV Junctions). (AS23-209, ai-cross-checked)
+14. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Key Points, p. 704. (AS23-219, ai-cross-checked)
+15. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704 (AV Junctions). (AS23-210, ai-cross-checked)
+16. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704 (Ventriculoarterial Junction). (AS23-211, ai-cross-checked)
+17. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704 (Ventriculoarterial Junction). (AS23-212, ai-cross-checked)
+18. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704 (Ventriculoarterial Junction). (AS23-213, ai-cross-checked)
+19. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704 (Rhythm, Function, and Morphology). (AS23-215, ai-cross-checked)
+20. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Single Ventricles and Assessment for Ductal Dependence, p. 704 (Rhythm, Function, and Morphology). (AS23-214, ai-cross-checked)
+21. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 705. (AS23-226, ai-cross-checked)
+22. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), tricuspid atresia row, p. 705. (AS23-228, ai-cross-checked)
+23. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 705. (AS23-227, ai-cross-checked)
+24. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 705. (AS23-229, ai-cross-checked)
+25. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 705. (AS23-230, ai-cross-checked)
+26. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717. (AS23-517, ai-cross-checked)
+
+
+\newpage
+
 # Assessing cardiac function: the first steps
 
 > DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-extracted' that no clinician has verified.
@@ -2405,3 +3384,448 @@ The follow-up interval should be decided by the fetal cardiology and obstetric t
 13. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.G CW Doppler Ultrasound, p. 692; III.A Equipment, p. 683. (AS23-015, ai-cross-checked)
 14. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Additional Imaging, p. 703. (AS23-095, ai-cross-checked)
 15. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682. (AS23-039, ai-extracted)
+
+
+\newpage
+
+# Counselling in depth
+
+> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-cross-checked' that no clinician has verified.
+
+Unit Z1 | Tier: Decide | Version 0.1
+
+## You will be able to
+
+- List the essential elements of counselling after a fetal cardiac diagnosis.
+- Describe the effect of referral and diagnosis on maternal anxiety.
+- Explain how to discuss uncertainty and long-term outcome.
+- State the counsellor's duty on bias and on the parents' decision.
+
+## Why counselling matters
+
+Referral for fetal echocardiography is associated with increased maternal anxiety, which rises further when heart disease is found. Distress is greater after a prenatal diagnosis than after a postnatal one. [1]
+
+
+## What counselling must cover
+
+The limits of the examination, such as maternal habitus, fetal position and gestational age. [2]
+
+Natural history, prognosis and genetic associations - and helping to relieve parental guilt. [3]
+
+Long-term outcome: information should be current, and what is not known should be stated with its caveats. [4]
+
+Genetic results can inform recurrence risk and decisions on termination or palliative care. Before microarray testing, disclose that it may find variants of unknown significance. [5, 6]
+
+The option of termination should be discussed, including the time limits set by the law that applies. [7]
+
+
+## Staying neutral
+
+Counsellors should avoid personal bias and support whatever decision the parents make. [8]
+
+
+## Counselling about fetal procedures
+
+Families considering fetal aortic valvuloplasty should receive extensive counselling on the risks to mother and fetus and the expected course compared with standard care, including the lack of long-term outcome data. Technical success of a fetal procedure does not always mean clinical success after birth. [9, 10]
+
+## Counselling: essentials
+
+- [ ] Limits of the examination explained [2]
+- [ ] Natural history, prognosis and genetic associations covered; guilt addressed [3]
+- [ ] Outcome information current; uncertainty stated [4]
+- [ ] All options discussed, including termination within the legal limits [7]
+- [ ] No personal bias; the parents' decision supported [8]
+
+## Still to be written
+
+- Awaiting re-check after rewording on 21 Nov (round 5, task J): the aims of counselling and the care team (AH14-121); timing - offered soon after the scan, ideally the same day (AH14-122); evidence on counselling techniques (AH14-126); checking understanding, avoiding overload, several sessions (AH14-127); visual aids and online information (AH14-331, new); evaluating on fetal echocardiography before discussing prognosis (AS23-305).
+- Indian law on termination of pregnancy (MTP Act and its amendments), the gestational limits, and the role of medical boards - needs an Indian legal source (tasks/results/task-s1.md, topic 15) and the legal advisor. The course must state the limits exactly as the law does.
+- PC-PNDT obligations during counselling - needs an Indian legal source.
+- How to break bad news; the editor's own approach and wording from her practice - the editor's teaching, recorded as claims.
+- Counselling in Indian languages and with family members present - the editor's input.
+- Palliative care and bereavement - unit Z8.
+- Video outline not yet written.
+
+## References
+
+1. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Prenatal Counseling and Parental Stress, Parental Stress, p. 2210. (AH14-130, ai-cross-checked)
+2. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Prenatal Counseling and Parental Stress, Essential Elements, p. 2209. (AH14-123, ai-cross-checked)
+3. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Prenatal Counseling and Parental Stress, Essential Elements, p. 2209. (AH14-124, ai-cross-checked)
+4. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Prenatal Counseling and Parental Stress, Essential Elements, pp. 2209-2210. (AH14-125, ai-cross-checked)
+5. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Extracardiac Assessment of the Fetus With CHD, p. 2207. (AH14-104, ai-cross-checked)
+6. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Extracardiac Assessment of the Fetus With CHD, Available Genetic Testing, pp. 2206-2207. (AH14-105, ai-cross-checked)
+7. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Prenatal Counseling and Parental Stress, Techniques, p. 2210. (AH14-128, ai-cross-checked)
+8. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Prenatal Counseling and Parental Stress, Decision Making, p. 2210. (AH14-129, ai-cross-checked)
+9. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, AS With Evolving HLHS, p. 2218. (AH14-207, ai-cross-checked)
+10. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, Overview, p. 2217. (AH14-202, ai-cross-checked)
+
+
+\newpage
+
+# Surveillance plans by lesion
+
+> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-cross-checked' that no clinician has verified.
+
+Unit Z2 | Tier: Decide | Version 0.1
+
+## You will be able to
+
+- Say when a normal mid-trimester study needs no follow-up, and when it does.
+- Group lesions by the risk that drives their follow-up: heart failure, arrhythmia, cyanosis, pulmonary venous obstruction, airway compromise.
+- For each group, name the suggested interval and the findings to record.
+- List the measurements that must be repeated at every study for the main progressive lesions.
+
+## Why a plan is needed
+
+Some heart disease that looks mild at first evolves before birth. A repeat study is planned around what could change and what would change care at birth.
+
+An abnormal fetal heart is usually reassessed every 2-8 weeks until about 34-36 weeks. The interval is guided by the lesion and the clinical concerns. [1]
+
+Reassessment near term is aimed at the findings that could change care immediately after birth. [2]
+
+Serial follow-up is indicated for diagnoses at risk of haemodynamic compromise after birth. [3]
+
+
+## After a normal study
+
+A normal mid-trimester fetal echocardiogram generally needs no follow-up, unless there is concern for a progressive lesion. [4]
+
+If a progressive lesion is suspected despite a normal mid-trimester study, repeat assessment is recommended at intervals of up to 2-4 weeks. [5]
+
+
+## Plans by risk group
+
+The guideline's follow-up table groups lesions by the risk they carry. The intervals are suggestions; the cardiology and obstetric providers decide. [6]
+
+Suggested follow-up by risk group. [7, 8, 9, 10, 11, 12, 13, 14]
+
+| Risk | Examples | Suggested interval | What to assess |
+|---|---|---|---|
+| Heart failure | Hypoplastic left heart with mitral regurgitation; tetralogy with absent pulmonary valve; Ebstein anomaly; AVSD with valve regurgitation; cardiac tumours | Every 2-4 weeks | Comprehensive function assessment |
+| Arrhythmia | Long-QT syndrome; congenitally corrected transposition; left atrial isomerism | Every 2-4 weeks | Rate and rhythm |
+| Atrioventricular block | Congenitally corrected transposition; left atrial isomerism; others | Every 2-4 weeks | Atrioventricular interval; atrial and ventricular rates; hydrops; extracardiac Doppler |
+| Tachycardia | Atrial flutter; supraventricular tachycardia | Every 2 weeks unless well controlled | Rate and rhythm; heart size; hydrops and heart failure |
+| Extracardiac cause of hydrops | CPAM; sacrococcygeal teratoma; twin-twin transfusion; arteriovenous malformation; TRAP sequence; fetal anaemia | Every 2-4 weeks | Comprehensive function assessment |
+| Cyanosis after birth | Transposition with intact septum or VSD; DORV with subpulmonary VSD; tetralogy | Every 4-8 weeks and late in the third trimester | Atrial septal excursion; foramen opening; ductal shunting; consider maternal hyperoxygenation testing |
+| Pulmonary venous obstruction after birth | Hypoplastic left heart with restrictive atrial septum; obstructed anomalous pulmonary venous return; cor triatriatum | Every 4-8 weeks and late in the third trimester | Pulmonary venous forward-to-reverse ratio; atrial septal position and thickness; vertical vein Doppler; consider maternal hyperoxygenation testing |
+| Respiratory compromise after birth | Tetralogy with absent pulmonary valve; Ebstein anomaly; hypoplastic left heart with restrictive atrial septum | Every 4-8 weeks and late in the third trimester | Mediastinal shift; cardiothoracic area ratio; ventricular function; consider fetal MRI of the lungs |
+
+After fetal intervention, follow-up is every 4 weeks in the third trimester. After intervention for aortic stenosis with evolving hypoplastic left heart: aortic outflow, arch flow direction, atrial septal flow, left ventricular size and function, mitral regurgitation and endocardial brightness. After intervention for hypoplastic left heart with a restrictive atrial septum: patency of the atrial communication and the pulmonary venous forward-to-reverse ratio. [15, 16]
+
+
+## What every repeat study must record, lesion by lesion
+
+Semilunar valve stenosis: serial evaluation, including ventricular size and function and endocardial fibroelastosis. [17]
+
+Semilunar valve stenosis: flow direction in the ductal and aortic arches at every examination, because abnormal direction heralds critical obstruction after birth; and flow direction at the atrial septum at every examination. [18, 19]
+
+Atrioventricular valve abnormality: a complete Doppler assessment at each examination, including valve stenosis and regurgitation and flow at the atrial septum and ductus. [20]
+
+Valve regurgitation: follow serially, because it may worsen as pregnancy advances; progressive cardiomegaly is common when it is significant. [21, 22]
+
+Severe tricuspid disease with pulmonary atresia, structural or functional: ductal flow direction documented serially, because retrograde ductal flow can develop at any point. [23]
+
+Hypoplastic left heart syndrome: the pulmonary venous forward-to-reverse velocity-time integral ratio at every study, with the last measurement near term. Maternal hyperoxygenation testing late in the third trimester may be considered in selected cases. [24, 25]
+
+D-transposition: the foramen ovale assessed late in gestation in every fetus. [26]
+
+Congenitally corrected transposition: serial studies offered, to find progressive atrioventricular valve regurgitation and rhythm problems, including complete heart block. [27]
+
+Tetralogy of Fallot: ductal flow direction at 28 weeks predicts the need for neonatal intervention. [28]
+
+
+## From surveillance to the delivery plan
+
+Certain critical lesions need cardiac intervention immediately after birth. A coordinated perinatal plan of care has the greatest potential to influence outcome. [29, 30]
+
+Once heart disease is diagnosed, maternal, fetal and neonatal providers must work together on its implications, the follow-up visits and the level of neonatal care expected. Image-based risk stratification paired with level-of-care plans is recommended. Unit Z3 covers the delivery plan. [31, 32]
+
+## Planning surveillance
+
+- [ ] Risk group named: heart failure, arrhythmia or block, tachycardia, cyanosis, pulmonary venous obstruction, respiratory compromise [7, 8, 10, 11, 12, 13, 14]
+- [ ] Suggested interval chosen and agreed with the obstetric team [6]
+- [ ] Measurements to repeat at each study listed in the report [20, 18, 19, 24]
+- [ ] Near-term study planned for findings that could change care at birth [2]
+- [ ] Delivery-planning discussion started with maternal, fetal and neonatal providers [31]
+
+## Still to be written
+
+- AS23-039 (follow-up interval decided by the fetal cardiology and obstetric teams) is not yet cross-checked; the same point is made here through AS23-605.
+- Follow-up plans for lesions not named in Table 15 (for example isolated ventricular septal defect, coarctation suspected on arch discrepancy) - need a source and the co-editor.
+- How surveillance should be adapted where the patient lives far from a fetal cardiology centre (Indian practice) - the editor's input.
+- Video outline not yet written.
+
+## References
+
+1. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682. (AS23-035, ai-cross-checked)
+2. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682. (AS23-036, ai-cross-checked)
+3. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.D Key Points, p. 718; IV.D Imaging-Based Risk Assessment and Delivery Planning, p. 718. (AS23-601, ai-cross-checked)
+4. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682. (AS23-037, ai-cross-checked)
+5. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682. (AS23-038, ai-cross-checked)
+6. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 15 (follow-up imaging for specific CHD diagnoses), p. 719 (column header). (AS23-605, ai-cross-checked)
+7. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 15 (follow-up imaging for specific CHD diagnoses), p. 719. (AS23-606, ai-cross-checked)
+8. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 15 (follow-up imaging for specific CHD diagnoses), p. 719. (AS23-607, ai-cross-checked)
+9. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 15 (follow-up imaging for specific CHD diagnoses), p. 719. (AS23-608, ai-cross-checked)
+10. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 15 (follow-up imaging for specific CHD diagnoses), p. 719. (AS23-609, ai-cross-checked)
+11. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 15 (follow-up imaging for specific CHD diagnoses), p. 719. (AS23-610, ai-cross-checked)
+12. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 15 (follow-up imaging for specific CHD diagnoses), p. 719. (AS23-611, ai-cross-checked)
+13. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 15 (follow-up imaging for specific CHD diagnoses), p. 719. (AS23-612, ai-cross-checked)
+14. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 15 (follow-up imaging for specific CHD diagnoses), p. 719. (AS23-613, ai-cross-checked)
+15. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 15 (follow-up imaging for specific CHD diagnoses), p. 719. (AS23-614, ai-cross-checked)
+16. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 15 (follow-up imaging for specific CHD diagnoses), p. 719. (AS23-615, ai-cross-checked)
+17. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Key Points (semilunar obstruction), p. 716. (AS23-408, ai-cross-checked)
+18. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Key Points (semilunar obstruction), p. 716. (AS23-409, ai-cross-checked)
+19. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Key Points (semilunar obstruction), p. 716. (AS23-410, ai-cross-checked)
+20. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.ii Key Points, p. 713. (AS23-246, ai-cross-checked)
+21. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Key Points (regurgitation), p. 717. (AS23-440, ai-cross-checked)
+22. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Key Points (regurgitation), p. 717. (AS23-441, ai-cross-checked)
+23. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717. (AS23-429, ai-cross-checked)
+24. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Key Points, p. 704. (AS23-220, ai-cross-checked)
+25. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.i Key Points, p. 704. (AS23-223, ai-cross-checked)
+26. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Key Points, p. 715. (AS23-330, ai-cross-checked)
+27. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iii Key Points, p. 715. (AS23-339, ai-cross-checked)
+28. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 13 (lesion-specific evaluation), p. 707. (AS23-316, ai-cross-checked)
+29. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.D Imaging-Based Risk Assessment and Delivery Planning, p. 718. (AS23-602, ai-cross-checked)
+30. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.D Imaging-Based Risk Assessment and Delivery Planning, p. 718. (AS23-604, ai-cross-checked)
+31. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.D Key Points, p. 718; IV.D Imaging-Based Risk Assessment and Delivery Planning, p. 718. (AS23-600, ai-cross-checked)
+32. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.D Key Points, p. 718; IV.D Imaging-Based Risk Assessment and Delivery Planning, p. 718. (AS23-603, ai-cross-checked)
+
+
+\newpage
+
+# Planning delivery: place, timing, mode, first-hour needs
+
+> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-cross-checked' that no clinician has verified.
+
+Unit Z3 | Tier: Decide | Version 0.1
+
+## You will be able to
+
+- Explain why a coordinated perinatal plan matters and who makes it.
+- Assign a level of care (P, 1 to 5) from the fetal diagnosis.
+- State the guidance on timing and mode of delivery.
+- Name the fetal findings that call for a specialist team in the delivery room.
+
+## Why plan, and who plans
+
+Prenatal diagnosis of critical heart disease affects illness in the newborn, and survival to a lesser extent; studies showing improved survival are sparse. Infants with ductal-dependent lesions diagnosed before birth are less compromised before surgery. [1, 2]
+
+A coordinated perinatal plan of care has the greatest potential to influence outcome. Certain critical lesions need cardiac intervention immediately after birth. [3, 4]
+
+Maternal, fetal and neonatal providers must work together once heart disease is diagnosed. Intrapartum care should be coordinated among the obstetric, neonatal and cardiology teams. [5, 6]
+
+The fetal diagnostic team should assign an anticipated level of care, and plans for the delivery room and the newborn should be made before delivery. Image-based risk stratification paired with level-of-care plans is recommended. [7, 8]
+
+
+## Levels of care
+
+The AHA 2014 level-of-care scheme. Many newborns with heart disease need no specialised delivery room care. [9, 10, 11, 12, 13, 14, 15]
+
+| Level | Meaning | Examples | Delivery plan |
+|---|---|---|---|
+| P | Palliative care planned, with a severe or fatal chromosomal or multisystem disease | - | Family support and palliative care; normal delivery at the local hospital |
+| 1 | No predicted instability in the delivery room or first days | VSD, AVSD, mild tetralogy | Normal delivery at the local hospital; routine care; later cardiology review |
+| 2 | Minimal risk in the delivery room, but catheter or surgery needed after birth | Ductal-dependent lesions: HLHS, critical coarctation, severe aortic stenosis, interrupted arch, PA/IVS, severe tetralogy | Consider planned induction near term; hospital with a neonatologist and accessible cardiology; prostaglandin if indicated; then transfer |
+| 3 | Likely instability needing immediate specialist stabilisation | d-TGA with concerning septum primum (all d-TGA without an atrial septal defect may reasonably be treated as at risk); uncontrolled arrhythmia; complete heart block with heart failure | Planned induction at 38-39 weeks; caesarean if needed to coordinate; neonatologist and cardiac specialist in the delivery room |
+| 4 | Instability at placental separation; immediate catheter or surgery in the delivery room | HLHS or d-TGA with severely restrictive or intact atrial septum (d-TGA also with abnormal ductus); obstructed TAPVR; Ebstein with hydrops; absent pulmonary valve with severe airway obstruction; uncontrolled arrhythmia with hydrops; complete heart block with low rate, fibroelastosis or hydrops | Caesarean in a cardiac facility, usually at 38-39 weeks, specialists in the delivery room |
+| 5 | Transplantation planned | HLHS with intact atrial septum, or severe Ebstein or cardiomyopathy with severe ventricular dysfunction | Listing after 35 weeks; caesarean when a heart is available; specialised cardiac team in the delivery room |
+
+
+## Place, timing and mode
+
+Place: for heart disease at risk, plan delivery near a cardiac centre with the resources needed. Ductal-dependent lesions need a prostaglandin infusion soon after birth; delivery at a centre with a neonatologist and access to paediatric cardiology is recommended. [16, 17]
+
+Timing: elective induction before 39 weeks is not recommended unless there are obstetric, logistic or fetal well-being reasons. [18]
+
+The transition: the ductus usually closes over 12 to 72 hours after birth. Infants with ventricular or atrioventricular septal defects are stable until pulmonary resistance falls, usually weeks after birth, and need no specialised delivery room care. [19, 20]
+
+
+## Recommendations on specialised delivery room care
+
+Recommended (Class I): for d-TGA, and for sustained or uncontrolled tachyarrhythmia with heart failure or hydrops. [21]
+
+Reasonable (Class IIa): for HLHS with a restrictive or intact atrial septum and abnormal pulmonary vein flow (forward-to-reverse ratio below 3) or an abnormal third-trimester hyperoxia test; and for complete heart block with low ventricular rate, dysfunction or hydrops. [22]
+
+May be considered (Class IIb): tetralogy with absent pulmonary valve, or Ebstein anomaly with hydrops. [23]
+
+Not needed (Class III): shunt lesions, most ductal-dependent lesions, and controlled arrhythmias. [24]
+
+
+## Fetal predictors, lesion by lesion
+
+Ductal-dependent circulation: pulmonary flow is ductal-dependent when ductal flow runs from aorta to pulmonary artery or the duct is reversed in orientation (inferior angle below 90°); systemic flow is ductal-dependent with left-to-right atrial flow. For these, prostaglandin E1 is started and no specialised delivery room care is needed. [25]
+
+HLHS with restrictive or intact atrial septum: a pulmonary vein forward-to-reverse VTI ratio below 3, or no change in branch pulmonary artery pulsatility with third-trimester maternal hyperoxygenation, should lead to a plan for possible urgent decompression of the left atrium. [26]
+
+D-transposition: septum primum angle below 30° to the atrial septum, bowing more than 50% into the left atrium, loss of normal swinging motion, or a hypermobile septum primum have been reported to predict restriction. These call for planned urgent balloon atrial septostomy, on site if possible, and prostaglandin E1. A small or abnormal ductus with foramen concerns means high risk; deliver where hypoxia and pulmonary hypertension can be managed. [27, 28]
+
+Obstructed TAPVR: a decompressing vein below the diaphragm, or accelerated flow in it, should lead to consideration of ECMO. [29]
+
+Tetralogy with absent pulmonary valve: lobar emphysema (fluid trapping) on MRI suggests planning specialised ventilation and considering ECMO. [30]
+
+Ebstein anomaly with hydrops or uncontrolled arrhythmia: early delivery may be considered, with measures to lower pulmonary resistance, treat arrhythmia and support output. [31]
+
+Tachyarrhythmia with rapid rate, reduced function, effusion or hydrops: consider early delivery if gestation is appropriate, with urgent cardioversion or medical therapy in the delivery room. For uncontrolled tachycardia, planned cardioversion or antiarrhythmic therapy in the delivery room is indicated. [32, 33]
+
+Complete heart block: a falling cardiovascular profile score (to below 7), a very low ventricular rate, reduced function or fibroelastosis, or hydrops should lead to consideration of early delivery and of chronotropic drugs or temporary pacing in the delivery room. Planned chronotropic drugs or pacing in the early newborn period is reasonable. [34, 33]
+
+
+## Monitoring before delivery
+
+Cardiotocography is unlikely to be useful in fetal bradycardia or complete heart block. [35]
+
+## Delivery plan before 36 weeks
+
+- [ ] Level of care assigned and written in the report [7, 10, 11, 12, 13, 14, 15]
+- [ ] Obstetric, neonatal and cardiology teams agree the plan [6, 5]
+- [ ] Place of delivery fits the level; transfer arranged if needed [16, 17]
+- [ ] Timing: no elective induction before 39 weeks without a reason [18]
+- [ ] Lesion-specific predictors checked and first-hour needs listed (septostomy, ECMO, pacing, cardioversion, ventilation) [26, 27, 29, 34, 30, 32]
+
+## Still to be written
+
+- Awaiting re-check after rewording on 21 Nov (round 5, task J): caesarean against vaginal birth (AH14-305); hydrops in complex heart disease and delivery (AH14-316); septum primum criteria in a later study (AH14-314); ductal flow and pulmonary hypertension therapy in d-TGA (AH14-326); fetal wellness testing (AH14-017, 118, 120).
+- Mode of delivery: without AH14-305 the unit says nothing on caesarean against vaginal birth beyond the level-of-care table.
+- Indian adaptation: where level 3 and 4 care is available, transport distances, and how the levels map to Indian hospitals - the editor's input and an Indian source.
+- Prostaglandin dosing and newborn drug doses - held back until the cardiology co-editor signs (Claude task rule 3).
+- Newer guidance than AHA 2014 on delivery planning, where it exists - source search.
+- Video outline not yet written.
+
+## References
+
+1. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Perinatal Management and Outcome of Fetuses With CHD, Impact on Morbidity / Survival, pp. 2221-2222. (AH14-300, ai-cross-checked)
+2. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Perinatal Management and Outcome of Fetuses With CHD, Impact on Morbidity, pp. 2221-2222. (AH14-301, ai-cross-checked)
+3. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.D Imaging-Based Risk Assessment and Delivery Planning, p. 718. (AS23-604, ai-cross-checked)
+4. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.D Imaging-Based Risk Assessment and Delivery Planning, p. 718. (AS23-602, ai-cross-checked)
+5. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.D Key Points, p. 718; IV.D Imaging-Based Risk Assessment and Delivery Planning, p. 718. (AS23-600, ai-cross-checked)
+6. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Perinatal Management and Outcome of Fetuses With CHD, Delivery Planning, p. 2222. (AH14-302, ai-cross-checked)
+7. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Perinatal Management and Outcome of Fetuses With CHD, Delivery Room and Neonatal Care Planning, p. 2223. (AH14-306, ai-cross-checked)
+8. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.D Key Points, p. 718; IV.D Imaging-Based Risk Assessment and Delivery Planning, p. 718. (AS23-603, ai-cross-checked)
+9. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Perinatal Management and Outcome of Fetuses With CHD, Delivery Room and Neonatal Care Planning, p. 2223. (AH14-307, ai-cross-checked)
+10. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Table 19 (level of care assignment), p. 2223. (AH14-317, ai-cross-checked)
+11. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Table 19 (level of care assignment), p. 2223. (AH14-318, ai-cross-checked)
+12. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Table 19 (level of care assignment), p. 2223. (AH14-319, ai-cross-checked)
+13. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Table 19 (level of care assignment), p. 2223. (AH14-320, ai-cross-checked)
+14. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Table 19 (level of care assignment), p. 2223. (AH14-321, ai-cross-checked)
+15. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Table 19 (level of care assignment), p. 2223. (AH14-322, ai-cross-checked)
+16. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Perinatal Management and Outcome of Fetuses With CHD, Delivery Planning, p. 2222. (AH14-303, ai-cross-checked)
+17. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Perinatal Management and Outcome of Fetuses With CHD, Ductal-Dependent Lesions, p. 2224. (AH14-310, ai-cross-checked)
+18. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Perinatal Management and Outcome of Fetuses With CHD, Delivery Planning, p. 2222. (AH14-304, ai-cross-checked)
+19. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Perinatal Management and Outcome of Fetuses With CHD, Transitional Circulation, p. 2224. (AH14-308, ai-cross-checked)
+20. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Perinatal Management and Outcome of Fetuses With CHD, CHD With Minimal Risk During Transition, p. 2224. (AH14-309, ai-cross-checked)
+21. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Recommendations, Specialized Delivery Room Care, p. 2227, recommendation 24. (AH14-024, ai-cross-checked)
+22. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Recommendations, Specialized Delivery Room Care, p. 2227, recommendation 25. (AH14-025, ai-cross-checked)
+23. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Recommendations, Specialized Delivery Room Care, p. 2227, recommendation 26. (AH14-026, ai-cross-checked)
+24. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Recommendations, Specialized Delivery Room Care, p. 2227, recommendation 27. (AH14-027, ai-cross-checked)
+25. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Table 20 (fetal predictors for delivery planning), p. 2225. (AH14-311, ai-cross-checked)
+26. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Table 20 (fetal predictors for delivery planning), p. 2225. (AH14-312, ai-cross-checked)
+27. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Table 20 (fetal predictors for delivery planning), p. 2225. (AH14-325, ai-cross-checked)
+28. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Perinatal Management and Outcome of Fetuses With CHD, Foramen Ovale-Dependent Lesions, p. 2225. (AH14-313, ai-cross-checked)
+29. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Table 20 (fetal predictors for delivery planning), p. 2225. (AH14-323, ai-cross-checked)
+30. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Table 20 (fetal predictors for delivery planning), p. 2225. (AH14-327, ai-cross-checked)
+31. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Table 20 (fetal predictors for delivery planning), p. 2225. (AH14-328, ai-cross-checked)
+32. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Table 20 (fetal predictors for delivery planning), p. 2225. (AH14-329, ai-cross-checked)
+33. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Perinatal Management and Outcome of Fetuses With CHD, Fetal Arrhythmias, p. 2226. (AH14-315, ai-cross-checked)
+34. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Table 20 (fetal predictors for delivery planning), p. 2225. (AH14-324, ai-cross-checked)
+35. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Fetal Wellness Assessment, Cardiotocography and Nonstress Testing, p. 2209. (AH14-119, ai-cross-checked)
+
+
+\newpage
+
+# Fetal cardiac intervention
+
+> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-cross-checked' that no clinician has verified.
+
+Unit Z5 | Tier: Decide | Version 0.1
+
+## You will be able to
+
+- State the rationale for fetal cardiac intervention and its main limit.
+- Name the signs of evolving hypoplastic left heart in aortic stenosis and the candidacy criteria for valvuloplasty.
+- Describe the problem of the restrictive atrial septum in HLHS, and the role of intervention in pulmonary atresia with intact septum.
+- Describe counselling and follow-up after a fetal procedure.
+
+## The idea, and its limit
+
+Fetal cardiac intervention rests on the idea that some lesions progress in utero, and that there may be a limited window when their effects on growth and function can still be reversed. [1]
+
+Technical success of a fetal procedure does not always translate into clinical success after birth. [2]
+
+Any fetal therapy must be weighed against the risk to the mother and the chance of successful treatment after birth. In 2014 there were no randomised trials of fetal cardiac therapy. [3]
+
+
+## Aortic stenosis with evolving hypoplastic left heart
+
+Signs of evolution: retrograde transverse arch flow, severe left ventricular dysfunction, monophasic short mitral inflow, and left-to-right flow at the foramen ovale. [4]
+
+Aim of valvuloplasty: open the valve, promote antegrade flow and left heart growth, and make a biventricular repair possible. [5]
+
+Candidates need stenosis, not atresia, with antegrade flow; little or no subvalvar obstruction; and strong evidence of evolving hypoplastic left heart. [6]
+
+Assessment on fetal echocardiography: ventricular size (end-diastolic diameter and length), whether the ventricle forms the apex, hypertrophy, endocardial fibroelastosis, and systolic and diastolic function help judge severity and suitability for prenatal intervention. [7]
+
+Results: in one reported series of 70 fetuses, balloon valvuloplasty was technically successful in 52 (74%). [8]
+
+After the procedure: delivery and management at a specialised congenital heart centre are recommended. Follow-up is every 4 weeks in the third trimester, assessing aortic outflow, arch flow direction, atrial septal flow, left ventricular size and function, mitral regurgitation and endocardial brightness. [9, 10]
+
+
+## HLHS with a restrictive or intact atrial septum
+
+Greater reversal of pulmonary venous flow during atrial contraction, and reduced pulmonary vasoreactivity to maternal hyperoxygenation, indicate clinically important atrial restriction. [11]
+
+In 2014 it was unresolved whether balloon septoplasty or a stent is better, and what timing best prevents pulmonary vascular damage. [12]
+
+After intervention, follow-up is every 4 weeks in the third trimester, assessing patency of the atrial communication and the pulmonary venous forward-to-reverse ratio. [13]
+
+
+## Mitral valve dysplasia syndrome
+
+With mitral valve dysplasia, severe regurgitation and aortic stenosis, severe left-sided dilatation can compress the right heart and cause hydrops, which is most often lethal. [14]
+
+
+## Pulmonary atresia with intact septum
+
+Fetal intervention here is controversial. Only a small subset should be considered, and it may be lifesaving with severe tricuspid regurgitation and hydrops. [15]
+
+Even a very small right ventricle can be rehabilitated through staged surgery if the tricuspid valve is of adequate size. [16]
+
+
+## Counselling
+
+Families considering aortic valvuloplasty should receive extensive counselling on the risks to mother and fetus and on the expected course compared with standard care, including the lack of long-term outcome data. [17]
+
+## Before discussing fetal intervention
+
+- [ ] Signs of evolution documented (arch flow, LV function, mitral inflow, atrial flow) [4]
+- [ ] Ventricular size, apex, hypertrophy, fibroelastosis and function measured [7]
+- [ ] Candidacy criteria checked: stenosis with antegrade flow, little subvalvar obstruction [6]
+- [ ] Family counselled on maternal and fetal risk, expected course and missing long-term data [17]
+- [ ] Delivery at a specialised centre and follow-up every 4 weeks planned [9, 10]
+
+## Still to be written
+
+- Awaiting re-check after rewording on 21 Nov (round 5, task J): recommendation 23, the lesions for which catheter intervention may be considered (AH14-023); mortality in HLHS with highly restrictive or intact septum (AH14-209); predictors of a two-ventricle outcome after valvuloplasty, with z-score and pressure cut-offs (AH14-332, new).
+- Outcomes since 2014 (survival, biventricular circulation, maternal complications) from current registries - needs a newer source (tasks/results/task-s1.md, topic 10).
+- Where fetal cardiac intervention is available to Indian patients, and referral routes - the editor's input.
+- Transplacental drug therapy for arrhythmia and heart failure - unit Z4.
+- Video outline not yet written.
+
+## References
+
+1. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, Overview, p. 2217. (AH14-201, ai-cross-checked)
+2. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, Overview, p. 2217. (AH14-202, ai-cross-checked)
+3. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Fetal Therapy for Cardiovascular Conditions Before Birth, p. 2211. (AH14-131, ai-cross-checked)
+4. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, Table 16, p. 2217. (AH14-204, ai-cross-checked)
+5. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, Table 16, p. 2217. (AH14-203, ai-cross-checked)
+6. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, AS With Evolving HLHS, p. 2218. (AH14-205, ai-cross-checked)
+7. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716. (AS23-407, ai-cross-checked)
+8. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, AS With Evolving HLHS, p. 2218. (AH14-206, ai-cross-checked)
+9. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, AS With Evolving HLHS, p. 2218. (AH14-208, ai-cross-checked)
+10. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 15 (follow-up imaging for specific CHD diagnoses), p. 719. (AS23-614, ai-cross-checked)
+11. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, HLHS With Restrictive or Intact Atrial Septum, p. 2218. (AH14-210, ai-cross-checked)
+12. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, HLHS With Restrictive or Intact Atrial Septum, p. 2218. (AH14-211, ai-cross-checked)
+13. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 15 (follow-up imaging for specific CHD diagnoses), p. 719. (AS23-615, ai-cross-checked)
+14. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, Mitral Valve Dysplasia Syndrome, pp. 2218-2219. (AH14-212, ai-cross-checked)
+15. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, Pulmonary Atresia With Intact Ventricular Septum, p. 2219. (AH14-213, ai-cross-checked)
+16. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, Pulmonary Atresia With Intact Ventricular Septum, p. 2219. (AH14-214, ai-cross-checked)
+17. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Fetal Cardiac Catheter Intervention / Cardiac Lesions Amenable to Fetal Intervention, AS With Evolving HLHS, p. 2218. (AH14-207, ai-cross-checked)

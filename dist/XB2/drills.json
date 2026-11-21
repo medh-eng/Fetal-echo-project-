@@ -1,0 +1,184 @@
+{
+  "unit": "XB2",
+  "title": "Lesion atlas: left heart (aortic stenosis, HLHS, mitral, coarctation)",
+  "status": "ai-cross-checked",
+  "items": [
+    {
+      "id": "XB2-Q01",
+      "question": "A screening scan shows asymmetric four chambers and an abnormal three-vessel view. Which group of lesions does the guideline suggest?",
+      "options": [
+        "Progressive semilunar valve obstruction",
+        "Normal variant; no action",
+        "Atrial septal defect only",
+        "Venous anomalies only"
+      ],
+      "answer": 0,
+      "explanation": "Progressive semilunar obstruction is suspected when the three-vessel view is abnormal or the four chambers are asymmetric.",
+      "claims": [
+        "AS23-356"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB2-Q02",
+      "question": "Fetal aortic stenosis with a poorly contracting left ventricle. The aortic valve velocity is low. What is the trap?",
+      "options": [
+        "Valve Doppler may not reflect severity when left ventricular dysfunction is severe",
+        "A low velocity always means mild stenosis",
+        "Low velocity means the valve is normal",
+        "Velocity is the only measure that matters"
+      ],
+      "answer": 0,
+      "explanation": "Aortic valve Doppler may not reflect severity with severe LV dysfunction; reversed flow in the transverse arch predicts severe obstruction.",
+      "claims": [
+        "AS23-413"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB2-Q03",
+      "question": "In aortic stenosis, which arch finding heralds critical obstruction at any gestation?",
+      "options": [
+        "Retrograde flow in the arch on the side of the obstructed valve",
+        "Antegrade flow in the arch",
+        "A left-sided arch",
+        "A large thymus"
+      ],
+      "answer": 0,
+      "explanation": "Retrograde ipsilateral arch flow heralds critical obstruction; if absent at first, it should be looked for repeatedly.",
+      "claims": [
+        "AS23-405"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB2-Q04",
+      "question": "Which features help judge severity and suitability for prenatal intervention in aortic stenosis?",
+      "options": [
+        "Ventricular size, apex formation, hypertrophy, endocardial fibroelastosis and function",
+        "Fetal heart rate only",
+        "Nuchal translucency",
+        "Umbilical cord insertion"
+      ],
+      "answer": 0,
+      "explanation": "These ventricular features help judge severity and candidacy for prenatal intervention.",
+      "claims": [
+        "AS23-407"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB2-Q05",
+      "question": "HLHS. A pulmonary venous forward-to-reverse VTI ratio below 3 predicts what?",
+      "options": [
+        "Inadequate left atrial egress and greater likelihood of emergency atrial septoplasty in the newborn",
+        "A normal transition at birth",
+        "Complete heart block",
+        "Coarctation"
+      ],
+      "answer": 0,
+      "explanation": "A ratio below 3 predicts inadequate left atrial egress and a greater likelihood of emergency septoplasty.",
+      "claims": [
+        "AS23-222"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB2-Q06",
+      "question": "HLHS with maternal hyperoxygenation testing late in pregnancy. Which result is associated with neonatal instability?",
+      "options": [
+        "A fall of less than 10% in pulmonary artery pulsatility index",
+        "A fall of more than 10% in pulmonary artery pulsatility index",
+        "A rise in fetal heart rate",
+        "No change in umbilical artery flow"
+      ],
+      "answer": 0,
+      "explanation": "Lack of vasoreactivity (a fall of less than 10% in branch PA pulsatility index) is associated with neonatal instability and urgent atrial septal opening.",
+      "claims": [
+        "AS23-224"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB2-Q07",
+      "question": "The left heart looks small and the foramen ovale appears restrictive, with no other heart disease. What does the guideline warn?",
+      "options": [
+        "Isolated foramen restriction may make left structures look small with no consequence after birth",
+        "This is always hypoplastic left heart syndrome",
+        "Immediate delivery is needed",
+        "The finding has no relevance at all"
+      ],
+      "answer": 0,
+      "explanation": "In isolation, foramen ovale restriction can make left-sided structures appear smaller but have no consequence after delivery.",
+      "claims": [
+        "AS23-283"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB2-Q08",
+      "question": "Mild mitral regurgitation is seen in a fetus. How should it be regarded?",
+      "options": [
+        "As abnormal; and consider left ventricular outflow obstruction",
+        "As a normal finding",
+        "As normal unless the heart rate is low",
+        "As an artefact of colour gain"
+      ],
+      "answer": 0,
+      "explanation": "Any degree of fetal mitral regurgitation is abnormal; with mitral regurgitation, consider associated LV outflow obstruction.",
+      "claims": [
+        "AS23-264",
+        "AS23-265"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB2-Q09",
+      "question": "Mitral stenosis. Which finding is critical in judging whether the mitral valve is adequate?",
+      "options": [
+        "Direction of flow at the foramen ovale",
+        "Fetal heart rate",
+        "Cardiac axis",
+        "Thymus size"
+      ],
+      "answer": 0,
+      "explanation": "Flow direction at the foramen ovale is critical in judging adequacy of the mitral valve.",
+      "claims": [
+        "AS23-269"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB2-Q10",
+      "question": "Which set of findings suggests coarctation?",
+      "options": [
+        "Right ventricle larger than left, ascending aorta smaller than the superior vena cava, small arch and isthmus",
+        "Left ventricle larger than right with a dilated ascending aorta",
+        "Normal four chambers with a large isthmus",
+        "Pericardial effusion only"
+      ],
+      "answer": 0,
+      "explanation": "These are the coarctation findings listed in Table 13.",
+      "claims": [
+        "AS23-443"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB2-Q11",
+      "question": "A colleague says a prenatal diagnosis of coarctation is reliable. What does the guideline say?",
+      "options": [
+        "It has substantial false-positive and false-negative rates",
+        "It is never wrong",
+        "It has false positives but no false negatives",
+        "It is reliable if the heart rate is normal"
+      ],
+      "answer": 0,
+      "explanation": "Prenatal diagnosis of coarctation has substantial false-positive and false-negative rates.",
+      "claims": [
+        "AS23-444"
+      ],
+      "status": "ai-cross-checked"
+    }
+  ]
+}

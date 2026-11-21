@@ -1,0 +1,197 @@
+# Unit XA2. Every text block and drill lists the claim IDs it rests on.
+# Built only from ai-cross-checked claims: mainly AHA 2014 (extracted by Claude,
+# cross-checked by ChatGPT on 19 Nov 2026), with ASE 2023 for lesion-specific points.
+# Genetic testing has changed a great deal since 2014: this unit needs a newer source and a
+# clinical geneticist's review before release (units.yaml: needs S).
+
+id: XA2
+title: "Genetics of congenital heart disease and the work-up after diagnosis"
+tier: Diagnose
+version: 0.1
+summary: "How often fetal heart disease is chromosomal, which lesions carry which risk, what testing to offer, and the rest of the work-up once a heart defect is found."
+drafted_by: "Claude (Opus 5.5, 21 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "Give the approximate rate of chromosomal abnormality in fetal heart disease, and why it is higher than in infants."
+  - "Name the lesions with the highest and lowest aneuploidy risk, and those linked with 22q11 deletion."
+  - "State what testing and counselling to offer, and what must be disclosed before microarray."
+  - "Describe the extracardiac survey after a cardiac diagnosis."
+
+sections:
+
+  - heading: "How common, and why it matters"
+    blocks:
+      - text: "About 15% of infants with heart disease have a recognisable chromosomal abnormality, mostly aneuploidies: trisomies 21, 13 and 18, and monosomy X."
+        claims: [AH14-100]
+      - text: "In the fetus the rate is higher: abnormal karyotypes are found in 30% to 40% in most series, probably because affected fetuses die more often before birth. Even isolated heart disease diagnosed by ultrasound carries a risk of at least 15% to 30%."
+        claims: [AH14-101, AH14-102]
+      - text: "Genetic results may prompt a further search for anomalies, inform recurrence risk, and influence decisions on termination or palliative care."
+        claims: [AH14-104]
+
+  - heading: "Risk by lesion"
+    blocks:
+      - text: "Ventricular and atrioventricular septal defects are the lesions most often associated with an abnormal karyotype. Of fetuses with atrioventricular septal defect and normal situs, 50% to 70% have trisomy 21."
+        claims: [AH14-108, AH14-109]
+      - text: "Risk of aneuploidy by lesion, from the AHA 2014 tables (ranges across published series)."
+        claims: [AH14-112]
+        table:
+          columns: ["Lesion", "Aneuploidy risk"]
+          rows:
+            - ["Atrioventricular septal defect", "46-73%"]
+            - ["Common arterial trunk", "19-78%"]
+            - ["Tetralogy of Fallot", "7-39%"]
+            - ["Hypoplastic left heart", "4-9%"]
+            - ["Transposition", "0%"]
+            - ["Heterotaxy", "0%"]
+      - text: "Heterotaxy, D-transposition, congenitally corrected transposition and pulmonary atresia with intact septum are rarely aneuploid, but parents should still be offered testing."
+        claims: [AH14-107]
+
+  - heading: "22q11 deletion"
+    blocks:
+      - text: "Conotruncal lesions and right aortic arch are associated with 22q11 deletion."
+        claims: [AH14-110]
+      - text: "Estimated frequency of 22q11 deletion by lesion, from AHA 2014."
+        claims: [AH14-113]
+        table:
+          columns: ["Lesion", "22q11 deletion"]
+          rows:
+            - ["Interrupted aortic arch", "50-90%"]
+            - ["Common arterial trunk", "35-40%"]
+            - ["Isolated arch anomaly", "25%"]
+            - ["Tetralogy of Fallot", "8-35%"]
+            - ["Transposition", "Below 1%"]
+      - text: "On the scan: imaging the arch and the thymus allows counselling tailored to the risk of 22q11 deletion. In common arterial trunk with a right aortic arch the risk is above 50%. In absent pulmonary valve syndrome, telling the subaortic-VSD form from the intact-septum form matters for assessing 22q11.2 deletion."
+        claims: [AS23-313, AS23-350, AS23-318]
+
+  - heading: "Other genetic clues"
+    blocks:
+      - text: "A cardiac tumour found in mid or late gestation should prompt genetic testing: over 60% of such fetuses have tuberous sclerosis."
+        claims: [AH14-111]
+      - text: "Lesions of the atrioventricular junction may be isolated, often with aneuploidy including trisomy 21."
+        claims: [AS23-249]
+
+  - heading: "What to offer"
+    blocks:
+      - text: "Genetic testing and counselling should be recommended for every fetus with a cardiac malformation, with or without other anomalies."
+        claims: [AH14-103]
+      - text: "Before microarray testing, disclose that it may find variants of unknown significance. Microarray cannot detect balanced rearrangements. In 2014, whether it should replace routine cytogenetic testing was still debated."
+        claims: [AH14-105, AH14-106]
+
+  - heading: "The extracardiac survey"
+    blocks:
+      - text: "Every fetus with heart disease should have a detailed survey of all fetal anatomy by an expert operator. Some anomalies are only detectable later, so a repeat assessment may be appropriate."
+        claims: [AH14-116]
+      - text: "Ventricular septal defect and tricuspid atresia are often associated with other anomalies; D-transposition and pulmonary atresia with intact septum are more often isolated."
+        claims: [AH14-115]
+
+missing_claims:
+  - "Awaiting re-check after rewording on 21 Nov (round 5, task J): recommendation 14, genetic counselling with offer of aneuploidy testing and detailed anatomy scan (AH14-014); extracardiac anomaly rates (AH14-114); fetal MRI for extracardiac screening (AH14-015, 016, 117); parental testing (AH14-330, new)."
+  - "Current testing: exome and genome sequencing, rapid aneuploidy tests, and how testing has changed since 2014 - needs a newer source and a clinical geneticist."
+  - "Availability and cost of each test in India, and the legal framework (PC-PNDT) for prenatal genetic testing - needs an Indian source and the editor's input."
+  - "Recurrence risks for siblings and offspring - needs a source."
+  - "Video outline not yet written."
+
+drills:
+  - id: XA2-Q01
+    question: "Why is the rate of chromosomal abnormality higher in fetuses with heart disease than in infants?"
+    options:
+      - "Affected fetuses more often die before birth"
+      - "Fetal testing is less accurate"
+      - "Heart disease causes aneuploidy after birth"
+      - "It is not higher"
+    answer: 0
+    explanation: "Fetal series show 30-40% abnormal karyotypes, more than infants, probably because of higher mortality in utero."
+    claims: [AH14-101]
+
+  - id: XA2-Q02
+    question: "Heart disease appears isolated on ultrasound. What is the risk of a chromosomal abnormality?"
+    options:
+      - "At least 15% to 30%"
+      - "Under 1%"
+      - "Zero, if the defect is isolated"
+      - "Over 90%"
+    answer: 0
+    explanation: "Isolated heart disease on ultrasound carries a risk of at least 15-30%."
+    claims: [AH14-102]
+
+  - id: XA2-Q03
+    question: "Atrioventricular septal defect with normal situs. What proportion have trisomy 21?"
+    options:
+      - "50% to 70%"
+      - "About 5%"
+      - "None"
+      - "All"
+    answer: 0
+    explanation: "50-70% of fetuses with AVSD and normal situs have trisomy 21."
+    claims: [AH14-109]
+
+  - id: XA2-Q04
+    question: "D-transposition is diagnosed. The aneuploidy risk is very low. Should testing still be offered?"
+    options:
+      - "Yes: parents should still be offered testing"
+      - "No: testing is never indicated in transposition"
+      - "Only if the mother is over 35"
+      - "Only after birth"
+    answer: 0
+    explanation: "These lesions are rarely aneuploid, but testing should still be offered. Genetic testing and counselling should be recommended for every fetus with a cardiac malformation."
+    claims: [AH14-107, AH14-103]
+
+  - id: XA2-Q05
+    question: "Which lesion has the highest estimated frequency of 22q11 deletion?"
+    options:
+      - "Interrupted aortic arch"
+      - "Transposition"
+      - "Hypoplastic left heart"
+      - "Atrioventricular septal defect"
+    answer: 0
+    explanation: "AHA 2014 Table 11 gives 50-90% for interrupted aortic arch."
+    claims: [AH14-113]
+
+  - id: XA2-Q06
+    question: "A cardiac tumour is seen at 26 weeks. What should it prompt?"
+    options:
+      - "Genetic testing: over 60% have tuberous sclerosis"
+      - "Immediate delivery"
+      - "No further action"
+      - "Fetal intervention"
+    answer: 0
+    explanation: "A tumour in mid or late gestation should prompt genetic testing; over 60% have tuberous sclerosis."
+    claims: [AH14-111]
+
+  - id: XA2-Q07
+    question: "Before microarray testing, what must parents be told?"
+    options:
+      - "It may find variants of unknown significance"
+      - "It detects every genetic cause"
+      - "It detects balanced rearrangements"
+      - "It needs no consent"
+    answer: 0
+    explanation: "Variants of unknown significance should be disclosed before testing; microarray cannot detect balanced rearrangements."
+    claims: [AH14-105]
+
+  - id: XA2-Q08
+    question: "After a cardiac diagnosis, what survey of the rest of the fetus is recommended?"
+    options:
+      - "A detailed survey of all anatomy by an expert, repeated later if appropriate"
+      - "None; the heart is the only concern"
+      - "Fetal MRI for every case"
+      - "Only a growth scan"
+    answer: 0
+    explanation: "A detailed expert survey is recommended for every fetus with heart disease; some anomalies only appear later."
+    claims: [AH14-116]
+
+checklist:
+  title: "Work-up after a cardiac diagnosis"
+  items:
+    - text: "Genetic counselling and testing recommended"
+      claims: [AH14-103]
+    - text: "Microarray: variants of unknown significance disclosed beforehand"
+      claims: [AH14-105]
+    - text: "Arch and thymus imaged where 22q11 deletion is possible"
+      claims: [AS23-313, AH14-110]
+    - text: "Detailed extracardiac survey by an expert; repeat planned if appropriate"
+      claims: [AH14-116]
+    - text: "Cardiac tumour: tuberous sclerosis testing"
+      claims: [AH14-111]

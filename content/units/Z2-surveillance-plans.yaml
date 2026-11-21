@@ -1,0 +1,219 @@
+# Unit Z2. Every text block and drill lists the claim IDs it rests on.
+# Built only from claims that are ai-cross-checked (ASE 2023 claims extracted by Claude,
+# cross-checked by ChatGPT on 19 Nov 2026). Decide tier: needs the cardiology co-editor
+# before release. Intervals are the guideline's suggestions, not fixed rules.
+
+id: Z2
+title: "Surveillance plans by lesion"
+tier: Decide
+version: 0.1
+summary: "Who needs a repeat fetal echocardiogram, how often, and what each repeat study must look at, organised by the risk the lesion carries."
+drafted_by: "Claude (Opus 5.5, 21 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "Say when a normal mid-trimester study needs no follow-up, and when it does."
+  - "Group lesions by the risk that drives their follow-up: heart failure, arrhythmia, cyanosis, pulmonary venous obstruction, airway compromise."
+  - "For each group, name the suggested interval and the findings to record."
+  - "List the measurements that must be repeated at every study for the main progressive lesions."
+
+sections:
+
+  - heading: "Why a plan is needed"
+    blocks:
+      - text: "Some heart disease that looks mild at first evolves before birth. A repeat study is planned around what could change and what would change care at birth."
+        kind: framing
+        claims: []
+      - text: "An abnormal fetal heart is usually reassessed every 2-8 weeks until about 34-36 weeks. The interval is guided by the lesion and the clinical concerns."
+        claims: [AS23-035]
+      - text: "Reassessment near term is aimed at the findings that could change care immediately after birth."
+        claims: [AS23-036]
+      - text: "Serial follow-up is indicated for diagnoses at risk of haemodynamic compromise after birth."
+        claims: [AS23-601]
+
+  - heading: "After a normal study"
+    blocks:
+      - text: "A normal mid-trimester fetal echocardiogram generally needs no follow-up, unless there is concern for a progressive lesion."
+        claims: [AS23-037]
+      - text: "If a progressive lesion is suspected despite a normal mid-trimester study, repeat assessment is recommended at intervals of up to 2-4 weeks."
+        claims: [AS23-038]
+
+  - heading: "Plans by risk group"
+    blocks:
+      - text: "The guideline's follow-up table groups lesions by the risk they carry. The intervals are suggestions; the cardiology and obstetric providers decide."
+        claims: [AS23-605]
+      - text: "Suggested follow-up by risk group."
+        claims: [AS23-606, AS23-607, AS23-608, AS23-609, AS23-610, AS23-611, AS23-612, AS23-613]
+        table:
+          columns: ["Risk", "Examples", "Suggested interval", "What to assess"]
+          rows:
+            - ["Heart failure", "Hypoplastic left heart with mitral regurgitation; tetralogy with absent pulmonary valve; Ebstein anomaly; AVSD with valve regurgitation; cardiac tumours", "Every 2-4 weeks", "Comprehensive function assessment"]
+            - ["Arrhythmia", "Long-QT syndrome; congenitally corrected transposition; left atrial isomerism", "Every 2-4 weeks", "Rate and rhythm"]
+            - ["Atrioventricular block", "Congenitally corrected transposition; left atrial isomerism; others", "Every 2-4 weeks", "Atrioventricular interval; atrial and ventricular rates; hydrops; extracardiac Doppler"]
+            - ["Tachycardia", "Atrial flutter; supraventricular tachycardia", "Every 2 weeks unless well controlled", "Rate and rhythm; heart size; hydrops and heart failure"]
+            - ["Extracardiac cause of hydrops", "CPAM; sacrococcygeal teratoma; twin-twin transfusion; arteriovenous malformation; TRAP sequence; fetal anaemia", "Every 2-4 weeks", "Comprehensive function assessment"]
+            - ["Cyanosis after birth", "Transposition with intact septum or VSD; DORV with subpulmonary VSD; tetralogy", "Every 4-8 weeks and late in the third trimester", "Atrial septal excursion; foramen opening; ductal shunting; consider maternal hyperoxygenation testing"]
+            - ["Pulmonary venous obstruction after birth", "Hypoplastic left heart with restrictive atrial septum; obstructed anomalous pulmonary venous return; cor triatriatum", "Every 4-8 weeks and late in the third trimester", "Pulmonary venous forward-to-reverse ratio; atrial septal position and thickness; vertical vein Doppler; consider maternal hyperoxygenation testing"]
+            - ["Respiratory compromise after birth", "Tetralogy with absent pulmonary valve; Ebstein anomaly; hypoplastic left heart with restrictive atrial septum", "Every 4-8 weeks and late in the third trimester", "Mediastinal shift; cardiothoracic area ratio; ventricular function; consider fetal MRI of the lungs"]
+      - text: "After fetal intervention, follow-up is every 4 weeks in the third trimester. After intervention for aortic stenosis with evolving hypoplastic left heart: aortic outflow, arch flow direction, atrial septal flow, left ventricular size and function, mitral regurgitation and endocardial brightness. After intervention for hypoplastic left heart with a restrictive atrial septum: patency of the atrial communication and the pulmonary venous forward-to-reverse ratio."
+        claims: [AS23-614, AS23-615]
+
+  - heading: "What every repeat study must record, lesion by lesion"
+    blocks:
+      - text: "Semilunar valve stenosis: serial evaluation, including ventricular size and function and endocardial fibroelastosis."
+        claims: [AS23-408]
+      - text: "Semilunar valve stenosis: flow direction in the ductal and aortic arches at every examination, because abnormal direction heralds critical obstruction after birth; and flow direction at the atrial septum at every examination."
+        claims: [AS23-409, AS23-410]
+      - text: "Atrioventricular valve abnormality: a complete Doppler assessment at each examination, including valve stenosis and regurgitation and flow at the atrial septum and ductus."
+        claims: [AS23-246]
+      - text: "Valve regurgitation: follow serially, because it may worsen as pregnancy advances; progressive cardiomegaly is common when it is significant."
+        claims: [AS23-440, AS23-441]
+      - text: "Severe tricuspid disease with pulmonary atresia, structural or functional: ductal flow direction documented serially, because retrograde ductal flow can develop at any point."
+        claims: [AS23-429]
+      - text: "Hypoplastic left heart syndrome: the pulmonary venous forward-to-reverse velocity-time integral ratio at every study, with the last measurement near term. Maternal hyperoxygenation testing late in the third trimester may be considered in selected cases."
+        claims: [AS23-220, AS23-223]
+      - text: "D-transposition: the foramen ovale assessed late in gestation in every fetus."
+        claims: [AS23-330]
+      - text: "Congenitally corrected transposition: serial studies offered, to find progressive atrioventricular valve regurgitation and rhythm problems, including complete heart block."
+        claims: [AS23-339]
+      - text: "Tetralogy of Fallot: ductal flow direction at 28 weeks predicts the need for neonatal intervention."
+        claims: [AS23-316]
+
+  - heading: "From surveillance to the delivery plan"
+    blocks:
+      - text: "Certain critical lesions need cardiac intervention immediately after birth. A coordinated perinatal plan of care has the greatest potential to influence outcome."
+        claims: [AS23-602, AS23-604]
+      - text: "Once heart disease is diagnosed, maternal, fetal and neonatal providers must work together on its implications, the follow-up visits and the level of neonatal care expected. Image-based risk stratification paired with level-of-care plans is recommended. Unit Z3 covers the delivery plan."
+        claims: [AS23-600, AS23-603]
+
+missing_claims:
+  - "AS23-039 (follow-up interval decided by the fetal cardiology and obstetric teams) is not yet cross-checked; the same point is made here through AS23-605."
+  - "Follow-up plans for lesions not named in Table 15 (for example isolated ventricular septal defect, coarctation suspected on arch discrepancy) - need a source and the co-editor."
+  - "How surveillance should be adapted where the patient lives far from a fetal cardiology centre (Indian practice) - the editor's input."
+  - "Video outline not yet written."
+
+drills:
+  - id: Z2-Q01
+    question: "A mid-trimester fetal echocardiogram is normal and there is no concern for a progressive lesion. What follow-up does the guideline suggest?"
+    options:
+      - "Generally none"
+      - "Every 2-4 weeks until delivery"
+      - "One repeat study at 28 weeks for everyone"
+      - "A repeat study near term in every case"
+    answer: 0
+    explanation: "A normal mid-trimester study generally needs no follow-up unless a progressive lesion is a concern."
+    claims: [AS23-037]
+
+  - id: Z2-Q02
+    question: "Why is the near-term study done in an abnormal heart?"
+    options:
+      - "To look for findings that could change care immediately after birth"
+      - "To confirm the diagnosis made at mid-trimester, as a routine"
+      - "To decide whether the pregnancy should continue"
+      - "Only to measure fetal growth"
+    answer: 0
+    explanation: "Near-term reassessment is targeted to findings that could change care immediately after birth."
+    claims: [AS23-036]
+
+  - id: Z2-Q03
+    question: "A fetus has Ebstein anomaly. Which risk group and suggested interval apply?"
+    options:
+      - "Heart failure: every 2-4 weeks with comprehensive function assessment"
+      - "Cyanosis: every 4-8 weeks with atrial septal assessment only"
+      - "No follow-up until birth"
+      - "Tachycardia: every 2 weeks with rhythm only"
+    answer: 0
+    explanation: "Ebstein anomaly is one of the examples at risk of heart failure, followed every 2-4 weeks with comprehensive function assessment. It also appears in the respiratory-compromise group."
+    claims: [AS23-606, AS23-612]
+
+  - id: Z2-Q04
+    question: "D-transposition with intact ventricular septum. What must be assessed late in gestation?"
+    options:
+      - "The foramen ovale"
+      - "The ductus venosus only"
+      - "Nuchal translucency"
+      - "Nothing; transposition does not change before birth"
+    answer: 0
+    explanation: "Every fetus with D-transposition should have the foramen ovale assessed late in gestation. The cyanosis group also includes atrial septal excursion and ductal shunting."
+    claims: [AS23-330, AS23-609]
+
+  - id: Z2-Q05
+    question: "Fetal aortic stenosis is being followed. What must be documented at every study?"
+    options:
+      - "Flow direction in the ductal and aortic arches, and at the atrial septum"
+      - "Only the peak aortic velocity"
+      - "Only the cardiac axis"
+      - "Flow direction at the first study only"
+    answer: 0
+    explanation: "With semilunar stenosis, arch flow direction and atrial septal flow direction must be documented at every examination. Abnormal arch flow heralds critical obstruction after birth."
+    claims: [AS23-409, AS23-410]
+
+  - id: Z2-Q06
+    question: "Hypoplastic left heart syndrome. Which measurement is repeated at every study, with the last one near term?"
+    options:
+      - "The pulmonary venous forward-to-reverse velocity-time integral ratio"
+      - "The cardiac axis"
+      - "The umbilical artery pulsatility index only"
+      - "The nuchal translucency"
+    answer: 0
+    explanation: "In HLHS the pulmonary venous forward-to-reverse VTI ratio should be measured at every study, the last near term."
+    claims: [AS23-220]
+
+  - id: Z2-Q07
+    question: "Fetal supraventricular tachycardia that is not yet controlled. What interval does the follow-up table suggest?"
+    options:
+      - "Every 2 weeks"
+      - "Every 4-8 weeks"
+      - "Only near term"
+      - "No follow-up is needed"
+    answer: 0
+    explanation: "Tachycardia is followed every 2 weeks unless well controlled, assessing rate and rhythm, heart size, hydrops and heart failure."
+    claims: [AS23-611]
+
+  - id: Z2-Q08
+    question: "Congenitally corrected transposition. What are serial studies looking for?"
+    options:
+      - "Progressive atrioventricular valve regurgitation and rhythm problems, including complete heart block"
+      - "Closure of the ductus venosus"
+      - "Growth of the aortic arch only"
+      - "Nothing; serial studies are not offered"
+    answer: 0
+    explanation: "Serial studies are offered to find progressive atrioventricular valve regurgitation and rhythm abnormalities, including complete heart block."
+    claims: [AS23-339]
+
+  - id: Z2-Q09
+    question: "Tetralogy of Fallot. Which finding at 28 weeks predicts the need for neonatal intervention?"
+    options:
+      - "Ductal flow direction"
+      - "Fetal heart rate"
+      - "Size of the left atrium"
+      - "Presence of an echogenic focus"
+    answer: 0
+    explanation: "In tetralogy, ductal direction at 28 weeks predicts the need for neonatal intervention."
+    claims: [AS23-316]
+
+  - id: Z2-Q10
+    question: "Are the intervals in the guideline's follow-up table fixed rules?"
+    options:
+      - "No: they are suggestions, at the discretion of the cardiology and obstetric providers"
+      - "Yes: they must be followed exactly"
+      - "Yes, for heart failure only"
+      - "They apply only after fetal intervention"
+    answer: 0
+    explanation: "The intervals are suggestions; the cardiology and obstetric providers decide."
+    claims: [AS23-605]
+
+checklist:
+  title: "Planning surveillance"
+  items:
+    - text: "Risk group named: heart failure, arrhythmia or block, tachycardia, cyanosis, pulmonary venous obstruction, respiratory compromise"
+      claims: [AS23-606, AS23-607, AS23-609, AS23-610, AS23-611, AS23-612, AS23-613]
+    - text: "Suggested interval chosen and agreed with the obstetric team"
+      claims: [AS23-605]
+    - text: "Measurements to repeat at each study listed in the report"
+      claims: [AS23-246, AS23-409, AS23-410, AS23-220]
+    - text: "Near-term study planned for findings that could change care at birth"
+      claims: [AS23-036]
+    - text: "Delivery-planning discussion started with maternal, fetal and neonatal providers"
+      claims: [AS23-600]

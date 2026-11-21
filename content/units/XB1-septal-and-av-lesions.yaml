@@ -1,0 +1,221 @@
+# Unit XB1. Every text block and drill lists the claim IDs it rests on.
+# Built only from ai-cross-checked claims (ASE 2023, extracted by Claude, cross-checked by
+# ChatGPT on 19 Nov 2026). Claims reworded on 21 Nov and awaiting re-check are left out and
+# listed under missing_claims. Diagnose tier: needs the cardiology co-editor before release.
+
+id: XB1
+title: "Lesion atlas: septal and atrioventricular lesions (AVSD, common valve, straddling, VSD)"
+tier: Diagnose
+version: 0.1
+summary: "How to examine an abnormal atrioventricular junction, how to judge balance in AVSD, and the traps of straddling, overriding and crisscross connections."
+drafted_by: "Claude (Opus 5.5, 21 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "Set out the imaging approach to any atrioventricular valve abnormality."
+  - "Describe what to examine when an atrioventricular septal defect is suspected, and how imbalance is measured."
+  - "Define straddling and overriding valves and say why they matter for surgery."
+  - "Name the associations and pitfalls of a common atrioventricular valve."
+
+sections:
+
+  - heading: "Approach to any atrioventricular valve abnormality"
+    blocks:
+      - text: "Lesions of the atrioventricular junction may be isolated, often with aneuploidy including trisomy 21, or complex, with several associated defects."
+        claims: [AS23-249]
+      - text: "Malformed atrioventricular valves carry high rates of ventricular disproportion, ventricular septal defects and malformation of the outflows and great arteries, and may lead to single-ventricle palliation."
+        claims: [AS23-238]
+      - text: "Start with the four-chamber view, the atrioventricular septum aligned perpendicular to the beam. A sagittal view of the thorax best shows valve morphology, chordae and papillary muscles in short axis. Use non-standard planes and en face imaging when the junction looks abnormal. Obtain cephalad sweeps to define the outflows and great arteries."
+        claims: [AS23-240, AS23-243, AS23-247, AS23-242]
+      - text: "Measure the annulus in early diastole at the hinge points."
+        claims: [AS23-241]
+      - text: "Evaluate every cardiac structure, including ventricular size and function and the balance of the junction over the ventricles."
+        claims: [AS23-239]
+      - text: "Doppler: pulsed-wave Doppler of inflow is essential, but peak velocity may underestimate stenosis because fetal flow can redistribute. At each study a complete Doppler assessment must cover stenosis, regurgitation and flow at the atrial septum and ductus."
+        claims: [AS23-244, AS23-246]
+      - text: "Delineate any additional lesion that affects the surgical approach, to help decide between palliation and biventricular repair."
+        claims: [AS23-248]
+
+  - heading: "Atrioventricular septal defect"
+    blocks:
+      - text: "Views: examine the left atrioventricular valve en face for a cleft or common orifice; check the atrial septum for a primum defect and the ventricular septum for an inlet defect."
+        claims: [AS23-251, AS23-252]
+      - text: "Doppler: assess valve regurgitation with colour Doppler."
+        claims: [AS23-256]
+      - text: "Measuring balance: the valve area over each ventricle can be measured in diastole from a parasagittal view to give an atrioventricular valve index. The right-to-left ventricular inflow angle can be measured from an apical four-chamber view; a smaller angle means greater imbalance."
+        claims: [AS23-253, AS23-254]
+      - text: "Unbalanced AVSD: measure the right and left atrioventricular valve diameter or area; the Cohen index, valve index and inflow angle are listed. Regurgitation of the common valve may progress. Consider right or left atrial isomerism (heterotaxy)."
+        claims: [AS23-237, AS23-236, AS23-235]
+
+  - heading: "Common atrioventricular valve"
+    blocks:
+      - text: "Views: suspected when the crux lacks offset, or the valves appear at the same level, with large atrial or ventricular septal defects."
+        claims: [AS23-258]
+      - text: "Associations: bilateral superior venae cavae, an interrupted inferior vena cava, or total anomalous pulmonary venous return."
+        claims: [AS23-259]
+      - text: "Pitfall: additional ventricular septal defects may be missed unless they are looked for."
+        claims: [AS23-260]
+
+  - heading: "Straddling, overriding and crisscross connections"
+    blocks:
+      - text: "Definitions: in a straddling valve, chordae pass through a ventricular septal defect and attach in the opposite ventricle. In an overriding valve, the annulus sits over the septum and opens into both ventricles."
+        claims: [AS23-270, AS23-271]
+      - text: "Suspect a complex junction when the four-chamber view does not show two separate valves with offset at the crux. Image the valves with combined two-dimensional, colour and pulsed-wave Doppler from several views; video clips and live scanning show straddling better than still images."
+        claims: [AS23-273, AS23-275, AS23-278]
+      - text: "Associations: straddling can occur with D- or L-looped ventricles and carries a risk of heart block. If the left valve is hypoplastic, the fetus is at risk of left atrial hypertension."
+        claims: [AS23-280, AS23-268]
+      - text: "Surgery: a straddling or overriding valve may make closure of the ventricular septal defect impossible and may require a single-ventricle approach."
+        claims: [AS23-277]
+      - text: "Pitfall: in a crisscross heart, foreshortening can cause confusion between one and two ventricles."
+        claims: [AS23-274]
+
+  - heading: "Ventricular septal defect"
+    blocks:
+      - text: "Evolution: a ventricular septal defect can get smaller, with less severe or resolved disease. This usually happens with simple isolated defects, including muscular ones, but can occur in other heart disease."
+        claims: [AS23-285]
+
+missing_claims:
+  - "Awaiting re-check after rewording on 21 Nov (round 5, task J): the abnormal crux of AVSD with valve levels when closed (AS23-250); the valve index threshold and its dependence on the equation (AS23-255); outflow obstruction in AVSD (AS23-257); crisscross anatomy and discordance (AS23-272, 276, 359)."
+  - "Isolated ventricular septal defect: types, views, colour settings, and how often each closes - needs a source."
+  - "Atrial septal defects (secundum, sinus venosus) and the normal foramen ovale - needs a source."
+  - "Genetic work-up after AVSD - unit XA2."
+  - "Video outline not yet written."
+
+drills:
+  - id: XB1-Q01
+    question: "An atrioventricular junction lesion is found with no other defect. Which association should be considered?"
+    options:
+      - "Aneuploidy, including trisomy 21"
+      - "Maternal diabetes only"
+      - "No association; isolated lesions are always sporadic"
+      - "Fetal anaemia"
+    answer: 0
+    explanation: "Isolated AV junction lesions are often associated with aneuploidy, including trisomy 21."
+    claims: [AS23-249]
+
+  - id: XB1-Q02
+    question: "Which view best shows atrioventricular valve morphology, chordae and papillary muscles in short axis?"
+    options:
+      - "A sagittal view of the fetal thorax"
+      - "The three-vessel-and-trachea view"
+      - "The abdominal situs view"
+      - "The ductal arch view"
+    answer: 0
+    explanation: "A sagittal view of the thorax best shows the valve in short axis."
+    claims: [AS23-243]
+
+  - id: XB1-Q03
+    question: "Peak inflow velocity across a stenotic atrioventricular valve looks modest. Why be careful?"
+    options:
+      - "Peak velocity may underestimate stenosis because fetal flow can redistribute"
+      - "Peak velocity always overestimates stenosis"
+      - "Velocity cannot be measured in the fetus"
+      - "There is no reason; modest velocity excludes stenosis"
+    answer: 0
+    explanation: "Fetal flow redistribution means peak velocity may underestimate severity."
+    claims: [AS23-244]
+
+  - id: XB1-Q04
+    question: "AVSD is suspected. What should be examined en face?"
+    options:
+      - "The left atrioventricular valve, for a cleft or common orifice"
+      - "The pulmonary valve, for leaflet number"
+      - "The ductus venosus"
+      - "The aortic arch"
+    answer: 0
+    explanation: "The left AV valve should be examined en face for a cleft or common orifice."
+    claims: [AS23-251]
+
+  - id: XB1-Q05
+    question: "In AVSD, what does a smaller right-to-left ventricular inflow angle indicate?"
+    options:
+      - "Greater imbalance"
+      - "A balanced defect"
+      - "A normal heart"
+      - "Heart block"
+    answer: 0
+    explanation: "The inflow angle is measured from an apical four-chamber view; a smaller angle indicates greater imbalance."
+    claims: [AS23-254]
+
+  - id: XB1-Q06
+    question: "Features of an unbalanced AVSD are seen. Which condition should be considered?"
+    options:
+      - "Right or left atrial isomerism (heterotaxy)"
+      - "Isolated coarctation"
+      - "Ductal constriction"
+      - "Twin-twin transfusion"
+    answer: 0
+    explanation: "With unbalanced AVSD, right or left atrial isomerism should be considered."
+    claims: [AS23-235]
+
+  - id: XB1-Q07
+    question: "A common atrioventricular valve is seen. Which venous anomalies often accompany it?"
+    options:
+      - "Bilateral superior venae cavae, interrupted inferior vena cava, total anomalous pulmonary venous return"
+      - "None; veins are always normal"
+      - "Persistent right umbilical vein only"
+      - "Agenesis of the ductus venosus only"
+    answer: 0
+    explanation: "These three are listed with a common AV valve."
+    claims: [AS23-259]
+
+  - id: XB1-Q08
+    question: "With a common atrioventricular valve, what may be missed unless specifically looked for?"
+    options:
+      - "Additional ventricular septal defects"
+      - "A right aortic arch"
+      - "The fetal heart rate"
+      - "The pulmonary valve"
+    answer: 0
+    explanation: "Additional VSDs may be missed unless looked for."
+    claims: [AS23-260]
+
+  - id: XB1-Q09
+    question: "Chordae from one atrioventricular valve pass through a VSD and attach in the opposite ventricle. What is this called, and why does it matter?"
+    options:
+      - "A straddling valve; closure of the VSD may be impossible"
+      - "An overriding valve; it has no surgical relevance"
+      - "A cleft valve; it always closes after birth"
+      - "A normal variant"
+    answer: 0
+    explanation: "This is straddling. A straddling or overriding valve may make VSD closure impossible and require a single-ventricle approach."
+    claims: [AS23-270, AS23-277]
+
+  - id: XB1-Q10
+    question: "Straddling valve with a hypoplastic left atrioventricular valve. Which risk follows?"
+    options:
+      - "Left atrial hypertension"
+      - "Pulmonary valve regurgitation"
+      - "Ductal aneurysm"
+      - "No added risk"
+    answer: 0
+    explanation: "With a hypoplastic left AV valve, the fetus is at risk of left atrial hypertension."
+    claims: [AS23-268]
+
+  - id: XB1-Q11
+    question: "How is straddling anatomy best shown?"
+    options:
+      - "Video clips and live scanning, from several views"
+      - "One still image in the four-chamber view"
+      - "M-mode only"
+      - "It cannot be shown before birth"
+    answer: 0
+    explanation: "Clips and live scanning show straddling better than stills; combined 2D, colour and pulsed-wave from multiple views are recommended."
+    claims: [AS23-278, AS23-275]
+
+checklist:
+  title: "Atrioventricular junction: minimum record"
+  items:
+    - text: "Four-chamber view with the septum perpendicular; sagittal short-axis view of the valve; en face views"
+      claims: [AS23-240, AS23-243, AS23-247]
+    - text: "Annulus measured in early diastole at the hinge points"
+      claims: [AS23-241]
+    - text: "Balance assessed: valve index and inflow angle where an AVSD is present"
+      claims: [AS23-253, AS23-254, AS23-237]
+    - text: "Complete Doppler: stenosis, regurgitation, atrial septal and ductal flow"
+      claims: [AS23-246, AS23-256]
+    - text: "Outflows defined with cephalad sweeps"
+      claims: [AS23-242]
+    - text: "Additional VSDs looked for; straddling recorded on clips"
+      claims: [AS23-260, AS23-278]

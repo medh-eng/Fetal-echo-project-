@@ -1,0 +1,103 @@
+{
+  "unit": "Z1",
+  "title": "Counselling in depth",
+  "status": "ai-cross-checked",
+  "items": [
+    {
+      "id": "Z1-Q01",
+      "question": "What does the evidence say about maternal anxiety around fetal echocardiography?",
+      "options": [
+        "Referral raises anxiety, and diagnosis raises it further",
+        "Referral lowers anxiety",
+        "Anxiety is the same after prenatal and postnatal diagnosis",
+        "Diagnosis has no effect on anxiety"
+      ],
+      "answer": 0,
+      "explanation": "Referral is associated with increased anxiety, which rises further with a diagnosis; distress is greater after prenatal than postnatal diagnosis.",
+      "claims": [
+        "AH14-130"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "Z1-Q02",
+      "question": "The image quality was poor because of maternal habitus. Should this be mentioned in counselling?",
+      "options": [
+        "Yes: the limits of the examination should be discussed",
+        "No: it will only worry the parents",
+        "Only if the parents ask",
+        "Only in the written report"
+      ],
+      "answer": 0,
+      "explanation": "Counselling should discuss the limits of the examination, such as maternal habitus, fetal position and gestational age.",
+      "claims": [
+        "AH14-123"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "Z1-Q03",
+      "question": "A mother asks whether something she did caused the defect. Which element of counselling applies?",
+      "options": [
+        "Helping to relieve parental guilt, alongside natural history and genetic associations",
+        "Avoid the question",
+        "Refer her to another clinic",
+        "Tell her the cause is unknowable and move on"
+      ],
+      "answer": 0,
+      "explanation": "Counselling should cover natural history, prognosis and genetic associations, and help relieve parental guilt.",
+      "claims": [
+        "AH14-124"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "Z1-Q04",
+      "question": "Long-term outcome data for the lesion are limited. What should counselling do?",
+      "options": [
+        "Give current information and state what is not known, with caveats",
+        "Give the best-case outcome only",
+        "Avoid discussing the long term",
+        "Quote outcomes from decades ago without comment"
+      ],
+      "answer": 0,
+      "explanation": "Outcome information should be current, and the unknown stated with caveats.",
+      "claims": [
+        "AH14-125"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "Z1-Q05",
+      "question": "The counsellor would personally choose to continue the pregnancy. How should this affect the counselling?",
+      "options": [
+        "It should not: avoid personal bias and support the parents' decision",
+        "Share the personal view to help them decide",
+        "Encourage the parents towards that choice",
+        "Withhold information on termination"
+      ],
+      "answer": 0,
+      "explanation": "Counsellors should avoid personal bias and support whatever decision the parents make.",
+      "claims": [
+        "AH14-129"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "Z1-Q06",
+      "question": "Should the option of termination be discussed?",
+      "options": [
+        "Yes, including the time limits set by the applicable law",
+        "Never",
+        "Only if the parents raise it",
+        "Only for lethal lesions"
+      ],
+      "answer": 0,
+      "explanation": "The option of termination should be discussed, including the legal time limits.",
+      "claims": [
+        "AH14-128"
+      ],
+      "status": "ai-cross-checked"
+    }
+  ]
+}

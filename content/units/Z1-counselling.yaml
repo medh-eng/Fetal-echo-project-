@@ -1,0 +1,140 @@
+# Unit Z1. Every text block and drill lists the claim IDs it rests on.
+# Built only from ai-cross-checked claims (AHA 2014, extracted by Claude, cross-checked by
+# ChatGPT on 19 Nov 2026). Several counselling claims were reworded on 21 Nov and await
+# re-check; they are listed under missing_claims. This is a thin first version.
+# Indian law on termination is not in any claim held; nothing here states a legal limit.
+
+id: Z1
+title: "Counselling in depth"
+tier: Decide
+version: 0.1
+summary: "What counselling after a fetal cardiac diagnosis must cover, how parents react, and how to stay neutral while supporting their decision."
+drafted_by: "Claude (Opus 5.5, 21 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "List the essential elements of counselling after a fetal cardiac diagnosis."
+  - "Describe the effect of referral and diagnosis on maternal anxiety."
+  - "Explain how to discuss uncertainty and long-term outcome."
+  - "State the counsellor's duty on bias and on the parents' decision."
+
+sections:
+
+  - heading: "Why counselling matters"
+    blocks:
+      - text: "Referral for fetal echocardiography is associated with increased maternal anxiety, which rises further when heart disease is found. Distress is greater after a prenatal diagnosis than after a postnatal one."
+        claims: [AH14-130]
+
+  - heading: "What counselling must cover"
+    blocks:
+      - text: "The limits of the examination, such as maternal habitus, fetal position and gestational age."
+        claims: [AH14-123]
+      - text: "Natural history, prognosis and genetic associations - and helping to relieve parental guilt."
+        claims: [AH14-124]
+      - text: "Long-term outcome: information should be current, and what is not known should be stated with its caveats."
+        claims: [AH14-125]
+      - text: "Genetic results can inform recurrence risk and decisions on termination or palliative care. Before microarray testing, disclose that it may find variants of unknown significance."
+        claims: [AH14-104, AH14-105]
+      - text: "The option of termination should be discussed, including the time limits set by the law that applies."
+        claims: [AH14-128]
+
+  - heading: "Staying neutral"
+    blocks:
+      - text: "Counsellors should avoid personal bias and support whatever decision the parents make."
+        claims: [AH14-129]
+
+  - heading: "Counselling about fetal procedures"
+    blocks:
+      - text: "Families considering fetal aortic valvuloplasty should receive extensive counselling on the risks to mother and fetus and the expected course compared with standard care, including the lack of long-term outcome data. Technical success of a fetal procedure does not always mean clinical success after birth."
+        claims: [AH14-207, AH14-202]
+
+missing_claims:
+  - "Awaiting re-check after rewording on 21 Nov (round 5, task J): the aims of counselling and the care team (AH14-121); timing - offered soon after the scan, ideally the same day (AH14-122); evidence on counselling techniques (AH14-126); checking understanding, avoiding overload, several sessions (AH14-127); visual aids and online information (AH14-331, new); evaluating on fetal echocardiography before discussing prognosis (AS23-305)."
+  - "Indian law on termination of pregnancy (MTP Act and its amendments), the gestational limits, and the role of medical boards - needs an Indian legal source (tasks/results/task-s1.md, topic 15) and the legal advisor. The course must state the limits exactly as the law does."
+  - "PC-PNDT obligations during counselling - needs an Indian legal source."
+  - "How to break bad news; the editor's own approach and wording from her practice - the editor's teaching, recorded as claims."
+  - "Counselling in Indian languages and with family members present - the editor's input."
+  - "Palliative care and bereavement - unit Z8."
+  - "Video outline not yet written."
+
+drills:
+  - id: Z1-Q01
+    question: "What does the evidence say about maternal anxiety around fetal echocardiography?"
+    options:
+      - "Referral raises anxiety, and diagnosis raises it further"
+      - "Referral lowers anxiety"
+      - "Anxiety is the same after prenatal and postnatal diagnosis"
+      - "Diagnosis has no effect on anxiety"
+    answer: 0
+    explanation: "Referral is associated with increased anxiety, which rises further with a diagnosis; distress is greater after prenatal than postnatal diagnosis."
+    claims: [AH14-130]
+
+  - id: Z1-Q02
+    question: "The image quality was poor because of maternal habitus. Should this be mentioned in counselling?"
+    options:
+      - "Yes: the limits of the examination should be discussed"
+      - "No: it will only worry the parents"
+      - "Only if the parents ask"
+      - "Only in the written report"
+    answer: 0
+    explanation: "Counselling should discuss the limits of the examination, such as maternal habitus, fetal position and gestational age."
+    claims: [AH14-123]
+
+  - id: Z1-Q03
+    question: "A mother asks whether something she did caused the defect. Which element of counselling applies?"
+    options:
+      - "Helping to relieve parental guilt, alongside natural history and genetic associations"
+      - "Avoid the question"
+      - "Refer her to another clinic"
+      - "Tell her the cause is unknowable and move on"
+    answer: 0
+    explanation: "Counselling should cover natural history, prognosis and genetic associations, and help relieve parental guilt."
+    claims: [AH14-124]
+
+  - id: Z1-Q04
+    question: "Long-term outcome data for the lesion are limited. What should counselling do?"
+    options:
+      - "Give current information and state what is not known, with caveats"
+      - "Give the best-case outcome only"
+      - "Avoid discussing the long term"
+      - "Quote outcomes from decades ago without comment"
+    answer: 0
+    explanation: "Outcome information should be current, and the unknown stated with caveats."
+    claims: [AH14-125]
+
+  - id: Z1-Q05
+    question: "The counsellor would personally choose to continue the pregnancy. How should this affect the counselling?"
+    options:
+      - "It should not: avoid personal bias and support the parents' decision"
+      - "Share the personal view to help them decide"
+      - "Encourage the parents towards that choice"
+      - "Withhold information on termination"
+    answer: 0
+    explanation: "Counsellors should avoid personal bias and support whatever decision the parents make."
+    claims: [AH14-129]
+
+  - id: Z1-Q06
+    question: "Should the option of termination be discussed?"
+    options:
+      - "Yes, including the time limits set by the applicable law"
+      - "Never"
+      - "Only if the parents raise it"
+      - "Only for lethal lesions"
+    answer: 0
+    explanation: "The option of termination should be discussed, including the legal time limits."
+    claims: [AH14-128]
+
+checklist:
+  title: "Counselling: essentials"
+  items:
+    - text: "Limits of the examination explained"
+      claims: [AH14-123]
+    - text: "Natural history, prognosis and genetic associations covered; guilt addressed"
+      claims: [AH14-124]
+    - text: "Outcome information current; uncertainty stated"
+      claims: [AH14-125]
+    - text: "All options discussed, including termination within the legal limits"
+      claims: [AH14-128]
+    - text: "No personal bias; the parents' decision supported"
+      claims: [AH14-129]

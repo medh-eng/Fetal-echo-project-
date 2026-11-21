@@ -1,0 +1,171 @@
+# Unit Z5. Every text block and drill lists the claim IDs it rests on.
+# Built only from ai-cross-checked claims (AHA 2014 and ASE 2023, extracted by Claude,
+# cross-checked by ChatGPT on 19 Nov 2026). AHA 2014 is twelve years old: outcome figures
+# and candidacy criteria need a newer source (tasks/results/task-s1.md, topic 10) and the
+# cardiology co-editor before release. No drug doses.
+
+id: Z5
+title: "Fetal cardiac intervention"
+tier: Decide
+version: 0.1
+summary: "Why some lesions are treated before birth, which fetuses may be candidates, what the procedures aim to do, and how to counsel and follow up."
+drafted_by: "Claude (Opus 5.5, 21 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "State the rationale for fetal cardiac intervention and its main limit."
+  - "Name the signs of evolving hypoplastic left heart in aortic stenosis and the candidacy criteria for valvuloplasty."
+  - "Describe the problem of the restrictive atrial septum in HLHS, and the role of intervention in pulmonary atresia with intact septum."
+  - "Describe counselling and follow-up after a fetal procedure."
+
+sections:
+
+  - heading: "The idea, and its limit"
+    blocks:
+      - text: "Fetal cardiac intervention rests on the idea that some lesions progress in utero, and that there may be a limited window when their effects on growth and function can still be reversed."
+        claims: [AH14-201]
+      - text: "Technical success of a fetal procedure does not always translate into clinical success after birth."
+        claims: [AH14-202]
+      - text: "Any fetal therapy must be weighed against the risk to the mother and the chance of successful treatment after birth. In 2014 there were no randomised trials of fetal cardiac therapy."
+        claims: [AH14-131]
+
+  - heading: "Aortic stenosis with evolving hypoplastic left heart"
+    blocks:
+      - text: "Signs of evolution: retrograde transverse arch flow, severe left ventricular dysfunction, monophasic short mitral inflow, and left-to-right flow at the foramen ovale."
+        claims: [AH14-204]
+      - text: "Aim of valvuloplasty: open the valve, promote antegrade flow and left heart growth, and make a biventricular repair possible."
+        claims: [AH14-203]
+      - text: "Candidates need stenosis, not atresia, with antegrade flow; little or no subvalvar obstruction; and strong evidence of evolving hypoplastic left heart."
+        claims: [AH14-205]
+      - text: "Assessment on fetal echocardiography: ventricular size (end-diastolic diameter and length), whether the ventricle forms the apex, hypertrophy, endocardial fibroelastosis, and systolic and diastolic function help judge severity and suitability for prenatal intervention."
+        claims: [AS23-407]
+      - text: "Results: in one reported series of 70 fetuses, balloon valvuloplasty was technically successful in 52 (74%)."
+        claims: [AH14-206]
+      - text: "After the procedure: delivery and management at a specialised congenital heart centre are recommended. Follow-up is every 4 weeks in the third trimester, assessing aortic outflow, arch flow direction, atrial septal flow, left ventricular size and function, mitral regurgitation and endocardial brightness."
+        claims: [AH14-208, AS23-614]
+
+  - heading: "HLHS with a restrictive or intact atrial septum"
+    blocks:
+      - text: "Greater reversal of pulmonary venous flow during atrial contraction, and reduced pulmonary vasoreactivity to maternal hyperoxygenation, indicate clinically important atrial restriction."
+        claims: [AH14-210]
+      - text: "In 2014 it was unresolved whether balloon septoplasty or a stent is better, and what timing best prevents pulmonary vascular damage."
+        claims: [AH14-211]
+      - text: "After intervention, follow-up is every 4 weeks in the third trimester, assessing patency of the atrial communication and the pulmonary venous forward-to-reverse ratio."
+        claims: [AS23-615]
+
+  - heading: "Mitral valve dysplasia syndrome"
+    blocks:
+      - text: "With mitral valve dysplasia, severe regurgitation and aortic stenosis, severe left-sided dilatation can compress the right heart and cause hydrops, which is most often lethal."
+        claims: [AH14-212]
+
+  - heading: "Pulmonary atresia with intact septum"
+    blocks:
+      - text: "Fetal intervention here is controversial. Only a small subset should be considered, and it may be lifesaving with severe tricuspid regurgitation and hydrops."
+        claims: [AH14-213]
+      - text: "Even a very small right ventricle can be rehabilitated through staged surgery if the tricuspid valve is of adequate size."
+        claims: [AH14-214]
+
+  - heading: "Counselling"
+    blocks:
+      - text: "Families considering aortic valvuloplasty should receive extensive counselling on the risks to mother and fetus and on the expected course compared with standard care, including the lack of long-term outcome data."
+        claims: [AH14-207]
+
+missing_claims:
+  - "Awaiting re-check after rewording on 21 Nov (round 5, task J): recommendation 23, the lesions for which catheter intervention may be considered (AH14-023); mortality in HLHS with highly restrictive or intact septum (AH14-209); predictors of a two-ventricle outcome after valvuloplasty, with z-score and pressure cut-offs (AH14-332, new)."
+  - "Outcomes since 2014 (survival, biventricular circulation, maternal complications) from current registries - needs a newer source (tasks/results/task-s1.md, topic 10)."
+  - "Where fetal cardiac intervention is available to Indian patients, and referral routes - the editor's input."
+  - "Transplacental drug therapy for arrhythmia and heart failure - unit Z4."
+  - "Video outline not yet written."
+
+drills:
+  - id: Z5-Q01
+    question: "What is the rationale for fetal cardiac intervention?"
+    options:
+      - "Some lesions progress in utero, and there may be a window when their effects can still be reversed"
+      - "All heart lesions are easier to repair before birth"
+      - "It removes the need for surgery after birth"
+      - "It is proven by randomised trials"
+    answer: 0
+    explanation: "The rationale is progression in utero with a possible limited window for reversal."
+    claims: [AH14-201]
+
+  - id: Z5-Q02
+    question: "A fetal valvuloplasty was technically successful. Can the family be told the outcome will be good?"
+    options:
+      - "No: technical success does not always mean clinical success after birth"
+      - "Yes: technical success guarantees a biventricular repair"
+      - "Yes, if done before 28 weeks"
+      - "Only if the mother had no complications"
+    answer: 0
+    explanation: "Technical success does not always translate into clinical success after birth."
+    claims: [AH14-202]
+
+  - id: Z5-Q03
+    question: "Aortic stenosis. Which findings suggest evolving hypoplastic left heart?"
+    options:
+      - "Retrograde arch flow, severe LV dysfunction, monophasic short mitral inflow, left-to-right flow at the foramen ovale"
+      - "Antegrade arch flow and normal LV function"
+      - "Right-to-left flow at the foramen ovale only"
+      - "A normal mitral inflow with two waves"
+    answer: 0
+    explanation: "These four are the signs listed in AHA 2014 Table 16."
+    claims: [AH14-204]
+
+  - id: Z5-Q04
+    question: "Which fetus could be a candidate for aortic valvuloplasty?"
+    options:
+      - "Aortic stenosis (not atresia) with antegrade flow, little subvalvar obstruction, and strong evidence of evolving HLHS"
+      - "Aortic atresia with no antegrade flow"
+      - "Mild aortic stenosis with a normal left ventricle"
+      - "Any fetus with a small left ventricle"
+    answer: 0
+    explanation: "Candidates need stenosis with antegrade flow, minimal subvalvar obstruction and strong evidence of evolving HLHS."
+    claims: [AH14-205]
+
+  - id: Z5-Q05
+    question: "HLHS: which findings indicate clinically important atrial restriction?"
+    options:
+      - "Greater pulmonary venous flow reversal in atrial contraction, and reduced vasoreactivity to maternal hyperoxygenation"
+      - "Forward pulmonary venous flow throughout the cycle"
+      - "A large foramen ovale with right-to-left flow"
+      - "Normal fetal heart rate"
+    answer: 0
+    explanation: "Greater reversal of pulmonary venous flow and reduced vasoreactivity to hyperoxygenation indicate important restriction."
+    claims: [AH14-210]
+
+  - id: Z5-Q06
+    question: "Pulmonary atresia with intact septum. When may fetal intervention be lifesaving?"
+    options:
+      - "With severe tricuspid regurgitation and hydrops"
+      - "In every case"
+      - "Only when the right ventricle is normal size"
+      - "Never"
+    answer: 0
+    explanation: "Intervention is controversial; only a small subset should be considered, and it may be lifesaving with severe TR and hydrops."
+    claims: [AH14-213]
+
+  - id: Z5-Q07
+    question: "After fetal aortic valvuloplasty, where should the baby be delivered?"
+    options:
+      - "At a specialised congenital heart centre"
+      - "At the local hospital"
+      - "At home"
+      - "Anywhere with a neonatologist"
+    answer: 0
+    explanation: "Delivery and management at a specialised congenital heart centre are recommended."
+    claims: [AH14-208]
+
+checklist:
+  title: "Before discussing fetal intervention"
+  items:
+    - text: "Signs of evolution documented (arch flow, LV function, mitral inflow, atrial flow)"
+      claims: [AH14-204]
+    - text: "Ventricular size, apex, hypertrophy, fibroelastosis and function measured"
+      claims: [AS23-407]
+    - text: "Candidacy criteria checked: stenosis with antegrade flow, little subvalvar obstruction"
+      claims: [AH14-205]
+    - text: "Family counselled on maternal and fetal risk, expected course and missing long-term data"
+      claims: [AH14-207]
+    - text: "Delivery at a specialised centre and follow-up every 4 weeks planned"
+      claims: [AH14-208, AS23-614]

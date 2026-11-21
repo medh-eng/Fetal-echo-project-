@@ -8,21 +8,13 @@
 - {id: D14, title: "Scanning with limited equipment", tier: Detect, sources: ["TO FIND"], needs: K, next: "Source search; Dr Kunda's practical teaching", task: "gemini task S1"}
 
 - {id: XA1, title: "Cardiac embryology: what breaks when", tier: Diagnose, sources: ["TO FIND"], needs: C, next: "Source search for an open-access embryology review", task: "gemini task S1"}
-- {id: XA2, title: "Genetics of congenital heart disease and the work-up after diagnosis", tier: Diagnose, sources: [AHA-2014-FETALCARDIAC, "TO FIND"], needs: S, next: "Cross-check AH14-100 to 116 (genetics, extracardiac), then draft", task: "chatgpt round 4, task I"}
 - {id: XA3, title: "Fetal circulation and the transition at birth", tier: Diagnose, sources: ["TO FIND"], needs: C, next: "Source search", task: "gemini task S1"}
 - {id: XA4, title: "Physics and Doppler for the echocardiographer", tier: Diagnose, sources: ["TO FIND"], needs: "", next: "Source search for an open-access physics text or review", task: "gemini task S1"}
-- {id: XA6, title: "Biometry and Z-scores", tier: Diagnose, sources: [ASE-2023-FETALECHO, "TO FIND"], needs: C, next: "Cross-check AS23-150 to 166 (biometry); pick a Z-score source (tasks/results/task-s1.md, topic 4)", task: "chatgpt round 4, task I"}
 - {id: XA7, title: "3D/4D and STIC", tier: Diagnose, sources: [ASE-2023-FETALECHO, "TO FIND"], needs: "", next: "Source search", task: "gemini task S1"}
 - {id: XA8, title: "Fetal cardiac MRI", tier: Diagnose, sources: [AHA-2014-FETALCARDIAC, "TO FIND"], needs: S, next: "Source search", task: "gemini task S1"}
 
-- {id: XB1, title: "Lesion atlas: septal and atrioventricular (VSD, AVSD, atrial septum)", tier: Diagnose, sources: [ASE-2023-FETALECHO, AHA-2014-FETALCARDIAC], needs: C, next: "Cross-check AS23-200 to 286 (septal, AV valves); then draft", task: "chatgpt round 4, task I"}
-- {id: XB2, title: "Lesion atlas: left heart (aortic stenosis, HLHS, mitral, coarctation, interrupted arch)", tier: Diagnose, sources: [ASE-2023-FETALECHO, AHA-2014-FETALCARDIAC], needs: C, next: "Cross-check AS23-200 to 286 and 400 to 447 (left heart); then draft", task: "chatgpt round 4, task I"}
-- {id: XB3, title: "Lesion atlas: right heart (pulmonary stenosis and atresia, tricuspid atresia, Ebstein)", tier: Diagnose, sources: [ASE-2023-FETALECHO, AHA-2014-FETALCARDIAC], needs: C, next: "Cross-check AS23-400 to 447 and 226 to 228 (right heart); then draft", task: "chatgpt round 4, task I"}
-- {id: XB4, title: "Lesion atlas: conotruncal (tetralogy, transposition, DORV, common trunk)", tier: Diagnose, sources: [ASE-2023-FETALECHO, AHA-2014-FETALCARDIAC], needs: C, next: "Cross-check AS23-300 to 351 (outflow, conotruncal); then draft", task: "chatgpt round 4, task I"}
-- {id: XB5, title: "Lesion atlas: arch and vessels (right arch, double arch, aberrant subclavian, ductus)", tier: Diagnose, sources: [ASE-2023-FETALECHO], needs: C, next: "Cross-check AS23-500 to 516 (arch, ductus); then draft", task: "chatgpt round 4, task I"}
 - {id: XB6, title: "Lesion atlas: veins (left SVC, anomalous pulmonary veins, interrupted IVC, ductus venosus)", tier: Diagnose, sources: [ASE-2023-FETALECHO, "TO FIND"], needs: C, next: "Cross-check AS23-518 to 520; ASE has little on veins - a second source is needed", task: "chatgpt round 4, task I"}
 - {id: XB7, title: "Lesion atlas: position and laterality (heterotaxy, situs inversus, dextrocardia)", tier: Diagnose, sources: [ASE-2023-FETALECHO, "TO FIND"], needs: C, next: "ASE has little on heterotaxy (AS23-235, 517); a source is needed", task: "gemini source search"}
-- {id: XB8, title: "Lesion atlas: univentricular hearts", tier: Diagnose, sources: [ASE-2023-FETALECHO, AHA-2014-FETALCARDIAC], needs: C, next: "Cross-check AS23-200 to 237 (single ventricle); then draft", task: "chatgpt round 4, task I"}
 - {id: XB9, title: "Lesion atlas: myocardium and pericardium (cardiomyopathy, tumours, effusion)", tier: Diagnose, sources: [AHA-2014-FETALCARDIAC, "TO FIND"], needs: C, next: "Tumours and dysfunction only (AS23-521 to 524, AH14-111); cardiomyopathy and effusion need a source", task: "gemini source search"}
 
 - {id: XC2, title: "Heart failure and hydrops; scoring systems", tier: Diagnose, sources: [AHA-2014-FETALCARDIAC, ASE-2023-FETALECHO], needs: C, next: "Harvest AHA 2014 function and heart-failure sections", task: "chatgpt round 3, task H1"}
@@ -33,11 +25,7 @@
 - {id: XC7, title: "Maternal disease and drugs", tier: Diagnose, sources: [AHA-2014-FETALCARDIAC, "TO FIND"], needs: K, next: "Cross-check AH14-001 to 005 (indications); then draft", task: "chatgpt round 4, task I"}
 - {id: XC8, title: "The heart in extracardiac anomalies", tier: Diagnose, sources: [AHA-2014-FETALCARDIAC, "TO FIND"], needs: K, next: "Cross-check AH14-114 to 116; then draft", task: "chatgpt round 4, task I"}
 
-- {id: Z1, title: "Counselling in depth", tier: Decide, sources: [AHA-2014-FETALCARDIAC, "TO FIND"], needs: S, next: "Cross-check AH14-121 to 130; Indian law: MTP Act 2021 (tasks/results/task-s1.md, topic 15)", task: "chatgpt round 4, task I"}
-- {id: Z2, title: "Surveillance plans by lesion", tier: Decide, sources: [ASE-2023-FETALECHO, AHA-2014-FETALCARDIAC], needs: C, next: "Cross-check AS23-600 to 615 (Table 15) and the lesion follow-up claims; then draft", task: "chatgpt round 4, task I"}
-- {id: Z3, title: "Planning delivery: place, timing, mode, first-hour needs", tier: Decide, sources: [AHA-2014-FETALCARDIAC], needs: C, next: "Cross-check AH14-022 to 025, AH14-300 to 324 and AS23-600 to 604; then draft", task: "chatgpt round 4, task I"}
 - {id: Z4, title: "Transplacental drug therapy", tier: Decide, sources: [AHA-2024-ARRHYTHMIA-DRUGS, AHA-2014-FETALCARDIAC], needs: C, next: "Harvest AHA 2024", task: "chatgpt round 3, task H2"}
-- {id: Z5, title: "Fetal cardiac intervention", tier: Decide, sources: [AHA-2014-FETALCARDIAC, "TO FIND"], needs: C, next: "Cross-check AH14-021, AH14-200 to 214; newer outcome source in task-s1.md, topic 10", task: "chatgpt round 4, task I"}
 - {id: Z6, title: "Maternal hyperoxygenation testing", tier: Decide, sources: ["TO FIND"], needs: C, next: "Source search", task: "gemini task S1"}
 - {id: Z7, title: "Postnatal surgery and long-term outcomes", tier: Decide, sources: ["TO FIND"], needs: S, next: "Source search; paediatric cardiac surgeon as reviewer", task: "gemini task S1"}
 - {id: Z8, title: "Palliative care and bereavement", tier: Decide, sources: ["TO FIND"], needs: S, next: "Source search", task: "gemini task S1"}

@@ -1,0 +1,136 @@
+{
+  "unit": "XA2",
+  "title": "Genetics of congenital heart disease and the work-up after diagnosis",
+  "status": "ai-cross-checked",
+  "items": [
+    {
+      "id": "XA2-Q01",
+      "question": "Why is the rate of chromosomal abnormality higher in fetuses with heart disease than in infants?",
+      "options": [
+        "Affected fetuses more often die before birth",
+        "Fetal testing is less accurate",
+        "Heart disease causes aneuploidy after birth",
+        "It is not higher"
+      ],
+      "answer": 0,
+      "explanation": "Fetal series show 30-40% abnormal karyotypes, more than infants, probably because of higher mortality in utero.",
+      "claims": [
+        "AH14-101"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XA2-Q02",
+      "question": "Heart disease appears isolated on ultrasound. What is the risk of a chromosomal abnormality?",
+      "options": [
+        "At least 15% to 30%",
+        "Under 1%",
+        "Zero, if the defect is isolated",
+        "Over 90%"
+      ],
+      "answer": 0,
+      "explanation": "Isolated heart disease on ultrasound carries a risk of at least 15-30%.",
+      "claims": [
+        "AH14-102"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XA2-Q03",
+      "question": "Atrioventricular septal defect with normal situs. What proportion have trisomy 21?",
+      "options": [
+        "50% to 70%",
+        "About 5%",
+        "None",
+        "All"
+      ],
+      "answer": 0,
+      "explanation": "50-70% of fetuses with AVSD and normal situs have trisomy 21.",
+      "claims": [
+        "AH14-109"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XA2-Q04",
+      "question": "D-transposition is diagnosed. The aneuploidy risk is very low. Should testing still be offered?",
+      "options": [
+        "Yes: parents should still be offered testing",
+        "No: testing is never indicated in transposition",
+        "Only if the mother is over 35",
+        "Only after birth"
+      ],
+      "answer": 0,
+      "explanation": "These lesions are rarely aneuploid, but testing should still be offered. Genetic testing and counselling should be recommended for every fetus with a cardiac malformation.",
+      "claims": [
+        "AH14-107",
+        "AH14-103"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XA2-Q05",
+      "question": "Which lesion has the highest estimated frequency of 22q11 deletion?",
+      "options": [
+        "Interrupted aortic arch",
+        "Transposition",
+        "Hypoplastic left heart",
+        "Atrioventricular septal defect"
+      ],
+      "answer": 0,
+      "explanation": "AHA 2014 Table 11 gives 50-90% for interrupted aortic arch.",
+      "claims": [
+        "AH14-113"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XA2-Q06",
+      "question": "A cardiac tumour is seen at 26 weeks. What should it prompt?",
+      "options": [
+        "Genetic testing: over 60% have tuberous sclerosis",
+        "Immediate delivery",
+        "No further action",
+        "Fetal intervention"
+      ],
+      "answer": 0,
+      "explanation": "A tumour in mid or late gestation should prompt genetic testing; over 60% have tuberous sclerosis.",
+      "claims": [
+        "AH14-111"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XA2-Q07",
+      "question": "Before microarray testing, what must parents be told?",
+      "options": [
+        "It may find variants of unknown significance",
+        "It detects every genetic cause",
+        "It detects balanced rearrangements",
+        "It needs no consent"
+      ],
+      "answer": 0,
+      "explanation": "Variants of unknown significance should be disclosed before testing; microarray cannot detect balanced rearrangements.",
+      "claims": [
+        "AH14-105"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XA2-Q08",
+      "question": "After a cardiac diagnosis, what survey of the rest of the fetus is recommended?",
+      "options": [
+        "A detailed survey of all anatomy by an expert, repeated later if appropriate",
+        "None; the heart is the only concern",
+        "Fetal MRI for every case",
+        "Only a growth scan"
+      ],
+      "answer": 0,
+      "explanation": "A detailed expert survey is recommended for every fetus with heart disease; some anomalies only appear later.",
+      "claims": [
+        "AH14-116"
+      ],
+      "status": "ai-cross-checked"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+# Unit XB2. Every text block and drill lists the claim IDs it rests on.
+# Built only from ai-cross-checked claims (ASE 2023, extracted by Claude, cross-checked by
+# ChatGPT on 19 Nov 2026). Claims reworded on 21 Nov and awaiting re-check are left out and
+# listed under missing_claims. Diagnose tier: needs the cardiology co-editor before release.
+
+id: XB2
+title: "Lesion atlas: left heart (aortic stenosis, HLHS, mitral, coarctation)"
+tier: Diagnose
+version: 0.1
+summary: "Obstruction on the left side of the heart: how it shows, what to measure, the signs that it is critical or progressing, and the left atrial pressure problem."
+drafted_by: "Claude (Opus 5.5, 21 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "Name the findings that suggest progressive semilunar obstruction on a screening-level view."
+  - "List what to record in fetal aortic stenosis at every study, and the signs of critical obstruction."
+  - "Describe the findings of hypoplastic left heart syndrome and how left atrial hypertension is looked for."
+  - "Describe the assessment of mitral valve abnormalities."
+  - "Give the signs of coarctation and its main diagnostic limit."
+
+sections:
+
+  - heading: "Suspecting left heart obstruction"
+    blocks:
+      - text: "Progressive semilunar valve obstruction is suspected when the three-vessel view is abnormal or the four chambers are asymmetric."
+        claims: [AS23-356]
+      - text: "Fetal aortic and pulmonary stenosis span a broad range of severity."
+        claims: [AS23-400]
+
+  - heading: "Aortic stenosis"
+    blocks:
+      - text: "Doppler: evaluate valve morphology, size, patency and competence with colour, pulsed-wave and continuous-wave Doppler."
+        claims: [AS23-404]
+      - text: "Pitfall: aortic valve Doppler may not reflect severity when left ventricular dysfunction is severe. Reversed flow in the transverse arch predicts severe obstruction."
+        claims: [AS23-413]
+      - text: "Critical obstruction: retrograde flow in the arch on the side of the obstructed valve heralds critical obstruction at any gestation. If it is absent at first, look for it again through the pregnancy."
+        claims: [AS23-405]
+      - text: "Measure: ventricular size (end-diastolic diameter and length), whether the left ventricle forms the apex, hypertrophy, endocardial fibroelastosis, and systolic and diastolic function. These help judge severity and suitability for prenatal intervention. Assess the function of both ventricles."
+        claims: [AS23-407, AS23-411]
+      - text: "Associations: the arch and isthmus are at risk of coarctation and should be assessed."
+        claims: [AS23-416]
+      - text: "Evolution: with longer-standing obstruction the ascending aorta can dilate or become hypoplastic, so repeat the measurements. With severe left ventricular dysfunction, the left ventricle may stop forming the apex late in pregnancy."
+        claims: [AS23-403, AS23-417]
+      - text: "Left atrial pressure: in severe aortic obstruction, raised left atrial pressure can cause left-to-right atrial shunting and atrial restriction, altering pulmonary venous flow. Assess foramen ovale size and flow."
+        claims: [AS23-415]
+      - text: "Follow-up: serial evaluation from the time stenosis is suspected, including ventricular size and function and fibroelastosis. Document ductal and arch flow direction and atrial septal flow direction at every study."
+        claims: [AS23-408, AS23-409, AS23-410]
+
+  - heading: "Hypoplastic left heart syndrome"
+    blocks:
+      - text: "Definition: a small left ventricle on the four-chamber view, with mitral and aortic stenosis or atresia. It is the most common form of single ventricle, with an incidence of 0.26 per 1,000 live births."
+        claims: [AS23-231, AS23-203]
+      - text: "Views: assess aortic valve patency, the size of the ascending aorta, the transverse arch, and the direction of flow in the distal transverse arch. The ascending aorta diameter may predict outcome after the Norwood operation."
+        claims: [AS23-232, AS23-233]
+      - text: "Associations: tricuspid regurgitation with right ventricular dysfunction may increase the risk of fetal death and of illness and death after birth."
+        claims: [AS23-234]
+      - text: "Left atrial hypertension: the pulmonary venous forward-to-reverse velocity-time integral ratio is used to detect it. Measure it at every study, the last near term. A ratio below 3 predicts inadequate left atrial egress and a greater chance of emergency atrial septoplasty in the newborn."
+        claims: [AS23-221, AS23-220, AS23-222]
+      - text: "Maternal hyperoxygenation: may be considered late in the third trimester in selected cases. Lack of pulmonary vasoreactivity - a fall of less than 10% in pulmonary artery pulsatility index - is associated with neonatal instability and urgent opening of the atrial septum after birth."
+        claims: [AS23-223, AS23-224]
+      - text: "Evolution: foramen ovale restriction can lead to pulmonary congestion (nutmeg lung) and, in HLHS, to hypoxaemia, left atrial hypertension and the need for urgent balloon atrial septostomy after birth."
+        claims: [AS23-282]
+      - text: "Pitfall: isolated restriction of the foramen ovale may make the left-sided structures look small, with no consequence after birth."
+        claims: [AS23-283]
+
+  - heading: "Mitral valve abnormalities"
+    blocks:
+      - text: "Effect: mitral valve abnormalities may reduce flow to the left heart and reverse flow at the foramen ovale."
+        claims: [AS23-261]
+      - text: "Views and Doppler: image the mitral valve and atrial septum in two dimensions and colour, and use pulsed-wave Doppler of the pulmonary veins to look for raised left atrial pressure."
+        claims: [AS23-262, AS23-263]
+      - text: "Mitral stenosis: the valve may be parachute or hypoplastic; the papillary muscles and a Z-score of the valve are listed for assessment. Foramen ovale size and the pulmonary venous forward-to-reverse ratio are additional measurements. Flow direction at the foramen ovale is critical in judging whether the mitral valve is adequate."
+        claims: [AS23-267, AS23-279, AS23-269]
+      - text: "Mitral regurgitation: isolated mitral dysplasia and mitral arcade cause significant regurgitation, and any degree of mitral regurgitation in the fetus is abnormal. When it is present, consider left ventricular outflow obstruction."
+        claims: [AS23-264, AS23-265]
+
+  - heading: "Coarctation of the aorta"
+    blocks:
+      - text: "Views: a right ventricle larger than the left, an ascending aorta smaller than the superior vena cava, and a small transverse arch and isthmus. Isolated coarctation is suspected when the transverse aorta is smaller than the ductal arch."
+        claims: [AS23-443, AS23-446]
+      - text: "Measure: the aortic isthmus."
+        claims: [AS23-447]
+      - text: "Pitfall: prenatal diagnosis of coarctation has substantial false-positive and false-negative rates."
+        claims: [AS23-444]
+
+missing_claims:
+  - "Awaiting re-check after rewording on 21 Nov (round 5, task J): key observations in aortic stenosis (AS23-412); severity from the mitral regurgitant jet (AS23-414); progression and hydrops in severe obstruction (AS23-401, 402, 406); peak velocity and annulus size in atrioventricular valve disease (AS23-266); Figure 21 assessment of atrial restriction (AS23-284); lesions with restrictive foramen ovale (AS23-281); HLHS with mitral regurgitation in the follow-up table (AS23-423); warning signs on the three-vessel-and-trachea view (AS23-445); gradients not indicating severity (AS23-362, new)."
+  - "Interrupted aortic arch: no claims held - needs a source."
+  - "Fetal intervention for aortic stenosis with evolving HLHS: candidacy and outcomes are in unit Z5."
+  - "Normal values and Z-scores for the measurements named here - unit XA6 and a Z-score source."
+  - "Delivery planning for ductal-dependent left heart lesions - unit Z3."
+  - "Video outline not yet written."
+
+drills:
+  - id: XB2-Q01
+    question: "A screening scan shows asymmetric four chambers and an abnormal three-vessel view. Which group of lesions does the guideline suggest?"
+    options:
+      - "Progressive semilunar valve obstruction"
+      - "Normal variant; no action"
+      - "Atrial septal defect only"
+      - "Venous anomalies only"
+    answer: 0
+    explanation: "Progressive semilunar obstruction is suspected when the three-vessel view is abnormal or the four chambers are asymmetric."
+    claims: [AS23-356]
+
+  - id: XB2-Q02
+    question: "Fetal aortic stenosis with a poorly contracting left ventricle. The aortic valve velocity is low. What is the trap?"
+    options:
+      - "Valve Doppler may not reflect severity when left ventricular dysfunction is severe"
+      - "A low velocity always means mild stenosis"
+      - "Low velocity means the valve is normal"
+      - "Velocity is the only measure that matters"
+    answer: 0
+    explanation: "Aortic valve Doppler may not reflect severity with severe LV dysfunction; reversed flow in the transverse arch predicts severe obstruction."
+    claims: [AS23-413]
+
+  - id: XB2-Q03
+    question: "In aortic stenosis, which arch finding heralds critical obstruction at any gestation?"
+    options:
+      - "Retrograde flow in the arch on the side of the obstructed valve"
+      - "Antegrade flow in the arch"
+      - "A left-sided arch"
+      - "A large thymus"
+    answer: 0
+    explanation: "Retrograde ipsilateral arch flow heralds critical obstruction; if absent at first, it should be looked for repeatedly."
+    claims: [AS23-405]
+
+  - id: XB2-Q04
+    question: "Which features help judge severity and suitability for prenatal intervention in aortic stenosis?"
+    options:
+      - "Ventricular size, apex formation, hypertrophy, endocardial fibroelastosis and function"
+      - "Fetal heart rate only"
+      - "Nuchal translucency"
+      - "Umbilical cord insertion"
+    answer: 0
+    explanation: "These ventricular features help judge severity and candidacy for prenatal intervention."
+    claims: [AS23-407]
+
+  - id: XB2-Q05
+    question: "HLHS. A pulmonary venous forward-to-reverse VTI ratio below 3 predicts what?"
+    options:
+      - "Inadequate left atrial egress and greater likelihood of emergency atrial septoplasty in the newborn"
+      - "A normal transition at birth"
+      - "Complete heart block"
+      - "Coarctation"
+    answer: 0
+    explanation: "A ratio below 3 predicts inadequate left atrial egress and a greater likelihood of emergency septoplasty."
+    claims: [AS23-222]
+
+  - id: XB2-Q06
+    question: "HLHS with maternal hyperoxygenation testing late in pregnancy. Which result is associated with neonatal instability?"
+    options:
+      - "A fall of less than 10% in pulmonary artery pulsatility index"
+      - "A fall of more than 10% in pulmonary artery pulsatility index"
+      - "A rise in fetal heart rate"
+      - "No change in umbilical artery flow"
+    answer: 0
+    explanation: "Lack of vasoreactivity (a fall of less than 10% in branch PA pulsatility index) is associated with neonatal instability and urgent atrial septal opening."
+    claims: [AS23-224]
+
+  - id: XB2-Q07
+    question: "The left heart looks small and the foramen ovale appears restrictive, with no other heart disease. What does the guideline warn?"
+    options:
+      - "Isolated foramen restriction may make left structures look small with no consequence after birth"
+      - "This is always hypoplastic left heart syndrome"
+      - "Immediate delivery is needed"
+      - "The finding has no relevance at all"
+    answer: 0
+    explanation: "In isolation, foramen ovale restriction can make left-sided structures appear smaller but have no consequence after delivery."
+    claims: [AS23-283]
+
+  - id: XB2-Q08
+    question: "Mild mitral regurgitation is seen in a fetus. How should it be regarded?"
+    options:
+      - "As abnormal; and consider left ventricular outflow obstruction"
+      - "As a normal finding"
+      - "As normal unless the heart rate is low"
+      - "As an artefact of colour gain"
+    answer: 0
+    explanation: "Any degree of fetal mitral regurgitation is abnormal; with mitral regurgitation, consider associated LV outflow obstruction."
+    claims: [AS23-264, AS23-265]
+
+  - id: XB2-Q09
+    question: "Mitral stenosis. Which finding is critical in judging whether the mitral valve is adequate?"
+    options:
+      - "Direction of flow at the foramen ovale"
+      - "Fetal heart rate"
+      - "Cardiac axis"
+      - "Thymus size"
+    answer: 0
+    explanation: "Flow direction at the foramen ovale is critical in judging adequacy of the mitral valve."
+    claims: [AS23-269]
+
+  - id: XB2-Q10
+    question: "Which set of findings suggests coarctation?"
+    options:
+      - "Right ventricle larger than left, ascending aorta smaller than the superior vena cava, small arch and isthmus"
+      - "Left ventricle larger than right with a dilated ascending aorta"
+      - "Normal four chambers with a large isthmus"
+      - "Pericardial effusion only"
+    answer: 0
+    explanation: "These are the coarctation findings listed in Table 13."
+    claims: [AS23-443]
+
+  - id: XB2-Q11
+    question: "A colleague says a prenatal diagnosis of coarctation is reliable. What does the guideline say?"
+    options:
+      - "It has substantial false-positive and false-negative rates"
+      - "It is never wrong"
+      - "It has false positives but no false negatives"
+      - "It is reliable if the heart rate is normal"
+    answer: 0
+    explanation: "Prenatal diagnosis of coarctation has substantial false-positive and false-negative rates."
+    claims: [AS23-444]
+
+checklist:
+  title: "Left heart obstruction: each study"
+  items:
+    - text: "Valve morphology, size, patency and competence with colour, pulsed-wave and continuous-wave Doppler"
+      claims: [AS23-404]
+    - text: "Arch and ductal flow direction documented"
+      claims: [AS23-409, AS23-405]
+    - text: "Atrial septal flow direction documented; foramen ovale size"
+      claims: [AS23-410, AS23-415]
+    - text: "Left ventricular size, apex, hypertrophy, fibroelastosis and function; both ventricles' function"
+      claims: [AS23-407, AS23-411]
+    - text: "Arch and isthmus assessed for coarctation"
+      claims: [AS23-416, AS23-447]
+    - text: "HLHS: pulmonary venous forward-to-reverse VTI ratio, last one near term"
+      claims: [AS23-220]

@@ -1,0 +1,151 @@
+{
+  "unit": "XB5",
+  "title": "Lesion atlas: arch and vessels (right arch, double arch, aberrant subclavian, ductus)",
+  "status": "ai-cross-checked",
+  "items": [
+    {
+      "id": "XB5-Q01",
+      "question": "What does the normal three-vessel-and-trachea view show?",
+      "options": [
+        "Two arches of similar size forming a V to the left of the trachea",
+        "Two arches forming a U around the trachea",
+        "A single arch to the right of the trachea",
+        "Three arches side by side"
+      ],
+      "answer": 0,
+      "explanation": "Normally the ductal and aortic arches form a V to the left of the trachea.",
+      "claims": [
+        "AS23-500"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB5-Q02",
+      "question": "The arches form a U around the trachea and oesophagus. What is this the key sign of?",
+      "options": [
+        "A vascular ring",
+        "A normal heart",
+        "Ductal constriction",
+        "Tetralogy of Fallot"
+      ],
+      "answer": 0,
+      "explanation": "A U shape instead of a V is the key sign of a vascular ring.",
+      "claims": [
+        "AS23-503"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB5-Q03",
+      "question": "A vascular ring is suspected. What must then be excluded?",
+      "options": [
+        "Aberrant subclavian arteries and a double aortic arch",
+        "Coarctation only",
+        "Heart block",
+        "Nothing; the diagnosis is complete"
+      ],
+      "answer": 0,
+      "explanation": "With a suspected vascular ring, aberrant subclavian arteries and a double arch should be excluded.",
+      "claims": [
+        "AS23-504"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB5-Q04",
+      "question": "Why does a vascular ring matter for the newborn?",
+      "options": [
+        "It carries an increased risk of tracheal anomalies, including complete tracheal rings",
+        "It always needs surgery on the first day",
+        "It causes heart failure before birth",
+        "It has no consequence"
+      ],
+      "answer": 0,
+      "explanation": "A vascular ring carries an increased risk of tracheal anomalies.",
+      "claims": [
+        "AS23-505"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB5-Q05",
+      "question": "A pulmonary artery sling is diagnosed. Where should the baby be delivered?",
+      "options": [
+        "Where assisted ventilation is available if needed",
+        "At home",
+        "Anywhere; a sling has no airway relevance",
+        "Only where fetal surgery is possible"
+      ],
+      "answer": 0,
+      "explanation": "A sling may coexist with airway abnormalities; delivery should be where assisted ventilation is available.",
+      "claims": [
+        "AS23-506"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB5-Q06",
+      "question": "Which tool shows an aberrant right subclavian artery behind the oesophagus more clearly?",
+      "options": [
+        "Colour Doppler",
+        "M-mode",
+        "Grey scale at high gain",
+        "Pulsed-wave Doppler of the umbilical artery"
+      ],
+      "answer": 0,
+      "explanation": "An isolated aberrant right subclavian artery is seen more clearly with colour Doppler.",
+      "claims": [
+        "AS23-509"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB5-Q07",
+      "question": "A pulsatile, tortuous duct is seen at 37 weeks. What is the usual course?",
+      "options": [
+        "It mostly closes spontaneously, with a low risk of rupture or compression",
+        "It always ruptures",
+        "It needs delivery within a day",
+        "It always causes hydrops"
+      ],
+      "answer": 0,
+      "explanation": "Ductal aneurysm mostly closes spontaneously with low risk, though it is associated with connective tissue disorders.",
+      "claims": [
+        "AS23-514"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB5-Q08",
+      "question": "Isolated ductal constriction is found. Which history should you ask about?",
+      "options": [
+        "Non-steroidal anti-inflammatory drugs and certain foods or herbal teas",
+        "Paternal age",
+        "Previous caesarean section",
+        "Maternal height"
+      ],
+      "answer": 0,
+      "explanation": "Constriction is associated with cyclo-oxygenase inhibitors and certain foods or herbal teas.",
+      "claims": [
+        "AS23-515"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB5-Q09",
+      "question": "What can isolated ductal constriction lead to?",
+      "options": [
+        "Right heart failure, hydrops, and persistent pulmonary hypertension after birth",
+        "Left heart hypoplasia",
+        "Complete heart block",
+        "Nothing; it is harmless"
+      ],
+      "answer": 0,
+      "explanation": "Isolated constriction can lead to right heart failure, hydrops and PPHN.",
+      "claims": [
+        "AS23-516"
+      ],
+      "status": "ai-cross-checked"
+    }
+  ]
+}

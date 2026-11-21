@@ -1,0 +1,185 @@
+{
+  "unit": "XB1",
+  "title": "Lesion atlas: septal and atrioventricular lesions (AVSD, common valve, straddling, VSD)",
+  "status": "ai-cross-checked",
+  "items": [
+    {
+      "id": "XB1-Q01",
+      "question": "An atrioventricular junction lesion is found with no other defect. Which association should be considered?",
+      "options": [
+        "Aneuploidy, including trisomy 21",
+        "Maternal diabetes only",
+        "No association; isolated lesions are always sporadic",
+        "Fetal anaemia"
+      ],
+      "answer": 0,
+      "explanation": "Isolated AV junction lesions are often associated with aneuploidy, including trisomy 21.",
+      "claims": [
+        "AS23-249"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB1-Q02",
+      "question": "Which view best shows atrioventricular valve morphology, chordae and papillary muscles in short axis?",
+      "options": [
+        "A sagittal view of the fetal thorax",
+        "The three-vessel-and-trachea view",
+        "The abdominal situs view",
+        "The ductal arch view"
+      ],
+      "answer": 0,
+      "explanation": "A sagittal view of the thorax best shows the valve in short axis.",
+      "claims": [
+        "AS23-243"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB1-Q03",
+      "question": "Peak inflow velocity across a stenotic atrioventricular valve looks modest. Why be careful?",
+      "options": [
+        "Peak velocity may underestimate stenosis because fetal flow can redistribute",
+        "Peak velocity always overestimates stenosis",
+        "Velocity cannot be measured in the fetus",
+        "There is no reason; modest velocity excludes stenosis"
+      ],
+      "answer": 0,
+      "explanation": "Fetal flow redistribution means peak velocity may underestimate severity.",
+      "claims": [
+        "AS23-244"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB1-Q04",
+      "question": "AVSD is suspected. What should be examined en face?",
+      "options": [
+        "The left atrioventricular valve, for a cleft or common orifice",
+        "The pulmonary valve, for leaflet number",
+        "The ductus venosus",
+        "The aortic arch"
+      ],
+      "answer": 0,
+      "explanation": "The left AV valve should be examined en face for a cleft or common orifice.",
+      "claims": [
+        "AS23-251"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB1-Q05",
+      "question": "In AVSD, what does a smaller right-to-left ventricular inflow angle indicate?",
+      "options": [
+        "Greater imbalance",
+        "A balanced defect",
+        "A normal heart",
+        "Heart block"
+      ],
+      "answer": 0,
+      "explanation": "The inflow angle is measured from an apical four-chamber view; a smaller angle indicates greater imbalance.",
+      "claims": [
+        "AS23-254"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB1-Q06",
+      "question": "Features of an unbalanced AVSD are seen. Which condition should be considered?",
+      "options": [
+        "Right or left atrial isomerism (heterotaxy)",
+        "Isolated coarctation",
+        "Ductal constriction",
+        "Twin-twin transfusion"
+      ],
+      "answer": 0,
+      "explanation": "With unbalanced AVSD, right or left atrial isomerism should be considered.",
+      "claims": [
+        "AS23-235"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB1-Q07",
+      "question": "A common atrioventricular valve is seen. Which venous anomalies often accompany it?",
+      "options": [
+        "Bilateral superior venae cavae, interrupted inferior vena cava, total anomalous pulmonary venous return",
+        "None; veins are always normal",
+        "Persistent right umbilical vein only",
+        "Agenesis of the ductus venosus only"
+      ],
+      "answer": 0,
+      "explanation": "These three are listed with a common AV valve.",
+      "claims": [
+        "AS23-259"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB1-Q08",
+      "question": "With a common atrioventricular valve, what may be missed unless specifically looked for?",
+      "options": [
+        "Additional ventricular septal defects",
+        "A right aortic arch",
+        "The fetal heart rate",
+        "The pulmonary valve"
+      ],
+      "answer": 0,
+      "explanation": "Additional VSDs may be missed unless looked for.",
+      "claims": [
+        "AS23-260"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB1-Q09",
+      "question": "Chordae from one atrioventricular valve pass through a VSD and attach in the opposite ventricle. What is this called, and why does it matter?",
+      "options": [
+        "A straddling valve; closure of the VSD may be impossible",
+        "An overriding valve; it has no surgical relevance",
+        "A cleft valve; it always closes after birth",
+        "A normal variant"
+      ],
+      "answer": 0,
+      "explanation": "This is straddling. A straddling or overriding valve may make VSD closure impossible and require a single-ventricle approach.",
+      "claims": [
+        "AS23-270",
+        "AS23-277"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB1-Q10",
+      "question": "Straddling valve with a hypoplastic left atrioventricular valve. Which risk follows?",
+      "options": [
+        "Left atrial hypertension",
+        "Pulmonary valve regurgitation",
+        "Ductal aneurysm",
+        "No added risk"
+      ],
+      "answer": 0,
+      "explanation": "With a hypoplastic left AV valve, the fetus is at risk of left atrial hypertension.",
+      "claims": [
+        "AS23-268"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB1-Q11",
+      "question": "How is straddling anatomy best shown?",
+      "options": [
+        "Video clips and live scanning, from several views",
+        "One still image in the four-chamber view",
+        "M-mode only",
+        "It cannot be shown before birth"
+      ],
+      "answer": 0,
+      "explanation": "Clips and live scanning show straddling better than stills; combined 2D, colour and pulsed-wave from multiple views are recommended.",
+      "claims": [
+        "AS23-278",
+        "AS23-275"
+      ],
+      "status": "ai-cross-checked"
+    }
+  ]
+}

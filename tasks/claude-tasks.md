@@ -82,7 +82,10 @@ Needs: the project owner's choice of where the app is hosted (the clinic website
 
 The app is a folder of static files (`dist/app/`). Write a short script that uploads it, and a page of instructions for adding the `media/` folder by hand at the server so that clips never pass through this repository. The pilot test must not be reachable by people who have not been invited: a password on the folder is enough.
 
-## 15. Apply task I and draft the Diagnose and Decide units (Opus)
+## 15. Apply task I and draft the Diagnose and Decide units (Opus) - DONE 21 Nov, first drafts
+
+Task I applied (311 confirmed). 49 disputed claims reworded against the printed pages and 5 locators corrected; 8 missing claims harvested. Twelve units drafted from cross-checked claims only: Z2, XB4, XB2, XB1, XB8, XB3, XB5, XA6, Z3, XA2, Z1, Z5 (no video outlines yet). Each lists the claims it left out. Next: `tasks/chatgpt-tasks-round5.md` (task J re-check, task K audit); then (Sonnet) apply task J and add the confirmed claims to the units that list them. Original task text follows.
+
 
 Needs: `tasks/results/task-i1.csv` to `task-i8.csv` from ChatGPT or Gemini (round 4, task I). The guideline PDFs are in the project owner's Downloads folder; with the desktop app linked, stage them from there to read pages directly.
 

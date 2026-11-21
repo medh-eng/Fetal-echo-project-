@@ -1,0 +1,169 @@
+{
+  "unit": "Z3",
+  "title": "Planning delivery: place, timing, mode, first-hour needs",
+  "status": "ai-cross-checked",
+  "items": [
+    {
+      "id": "Z3-Q01",
+      "question": "Who should assign the anticipated level of care, and when?",
+      "options": [
+        "The fetal diagnostic team, before delivery",
+        "The neonatologist, after birth",
+        "The obstetrician, in labour",
+        "No one; it is decided at birth"
+      ],
+      "answer": 0,
+      "explanation": "The fetal diagnostic team should assign a level of care, and plans should be made before delivery.",
+      "claims": [
+        "AH14-306"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "Z3-Q02",
+      "question": "A fetus has an isolated ventricular septal defect. Which level of care fits?",
+      "options": [
+        "Level 1: normal delivery at the local hospital, later cardiology review",
+        "Level 4: caesarean in a cardiac facility",
+        "Level 5: transplantation planned",
+        "Level 3: planned induction at a specialist centre"
+      ],
+      "answer": 0,
+      "explanation": "VSD is a level 1 example; these infants are stable until pulmonary resistance falls, weeks after birth.",
+      "claims": [
+        "AH14-318",
+        "AH14-309"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "Z3-Q03",
+      "question": "Hypoplastic left heart syndrome with an open atrial septum. Which level, and what is needed at birth?",
+      "options": [
+        "Level 2: delivery with a neonatologist and accessible cardiology; prostaglandin if indicated; then transfer",
+        "Level 1: routine care at a local hospital",
+        "Level 4: catheter intervention in the delivery room",
+        "Level P: palliative care only"
+      ],
+      "answer": 0,
+      "explanation": "Ductal-dependent lesions such as HLHS fall under level 2.",
+      "claims": [
+        "AH14-319"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "Z3-Q04",
+      "question": "D-transposition without an atrial septal defect. How may it reasonably be regarded?",
+      "options": [
+        "At risk: level 3, with specialists in the delivery room",
+        "Level 1: no risk at birth",
+        "Level P",
+        "Level 2 only if the ductus is large"
+      ],
+      "answer": 0,
+      "explanation": "All d-TGA without an atrial septal defect may reasonably be considered at risk (level 3).",
+      "claims": [
+        "AH14-320"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "Z3-Q05",
+      "question": "HLHS with a restrictive atrial septum: pulmonary vein forward-to-reverse VTI ratio below 3. What should be planned?",
+      "options": [
+        "Possible urgent decompression of the left atrium",
+        "Routine delivery at the local hospital",
+        "Delivery before 34 weeks",
+        "No change in plan"
+      ],
+      "answer": 0,
+      "explanation": "A ratio below 3, or no response to maternal hyperoxygenation, should lead to a plan for urgent left atrial decompression.",
+      "claims": [
+        "AH14-312"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "Z3-Q06",
+      "question": "What does AHA 2014 say about elective induction before 39 weeks?",
+      "options": [
+        "Not recommended unless there are obstetric, logistic or fetal well-being reasons",
+        "Recommended for all heart disease",
+        "Required for ductal-dependent lesions",
+        "It gives no guidance"
+      ],
+      "answer": 0,
+      "explanation": "Elective induction before 39 weeks is not recommended without obstetric, logistic or fetal well-being reasons.",
+      "claims": [
+        "AH14-304"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "Z3-Q07",
+      "question": "Which group needs no specialised delivery room care, according to the recommendations?",
+      "options": [
+        "Shunt lesions, most ductal-dependent lesions and controlled arrhythmias",
+        "d-TGA",
+        "Uncontrolled tachyarrhythmia with hydrops",
+        "HLHS with intact atrial septum"
+      ],
+      "answer": 0,
+      "explanation": "Class III: specialised delivery room care is not needed for these.",
+      "claims": [
+        "AH14-027"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "Z3-Q08",
+      "question": "Fetal Doppler shows aorta-to-pulmonary flow in the ductus. What does this predict?",
+      "options": [
+        "Ductal-dependent pulmonary circulation; prostaglandin E1 after birth",
+        "Ductal-dependent systemic circulation",
+        "A normal transition",
+        "Complete heart block"
+      ],
+      "answer": 0,
+      "explanation": "Aorta-to-PA ductal flow predicts ductal-dependent pulmonary circulation; PGE1 is started.",
+      "claims": [
+        "AH14-311"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "Z3-Q09",
+      "question": "Complete heart block with fibroelastosis and a falling cardiovascular profile score. What should be considered?",
+      "options": [
+        "Early delivery, with chronotropic drugs or temporary pacing in the delivery room",
+        "Cardiotocography to guide timing",
+        "Routine delivery at term without plans",
+        "Delivery at home"
+      ],
+      "answer": 0,
+      "explanation": "These findings should lead to consideration of early delivery and of chronotropic drugs or pacing. Cardiotocography is unlikely to help in heart block.",
+      "claims": [
+        "AH14-324",
+        "AH14-119"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "Z3-Q10",
+      "question": "When does the ductus usually close after birth?",
+      "options": [
+        "Over 12 to 72 hours",
+        "Within one minute",
+        "After several months",
+        "Never in a normal baby"
+      ],
+      "answer": 0,
+      "explanation": "The ductus usually closes over 12 to 72 hours, which is why ductal-dependent lesions present then.",
+      "claims": [
+        "AH14-308"
+      ],
+      "status": "ai-cross-checked"
+    }
+  ]
+}
