@@ -4,6 +4,8 @@
 
 About 30 minutes. Attach: both guideline PDFs, `tasks/claims-for-recheck-round5.md`, and `prompts/02-crosscheck.md`. These are the claims ChatGPT flagged in round 4 (49 wording, 5 locator). Claude has changed each one to match the review. The original wording is kept in each claim's `note`. Check the new wording and locator against the printed page. Save as `tasks/results/task-j.csv`.
 
+Completed 21 Nov. All 54 verdicts are in [task-j.csv](results/task-j.csv) and were applied to the ledger. Claude can revise AS23-217, AS23-272 and AH14-114 and correct the locators for AS23-401, AS23-406 and AH14-314 before requesting a fresh check of those six.
+
 ## Task K. Fourteen claims from task H (Gemini only)
 
 The 14 claims in `tasks/results/task-h.csv` were extracted by ChatGPT, reworded by Claude, and re-checked by ChatGPT on 19 Nov. `tools/apply_crosscheck.py` refuses to apply that result, because the checker is the same model family as the extractor (rule 4). Either Gemini repeats the check on the same 14 (attach `tasks/claims-for-claude-or-gemini.md` and both PDFs), or the project owner decides to accept the ChatGPT result and applies it by hand. AS23-089 also needs its locator changed to printed ASE p. 703, per the ChatGPT check.

@@ -52,7 +52,7 @@ Then open `dist/app/index.html` in a browser for the course app, or `dist/D1/stu
 ## What exists now
 
 - **222 claims** from two guidelines (ISUOG 2023 screening, ASE 2023 fetal echocardiography), all with page references. ChatGPT has checked the first 118 against the PDFs, including a second pass on 22 that were reworded. Claude has checked the remaining 104 through a reader on the PDF text (limits in `tasks/results/task-1-crosscheck.md`). Status now: 57 expert-verified, 151 cross-checked, 14 awaiting re-check.
-- **365 more claims for the Diagnose and Decide tiers** (lesion atlas, biometry, surveillance, delivery planning, counselling, intervention), harvested by Claude on 17 Nov from ASE 2023 and AHA 2014 and checked by Claude against the PDF pages. Independent review by ChatGPT is complete and applied: 311 are now cross-checked. The other 54 (49 wording, five locator) were reworded or relocated by Claude on 19 Nov and await a fresh check by ChatGPT or Gemini (`tasks/claims-for-recheck-round5.md`). See [the batch summary](tasks/results/task-i-notes.md).
+- **365 more claims for the Diagnose and Decide tiers** (lesion atlas, biometry, surveillance, delivery planning, counselling, intervention), harvested by Claude on 17 Nov from ASE 2023 and AHA 2014 and checked by Claude against the PDF pages. After the [round 5 re-check](tasks/results/task-j.csv), 359 are AI-cross-checked. Three need further wording changes and three need locator corrections. See [the batch summary](tasks/results/task-i-notes.md).
 - **17 units, 189 drills**, all in the app and the book:
   - Detect: D0 Why hearts are missed, D1 Five views, D2 Machine set-up, D3 Laterality and situs, D4 Four-chamber view, D5 Outflow tracts, D6 Three-vessel views, D7 Colour Doppler, D8 Rate and rhythm, D9 The heart at 11 to 14 weeks, D10 Variants and pitfalls, D11 When and how to refer, D13 Quality and audit.
   - Foundation: F1 Ultrasound modes, F2 Fetal rhythm: tools and mechanisms.
@@ -72,7 +72,7 @@ Then open `dist/app/index.html` in a browser for the course app, or `dist/D1/stu
 | Next step | Who | Where |
 |---|---|---|
 | Re-check the fourteen reworded claims (ChatGPT's result cannot be applied: it extracted them; includes the AS23-089 locator correction) | Gemini, or the project owner decides | `tasks/chatgpt-tasks-round5.md`, task K |
-| Fresh check of the 54 claims reworded after review | ChatGPT or Gemini | `tasks/chatgpt-tasks-round5.md`, task J |
+| Correct three statements and three locators from Task J, then return those six entries for re-check | Claude, then ChatGPT or Gemini | `tasks/results/task-j.csv` |
 | Pick one source per topic | Dr Kunda | `tasks/results/task-s1.md` |
 | Independently check the 112 fetal arrhythmia claims, doses first (needs the AHA 2024 PDF attached) | Claude or Gemini | `tasks/results/task-h2.yaml`, `tasks/chatgpt-tasks-round5.md` task L |
 | One sitting with the review pack | Dr Kunda | `dist/editor/review-pack.html` |

@@ -1745,7 +1745,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. ASE p. 704, IV.C.i, second Key Point. The requirement for ductal and isthmic flow assessment applies when those structures are present. Restore both qualifications. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: In single ventricle, the direction of flow and any restriction at the atrial septum, the ductus arteriosus and the aortic isthmus must be demonstrated. Awaits re-check by a model other than Claude."
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. ASE p. 704, IV.C.i, second Key Point. The requirement for ductal and isthmic flow assessment applies when those structures are present. Restore both qualifications. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: In single ventricle, the direction of flow and any restriction at the atrial septum, the ductus arteriosus and the aortic isthmus must be demonstrated. Awaits re-check by a model other than Claude. DISPUTE (ChatGPT (GPT-6, 2026-11-21)): DISTORTED. p. 704, IV.C.i, second key point: Direction and any restriction must be demonstrated at all three sites as applicable. The revision restores the presence conditions but reduces the ductal and isthmic requirements to a generic flow assessment."
 - id: AS23-218
   lesion: single ventricle
   aspect: keypoint
@@ -2194,10 +2194,10 @@ claims:
   statement: "An abnormal crux on the four-chamber view, with the septal leaflet of the right valve level with the anterior leaflet of the left valve, the leaflets being compared at the same level in the closed position, should prompt further assessment for atrioventricular septal defect."
   source: ASE-2023-FETALECHO
   locator: IV.C.ii AV Septal Defects, p. 712; Figures 23, 24
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. ASE p. 712, AV Septal Defects. Add that the leaflets are assessed at the same level in the closed position. The source specifies the phase for this diagnostic comparison. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: An abnormal crux on the four-chamber view, with the septal leaflet of the right valve level with the anterior leaflet of the left valve, should prompt further assessment for atrioventricular septal defect. Awaits re-check by a model other than Claude."
 - id: AS23-251
@@ -2262,10 +2262,10 @@ claims:
   statement: "An atrioventricular valve index of about 2:1 or more suggests that single-ventricle palliation will be needed, but the approximate 2:1 threshold depends explicitly on which equation is used to calculate the index."
   source: ASE-2023-FETALECHO
   locator: IV.C.ii AV Septal Defects, p. 712; Figure 23, p. 713
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Check the exact wording and direction of the ratio against the PDF. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. ASE p. 713, Fig. 23. The approximate 2:1 threshold depends explicitly on which equation is used. Using it as an unqualified AVVI cutoff can reverse its meaning. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: An atrioventricular valve index of about 2:1 or more suggests that single-ventricle palliation will be needed. MISSING CLAIM: the equations ASE gives for the index, and which threshold goes with which. Awaits re-check by a model other than Claude."
 - id: AS23-256
@@ -2274,10 +2274,10 @@ claims:
   statement: In atrioventricular septal defect, valve regurgitation should be assessed with colour Doppler.
   source: ASE-2023-FETALECHO
   locator: "IV.C.ii General Imaging Approach, p. 712; Table 13 (common valve), p. 706"
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. LOCATOR (ChatGPT (GPT-6, 2026-11-19)): CORRECT LOCATOR. ASE p. 712, IV.C.ii, General Imaging Approach (left column), with Table 13 on 706 for the common valve. The AV Septal Defects paragraph itself does not give the colour Doppler instruction. Locator corrected 19 Nov 2026 by Claude (Sonnet) to the checker's proposal; awaits confirmation by a model other than Claude."
 - id: AS23-257
@@ -2286,10 +2286,10 @@ claims:
   statement: "In atrioventricular septal defect, the outflow tracts should be assessed for obstruction; the possible obstructing structures include conal and subvalvular tissue and the atrioventricular valve or its accessory tissue (the valve in question is the atrioventricular valve)."
   source: ASE-2023-FETALECHO
   locator: IV.C.ii AV Septal Defects, p. 712
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. ASE p. 712, AV Septal Defects. ASE identifies the AV valve or its accessory tissue as possible obstructing structures. Unqualified valvular obstruction can be read as semilunar valve obstruction. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: In atrioventricular septal defect, the outflow tracts should be assessed for conal, subvalvular, valvular or accessory-tissue obstruction. Awaits re-check by a model other than Claude."
 - id: AS23-258
@@ -2408,10 +2408,10 @@ claims:
   statement: "In mitral stenosis, peak velocity may underestimate severity because fetal flow redistributes; for left-sided obstruction ASE highlights documenting the direction of atrial shunting. The instruction to document annulus size is for right atrioventricular valve disease."
   source: ASE-2023-FETALECHO
   locator: "IV.C.ii General Imaging Approach, p. 712"
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. ASE p. 712, General Imaging Approach. Peak velocity may underestimate stenosis. The annular-size instruction here is for right AV disease. For left-sided obstruction ASE highlights the direction of atrial shunting. Table 13 on 706 separately lists a mitral Z-score. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: In mitral stenosis, peak velocity may underestimate severity because fetal flow redistributes; annulus size and atrial shunting should be documented. Locator changed to the checker's. Table 13, p. 706, separately lists a mitral Z-score; harvest it as its own claim if wanted. Awaits re-check by a model other than Claude."
 - id: AS23-267
@@ -2494,7 +2494,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Typically'' as reported by the reader; check. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. ASE p. 713, crisscross connections. ASE describes the chamber on the right opening into the ventricle on the left (positional terms). Morphologic AV concordance or discordance is possible. The ledger's chamber names imply a fixed morphological connection. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: In a crisscross atrioventricular connection the two valve apparatuses cross, typically with the right atrium opening into the left ventricle. 'typically' removed; the checker's detail does not support it. Awaits re-check by a model other than Claude."
+  note: "Typically'' as reported by the reader; check. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. ASE p. 713, crisscross connections. ASE describes the chamber on the right opening into the ventricle on the left (positional terms). Morphologic AV concordance or discordance is possible. The ledger's chamber names imply a fixed morphological connection. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: In a crisscross atrioventricular connection the two valve apparatuses cross, typically with the right atrium opening into the left ventricle. 'typically' removed; the checker's detail does not support it. Awaits re-check by a model other than Claude. DISPUTE (ChatGPT (GPT-6, 2026-11-21)): DISTORTED. p. 713, crisscross connections: Sidedness and morphologic concordance are now distinguished correctly. The positional drainage pattern described is usual, whereas the revised statement still presents it without that qualifier."
 - id: AS23-273
   lesion: complex atrioventricular connections
   aspect: views
@@ -2542,10 +2542,10 @@ claims:
   statement: "Within a crisscross or twisted atrioventricular connection, atrioventricular discordance is almost always accompanied by a ventricular septal defect, with a high incidence of atrioventricular valve straddling."
   source: ASE-2023-FETALECHO
   locator: IV.C.ii Straddling/Overriding AV Valves and Crisscross Heart, pp. 712-713
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. ASE p. 713, IV.C.ii, crisscross connections. The passage discusses AV discordance within the twisted/crisscross connection under discussion. The claim omits that context and generalizes to AV discordance overall. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: With atrioventricular discordance there is almost always a ventricular septal defect, with a high incidence of atrioventricular valve straddling. Awaits re-check by a model other than Claude."
 - id: AS23-277
@@ -2608,10 +2608,10 @@ claims:
   statement: "Restriction of the foramen ovale occurs in d-transposition of the great arteries, hypoplastic left heart syndrome and critical left heart obstruction, and can also occur in isolation."
   source: ASE-2023-FETALECHO
   locator: Table 14 (mechanisms and patterns of progression), pp. 710-711
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. ASE p. 710, Table 14, foramen ovale restriction. The transposition subtype listed is d-TGA. Restore this qualifier. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Restriction of the foramen ovale occurs in transposition of the great arteries, hypoplastic left heart syndrome and critical left heart obstruction, and can also occur in isolation. Awaits re-check by a model other than Claude."
 - id: AS23-282
@@ -2648,10 +2648,10 @@ claims:
   statement: "In ASE Figure 21, an illustrated fetus with left heart obstruction, left-to-right flow across the atrial septum, enlarged pulmonary veins and an abnormal forward-and-reverse pulmonary venous pattern are shown, and panel C associates its pulsed Doppler pattern with moderately raised left atrial pressure. This is a captioned example, not a general rule for grading pressure."
   source: ASE-2023-FETALECHO
   locator: Figure 21 caption, p. 711
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. ASE p. 711, Fig. 21. This is an illustrated fetus with left heart obstruction. Panel C associates its pulsed Doppler pattern with moderately elevated pressure. The claim turns the illustrated findings into a general rule for grading pressure. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Left-to-right flow across the atrial septum, enlarged pulmonary veins and an abnormal forward-and-reverse pulmonary venous pattern indicate moderately raised left atrial pressure. Awaits re-check by a model other than Claude."
 - id: AS23-285
@@ -2759,10 +2759,10 @@ claims:
   statement: "Suspected outflow tract abnormalities should be evaluated by fetal echocardiography before prognosis, associated anomalies and testing, including genetic testing, are discussed."
   source: ASE-2023-FETALECHO
   locator: IV.C.iii Key Points, p. 715
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iii Key Points, p. 715. The key point specifies evaluation by fetal echocardiography before counselling. “Fully evaluated” loses the required modality in a section distinguishing screening from diagnostic imaging. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Suspected outflow tract abnormalities should be fully evaluated before prognosis, associated anomalies and testing, including genetic testing, are discussed. Awaits re-check by a model other than Claude."
 - id: AS23-306
@@ -2785,10 +2785,10 @@ claims:
   statement: "Aortic arch sidedness must be documented at least once during the pregnancy, and an attempt should be made to define the branching pattern, with particular emphasis when the aortic and ductal arches are on opposite sides of the trachea."
   source: ASE-2023-FETALECHO
   locator: IV.C.iii Key Points, p. 715
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "The IV.D key point (AS23-100) says arch sidedness should be documented at every examination. The two key points differ in strength and frequency; for the editor. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iii Key Points, p. 715. The third key point calls for an attempt to define branching generally, with particular emphasis on opposite-sided arches. The ledger narrows that instruction to the opposite-sided setting. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Aortic arch sidedness must be documented at least once during the pregnancy; when the aortic and ductal arches are on opposite sides of the trachea, the branching pattern should be attempted. Awaits re-check by a model other than Claude."
 - id: AS23-308
@@ -2825,10 +2825,10 @@ claims:
   statement: "In tetralogy of Fallot, Table 13 groups an abnormal cardiac axis or left ventricular outflow view with a ventricular septal defect and an overriding vessel as key observations; an abnormal three-vessel view is listed separately."
   source: ASE-2023-FETALECHO
   locator: Table 13 (lesion-specific evaluation), p. 707
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. Table 13 (lesion-specific evaluation), p. 707. TOF row, key observations. The source groups the abnormal axis or LV outflow finding with a VSD and overriding vessel. The ledger makes each an independent alternative. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Tetralogy of Fallot is suspected with an abnormal cardiac axis or left ventricular outflow view, a ventricular septal defect with an overriding vessel, or an abnormal three-vessel view. Re-check the grouping of the three-vessel finding; the checker's detail confirms only the grouping of axis or outflow view with VSD and overriding vessel. Awaits re-check by a model other than Claude."
 - id: AS23-311
@@ -3043,10 +3043,10 @@ claims:
   statement: "In d-transposition of the great arteries, Table 13 lists an abnormal three-vessel view, an abnormal left ventricular outflow view or parallel outflow tracts as observations. Congenitally corrected transposition (l-TGA) has a separate row on p. 708."
   source: ASE-2023-FETALECHO
   locator: Table 13 (lesion-specific evaluation), p. 707
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. Table 13 (lesion-specific evaluation), p. 707. These observations belong specifically to the d-TGA row. The guideline gives l-TGA a separate row on p. 708. Preserve the d-TGA scope. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Transposition of the great arteries is suspected with an abnormal three-vessel view, an abnormal left ventricular outflow view or parallel outflow tracts. Awaits re-check by a model other than Claude."
 - id: AS23-327
@@ -3055,10 +3055,10 @@ claims:
   statement: "A vessel arising from the left ventricular outflow that branches early is identified as the pulmonary artery. In the illustrated d-transposition case (Figure 26E) this fits transposition, but early branching identifies the vessel and does not by itself establish transposition; double-outlet right ventricle (panel A) and l-TGA (panel F) are also illustrated."
   source: ASE-2023-FETALECHO
   locator: IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715; Figure 26E
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715; Figure 26E. Fig. 26E identifies the PA and illustrates a particular d-TGA case. Early branching identifies the vessel but does not by itself establish transposition. Compare the DORV example in panel A and the l-TGA example in panel F. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: A vessel arising from the left ventricular outflow that branches early is a pulmonary artery, which makes the diagnosis of transposition. Awaits re-check by a model other than Claude."
 - id: AS23-328
@@ -3164,10 +3164,10 @@ claims:
   statement: "An abnormal crux on the four-chamber view and a moderator band at the apex of the left-sided right ventricle may identify congenitally corrected transposition (l-TGA)."
   source: ASE-2023-FETALECHO
   locator: IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iii Lesions with LV Outflow Giving Rise to a Posterior Pulmonary Artery, pp. 714-715. Page 715 says these four-chamber signs may identify l-TGA. “Is recognised” drops the qualification and can imply consistent detection. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Congenitally corrected transposition is recognised by an abnormal crux on the four-chamber view and a moderator band at the apex of the left-sided right ventricle. Awaits re-check by a model other than Claude."
 - id: AS23-336
@@ -3261,10 +3261,10 @@ claims:
     coarctation often accompanies it, so the arch needs careful two-dimensional and colour imaging.
   source: ASE-2023-FETALECHO
   locator: "IV.C.iii Lesions with a VSD and Overriding Great Vessel, DORV paragraph, p. 714"
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. LOCATOR (ChatGPT (GPT-6, 2026-11-19)): CORRECT LOCATOR. IV.C.iii, p. 714, DORV paragraph under Lesions with a VSD and Overriding Great Vessel. The later subsection on a posterior PA is a different paragraph. Locator corrected 19 Nov 2026 by Claude (Sonnet) to the checker's proposal; awaits confirmation by a model other than Claude."
 - id: AS23-343
@@ -3355,10 +3355,10 @@ claims:
   statement: "In the more pulmonary-dominant forms of common trunk, and in common trunk with interrupted arch, lower-body perfusion depends completely on ductal patency, and these need prostaglandin E1 at birth."
   source: ASE-2023-FETALECHO
   locator: IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iii Lesions with a VSD and Overriding Great Vessel, p. 714. Page 714 specifies complete ductal dependence for lower-body perfusion in the more pulmonary-dominant variants or with interrupted arch. The ledger drops the perfusion territory and broadens the first subgroup. PGE1 initiation at birth is supported. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Pulmonary-dominant common trunk, and common trunk with interrupted arch, depend entirely on ductal patency and need prostaglandin E1 at birth. Awaits re-check by a model other than Claude."
 - id: AS23-350
@@ -3495,17 +3495,17 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iv p.715 groups two categories among the lesions most likely to progress, including those with significant valve regurgitation. The singular superlative loses that distinction. Serial assessment is essential for both. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Semilunar valve obstruction with an intact ventricular septum has the greatest potential to progress in utero, so serial assessment is essential. Awaits re-check by a model other than Claude."
+  note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iv p.715 groups two categories among the lesions most likely to progress, including those with significant valve regurgitation. The singular superlative loses that distinction. Serial assessment is essential for both. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Semilunar valve obstruction with an intact ventricular septum has the greatest potential to progress in utero, so serial assessment is essential. Awaits re-check by a model other than Claude. LOCATOR (ChatGPT (GPT-6, 2026-11-21)): CORRECT LOCATOR. p. 715, IV.C.iv, Progressive Lesions, Obstructive and Regurgitant, introductory paragraph above the semilunar obstruction subheading. This paragraph establishes progression risk and serial assessment for both categories."
 - id: AS23-402
   lesion: semilunar valve obstruction
   aspect: evolution
   statement: "Severe obstruction, especially early in gestation, may lead to progressive hypoplasia of the ventricle, or to hydrops linked to impaired filling of the opposite ventricle."
   source: ASE-2023-FETALECHO
   locator: IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iv p.715 specifically links hydrops to impaired filling of the opposite ventricle. The qualifier was lost. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Severe obstruction, especially early in gestation, may lead to progressive hypoplasia of the ventricle, or to hydrops. Awaits re-check by a model other than Claude."
 - id: AS23-403
@@ -3561,7 +3561,7 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Reader placed this on p. 715; check page and wording. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iv p.715 specifies both umbilical arterial and umbilical venous Doppler. Unspecified umbilical flows could omit either vessel from surveillance. The instruction also applies to significant valve regurgitation. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: As semilunar obstruction progresses, routine Doppler of systemic venous, ductus venosus, umbilical and middle cerebral flows is essential. Awaits re-check by a model other than Claude."
+  note: "Reader placed this on p. 715; check page and wording. Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iv p.715 specifies both umbilical arterial and umbilical venous Doppler. Unspecified umbilical flows could omit either vessel from surveillance. The instruction also applies to significant valve regurgitation. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: As semilunar obstruction progresses, routine Doppler of systemic venous, ductus venosus, umbilical and middle cerebral flows is essential. Awaits re-check by a model other than Claude. LOCATOR (ChatGPT (GPT-6, 2026-11-21)): CORRECT LOCATOR. p. 715, IV.C.iv, Progressive Lesions, Obstructive and Regurgitant, introductory paragraph above the semilunar obstruction subheading. This is the shared source for the five vascular Doppler assessments with progression."
 - id: AS23-407
   lesion: semilunar valve obstruction
   aspect: measure
@@ -3636,10 +3636,10 @@ claims:
   statement: "Aortic stenosis shows a thickened valve in systole on the left ventricular outflow view, a dilated ascending aorta on the three-vessel view (printed as optional, with a plus/minus sign), and left ventricular hypertrophy, dilatation or dysfunction on the four-chamber view."
   source: ASE-2023-FETALECHO
   locator: Table 13 (lesion-specific evaluation), p. 708
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. Table 13 p.708, aortic stenosis, key observations. A printed plus/minus precedes ascending aortic dilatation. It is optional. The four-chamber findings also include LV dilatation. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Aortic stenosis shows a thickened valve in systole on the left ventricular outflow view, a dilated ascending aorta on the three-vessel view, and left ventricular hypertrophy or dysfunction on the four-chamber view. Awaits re-check by a model other than Claude."
 - id: AS23-413
@@ -3662,10 +3662,10 @@ claims:
   statement: "In aortic stenosis, continuous-wave Doppler of mitral regurgitation gives insight into severity: in more severe disease, higher velocities suggest preserved ventricular function; low velocities may mean less severe obstruction, severe myocardial dysfunction, a primary myocardial disease, or a primary lesion related to severe atrioventricular regurgitation."
   source: ASE-2023-FETALECHO
   locator: IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iv p.716 qualifies the higher-velocity interpretation as applying in more severe disease. For a low velocity it also allows a primary lesion related to severe AV regurgitation. Less severe obstruction is not necessarily mild. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: In aortic stenosis, continuous-wave Doppler of mitral regurgitation gives insight into severity: higher velocities suggest preserved ventricular function; low velocities may mean mild obstruction, severe myocardial dysfunction or a primary myocardial disease. Awaits re-check by a model other than Claude."
 - id: AS23-415
@@ -3758,10 +3758,10 @@ claims:
     Doppler.
   source: ASE-2023-FETALECHO
   locator: "IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, p. 716; Table 13 (pulmonary stenosis, other key points), p. 708"
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. LOCATOR (ChatGPT (GPT-6, 2026-11-19)): CORRECT LOCATOR. IV.C.iv p.716 supports the lesion, fistulae and flow pattern. Add Table 13 p.708, pulmonary stenosis, other key points, for the low-velocity colour setting. Locator corrected 19 Nov 2026 by Claude (Sonnet) to the checker's proposal; awaits confirmation by a model other than Claude."
 - id: AS23-422
@@ -3783,10 +3783,10 @@ claims:
   statement: "Hypoplastic left heart syndrome with mitral regurgitation is listed as at risk of heart failure; comprehensive function assessment every 2-4 weeks is suggested, at the discretion of the cardiology and obstetric providers."
   source: ASE-2023-FETALECHO
   locator: Table 15 (follow-up imaging for specific CHD diagnoses), p. 719
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. Table 15 p.719 lists this lesion under risk for heart failure. The 2–4 week interval is suggested at the cardiology and obstetric providers’ discretion. The claim turns this into an instruction. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Hypoplastic left heart syndrome with mitral regurgitation is at risk of heart failure and should have comprehensive function assessment every 2-4 weeks. Awaits re-check by a model other than Claude."
 - id: AS23-424
@@ -3823,10 +3823,10 @@ claims:
   statement: "Tricuspid regurgitation severity can be assessed by the width of the vena contracta relative to the annulus, which is one way severity can be assessed."
   source: ASE-2023-FETALECHO
   locator: IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iv p.717 presents vena contracta width relative to annular size as one way severity can be assessed. The categorical wording loses the optionality. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Tricuspid regurgitation severity is assessed by the width of the vena contracta relative to the annulus. Awaits re-check by a model other than Claude."
 - id: AS23-427
@@ -3918,10 +3918,10 @@ claims:
   statement: "Failure of radial displacement to augment (which can include an unchanged value), reduced circumferential strain and left ventricular dyssynchrony mark severe disease, but these methods remain investigational."
   source: ASE-2023-FETALECHO
   locator: IV.C.iv Severe Atrioventricular and Semilunar Valve Regurgitation, pp. 716-717
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.iv p.717 describes failure of radial displacement to augment. That can include an unchanged value and is different from reduced displacement. The strain, synchrony and investigational qualifiers agree. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: Reduced radial displacement, reduced circumferential strain and left ventricular dyssynchrony mark severe disease, but these methods remain investigational. Awaits re-check by a model other than Claude."
 - id: AS23-434
@@ -4078,10 +4078,10 @@ claims:
   statement: "Warning signs on the three-vessel-and-trachea view for isolated arch abnormalities include a size discrepancy between the arches and abnormal flow direction; the U-shaped configuration is placed in the vascular ring row of Table 13 (p. 709), not specifically with coarctation."
   source: ASE-2023-FETALECHO
   locator: IV.C.v Isolated Arch Abnormalities, p. 717
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. DISPUTE (ChatGPT (GPT-6, 2026-11-19)): DISTORTED. IV.C.v p.717 gives warning signs for a group of arch anomalies. Assigning a U shape specifically to coarctation is misleading. Table 13 p.709 places the U-shaped configuration in the vascular rings row. REWORDED 19 Nov 2026 by Claude (Sonnet) after the DISPUTE above. Was: A size discrepancy between the arches, abnormal flow direction, or a U shape on the three-vessel-and-trachea view should alert the examiner to coarctation. Re-check which of the listed signs ASE attaches to coarctation specifically. Awaits re-check by a model other than Claude."
 - id: AS23-446
@@ -4268,10 +4268,10 @@ claims:
     and right aortic arch are readily detectable on it.
   source: ASE-2023-FETALECHO
   locator: "IV.C.v Isolated Arch Abnormalities, first Key Point, p. 718"
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. LOCATOR (ChatGPT (GPT-6, 2026-11-19)): CORRECT LOCATOR. Use IV.C.v, Isolated Arch Abnormalities, first Key Point on p. 718. The box is above the heading that begins IV.D. The imaging recommendation is supported. Locator corrected 19 Nov 2026 by Claude (Sonnet) to the checker's proposal; awaits confirmation by a model other than Claude."
 - id: AS23-511
@@ -4281,10 +4281,10 @@ claims:
     sidedness is suspected.
   source: ASE-2023-FETALECHO
   locator: "IV.C.v Isolated Arch Abnormalities, second Key Point, p. 718"
-  status: ai-extracted
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-21)"
   verified_by: null
   note: "Checked by the extractor (Claude) against the printed page or table on 17 Nov 2026; still needs an independent cross-check. LOCATOR (ChatGPT (GPT-6, 2026-11-19)): CORRECT LOCATOR. Use IV.C.v, Isolated Arch Abnormalities, second Key Point on p. 718. The box precedes IV.D and gives particular emphasis to suspected abnormal arch sidedness. Locator corrected 19 Nov 2026 by Claude (Sonnet) to the checker's proposal; awaits confirmation by a model other than Claude."
 - id: AS23-512
