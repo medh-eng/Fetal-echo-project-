@@ -38,6 +38,8 @@ Use nothing from memory.
 
 Save as `tasks/results/task-j.csv`. Then (Sonnet): `python tools/apply_crosscheck.py tasks/results/task-j.csv --by "..."`, rebuild, and put each confirmed claim into the unit that lists it under `missing_claims`.
 
+Review of the 57 claims on main completed on 21 November. [Task J results](results/task-j.csv) record 53 confirmations, three locator corrections and one remaining wording finding (AS23-412). The confirmations were applied. The extractor should resolve AS23-401, AS23-406, AH14-314 and AS23-412 before those four enter teaching material. The earlier Figure 30F candidate is withdrawn.
+
 ## Task K. Audit twelve new Diagnose and Decide units
 
 About 60 minutes; can be split across sessions. Attach: `content/ledger/ASE-2023-FETALECHO.yaml`, `content/ledger/AHA-2014-FETALCARDIAC.yaml`, `prompts/04-audit.md`, and these units from `content/units/`: Z2, XB4, XB2, XB1, XB8, XB3, XB5, XA6, Z3, XA2, Z1, Z5.

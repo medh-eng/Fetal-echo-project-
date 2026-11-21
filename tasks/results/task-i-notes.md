@@ -27,9 +27,10 @@ These are candidates for the extractor. Each needs a ledger entry and independen
 | ASE, Table 13, p. 707, d-TGA | The pulmonary valve can be bicuspid. |
 | ASE, Table 13, p. 708, pulmonary stenosis | Abnormal ductal insertion can contribute to left pulmonary artery stenosis. |
 | ASE, IV.C.iv key points, p. 716 | A reported Doppler gradient may not represent the severity of semilunar stenosis. |
-| ASE, Figure 30F, p. 718 | The caption describes the L-shaped branching appearance in its example of a right arch with mirror-image branching. |
 | AHA, Genetic Testing of Fetuses With CHD, p. 2207 | Parental testing may clarify recurrence risk with a suspected balanced translocation or the significance of a fetal copy-number variant. |
 | AHA, Techniques, p. 2210 | Counselling can use visual aids and address the risk of misleading online information. |
 | AHA, AS With Evolving HLHS, p. 2218 | Reported fetal predictors of a two-ventricle outcome after intervention include LV size, pressure generation and mitral valve size. Harvest the cutoffs separately with their exact endpoints. |
 
 Sources: [ASE 2023 guideline](https://www.asecho.org/wp-content/uploads/2023/07/PIIS0894731723002067-1.pdf) and [AHA 2014 statement](https://escholarship.org/uc/item/9dq2k9vh).
+
+Correction, 21 November 2026. The earlier candidate for Figure 30F is withdrawn. On printed ASE p. 718 the caption identifies panel F as a double aortic arch. No replacement locator for the proposed mirror-image branching finding was established.
