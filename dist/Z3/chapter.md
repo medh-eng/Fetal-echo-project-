@@ -24,7 +24,7 @@ The fetal diagnostic team should assign an anticipated level of care, and plans 
 
 ## Levels of care
 
-The AHA 2014 level-of-care scheme. Many newborns with heart disease need no specialised delivery room care. [9, 10, 11, 12, 13, 14, 15]
+The AHA 2014 level-of-care scheme. This is a US statement from 2014: a historical risk framework, not a current local protocol. Its timing, facility, referral and mode-of-delivery instructions must be reviewed against newer evidence and Indian services before anyone uses them. Many newborns with heart disease need no specialised delivery room care. [9, 10, 11, 12, 13, 14, 15]
 
 | Level | Meaning | Examples | Delivery plan |
 |---|---|---|---|
@@ -53,7 +53,7 @@ Reasonable (Class IIa): for HLHS with a restrictive or intact atrial septum and 
 
 May be considered (Class IIb): tetralogy with absent pulmonary valve, or Ebstein anomaly with hydrops. [23]
 
-Not needed (Class III): shunt lesions, most ductal-dependent lesions, and controlled arrhythmias. [24]
+Not needed (Class III): shunt lesions, most ductal-dependent lesions, and controlled arrhythmias. This is about a specialist team being present in the delivery room. It does not mean no plan: for ductal-dependent lesions (level 2) the plan still needs a hospital with a neonatologist and accessible cardiology, and prostaglandin where indicated. [24, 12]
 
 
 ## Fetal predictors, lesion by lesion
@@ -79,7 +79,7 @@ Complete heart block: a falling cardiovascular profile score (to below 7), a ver
 
 Cardiotocography is unlikely to be useful in fetal bradycardia or complete heart block. [35]
 
-## Delivery plan before 36 weeks
+## Delivery plan before birth
 
 - [ ] Level of care assigned and written in the report [7, 10, 11, 12, 13, 14, 15]
 - [ ] Obstetric, neonatal and cardiology teams agree the plan [6, 5]
@@ -89,7 +89,7 @@ Cardiotocography is unlikely to be useful in fetal bradycardia or complete heart
 
 ## Still to be written (awaiting sourced claims)
 
-- Awaiting re-check after rewording on 21 Nov (round 5, task J): caesarean against vaginal birth (AH14-305); hydrops in complex heart disease and delivery (AH14-316); septum primum criteria in a later study (AH14-314); ductal flow and pulmonary hypertension therapy in d-TGA (AH14-326); fetal wellness testing (AH14-017, 118, 120).
+- Checked by ChatGPT in task J (22 Nov) and now ai-cross-checked, but not yet taught here: each needs an editorial decision on whether to add it: caesarean against vaginal birth (AH14-305); hydrops in complex heart disease and delivery (AH14-316); septum primum criteria in a later study (AH14-314); ductal flow and pulmonary hypertension therapy in d-TGA (AH14-326); fetal wellness testing (AH14-017, 118, 120).
 - Mode of delivery: without AH14-305 the unit says nothing on caesarean against vaginal birth beyond the level-of-care table.
 - Indian adaptation: where level 3 and 4 care is available, transport distances, and how the levels map to Indian hospitals - the editor's input and an Indian source.
 - Prostaglandin dosing and newborn drug doses - held back until the cardiology co-editor signs (Claude task rule 3).

@@ -9,9 +9,9 @@ id: Z3
 title: "Planning delivery: place, timing, mode, first-hour needs"
 tier: Decide
 version: 0.1
-summary: "Assigning a level of care before birth, choosing where and when to deliver, and the fetal findings that predict trouble in the first hour for each lesion."
+summary: "A historical (AHA 2014, US) framework for assigning a level of care before birth, choosing where and when to deliver, and the fetal findings that predict trouble in the first hour for each lesion."
 drafted_by: "Claude (Opus 5.5, 21 Nov 2026)"
-audited_by: null
+audited_by: "ChatGPT (GPT-6, 22 Nov 2026), findings applied by Claude (Sonnet 5.5)"
 signed_by: null
 
 objectives:
@@ -35,7 +35,7 @@ sections:
 
   - heading: "Levels of care"
     blocks:
-      - text: "The AHA 2014 level-of-care scheme. Many newborns with heart disease need no specialised delivery room care."
+      - text: "The AHA 2014 level-of-care scheme. This is a US statement from 2014: a historical risk framework, not a current local protocol. Its timing, facility, referral and mode-of-delivery instructions must be reviewed against newer evidence and Indian services before anyone uses them. Many newborns with heart disease need no specialised delivery room care."
         claims: [AH14-307, AH14-317, AH14-318, AH14-319, AH14-320, AH14-321, AH14-322]
         table:
           columns: ["Level", "Meaning", "Examples", "Delivery plan"]
@@ -64,8 +64,8 @@ sections:
         claims: [AH14-025]
       - text: "May be considered (Class IIb): tetralogy with absent pulmonary valve, or Ebstein anomaly with hydrops."
         claims: [AH14-026]
-      - text: "Not needed (Class III): shunt lesions, most ductal-dependent lesions, and controlled arrhythmias."
-        claims: [AH14-027]
+      - text: "Not needed (Class III): shunt lesions, most ductal-dependent lesions, and controlled arrhythmias. This is about a specialist team being present in the delivery room. It does not mean no plan: for ductal-dependent lesions (level 2) the plan still needs a hospital with a neonatologist and accessible cardiology, and prostaglandin where indicated."
+        claims: [AH14-027, AH14-319]
 
   - heading: "Fetal predictors, lesion by lesion"
     blocks:
@@ -92,7 +92,7 @@ sections:
         claims: [AH14-119]
 
 missing_claims:
-  - "Awaiting re-check after rewording on 21 Nov (round 5, task J): caesarean against vaginal birth (AH14-305); hydrops in complex heart disease and delivery (AH14-316); septum primum criteria in a later study (AH14-314); ductal flow and pulmonary hypertension therapy in d-TGA (AH14-326); fetal wellness testing (AH14-017, 118, 120)."
+  - "Checked by ChatGPT in task J (22 Nov) and now ai-cross-checked, but not yet taught here: each needs an editorial decision on whether to add it: caesarean against vaginal birth (AH14-305); hydrops in complex heart disease and delivery (AH14-316); septum primum criteria in a later study (AH14-314); ductal flow and pulmonary hypertension therapy in d-TGA (AH14-326); fetal wellness testing (AH14-017, 118, 120)."
   - "Mode of delivery: without AH14-305 the unit says nothing on caesarean against vaginal birth beyond the level-of-care table."
   - "Indian adaptation: where level 3 and 4 care is available, transport distances, and how the levels map to Indian hospitals - the editor's input and an Indian source."
   - "Prostaglandin dosing and newborn drug doses - held back until the cardiology co-editor signs (Claude task rule 3)."
@@ -174,8 +174,8 @@ drills:
       - "Uncontrolled tachyarrhythmia with hydrops"
       - "HLHS with intact atrial septum"
     answer: 0
-    explanation: "Class III: specialised delivery room care is not needed for these."
-    claims: [AH14-027]
+    explanation: "Class III: a specialist team in the delivery room is not needed for these. Planning is still needed: ductal-dependent lesions still need a capable hospital, accessible cardiology and prostaglandin where indicated."
+    claims: [AH14-027, AH14-319]
 
   - id: Z3-Q08
     question: "Fetal Doppler shows aorta-to-pulmonary flow in the ductus. What does this predict?"
@@ -211,7 +211,7 @@ drills:
     claims: [AH14-308]
 
 checklist:
-  title: "Delivery plan before 36 weeks"
+  title: "Delivery plan before birth"
   items:
     - text: "Level of care assigned and written in the report"
       claims: [AH14-306, AH14-317, AH14-318, AH14-319, AH14-320, AH14-321, AH14-322]

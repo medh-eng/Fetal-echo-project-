@@ -23,21 +23,21 @@ Needs: C = cardiology co-editor, S = other specialist reviewer, K = Dr Kunda's o
 | F1 | Ultrasound modes used in fetal echocardiography | Foundation | yes | yes | - | yes | yes | - | 35/36 claims verified | Cross-check 1 claim(s) |
 | F2 | Fetal rhythm: tools and mechanisms | Foundation | yes | yes | - | yes | yes | - | 27/29 claims verified | Cross-check 2 claim(s) |
 | XA1 | Cardiac embryology: what breaks when | Diagnose | - | - | - | - | - | - | TO FIND · needs C | Source search for an open-access embryology review (gemini task S1) |
-| XA2 | Genetics of congenital heart disease and the work-up after diagnosis | Diagnose | yes | yes | yes | yes | - | - | 0/20 claims verified | Audit by a non-Claude model |
+| XA2 | Genetics of congenital heart disease and the work-up after diagnosis | Diagnose | yes | yes | yes | yes | yes | - | 0/20 claims verified | Editor sign-off |
 | XA3 | Fetal circulation and the transition at birth | Diagnose | - | - | - | - | - | - | TO FIND · needs C | Source search (gemini task S1) |
 | XA4 | Physics and Doppler for the echocardiographer | Diagnose | - | - | - | - | - | - | TO FIND | Source search for an open-access physics text or review (gemini task S1) |
 | XA5 | The complete fetal echocardiogram | Diagnose | yes | yes | - | yes | yes | - | 43/50 claims verified | Cross-check 7 claim(s) |
-| XA6 | Biometry and Z-scores | Diagnose | yes | yes | yes | yes | - | - | 2/21 claims verified | Audit by a non-Claude model |
+| XA6 | Biometry and Z-scores | Diagnose | yes | yes | yes | yes | yes | - | 2/21 claims verified | Editor sign-off |
 | XA7 | 3D/4D and STIC | Diagnose | - | - | - | - | - | - | ASE-2023-FETALECHO, TO FIND | Source search (gemini task S1) |
 | XA8 | Fetal cardiac MRI | Diagnose | - | - | - | - | - | - | AHA-2014-FETALCARDIAC, TO FIND · needs S | Source search (gemini task S1) |
-| XB1 | Lesion atlas: septal and atrioventricular lesions (AVSD, common valve, straddling, VSD) | Diagnose | yes | yes | yes | yes | - | - | 0/32 claims verified | Audit by a non-Claude model |
-| XB2 | Lesion atlas: left heart (aortic stenosis, HLHS, mitral, coarctation) | Diagnose | yes | yes | yes | yes | - | - | 0/38 claims verified | Audit by a non-Claude model |
-| XB3 | Lesion atlas: right heart (pulmonary stenosis and atresia, Ebstein anomaly, tricuspid dysplasia) | Diagnose | yes | yes | yes | yes | - | - | 0/27 claims verified | Audit by a non-Claude model |
-| XB4 | Lesion atlas: conotruncal lesions (tetralogy, transposition, DORV, common trunk) | Diagnose | yes | yes | yes | yes | - | - | 0/48 claims verified | Audit by a non-Claude model |
-| XB5 | Lesion atlas: arch and vessels (right arch, double arch, aberrant subclavian, ductus) | Diagnose | yes | yes | yes | yes | - | - | 0/20 claims verified | Audit by a non-Claude model |
+| XB1 | Lesion atlas: septal and atrioventricular lesions (AVSD, common valve, straddling, VSD) | Diagnose | yes | yes | yes | yes | yes | - | 0/32 claims verified | Editor sign-off |
+| XB2 | Lesion atlas: left heart (aortic stenosis, HLHS, mitral, coarctation) | Diagnose | yes | yes | yes | yes | yes | - | 0/38 claims verified | Editor sign-off |
+| XB3 | Lesion atlas: right heart (pulmonary stenosis and atresia, Ebstein anomaly, tricuspid dysplasia) | Diagnose | yes | yes | yes | yes | yes | - | 0/27 claims verified | Editor sign-off |
+| XB4 | Lesion atlas: conotruncal lesions (tetralogy, transposition, DORV, common trunk) | Diagnose | yes | yes | yes | yes | yes | - | 0/48 claims verified | Editor sign-off |
+| XB5 | Lesion atlas: arch and vessels (right arch, double arch, aberrant subclavian, ductus) | Diagnose | yes | yes | yes | yes | yes | - | 0/20 claims verified | Editor sign-off |
 | XB6 | Lesion atlas: veins (left SVC, anomalous pulmonary veins, interrupted IVC, ductus venosus) | Diagnose | - | - | - | - | - | - | ASE-2023-FETALECHO, TO FIND · needs C | Cross-check AS23-518 to 520; ASE has little on veins - a second source is needed (chatgpt round 4, task I) |
 | XB7 | Lesion atlas: position and laterality (heterotaxy, situs inversus, dextrocardia) | Diagnose | - | - | - | - | - | - | ASE-2023-FETALECHO, TO FIND · needs C | ASE has little on heterotaxy (AS23-235, 517); a source is needed (gemini source search) |
-| XB8 | Lesion atlas: univentricular hearts | Diagnose | yes | yes | yes | yes | - | - | 0/26 claims verified | Audit by a non-Claude model |
+| XB8 | Lesion atlas: univentricular hearts | Diagnose | yes | yes | yes | yes | yes | - | 0/26 claims verified | Editor sign-off |
 | XB9 | Lesion atlas: myocardium and pericardium (cardiomyopathy, tumours, effusion) | Diagnose | - | - | - | - | - | - | AHA-2014-FETALCARDIAC, TO FIND · needs C | Tumours and dysfunction only (AS23-521 to 524, AH14-111); cardiomyopathy and effusion need a source (gemini source search) |
 | XC1 | Assessing cardiac function: the first steps | Diagnose | yes | yes | - | yes | yes | - | 13/15 claims verified | Cross-check 2 claim(s) |
 | XC2 | Heart failure and hydrops; scoring systems | Diagnose | - | - | - | - | - | - | AHA-2014-FETALCARDIAC, ASE-2023-FETALECHO · needs C | Harvest AHA 2014 function and heart-failure sections (chatgpt round 3, task H1) |
@@ -47,14 +47,14 @@ Needs: C = cardiology co-editor, S = other specialist reviewer, K = Dr Kunda's o
 | XC6 | The heart in growth restriction and placental disease | Diagnose | - | - | - | - | - | - | TO FIND · needs K | Candidate sources in tasks/results/task-s1.md (topic 8) (Dr Kunda picks a source) |
 | XC7 | Maternal disease and drugs | Diagnose | - | - | - | - | - | - | AHA-2014-FETALCARDIAC, TO FIND · needs K | Cross-check AH14-001 to 005 (indications); then draft (chatgpt round 4, task I) |
 | XC8 | The heart in extracardiac anomalies | Diagnose | - | - | - | - | - | - | AHA-2014-FETALCARDIAC, TO FIND · needs K | Cross-check AH14-114 to 116; then draft (chatgpt round 4, task I) |
-| Z1 | Counselling in depth | Decide | yes | yes | yes | yes | - | - | 0/10 claims verified | Audit by a non-Claude model |
-| Z2 | Surveillance plans by lesion | Decide | yes | yes | yes | yes | - | - | 4/32 claims verified | Audit by a non-Claude model |
-| Z3 | Planning delivery: place, timing, mode, first-hour needs | Decide | yes | yes | yes | yes | - | - | 0/35 claims verified | Audit by a non-Claude model |
+| Z1 | Counselling in depth | Decide | yes | yes | yes | yes | yes | - | 0/10 claims verified | Editor sign-off |
+| Z2 | Surveillance plans by lesion | Decide | yes | yes | yes | yes | yes | - | 4/32 claims verified | Editor sign-off |
+| Z3 | Planning delivery: place, timing, mode, first-hour needs | Decide | yes | yes | yes | yes | yes | - | 0/35 claims verified | Editor sign-off |
 | Z4 | Transplacental drug therapy | Decide | - | - | - | - | - | - | AHA-2024-ARRHYTHMIA-DRUGS, AHA-2014-FETALCARDIAC · needs C | Harvest AHA 2024 (chatgpt round 3, task H2) |
-| Z5 | Fetal cardiac intervention | Decide | yes | yes | yes | yes | - | - | 0/17 claims verified | Audit by a non-Claude model |
+| Z5 | Fetal cardiac intervention | Decide | yes | yes | yes | yes | yes | - | 0/17 claims verified | Editor sign-off |
 | Z6 | Maternal hyperoxygenation testing | Decide | - | - | - | - | - | - | TO FIND · needs C | Source search (gemini task S1) |
 | Z7 | Postnatal surgery and long-term outcomes | Decide | - | - | - | - | - | - | TO FIND · needs S | Source search; paediatric cardiac surgeon as reviewer (gemini task S1) |
 | Z8 | Palliative care and bereavement | Decide | - | - | - | - | - | - | TO FIND · needs S | Source search (gemini task S1) |
 | Z9 | Building a fetal cardiac service and referral network | Decide | - | - | - | - | - | - | TO FIND · needs K | Dr Kunda's own experience recorded as claims (editor) |
 
-**51 units.** Source held: 29; Harvested: 29; Cross-checked: 18; Drafted: 29; Audited: 17; Signed: 6.
+**51 units.** Source held: 29; Harvested: 29; Cross-checked: 18; Drafted: 29; Audited: 29; Signed: 6.

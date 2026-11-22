@@ -30,7 +30,7 @@ Candidates need stenosis, not atresia, with antegrade flow; little or no subvalv
 
 Assessment on fetal echocardiography: ventricular size (end-diastolic diameter and length), whether the ventricle forms the apex, hypertrophy, endocardial fibroelastosis, and systolic and diastolic function help judge severity and suitability for prenatal intervention. [7]
 
-Results: in one reported series of 70 fetuses, balloon valvuloplasty was technically successful in 52 (74%). [8]
+Results: in one series of 70 fetuses reported in the AHA 2014 statement, balloon valvuloplasty was technically successful in 52 (74%). This is one historical series, not a current success rate, and technical success is not the same as clinical benefit. [8]
 
 After the procedure: delivery and management at a specialised congenital heart centre are recommended. Follow-up is every 4 weeks in the third trimester, assessing aortic outflow, arch flow direction, atrial septal flow, left ventricular size and function, mitral regurgitation and endocardial brightness. [9, 10]
 
@@ -70,7 +70,7 @@ Families considering aortic valvuloplasty should receive extensive counselling o
 
 ## Still to be written (awaiting sourced claims)
 
-- Awaiting re-check after rewording on 21 Nov (round 5, task J): recommendation 23, the lesions for which catheter intervention may be considered (AH14-023); mortality in HLHS with highly restrictive or intact septum (AH14-209); predictors of a two-ventricle outcome after valvuloplasty, with z-score and pressure cut-offs (AH14-332, new).
+- Checked by ChatGPT in task J (22 Nov) and now ai-cross-checked, but not yet taught here: each needs an editorial decision on whether to add it: recommendation 23, the lesions for which catheter intervention may be considered (AH14-023); mortality in HLHS with highly restrictive or intact septum (AH14-209); predictors of a two-ventricle outcome after valvuloplasty, with z-score and pressure cut-offs (AH14-332, new).
 - Outcomes since 2014 (survival, biventricular circulation, maternal complications) from current registries - needs a newer source (tasks/results/task-s1.md, topic 10).
 - Where fetal cardiac intervention is available to Indian patients, and referral routes - the editor's input.
 - Transplacental drug therapy for arrhythmia and heart failure - unit Z4.

@@ -2140,9 +2140,9 @@ Unit XA2 | Tier: Diagnose | Version 0.1
 
 ## How common, and why it matters
 
-About 15% of infants with heart disease have a recognisable chromosomal abnormality, mostly aneuploidies: trisomies 21, 13 and 18, and monosomy X. [1]
+In the AHA 2014 figures, about 15% of infants with heart disease have a recognisable chromosomal abnormality, mostly aneuploidies: trisomies 21, 13 and 18, and monosomy X. [1]
 
-In the fetus the rate is higher: abnormal karyotypes are found in 30% to 40% in most series, probably because affected fetuses die more often before birth. Even isolated heart disease diagnosed by ultrasound carries a risk of at least 15% to 30%. [2, 3]
+In the fetus the AHA 2014 figures are higher: abnormal karyotypes are found in 30% to 40% in most series, probably because affected fetuses die more often before birth. Even isolated heart disease diagnosed by ultrasound carries a risk of at least 15% to 30%. [2, 3]
 
 Genetic results may prompt a further search for anomalies, inform recurrence risk, and influence decisions on termination or palliative care. [4]
 
@@ -2151,9 +2151,9 @@ Genetic results may prompt a further search for anomalies, inform recurrence ris
 
 Ventricular and atrioventricular septal defects are the lesions most often associated with an abnormal karyotype. Of fetuses with atrioventricular septal defect and normal situs, 50% to 70% have trisomy 21. [5, 6]
 
-Risk of aneuploidy by lesion, from the AHA 2014 tables (ranges across published series). [7]
+Reported aneuploidy estimates by lesion, from the AHA 2014 tables (ranges across published series of that period). A 0% entry means none was reported in those series. It is not proof of zero risk and not a rule-out test. [7]
 
-| Lesion | Aneuploidy risk |
+| Lesion | Reported series estimate (AHA 2014) |
 |---|---|
 | Atrioventricular septal defect | 46-73% |
 | Common arterial trunk | 19-78% |
@@ -2212,7 +2212,7 @@ Ventricular septal defect and tricuspid atresia are often associated with other 
 
 ## Still to be written
 
-- Awaiting re-check after rewording on 21 Nov (round 5, task J): recommendation 14, genetic counselling with offer of aneuploidy testing and detailed anatomy scan (AH14-014); extracardiac anomaly rates (AH14-114); fetal MRI for extracardiac screening (AH14-015, 016, 117); parental testing (AH14-330, new).
+- Checked by ChatGPT in task J (22 Nov) and now ai-cross-checked, but not yet taught here: each needs an editorial decision on whether to add it: recommendation 14, genetic counselling with offer of aneuploidy testing and detailed anatomy scan (AH14-014); extracardiac anomaly rates (AH14-114); fetal MRI for extracardiac screening (AH14-015, 016, 117); parental testing (AH14-330, new).
 - Current testing: exome and genome sequencing, rapid aneuploidy tests, and how testing has changed since 2014 - needs a newer source and a clinical geneticist.
 - Availability and cost of each test in India, and the legal framework (PC-PNDT) for prenatal genetic testing - needs an Indian source and the editor's input.
 - Recurrence risks for siblings and offspring - needs a source.
@@ -2459,7 +2459,7 @@ Unit XA6 | Tier: Diagnose | Version 0.1
 
 - List the measurements a complete fetal echocardiogram requires.
 - Name the optional measurements and the phase of the cycle each is taken in.
-- Explain what a Z-score is and why the equation used must be stated.
+- Explain what a Z-score is and why the choice of published Z-score equation matters.
 - Say when measurements beyond the standard list are needed.
 
 ## Required in every study
@@ -2625,7 +2625,7 @@ Evolution: a ventricular septal defect can get smaller, with less severe or reso
 
 ## Still to be written
 
-- Awaiting re-check after rewording on 21 Nov (round 5, task J): the abnormal crux of AVSD with valve levels when closed (AS23-250); the valve index threshold and its dependence on the equation (AS23-255); outflow obstruction in AVSD (AS23-257); crisscross anatomy and discordance (AS23-272, 276, 359).
+- Checked by ChatGPT in task J (22 Nov) and now ai-cross-checked, but not yet taught here: each needs an editorial decision on whether to add it: the abnormal crux of AVSD with valve levels when closed (AS23-250); the valve index threshold and its dependence on the equation (AS23-255); outflow obstruction in AVSD (AS23-257); crisscross anatomy and discordance (AS23-272, 276, 359).
 - Isolated ventricular septal defect: types, views, colour settings, and how often each closes - needs a source.
 - Atrial septal defects (secundum, sinus venosus) and the normal foramen ovale - needs a source.
 - Genetic work-up after AVSD - unit XA2.
@@ -2756,7 +2756,7 @@ Pitfall: prenatal diagnosis of coarctation has substantial false-positive and fa
 
 ## Still to be written
 
-- Awaiting re-check after rewording on 21 Nov (round 5, task J): key observations in aortic stenosis (AS23-412); severity from the mitral regurgitant jet (AS23-414); progression and hydrops in severe obstruction (AS23-401, 402, 406); peak velocity and annulus size in atrioventricular valve disease (AS23-266); Figure 21 assessment of atrial restriction (AS23-284); lesions with restrictive foramen ovale (AS23-281); HLHS with mitral regurgitation in the follow-up table (AS23-423); warning signs on the three-vessel-and-trachea view (AS23-445); gradients not indicating severity (AS23-362, new).
+- Checked by ChatGPT in task J (22 Nov) and now ai-cross-checked, but not yet taught here: each needs an editorial decision on whether to add it: key observations in aortic stenosis (AS23-412, reworded again on 22 Nov and still awaiting a non-Claude re-check, so not usable); severity from the mitral regurgitant jet (AS23-414); progression and hydrops in severe obstruction (AS23-401, 402, 406); peak velocity and annulus size in atrioventricular valve disease (AS23-266); Figure 21 assessment of atrial restriction (AS23-284); lesions with restrictive foramen ovale (AS23-281); HLHS with mitral regurgitation in the follow-up table (AS23-423); warning signs on the three-vessel-and-trachea view (AS23-445); gradients not indicating severity (AS23-362, new).
 - Interrupted aortic arch: no claims held - needs a source.
 - Fetal intervention for aortic stenosis with evolving HLHS: candidacy and outcomes are in unit Z5.
 - Normal values and Z-scores for the measurements named here - unit XA6 and a Z-score source.
@@ -2872,7 +2872,7 @@ Regurgitation may worsen as pregnancy advances, so follow it serially. [27]
 
 ## Still to be written
 
-- Awaiting re-check after rewording on 21 Nov (round 5, task J): vena contracta width relative to the annulus (AS23-426); left ventricular mechanics in severe tricuspid disease (AS23-433); ductal anatomy and left pulmonary artery stenosis in pulmonary stenosis (AS23-361, new); gradients not indicating severity (AS23-362, new).
+- Checked by ChatGPT in task J (22 Nov) and now ai-cross-checked, but not yet taught here: each needs an editorial decision on whether to add it: vena contracta width relative to the annulus (AS23-426); left ventricular mechanics in severe tricuspid disease (AS23-433); ductal anatomy and left pulmonary artery stenosis in pulmonary stenosis (AS23-361, new); gradients not indicating severity (AS23-362, new).
 - Displacement of the tricuspid septal leaflet as a measure separating Ebstein anomaly from dysplasia, and outcome scores (for example the Celermajer index) - not in the claims held; needs a source.
 - Fetal pulmonary valvuloplasty for pulmonary atresia with intact septum - unit Z5.
 - Video outline not yet written.
@@ -3025,7 +3025,7 @@ Evolution and follow-up: rhythm problems, including congenital heart block, can 
 
 ## Still to be written
 
-- Awaiting re-check after rewording on 21 Nov (round 5, task J), so not used here: key observations for tetralogy (AS23-310) and D-transposition (AS23-326); early branching identifies the pulmonary artery (AS23-327); four-chamber clues to corrected transposition (AS23-335); ductal dependence in common trunk (AS23-349); bicuspid pulmonary valve in D-transposition (AS23-360); counselling only after fetal echocardiography (AS23-305); arch sidedness and branching (AS23-307).
+- Checked by ChatGPT in task J (22 Nov) and now ai-cross-checked, but not yet taught here: each needs an editorial decision on whether to add it, so not used here: key observations for tetralogy (AS23-310) and D-transposition (AS23-326); early branching identifies the pulmonary artery (AS23-327); four-chamber clues to corrected transposition (AS23-335); ductal dependence in common trunk (AS23-349); bicuspid pulmonary valve in D-transposition (AS23-360); counselling only after fetal echocardiography (AS23-305); arch sidedness and branching (AS23-307).
 - Aortic-to-pulmonary valve ratio and pulmonary valve Z-score as predictors in tetralogy (AS23-353): the checker asks the editor to reconcile the ratio's direction with the reference the guideline cites before it is taught.
 - Cardiac axis: Table 13 gives below 30° or above 60° (AS23-352), while Table 3 gives a different normal range - flagged for the editor on 17 Nov; the co-editor to decide which the course teaches.
 - Pulmonary atresia with ventricular septal defect: definition, views and collateral assessment - not in the claims held beyond its place in the differential.
@@ -3157,7 +3157,7 @@ A left superior vena cava draining to the coronary sinus is listed as a common v
 
 ## Still to be written
 
-- Awaiting re-check after rewording on 21 Nov (round 5, task J): arch sidedness and branching pattern in outflow lesions (AS23-307).
+- Checked by ChatGPT in task J (22 Nov) and now ai-cross-checked, but not yet taught here: each needs an editorial decision on whether to add it: arch sidedness and branching pattern in outflow lesions (AS23-307).
 - Right aortic arch: mirror-image against aberrant left subclavian branching, the L shape, and the association with 22q11 deletion and with intracardiac disease - needs a source (the checker's suggested Figure 30F claim was not found in the caption).
 - How to report an isolated right arch or aberrant subclavian artery, and whether genetic testing is offered - needs a source and the co-editor.
 - Systemic and pulmonary venous anomalies are planned for unit XB6; ASE has little on veins.
@@ -3260,7 +3260,7 @@ Regurgitation of the common atrioventricular valve may progress and can affect p
 
 ## Still to be written
 
-- Awaiting re-check after rewording on 21 Nov (round 5, task J): flow direction and restriction at the atrial septum, ductus and isthmus (AS23-217); adequacy of the atrial septal defect when the left valve is hypoplastic in double-inlet left ventricle (AS23-358).
+- Checked by ChatGPT in task J (22 Nov) and now ai-cross-checked, but not yet taught here: each needs an editorial decision on whether to add it: flow direction and restriction at the atrial septum, ductus and isthmus (AS23-217); adequacy of the atrial septal defect when the left valve is hypoplastic in double-inlet left ventricle (AS23-358).
 - Heterotaxy and isomerism: recognition and associated lesions - unit XB7; ASE has little on it and a source is needed.
 - Outcomes of the staged single-ventricle pathway, and what to tell parents - needs a source; unit Z7.
 - Video outline not yet written.
@@ -3440,7 +3440,7 @@ Families considering fetal aortic valvuloplasty should receive extensive counsel
 
 ## Still to be written
 
-- Awaiting re-check after rewording on 21 Nov (round 5, task J): the aims of counselling and the care team (AH14-121); timing - offered soon after the scan, ideally the same day (AH14-122); evidence on counselling techniques (AH14-126); checking understanding, avoiding overload, several sessions (AH14-127); visual aids and online information (AH14-331, new); evaluating on fetal echocardiography before discussing prognosis (AS23-305).
+- Checked by ChatGPT in task J (22 Nov) and now ai-cross-checked, but not yet taught here: each needs an editorial decision on whether to add it: the aims of counselling and the care team (AH14-121); timing - offered soon after the scan, ideally the same day (AH14-122); evidence on counselling techniques (AH14-126); checking understanding, avoiding overload, several sessions (AH14-127); visual aids and online information (AH14-331, new); evaluating on fetal echocardiography before discussing prognosis (AS23-305).
 - Indian law on termination of pregnancy (MTP Act and its amendments), the gestational limits, and the role of medical boards - needs an Indian legal source (tasks/results/task-s1.md, topic 15) and the legal advisor. The course must state the limits exactly as the law does.
 - PC-PNDT obligations during counselling - needs an Indian legal source.
 - How to break bad news; the editor's own approach and wording from her practice - the editor's teaching, recorded as claims.
@@ -3621,7 +3621,7 @@ The fetal diagnostic team should assign an anticipated level of care, and plans 
 
 ## Levels of care
 
-The AHA 2014 level-of-care scheme. Many newborns with heart disease need no specialised delivery room care. [9, 10, 11, 12, 13, 14, 15]
+The AHA 2014 level-of-care scheme. This is a US statement from 2014: a historical risk framework, not a current local protocol. Its timing, facility, referral and mode-of-delivery instructions must be reviewed against newer evidence and Indian services before anyone uses them. Many newborns with heart disease need no specialised delivery room care. [9, 10, 11, 12, 13, 14, 15]
 
 | Level | Meaning | Examples | Delivery plan |
 |---|---|---|---|
@@ -3650,7 +3650,7 @@ Reasonable (Class IIa): for HLHS with a restrictive or intact atrial septum and 
 
 May be considered (Class IIb): tetralogy with absent pulmonary valve, or Ebstein anomaly with hydrops. [23]
 
-Not needed (Class III): shunt lesions, most ductal-dependent lesions, and controlled arrhythmias. [24]
+Not needed (Class III): shunt lesions, most ductal-dependent lesions, and controlled arrhythmias. This is about a specialist team being present in the delivery room. It does not mean no plan: for ductal-dependent lesions (level 2) the plan still needs a hospital with a neonatologist and accessible cardiology, and prostaglandin where indicated. [24, 12]
 
 
 ## Fetal predictors, lesion by lesion
@@ -3676,7 +3676,7 @@ Complete heart block: a falling cardiovascular profile score (to below 7), a ver
 
 Cardiotocography is unlikely to be useful in fetal bradycardia or complete heart block. [35]
 
-## Delivery plan before 36 weeks
+## Delivery plan before birth
 
 - [ ] Level of care assigned and written in the report [7, 10, 11, 12, 13, 14, 15]
 - [ ] Obstetric, neonatal and cardiology teams agree the plan [6, 5]
@@ -3686,7 +3686,7 @@ Cardiotocography is unlikely to be useful in fetal bradycardia or complete heart
 
 ## Still to be written
 
-- Awaiting re-check after rewording on 21 Nov (round 5, task J): caesarean against vaginal birth (AH14-305); hydrops in complex heart disease and delivery (AH14-316); septum primum criteria in a later study (AH14-314); ductal flow and pulmonary hypertension therapy in d-TGA (AH14-326); fetal wellness testing (AH14-017, 118, 120).
+- Checked by ChatGPT in task J (22 Nov) and now ai-cross-checked, but not yet taught here: each needs an editorial decision on whether to add it: caesarean against vaginal birth (AH14-305); hydrops in complex heart disease and delivery (AH14-316); septum primum criteria in a later study (AH14-314); ductal flow and pulmonary hypertension therapy in d-TGA (AH14-326); fetal wellness testing (AH14-017, 118, 120).
 - Mode of delivery: without AH14-305 the unit says nothing on caesarean against vaginal birth beyond the level-of-care table.
 - Indian adaptation: where level 3 and 4 care is available, transport distances, and how the levels map to Indian hospitals - the editor's input and an Indian source.
 - Prostaglandin dosing and newborn drug doses - held back until the cardiology co-editor signs (Claude task rule 3).
@@ -3766,7 +3766,7 @@ Candidates need stenosis, not atresia, with antegrade flow; little or no subvalv
 
 Assessment on fetal echocardiography: ventricular size (end-diastolic diameter and length), whether the ventricle forms the apex, hypertrophy, endocardial fibroelastosis, and systolic and diastolic function help judge severity and suitability for prenatal intervention. [7]
 
-Results: in one reported series of 70 fetuses, balloon valvuloplasty was technically successful in 52 (74%). [8]
+Results: in one series of 70 fetuses reported in the AHA 2014 statement, balloon valvuloplasty was technically successful in 52 (74%). This is one historical series, not a current success rate, and technical success is not the same as clinical benefit. [8]
 
 After the procedure: delivery and management at a specialised congenital heart centre are recommended. Follow-up is every 4 weeks in the third trimester, assessing aortic outflow, arch flow direction, atrial septal flow, left ventricular size and function, mitral regurgitation and endocardial brightness. [9, 10]
 
@@ -3806,7 +3806,7 @@ Families considering aortic valvuloplasty should receive extensive counselling o
 
 ## Still to be written
 
-- Awaiting re-check after rewording on 21 Nov (round 5, task J): recommendation 23, the lesions for which catheter intervention may be considered (AH14-023); mortality in HLHS with highly restrictive or intact septum (AH14-209); predictors of a two-ventricle outcome after valvuloplasty, with z-score and pressure cut-offs (AH14-332, new).
+- Checked by ChatGPT in task J (22 Nov) and now ai-cross-checked, but not yet taught here: each needs an editorial decision on whether to add it: recommendation 23, the lesions for which catheter intervention may be considered (AH14-023); mortality in HLHS with highly restrictive or intact septum (AH14-209); predictors of a two-ventricle outcome after valvuloplasty, with z-score and pressure cut-offs (AH14-332, new).
 - Outcomes since 2014 (survival, biventricular circulation, maternal complications) from current registries - needs a newer source (tasks/results/task-s1.md, topic 10).
 - Where fetal cardiac intervention is available to Indian patients, and referral routes - the editor's input.
 - Transplacental drug therapy for arrhythmia and heart failure - unit Z4.

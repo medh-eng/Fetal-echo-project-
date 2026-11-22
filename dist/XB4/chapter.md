@@ -113,7 +113,7 @@ Evolution and follow-up: rhythm problems, including congenital heart block, can 
 
 ## Still to be written (awaiting sourced claims)
 
-- Awaiting re-check after rewording on 21 Nov (round 5, task J), so not used here: key observations for tetralogy (AS23-310) and D-transposition (AS23-326); early branching identifies the pulmonary artery (AS23-327); four-chamber clues to corrected transposition (AS23-335); ductal dependence in common trunk (AS23-349); bicuspid pulmonary valve in D-transposition (AS23-360); counselling only after fetal echocardiography (AS23-305); arch sidedness and branching (AS23-307).
+- Checked by ChatGPT in task J (22 Nov) and now ai-cross-checked, but not yet taught here: each needs an editorial decision on whether to add it, so not used here: key observations for tetralogy (AS23-310) and D-transposition (AS23-326); early branching identifies the pulmonary artery (AS23-327); four-chamber clues to corrected transposition (AS23-335); ductal dependence in common trunk (AS23-349); bicuspid pulmonary valve in D-transposition (AS23-360); counselling only after fetal echocardiography (AS23-305); arch sidedness and branching (AS23-307).
 - Aortic-to-pulmonary valve ratio and pulmonary valve Z-score as predictors in tetralogy (AS23-353): the checker asks the editor to reconcile the ratio's direction with the reference the guideline cites before it is taught.
 - Cardiac axis: Table 13 gives below 30° or above 60° (AS23-352), while Table 3 gives a different normal range - flagged for the editor on 17 Nov; the co-editor to decide which the course teaches.
 - Pulmonary atresia with ventricular septal defect: definition, views and collateral assessment - not in the claims held beyond its place in the differential.

@@ -13,9 +13,9 @@ Unit XA2 | Tier: Diagnose | Version 0.1
 
 ## How common, and why it matters
 
-About 15% of infants with heart disease have a recognisable chromosomal abnormality, mostly aneuploidies: trisomies 21, 13 and 18, and monosomy X. [1]
+In the AHA 2014 figures, about 15% of infants with heart disease have a recognisable chromosomal abnormality, mostly aneuploidies: trisomies 21, 13 and 18, and monosomy X. [1]
 
-In the fetus the rate is higher: abnormal karyotypes are found in 30% to 40% in most series, probably because affected fetuses die more often before birth. Even isolated heart disease diagnosed by ultrasound carries a risk of at least 15% to 30%. [2, 3]
+In the fetus the AHA 2014 figures are higher: abnormal karyotypes are found in 30% to 40% in most series, probably because affected fetuses die more often before birth. Even isolated heart disease diagnosed by ultrasound carries a risk of at least 15% to 30%. [2, 3]
 
 Genetic results may prompt a further search for anomalies, inform recurrence risk, and influence decisions on termination or palliative care. [4]
 
@@ -24,9 +24,9 @@ Genetic results may prompt a further search for anomalies, inform recurrence ris
 
 Ventricular and atrioventricular septal defects are the lesions most often associated with an abnormal karyotype. Of fetuses with atrioventricular septal defect and normal situs, 50% to 70% have trisomy 21. [5, 6]
 
-Risk of aneuploidy by lesion, from the AHA 2014 tables (ranges across published series). [7]
+Reported aneuploidy estimates by lesion, from the AHA 2014 tables (ranges across published series of that period). A 0% entry means none was reported in those series. It is not proof of zero risk and not a rule-out test. [7]
 
-| Lesion | Aneuploidy risk |
+| Lesion | Reported series estimate (AHA 2014) |
 |---|---|
 | Atrioventricular septal defect | 46-73% |
 | Common arterial trunk | 19-78% |
@@ -85,7 +85,7 @@ Ventricular septal defect and tricuspid atresia are often associated with other 
 
 ## Still to be written (awaiting sourced claims)
 
-- Awaiting re-check after rewording on 21 Nov (round 5, task J): recommendation 14, genetic counselling with offer of aneuploidy testing and detailed anatomy scan (AH14-014); extracardiac anomaly rates (AH14-114); fetal MRI for extracardiac screening (AH14-015, 016, 117); parental testing (AH14-330, new).
+- Checked by ChatGPT in task J (22 Nov) and now ai-cross-checked, but not yet taught here: each needs an editorial decision on whether to add it: recommendation 14, genetic counselling with offer of aneuploidy testing and detailed anatomy scan (AH14-014); extracardiac anomaly rates (AH14-114); fetal MRI for extracardiac screening (AH14-015, 016, 117); parental testing (AH14-330, new).
 - Current testing: exome and genome sequencing, rapid aneuploidy tests, and how testing has changed since 2014 - needs a newer source and a clinical geneticist.
 - Availability and cost of each test in India, and the legal framework (PC-PNDT) for prenatal genetic testing - needs an Indian source and the editor's input.
 - Recurrence risks for siblings and offspring - needs a source.

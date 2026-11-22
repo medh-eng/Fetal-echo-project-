@@ -358,6 +358,13 @@ def main():
     args = ap.parse_args()
 
     errors, warnings, sources, claims, units = validate(release=args.release)
+    # Drill keys in the unit files are authored with the correct option first, so the
+    # learner-facing pages must shuffle options when they show them (Task K, 22 Nov).
+    for tpl in (ROOT / "tools/templates/app.html", ):
+        if "shuffle(it.options" not in tpl.read_text(encoding="utf-8"):
+            errors.append(f"{tpl.name}: drill options are not shuffled at display time")
+    if "shuffle(it.options" not in Path(__file__).read_text(encoding="utf-8").split("def main")[0]:
+        errors.append("build.py study page: drill options are not shuffled at display time")
     for w in warnings:
         print(f"warning: {w}")
     for err in errors:

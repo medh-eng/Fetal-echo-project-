@@ -9,7 +9,7 @@ tier: Diagnose
 version: 0.1
 summary: "Right-sided obstruction and right-sided regurgitation: what each looks like, the Doppler that matters, the traps, and how these lesions progress."
 drafted_by: "Claude (Opus 5.5, 21 Nov 2026)"
-audited_by: null
+audited_by: "ChatGPT (GPT-6, 22 Nov 2026), findings applied by Claude (Sonnet 5.5)"
 signed_by: null
 
 objectives:
@@ -62,21 +62,21 @@ sections:
         claims: [AS23-440]
 
 missing_claims:
-  - "Awaiting re-check after rewording on 21 Nov (round 5, task J): vena contracta width relative to the annulus (AS23-426); left ventricular mechanics in severe tricuspid disease (AS23-433); ductal anatomy and left pulmonary artery stenosis in pulmonary stenosis (AS23-361, new); gradients not indicating severity (AS23-362, new)."
+  - "Checked by ChatGPT in task J (22 Nov) and now ai-cross-checked, but not yet taught here: each needs an editorial decision on whether to add it: vena contracta width relative to the annulus (AS23-426); left ventricular mechanics in severe tricuspid disease (AS23-433); ductal anatomy and left pulmonary artery stenosis in pulmonary stenosis (AS23-361, new); gradients not indicating severity (AS23-362, new)."
   - "Displacement of the tricuspid septal leaflet as a measure separating Ebstein anomaly from dysplasia, and outcome scores (for example the Celermajer index) - not in the claims held; needs a source."
   - "Fetal pulmonary valvuloplasty for pulmonary atresia with intact septum - unit Z5."
   - "Video outline not yet written."
 
 drills:
   - id: XB3-Q01
-    question: "The four-chamber view looks normal, but the three-vessel view shows reversed flow in the ductus. Which lesion should you consider?"
+    question: "The four-chamber view looks normal, but the three-vessel view shows reversed flow in the ductus. Which right-sided obstructive lesion is among the possibilities?"
     options:
       - "Pulmonary stenosis or atresia"
       - "Coarctation"
       - "Normal finding at mid-trimester"
       - "Ductal aneurysm"
     answer: 0
-    explanation: "In pulmonary stenosis the four-chamber view may look normal while reversed colour flow is seen in the ductus or main PA."
+    explanation: "In pulmonary stenosis the four-chamber view may look normal while reversed colour flow is seen in the ductus or main PA. This sign is not diagnostic on its own: it is a reason to complete the study, not a final diagnosis."
     claims: [AS23-418]
 
   - id: XB3-Q02

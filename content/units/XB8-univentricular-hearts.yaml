@@ -10,7 +10,7 @@ tier: Diagnose
 version: 0.1
 summary: "The complete examination of a suspected single ventricle, segment by segment, and the findings that decide ductal dependence, surgery and prognosis."
 drafted_by: "Claude (Opus 5.5, 21 Nov 2026)"
-audited_by: null
+audited_by: "ChatGPT (GPT-6, 22 Nov 2026), findings applied by Claude (Sonnet 5.5)"
 signed_by: null
 
 objectives:
@@ -71,7 +71,7 @@ sections:
         claims: [AS23-517]
 
 missing_claims:
-  - "Awaiting re-check after rewording on 21 Nov (round 5, task J): flow direction and restriction at the atrial septum, ductus and isthmus (AS23-217); adequacy of the atrial septal defect when the left valve is hypoplastic in double-inlet left ventricle (AS23-358)."
+  - "Checked by ChatGPT in task J (22 Nov) and now ai-cross-checked, but not yet taught here: each needs an editorial decision on whether to add it: flow direction and restriction at the atrial septum, ductus and isthmus (AS23-217); adequacy of the atrial septal defect when the left valve is hypoplastic in double-inlet left ventricle (AS23-358)."
   - "Heterotaxy and isomerism: recognition and associated lesions - unit XB7; ASE has little on it and a source is needed."
   - "Outcomes of the staged single-ventricle pathway, and what to tell parents - needs a source; unit Z7."
   - "Video outline not yet written."
@@ -122,14 +122,14 @@ drills:
     claims: [AS23-213]
 
   - id: XB8-Q05
-    question: "Single ventricle with left atrial isomerism and slow ventricular rate. What does the guideline say about this combination?"
+    question: "Single ventricle with bradyarrhythmia, left atrial isomerism and discordant atrioventricular connections. What does the guideline say about this combination of three findings?"
     options:
       - "Poor prognosis and a high risk of death in utero"
       - "No effect on prognosis"
       - "The rate always recovers by term"
       - "It improves surgical outcome"
     answer: 0
-    explanation: "Bradyarrhythmias with left atrial isomerism and discordant connections carry a poor prognosis and high risk of fetal death."
+    explanation: "The guideline ties the poor prognosis and high risk of fetal death to the combination of bradyarrhythmia, left atrial isomerism and discordant atrioventricular connections. It does not say that two of the three findings carry the same risk."
     claims: [AS23-214]
 
   - id: XB8-Q06

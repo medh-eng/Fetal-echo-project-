@@ -1134,13 +1134,13 @@ claims:
   topic: delivery planning
   statement: "In d-TGA, a later study found that a tethered or bowing septum primum did not predict postnatal compromise needing emergent intervention with acceptable sensitivity or specificity."
   source: AHA-2014-FETALCARDIAC
-  locator: Perinatal Management and Outcome of Fetuses With CHD, Foramen Ovale-Dependent Lesions, p. 2225
-  status: ai-extracted
+  locator: "Perinatal Management and Outcome of Fetuses With CHD, Foramen Ovale-Dependent Lesions, pp. 2224-2225"
+  status: ai-cross-checked
   extracted_by: Claude (Opus 5.5, 2026-11-17), from the published PDF (eScholarship copy), first through a web reader,
     then checked by the extractor against the PDF pages
-  checked_by: null
+  checked_by: "ChatGPT (GPT-6, 2026-11-22)"
   verified_by: null
-  note: "The document itself calls this uncertain, limited in evidence or investigational. REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: p. 2224–2225: The later study tested tethering or bowing and the outcome of postnatal compromise requiring emergent intervention. It did not invalidate all septum primum criteria for predicting closure. Needs re-check by a non-Claude model (round 5, task J)."
+  note: "The document itself calls this uncertain, limited in evidence or investigational. REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: p. 2224–2225: The later study tested tethering or bowing and the outcome of postnatal compromise requiring emergent intervention. It did not invalidate all septum primum criteria for predicting closure. Needs re-check by a non-Claude model (round 5, task J). LOCATOR corrected 22 Nov 2026 after ChatGPT task J (statement supported at the corrected page)."
 - id: AH14-315
   topic: delivery planning
   statement: Planned cardioversion or antiarrhythmic therapy in the delivery room is indicated for uncontrolled tachycardia;
