@@ -62,6 +62,8 @@ Output: one short list per unit, then "Units with nothing to fix: ...".
 Use nothing from memory. If a fact is missing from the ledger, say MISSING CLAIM.
 ```
 
+One-file version: `tasks/handoff/task-k-bundle.md` (made by `python tools/make_handoff_k.py`; attach it with the two PDFs).
+
 Save as `tasks/results/task-k.md`, then set `audited_by` in each unit when the findings are applied (Claude may apply them; Claude may not audit its own drafts).
 
 ## Still open from round 4
