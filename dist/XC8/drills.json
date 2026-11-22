@@ -1,0 +1,87 @@
+{
+  "unit": "XC8",
+  "title": "The heart and the rest of the fetus: extracardiac anomalies",
+  "status": "ai-cross-checked",
+  "items": [
+    {
+      "id": "XC8-Q01",
+      "question": "About how often are extracardiac anomalies found in infants with congenital heart disease?",
+      "options": [
+        "Up to 20%",
+        "Almost never",
+        "In every infant",
+        "Only in infants with a chromosomal abnormality"
+      ],
+      "answer": 0,
+      "explanation": "Up to 20% of infants have an extracardiac anomaly. The proportion is higher in fetuses.",
+      "claims": [
+        "AH14-114"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XC8-Q02",
+      "question": "Is the proportion with extracardiac anomalies higher in fetuses or in infants?",
+      "options": [
+        "Higher in fetuses, with figures up to 50% to 70% reported",
+        "Higher in infants",
+        "The same in both",
+        "Not known in either"
+      ],
+      "answer": 0,
+      "explanation": "Fetal series report higher proportions, up to 50% to 70%.",
+      "claims": [
+        "AH14-114"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XC8-Q03",
+      "question": "Which pair of lesions is more often isolated?",
+      "options": [
+        "D-transposition and pulmonary atresia with intact septum",
+        "Ventricular septal defect and tricuspid atresia",
+        "Ventricular septal defect and D-transposition",
+        "Tricuspid atresia and pulmonary atresia with intact septum"
+      ],
+      "answer": 0,
+      "explanation": "Ventricular septal defect and tricuspid atresia are often associated with other anomalies. D-transposition and pulmonary atresia with intact septum are more often isolated.",
+      "claims": [
+        "AH14-115"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XC8-Q04",
+      "question": "A fetus is diagnosed with heart disease. What survey is recommended?",
+      "options": [
+        "A detailed survey of all fetal anatomy by an expert operator",
+        "A survey only if the heart disease is complex",
+        "No survey, because the heart explains the findings",
+        "A survey only at birth"
+      ],
+      "answer": 0,
+      "explanation": "A detailed anatomy survey is recommended for every fetus with heart disease, and repeat assessment may be appropriate.",
+      "claims": [
+        "AH14-116"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XC8-Q05",
+      "question": "The first detailed survey of a fetus with heart disease is normal outside the heart. What follows?",
+      "options": [
+        "Repeat assessment may be appropriate, because some anomalies are only detectable later",
+        "The survey never needs repeating",
+        "Extracardiac anomalies can be excluded for good",
+        "Only a postnatal check is allowed"
+      ],
+      "answer": 0,
+      "explanation": "Some anomalies may only be detectable later, so repeat assessment may be appropriate.",
+      "claims": [
+        "AH14-116"
+      ],
+      "status": "ai-cross-checked"
+    }
+  ]
+}

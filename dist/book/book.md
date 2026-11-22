@@ -32,7 +32,11 @@ author: Edited by Dr Kunda Shahane, Mayflower Clinic, Nagpur
 - XB4 Lesion atlas: conotruncal lesions (tetralogy, transposition, DORV, common trunk) (draft)
 - XB5 Lesion atlas: arch and vessels (right arch, double arch, aberrant subclavian, ductus) (draft)
 - XB8 Lesion atlas: univentricular hearts (draft)
+- XB9 Cardiac tumours, ventricular dysfunction and heart failure (draft)
 - XC1 Assessing cardiac function: the first steps (draft)
+- XC5 The heart in twins: twin-twin transfusion (draft)
+- XC7 Maternal disease, drugs and exposures: who needs referral (draft)
+- XC8 The heart and the rest of the fetus: extracardiac anomalies (draft)
 - Z1 Counselling in depth (draft)
 - Z2 Surveillance plans by lesion (draft)
 - Z3 Planning delivery: place, timing, mode, first-hour needs (draft)
@@ -3297,6 +3301,59 @@ Regurgitation of the common atrioventricular valve may progress and can affect p
 
 \newpage
 
+# Cardiac tumours, ventricular dysfunction and heart failure
+
+> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-cross-checked' that no clinician has verified.
+
+Unit XB9 | Tier: Diagnose | Version 0.1
+
+## You will be able to
+
+- State what decides the effect of a cardiac tumour.
+- Describe how rhabdomyomas evolve.
+- Say when a cardiac tumour should prompt genetic testing.
+- List causes of fetal ventricular dysfunction and heart failure.
+
+## Cardiac tumours
+
+The effect of a cardiac tumour depends on its type and on how it affects filling, function and rhythm. [1]
+
+Rhabdomyomas evolve in the mid-trimester but regress after 32 weeks. [2]
+
+A cardiac tumour found in mid or late gestation should prompt genetic testing. Over 60% of such fetuses have tuberous sclerosis. [3]
+
+
+## Dysfunction and failure
+
+Fetal ventricular dysfunction can result from primary myocardial disease, structural heart disease with volume load, outflow obstruction on both sides, and arrhythmias. [4]
+
+Fetal heart failure can result from ventricular dysfunction with inadequate preload redistribution, volume or pressure overload, arrhythmia, or compression of the heart. [5]
+
+## Cardiac tumour or poor function: what to record
+
+- [ ] Tumour effect on filling, function and rhythm [1]
+- [ ] Gestation, since rhabdomyomas evolve in mid-trimester and regress after 32 weeks [2]
+- [ ] Genetic testing offered for a tumour found in mid or late gestation [3]
+- [ ] Cause of dysfunction or failure considered: myocardium, volume load, obstruction, arrhythmia, compression [4, 5]
+
+## Still to be written
+
+- How to recognise and tell apart tumour types on the image, and their usual sites - no claim held.
+- Cardiomyopathy types, pericardial effusion, and measurements of function - need a source.
+- Hydrops, scoring systems and treatment of heart failure - unit XC2.
+- Anything newer than the two guidelines, and Indian practice.
+
+## References
+
+1. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 14 (mechanisms and patterns of progression), pp. 710-711. (AS23-521, ai-cross-checked)
+2. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 14 (mechanisms and patterns of progression), pp. 710-711. (AS23-522, ai-cross-checked)
+3. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Extracardiac Assessment of the Fetus With CHD, p. 2207. (AH14-111, ai-cross-checked)
+4. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 14 (mechanisms and patterns of progression), pp. 710-711. (AS23-523, ai-cross-checked)
+5. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – Table 14 (mechanisms and patterns of progression), pp. 710-711. (AS23-524, ai-cross-checked)
+
+
+\newpage
+
 # Assessing cardiac function: the first steps
 
 > DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-extracted' that no clinician has verified.
@@ -3386,6 +3443,178 @@ The follow-up interval should be decided by the fetal cardiology and obstetric t
 13. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.G CW Doppler Ultrasound, p. 692; III.A Equipment, p. 683. (AS23-015, expert-verified)
 14. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – IV.B. Assessment of Fetal Cardiac Functional Abnormalities, Additional Imaging, p. 703. (AS23-095, expert-verified)
 15. Moon-Grady AJ, Donofrio MT, Gelehrter S, Hornberger L, Kreeger J, Lee W, et al.. Guidelines and Recommendations for Performance of the Fetal Echocardiogram: An Update from the American Society of Echocardiography. J Am Soc Echocardiogr. 2023 36(7):679-723. doi:10.1016/j.echo.2023.04.014 – III.A. Timing of Examination, Equipment, and Image Storage, Timing, p. 682. (AS23-039, ai-extracted)
+
+
+\newpage
+
+# The heart in twins: twin-twin transfusion
+
+> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-cross-checked' that no clinician has verified.
+
+Unit XC5 | Tier: Diagnose | Version 0.1
+
+## You will be able to
+
+- State how often twin-twin transfusion occurs and why it matters.
+- Describe the cardiac findings in the recipient twin.
+- Explain what Quintero staging leaves out.
+- Say when a fetal echocardiogram is part of the care.
+
+## The problem
+
+Twin-twin transfusion syndrome occurs in about 10% to 20% of monochorionic twin pregnancies. Untreated, fetal mortality approaches 90% to 100%. [1]
+
+
+## What the heart shows
+
+The recipient twin often shows ventricular dysfunction, chamber enlargement, hypertrophy and atrioventricular valve regurgitation. Right ventricular outflow abnormalities can develop and may persist after laser therapy. [2]
+
+Quintero staging is the system most used clinically, but it does not include cardiac findings. Cardiac scoring systems (Cincinnati, CHOP) have been proposed. [3]
+
+Whether cardiac findings predict outcome is controversial. [4]
+
+
+## The role of fetal echocardiography
+
+A fetal echocardiogram should be part of the diagnostic assessment and initial management of twin-twin transfusion syndrome. [5]
+
+After laser treatment, a fetal echocardiogram 24 to 48 hours later should be considered for surviving twins. [6]
+
+## Twin-twin transfusion: the cardiac study
+
+- [ ] Fetal echocardiogram done as part of the first assessment [5]
+- [ ] Recipient: function, chamber size, wall thickness, atrioventricular valve regurgitation, right ventricular outflow [2]
+- [ ] Remember that Quintero stage carries no cardiac information [3]
+- [ ] After laser: consider a repeat study 24 to 48 hours later in surviving twins [6]
+
+## Still to be written
+
+- Quintero stages and the Cincinnati and CHOP scores in detail (Tables 17 and 18 of AHA 2014) - not harvested.
+- Treatment of twin-twin transfusion, timing and referral to a fetal therapy centre - needs a source; Dr Kunda's own practice.
+- Cardiac findings in the donor twin, and discordant growth in twins without transfusion - no claim held.
+- Anything newer than 2014, and Indian practice - needs a newer source.
+
+## References
+
+1. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Twin-Twin Transfusion Syndrome, Pathophysiology, p. 2219. (AH14-215, ai-cross-checked)
+2. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Twin-Twin Transfusion Syndrome, Cardiac Effects, p. 2219. (AH14-216, ai-cross-checked)
+3. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Twin-Twin Transfusion Syndrome, Diagnosis and Hemodynamic Assessment, p. 2219; Tables 17-18. (AH14-217, ai-cross-checked)
+4. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Twin-Twin Transfusion Syndrome, pp. 2219-2220. (AH14-219, ai-cross-checked)
+5. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Twin-Twin Transfusion Syndrome, p. 2220. (AH14-218, ai-cross-checked)
+6. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Twin-Twin Transfusion Syndrome, p. 2220. (AH14-220, ai-cross-checked)
+
+
+\newpage
+
+# Maternal disease, drugs and exposures: who needs referral
+
+> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-cross-checked' that no clinician has verified.
+
+Unit XC7 | Tier: Diagnose | Version 0.1
+
+## You will be able to
+
+- Name the maternal conditions, drugs and infections for which referral for fetal cardiac evaluation is indicated.
+- Tell apart indicated, reasonable, may-be-considered and not-indicated referrals.
+- Take a maternal history that picks up the exposures that matter.
+
+## How to read the recommendations
+
+This unit follows the AHA 2014 recommendations on who should be referred. It tells you who to refer. It does not say whether to stop or change any medicine.
+
+
+## Referral indicated (Class I)
+
+Referral for fetal cardiac evaluation is indicated for: pregestational diabetes or diabetes diagnosed in the first trimester; uncontrolled phenylketonuria; SSA/SSB autoantibodies with a previously affected child; retinoic acid; NSAIDs in the third trimester; first-trimester rubella; and infection with suspected fetal myocarditis. [1]
+
+
+## Referral reasonable, may be considered, or not indicated
+
+Reasonable (Class IIa): SSA/SSB autoantibodies without a previously affected child; ACE inhibitors; pregnancy by assisted reproduction. [2]
+
+May be considered (Class IIb): anticonvulsants; lithium; vitamin A; the SSRI paroxetine only; NSAIDs in the first or second trimester. [3]
+
+Not indicated (Class III): gestational diabetes with HbA1c below 6%; SSRIs other than paroxetine; infection other than rubella with seroconversion only. Vitamin K agonists are also listed as not indicated, as printed in the statement, although a fetal survey is recommended. [4]
+
+| Exposure | Referral |
+|---|---|
+| Pregestational diabetes, or diabetes diagnosed in the first trimester | Indicated (Class I) |
+| Gestational diabetes with HbA1c below 6% | Not indicated (Class III) |
+| SSA/SSB autoantibodies, previously affected child | Indicated (Class I) |
+| SSA/SSB autoantibodies, no previously affected child | Reasonable (Class IIa) |
+| NSAIDs in the third trimester | Indicated (Class I) |
+| NSAIDs in the first or second trimester | May be considered (Class IIb) |
+| Paroxetine | May be considered (Class IIb) |
+| SSRIs other than paroxetine | Not indicated (Class III) |
+| First-trimester rubella | Indicated (Class I) |
+| Other infection, seroconversion only | Not indicated (Class III) |
+
+## Maternal history for referral
+
+- [ ] Diabetes: before pregnancy, or found in the first trimester, or gestational with its HbA1c [1, 4]
+- [ ] SSA/SSB autoantibodies, and whether a previous child was affected [1, 2]
+- [ ] Drug and exposure history, with the trimester for NSAIDs [1, 2, 3, 4]
+- [ ] Infection: first-trimester rubella, or suspected fetal myocarditis [1, 4]
+
+## Still to be written
+
+- Everything outside referral: the size of the risk from each exposure, advice on stopping or changing a medicine, and any dose. Needs a source and a clinician who prescribes.
+- Anything newer than 2014, including current practice in India - needs a newer source and the editor's input.
+- Other referral indications in the same recommendations (family history, nuchal translucency, twins, abnormal rhythm, cord and placental abnormalities) - belong in a unit on indications.
+
+## References
+
+1. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Recommendations, Fetal Cardiac Evaluation, p. 2226, recommendation 1. (AH14-001, ai-cross-checked)
+2. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Recommendations, Fetal Cardiac Evaluation, p. 2226, recommendation 3. (AH14-003, ai-cross-checked)
+3. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Recommendations, Fetal Cardiac Evaluation, p. 2226, recommendation 4. (AH14-004, ai-cross-checked)
+4. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Recommendations, Fetal Cardiac Evaluation, p. 2226, recommendation 5. (AH14-005, ai-cross-checked)
+
+
+\newpage
+
+# The heart and the rest of the fetus: extracardiac anomalies
+
+> DRAFT - NOT FOR CLINICAL USE. Contains claims with status 'ai-cross-checked' that no clinician has verified.
+
+Unit XC8 | Tier: Diagnose | Version 0.1
+
+## You will be able to
+
+- State how often extracardiac anomalies accompany congenital heart disease.
+- Name lesions that are often, and less often, accompanied by other anomalies.
+- State what survey a fetus with heart disease should have.
+
+## How often
+
+Extracardiac anomalies occur in up to 20% of infants with congenital heart disease. The proportion is higher in fetuses, with figures as high as 50% to 70% reported. [1]
+
+
+## Which lesions
+
+Ventricular septal defect and tricuspid atresia are often associated with other anomalies. D-transposition and pulmonary atresia with intact septum are more often isolated. [2]
+
+
+## What to do
+
+A detailed survey of all fetal anatomy, by an expert operator, is recommended for every fetus diagnosed with heart disease. Some anomalies may only be detectable later, so repeat assessment may be appropriate. [3]
+
+## Fetus with heart disease: the rest of the fetus
+
+- [ ] Detailed survey of all fetal anatomy done by an expert operator [3]
+- [ ] Lesion noted: does it often come with other anomalies, or is it usually isolated? [2]
+- [ ] Repeat assessment considered, since some anomalies appear later [3]
+
+## Still to be written
+
+- Which extracardiac anomalies go with which cardiac lesions, organ by organ - no claim held.
+- Fetal MRI and other extra tests, and how extracardiac findings change prognosis and counselling - partly in unit XA2; needs more claims.
+- Anything newer than 2014, and Indian practice - needs a newer source.
+
+## References
+
+1. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Extracardiac Assessment of the Fetus With CHD, Extracardiac Abnormalities, p. 2208. (AH14-114, ai-cross-checked)
+2. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Extracardiac Assessment of the Fetus With CHD, p. 2208. (AH14-115, ai-cross-checked)
+3. Donofrio MT, Moon-Grady AJ, Hornberger LK, Copel JA, Sklansky MS, Abuhamad A, et al.. Diagnosis and Treatment of Fetal Cardiac Disease: A Scientific Statement From the American Heart Association. Circulation. 2014 129(21):2183-2242. doi:10.1161/01.cir.0000437597.44550.5d – Extracardiac Assessment of the Fetus With CHD, Fetal Survey, p. 2208. (AH14-116, ai-cross-checked)
 
 
 \newpage

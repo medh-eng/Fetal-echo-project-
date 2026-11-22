@@ -15,15 +15,11 @@
 
 - {id: XB6, title: "Lesion atlas: veins (left SVC, anomalous pulmonary veins, interrupted IVC, ductus venosus)", tier: Diagnose, sources: [ASE-2023-FETALECHO, "TO FIND"], needs: C, next: "Cross-check AS23-518 to 520; ASE has little on veins - a second source is needed", task: "chatgpt round 4, task I"}
 - {id: XB7, title: "Lesion atlas: position and laterality (heterotaxy, situs inversus, dextrocardia)", tier: Diagnose, sources: [ASE-2023-FETALECHO, "TO FIND"], needs: C, next: "ASE has little on heterotaxy (AS23-235, 517); a source is needed", task: "gemini source search"}
-- {id: XB9, title: "Lesion atlas: myocardium and pericardium (cardiomyopathy, tumours, effusion)", tier: Diagnose, sources: [AHA-2014-FETALCARDIAC, "TO FIND"], needs: C, next: "Tumours and dysfunction only (AS23-521 to 524, AH14-111); cardiomyopathy and effusion need a source", task: "gemini source search"}
 
 - {id: XC2, title: "Heart failure and hydrops; scoring systems", tier: Diagnose, sources: [AHA-2014-FETALCARDIAC, ASE-2023-FETALECHO], needs: C, next: "Harvest AHA 2014 function and heart-failure sections", task: "chatgpt round 3, task H1"}
 - {id: XC3, title: "Tachyarrhythmias", tier: Diagnose, sources: [AHA-2024-ARRHYTHMIA-DRUGS, AHA-2014-FETALCARDIAC, ASE-2023-FETALECHO], needs: C, next: "Harvest AHA 2024; unit F2 already covers recognition", task: "chatgpt round 3, task H2"}
 - {id: XC4, title: "Bradyarrhythmias and heart block; autoimmune disease", tier: Diagnose, sources: [AHA-2024-ARRHYTHMIA-DRUGS, AHA-2014-FETALCARDIAC, ASE-2023-FETALECHO], needs: C, next: "Harvest AHA 2024", task: "chatgpt round 3, task H2"}
-- {id: XC5, title: "The heart in twins", tier: Diagnose, sources: ["TO FIND"], needs: K, next: "Candidate sources in tasks/results/task-s1.md (topic 7); AHA 2014 TTTS claims AH14-215 to 220 harvested", task: "Dr Kunda picks a source"}
 - {id: XC6, title: "The heart in growth restriction and placental disease", tier: Diagnose, sources: ["TO FIND"], needs: K, next: "Candidate sources in tasks/results/task-s1.md (topic 8)", task: "Dr Kunda picks a source"}
-- {id: XC7, title: "Maternal disease and drugs", tier: Diagnose, sources: [AHA-2014-FETALCARDIAC, "TO FIND"], needs: K, next: "Cross-check AH14-001 to 005 (indications); then draft", task: "chatgpt round 4, task I"}
-- {id: XC8, title: "The heart in extracardiac anomalies", tier: Diagnose, sources: [AHA-2014-FETALCARDIAC, "TO FIND"], needs: K, next: "Cross-check AH14-114 to 116; then draft", task: "chatgpt round 4, task I"}
 
 - {id: Z4, title: "Transplacental drug therapy", tier: Decide, sources: [AHA-2024-ARRHYTHMIA-DRUGS, AHA-2014-FETALCARDIAC], needs: C, next: "Harvest AHA 2024", task: "chatgpt round 3, task H2"}
 - {id: Z6, title: "Maternal hyperoxygenation testing", tier: Decide, sources: ["TO FIND"], needs: C, next: "Source search", task: "gemini task S1"}

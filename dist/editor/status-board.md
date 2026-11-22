@@ -38,15 +38,15 @@ Needs: C = cardiology co-editor, S = other specialist reviewer, K = Dr Kunda's o
 | XB6 | Lesion atlas: veins (left SVC, anomalous pulmonary veins, interrupted IVC, ductus venosus) | Diagnose | - | - | - | - | - | - | ASE-2023-FETALECHO, TO FIND · needs C | Cross-check AS23-518 to 520; ASE has little on veins - a second source is needed (chatgpt round 4, task I) |
 | XB7 | Lesion atlas: position and laterality (heterotaxy, situs inversus, dextrocardia) | Diagnose | - | - | - | - | - | - | ASE-2023-FETALECHO, TO FIND · needs C | ASE has little on heterotaxy (AS23-235, 517); a source is needed (gemini source search) |
 | XB8 | Lesion atlas: univentricular hearts | Diagnose | yes | yes | yes | yes | yes | - | 0/26 claims verified | Editor sign-off |
-| XB9 | Lesion atlas: myocardium and pericardium (cardiomyopathy, tumours, effusion) | Diagnose | - | - | - | - | - | - | AHA-2014-FETALCARDIAC, TO FIND · needs C | Tumours and dysfunction only (AS23-521 to 524, AH14-111); cardiomyopathy and effusion need a source (gemini source search) |
+| XB9 | Cardiac tumours, ventricular dysfunction and heart failure | Diagnose | yes | yes | yes | yes | - | - | 0/5 claims verified | Audit by a non-Claude model |
 | XC1 | Assessing cardiac function: the first steps | Diagnose | yes | yes | - | yes | yes | - | 13/15 claims verified | Cross-check 2 claim(s) |
 | XC2 | Heart failure and hydrops; scoring systems | Diagnose | - | - | - | - | - | - | AHA-2014-FETALCARDIAC, ASE-2023-FETALECHO · needs C | Harvest AHA 2014 function and heart-failure sections (chatgpt round 3, task H1) |
 | XC3 | Tachyarrhythmias | Diagnose | - | - | - | - | - | - | AHA-2024-ARRHYTHMIA-DRUGS, AHA-2014-FETALCARDIAC, ASE-2023-FETALECHO · needs C | Harvest AHA 2024; unit F2 already covers recognition (chatgpt round 3, task H2) |
 | XC4 | Bradyarrhythmias and heart block; autoimmune disease | Diagnose | - | - | - | - | - | - | AHA-2024-ARRHYTHMIA-DRUGS, AHA-2014-FETALCARDIAC, ASE-2023-FETALECHO · needs C | Harvest AHA 2024 (chatgpt round 3, task H2) |
-| XC5 | The heart in twins | Diagnose | - | - | - | - | - | - | TO FIND · needs K | Candidate sources in tasks/results/task-s1.md (topic 7); AHA 2014 TTTS claims AH14-215 to 220 harvested (Dr Kunda picks a source) |
+| XC5 | The heart in twins: twin-twin transfusion | Diagnose | yes | yes | yes | yes | - | - | 0/6 claims verified | Audit by a non-Claude model |
 | XC6 | The heart in growth restriction and placental disease | Diagnose | - | - | - | - | - | - | TO FIND · needs K | Candidate sources in tasks/results/task-s1.md (topic 8) (Dr Kunda picks a source) |
-| XC7 | Maternal disease and drugs | Diagnose | - | - | - | - | - | - | AHA-2014-FETALCARDIAC, TO FIND · needs K | Cross-check AH14-001 to 005 (indications); then draft (chatgpt round 4, task I) |
-| XC8 | The heart in extracardiac anomalies | Diagnose | - | - | - | - | - | - | AHA-2014-FETALCARDIAC, TO FIND · needs K | Cross-check AH14-114 to 116; then draft (chatgpt round 4, task I) |
+| XC7 | Maternal disease, drugs and exposures: who needs referral | Diagnose | yes | yes | yes | yes | - | - | 0/4 claims verified | Audit by a non-Claude model |
+| XC8 | The heart and the rest of the fetus: extracardiac anomalies | Diagnose | yes | yes | yes | yes | - | - | 0/3 claims verified | Audit by a non-Claude model |
 | Z1 | Counselling in depth | Decide | yes | yes | yes | yes | yes | - | 0/10 claims verified | Editor sign-off |
 | Z2 | Surveillance plans by lesion | Decide | yes | yes | yes | yes | yes | - | 4/32 claims verified | Editor sign-off |
 | Z3 | Planning delivery: place, timing, mode, first-hour needs | Decide | yes | yes | yes | yes | yes | - | 0/35 claims verified | Editor sign-off |
@@ -57,4 +57,4 @@ Needs: C = cardiology co-editor, S = other specialist reviewer, K = Dr Kunda's o
 | Z8 | Palliative care and bereavement | Decide | - | - | - | - | - | - | TO FIND · needs S | Source search (gemini task S1) |
 | Z9 | Building a fetal cardiac service and referral network | Decide | - | - | - | - | - | - | TO FIND · needs K | Dr Kunda's own experience recorded as claims (editor) |
 
-**51 units.** Source held: 29; Harvested: 29; Cross-checked: 18; Drafted: 29; Audited: 29; Signed: 6.
+**51 units.** Source held: 33; Harvested: 33; Cross-checked: 22; Drafted: 33; Audited: 29; Signed: 6.

@@ -1,0 +1,87 @@
+{
+  "unit": "XC5",
+  "title": "The heart in twins: twin-twin transfusion",
+  "status": "ai-cross-checked",
+  "items": [
+    {
+      "id": "XC5-Q01",
+      "question": "Which twin pregnancies are at risk of twin-twin transfusion syndrome?",
+      "options": [
+        "Monochorionic twins",
+        "All twin pregnancies equally",
+        "Dichorionic twins only",
+        "Only twins with a heart defect"
+      ],
+      "answer": 0,
+      "explanation": "The syndrome occurs in about 10% to 20% of monochorionic twin pregnancies.",
+      "claims": [
+        "AH14-215"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XC5-Q02",
+      "question": "Which cardiac findings are often seen in the recipient twin?",
+      "options": [
+        "Ventricular dysfunction, chamber enlargement, hypertrophy and atrioventricular valve regurgitation",
+        "A normal heart in almost every case",
+        "Small ventricles with thin walls",
+        "Isolated pericardial effusion and nothing else"
+      ],
+      "answer": 0,
+      "explanation": "These are the recipient's usual findings. Right ventricular outflow abnormalities can also develop.",
+      "claims": [
+        "AH14-216"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XC5-Q03",
+      "question": "What is true of Quintero staging?",
+      "options": [
+        "It is widely used but does not include cardiac findings",
+        "It is based on the fetal echocardiogram",
+        "It has been replaced by the Cincinnati score",
+        "It predicts outcome from cardiac findings"
+      ],
+      "answer": 0,
+      "explanation": "Quintero staging is the most used system and has no cardiac component. Cardiac scores have been proposed.",
+      "claims": [
+        "AH14-217"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XC5-Q04",
+      "question": "Do cardiac findings reliably predict outcome in twin-twin transfusion?",
+      "options": [
+        "That is controversial",
+        "Yes, in all cases",
+        "No, they never do",
+        "Only in the donor twin"
+      ],
+      "answer": 0,
+      "explanation": "AHA 2014 calls the value of cardiac findings for predicting outcome controversial.",
+      "claims": [
+        "AH14-219"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XC5-Q05",
+      "question": "After laser treatment, what does AHA 2014 say about the surviving twins?",
+      "options": [
+        "Consider a fetal echocardiogram 24 to 48 hours later",
+        "A fetal echocardiogram is never needed",
+        "Repeat the study only at birth",
+        "Repeat the study after 2 weeks"
+      ],
+      "answer": 0,
+      "explanation": "A fetal echocardiogram 24 to 48 hours after laser treatment should be considered.",
+      "claims": [
+        "AH14-220"
+      ],
+      "status": "ai-cross-checked"
+    }
+  ]
+}

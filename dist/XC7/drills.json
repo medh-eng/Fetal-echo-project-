@@ -1,0 +1,107 @@
+{
+  "unit": "XC7",
+  "title": "Maternal disease, drugs and exposures: who needs referral",
+  "status": "ai-cross-checked",
+  "items": [
+    {
+      "id": "XC7-Q01",
+      "question": "The mother has pregestational diabetes. What does AHA 2014 say about referral for fetal cardiac evaluation?",
+      "options": [
+        "Indicated (Class I)",
+        "Reasonable only (Class IIa)",
+        "May be considered only (Class IIb)",
+        "Not indicated (Class III)"
+      ],
+      "answer": 0,
+      "explanation": "Pregestational diabetes, or diabetes diagnosed in the first trimester, is a Class I indication.",
+      "claims": [
+        "AH14-001"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XC7-Q02",
+      "question": "Gestational diabetes with HbA1c below 6%. What does AHA 2014 say about referral?",
+      "options": [
+        "Not indicated (Class III)",
+        "Indicated (Class I)",
+        "Reasonable (Class IIa)",
+        "May be considered (Class IIb)"
+      ],
+      "answer": 0,
+      "explanation": "Gestational diabetes with HbA1c below 6% is listed as not indicated.",
+      "claims": [
+        "AH14-005"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XC7-Q03",
+      "question": "The mother has SSA/SSB autoantibodies and no previously affected child. What does AHA 2014 say about referral?",
+      "options": [
+        "Reasonable (Class IIa)",
+        "Indicated (Class I)",
+        "May be considered (Class IIb)",
+        "Not indicated (Class III)"
+      ],
+      "answer": 0,
+      "explanation": "With a previously affected child referral is indicated (Class I). Without one it is reasonable (Class IIa).",
+      "claims": [
+        "AH14-001",
+        "AH14-003"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XC7-Q04",
+      "question": "The mother took NSAIDs in the third trimester. What does AHA 2014 say about referral?",
+      "options": [
+        "Indicated (Class I)",
+        "May be considered (Class IIb)",
+        "Not indicated (Class III)",
+        "Reasonable (Class IIa)"
+      ],
+      "answer": 0,
+      "explanation": "NSAIDs in the third trimester are a Class I indication. NSAIDs in the first or second trimester are Class IIb.",
+      "claims": [
+        "AH14-001",
+        "AH14-004"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XC7-Q05",
+      "question": "Which SSRI is listed as a referral that may be considered?",
+      "options": [
+        "Paroxetine only",
+        "All SSRIs",
+        "Every SSRI except paroxetine",
+        "None of them"
+      ],
+      "answer": 0,
+      "explanation": "Paroxetine is Class IIb. SSRIs other than paroxetine are listed as not indicated.",
+      "claims": [
+        "AH14-004",
+        "AH14-005"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XC7-Q06",
+      "question": "A mother had an infection other than rubella, with seroconversion only. What does AHA 2014 say about referral?",
+      "options": [
+        "Not indicated (Class III)",
+        "Indicated (Class I)",
+        "Reasonable (Class IIa)",
+        "May be considered (Class IIb)"
+      ],
+      "answer": 0,
+      "explanation": "First-trimester rubella and infection with suspected fetal myocarditis are indications. Other infection with seroconversion only is not.",
+      "claims": [
+        "AH14-001",
+        "AH14-005"
+      ],
+      "status": "ai-cross-checked"
+    }
+  ]
+}

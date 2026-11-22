@@ -1,0 +1,136 @@
+# Unit XC7. Every text block and drill lists the claim IDs it rests on.
+# Built only from ai-cross-checked claims (AHA 2014 recommendations 1 to 5, extracted by Claude,
+# cross-checked by ChatGPT on 19 Nov 2026). AHA 2014 is a US statement from twelve years ago.
+# This unit says who to refer. It gives no drug doses and no advice on stopping or changing a medicine.
+
+id: XC7
+title: "Maternal disease, drugs and exposures: who needs referral"
+tier: Diagnose
+version: 0.1
+summary: "Which maternal conditions, drugs and infections call for fetal cardiac evaluation, ranked by the strength of the AHA 2014 recommendation."
+drafted_by: "Claude (Sonnet 5.5, 22 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "Name the maternal conditions, drugs and infections for which referral for fetal cardiac evaluation is indicated."
+  - "Tell apart indicated, reasonable, may-be-considered and not-indicated referrals."
+  - "Take a maternal history that picks up the exposures that matter."
+
+sections:
+
+  - heading: "How to read the recommendations"
+    blocks:
+      - text: "This unit follows the AHA 2014 recommendations on who should be referred. It tells you who to refer. It does not say whether to stop or change any medicine."
+        kind: framing
+
+  - heading: "Referral indicated (Class I)"
+    blocks:
+      - text: "Referral for fetal cardiac evaluation is indicated for: pregestational diabetes or diabetes diagnosed in the first trimester; uncontrolled phenylketonuria; SSA/SSB autoantibodies with a previously affected child; retinoic acid; NSAIDs in the third trimester; first-trimester rubella; and infection with suspected fetal myocarditis."
+        claims: [AH14-001]
+
+  - heading: "Referral reasonable, may be considered, or not indicated"
+    blocks:
+      - text: "Reasonable (Class IIa): SSA/SSB autoantibodies without a previously affected child; ACE inhibitors; pregnancy by assisted reproduction."
+        claims: [AH14-003]
+      - text: "May be considered (Class IIb): anticonvulsants; lithium; vitamin A; the SSRI paroxetine only; NSAIDs in the first or second trimester."
+        claims: [AH14-004]
+      - text: "Not indicated (Class III): gestational diabetes with HbA1c below 6%; SSRIs other than paroxetine; infection other than rubella with seroconversion only. Vitamin K agonists are also listed as not indicated, as printed in the statement, although a fetal survey is recommended."
+        claims: [AH14-005]
+        table:
+          columns: ["Exposure", "Referral"]
+          rows:
+            - ["Pregestational diabetes, or diabetes diagnosed in the first trimester", "Indicated (Class I)"]
+            - ["Gestational diabetes with HbA1c below 6%", "Not indicated (Class III)"]
+            - ["SSA/SSB autoantibodies, previously affected child", "Indicated (Class I)"]
+            - ["SSA/SSB autoantibodies, no previously affected child", "Reasonable (Class IIa)"]
+            - ["NSAIDs in the third trimester", "Indicated (Class I)"]
+            - ["NSAIDs in the first or second trimester", "May be considered (Class IIb)"]
+            - ["Paroxetine", "May be considered (Class IIb)"]
+            - ["SSRIs other than paroxetine", "Not indicated (Class III)"]
+            - ["First-trimester rubella", "Indicated (Class I)"]
+            - ["Other infection, seroconversion only", "Not indicated (Class III)"]
+
+missing_claims:
+  - "Everything outside referral: the size of the risk from each exposure, advice on stopping or changing a medicine, and any dose. Needs a source and a clinician who prescribes."
+  - "Anything newer than 2014, including current practice in India - needs a newer source and the editor's input."
+  - "Other referral indications in the same recommendations (family history, nuchal translucency, twins, abnormal rhythm, cord and placental abnormalities) - belong in a unit on indications."
+
+drills:
+  - id: XC7-Q01
+    question: "The mother has pregestational diabetes. What does AHA 2014 say about referral for fetal cardiac evaluation?"
+    options:
+      - "Indicated (Class I)"
+      - "Reasonable only (Class IIa)"
+      - "May be considered only (Class IIb)"
+      - "Not indicated (Class III)"
+    answer: 0
+    explanation: "Pregestational diabetes, or diabetes diagnosed in the first trimester, is a Class I indication."
+    claims: [AH14-001]
+
+  - id: XC7-Q02
+    question: "Gestational diabetes with HbA1c below 6%. What does AHA 2014 say about referral?"
+    options:
+      - "Not indicated (Class III)"
+      - "Indicated (Class I)"
+      - "Reasonable (Class IIa)"
+      - "May be considered (Class IIb)"
+    answer: 0
+    explanation: "Gestational diabetes with HbA1c below 6% is listed as not indicated."
+    claims: [AH14-005]
+
+  - id: XC7-Q03
+    question: "The mother has SSA/SSB autoantibodies and no previously affected child. What does AHA 2014 say about referral?"
+    options:
+      - "Reasonable (Class IIa)"
+      - "Indicated (Class I)"
+      - "May be considered (Class IIb)"
+      - "Not indicated (Class III)"
+    answer: 0
+    explanation: "With a previously affected child referral is indicated (Class I). Without one it is reasonable (Class IIa)."
+    claims: [AH14-001, AH14-003]
+
+  - id: XC7-Q04
+    question: "The mother took NSAIDs in the third trimester. What does AHA 2014 say about referral?"
+    options:
+      - "Indicated (Class I)"
+      - "May be considered (Class IIb)"
+      - "Not indicated (Class III)"
+      - "Reasonable (Class IIa)"
+    answer: 0
+    explanation: "NSAIDs in the third trimester are a Class I indication. NSAIDs in the first or second trimester are Class IIb."
+    claims: [AH14-001, AH14-004]
+
+  - id: XC7-Q05
+    question: "Which SSRI is listed as a referral that may be considered?"
+    options:
+      - "Paroxetine only"
+      - "All SSRIs"
+      - "Every SSRI except paroxetine"
+      - "None of them"
+    answer: 0
+    explanation: "Paroxetine is Class IIb. SSRIs other than paroxetine are listed as not indicated."
+    claims: [AH14-004, AH14-005]
+
+  - id: XC7-Q06
+    question: "A mother had an infection other than rubella, with seroconversion only. What does AHA 2014 say about referral?"
+    options:
+      - "Not indicated (Class III)"
+      - "Indicated (Class I)"
+      - "Reasonable (Class IIa)"
+      - "May be considered (Class IIb)"
+    answer: 0
+    explanation: "First-trimester rubella and infection with suspected fetal myocarditis are indications. Other infection with seroconversion only is not."
+    claims: [AH14-001, AH14-005]
+
+checklist:
+  title: "Maternal history for referral"
+  items:
+    - text: "Diabetes: before pregnancy, or found in the first trimester, or gestational with its HbA1c"
+      claims: [AH14-001, AH14-005]
+    - text: "SSA/SSB autoantibodies, and whether a previous child was affected"
+      claims: [AH14-001, AH14-003]
+    - text: "Drug and exposure history, with the trimester for NSAIDs"
+      claims: [AH14-001, AH14-003, AH14-004, AH14-005]
+    - text: "Infection: first-trimester rubella, or suspected fetal myocarditis"
+      claims: [AH14-001, AH14-005]
