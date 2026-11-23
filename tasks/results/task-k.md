@@ -81,3 +81,15 @@ Structural checks: all 12 units' active claim citations exist, and none cites an
 4. Record clinician/co-editor decisions for the equation/axis discrepancy, genetics, contemporary delivery plans, and fetal intervention outcomes.
 
 **Status:** Independent Task K audit completed; lesson corrections and clinical sign-off are separate work. No clinical sign-off performed.
+
+## Implementation follow-up — 23 November 2026
+
+The twelve listed unit sources were updated on the integration branch in response to the findings above. Changes include the XB8-Q05 full three-part condition, XB3-Q01 cue limitation, XA6 reporting-objective correction, historical 2014 framing and risk-table cautions in Z3/XA2/Z1/Z5, Z3's removal of the unsupported 36-week checklist deadline, and reconciliation of `missing_claims` for the 53 confirmed Task J claims. The four unresolved claims remain out of teaching.
+
+**Correction to the cross-cutting quiz observation:** all 109 YAML drills have `answer: 0`, but the course app's `tools/templates/app.html` and the generated stand-alone study page's `tools/build.py` both already shuffle each option *together with its correctness flag* at display time. The learner-facing option order is therefore randomised, and no mass key-reordering was warranted. The new `tools/check_round5.py` checks that the labelled shuffling logic and drill keys remain intact. If drills are exported to another unshuffled platform, their ordering must be independently randomised there.
+
+**Build:** The `.github/workflows/validate-evidence.yml` GitHub workflow runs `python tools/build.py --check`, the full `python tools/build.py`, and regression checks. It also regenerates tracked `dist/` material only on the PR's integration branch after successful tests. This is technical validation, not evidence/clinical sign-off. The 23 November build initially passed on the current changes.
+
+**Review boundary:** Although Task K was audited independently of Claude's 21 November draft, some remedial text above was written by ChatGPT, the auditor. `audited_by` remains null in all twelve units until a **different** independent auditor reviews those edits against the source ledgers and, as appropriate, original PDFs. All `signed_by` fields remain null; clinician/co-editor verification is still required before clinical release.
+
+The three Task J locator fixes and the AS23-412 wording repair are recorded in `tasks/handoff/task-j-final-recheck.md` for independent PDF re-check, and all four retain `ai-extracted` status.
