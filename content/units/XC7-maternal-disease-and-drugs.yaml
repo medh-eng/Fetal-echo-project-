@@ -54,6 +54,7 @@ sections:
 missing_claims:
   - "Everything outside referral: the size of the risk from each exposure, advice on stopping or changing a medicine, and any dose. Needs a source and a clinician who prescribes."
   - "Anything newer than 2014, including current practice in India - needs a newer source and the editor's input."
+  - "AIUM 2020 lists indications that differ from AHA 2014 (for example in vitro fertilisation, warfarin, diabetes timing and several drugs): AI20-013 to AI20-018 were harvested on 23 Nov and await cross-check. The two sources must be compared, and Dr Kunda must choose, before this unit is released."
   - "Other referral indications in the same recommendations (family history, nuchal translucency, twins, abnormal rhythm, cord and placental abnormalities) - belong in a unit on indications."
 
 drills:

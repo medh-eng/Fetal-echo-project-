@@ -1928,7 +1928,7 @@ A screening scan rests on grey-scale views, with colour encouraged. A fetal echo
 
 - How each mode forms its image (basic physics, aliasing, Nyquist limit explained) - needs a physics source; planned for unit XA4.
 - Colour M-mode: the harvest of 16 Nov found no separate recommendation for it in the ASE guideline.
-- ISUOG fetal echocardiography guideline and AIUM practice parameter on modes - not yet harvested; add to compare with ASE.
+- ISUOG fetal echocardiography guideline on modes - not yet harvested. AIUM 2020 on modes and equipment was harvested on 23 Nov (AI20-049, AI20-060 to AI20-062) and awaits cross-check; compare with ASE before release.
 - High-definition (HD) flow and other machine-specific modes on the Voluson - needs a source and the editor's input.
 
 ## References
@@ -2394,7 +2394,7 @@ The study should include still images, moving clips and a structured report. [50
 - The segmental sequence itself (situs, atrioventricular connection, ventriculo-arterial connection) explained as a method - needs a source and the cardiology co-editor.
 - Normal values and Z-scores for every measurement named here - planned for XA6; needs sources.
 - Timing in the cycle for aortic and pulmonary annulus measurement - the guideline is inconsistent (note on claim AS23-069); the editor or co-editor to decide.
-- ISUOG fetal echocardiography guideline and AIUM practice parameter - not yet harvested; compare with ASE before release.
+- ISUOG fetal echocardiography guideline - not yet harvested. AIUM 2020 required views, Doppler, biometry and clip documentation were harvested on 23 Nov (AI20-030 to AI20-051) and await cross-check; compare with ASE before release.
 - This unit's ASE claims were extracted by ChatGPT and are not yet cross-checked against the PDF.
 
 ## References
@@ -3560,6 +3560,7 @@ Not indicated (Class III): gestational diabetes with HbA1c below 6%; SSRIs other
 
 - Everything outside referral: the size of the risk from each exposure, advice on stopping or changing a medicine, and any dose. Needs a source and a clinician who prescribes.
 - Anything newer than 2014, including current practice in India - needs a newer source and the editor's input.
+- AIUM 2020 lists indications that differ from AHA 2014 (for example in vitro fertilisation, warfarin, diabetes timing and several drugs): AI20-013 to AI20-018 were harvested on 23 Nov and await cross-check. The two sources must be compared, and Dr Kunda must choose, before this unit is released.
 - Other referral indications in the same recommendations (family history, nuchal translucency, twins, abnormal rhythm, cord and placental abnormalities) - belong in a unit on indications.
 
 ## References

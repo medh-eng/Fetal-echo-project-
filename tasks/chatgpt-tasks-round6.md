@@ -29,3 +29,7 @@ Attach the ASE 2023 PDF. Claim **AS23-412** (Table 13, aortic stenosis, key obse
 
 - **Task H** (14 claims Claude reworded, same-model rule): the project owner decides whether a check by the original extractor counts. If not, Gemini does it. It unblocks the 14 held-back claims and so the remaining Detect units.
 - **H2 arrhythmia claims** (`tasks/results/task-h2.yaml`, 112 claims, ChatGPT-extracted): not in the ledger. They need a second model with the AHA 2024 source, which has no open copy; Dr Kunda or the owner to supply the paper.
+
+## Task N. Cross-check the AIUM claims
+
+About 30 minutes. Attach the AIUM Practice Parameter PDF, `content/ledger/AIUM-2020-FETALECHO.yaml` and `prompts/02-crosscheck.md`. Claude extracted all 41 claims (AI20-001 to AI20-062) on 23 Nov. Check each against the printed page: statement, every number, the class of each indication list (indicated, may be considered, limited data, only if the detailed scan is abnormal), and the E-page locator. Verdicts: CONFIRMED, CORRECT LOCATOR, DISTORTED, NOT FOUND. Save as `tasks/results/task-n.csv`. A claim not checked by a different model stays ai-extracted, so no unit can use it.

@@ -137,7 +137,7 @@ missing_claims:
   - "The segmental sequence itself (situs, atrioventricular connection, ventriculo-arterial connection) explained as a method - needs a source and the cardiology co-editor."
   - "Normal values and Z-scores for every measurement named here - planned for XA6; needs sources."
   - "Timing in the cycle for aortic and pulmonary annulus measurement - the guideline is inconsistent (note on claim AS23-069); the editor or co-editor to decide."
-  - "ISUOG fetal echocardiography guideline and AIUM practice parameter - not yet harvested; compare with ASE before release."
+  - "ISUOG fetal echocardiography guideline - not yet harvested. AIUM 2020 required views, Doppler, biometry and clip documentation were harvested on 23 Nov (AI20-030 to AI20-051) and await cross-check; compare with ASE before release."
   - "This unit's ASE claims were extracted by ChatGPT and are not yet cross-checked against the PDF."
 
 drills:
