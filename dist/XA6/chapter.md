@@ -8,7 +8,7 @@ Unit XA6 | Tier: Diagnose | Version 0.1
 
 - List the measurements a complete fetal echocardiogram requires.
 - Name the optional measurements and the phase of the cycle each is taken in.
-- Explain what a Z-score is and why the equation used must be stated.
+- Explain what a Z-score is and why the choice of published Z-score equation matters.
 - Say when measurements beyond the standard list are needed.
 
 ## Required in every study

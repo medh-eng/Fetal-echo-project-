@@ -69,7 +69,7 @@ A left superior vena cava draining to the coronary sinus is listed as a common v
 
 ## Still to be written (awaiting sourced claims)
 
-- Awaiting re-check after rewording on 21 Nov (round 5, task J): arch sidedness and branching pattern in outflow lesions (AS23-307).
+- Checked by ChatGPT in task J (22 Nov) and now ai-cross-checked, but not yet taught here: each needs an editorial decision on whether to add it: arch sidedness and branching pattern in outflow lesions (AS23-307).
 - Right aortic arch: mirror-image against aberrant left subclavian branching, the L shape, and the association with 22q11 deletion and with intracardiac disease - needs a source (the checker's suggested Figure 30F claim was not found in the caption).
 - How to report an isolated right arch or aberrant subclavian artery, and whether genetic testing is offered - needs a source and the co-editor.
 - Systemic and pulmonary venous anomalies are planned for unit XB6; ASE has little on veins.

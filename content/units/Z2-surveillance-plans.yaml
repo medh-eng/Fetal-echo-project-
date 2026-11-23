@@ -7,9 +7,9 @@ id: Z2
 title: "Surveillance plans by lesion"
 tier: Decide
 version: 0.1
-summary: "Who needs a repeat fetal echocardiogram, how often, and what each repeat study must look at, organised by the risk the lesion carries."
+summary: "Who needs a repeat fetal echocardiogram, how often, and what each repeat study must look at, organised by the risk the lesion carries. The intervals are suggestions left to the provider's discretion, not fixed schedules."
 drafted_by: "Claude (Opus 5.5, 21 Nov 2026)"
-audited_by: null
+audited_by: "ChatGPT (GPT-6, 22 Nov 2026), findings applied by Claude (Sonnet 5.5)"
 signed_by: null
 
 objectives:

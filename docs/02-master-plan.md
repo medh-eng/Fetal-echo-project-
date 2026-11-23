@@ -95,7 +95,7 @@ AI can draft, check and build. It cannot be the author of record.
 |---|---|---|
 | Editor-in-chief and clinical lead | Dr Kunda Shahane | Confirmed |
 | Product owner, build and operations | Your team, with AI tools | Proposed |
-| Co-editor, cardiology | Fetal or paediatric cardiologist | **To recruit** before Diagnose tier |
+| Co-editor, cardiology | None. Decision 22 Nov 2026: Dr Kunda is the single editor; no cardiologist will be recruited | Closed |
 | Section reviewers | Paediatric cardiac surgeon, neonatologist, geneticist, fetal MRI radiologist | To invite per chapter |
 | Illustrator / 3D artist | Freelance | Phase 2 |
 | Legal review | Health-law counsel | Phase 0, one consultation |
@@ -183,7 +183,7 @@ Perinatal planning, fetal intervention, fetal MRI, counselling and ethics in dep
 |---|---|
 | First audience | **Detect tier.** Radiologists and gynaecologists doing obstetric scans, fellowship students, other doctors |
 | Editor-in-chief | **Dr Kunda Shahane**, MBBS, MS (ObGy), FIFM, Fetal Medicine Consultant, Mayflower Clinic, Nagpur |
-| Cardiology co-editor | Open. Needed before the Diagnose tier |
+| Cardiology co-editor | Closed 22 Nov 2026: none; Dr Kunda is the single editor |
 | Language | **English only.** The parent-material strand is dropped from scope for now |
 | Business model | **Subscription** |
 | Media | Existing normal and anomaly images and clips from 14 years of practice at Mayflower Clinic, to be anonymised; consent held |

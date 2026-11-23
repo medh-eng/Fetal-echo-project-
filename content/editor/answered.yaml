@@ -23,3 +23,9 @@
   question: "Does the consent held for archive cases cover publication for teaching in a paid product?"
   answer: "Yes, wording covers it."
   applied: "Consent no longer blocks use of archive clips. Every clip must still pass the anonymiser and two different checkers, with no view that could show fetal sex (tools/clinic/build_media.py). A written copy of the consent wording should be kept with the clinic's records."
+
+- id: Q5
+  date: 2026-11-22
+  question: "Will a cardiology co-editor be recruited before the Diagnose tier is released?"
+  answer: "No. There is no cardiologist; Dr Kunda is the single editor and has approved the review."
+  applied: "The cardiology co-editor is no longer a release gate. Dr Kunda's sign-off is the only clinical sign-off, so every unit still needs her signature and every claim still needs a source. Questions the units had reserved for a co-editor (cardiac axis, Table 3 against Table 13; the equation-dependent valve index) go to Dr Kunda. Newer-evidence and Indian-practice gaps stay listed in each unit's missing_claims and are not closed by this decision."

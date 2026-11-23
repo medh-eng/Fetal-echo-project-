@@ -5,7 +5,7 @@
   "items": [
     {
       "id": "XB3-Q01",
-      "question": "The four-chamber view looks normal, but the three-vessel view shows reversed flow in the ductus. Which lesion should you consider?",
+      "question": "The four-chamber view looks normal, but the three-vessel view shows reversed flow in the ductus. Which right-sided obstructive lesion is among the possibilities?",
       "options": [
         "Pulmonary stenosis or atresia",
         "Coarctation",
@@ -13,7 +13,7 @@
         "Ductal aneurysm"
       ],
       "answer": 0,
-      "explanation": "In pulmonary stenosis the four-chamber view may look normal while reversed colour flow is seen in the ductus or main PA.",
+      "explanation": "In pulmonary stenosis the four-chamber view may look normal while reversed colour flow is seen in the ductus or main PA. This sign is not diagnostic on its own: it is a reason to complete the study, not a final diagnosis.",
       "claims": [
         "AS23-418"
       ],

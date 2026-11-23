@@ -1,0 +1,87 @@
+{
+  "unit": "XB9",
+  "title": "Cardiac tumours, ventricular dysfunction and heart failure",
+  "status": "ai-cross-checked",
+  "items": [
+    {
+      "id": "XB9-Q01",
+      "question": "What decides the effect of a cardiac tumour on the fetus?",
+      "options": [
+        "Its type, and how it affects filling, function and rhythm",
+        "Its size alone",
+        "The mother's age",
+        "Whether it is seen on the four-chamber view"
+      ],
+      "answer": 0,
+      "explanation": "The effect depends on the tumour type and on how it affects filling, function and rhythm.",
+      "claims": [
+        "AS23-521"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB9-Q02",
+      "question": "How do rhabdomyomas behave in pregnancy?",
+      "options": [
+        "They evolve in the mid-trimester and regress after 32 weeks",
+        "They appear after 32 weeks",
+        "They always grow until birth",
+        "They never change"
+      ],
+      "answer": 0,
+      "explanation": "Rhabdomyomas evolve in the mid-trimester but regress after 32 weeks.",
+      "claims": [
+        "AS23-522"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB9-Q03",
+      "question": "A cardiac tumour is found in mid-gestation. What should follow?",
+      "options": [
+        "Genetic testing, because over 60% of such fetuses have tuberous sclerosis",
+        "No further tests",
+        "Delivery as soon as possible",
+        "Repeat the scan only after birth"
+      ],
+      "answer": 0,
+      "explanation": "A tumour found in mid or late gestation should prompt genetic testing.",
+      "claims": [
+        "AH14-111"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB9-Q04",
+      "question": "Which of these can cause fetal ventricular dysfunction?",
+      "options": [
+        "Arrhythmia",
+        "A normal-sized foramen ovale",
+        "A right aortic arch alone",
+        "A single umbilical artery alone"
+      ],
+      "answer": 0,
+      "explanation": "Causes listed are primary myocardial disease, structural heart disease with volume load, outflow obstruction on both sides, and arrhythmias.",
+      "claims": [
+        "AS23-523"
+      ],
+      "status": "ai-cross-checked"
+    },
+    {
+      "id": "XB9-Q05",
+      "question": "Which of these can cause fetal heart failure?",
+      "options": [
+        "Compression of the heart",
+        "Mild tricuspid regurgitation in a healthy heart",
+        "A normal ductus arteriosus",
+        "A normal cardiac axis"
+      ],
+      "answer": 0,
+      "explanation": "Causes listed include ventricular dysfunction with inadequate preload redistribution, volume or pressure overload, arrhythmia, and compression of the heart.",
+      "claims": [
+        "AS23-524"
+      ],
+      "status": "ai-cross-checked"
+    }
+  ]
+}

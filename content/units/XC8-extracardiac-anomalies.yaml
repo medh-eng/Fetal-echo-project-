@@ -1,0 +1,105 @@
+# Unit XC8. Every text block and drill lists the claim IDs it rests on.
+# Built only from ai-cross-checked claims (AHA 2014 extracardiac assessment, extracted by Claude,
+# cross-checked by ChatGPT on 19 Nov 2026). Thin first version: three claims. AHA 2014 is twelve years old.
+
+id: XC8
+title: "The heart and the rest of the fetus: extracardiac anomalies"
+tier: Diagnose
+version: 0.1
+summary: "How often heart disease comes with other anomalies, which lesions travel with them, and why every fetus with heart disease needs a full anatomy survey."
+drafted_by: "Claude (Sonnet 5.5, 22 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "State how often extracardiac anomalies accompany congenital heart disease."
+  - "Name lesions that are often, and less often, accompanied by other anomalies."
+  - "State what survey a fetus with heart disease should have."
+
+sections:
+
+  - heading: "How often"
+    blocks:
+      - text: "Extracardiac anomalies occur in up to 20% of infants with congenital heart disease. The proportion is higher in fetuses, with figures as high as 50% to 70% reported."
+        claims: [AH14-114]
+
+  - heading: "Which lesions"
+    blocks:
+      - text: "Ventricular septal defect and tricuspid atresia are often associated with other anomalies. D-transposition and pulmonary atresia with intact septum are more often isolated."
+        claims: [AH14-115]
+
+  - heading: "What to do"
+    blocks:
+      - text: "A detailed survey of all fetal anatomy, by an expert operator, is recommended for every fetus diagnosed with heart disease. Some anomalies may only be detectable later, so repeat assessment may be appropriate."
+        claims: [AH14-116]
+
+missing_claims:
+  - "Which extracardiac anomalies go with which cardiac lesions, organ by organ - no claim held."
+  - "Fetal MRI and other extra tests, and how extracardiac findings change prognosis and counselling - partly in unit XA2; needs more claims."
+  - "Anything newer than 2014, and Indian practice - needs a newer source."
+
+drills:
+  - id: XC8-Q01
+    question: "About how often are extracardiac anomalies found in infants with congenital heart disease?"
+    options:
+      - "Up to 20%"
+      - "Almost never"
+      - "In every infant"
+      - "Only in infants with a chromosomal abnormality"
+    answer: 0
+    explanation: "Up to 20% of infants have an extracardiac anomaly. The proportion is higher in fetuses."
+    claims: [AH14-114]
+
+  - id: XC8-Q02
+    question: "Is the proportion with extracardiac anomalies higher in fetuses or in infants?"
+    options:
+      - "Higher in fetuses, with figures up to 50% to 70% reported"
+      - "Higher in infants"
+      - "The same in both"
+      - "Not known in either"
+    answer: 0
+    explanation: "Fetal series report higher proportions, up to 50% to 70%."
+    claims: [AH14-114]
+
+  - id: XC8-Q03
+    question: "Which pair of lesions is more often isolated?"
+    options:
+      - "D-transposition and pulmonary atresia with intact septum"
+      - "Ventricular septal defect and tricuspid atresia"
+      - "Ventricular septal defect and D-transposition"
+      - "Tricuspid atresia and pulmonary atresia with intact septum"
+    answer: 0
+    explanation: "Ventricular septal defect and tricuspid atresia are often associated with other anomalies. D-transposition and pulmonary atresia with intact septum are more often isolated."
+    claims: [AH14-115]
+
+  - id: XC8-Q04
+    question: "A fetus is diagnosed with heart disease. What survey is recommended?"
+    options:
+      - "A detailed survey of all fetal anatomy by an expert operator"
+      - "A survey only if the heart disease is complex"
+      - "No survey, because the heart explains the findings"
+      - "A survey only at birth"
+    answer: 0
+    explanation: "A detailed anatomy survey is recommended for every fetus with heart disease, and repeat assessment may be appropriate."
+    claims: [AH14-116]
+
+  - id: XC8-Q05
+    question: "The first detailed survey of a fetus with heart disease is normal outside the heart. What follows?"
+    options:
+      - "Repeat assessment may be appropriate, because some anomalies are only detectable later"
+      - "The survey never needs repeating"
+      - "Extracardiac anomalies can be excluded for good"
+      - "Only a postnatal check is allowed"
+    answer: 0
+    explanation: "Some anomalies may only be detectable later, so repeat assessment may be appropriate."
+    claims: [AH14-116]
+
+checklist:
+  title: "Fetus with heart disease: the rest of the fetus"
+  items:
+    - text: "Detailed survey of all fetal anatomy done by an expert operator"
+      claims: [AH14-116]
+    - text: "Lesion noted: does it often come with other anomalies, or is it usually isolated?"
+      claims: [AH14-115]
+    - text: "Repeat assessment considered, since some anomalies appear later"
+      claims: [AH14-116]

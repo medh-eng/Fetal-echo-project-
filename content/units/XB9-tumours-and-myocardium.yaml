@@ -1,0 +1,111 @@
+# Unit XB9. Every text block and drill lists the claim IDs it rests on.
+# Built only from ai-cross-checked claims (ASE 2023 Table 14, AHA 2014 extracardiac assessment, extracted
+# by Claude, cross-checked by ChatGPT). Thin first version: tumours and the causes of dysfunction and
+# failure only. Cardiomyopathy and effusion need a source (see missing_claims).
+
+id: XB9
+title: "Cardiac tumours, ventricular dysfunction and heart failure"
+tier: Diagnose
+version: 0.1
+summary: "What a cardiac tumour does to the fetal heart, when to test for tuberous sclerosis, and the causes of ventricular dysfunction and heart failure."
+drafted_by: "Claude (Sonnet 5.5, 22 Nov 2026)"
+audited_by: null
+signed_by: null
+
+objectives:
+  - "State what decides the effect of a cardiac tumour."
+  - "Describe how rhabdomyomas evolve."
+  - "Say when a cardiac tumour should prompt genetic testing."
+  - "List causes of fetal ventricular dysfunction and heart failure."
+
+sections:
+
+  - heading: "Cardiac tumours"
+    blocks:
+      - text: "The effect of a cardiac tumour depends on its type and on how it affects filling, function and rhythm."
+        claims: [AS23-521]
+      - text: "Rhabdomyomas evolve in the mid-trimester but regress after 32 weeks."
+        claims: [AS23-522]
+      - text: "A cardiac tumour found in mid or late gestation should prompt genetic testing. Over 60% of such fetuses have tuberous sclerosis."
+        claims: [AH14-111]
+
+  - heading: "Dysfunction and failure"
+    blocks:
+      - text: "Fetal ventricular dysfunction can result from primary myocardial disease, structural heart disease with volume load, outflow obstruction on both sides, and arrhythmias."
+        claims: [AS23-523]
+      - text: "Fetal heart failure can result from ventricular dysfunction with inadequate preload redistribution, volume or pressure overload, arrhythmia, or compression of the heart."
+        claims: [AS23-524]
+
+missing_claims:
+  - "How to recognise and tell apart tumour types on the image, and their usual sites - no claim held."
+  - "Cardiomyopathy types, pericardial effusion, and measurements of function - need a source."
+  - "Hydrops, scoring systems and treatment of heart failure - unit XC2."
+  - "Anything newer than the two guidelines, and Indian practice."
+
+drills:
+  - id: XB9-Q01
+    question: "What decides the effect of a cardiac tumour on the fetus?"
+    options:
+      - "Its type, and how it affects filling, function and rhythm"
+      - "Its size alone"
+      - "The mother's age"
+      - "Whether it is seen on the four-chamber view"
+    answer: 0
+    explanation: "The effect depends on the tumour type and on how it affects filling, function and rhythm."
+    claims: [AS23-521]
+
+  - id: XB9-Q02
+    question: "How do rhabdomyomas behave in pregnancy?"
+    options:
+      - "They evolve in the mid-trimester and regress after 32 weeks"
+      - "They appear after 32 weeks"
+      - "They always grow until birth"
+      - "They never change"
+    answer: 0
+    explanation: "Rhabdomyomas evolve in the mid-trimester but regress after 32 weeks."
+    claims: [AS23-522]
+
+  - id: XB9-Q03
+    question: "A cardiac tumour is found in mid-gestation. What should follow?"
+    options:
+      - "Genetic testing, because over 60% of such fetuses have tuberous sclerosis"
+      - "No further tests"
+      - "Delivery as soon as possible"
+      - "Repeat the scan only after birth"
+    answer: 0
+    explanation: "A tumour found in mid or late gestation should prompt genetic testing."
+    claims: [AH14-111]
+
+  - id: XB9-Q04
+    question: "Which of these can cause fetal ventricular dysfunction?"
+    options:
+      - "Arrhythmia"
+      - "A normal-sized foramen ovale"
+      - "A right aortic arch alone"
+      - "A single umbilical artery alone"
+    answer: 0
+    explanation: "Causes listed are primary myocardial disease, structural heart disease with volume load, outflow obstruction on both sides, and arrhythmias."
+    claims: [AS23-523]
+
+  - id: XB9-Q05
+    question: "Which of these can cause fetal heart failure?"
+    options:
+      - "Compression of the heart"
+      - "Mild tricuspid regurgitation in a healthy heart"
+      - "A normal ductus arteriosus"
+      - "A normal cardiac axis"
+    answer: 0
+    explanation: "Causes listed include ventricular dysfunction with inadequate preload redistribution, volume or pressure overload, arrhythmia, and compression of the heart."
+    claims: [AS23-524]
+
+checklist:
+  title: "Cardiac tumour or poor function: what to record"
+  items:
+    - text: "Tumour effect on filling, function and rhythm"
+      claims: [AS23-521]
+    - text: "Gestation, since rhabdomyomas evolve in mid-trimester and regress after 32 weeks"
+      claims: [AS23-522]
+    - text: "Genetic testing offered for a tumour found in mid or late gestation"
+      claims: [AH14-111]
+    - text: "Cause of dysfunction or failure considered: myocardium, volume load, obstruction, arrhythmia, compression"
+      claims: [AS23-523, AS23-524]

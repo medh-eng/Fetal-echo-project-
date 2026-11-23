@@ -63,7 +63,7 @@ Regurgitation may worsen as pregnancy advances, so follow it serially. [27]
 
 ## Still to be written (awaiting sourced claims)
 
-- Awaiting re-check after rewording on 21 Nov (round 5, task J): vena contracta width relative to the annulus (AS23-426); left ventricular mechanics in severe tricuspid disease (AS23-433); ductal anatomy and left pulmonary artery stenosis in pulmonary stenosis (AS23-361, new); gradients not indicating severity (AS23-362, new).
+- Checked by ChatGPT in task J (22 Nov) and now ai-cross-checked, but not yet taught here: each needs an editorial decision on whether to add it: vena contracta width relative to the annulus (AS23-426); left ventricular mechanics in severe tricuspid disease (AS23-433); ductal anatomy and left pulmonary artery stenosis in pulmonary stenosis (AS23-361, new); gradients not indicating severity (AS23-362, new).
 - Displacement of the tricuspid septal leaflet as a measure separating Ebstein anomaly from dysplasia, and outcome scores (for example the Celermajer index) - not in the claims held; needs a source.
 - Fetal pulmonary valvuloplasty for pulmonary atresia with intact septum - unit Z5.
 - Video outline not yet written.

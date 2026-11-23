@@ -134,7 +134,7 @@ sections:
 missing_claims:
   - "How each mode forms its image (basic physics, aliasing, Nyquist limit explained) - needs a physics source; planned for unit XA4."
   - "Colour M-mode: the harvest of 16 Nov found no separate recommendation for it in the ASE guideline."
-  - "ISUOG fetal echocardiography guideline and AIUM practice parameter on modes - not yet harvested; add to compare with ASE."
+  - "ISUOG fetal echocardiography guideline on modes - not yet harvested. AIUM 2020 on modes and equipment was harvested on 23 Nov (AI20-049, AI20-060 to AI20-062) and awaits cross-check; compare with ASE before release."
   - "High-definition (HD) flow and other machine-specific modes on the Voluson - needs a source and the editor's input."
 
 drills:

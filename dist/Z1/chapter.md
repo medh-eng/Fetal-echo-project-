@@ -48,7 +48,7 @@ Families considering fetal aortic valvuloplasty should receive extensive counsel
 
 ## Still to be written (awaiting sourced claims)
 
-- Awaiting re-check after rewording on 21 Nov (round 5, task J): the aims of counselling and the care team (AH14-121); timing - offered soon after the scan, ideally the same day (AH14-122); evidence on counselling techniques (AH14-126); checking understanding, avoiding overload, several sessions (AH14-127); visual aids and online information (AH14-331, new); evaluating on fetal echocardiography before discussing prognosis (AS23-305).
+- Checked by ChatGPT in task J (22 Nov) and now ai-cross-checked, but not yet taught here: each needs an editorial decision on whether to add it: the aims of counselling and the care team (AH14-121); timing - offered soon after the scan, ideally the same day (AH14-122); evidence on counselling techniques (AH14-126); checking understanding, avoiding overload, several sessions (AH14-127); visual aids and online information (AH14-331, new); evaluating on fetal echocardiography before discussing prognosis (AS23-305).
 - Indian law on termination of pregnancy (MTP Act and its amendments), the gestational limits, and the role of medical boards - needs an Indian legal source (tasks/results/task-s1.md, topic 15) and the legal advisor. The course must state the limits exactly as the law does.
 - PC-PNDT obligations during counselling - needs an Indian legal source.
 - How to break bad news; the editor's own approach and wording from her practice - the editor's teaching, recorded as claims.

@@ -110,9 +110,10 @@
         "HLHS with intact atrial septum"
       ],
       "answer": 0,
-      "explanation": "Class III: specialised delivery room care is not needed for these.",
+      "explanation": "Class III: a specialist team in the delivery room is not needed for these. Planning is still needed: ductal-dependent lesions still need a capable hospital, accessible cardiology and prostaglandin where indicated.",
       "claims": [
-        "AH14-027"
+        "AH14-027",
+        "AH14-319"
       ],
       "status": "ai-cross-checked"
     },

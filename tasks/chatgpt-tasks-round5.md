@@ -69,3 +69,9 @@ Save as `tasks/results/task-k.md`, then set `audited_by` in each unit when the f
 ## Still open from round 4
 
 Task H (14 claims Claude reworded) was not applied: the tool stops because ChatGPT both extracted the originals and checked the rewording. The project owner to decide whether a check of Claude's rewording by the original extractor counts; if not, Gemini should do task H again.
+
+## Status on 22 November 2026
+
+- **Task J independent review complete**: `tasks/results/task-j.csv` contains 57 findings. The 53 confirmed claims are `ai-cross-checked` on the current-main-based integration branch. **Four remain held:** locator review AS23-401, AS23-406 and AH14-314; rewording plus a fresh independent check for AS23-412. Neither statuses nor clinician approvals were changed on these four.
+- **Task K independent unit-to-ledger audit complete**: `tasks/results/task-k.md` covers all twelve Diagnose/Decide units, 109 drills, checklists and tables. Actionable issues and post-J missing-list reconciliation are documented. The teaching files and all twelve `audited_by` fields remain unchanged until the findings are applied and the build tested; these units are not signed.
+- The original J pull request #8 diverged from the current main. The combined J/K branch was recreated from current `main` without overwriting clinician sign-offs. A full `python tools/build.py` run is required in a runnable checkout before merge; the connector-based structural checks are not a substitute.

@@ -1,0 +1,460 @@
+# Evidence ledger: claims from AIUM-2020-FETALECHO (AIUM Practice Parameter for the Performance of Fetal Echocardiography, J Ultrasound Med 2020;39:E5-E16).
+# All claims extracted by Claude (Sonnet 5.5) from the full PDF on 23 Nov 2026 and paraphrased. They need a cross-check by a model other than Claude.
+# US practice parameter. Doses and legal points are not included. Figures and text are not reproduced.
+
+source: AIUM-2020-FETALECHO
+claims:
+- id: AI20-001
+  statement: Congenital heart disease has an estimated incidence of 6 per 1000 live births for moderate to severe forms.
+  source: AIUM-2020-FETALECHO
+  locator: p. E5, Introduction
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-002
+  statement: Accurate prenatal diagnosis may benefit infant outcomes, especially in cases likely to need a prostaglandin infusion
+    to keep the ductus arteriosus open.
+  source: AIUM-2020-FETALECHO
+  locator: p. E5, Introduction
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-003
+  statement: Fetal echocardiography should be performed only for a valid medical reason, using the lowest possible ultrasonic
+    exposure settings that give the needed diagnostic information.
+  source: AIUM-2020-FETALECHO
+  locator: p. E5, Introduction; p. E13, Fetal Safety
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-004
+  statement: Not every abnormality can be detected; following the parameter maximises the chance of detecting and correctly diagnosing
+    most clinically significant congenital heart disease.
+  source: AIUM-2020-FETALECHO
+  locator: p. E5, Introduction
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-005
+  statement: The parameter is not meant to set a legal standard of care, and deviations may occur depending on the clinical situation.
+  source: AIUM-2020-FETALECHO
+  locator: p. E5, Introduction
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-006
+  statement: Physicians who perform or interpret the examination should meet the AIUM training guidelines, and sonographers should
+    be appropriately credentialed; this is a US accreditation requirement.
+  source: AIUM-2020-FETALECHO
+  locator: p. E6, Qualifications and Responsibilities of Personnel
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-010
+  statement: Most congenital heart disease occurs without known maternal or fetal risk factors and is often first suspected on
+    an anatomic ultrasound survey. A fetus with a suspected abnormal heart on a basic or detailed anatomic scan should
+    be referred for fetal echocardiography, because the risk of significant disease is high.
+  source: AIUM-2020-FETALECHO
+  locator: p. E6, Indications
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-011
+  statement: In low-risk pregnancies the heart is examined as part of the standard second-trimester obstetric scan. When risk
+    is above that of the general population, referral for fetal echocardiography may be indicated depending on local
+    resources, clinical setting, examiner availability and the screening result.
+  source: AIUM-2020-FETALECHO
+  locator: p. E6, Indications
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-012
+  statement: The parameter lists conditions associated with increased risk of congenital heart disease but gives no precise risk
+    estimates.
+  source: AIUM-2020-FETALECHO
+  locator: p. E6, Indications
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-013
+  statement: 'Fetal factors for which fetal echocardiography is indicated: suspected cardiac structural anomaly; suspected abnormal
+    cardiac function; hydrops fetalis; persistent tachycardia (above 180 beats per minute); persistent bradycardia
+    (below 120 beats per minute) or suspected heart block; frequent episodes of, or persistently irregular, rhythm;
+    major extracardiac anomaly; nuchal translucency of 3.5 mm or more, or at or above the 99th percentile for gestational
+    age; chromosomal abnormality on invasive testing or cell-free fetal DNA screening; monochorionic twinning.'
+  source: AIUM-2020-FETALECHO
+  locator: p. E6, Fetal Factors
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-014
+  statement: 'Fetal factors for which fetal echocardiography may be considered: a systemic venous anomaly (for example a persistent
+    right umbilical vein, left superior vena cava or absent ductus venosus), and nuchal translucency between 3.0 and
+    3.4 mm.'
+  source: AIUM-2020-FETALECHO
+  locator: p. E6, Fetal Factors
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-015
+  statement: 'Maternal or familial factors for which fetal echocardiography is indicated: pregestational diabetes regardless
+    of haemoglobin A1c; gestational diabetes diagnosed in the first or early second trimester; in vitro fertilisation
+    including intracytoplasmic sperm injection; phenylketonuria (unknown status, or a periconceptional phenylalanine
+    level above 10 mg/dL); autoimmune disease with anti-SSA antibodies and a prior affected fetus; a first-degree
+    relative with congenital heart disease (parents, siblings or a prior pregnancy); a first- or second-degree relative
+    with a Mendelian disease and childhood cardiac manifestations; retinoid exposure; first-trimester rubella infection.'
+  source: AIUM-2020-FETALECHO
+  locator: pp. E6-E7, Maternal or Familial Disease or Maternal Environmental Exposure
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-016
+  statement: 'Maternal or familial factors for which fetal echocardiography may be considered: selected teratogen exposure (for
+    example paroxetine, carbamazepine or lithium); antihypertensive medication limited to angiotensin-converting enzyme
+    inhibitors; anti-SSA positivity without a prior affected fetus; a second-degree relative with congenital heart
+    disease.'
+  source: AIUM-2020-FETALECHO
+  locator: p. E7, Maternal or Familial Disease or Maternal Environmental Exposure
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-017
+  statement: 'Data are limited for fetal echocardiography in these isolated conditions: obesity (body mass index 30 kg/m2 or
+    more); SSRI exposure other than paroxetine; a noncardiac soft marker for aneuploidy without karyotype information;
+    abnormal maternal serum analytes such as alpha-fetoprotein; isolated single umbilical artery. A detailed anatomic
+    scan that includes the heart may be appropriate instead, with fetal echocardiography only if an abnormality is
+    suspected.'
+  source: AIUM-2020-FETALECHO
+  locator: p. E7, Other Considerations
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-018
+  statement: 'Some conditions once thought to raise the risk of fetal heart disease were not borne out in larger studies. Fetal
+    echocardiography is indicated for them only if a detailed anatomic scan is abnormal: gestational diabetes diagnosed
+    after the second trimester; warfarin exposure; alcohol exposure; echogenic intracardiac focus; maternal fever
+    or viral infection with seroconversion only; isolated congenital heart disease in a relative more distant than
+    second degree.'
+  source: AIUM-2020-FETALECHO
+  locator: p. E7, Other Considerations
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-020
+  statement: Fetal echocardiography is commonly performed between 18 and 22 weeks of gestation, although some cardiac structures
+    may be better seen before or after that period. Various forms of congenital heart disease may be recognised early
+    in pregnancy, including at the nuchal translucency scan.
+  source: AIUM-2020-FETALECHO
+  locator: p. E7, Technical Considerations
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-021
+  statement: Maternal obesity, fetal position and advanced gestation can limit a detailed examination through poor penetration
+    and posterior acoustic shadowing, especially in the third trimester.
+  source: AIUM-2020-FETALECHO
+  locator: p. E7, Technical Considerations
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-022
+  statement: Image quality and fetal position may be improved by optimising transducer placement on the maternal abdomen, applying
+    adequate transducer pressure and changing the mother's position.
+  source: AIUM-2020-FETALECHO
+  locator: p. E7, Technical Considerations
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-023
+  statement: System settings should favour a high frame rate (for example a narrow field of view, small imaging depth, single
+    focus and a narrow colour Doppler region of interest) within the ALARA principle. Magnification should be adjusted
+    so that the heart fills about one third of the sector display.
+  source: AIUM-2020-FETALECHO
+  locator: pp. E7-E8, Technical Considerations
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-024
+  statement: If the heart is poorly seen for technical reasons, it may be necessary to re-examine at a different time in gestation.
+  source: AIUM-2020-FETALECHO
+  locator: p. E8, Technical Considerations
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-030
+  statement: 'The fetal echocardiogram is a detailed evaluation of cardiac structure and function done as a sequential segmental
+    analysis of four areas: the situs, the atria, the ventricles, and the great arteries with their connections. It
+    begins by assessing the fetal right/left orientation.'
+  source: AIUM-2020-FETALECHO
+  locator: 'p. E8, Cardiac Imaging Guidelines: Basic Approach'
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-031
+  statement: Situs assessment covers the position of the stomach, portal vein, descending aorta and inferior vena cava in the
+    axial view of the abdomen, and the cardiac apex position and cardiac axis in the axial view of the chest.
+  source: AIUM-2020-FETALECHO
+  locator: 'p. E8, Cardiac Imaging Guidelines: Basic Approach'
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-032
+  statement: Atrial assessment covers the situs, systemic and pulmonary venous connections (including normal and abnormal variations
+    such as the ductus venosus), normal connection of at least one right and one left pulmonary vein, and the atrial
+    septum, foramen ovale and septum primum.
+  source: AIUM-2020-FETALECHO
+  locator: 'p. E8, Cardiac Imaging Guidelines: Basic Approach'
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-033
+  statement: Ventricular assessment covers position, atrioventricular connections including offsetting of the mitral and tricuspid
+    valves, right and left ventricular anatomy including the septum, relative and absolute sizes, systolic function
+    and the pericardium.
+  source: AIUM-2020-FETALECHO
+  locator: 'p. E8, Cardiac Imaging Guidelines: Basic Approach'
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-034
+  statement: Great artery assessment covers ventricular connections; vessel size, patency and flow (velocity and direction);
+    relative and absolute sizes of the aortic isthmus and ductus arteriosus; the pulmonary artery bifurcation; and
+    the position of the transverse aortic arch and ductus arteriosus relative to the trachea.
+  source: AIUM-2020-FETALECHO
+  locator: 'p. E8, Cardiac Imaging Guidelines: Basic Approach'
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-035
+  statement: The atrioventricular junction (valve anatomy, size and function, including stenosis or regurgitation) and the ventriculoarterial
+    junction (semilunar valve anatomy, size and function, including the subpulmonary and subaortic regions) should
+    also be evaluated.
+  source: AIUM-2020-FETALECHO
+  locator: 'p. E8, Cardiac Imaging Guidelines: Basic Approach'
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-040
+  statement: 'Required grayscale views: four-chamber view including the pulmonary veins; left ventricular outflow tract; right
+    ventricular outflow tract; branch pulmonary artery bifurcation; three-vessel view (including a view with the pulmonary
+    artery bifurcation and a more superior view with the ductal arch); short-axis views (low for the ventricles, high
+    for the outflow tracts); long-axis view if clinically relevant; aortic arch; ductal arch; superior and inferior
+    venae cavae.'
+  source: AIUM-2020-FETALECHO
+  locator: p. E8, Grayscale Imaging (Required)
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-041
+  statement: Not every view may be seen from a single cephalic sweep of the transducer; minor adjustments of transducer position
+    and orientation may be needed because of anatomic variation and fetal lie.
+  source: AIUM-2020-FETALECHO
+  locator: p. E9, Figure 1 legend
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-042
+  statement: 'Colour Doppler is required to look for flow disturbance in the systemic veins (superior and inferior venae cavae
+    and ductus venosus), pulmonary veins (at least two: one right and one left), atrial septum and foramen ovale,
+    atrioventricular valves, ventricular septum, semilunar valves, ductal arch and aortic arch.'
+  source: AIUM-2020-FETALECHO
+  locator: pp. E8, E12, Color Doppler Ultrasound (Required)
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-043
+  statement: 'Pulsed-wave Doppler is required for the right and left atrioventricular valves, the right and left semilunar valves,
+    the pulmonary veins (at least two: one right and one left), the ductus venosus, and any structural or flow abnormality
+    suspected on colour Doppler.'
+  source: AIUM-2020-FETALECHO
+  locator: p. E12, Pulsed Doppler Ultrasound (Required)
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-044
+  statement: Pulsed-wave Doppler may also be relevant for the ductus arteriosus, systemic veins, the aortic arch at the isthmus,
+    branch pulmonary arteries, the middle cerebral artery and the umbilical artery or vein.
+  source: AIUM-2020-FETALECHO
+  locator: p. E12, Pulsed Doppler Ultrasound (Required)
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-045
+  statement: Heart rate and rhythm should be documented by cardiac cycle length measurements using Doppler or M-mode. A normal
+    fetal heart rate at mid-gestation is 120 to 180 beats per minute. If bradycardia, tachycardia or an irregular
+    rhythm is found, a detailed assessment of atrial and ventricular contractions should follow.
+  source: AIUM-2020-FETALECHO
+  locator: p. E12, Heart Rate and Rhythm Assessment (Required)
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-046
+  statement: Normal ranges for fetal cardiac measurements are published as percentiles and Z scores based on gestational age
+    or fetal biometry. Required measurements, taken on two-dimensional images, are the aortic and pulmonary valve
+    annuli in systole and the tricuspid and mitral valve annuli in diastole, each as absolute size and compared left
+    with right.
+  source: AIUM-2020-FETALECHO
+  locator: p. E12, Cardiac Biometry (Required)
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-047
+  statement: 'Additional biometry may be done for a suspected structural or functional anomaly: right and left ventricular lengths;
+    aortic arch and isthmus diameters (from the sagittal arch view or the three-vessel and trachea view) with the
+    isthmus compared with the ductus; main pulmonary artery and ductus measurements; end-diastolic ventricular diameter
+    just below the atrioventricular valve leaflets; free wall and septal thickness in diastole; cardiothoracic ratio.
+    Systolic ventricular dimensions, transverse atrial dimensions and branch pulmonary artery diameters may be added
+    if clinically relevant.'
+  source: AIUM-2020-FETALECHO
+  locator: p. E12, Cardiac Biometry
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-048
+  statement: Right and left heart function should be assessed qualitatively. Cardiomegaly, atrioventricular valve regurgitation
+    and hydrops are key signs of cardiac dysfunction. If function is thought to be compromised, quantitative measures
+    may be used, including fractional shortening, ventricular strain and the myocardial performance index.
+  source: AIUM-2020-FETALECHO
+  locator: p. E12, Cardiac Function Assessment
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-049
+  statement: Three- and four-dimensional ultrasound, tissue Doppler and continuous-wave Doppler are adjunctive. Tricuspid annular
+    plane systolic excursion and the sphericity index have been reported, but their role in clinical care should be
+    considered investigational.
+  source: AIUM-2020-FETALECHO
+  locator: p. E12, Complementary Imaging Strategies
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-050
+  statement: 'Besides still images of the grayscale, colour and pulsed Doppler views, these motion clips are required for routine
+  documentation: an axial sweep from the stomach to the upper mediastinum (including the four-chamber view, outflow
+    tracts and three-vessel and trachea view); the four-chamber view, 2D and colour Doppler; the left ventricular
+    outflow tract view, 2D and colour Doppler; the right ventricular outflow tract view, 2D and colour Doppler; the
+    three-vessel and trachea view, 2D and colour Doppler; the sagittal view of the aortic and ductal arches, 2D and
+    colour Doppler.'
+  source: AIUM-2020-FETALECHO
+  locator: p. E13, Specific Documentation of Heart Views
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-051
+  statement: Additional motion clips should be considered when a structural or functional anomaly is suspected. Motion clips
+    together with still images are a standard part of every fetal echocardiogram; a complete evaluation cannot be
+    achieved otherwise.
+  source: AIUM-2020-FETALECHO
+  locator: p. E13, Specific Documentation of Heart Views; Documentation
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-060
+  statement: The ultrasound system should provide M-mode, pulsed Doppler and power or colour Doppler. Sector, curvilinear and
+    endovaginal transducers are used; three- and four-dimensional technology and continuous-wave Doppler are optional
+    if clinically relevant.
+  source: AIUM-2020-FETALECHO
+  locator: p. E13, Equipment Specifications
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-061
+  statement: 'The transducer should operate at the highest clinically appropriate frequency within ALARA. Resolution trades off
+    against penetration: from the anterior abdominal wall frequencies of 1 to 9 MHz are usable depending on maternal
+    habitus, and endovaginal scans should use 5 MHz or higher.'
+  source: AIUM-2020-FETALECHO
+  locator: p. E13, Equipment Specifications
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null
+- id: AI20-062
+  statement: The on-screen thermal and mechanical indices should be monitored and dwell time kept to a minimum. The soft-tissue
+    thermal index is used before 10 weeks and the bone thermal index at or after 10 weeks. Spectral pulsed Doppler
+    has higher energy output and should be used judiciously.
+  source: AIUM-2020-FETALECHO
+  locator: pp. E13-E14, Fetal Safety
+  status: ai-extracted
+  extracted_by: Claude (Sonnet 5.5), from the full PDF supplied by the project owner, 23 Nov 2026. Locators are the journal's E-page numbers.
+  checked_by: null
+  verified_by: null
+  note: null

@@ -10,13 +10,13 @@ tier: Diagnose
 version: 0.1
 summary: "Which cardiac measurements a complete study requires, which are optional, how they are timed, and why they are expressed as Z-scores."
 drafted_by: "Claude (Opus 5.5, 21 Nov 2026)"
-audited_by: null
+audited_by: "ChatGPT (GPT-6, 22 Nov 2026), findings applied by Claude (Sonnet 5.5)"
 signed_by: null
 
 objectives:
   - "List the measurements a complete fetal echocardiogram requires."
   - "Name the optional measurements and the phase of the cycle each is taken in."
-  - "Explain what a Z-score is and why the equation used must be stated."
+  - "Explain what a Z-score is and why the choice of published Z-score equation matters."
   - "Say when measurements beyond the standard list are needed."
 
 sections:

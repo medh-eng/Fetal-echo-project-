@@ -56,7 +56,7 @@ AIUM-2020-FETALECHO:
   pages: "E5-E16"
   doi: "10.1002/jum.15188"
   url: "https://onlinelibrary.wiley.com/doi/10.1002/jum.15188"
-  held: false
+  held: true
   licence: "Copyright AIUM. Not open-licensed. Facts paraphrased with citation; nothing reproduced."
 
 AHA-2024-ARRHYTHMIA-DRUGS:
@@ -79,3 +79,16 @@ EDITOR-KS:
   year: 2026
   held: true
   licence: "The editor's own teaching for this course. Recorded as relayed by the project owner; each claim gives the date and the question answered."
+
+CHAUBAL-2009-IJRI:
+  type: review
+  title: "Fetal echocardiography"
+  authors: "Chaubal NG, Chaubal J"
+  journal: "Indian J Radiol Imaging"
+  year: 2009
+  volume: "19(1)"
+  pages: "60-68"
+  doi: ""
+  url: ""
+  held: true
+  licence: "Copyright held by the journal publisher (Medknow); no open licence seen on the copy held. Context only: nothing quoted, no figure or number taken. Narrative review from 2009; its risk figures differ from AHA 2014 and AIUM 2020 and are not harvested."
