@@ -85,7 +85,8 @@ sections:
         claims: [AS23-444]
 
 missing_claims:
-  - "Awaiting re-check after rewording on 21 Nov (round 5, task J): key observations in aortic stenosis (AS23-412); severity from the mitral regurgitant jet (AS23-414); progression and hydrops in severe obstruction (AS23-401, 402, 406); peak velocity and annulus size in atrioventricular valve disease (AS23-266); Figure 21 assessment of atrial restriction (AS23-284); lesions with restrictive foramen ovale (AS23-281); HLHS with mitral regurgitation in the follow-up table (AS23-423); warning signs on the three-vessel-and-trachea view (AS23-445); gradients not indicating severity (AS23-362, new)."
+  - "Task J unresolved: AS23-412 remains DISTORTED and must be reworded by the extractor and independently re-checked; AS23-401 and AS23-406 need corrected source locators and a fresh review before teaching. None is used in this unit."
+  - "Task J confirmed AS23-414, AS23-402, AS23-266, AS23-284, AS23-281, AS23-423, AS23-445 and AS23-362. They are available for editorial consideration but have not been incorporated here."
   - "Interrupted aortic arch: no claims held - needs a source."
   - "Fetal intervention for aortic stenosis with evolving HLHS: candidacy and outcomes are in unit Z5."
   - "Normal values and Z-scores for the measurements named here - unit XA6 and a Z-score source."
