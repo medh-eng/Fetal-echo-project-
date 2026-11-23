@@ -8,6 +8,11 @@ on:
 permissions:
   contents: read
 
+# Keep a single active check for each ref when several source files are updated.
+concurrency:
+  group: evidence-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   check:
     runs-on: ubuntu-latest
