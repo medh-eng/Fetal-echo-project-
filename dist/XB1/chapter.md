@@ -76,7 +76,7 @@ Evolution: a ventricular septal defect can get smaller, with less severe or reso
 
 ## Still to be written (awaiting sourced claims)
 
-- Awaiting re-check after rewording on 21 Nov (round 5, task J): the abnormal crux of AVSD with valve levels when closed (AS23-250); the valve index threshold and its dependence on the equation (AS23-255); outflow obstruction in AVSD (AS23-257); crisscross anatomy and discordance (AS23-272, 276, 359).
+- Task J confirmed AS23-250 (crux), AS23-255 (equation-dependent valve index), AS23-257 (outflow obstruction), and AS23-272, AS23-276, AS23-359 (crisscross anatomy). They remain omitted pending careful integration; the co-editor must decide how to teach the index equation.
 - Isolated ventricular septal defect: types, views, colour settings, and how often each closes - needs a source.
 - Atrial septal defects (secundum, sinus venosus) and the normal foramen ovale - needs a source.
 - Genetic work-up after AVSD - unit XA2.

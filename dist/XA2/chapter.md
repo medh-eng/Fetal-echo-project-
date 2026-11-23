@@ -24,9 +24,9 @@ Genetic results may prompt a further search for anomalies, inform recurrence ris
 
 Ventricular and atrioventricular septal defects are the lesions most often associated with an abnormal karyotype. Of fetuses with atrioventricular septal defect and normal situs, 50% to 70% have trisomy 21. [5, 6]
 
-Risk of aneuploidy by lesion, from the AHA 2014 tables (ranges across published series). [7]
+Historical aneuploidy estimates from the series summarised in AHA 2014; these are not patient-specific contemporary probabilities, and a reported 0% does not exclude genetic risk. [7]
 
-| Lesion | Aneuploidy risk |
+| Lesion | Reported aneuploidy in AHA 2014 series |
 |---|---|
 | Atrioventricular septal defect | 46-73% |
 | Common arterial trunk | 19-78% |
@@ -35,14 +35,14 @@ Risk of aneuploidy by lesion, from the AHA 2014 tables (ranges across published 
 | Transposition | 0% |
 | Heterotaxy | 0% |
 
-Heterotaxy, D-transposition, congenitally corrected transposition and pulmonary atresia with intact septum are rarely aneuploid, but parents should still be offered testing. [8]
+A reported 0% in a historical series is not a rule-out test. Heterotaxy, D-transposition, congenitally corrected transposition and pulmonary atresia with intact septum are described as rarely aneuploid, but parents should still be offered testing. [8, 7]
 
 
 ## 22q11 deletion
 
 Conotruncal lesions and right aortic arch are associated with 22q11 deletion. [9]
 
-Estimated frequency of 22q11 deletion by lesion, from AHA 2014. [10]
+Frequencies of 22q11 deletion reported in the series summarised by AHA 2014, not contemporary individual risk predictions. [10]
 
 | Lesion | 22q11 deletion |
 |---|---|
@@ -57,7 +57,7 @@ On the scan: imaging the arch and the thymus allows counselling tailored to the 
 
 ## Other genetic clues
 
-A cardiac tumour found in mid or late gestation should prompt genetic testing: over 60% of such fetuses have tuberous sclerosis. [14]
+AHA 2014 reports a strong association of mid- or late-gestation fetal cardiac tumours with tuberous sclerosis (over 60% in the cited series), and recommends genetic evaluation. The estimate is historical. [14]
 
 Lesions of the atrioventricular junction may be isolated, often with aneuploidy including trisomy 21. [15]
 
@@ -85,7 +85,7 @@ Ventricular septal defect and tricuspid atresia are often associated with other 
 
 ## Still to be written (awaiting sourced claims)
 
-- Awaiting re-check after rewording on 21 Nov (round 5, task J): recommendation 14, genetic counselling with offer of aneuploidy testing and detailed anatomy scan (AH14-014); extracardiac anomaly rates (AH14-114); fetal MRI for extracardiac screening (AH14-015, 016, 117); parental testing (AH14-330, new).
+- Task J confirmed AH14-014 (counselling and testing), AH14-114 (extracardiac anomaly rates), AH14-015, AH14-016, AH14-117 (MRI indications and limits) and AH14-330 (parental testing). These are not yet incorporated and require a current genetics-source review first.
 - Current testing: exome and genome sequencing, rapid aneuploidy tests, and how testing has changed since 2014 - needs a newer source and a clinical geneticist.
 - Availability and cost of each test in India, and the legal framework (PC-PNDT) for prenatal genetic testing - needs an Indian source and the editor's input.
 - Recurrence risks for siblings and offspring - needs a source.

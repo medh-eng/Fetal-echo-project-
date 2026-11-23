@@ -7,7 +7,7 @@ Unit Z3 | Tier: Decide | Version 0.1
 ## You will be able to
 
 - Explain why a coordinated perinatal plan matters and who makes it.
-- Assign a level of care (P, 1 to 5) from the fetal diagnosis.
+- Describe the AHA 2014 U.S. level-of-care categories (P, 1 to 5) as a historical framework, not a current Indian delivery protocol.
 - State the guidance on timing and mode of delivery.
 - Name the fetal findings that call for a specialist team in the delivery room.
 
@@ -24,7 +24,7 @@ The fetal diagnostic team should assign an anticipated level of care, and plans 
 
 ## Levels of care
 
-The AHA 2014 level-of-care scheme. Many newborns with heart disease need no specialised delivery room care. [9, 10, 11, 12, 13, 14, 15]
+The AHA 2014 U.S. level-of-care scheme is shown here as historical guidance, not a current Indian delivery protocol. In that statement many newborns with heart disease were not considered to need a specialist cardiac team physically in the delivery room. Local facility capability and current guidance require separate review before clinical use. [9, 10, 11, 12, 13, 14, 15]
 
 | Level | Meaning | Examples | Delivery plan |
 |---|---|---|---|
@@ -38,27 +38,27 @@ The AHA 2014 level-of-care scheme. Many newborns with heart disease need no spec
 
 ## Place, timing and mode
 
-Place: for heart disease at risk, plan delivery near a cardiac centre with the resources needed. Ductal-dependent lesions need a prostaglandin infusion soon after birth; delivery at a centre with a neonatologist and access to paediatric cardiology is recommended. [16, 17]
+Place (AHA 2014 U.S. framework): for heart disease at risk, plan delivery near a cardiac centre with the resources needed. For ductal-dependent lesions, the statement calls for prostaglandin after birth when indicated, a neonatologist and access to paediatric cardiology. Confirm the actual receiving centre's capabilities for each case. [16, 17]
 
-Timing: elective induction before 39 weeks is not recommended unless there are obstetric, logistic or fetal well-being reasons. [18]
+Timing (AHA 2014): the statement does not recommend elective induction before 39 weeks without obstetric, logistic or fetal well-being reasons. This is not a substitute for individual contemporary obstetric and cardiac planning. [18]
 
 The transition: the ductus usually closes over 12 to 72 hours after birth. Infants with ventricular or atrioventricular septal defects are stable until pulmonary resistance falls, usually weeks after birth, and need no specialised delivery room care. [19, 20]
 
 
 ## Recommendations on specialised delivery room care
 
-Recommended (Class I): for d-TGA, and for sustained or uncontrolled tachyarrhythmia with heart failure or hydrops. [21]
+AHA 2014 specialised delivery-room care recommendation (Class I): for d-TGA, and for sustained or uncontrolled tachyarrhythmia with heart failure or hydrops. [21]
 
-Reasonable (Class IIa): for HLHS with a restrictive or intact atrial septum and abnormal pulmonary vein flow (forward-to-reverse ratio below 3) or an abnormal third-trimester hyperoxia test; and for complete heart block with low ventricular rate, dysfunction or hydrops. [22]
+AHA 2014 specialised delivery-room care recommendation (Class IIa): reasonable for HLHS with a restrictive or intact atrial septum and abnormal pulmonary vein flow (forward-to-reverse ratio below 3) or an abnormal third-trimester hyperoxia test; and for complete heart block with low ventricular rate, dysfunction or hydrops. [22]
 
-May be considered (Class IIb): tetralogy with absent pulmonary valve, or Ebstein anomaly with hydrops. [23]
+AHA 2014 specialised delivery-room care recommendation (Class IIb): may be considered for tetralogy with absent pulmonary valve, or Ebstein anomaly with hydrops. [23]
 
-Not needed (Class III): shunt lesions, most ductal-dependent lesions, and controlled arrhythmias. [24]
+AHA 2014 Class III: a specialist cardiac team need not necessarily be physically present in the delivery room for shunt lesions, most ductal-dependent lesions and controlled arrhythmias. This does not remove lesion-appropriate neonatal stabilisation, prostaglandin when indicated, accessible paediatric cardiology or transfer planning, as specified for its level-2 group. [24, 12, 25]
 
 
 ## Fetal predictors, lesion by lesion
 
-Ductal-dependent circulation: pulmonary flow is ductal-dependent when ductal flow runs from aorta to pulmonary artery or the duct is reversed in orientation (inferior angle below 90°); systemic flow is ductal-dependent with left-to-right atrial flow. For these, prostaglandin E1 is started and no specialised delivery room care is needed. [25]
+AHA 2014 risk indicators: pulmonary flow may be ductal-dependent when ductal flow runs from aorta to pulmonary artery or the duct is reversed in orientation (inferior angle below 90°); systemic flow may be ductal-dependent with left-to-right atrial flow. The statement advises prostaglandin E1 after birth and generally no specialised cardiac team physically in the delivery room for this subgroup, but an appropriate neonatal and transfer pathway remains necessary. [25]
 
 HLHS with restrictive or intact atrial septum: a pulmonary vein forward-to-reverse VTI ratio below 3, or no change in branch pulmonary artery pulsatility with third-trimester maternal hyperoxygenation, should lead to a plan for possible urgent decompression of the left atrium. [26]
 
@@ -79,18 +79,19 @@ Complete heart block: a falling cardiovascular profile score (to below 7), a ver
 
 Cardiotocography is unlikely to be useful in fetal bradycardia or complete heart block. [35]
 
-## Delivery plan before 36 weeks
+## Delivery plan before birth (historical AHA 2014 framework; adapt locally)
 
 - [ ] Level of care assigned and written in the report [7, 10, 11, 12, 13, 14, 15]
 - [ ] Obstetric, neonatal and cardiology teams agree the plan [6, 5]
 - [ ] Place of delivery fits the level; transfer arranged if needed [16, 17]
-- [ ] Timing: no elective induction before 39 weeks without a reason [18]
+- [ ] Historical AHA 2014 timing guidance reviewed against current local obstetric and cardiac needs [18]
 - [ ] Lesion-specific predictors checked and first-hour needs listed (septostomy, ECMO, pacing, cardioversion, ventilation) [26, 27, 29, 34, 30, 32]
 
 ## Still to be written (awaiting sourced claims)
 
-- Awaiting re-check after rewording on 21 Nov (round 5, task J): caesarean against vaginal birth (AH14-305); hydrops in complex heart disease and delivery (AH14-316); septum primum criteria in a later study (AH14-314); ductal flow and pulmonary hypertension therapy in d-TGA (AH14-326); fetal wellness testing (AH14-017, 118, 120).
-- Mode of delivery: without AH14-305 the unit says nothing on caesarean against vaginal birth beyond the level-of-care table.
+- Task J confirmed AH14-305 (historical delivery-mode evidence), AH14-316 (hydrops in complex CHD), AH14-326 (d-TGA ductal flow), and AH14-017, AH14-118, AH14-120 (fetal wellness testing). These are not yet incorporated and require clinical/editorial review.
+- Task J unresolved: AH14-314 needs an expanded, precise source locator before it enters teaching or is marked checked.
+- Mode of delivery: AH14-305 was confirmed by Task J but has not yet been incorporated. Current, locally appropriate recommendations beyond the historical AHA 2014 table require specialist review.
 - Indian adaptation: where level 3 and 4 care is available, transport distances, and how the levels map to Indian hospitals - the editor's input and an Indian source.
 - Prostaglandin dosing and newborn drug doses - held back until the cardiology co-editor signs (Claude task rule 3).
 - Newer guidance than AHA 2014 on delivery planning, where it exists - source search.

@@ -26,7 +26,7 @@ Long-term outcome: information should be current, and what is not known should b
 
 Genetic results can inform recurrence risk and decisions on termination or palliative care. Before microarray testing, disclose that it may find variants of unknown significance. [5, 6]
 
-The option of termination should be discussed, including the time limits set by the law that applies. [7]
+The AHA 2014 counselling statement recommends discussing termination as an option and the time limits under applicable law. The cited statement does not establish current Indian legal limits. [7]
 
 
 ## Staying neutral
@@ -48,7 +48,7 @@ Families considering fetal aortic valvuloplasty should receive extensive counsel
 
 ## Still to be written (awaiting sourced claims)
 
-- Awaiting re-check after rewording on 21 Nov (round 5, task J): the aims of counselling and the care team (AH14-121); timing - offered soon after the scan, ideally the same day (AH14-122); evidence on counselling techniques (AH14-126); checking understanding, avoiding overload, several sessions (AH14-127); visual aids and online information (AH14-331, new); evaluating on fetal echocardiography before discussing prognosis (AS23-305).
+- Task J confirmed AH14-121 (counselling aims/team), AH14-122 (timing), AH14-126 (2014 evidence limitations), AH14-127 (checking understanding), AH14-331 (visual aids and online information) and AS23-305 (evaluation before prognosis discussion). These remain omitted pending editorial integration.
 - Indian law on termination of pregnancy (MTP Act and its amendments), the gestational limits, and the role of medical boards - needs an Indian legal source (tasks/results/task-s1.md, topic 15) and the legal advisor. The course must state the limits exactly as the law does.
 - PC-PNDT obligations during counselling - needs an Indian legal source.
 - How to break bad news; the editor's own approach and wording from her practice - the editor's teaching, recorded as claims.
