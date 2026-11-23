@@ -9,7 +9,7 @@ Unit Z2 | Tier: Decide | Version 0.1
 - Say when a normal mid-trimester study needs no follow-up, and when it does.
 - Group lesions by the risk that drives their follow-up: heart failure, arrhythmia, cyanosis, pulmonary venous obstruction, airway compromise.
 - For each group, name the suggested interval and the findings to record.
-- List the measurements that must be repeated at every study for the main progressive lesions.
+- List lesion-specific measurements for serial assessment and distinguish recommended measurements from suggested follow-up intervals.
 
 ## Why a plan is needed
 

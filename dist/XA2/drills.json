@@ -21,7 +21,7 @@
     },
     {
       "id": "XA2-Q02",
-      "question": "Heart disease appears isolated on ultrasound. What is the risk of a chromosomal abnormality?",
+      "question": "According to series summarised in AHA 2014, what chromosomal-abnormality rate was reported when fetal heart disease appeared isolated on ultrasound?",
       "options": [
         "At least 15% to 30%",
         "Under 1%",
@@ -29,7 +29,7 @@
         "Over 90%"
       ],
       "answer": 0,
-      "explanation": "Isolated heart disease on ultrasound carries a risk of at least 15-30%.",
+      "explanation": "The AHA 2014 statement reported a risk of at least 15-30% in historical series of apparently isolated fetal heart disease; this is not a current case-specific prediction.",
       "claims": [
         "AH14-102"
       ],
@@ -70,7 +70,7 @@
     },
     {
       "id": "XA2-Q05",
-      "question": "Which lesion has the highest estimated frequency of 22q11 deletion?",
+      "question": "Of these options, which lesion had the highest reported 22q11 deletion frequency in AHA 2014 Table 11?",
       "options": [
         "Interrupted aortic arch",
         "Transposition",

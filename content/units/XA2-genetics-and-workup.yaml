@@ -34,10 +34,10 @@ sections:
     blocks:
       - text: "Ventricular and atrioventricular septal defects are the lesions most often associated with an abnormal karyotype. Of fetuses with atrioventricular septal defect and normal situs, 50% to 70% have trisomy 21."
         claims: [AH14-108, AH14-109]
-      - text: "Risk of aneuploidy by lesion, from the AHA 2014 tables (ranges across published series)."
+      - text: "Historical aneuploidy estimates from the series summarised in AHA 2014; these are not patient-specific contemporary probabilities, and a reported 0% does not exclude genetic risk."
         claims: [AH14-112]
         table:
-          columns: ["Lesion", "Aneuploidy risk"]
+          columns: ["Lesion", "Reported aneuploidy in AHA 2014 series"]
           rows:
             - ["Atrioventricular septal defect", "46-73%"]
             - ["Common arterial trunk", "19-78%"]
@@ -45,14 +45,14 @@ sections:
             - ["Hypoplastic left heart", "4-9%"]
             - ["Transposition", "0%"]
             - ["Heterotaxy", "0%"]
-      - text: "Heterotaxy, D-transposition, congenitally corrected transposition and pulmonary atresia with intact septum are rarely aneuploid, but parents should still be offered testing."
-        claims: [AH14-107]
+      - text: "A reported 0% in a historical series is not a rule-out test. Heterotaxy, D-transposition, congenitally corrected transposition and pulmonary atresia with intact septum are described as rarely aneuploid, but parents should still be offered testing."
+        claims: [AH14-107, AH14-112]
 
   - heading: "22q11 deletion"
     blocks:
       - text: "Conotruncal lesions and right aortic arch are associated with 22q11 deletion."
         claims: [AH14-110]
-      - text: "Estimated frequency of 22q11 deletion by lesion, from AHA 2014."
+      - text: "Frequencies of 22q11 deletion reported in the series summarised by AHA 2014, not contemporary individual risk predictions."
         claims: [AH14-113]
         table:
           columns: ["Lesion", "22q11 deletion"]
@@ -67,7 +67,7 @@ sections:
 
   - heading: "Other genetic clues"
     blocks:
-      - text: "A cardiac tumour found in mid or late gestation should prompt genetic testing: over 60% of such fetuses have tuberous sclerosis."
+      - text: "AHA 2014 reports a strong association of mid- or late-gestation fetal cardiac tumours with tuberous sclerosis (over 60% in the cited series), and recommends genetic evaluation. The estimate is historical."
         claims: [AH14-111]
       - text: "Lesions of the atrioventricular junction may be isolated, often with aneuploidy including trisomy 21."
         claims: [AS23-249]
@@ -87,7 +87,7 @@ sections:
         claims: [AH14-115]
 
 missing_claims:
-  - "Awaiting re-check after rewording on 21 Nov (round 5, task J): recommendation 14, genetic counselling with offer of aneuploidy testing and detailed anatomy scan (AH14-014); extracardiac anomaly rates (AH14-114); fetal MRI for extracardiac screening (AH14-015, 016, 117); parental testing (AH14-330, new)."
+  - "Task J confirmed AH14-014 (counselling and testing), AH14-114 (extracardiac anomaly rates), AH14-015, AH14-016, AH14-117 (MRI indications and limits) and AH14-330 (parental testing). These are not yet incorporated and require a current genetics-source review first."
   - "Current testing: exome and genome sequencing, rapid aneuploidy tests, and how testing has changed since 2014 - needs a newer source and a clinical geneticist."
   - "Availability and cost of each test in India, and the legal framework (PC-PNDT) for prenatal genetic testing - needs an Indian source and the editor's input."
   - "Recurrence risks for siblings and offspring - needs a source."
@@ -106,14 +106,14 @@ drills:
     claims: [AH14-101]
 
   - id: XA2-Q02
-    question: "Heart disease appears isolated on ultrasound. What is the risk of a chromosomal abnormality?"
+    question: "According to series summarised in AHA 2014, what chromosomal-abnormality rate was reported when fetal heart disease appeared isolated on ultrasound?"
     options:
       - "At least 15% to 30%"
       - "Under 1%"
       - "Zero, if the defect is isolated"
       - "Over 90%"
     answer: 0
-    explanation: "Isolated heart disease on ultrasound carries a risk of at least 15-30%."
+    explanation: "The AHA 2014 statement reported a risk of at least 15-30% in historical series of apparently isolated fetal heart disease; this is not a current case-specific prediction."
     claims: [AH14-102]
 
   - id: XA2-Q03
@@ -139,7 +139,7 @@ drills:
     claims: [AH14-107, AH14-103]
 
   - id: XA2-Q05
-    question: "Which lesion has the highest estimated frequency of 22q11 deletion?"
+    question: "Of these options, which lesion had the highest reported 22q11 deletion frequency in AHA 2014 Table 11?"
     options:
       - "Interrupted aortic arch"
       - "Transposition"

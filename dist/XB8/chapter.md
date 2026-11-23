@@ -69,7 +69,7 @@ Regurgitation of the common atrioventricular valve may progress and can affect p
 
 ## Still to be written (awaiting sourced claims)
 
-- Awaiting re-check after rewording on 21 Nov (round 5, task J): flow direction and restriction at the atrial septum, ductus and isthmus (AS23-217); adequacy of the atrial septal defect when the left valve is hypoplastic in double-inlet left ventricle (AS23-358).
+- Task J confirmed AS23-217 (atrial, ductal and isthmus flow when present) and AS23-358 (adequacy of the interatrial opening in double-inlet left ventricle when the left AV valve is hypoplastic or atretic). These details remain omitted pending editorial integration.
 - Heterotaxy and isomerism: recognition and associated lesions - unit XB7; ASE has little on it and a source is needed.
 - Outcomes of the staged single-ventricle pathway, and what to tell parents - needs a source; unit Z7.
 - Video outline not yet written.

@@ -30,9 +30,9 @@ Candidates need stenosis, not atresia, with antegrade flow; little or no subvalv
 
 Assessment on fetal echocardiography: ventricular size (end-diastolic diameter and length), whether the ventricle forms the apex, hypertrophy, endocardial fibroelastosis, and systolic and diastolic function help judge severity and suitability for prenatal intervention. [7]
 
-Results: in one reported series of 70 fetuses, balloon valvuloplasty was technically successful in 52 (74%). [8]
+Historical result, not a current success rate: AHA 2014 reported one series of 70 fetuses, in which balloon valvuloplasty was technically successful in 52 (74%). Technical success does not itself establish a favourable clinical outcome. [8, 2]
 
-After the procedure: delivery and management at a specialised congenital heart centre are recommended. Follow-up is every 4 weeks in the third trimester, assessing aortic outflow, arch flow direction, atrial septal flow, left ventricular size and function, mitral regurgitation and endocardial brightness. [9, 10]
+After the procedure, AHA 2014 recommended delivery and management at a specialised congenital heart centre. ASE 2023 suggests follow-up every 4 weeks in the third trimester, assessing aortic outflow, arch flow direction, atrial septal flow, left ventricular size and function, mitral regurgitation and endocardial brightness. Confirm these arrangements with the current specialist team. [9, 10]
 
 
 ## HLHS with a restrictive or intact atrial septum
@@ -70,7 +70,7 @@ Families considering aortic valvuloplasty should receive extensive counselling o
 
 ## Still to be written (awaiting sourced claims)
 
-- Awaiting re-check after rewording on 21 Nov (round 5, task J): recommendation 23, the lesions for which catheter intervention may be considered (AH14-023); mortality in HLHS with highly restrictive or intact septum (AH14-209); predictors of a two-ventricle outcome after valvuloplasty, with z-score and pressure cut-offs (AH14-332, new).
+- Task J confirmed AH14-023 (historical catheter-intervention candidates), AH14-209 (historical HLHS with restrictive/intact atrial septum outcomes) and AH14-332 (historical predictors of two-ventricle repair following intervention). These are not yet incorporated; current outcomes and specialist review are prerequisites.
 - Outcomes since 2014 (survival, biventricular circulation, maternal complications) from current registries - needs a newer source (tasks/results/task-s1.md, topic 10).
 - Where fetal cardiac intervention is available to Indian patients, and referral routes - the editor's input.
 - Transplacental drug therapy for arrhythmia and heart failure - unit Z4.

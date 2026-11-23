@@ -8,7 +8,7 @@ Unit XA6 | Tier: Diagnose | Version 0.1
 
 - List the measurements a complete fetal echocardiogram requires.
 - Name the optional measurements and the phase of the cycle each is taken in.
-- Explain what a Z-score is and why the equation used must be stated.
+- Explain what a Z-score is and why the choice of published Z-score equation matters.
 - Say when measurements beyond the standard list are needed.
 
 ## Required in every study
@@ -65,7 +65,7 @@ Several published Z-score equations exist. Some use biparietal diameter and femu
 
 - The Z-score source the course will teach and its normal values for each structure - the editor to choose (tasks/results/task-s1.md, topic 4).
 - Required annulus measurements and their timing (AS23-068, AS23-069) are not yet cross-checked (task H was not applied); and the guideline is inconsistent on semilunar annulus timing (flagged 17 Nov). The co-editor to decide what the course teaches.
-- Whether reports must name the Z-score equation used - a sensible practice but not a claim held; the co-editor to decide. (The equation-dependent valve index threshold, AS23-255, is awaiting re-check.)
+- Whether reports must name the Z-score equation used - not established by a held claim; obtain a reporting-standard source and the co-editor's decision before teaching it as mandatory. Task J confirmed AS23-255 (the valve-index threshold depends on the equation), but it is not yet incorporated here.
 - How to measure each structure step by step, with images - needs a source and the editor's own clips.
 - Video outline not yet written.
 

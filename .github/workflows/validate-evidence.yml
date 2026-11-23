@@ -1,0 +1,66 @@
+name: Validate evidence-ledger and course builds
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Keep a single active check for each ref when several source files are updated.
+concurrency:
+  group: evidence-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install YAML parser
+        run: python -m pip install pyyaml
+      - name: Validate source ledgers and unit references
+        run: python tools/build.py --check
+      - name: Build all draft outputs
+        run: python tools/build.py
+      - name: Verify round-five claims and the study-answer keys
+        run: python tools/check_round5.py
+
+  refresh-draft-outputs:
+    name: Regenerate tracked draft content on integration branch
+    needs: check
+    if: github.event_name == 'push' && github.ref == 'refs/heads/chatgpt/round5-j-k-review-20261122'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - name: Check out exactly the validated branch
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install YAML parser
+        run: python -m pip install pyyaml
+      - name: Rebuild course drafts and editor materials
+        run: python tools/build.py
+      - name: Commit generated output changes without altering the source
+        shell: bash
+        run: |
+          git add -A -- dist/
+          if git diff --cached --quiet; then
+            echo "Generated draft outputs already match the YAML."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Regenerate draft outputs after round-five evidence review'
+          git push origin "HEAD:refs/heads/${GITHUB_REF_NAME}"

@@ -71,7 +71,7 @@ sections:
         claims: [AS23-517]
 
 missing_claims:
-  - "Awaiting re-check after rewording on 21 Nov (round 5, task J): flow direction and restriction at the atrial septum, ductus and isthmus (AS23-217); adequacy of the atrial septal defect when the left valve is hypoplastic in double-inlet left ventricle (AS23-358)."
+  - "Task J confirmed AS23-217 (atrial, ductal and isthmus flow when present) and AS23-358 (adequacy of the interatrial opening in double-inlet left ventricle when the left AV valve is hypoplastic or atretic). These details remain omitted pending editorial integration."
   - "Heterotaxy and isomerism: recognition and associated lesions - unit XB7; ASE has little on it and a source is needed."
   - "Outcomes of the staged single-ventricle pathway, and what to tell parents - needs a source; unit Z7."
   - "Video outline not yet written."
@@ -122,14 +122,14 @@ drills:
     claims: [AS23-213]
 
   - id: XB8-Q05
-    question: "Single ventricle with left atrial isomerism and slow ventricular rate. What does the guideline say about this combination?"
+    question: "Single ventricle with left atrial isomerism, discordant atrioventricular connections and bradyarrhythmia. What does the guideline say about this combination?"
     options:
       - "Poor prognosis and a high risk of death in utero"
       - "No effect on prognosis"
       - "The rate always recovers by term"
       - "It improves surgical outcome"
     answer: 0
-    explanation: "Bradyarrhythmias with left atrial isomerism and discordant connections carry a poor prognosis and high risk of fetal death."
+    explanation: "The cited prognosis concerns the combination of bradyarrhythmia, left atrial isomerism and discordant atrioventricular connections, not slow rate in isolation."
     claims: [AS23-214]
 
   - id: XB8-Q06

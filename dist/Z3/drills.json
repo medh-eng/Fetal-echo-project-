@@ -102,7 +102,7 @@
     },
     {
       "id": "Z3-Q07",
-      "question": "Which group needs no specialised delivery room care, according to the recommendations?",
+      "question": "In the AHA 2014 framework, for which group is a specialist cardiac team generally not required physically in the delivery room, while an appropriate neonatal plan is still required?",
       "options": [
         "Shunt lesions, most ductal-dependent lesions and controlled arrhythmias",
         "d-TGA",
@@ -110,9 +110,10 @@
         "HLHS with intact atrial septum"
       ],
       "answer": 0,
-      "explanation": "Class III: specialised delivery room care is not needed for these.",
+      "explanation": "AHA 2014 Class III addresses a specialist team in the delivery room; level-2 ductal-dependent lesions still require a neonatologist, cardiology access, prostaglandin when indicated and transfer planning.",
       "claims": [
-        "AH14-027"
+        "AH14-027",
+        "AH14-319"
       ],
       "status": "ai-cross-checked"
     },
