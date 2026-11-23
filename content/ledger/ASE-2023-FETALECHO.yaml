@@ -3396,13 +3396,14 @@ claims:
   aspect: evolution
   statement: "The lesions with the greatest potential to progress in utero include semilunar valve obstruction with an intact ventricular septum and lesions with significant valve regurgitation; serial assessment of both is essential."
   source: ASE-2023-FETALECHO
-  locator: IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716
+  locator: IV.C.iv Progressive Lesions, Obstructive and Regurgitant, introductory paragraph before the semilunar-obstruction subheading, p. 715
   status: ai-extracted
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: IV.C.iv p.715 groups two categories among the lesions most likely to progress, including those with significant valve regurgitation. The singular superlative loses that distinction. Serial assessment is essential for both. Needs re-check by a non-Claude model (round 5, task J)."
+  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: IV.C.iv p.715 groups two categories among the lesions most likely to progress, including those with significant valve regurgitation. The singular superlative loses that distinction. Serial assessment is essential for both. Needs re-check by a non-Claude model (round 5, task J). Task J located this at ASE printed p. 715 in the general progressive-lesions introduction, not the semilunar subsection. Locator corrected 23 Nov 2026; status deliberately stays ai-extracted pending independent verification."
+
 - id: AS23-402
   lesion: semilunar valve obstruction
   aspect: evolution
@@ -3459,13 +3460,14 @@ claims:
   aspect: followup
   statement: "As semilunar valve obstruction or significant valve regurgitation progresses, routine Doppler of systemic venous, ductus venosus, umbilical arterial, umbilical venous and middle cerebral arterial flows is essential."
   source: ASE-2023-FETALECHO
-  locator: IV.C.iv Semilunar Valve Obstruction with an Intact Ventricular Septum, pp. 715-716
+  locator: IV.C.iv Progressive Lesions, Obstructive and Regurgitant, introductory paragraph before the semilunar-obstruction subheading, p. 715
   status: ai-extracted
   extracted_by: Claude (Opus 5.5, 2026-11-17), first read through a web reader; then checked by the extractor against
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "Reader placed this on p. 715; check page and wording. REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: IV.C.iv p.715 specifies both umbilical arterial and umbilical venous Doppler. Unspecified umbilical flows could omit either vessel from surveillance. The instruction also applies to significant valve regurgitation. Needs re-check by a non-Claude model (round 5, task J)."
+  note: "Reader placed this on p. 715; check page and wording. REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: IV.C.iv p.715 specifies both umbilical arterial and umbilical venous Doppler. Unspecified umbilical flows could omit either vessel from surveillance. The instruction also applies to significant valve regurgitation. Needs re-check by a non-Claude model (round 5, task J). Task J located the five listed Dopplers at ASE printed p. 715 in the general progressive-lesions introduction. Locator corrected 23 Nov 2026; status stays ai-extracted pending independent verification."
+
 - id: AS23-407
   lesion: semilunar valve obstruction
   aspect: measure
@@ -3532,7 +3534,7 @@ claims:
 - id: AS23-412
   lesion: aortic stenosis
   aspect: views
-  statement: "Key observations listed for aortic stenosis: a thickened valve in systole on the left ventricular outflow view; with or without a dilated ascending aorta on the three-vessel view; and left ventricular hypertrophy, or dilation and dysfunction, on the four-chamber view."
+  statement: "Key observations listed for aortic stenosis: a thickened aortic valve in systole on the left ventricular outflow view; with or without ascending-aortic dilatation on the three-vessel view; and left ventricular hypertrophy, dilatation or dysfunction on the four-chamber view."
   source: ASE-2023-FETALECHO
   locator: Table 13 (lesion-specific evaluation), p. 708
   status: ai-extracted
@@ -3540,7 +3542,8 @@ claims:
     the PDF pages (numbers, page numbers, tables)
   checked_by: null
   verified_by: null
-  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: Table 13 p.708, aortic stenosis, key observations. A printed plus/minus precedes ascending aortic dilatation. It is optional. The four-chamber findings also include LV dilatation. Needs re-check by a non-Claude model (round 5, task J)."
+  note: "REWORDED 21 Nov 2026 by the extractor (Claude (Opus 5.5, 2026-11-21)) against the printed page, after ChatGPT (GPT-6, 2026-11-19) found it DISTORTED: Table 13 p.708, aortic stenosis, key observations. A printed plus/minus precedes ascending aortic dilatation. It is optional. The four-chamber findings also include LV dilatation. Needs re-check by a non-Claude model (round 5, task J). Task J found that the ASE Table 13 slash between LV dilatation/dysfunction did not require both simultaneously. Wording amended 23 Nov 2026; the reviewer of the prior text (ChatGPT) drafted this clarification. Another independent model with the PDF must check the revision before any status increase."
+
 - id: AS23-413
   lesion: aortic stenosis
   aspect: pitfall
