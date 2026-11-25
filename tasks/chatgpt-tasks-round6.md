@@ -33,3 +33,20 @@ Attach the ASE 2023 PDF. Claim **AS23-412** (Table 13, aortic stenosis, key obse
 ## Task N. Cross-check the AIUM claims
 
 About 30 minutes. Attach the AIUM Practice Parameter PDF, `content/ledger/AIUM-2020-FETALECHO.yaml` and `prompts/02-crosscheck.md`. Claude extracted all 41 claims (AI20-001 to AI20-062) on 23 Nov. Check each against the printed page: statement, every number, the class of each indication list (indicated, may be considered, limited data, only if the detailed scan is abnormal), and the E-page locator. Verdicts: CONFIRMED, CORRECT LOCATOR, DISTORTED, NOT FOUND. Save as `tasks/results/task-n.csv`. A claim not checked by a different model stays ai-extracted, so no unit can use it.
+
+## Task O. Re-audit the four units after the task L fixes (25 Nov 2026)
+
+About 20 minutes. Needs a model that is **not Claude**. Attach `content/ledger/AHA-2014-FETALCARDIAC.yaml`, `content/ledger/ASE-2023-FETALECHO.yaml`, `prompts/04-audit.md`, `tasks/results/task-l.md`, and from `content/units/`: XC7, XC5, XC8, XB9 (the corrected versions).
+
+```
+Claude corrected four units after your task L audit. For each finding in task-l.md say: fixed, partly fixed, or not fixed, and why.
+Then re-audit the changed sentences only, using prompts/04-audit.md. Flag any added fact, number, direction or strength, and any lost qualifier.
+Specific checks:
+1. XC7: does the table block now cite AH14-001, 003, 004 and 005? Does every class and level of evidence in the table match those claims?
+2. XC7: is 'vitamin K' absent from learner-facing text, and is nothing substituted for it?
+3. XC7-Q02: is the question now answerable from AH14-005 alone, with the overlap stated and not resolved?
+4. XC5, XC8, XB9: is every historical figure labelled with its source and year at the point of use?
+Output: a table of findings with verdicts, then "Nothing left to fix: ...". Use nothing from memory.
+```
+
+Save as `tasks/results/task-o.md`. Claude then sets `audited_by` on units with nothing left to fix. Signing stays with Dr Kunda.

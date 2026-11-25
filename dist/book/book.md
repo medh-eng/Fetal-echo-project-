@@ -3318,9 +3318,9 @@ Unit XB9 | Tier: Diagnose | Version 0.1
 
 The effect of a cardiac tumour depends on its type and on how it affects filling, function and rhythm. [1]
 
-Rhabdomyomas evolve in the mid-trimester but regress after 32 weeks. [2]
+ASE 2023 describes the usual pattern: rhabdomyomas evolve in the mid-trimester but regress after 32 weeks. This is a pattern, not a promise for an individual fetus; the clinician decides from the case in front of them. [2]
 
-A cardiac tumour found in mid or late gestation should prompt genetic testing. Over 60% of such fetuses have tuberous sclerosis. [3]
+AHA 2014 states that a cardiac tumour found in mid or late gestation should prompt genetic testing, and reports that over 60% of such fetuses have tuberous sclerosis. This is a 2014 figure, not a probability for every tumour type; more recent genetics advice and specialist review are needed for counselling. [3]
 
 
 ## Dysfunction and failure
@@ -3332,8 +3332,8 @@ Fetal heart failure can result from ventricular dysfunction with inadequate prel
 ## Cardiac tumour or poor function: what to record
 
 - [ ] Tumour effect on filling, function and rhythm [1]
-- [ ] Gestation, since rhabdomyomas evolve in mid-trimester and regress after 32 weeks [2]
-- [ ] Genetic testing offered for a tumour found in mid or late gestation [3]
+- [ ] Gestation, since rhabdomyomas usually evolve in mid-trimester and regress after 32 weeks (ASE 2023 pattern, not a promise for one fetus) [2]
+- [ ] Genetic testing offered for a tumour found in mid or late gestation (AHA 2014; the over-60% tuberous sclerosis figure is from 2014) [3]
 - [ ] Cause of dysfunction or failure considered: myocardium, volume load, obstruction, arrhythmia, compression [4, 5]
 
 ## Still to be written
@@ -3341,7 +3341,7 @@ Fetal heart failure can result from ventricular dysfunction with inadequate prel
 - How to recognise and tell apart tumour types on the image, and their usual sites - no claim held.
 - Cardiomyopathy types, pericardial effusion, and measurements of function - need a source.
 - Hydrops, scoring systems and treatment of heart failure - unit XC2.
-- Anything newer than the two guidelines, and Indian practice.
+- Anything newer than the two guidelines, and Indian practice, including a recent genetics source for the tuberous sclerosis figure.
 
 ## References
 
@@ -3462,7 +3462,7 @@ Unit XC5 | Tier: Diagnose | Version 0.1
 
 ## The problem
 
-Twin-twin transfusion syndrome occurs in about 10% to 20% of monochorionic twin pregnancies. Untreated, fetal mortality approaches 90% to 100%. [1]
+AHA 2014 reported that twin-twin transfusion syndrome occurs in about 10% to 20% of monochorionic twin pregnancies, and that untreated, fetal mortality approaches 90% to 100%. These are historical estimates from a US statement, not current counselling figures or a prognosis once fetal therapy is available. [1]
 
 
 ## What the heart shows
@@ -3478,21 +3478,21 @@ Whether cardiac findings predict outcome is controversial. [4]
 
 A fetal echocardiogram should be part of the diagnostic assessment and initial management of twin-twin transfusion syndrome. [5]
 
-After laser treatment, a fetal echocardiogram 24 to 48 hours later should be considered for surviving twins. [6]
+As suggested in AHA 2014, after laser treatment a fetal echocardiogram 24 to 48 hours later should be considered for surviving twins. It is a suggestion to be considered, not a rule, and must be confirmed against the current fetal therapy protocol. [6]
 
 ## Twin-twin transfusion: the cardiac study
 
 - [ ] Fetal echocardiogram done as part of the first assessment [5]
 - [ ] Recipient: function, chamber size, wall thickness, atrioventricular valve regurgitation, right ventricular outflow [2]
 - [ ] Remember that Quintero stage carries no cardiac information [3]
-- [ ] After laser: consider a repeat study 24 to 48 hours later in surviving twins [6]
+- [ ] After laser: consider a repeat study 24 to 48 hours later in surviving twins (AHA 2014 suggestion; confirm against the current fetal therapy protocol) [6]
 
 ## Still to be written
 
 - Quintero stages and the Cincinnati and CHOP scores in detail (Tables 17 and 18 of AHA 2014) - not harvested.
 - Treatment of twin-twin transfusion, timing and referral to a fetal therapy centre - needs a source; Dr Kunda's own practice.
 - Cardiac findings in the donor twin, and discordant growth in twins without transfusion - no claim held.
-- Anything newer than 2014, and Indian practice - needs a newer source.
+- Anything newer than 2014, and Indian practice - needs a newer source. In particular, the 2014 mortality and prevalence figures and the post-laser timing need a current source and the editor's review before release.
 
 ## References
 
@@ -3534,30 +3534,34 @@ Reasonable (Class IIa): SSA/SSB autoantibodies without a previously affected chi
 
 May be considered (Class IIb): anticonvulsants; lithium; vitamin A; the SSRI paroxetine only; NSAIDs in the first or second trimester. [3]
 
-Not indicated (Class III): gestational diabetes with HbA1c below 6%; SSRIs other than paroxetine; infection other than rubella with seroconversion only. Vitamin K agonists are also listed as not indicated, as printed in the statement, although a fetal survey is recommended. [4]
+Not indicated (Class III): gestational diabetes with HbA1c below 6%; SSRIs other than paroxetine; infection other than rubella with seroconversion only. The same recommendation lists one further item whose wording is disputed within the statement itself; it is held back from this unit until the editor has settled it (see the editor decisions below). [4]
 
-| Exposure | Referral |
-|---|---|
-| Pregestational diabetes, or diabetes diagnosed in the first trimester | Indicated (Class I) |
-| Gestational diabetes with HbA1c below 6% | Not indicated (Class III) |
-| SSA/SSB autoantibodies, previously affected child | Indicated (Class I) |
-| SSA/SSB autoantibodies, no previously affected child | Reasonable (Class IIa) |
-| NSAIDs in the third trimester | Indicated (Class I) |
-| NSAIDs in the first or second trimester | May be considered (Class IIb) |
-| Paroxetine | May be considered (Class IIb) |
-| SSRIs other than paroxetine | Not indicated (Class III) |
-| First-trimester rubella | Indicated (Class I) |
-| Other infection, seroconversion only | Not indicated (Class III) |
+Summary table. AHA 2014 U.S. referral categories, a historical statement, not current Indian guidance. Each row gives the class and the level of evidence (LOE) printed for it. Two rows concern diabetes and are not settled by the statement: diabetes diagnosed in the first trimester is Class I, while gestational diabetes with HbA1c below 6% is Class III. The statement does not say how to read a case that fits both. [1, 2, 3, 4]
+
+| Exposure | Referral | Level of evidence |
+|---|---|---|
+| Pregestational diabetes, or diabetes diagnosed in the first trimester | Indicated (Class I) | A |
+| Gestational diabetes with HbA1c below 6% | Not indicated (Class III) | B |
+| SSA/SSB autoantibodies, previously affected child | Indicated (Class I) | B |
+| SSA/SSB autoantibodies, no previously affected child | Reasonable (Class IIa) | B |
+| NSAIDs in the third trimester | Indicated (Class I) | A |
+| NSAIDs in the first or second trimester | May be considered (Class IIb) | B |
+| Paroxetine | May be considered (Class IIb) | A |
+| SSRIs other than paroxetine | Not indicated (Class III) | A |
+| First-trimester rubella | Indicated (Class I) | C |
+| Other infection, seroconversion only | Not indicated (Class III) | C |
 
 ## Maternal history for referral
 
-- [ ] Diabetes: before pregnancy, or found in the first trimester, or gestational with its HbA1c [1, 4]
+- [ ] Diabetes: before pregnancy, or found in the first trimester (Class I); gestational with its HbA1c (a low HbA1c is listed as Class III, but a first-trimester diagnosis is separately Class I; take both into account and ask the editor how to read a case that fits both) [1, 4]
 - [ ] SSA/SSB autoantibodies, and whether a previous child was affected [1, 2]
 - [ ] Drug and exposure history, with the trimester for NSAIDs [1, 2, 3, 4]
 - [ ] Infection: first-trimester rubella, or suspected fetal myocarditis [1, 4]
 
 ## Still to be written
 
+- EDITOR DECISION (diabetes overlap): AH14-001 makes diabetes diagnosed in the first trimester Class I; AH14-005 makes gestational diabetes with HbA1c below 6% Class III. A case diagnosed early with a low HbA1c fits both, and the statement does not say which governs. Dr Kunda to decide how the unit should teach this, or whether to hold the drill and table row.
+- EDITOR DECISION (vitamin K wording): recommendation 5 prints 'vitamin K agonists' as Class III, but the statement's own Table 2 lists vitamin K antagonists. The item is withheld from the learner-facing text and no drug category is substituted. The printed page and table must be checked by the editor, and newer guidance looked for, before any version of this item is shown.
 - Everything outside referral: the size of the risk from each exposure, advice on stopping or changing a medicine, and any dose. Needs a source and a clinician who prescribes.
 - Anything newer than 2014, including current practice in India - needs a newer source and the editor's input.
 - AIUM 2020 lists indications that differ from AHA 2014 (for example in vitro fertilisation, warfarin, diabetes timing and several drugs): AI20-013 to AI20-018 were harvested on 23 Nov and await cross-check. The two sources must be compared, and Dr Kunda must choose, before this unit is released.
@@ -3581,18 +3585,18 @@ Unit XC8 | Tier: Diagnose | Version 0.1
 
 ## You will be able to
 
-- State how often extracardiac anomalies accompany congenital heart disease.
+- Report the figures AHA 2014 gives for extracardiac anomalies with congenital heart disease, and say why they are not a typical rate.
 - Name lesions that are often, and less often, accompanied by other anomalies.
 - State what survey a fetus with heart disease should have.
 
 ## How often
 
-Extracardiac anomalies occur in up to 20% of infants with congenital heart disease. The proportion is higher in fetuses, with figures as high as 50% to 70% reported. [1]
+These are figures from series summarised in AHA 2014. Extracardiac anomalies occur in up to 20% of infants with congenital heart disease, which is an upper figure. The proportion is higher in fetuses, with figures as high as 50% to 70% reported. The 50% to 70% is an upper-end observation, not a rate to expect in any one fetus; population-specific estimates are needed before counselling. [1]
 
 
 ## Which lesions
 
-Ventricular septal defect and tricuspid atresia are often associated with other anomalies. D-transposition and pulmonary atresia with intact septum are more often isolated. [2]
+Ventricular septal defect and tricuspid atresia are often associated with other anomalies. D-transposition and pulmonary atresia with intact septum are more often isolated, which is a comparison between lesions. It does not mean that other anomalies can be excluded. [2]
 
 
 ## What to do
@@ -3602,7 +3606,7 @@ A detailed survey of all fetal anatomy, by an expert operator, is recommended fo
 ## Fetus with heart disease: the rest of the fetus
 
 - [ ] Detailed survey of all fetal anatomy done by an expert operator [3]
-- [ ] Lesion noted: does it often come with other anomalies, or is it usually isolated? [2]
+- [ ] Lesion noted: is it one that more often comes with other anomalies, or one more often reported as isolated? Either way, the detailed survey is still done for every fetus with heart disease [2]
 - [ ] Repeat assessment considered, since some anomalies appear later [3]
 
 ## Still to be written

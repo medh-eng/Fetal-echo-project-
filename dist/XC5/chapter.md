@@ -13,7 +13,7 @@ Unit XC5 | Tier: Diagnose | Version 0.1
 
 ## The problem
 
-Twin-twin transfusion syndrome occurs in about 10% to 20% of monochorionic twin pregnancies. Untreated, fetal mortality approaches 90% to 100%. [1]
+AHA 2014 reported that twin-twin transfusion syndrome occurs in about 10% to 20% of monochorionic twin pregnancies, and that untreated, fetal mortality approaches 90% to 100%. These are historical estimates from a US statement, not current counselling figures or a prognosis once fetal therapy is available. [1]
 
 
 ## What the heart shows
@@ -29,21 +29,21 @@ Whether cardiac findings predict outcome is controversial. [4]
 
 A fetal echocardiogram should be part of the diagnostic assessment and initial management of twin-twin transfusion syndrome. [5]
 
-After laser treatment, a fetal echocardiogram 24 to 48 hours later should be considered for surviving twins. [6]
+As suggested in AHA 2014, after laser treatment a fetal echocardiogram 24 to 48 hours later should be considered for surviving twins. It is a suggestion to be considered, not a rule, and must be confirmed against the current fetal therapy protocol. [6]
 
 ## Twin-twin transfusion: the cardiac study
 
 - [ ] Fetal echocardiogram done as part of the first assessment [5]
 - [ ] Recipient: function, chamber size, wall thickness, atrioventricular valve regurgitation, right ventricular outflow [2]
 - [ ] Remember that Quintero stage carries no cardiac information [3]
-- [ ] After laser: consider a repeat study 24 to 48 hours later in surviving twins [6]
+- [ ] After laser: consider a repeat study 24 to 48 hours later in surviving twins (AHA 2014 suggestion; confirm against the current fetal therapy protocol) [6]
 
 ## Still to be written (awaiting sourced claims)
 
 - Quintero stages and the Cincinnati and CHOP scores in detail (Tables 17 and 18 of AHA 2014) - not harvested.
 - Treatment of twin-twin transfusion, timing and referral to a fetal therapy centre - needs a source; Dr Kunda's own practice.
 - Cardiac findings in the donor twin, and discordant growth in twins without transfusion - no claim held.
-- Anything newer than 2014, and Indian practice - needs a newer source.
+- Anything newer than 2014, and Indian practice - needs a newer source. In particular, the 2014 mortality and prevalence figures and the post-laser timing need a current source and the editor's review before release.
 
 ## References
 

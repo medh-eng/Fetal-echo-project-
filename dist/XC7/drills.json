@@ -21,7 +21,7 @@
     },
     {
       "id": "XC7-Q02",
-      "question": "Gestational diabetes with HbA1c below 6%. What does AHA 2014 say about referral?",
+      "question": "Under AHA 2014 recommendation 5, how is gestational diabetes with HbA1c below 6% listed for referral?",
       "options": [
         "Not indicated (Class III)",
         "Indicated (Class I)",
@@ -29,8 +29,9 @@
         "May be considered (Class IIb)"
       ],
       "answer": 0,
-      "explanation": "Gestational diabetes with HbA1c below 6% is listed as not indicated.",
+      "explanation": "Recommendation 5 lists gestational diabetes with HbA1c below 6% as not indicated. Recommendation 1 separately lists diabetes diagnosed in the first trimester as Class I, and the statement does not say how to read a case that fits both. This question tests only what recommendation 5 says; it is not advice about a patient. The editor is asked to settle the overlap.",
       "claims": [
+        "AH14-001",
         "AH14-005"
       ],
       "status": "ai-cross-checked"

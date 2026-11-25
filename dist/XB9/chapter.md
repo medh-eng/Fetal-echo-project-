@@ -15,9 +15,9 @@ Unit XB9 | Tier: Diagnose | Version 0.1
 
 The effect of a cardiac tumour depends on its type and on how it affects filling, function and rhythm. [1]
 
-Rhabdomyomas evolve in the mid-trimester but regress after 32 weeks. [2]
+ASE 2023 describes the usual pattern: rhabdomyomas evolve in the mid-trimester but regress after 32 weeks. This is a pattern, not a promise for an individual fetus; the clinician decides from the case in front of them. [2]
 
-A cardiac tumour found in mid or late gestation should prompt genetic testing. Over 60% of such fetuses have tuberous sclerosis. [3]
+AHA 2014 states that a cardiac tumour found in mid or late gestation should prompt genetic testing, and reports that over 60% of such fetuses have tuberous sclerosis. This is a 2014 figure, not a probability for every tumour type; more recent genetics advice and specialist review are needed for counselling. [3]
 
 
 ## Dysfunction and failure
@@ -29,8 +29,8 @@ Fetal heart failure can result from ventricular dysfunction with inadequate prel
 ## Cardiac tumour or poor function: what to record
 
 - [ ] Tumour effect on filling, function and rhythm [1]
-- [ ] Gestation, since rhabdomyomas evolve in mid-trimester and regress after 32 weeks [2]
-- [ ] Genetic testing offered for a tumour found in mid or late gestation [3]
+- [ ] Gestation, since rhabdomyomas usually evolve in mid-trimester and regress after 32 weeks (ASE 2023 pattern, not a promise for one fetus) [2]
+- [ ] Genetic testing offered for a tumour found in mid or late gestation (AHA 2014; the over-60% tuberous sclerosis figure is from 2014) [3]
 - [ ] Cause of dysfunction or failure considered: myocardium, volume load, obstruction, arrhythmia, compression [4, 5]
 
 ## Still to be written (awaiting sourced claims)
@@ -38,7 +38,7 @@ Fetal heart failure can result from ventricular dysfunction with inadequate prel
 - How to recognise and tell apart tumour types on the image, and their usual sites - no claim held.
 - Cardiomyopathy types, pericardial effusion, and measurements of function - need a source.
 - Hydrops, scoring systems and treatment of heart failure - unit XC2.
-- Anything newer than the two guidelines, and Indian practice.
+- Anything newer than the two guidelines, and Indian practice, including a recent genetics source for the tuberous sclerosis figure.
 
 ## References
 

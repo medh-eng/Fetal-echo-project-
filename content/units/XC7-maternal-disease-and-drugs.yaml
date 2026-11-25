@@ -35,23 +35,27 @@ sections:
         claims: [AH14-003]
       - text: "May be considered (Class IIb): anticonvulsants; lithium; vitamin A; the SSRI paroxetine only; NSAIDs in the first or second trimester."
         claims: [AH14-004]
-      - text: "Not indicated (Class III): gestational diabetes with HbA1c below 6%; SSRIs other than paroxetine; infection other than rubella with seroconversion only. Vitamin K agonists are also listed as not indicated, as printed in the statement, although a fetal survey is recommended."
+      - text: "Not indicated (Class III): gestational diabetes with HbA1c below 6%; SSRIs other than paroxetine; infection other than rubella with seroconversion only. The same recommendation lists one further item whose wording is disputed within the statement itself; it is held back from this unit until the editor has settled it (see the editor decisions below)."
         claims: [AH14-005]
+      - text: "Summary table. AHA 2014 U.S. referral categories, a historical statement, not current Indian guidance. Each row gives the class and the level of evidence (LOE) printed for it. Two rows concern diabetes and are not settled by the statement: diabetes diagnosed in the first trimester is Class I, while gestational diabetes with HbA1c below 6% is Class III. The statement does not say how to read a case that fits both."
+        claims: [AH14-001, AH14-003, AH14-004, AH14-005]
         table:
-          columns: ["Exposure", "Referral"]
+          columns: ["Exposure", "Referral", "Level of evidence"]
           rows:
-            - ["Pregestational diabetes, or diabetes diagnosed in the first trimester", "Indicated (Class I)"]
-            - ["Gestational diabetes with HbA1c below 6%", "Not indicated (Class III)"]
-            - ["SSA/SSB autoantibodies, previously affected child", "Indicated (Class I)"]
-            - ["SSA/SSB autoantibodies, no previously affected child", "Reasonable (Class IIa)"]
-            - ["NSAIDs in the third trimester", "Indicated (Class I)"]
-            - ["NSAIDs in the first or second trimester", "May be considered (Class IIb)"]
-            - ["Paroxetine", "May be considered (Class IIb)"]
-            - ["SSRIs other than paroxetine", "Not indicated (Class III)"]
-            - ["First-trimester rubella", "Indicated (Class I)"]
-            - ["Other infection, seroconversion only", "Not indicated (Class III)"]
+            - ["Pregestational diabetes, or diabetes diagnosed in the first trimester", "Indicated (Class I)", "A"]
+            - ["Gestational diabetes with HbA1c below 6%", "Not indicated (Class III)", "B"]
+            - ["SSA/SSB autoantibodies, previously affected child", "Indicated (Class I)", "B"]
+            - ["SSA/SSB autoantibodies, no previously affected child", "Reasonable (Class IIa)", "B"]
+            - ["NSAIDs in the third trimester", "Indicated (Class I)", "A"]
+            - ["NSAIDs in the first or second trimester", "May be considered (Class IIb)", "B"]
+            - ["Paroxetine", "May be considered (Class IIb)", "A"]
+            - ["SSRIs other than paroxetine", "Not indicated (Class III)", "A"]
+            - ["First-trimester rubella", "Indicated (Class I)", "C"]
+            - ["Other infection, seroconversion only", "Not indicated (Class III)", "C"]
 
 missing_claims:
+  - "EDITOR DECISION (diabetes overlap): AH14-001 makes diabetes diagnosed in the first trimester Class I; AH14-005 makes gestational diabetes with HbA1c below 6% Class III. A case diagnosed early with a low HbA1c fits both, and the statement does not say which governs. Dr Kunda to decide how the unit should teach this, or whether to hold the drill and table row."
+  - "EDITOR DECISION (vitamin K wording): recommendation 5 prints 'vitamin K agonists' as Class III, but the statement's own Table 2 lists vitamin K antagonists. The item is withheld from the learner-facing text and no drug category is substituted. The printed page and table must be checked by the editor, and newer guidance looked for, before any version of this item is shown."
   - "Everything outside referral: the size of the risk from each exposure, advice on stopping or changing a medicine, and any dose. Needs a source and a clinician who prescribes."
   - "Anything newer than 2014, including current practice in India - needs a newer source and the editor's input."
   - "AIUM 2020 lists indications that differ from AHA 2014 (for example in vitro fertilisation, warfarin, diabetes timing and several drugs): AI20-013 to AI20-018 were harvested on 23 Nov and await cross-check. The two sources must be compared, and Dr Kunda must choose, before this unit is released."
@@ -70,15 +74,15 @@ drills:
     claims: [AH14-001]
 
   - id: XC7-Q02
-    question: "Gestational diabetes with HbA1c below 6%. What does AHA 2014 say about referral?"
+    question: "Under AHA 2014 recommendation 5, how is gestational diabetes with HbA1c below 6% listed for referral?"
     options:
       - "Not indicated (Class III)"
       - "Indicated (Class I)"
       - "Reasonable (Class IIa)"
       - "May be considered (Class IIb)"
     answer: 0
-    explanation: "Gestational diabetes with HbA1c below 6% is listed as not indicated."
-    claims: [AH14-005]
+    explanation: "Recommendation 5 lists gestational diabetes with HbA1c below 6% as not indicated. Recommendation 1 separately lists diabetes diagnosed in the first trimester as Class I, and the statement does not say how to read a case that fits both. This question tests only what recommendation 5 says; it is not advice about a patient. The editor is asked to settle the overlap."
+    claims: [AH14-001, AH14-005]
 
   - id: XC7-Q03
     question: "The mother has SSA/SSB autoantibodies and no previously affected child. What does AHA 2014 say about referral?"
@@ -127,7 +131,7 @@ drills:
 checklist:
   title: "Maternal history for referral"
   items:
-    - text: "Diabetes: before pregnancy, or found in the first trimester, or gestational with its HbA1c"
+    - text: "Diabetes: before pregnancy, or found in the first trimester (Class I); gestational with its HbA1c (a low HbA1c is listed as Class III, but a first-trimester diagnosis is separately Class I; take both into account and ask the editor how to read a case that fits both)"
       claims: [AH14-001, AH14-005]
     - text: "SSA/SSB autoantibodies, and whether a previous child was affected"
       claims: [AH14-001, AH14-003]

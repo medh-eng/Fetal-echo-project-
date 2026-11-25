@@ -5,7 +5,7 @@
   "items": [
     {
       "id": "XC8-Q01",
-      "question": "About how often are extracardiac anomalies found in infants with congenital heart disease?",
+      "question": "According to series summarised in AHA 2014, about how often are extracardiac anomalies found in infants with congenital heart disease?",
       "options": [
         "Up to 20%",
         "Almost never",
@@ -13,7 +13,7 @@
         "Only in infants with a chromosomal abnormality"
       ],
       "answer": 0,
-      "explanation": "Up to 20% of infants have an extracardiac anomaly. The proportion is higher in fetuses.",
+      "explanation": "Up to 20% of infants have an extracardiac anomaly, an upper figure from the series AHA 2014 summarises. The proportion is higher in fetuses.",
       "claims": [
         "AH14-114"
       ],
@@ -29,7 +29,7 @@
         "Not known in either"
       ],
       "answer": 0,
-      "explanation": "Fetal series report higher proportions, up to 50% to 70%.",
+      "explanation": "Fetal series report higher proportions, up to 50% to 70%. That is an upper-end observation from series AHA 2014 summarises, not a universal fetal rate.",
       "claims": [
         "AH14-114"
       ],
@@ -45,7 +45,7 @@
         "Tricuspid atresia and pulmonary atresia with intact septum"
       ],
       "answer": 0,
-      "explanation": "Ventricular septal defect and tricuspid atresia are often associated with other anomalies. D-transposition and pulmonary atresia with intact septum are more often isolated.",
+      "explanation": "Ventricular septal defect and tricuspid atresia are often associated with other anomalies. D-transposition and pulmonary atresia with intact septum are more often isolated. 'More often isolated' is a comparison and never excludes associated anomalies: every fetus with heart disease still needs the detailed survey.",
       "claims": [
         "AH14-115"
       ],

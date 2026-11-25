@@ -12,7 +12,7 @@ audited_by: null
 signed_by: null
 
 objectives:
-  - "State how often extracardiac anomalies accompany congenital heart disease."
+  - "Report the figures AHA 2014 gives for extracardiac anomalies with congenital heart disease, and say why they are not a typical rate."
   - "Name lesions that are often, and less often, accompanied by other anomalies."
   - "State what survey a fetus with heart disease should have."
 
@@ -20,12 +20,12 @@ sections:
 
   - heading: "How often"
     blocks:
-      - text: "Extracardiac anomalies occur in up to 20% of infants with congenital heart disease. The proportion is higher in fetuses, with figures as high as 50% to 70% reported."
+      - text: "These are figures from series summarised in AHA 2014. Extracardiac anomalies occur in up to 20% of infants with congenital heart disease, which is an upper figure. The proportion is higher in fetuses, with figures as high as 50% to 70% reported. The 50% to 70% is an upper-end observation, not a rate to expect in any one fetus; population-specific estimates are needed before counselling."
         claims: [AH14-114]
 
   - heading: "Which lesions"
     blocks:
-      - text: "Ventricular septal defect and tricuspid atresia are often associated with other anomalies. D-transposition and pulmonary atresia with intact septum are more often isolated."
+      - text: "Ventricular septal defect and tricuspid atresia are often associated with other anomalies. D-transposition and pulmonary atresia with intact septum are more often isolated, which is a comparison between lesions. It does not mean that other anomalies can be excluded."
         claims: [AH14-115]
 
   - heading: "What to do"
@@ -40,14 +40,14 @@ missing_claims:
 
 drills:
   - id: XC8-Q01
-    question: "About how often are extracardiac anomalies found in infants with congenital heart disease?"
+    question: "According to series summarised in AHA 2014, about how often are extracardiac anomalies found in infants with congenital heart disease?"
     options:
       - "Up to 20%"
       - "Almost never"
       - "In every infant"
       - "Only in infants with a chromosomal abnormality"
     answer: 0
-    explanation: "Up to 20% of infants have an extracardiac anomaly. The proportion is higher in fetuses."
+    explanation: "Up to 20% of infants have an extracardiac anomaly, an upper figure from the series AHA 2014 summarises. The proportion is higher in fetuses."
     claims: [AH14-114]
 
   - id: XC8-Q02
@@ -58,7 +58,7 @@ drills:
       - "The same in both"
       - "Not known in either"
     answer: 0
-    explanation: "Fetal series report higher proportions, up to 50% to 70%."
+    explanation: "Fetal series report higher proportions, up to 50% to 70%. That is an upper-end observation from series AHA 2014 summarises, not a universal fetal rate."
     claims: [AH14-114]
 
   - id: XC8-Q03
@@ -69,7 +69,7 @@ drills:
       - "Ventricular septal defect and D-transposition"
       - "Tricuspid atresia and pulmonary atresia with intact septum"
     answer: 0
-    explanation: "Ventricular septal defect and tricuspid atresia are often associated with other anomalies. D-transposition and pulmonary atresia with intact septum are more often isolated."
+    explanation: "Ventricular septal defect and tricuspid atresia are often associated with other anomalies. D-transposition and pulmonary atresia with intact septum are more often isolated. 'More often isolated' is a comparison and never excludes associated anomalies: every fetus with heart disease still needs the detailed survey."
     claims: [AH14-115]
 
   - id: XC8-Q04
@@ -99,7 +99,7 @@ checklist:
   items:
     - text: "Detailed survey of all fetal anatomy done by an expert operator"
       claims: [AH14-116]
-    - text: "Lesion noted: does it often come with other anomalies, or is it usually isolated?"
+    - text: "Lesion noted: is it one that more often comes with other anomalies, or one more often reported as isolated? Either way, the detailed survey is still done for every fetus with heart disease"
       claims: [AH14-115]
     - text: "Repeat assessment considered, since some anomalies appear later"
       claims: [AH14-116]

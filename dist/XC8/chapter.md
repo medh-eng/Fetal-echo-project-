@@ -6,18 +6,18 @@ Unit XC8 | Tier: Diagnose | Version 0.1
 
 ## You will be able to
 
-- State how often extracardiac anomalies accompany congenital heart disease.
+- Report the figures AHA 2014 gives for extracardiac anomalies with congenital heart disease, and say why they are not a typical rate.
 - Name lesions that are often, and less often, accompanied by other anomalies.
 - State what survey a fetus with heart disease should have.
 
 ## How often
 
-Extracardiac anomalies occur in up to 20% of infants with congenital heart disease. The proportion is higher in fetuses, with figures as high as 50% to 70% reported. [1]
+These are figures from series summarised in AHA 2014. Extracardiac anomalies occur in up to 20% of infants with congenital heart disease, which is an upper figure. The proportion is higher in fetuses, with figures as high as 50% to 70% reported. The 50% to 70% is an upper-end observation, not a rate to expect in any one fetus; population-specific estimates are needed before counselling. [1]
 
 
 ## Which lesions
 
-Ventricular septal defect and tricuspid atresia are often associated with other anomalies. D-transposition and pulmonary atresia with intact septum are more often isolated. [2]
+Ventricular septal defect and tricuspid atresia are often associated with other anomalies. D-transposition and pulmonary atresia with intact septum are more often isolated, which is a comparison between lesions. It does not mean that other anomalies can be excluded. [2]
 
 
 ## What to do
@@ -27,7 +27,7 @@ A detailed survey of all fetal anatomy, by an expert operator, is recommended fo
 ## Fetus with heart disease: the rest of the fetus
 
 - [ ] Detailed survey of all fetal anatomy done by an expert operator [3]
-- [ ] Lesion noted: does it often come with other anomalies, or is it usually isolated? [2]
+- [ ] Lesion noted: is it one that more often comes with other anomalies, or one more often reported as isolated? Either way, the detailed survey is still done for every fetus with heart disease [2]
 - [ ] Repeat assessment considered, since some anomalies appear later [3]
 
 ## Still to be written (awaiting sourced claims)

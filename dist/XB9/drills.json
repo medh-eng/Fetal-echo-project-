@@ -23,13 +23,13 @@
       "id": "XB9-Q02",
       "question": "How do rhabdomyomas behave in pregnancy?",
       "options": [
-        "They evolve in the mid-trimester and regress after 32 weeks",
+        "They usually evolve in the mid-trimester and regress after 32 weeks, as ASE 2023 describes",
         "They appear after 32 weeks",
         "They always grow until birth",
         "They never change"
       ],
       "answer": 0,
-      "explanation": "Rhabdomyomas evolve in the mid-trimester but regress after 32 weeks.",
+      "explanation": "ASE 2023 describes rhabdomyomas as evolving in the mid-trimester and regressing after 32 weeks. This is the usual pattern, not a guarantee for an individual fetus.",
       "claims": [
         "AS23-522"
       ],
@@ -39,13 +39,13 @@
       "id": "XB9-Q03",
       "question": "A cardiac tumour is found in mid-gestation. What should follow?",
       "options": [
-        "Genetic testing, because over 60% of such fetuses have tuberous sclerosis",
+        "Genetic testing, because AHA 2014 reported tuberous sclerosis in over 60% of such fetuses",
         "No further tests",
         "Delivery as soon as possible",
         "Repeat the scan only after birth"
       ],
       "answer": 0,
-      "explanation": "A tumour found in mid or late gestation should prompt genetic testing.",
+      "explanation": "AHA 2014 states that a tumour found in mid or late gestation should prompt genetic testing, and reports a 2014 figure of over 60% with tuberous sclerosis. Counselling needs more recent genetic advice.",
       "claims": [
         "AH14-111"
       ],
